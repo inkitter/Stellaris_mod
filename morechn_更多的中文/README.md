@@ -9,7 +9,7 @@
 
 待汉化:
 
- * Morechn Template (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=683851819
+ * More Technologies (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=683851819
  
  
 ###Tips
