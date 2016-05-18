@@ -2,6 +2,7 @@ Supported:
 More Spaceport Modules
 Ringworld Start
 Slvrbuu's Stellaris Cheat Menu
+Zeon flag, race, and portraits（90%）
 
 To translate:
 Morechn Template (0%)
