@@ -1,0 +1,123 @@
+country_edict = {
+  name = "easy_buff"
+  
+  modifier = {
+ #外交方面
+max_rivalries = 12    #可设定宿敌数+12
+max_embassies = 12    #可设立大使馆数+12
+country_trade_attractiveness = 2.00 #外交提议吸引力
+
+#人口方面
+pop_happiness = 2.0 #人口满意度
+pop_ethic_shift = -0.80      #道德分歧加成
+pop_ethic_shift = -0.80 #人口改变几率
+pop_environment_tolerance = 2.00 #人口环境适应力
+pop_migration_time = -0.80 #人口移民时间
+pop_resettlement_cost_mult = -0.80 #人口重安置成本
+pop_growth_req_mult = -0.80 #人口增长需求
+
+#行政治理方面      
+influence_gain_add = 25 #影响力+25
+influence_gain_mult = 2.00 #影响力收入
+country_border_mult = 2.00 #边界扩张度
+country_sector_cap_add  = 100 #星区上限+100
+country_core_sector_planet_cap = 100 #直辖领+100
+edict_length_mult = 2.00 #法令持续时间
+edict_influence_cost = -0.80 #法令影响力消耗
+
+#经济开发方面
+shipsize_terraform_station_build_cost_mult = -0.8        #地形改造费用加成
+terraforming_cost_mult = -0.8                                #地球化费用加成
+planet_clear_blocker_cost_mult = -0.8                        #清除障碍费用加成
+shipsize_orbital_station_build_cost_mult = -0.8                #空间站建造花费加成
+spaceport_module_cost_mult = -0.8                        #空间站星域花费加成
+building_time_mult = -0.80 #建筑建造时间
+planet_building_cost_mult = -0.8                        #建筑费用加成
+planet_colony_development_speed_mult = 2.00 #殖民地建立速度
+tile_resource_food_mult = 2.00 #格子食物产出
+tile_resource_minerals_mult = 2.00 #格子矿物产出
+tile_resource_energy_mult = 2.00 #格子能量产出
+tile_resource_physics_research_mult = 2.00 #格子物理科技值
+tile_resource_society_research_mult = 2.00 #格子社会科技值
+tile_resource_engineering_research_mult = 2.00  #格子工程科技值
+slave_production_output = 2.0                    #奴隶矿物输出加成
+slave_food_output = 2.0                 #奴隶食物输出加成
+
+#领袖方面
+species_leader_exp_gain = 2.00 #领袖经验获取
+country_leader_cap = 100 #领袖上限+100
+country_leader_pool_size = 6 #领袖池规模+6
+leader_skill_levels = 5 #领袖技能+3
+leader_age = 1000 #领袖生存时间+1000年
+leader_influence_cost = -0.8   #领导者补充花费加成
+
+#星际舰队设施方面
+navy_size_mult = 2.00 #舰队上限
+spaceport_ship_build_cost_mult = -0.80      #飞船费用加成
+ship_upkeep_mult = -0.80 #舰队维护费
+ship_reparation_speed_mult = 2.00 #舰队维修速度
+ship_speed_mult = 2.00 #舰队速度
+ship_evasion_mult = 2.00   #舰队性能加成，这里是闪避
+ship_combat_speed_mult =2.00 #舰队战斗速度
+ship_hitpoints_mult = 2.00 #舰队耐久度
+ship_weapon_damage = 2.00 #舰队攻击力
+ship_fire_rate_mult =2.00 #舰队武器开火速率
+country_ship_upgrade_cost_mult = -0.80 #舰队升级成本
+shipsize_corvette_construction_speed_mult = 2.00 #护卫舰建造速度
+shipsize_destroyer_construction_speed_mult = 2.00 #驱逐舰建造速度
+shipsize_cruiser_construction_speed_mult = 2.00 #巡洋舰建造速度
+shipsize_battleship_construction_speed_mult = 2.00 #战列舰建造速度
+navy_size_add = 100                                        #舰队规模增加，最大1000
+shipsize_colonizer_build_cost_mult = -0.8                #殖民船费用加成
+shipsize_science_build_cost_mult = -0.8                #科学船费用加成
+shipsize_corvette_build_cost_mult = -0.8                #护卫船费用加成
+shipsize_destroyer_build_cost_mult = -0.8                #驱逐船费用加成
+shipsize_cruiser_build_cost_mult = -0.8                #巡洋船费用加成
+shipsize_battleship_build_cost_mult = -0.8                #战巡船费用加成
+shipsize_military_station_small_build_cost_mult = -0.8        #防御平台费用加成
+shipsize_military_station_small_upkeep_mult = -0.8        #防御平台维修加成
+shipsize_military_station_medium_build_cost_mult = -0.8#防御站费用加成
+shipsize_military_station_medium_upkeep_mult = -0.8        #防御站维修加成
+shipsize_military_station_large_build_cost_mult = -0.8        #要塞费用加成
+shipsize_military_station_large_upkeep_mult = -0.8        #要塞维修加成
+shipsize_outpost_station_build_cost_mult = -0.8        #边境站费用加成
+shipsize_constructor_build_cost_mult = -0.8                #构造器费用加成
+shipsize_mining_station_build_cost_mult = -0.8                #采矿站费用加成
+
+#陆战部队方面
+planet_army_build_cost_mult = -0.8        #军队费用加成
+planet_army_build_speed_mult =2.0           #军队建设速度加成
+army_upkeep_mult = -0.80 #陆军维护费
+army_rank_increase = 5         #等级增加
+army_health = 2.00#陆军健康度
+garrison_health = 2.00#守备军健康度
+army_morale = 2.00#陆军士气
+army_damage_mult = 2.00#陆军攻击力
+
+#科研及空间探索方面
+all_technology_research_speed = 9.00 #科技研究速度+900%
+science_ship_survey_speed = 0.80 #星系调查速度
+ship_anomaly_research_speed_mult = 0.80 #异常事件调查速度
+ship_anomaly_generation_chance_mult = 0.80 #异常事件发生概率
+ship_anomaly_fail_risk = -0.80 #异常事件调查失败概率
+terraforming_cost_mult = -0.80 #行星地质转换成本
+
+#杂项方面
+max_minerals = 20000 #矿物储存上限+20000
+  }
+
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
