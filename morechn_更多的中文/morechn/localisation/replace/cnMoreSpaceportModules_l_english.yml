@@ -3,12 +3,17 @@
 
 ####  More Spaceport Modules  ####
 ####  http://steamcommunity.com/sharedfiles/filedetails/?id=682659220  ####
- sm_solar_panel_network2:0 "中型太阳能电池网络"
- sm_solar_panel_network3:0 "大型太阳能电池网络"
- sm_solar_panel_network4:0 "巨型太阳能电池网络"
- sm_hydroponic_farms2:0 "中型轨道水培农场"
- sm_hydroponic_farms3:0 "大型轨道水培农场"
- sm_hydroponic_farms4:0 "巨型轨道水培农场"
+
+#### DEFINE PART ####
+ sm_solar_panel_networkd:0 "太阳能面板网络"
+ sm_hydroponic_farmsd:0 “轨道水培农场”
+#### Translate ####
+ sm_solar_panel_network2:0 "中型$sm_solar_panel_networkd$"
+ sm_solar_panel_network3:0 "大型$sm_solar_panel_networkd$"
+ sm_solar_panel_network4:0 "巨型$sm_solar_panel_networkd$"
+ sm_hydroponic_farms2:0 "中型$sm_hydroponic_farmsd$"
+ sm_hydroponic_farms3:0 "大型$sm_hydroponic_farmsd$"
+ sm_hydroponic_farms4:0 "巨型$sm_hydroponic_farmsd$"
  sm_corvette_assembly_yards2:0 "高级护卫舰组装厂"
  sm_destroyer_assembly_yards2:0 "高级驱逐舰组装厂"
  sm_cruiser_assembly_yards2:0 "高级巡洋舰组装厂"
@@ -27,6 +32,6 @@
  tech_battleship_yard_2_desc:0 "高级战列舰厂技术让我们可以更快的制造战列舰。"
  tech_orbital_hydroponics_2:0 "高级轨道水培农场"
  tech_orbital_hydroponics_2_desc:0 "虽然在零重力种植庄稼的挑战很困难，但并不是不可完成的。"
- tech_solar_panel_network_2:0 "高级轨道能量转换"
+ tech_solar_panel_network_2:0 "高级$sm_solar_panel_networkd$"
  tech_solar_panel_network_2_desc:0 "高级太阳能面板可以降低我们的星球能量消耗，但是它需要占用一个空间站模块的位置。"
 ############################################
