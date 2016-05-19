@@ -6,6 +6,7 @@
  * Ringworld Start http://steamcommunity.com/sharedfiles/filedetails/?id=681864454
  * Slvrbuu's Stellaris Cheat Menu http://steamcommunity.com/sharedfiles/filedetails/?id=681947845
  * Zeon flag, race, and portraits（90%） http://steamcommunity.com/sharedfiles/filedetails/?id=682212690
+ * Galaxies Unlimited http://steamcommunity.com/sharedfiles/filedetails/?id=682835797
 
 待汉化:
 
