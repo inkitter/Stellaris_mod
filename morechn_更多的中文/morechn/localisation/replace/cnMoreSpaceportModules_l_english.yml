@@ -6,7 +6,7 @@
 
 #### DEFINE PART ####
  sm_solar_panel_networkd:0 "太阳能面板网络"
- sm_hydroponic_farmsd:0 “轨道水培农场”
+ sm_hydroponic_farmsd:0 "轨道水培农场"
 #### Translate ####
  sm_solar_panel_network2:0 "中型$sm_solar_panel_networkd$"
  sm_solar_panel_network3:0 "大型$sm_solar_panel_networkd$"

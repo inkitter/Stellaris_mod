@@ -1,7 +1,7 @@
 name="3DM Chinese Localization"
 archive="3dmcn.zip"
 tags={
-	"Font"
+	"Translation"
 }
 picture="3dmcn.png"
 remote_file_id="683978765"
