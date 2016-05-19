@@ -1,3 +1,7 @@
+在GitHub上维护：https://github.com/inkitter/Stellaris_mod
+
+创意工坊：http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
+
 为一些mod提供汉化，支持的mod如下：
 
 已汉化:
