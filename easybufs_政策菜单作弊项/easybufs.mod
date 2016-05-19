@@ -3,4 +3,4 @@ path="mod/easybufs"
 tags={
 	"Balance"
 }
-supported_version="1.*.*"
+supported_version="1.0.*"

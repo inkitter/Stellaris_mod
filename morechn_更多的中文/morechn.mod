@@ -1,6 +1,6 @@
 name="More Chinese"
 path="mod/morechn"
 tags={
-	"Font"
+	"Translation"
 }
-supported_version="1.*.*"
+supported_version="1.0.*"
