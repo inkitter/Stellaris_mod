@@ -2,7 +2,11 @@
 
 创意工坊：http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
+同时我做了一个轻量的mod整合包： http://bbs.3dmgame.com/thread-5096002-1-1.html 已经集成本mod。
+也在工坊有发布： http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
+
 为一些mod提供汉化，支持的mod如下：
+欢迎提建议便于加入更多汉化支持。
 
 已汉化:
 
@@ -13,7 +17,8 @@
  * Galaxies Unlimited http://steamcommunity.com/sharedfiles/filedetails/?id=682835797
  * Advanced Buildings http://steamcommunity.com/sharedfiles/filedetails/?id=682592666
  * More Army Attachments http://steamcommunity.com/sharedfiles/filedetails/?id=682270145
- 
+ * More Edicts http://steamcommunity.com/sharedfiles/filedetails/?id=686166072
+ * Extended Traits http://steamcommunity.com/sharedfiles/filedetails/?id=681816257
 
 待汉化:
 

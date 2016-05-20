@@ -1,0 +1,43 @@
+﻿l_english:
+ edict_offensive_protocols:0 "协议: 进攻"
+ edict_offensive_protocols_desc:0 "简而言之就是重定向舰队的武器和目标选择，授予更多的进攻能力，但是消耗会提高.\n\n"
+ 
+ edict_defensive_protocols:0 "协议: 防御"
+ edict_defensive_protocols_desc:0 "将资源分配给护盾、船体维护和闪避路径处理系统，花费更多的钱来用于防御.\n\n"
+ 
+ edict_rapid_response_protocols:0 "协议: 快速感知"
+ edict_rapid_response_protocols_desc:0 "网络化传感器使得舰船感知范围大幅提升，但是过载的引擎和使得舰船机动力降低.\n\n"
+
+ edict_destructive_testing_protocols:0 "协议: 毁灭测试"
+ edict_destructive_testing_protocols_desc:0 "指导我们的科学家开始毁灭性测试程序，利用矿产和能源来提高研究速度.\n\n"
+ 
+ edict_premeditation:0 "学说: 预谋"
+ edict_premeditation_desc:0 "迅速转移帝国资源，为即将发生的冲突做好准备，提高工业和军事效益，但农业与科学效率降低.\n\n"
+
+ edict_specialized_crafts:0 "学说: 特种飞船"
+ edict_specialized_crafts_desc:0 "使船厂开始制造实验性飞船，但因使用实验性零件导致生产效率降低.\n\n"
+ 
+ edict_fortress:0 "学说: 要塞"
+ edict_fortress_desc:0 "使帝国进入防御姿态，割让领土来缩减防御范围. 消耗工业与经济，但是会使入侵更加艰难.\n\n"
+ 
+ edict_expansionist:0 "学说: 扩张"
+ edict_expansionist_desc:0 "追求帝国主义雄心，将重点从工业转移到快速殖民与外国资产整合.\n\n"
+ 
+ edict_isolationist:0 "学说: 孤立"
+ edict_isolationist_desc:0 "重新调整，在自己的边界内整合资源. 获得更高效的全国性边际效益，但缺乏外交能力，并且丧失影响力.\n\n"
+
+ edict_cloak_and_dagger:0 "学说: 斗篷与匕首"
+ edict_cloak_and_dagger_desc:0 "放弃传统的政治手段来获得影响力，这有着微妙的意义...\n\n"
+ 
+ edict_stockpile:0 "学说: 储存"
+ edict_stockpile_desc:0 "增加储备量以备不时之需，提高矿产和能量的生产和储存能力，但是会影响人口增长及幸福度.\n\n"
+ 
+ shipsize_interceptor_construction_speed_mult:0 "拦截器建造速度"
+ shipsize_fleet_carrier_construction_speed_mult:0 "航空母舰建造速度"
+ 
+ shipsize_interceptor_build_cost_mult:0 "拦截器建造花费"
+ shipsize_fleet_carrier_build_cost_mult:0 "航空母舰建造花费"
+ 
+ shipclass_military_damage_mult:0 "舰船武器伤害"
+ shipclass_military_hit_points_mult:0 "舰船生命"
+ shipclass_military_build_cost_mult:0 "舰船建造花费"
