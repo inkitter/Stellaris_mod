@@ -11,6 +11,9 @@
  * Slvrbuu's Stellaris Cheat Menu http://steamcommunity.com/sharedfiles/filedetails/?id=681947845
  * Zeon flag, race, and portraits（90%） http://steamcommunity.com/sharedfiles/filedetails/?id=682212690
  * Galaxies Unlimited http://steamcommunity.com/sharedfiles/filedetails/?id=682835797
+ * Advanced Buildings http://steamcommunity.com/sharedfiles/filedetails/?id=682592666
+ * More Army Attachments http://steamcommunity.com/sharedfiles/filedetails/?id=682270145
+ 
 
 待汉化:
 
