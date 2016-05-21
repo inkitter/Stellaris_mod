@@ -1,6 +1,6 @@
-在GitHub上维护：https://github.com/inkitter/Stellaris_mod
+在GitHub上维护： https://github.com/inkitter/Stellaris_mod
 
-创意工坊：http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
+创意工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
 同时我做了一个轻量的mod整合包： http://bbs.3dmgame.com/thread-5096002-1-1.html 已经集成本mod。
 也在工坊有发布： http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
