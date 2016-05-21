@@ -5,6 +5,15 @@
  edict_defensive_protocols:0 "协议: 防御"
  edict_defensive_protocols_desc:0 "将资源分配给护盾、船体维护和闪避路径处理系统，花费更多的钱来用于防御.\n\n"
  
+ edict_barrage_protocols:0 "协议: 弹幕"
+ edict_barrage_protocols_desc:0 "变更发动机功率火控系统，极大地提高了射击频率，威力减弱，但是可以拦截跟多的目标.\n\n"
+ 
+ edict_swarm_protocols:0 "协议: 一群"
+ edict_swarm_protocols_desc:0 "如果你看到这里... 我不知道... 我不知道能走多远.\n\n"
+ 
+ edict_unshackled_AI:0 "协议: 不受束缚的AI"
+ edict_unshackled_AI_desc:0 "肮脏的作弊.\n\n"
+ 
  edict_rapid_response_protocols:0 "协议: 快速感知"
  edict_rapid_response_protocols_desc:0 "网络化传感器使得舰船感知范围大幅提升，但是过载的引擎和使得舰船机动力降低.\n\n"
 
