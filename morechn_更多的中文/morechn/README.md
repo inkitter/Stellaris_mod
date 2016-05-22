@@ -19,6 +19,7 @@
  * More Army Attachments http://steamcommunity.com/sharedfiles/filedetails/?id=682270145
  * More Edicts http://steamcommunity.com/sharedfiles/filedetails/?id=686166072
  * Extended Traits http://steamcommunity.com/sharedfiles/filedetails/?id=681816257
+ * Grow Borders With Influence http://steamcommunity.com/sharedfiles/filedetails/?id=685223286
 
 待汉化:
 
