@@ -1,0 +1,13 @@
+﻿l_english:
+ edict_border_growth_d:0 "边界增长"
+ #border growth edicts
+ edict_border_growth_I:0 "$edict_border_growth_d$ I"
+ edict_border_growth_I_desc:0 "我们可以使用影响力来提高全国的边界增长速度。\n通过建设更高级的城市首府来解锁更快速的边界增长政策."
+ edict_border_growth_II:0 "$edict_border_growth_d$ II"
+ edict_border_growth_II_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_III:0 "$edict_border_growth_d$ III"
+ edict_border_growth_III_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_IV:0 "$edict_border_growth_d$ IV"
+ edict_border_growth_IV_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_V:0 "$edict_border_growth_d$ V"
+ edict_border_growth_V_desc:0 "$edict_border_growth_I_desc$."
