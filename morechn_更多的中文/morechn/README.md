@@ -24,9 +24,12 @@
 待汉化:
 
  * More Technologies (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=683851819
+ * Fight For Universe: Infinite Legacy (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=685233391
+ * Playable Robots (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=681553348
  
  
-###Tips
+### Tips
+#### 定义常用文本
  汉化会经常用到同一个词，比如cnMoreSpaceportModules_l_english.yml文件中
 ```
 #### DEFINE PART ####
@@ -41,3 +44,16 @@
  sm_hydroponic_farms4:0 "巨型$sm_hydroponic_farmsd$"
 ```
  其中“太阳能面板网络”会用到很多次，因此定义了另一个变量sm_solar_panel_networkd，在后面使用 " $  $ " 把变量命引用过来，就可以一个名称使用很多次了，这样便于统一翻译。
+#### 文字颜色代码
+§W W白色
+§R R红色
+§L L暗金
+§S S土黄
+§H H金黄
+§Y Y黄色
+§G G绿色
+§E E青色
+§B B深蓝
+§M M紫色
+§g g灰色
+§! !上个颜色
