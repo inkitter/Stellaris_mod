@@ -1,0 +1,83 @@
+﻿l_english:
+ ####################################
+ # Species Traits
+ ####################################
+ trait_fussy:0 "Perfectionist"
+ trait_fussy_desc:0 "§LMembers of this species are especially fussy about their jobs. They do a better job, but it is a pain sometimes.§!"
+ trait_careless:0 "Careless"
+ trait_careless_desc:0 "§LMembers of this species just don't care that they do a subpar job at everything. In fact, they're pretty happy about it.§!"
+ trait_natural_leaders:0 "Natural Leaders"
+ trait_natural_leaders_desc:0 "§LThis species is full of people with leadership ability. They don't need to go far to find a leader.§!"
+ trait_dynamic_leaders:0 "Dynamic Leaders"
+ trait_dynamic_leaders_desc:0 "§LEveryone in this society is a leader and, as far as anyone is concerned, they are easily interchangeable.§!"
+ trait_inept_leaders:0 "Inept Leaders"
+ trait_inept_leaders_desc:0 "§LThis species lacks people of any leadership. They have to thoroughly dig to find their someone to lead.§!"
+ trait_sloth:0 "Sloth"
+ trait_sloth_desc:0 "§LLazy to the highest degree, these creatures find it difficult to do anything that involves moving (except eating and breeding).§!"
+ trait_minor_teleportation:0 "Minor Teleportation"
+ trait_minor_teleportation_desc:0 "§LWith the right circumstances outside of combat, this species can teleport, and thus migrates easily.§!"
+ trait_die_young:0 "Young Death"
+ trait_die_young_desc:0 "§LWell known to live short lives, this species often does not have time to accumulate scientific knowledge.§!"
+ trait_slave_traders:0 "Slave Traders"
+ trait_slave_traders_desc:0 "§LHaving evolved with a twisted symbiosis, this species begins to profit effectively only when it has the slaves that it they need.§!"
+ trait_unethical_tactics:0 "Unethical Tactics"
+ trait_unethical_tactics_desc:0 "§LWhen they win with dirty methods all the time, the people of this species being to wonder if there are better ways.§!"
+
+ ####################################
+ # Mixed Traits
+ ####################################
+
+ trait_mixed_money_on_the_mind:0 "Money on the Mind"
+ trait_mixed_money_on_the_mind_desc:0 "This leader expects all intelletuals to focus on the one thing that matters--money."
+ trait_mixed_front_lines:0 "Front Lines"
+ trait_mixed_front_lines_desc:0 "Leading from the front lines is the way to go! Although, this sort of attitude often leads to shorter lives."
+ trait_mixed_progressive:0 "Progressive"
+ trait_mixed_progressive_desc:0 "Out with the old, in with the new! This leader wants to shape the world into something better."
+ trait_mixed_young_flame:0 "Young Flame"
+ trait_mixed_young_flame_desc:0 "For the people who reach their prime at an early age, an early burnout may be ahead."
+ trait_mixed_meditations:0 "Meditations"
+ trait_mixed_meditations_desc:0 "This leader is known to focus their energy and meditate."
+
+ ####################################
+ # Governor Traits
+ ####################################
+ trait_governor_immigration_focused:0 "Immigration Focused"
+ trait_governor_immigration_focused_desc:0 "This governor is happy to attract any immigrants."
+ trait_governor_spy_network:0 "Spy Network"
+ trait_governor_spy_network_desc:0 "The extended spy network of this governor allow further scans than usual."
+ trait_governor_greedy:0 "Greedy"
+ trait_governor_greedy_desc:0 "This governor is particularly greedy and makes people work harder."
+ trait_governor_machinist:0 "Machinist"
+ trait_governor_machinist_desc:0 "This governor much prefers the use of machines to manual labor, and especially hates slave labor."
+ trait_governor_fair_treatment:0 "Fair Treatment"
+ trait_governor_fair_treatment_desc:0 "This governor interprets the laws in a way that is agreeable to most people."
+
+ ####################################
+ # Ruler Traits
+ ####################################
+ trait_ruler_secret_society:0 "Secret Society"
+ trait_ruler_secret_society_desc:0 "This ruler is part of an exclusive secret society that is said to run many administrations."
+ trait_ruler_inspirational:0 "Inspirational"
+ trait_ruler_inspirational_desc:0 "Out of the box solutions are preferred by this creative ruler."
+ trait_ruler_diplomancer:0 "Diplomancer"
+ trait_ruler_diplomancer_desc:0 "This ruler is adept at managing diplomatic ties."
+ trait_ruler_leader_of_leaders:0 "Leader of Leaders"
+ trait_ruler_leader_of_leaders_desc:0 "With the uncanny ability to handle complex levels of management, this leader provides us with more flexibility in our leaders."
+ trait_ruler_swagger:0 "Swagger"
+ trait_ruler_swagger_desc:0 "This ruler exudes confidence and is able to exaggerate the borders of the empire."
+
+ ####################################
+ # Scientist Traits
+ ####################################
+
+ trait_scientist_interstellar_investigator:0 "Interstellar Investigator"
+ trait_scientist_interstellar_investigator_desc:0 "Having investigated mysteries on a number of extraterrestial worlds, this scientist has developed a particular set of skills."
+ trait_scientist_interstellar_surveyor:0 "Interstellar Surveyor"
+ trait_scientist_interstellar_surveyor_desc:0 "This scientist is experienced with navigating star charts and has mastered brief surveys."
+ trait_scientist_rocket_scientist:0 "Rocket Scientist"
+ trait_scientist_rocket_scientist_desc:0 "This scientist has studied all about every subject related to rockets."
+ trait_scientist_wizard:0 "Wizard"
+ trait_scientist_wizard_desc:0 "The things that this 'scientist' studies are strange indeed."
+ trait_scientist_futurist:0 "Futurist"
+ trait_scientist_futurist_desc:0 "This scientist is future-oriented but practical."
+

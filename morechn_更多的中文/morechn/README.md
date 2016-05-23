@@ -1,12 +1,15 @@
+# More Chinese · 更多的中文
+## 需要中文字库支持
+
 在GitHub上维护： https://github.com/inkitter/Stellaris_mod
 
 创意工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
 同时我做了一个轻量的mod整合包： http://bbs.3dmgame.com/thread-5096002-1-1.html 已经集成本mod。
-也在工坊有发布： http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
-为一些mod提供汉化，支持的mod如下：
 欢迎提建议便于加入更多汉化支持。
+为一些mod提供汉化，，支持的mod如下：
+
 
 已汉化:
 
@@ -20,10 +23,11 @@
  * More Edicts http://steamcommunity.com/sharedfiles/filedetails/?id=686166072
  * Extended Traits http://steamcommunity.com/sharedfiles/filedetails/?id=681816257
  * Grow Borders With Influence http://steamcommunity.com/sharedfiles/filedetails/?id=685223286
+ * More Technologies http://steamcommunity.com/sharedfiles/filedetails/?id=683851819
+
 
 待汉化:
-
- * More Technologies (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=683851819
+ * Yet Another Traits Mod http://steamcommunity.com/sharedfiles/filedetails/?id=682239360
  * Fight For Universe: Infinite Legacy (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=685233391
  * Playable Robots (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=681553348
  
@@ -45,6 +49,7 @@
 ```
  其中“太阳能面板网络”会用到很多次，因此定义了另一个变量sm_solar_panel_networkd，在后面使用 " $  $ " 把变量命引用过来，就可以一个名称使用很多次了，这样便于统一翻译。
 #### 文字颜色代码
+```
 §W W白色
 §R R红色
 §L L暗金
@@ -57,3 +62,4 @@
 §M M紫色
 §g g灰色
 §! !上个颜色
+```
