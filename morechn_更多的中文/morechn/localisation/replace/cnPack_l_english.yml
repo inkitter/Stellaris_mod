@@ -1,2 +1,16 @@
 ﻿l_english:
+####  By Inkit  ####
+
+#### 汉语命名组 ####
  name_list_CHN:0 "人族 汉语"
+
+#### Emblems 徽章文件夹 ####
+ FLAG_CATEGORY_divers:0 "金"
+ FLAG_CATEGORY_divers2:0 "银"
+ FLAG_CATEGORY_domination:0 "统治"
+ FLAG_CATEGORY_special:0 "特别"
+ FLAG_CATEGORY_jpicons:0 "日式"
+ FLAG_CATEGORY_halo:0 "光环"
+ FLAG_CATEGORY_stargate:0 "星门"
+ FLAG_CATEGORY_IT:0 "IT"
+ FLAG_CATEGORY_nationalism:0 "现实国家"
