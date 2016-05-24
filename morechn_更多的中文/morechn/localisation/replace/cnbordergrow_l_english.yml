@@ -1,4 +1,6 @@
 ﻿l_english:
+####  By Inkit  ####
+
  edict_border_growth_d:0 "边界增长"
  #border growth edicts
  edict_border_growth_I:0 "$edict_border_growth_d$ I"
