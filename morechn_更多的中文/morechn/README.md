@@ -24,10 +24,10 @@
  * Extended Traits http://steamcommunity.com/sharedfiles/filedetails/?id=681816257
  * Grow Borders With Influence http://steamcommunity.com/sharedfiles/filedetails/?id=685223286
  * More Technologies http://steamcommunity.com/sharedfiles/filedetails/?id=683851819
+ * Yet Another Traits Mod http://steamcommunity.com/sharedfiles/filedetails/?id=682239360
 
 
 待汉化:
- * Yet Another Traits Mod http://steamcommunity.com/sharedfiles/filedetails/?id=682239360
  * Fight For Universe: Infinite Legacy (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=685233391
  * Playable Robots (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=681553348
  
