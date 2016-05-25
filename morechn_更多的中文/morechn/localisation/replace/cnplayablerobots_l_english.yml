@@ -1,10 +1,10 @@
 ﻿l_english:
 #### by Mahou_1942, Inkit ####
 #### DEFINE ####
- $robot_pop_android_desc0d$: "一个标准的合成单元，准备好面临所有星系可能的考验和磨难."
- $robot_pop_android_desc1d$: "稍微升级的合成单元，准备好面临所有星系可能的考验和磨难."
- $robot_pop_android_desc2d$: "中度升级的合成单元，准备好面临所有星系可能的考验和磨难."
- $robot_pop_android_desc3d$: "高度升级的合成单元，准备好面临所有星系可能的考验和磨难."
+ robot_pop_android_desc0d: "一个标准的合成单元，准备好面临所有星系可能的考验和磨难."
+ robot_pop_android_desc1d: "稍微升级的合成单元，准备好面临所有星系可能的考验和磨难."
+ robot_pop_android_desc2d: "中度升级的合成单元，准备好面临所有星系可能的考验和磨难."
+ robot_pop_android_desc3d: "高度升级的合成单元，准备好面临所有星系可能的考验和磨难."
 ####################################
  # Diplomacy text
 #################################### 
