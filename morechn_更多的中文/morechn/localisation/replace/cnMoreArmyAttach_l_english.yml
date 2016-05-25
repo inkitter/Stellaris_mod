@@ -3,6 +3,10 @@
 
 #### More Army Attachments ####
 #### http://steamcommunity.com/sharedfiles/filedetails/?id=  ####
+
+####################################
+ # Armies
+####################################
  exoskeleton_suit_army:0 "动力装甲"
  exoskeleton_suit_army_plural:0 "动力装甲"
  exoskeleton_suit_army_desc:0 "由电机、气动、杠杆和液压系统提供动力的可穿戴式移动设备，它能提高力量和耐力."
@@ -21,18 +25,56 @@
  army_attachment_supply_company:0 "后勤公司"
  army_attachment_supply_company_desc:0 "Test1"
  
- tech_body_armour_1:0 "液态装甲"
- tech_body_armour_1_desc:0 "当被告诉的子弹击中时，液体会在瞬间变得极其坚硬."
+
  
  army_attachment_liquid_body_armor:0 "液态装甲"
  army_attachment_liquid_body_armor_desc:0 "$tech_body_armour_1_desc$"
  
  army_attachment_other_world_survival_trainnig:0 "异世界生存训练"
  army_attachment_other_world_survival_trainnig_desc:0 "Test3"
+ 
  # MAA Branch
+ 
+ tech_body_armour_1:0 "液态装甲"
+ tech_body_armour_1_desc:0 "当被告诉的子弹击中时，液体会在瞬间变得极其坚硬."
  tech_body_armour_2:0 "外装甲"
  tech_body_armour_2_desc:0 "一个便于肢体运动的可穿戴外装甲，增加力量和耐力."
  tech_body_armour_3:0 "$battle_mechs$"
  tech_body_armour_3_desc:0 "$battle_mechs_desc$"
+ tech_ground_ordnance:0 "Ground Support"
+ tech_ground_ordnance_desc:0 "JTAC training and better ammunition will change the way we fight."
  
-#############################
+ # MMA Tech
+ tech_logistics_1:0 "Logisicly Smart"
+ tech_logistics_1_desc:"Trainning our armies in alein world surval, this will make our armies better at fighting."
+ tech_logistics_2:0 "Planet Logistics"
+ tech_logistics_2_desc:"With our armies tained in Alein survial, some men have created supply compianes with the trainnig."
+ tech_slave_tech_1:0 "Slave Entertanment"
+ tech_slave_tech_1_desc:"Our gracious leader has provided us with his harem."
+ tech_slave_tech_2:0 "Slave Warfare"
+ tech_slave_tech_2_desc:"We have hundreds of slaves doing nothing why not make them do something."
+ 
+ 
+ ####################################
+ # Army Attachments
+ ####################################
+ army_attachment_chaplain:0 "Chaplain"
+ army_attachment_chaplain_desc:0 "With the power of our god on the battlefield our men shall prevail."
+ army_attachment_suicide_bombers:0 "Suicide Bombers"
+ army_attachment_suicide_bombers_desc:0 "We have hundreds of slaves doing nothing why not make them do something."
+ army_attachment_rulers_harem:0 "Ruler's Harem"
+ army_attachment_rulers_harem_desc:0 "Our gracious leader has provided us with his harem."
+ army_attachment_supply_company:0 "Supply Company"
+ army_attachment_supply_company_desc:0 "Supply is what wins war, A supply company will give use more equipment to use"
+ army_attachment_liquid_body_armor:0 "Liquid Body Armor"
+ army_attachment_liquid_body_armor_desc:0 "Armour with a liquid that absorbs the bullet, What could possibly go wrong."
+ army_attachment_other_world_survival_trainnig:0 "Other World Survival Trainnig"
+ army_attachment_other_world_survival_trainnig_desc:0 "Training our armies to fight in foreign tarren will help them fight better."
+ army_attachment_JTAC:0 "JTAC Training"
+ army_attachment_JTAC_desc:0 "JTAC training give this army a edge by giving better targets to bomb from orbit."
+ army_attachment_EXACTO:0 "Extreme Accuracy Tasked Ordnance"
+ army_attachment_EXACTO_desc:0 "Bullets that can folow the enemy, making sure it gets a kill."
+ army_attachment_battle_mech:0 "BattleMechs"
+ army_attachment_battle_mech_desc:0 "A large walking war machine, controlled by pilots."
+ army_attachment_exoskeleton_suit:0 "Exoskeleton Suit"
+ army_attachment_exoskeleton_suit_desc:0 "A wearable mobile machine that is powered by a system of motors, pneumatics, levers, or hydraulics that allow for limb movement, increased strength, and endurance."
