@@ -8,7 +8,7 @@
 同时我做了一个轻量的mod整合包： http://bbs.3dmgame.com/thread-5096002-1-1.html 已经集成本mod。
 
 欢迎提建议便于加入更多汉化支持。
-为一些mod提供汉化，，支持的mod如下：
+为一些mod提供汉化，支持的mod如下：
 
 
 已汉化:
@@ -25,10 +25,7 @@
  * Grow Borders With Influence http://steamcommunity.com/sharedfiles/filedetails/?id=685223286
  * More Technologies http://steamcommunity.com/sharedfiles/filedetails/?id=683851819
  * Yet Another Traits Mod http://steamcommunity.com/sharedfiles/filedetails/?id=682239360
-
+ * Playable Robots http://steamcommunity.com/sharedfiles/filedetails/?id=681553348 by steam@Mahou_1942 
 
 待汉化:
  * Fight For Universe: Infinite Legacy (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=685233391
- * Playable Robots (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=681553348
- 
- 
