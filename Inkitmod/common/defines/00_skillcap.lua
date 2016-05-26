@@ -1,0 +1,1 @@
+NDefines.NGameplay.LEADER_SKILL_CAP		= 10

@@ -1,0 +1,74 @@
+country_edict = {
+  name = "easy_buff"
+  
+  modifier = {
+    pop_happiness = 0.2
+    pop_ethic_shift = -0.2
+    pop_environment_tolerance = 0.30
+    pop_growth_req_mult = -0.5
+          
+    country_border_mult = 1
+    
+    building_time_mult = -0.3
+    country_leader_cap = 2
+    country_leader_pool_size = 1
+    leader_age = 500
+    leader_skill_levels = 2
+    
+    pop_food_req_mult = -0.2
+    
+    navy_size_mult = 0.1
+    ship_upkeep_mult = -0.1
+    ship_reparation_speed_mult = 1
+    ship_speed_mult = 0.5
+    ship_evasion_mult = 1
+    shipsize_corvette_construction_speed_mult = 0.5
+    shipsize_destroyer_construction_speed_mult = 0.5
+    shipsize_cruiser_construction_speed_mult = 0.5
+    shipsize_battleship_construction_speed_mult = 0.5
+    shipsize_corvette_build_cost_mult = -0.5
+    shipsize_destroyer_build_cost_mult = -0.5
+    shipsize_cruiser_build_cost_mult = -0.5
+    shipsize_battleship_build_cost_mult = -0.5
+    country_ship_upgrade_cost_mult = -0.5
+    army_upkeep_mult = -0.5
+
+    all_technology_research_speed = 5
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_superresearch"
+  
+  modifier = {
+    all_technology_research_speed = 5000
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}

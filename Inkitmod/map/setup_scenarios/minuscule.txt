@@ -1,0 +1,28 @@
+setup_scenario = {
+	name = "Minuscule"
+	priority = 1					#priority decides in which order the scenarios are listed
+	num_stars = 50
+	radius = 150					#should be less than 500, preferably less than ~460
+	num_empires = { min = 1 max = 2 }	#limits player customization
+	num_empire_default = 1
+	fallen_empire_default = 0
+	advanced_empire_default = 0
+	colonizable_planet_odds = 1.0
+	
+	cluster_count = {
+		# method = one_every_x_empire
+		method = constant
+		value = 2
+	}
+	cluster_radius = 70
+	cluster_distance_from_core = 100
+	
+	num_nebulas	= 0
+	nebula_size = 60
+	nebula_min_dist = 100
+	
+	supports_shape = elliptical
+	#supports_shape = spiral_2
+	#supports_shape = spiral_4
+	supports_shape = ring
+}
