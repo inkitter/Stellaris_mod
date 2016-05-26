@@ -1,0 +1,16 @@
+bitmapfonts = {
+	
+	bitmapfont = {
+		name = "load_screen"
+		path = "gfx/fonts/cn/orbitron_28"
+		color = 0xffffffff
+	}
+	
+	bitmapfont_override = {
+		name = "load_screen"
+		fontfiles = { 
+			"gfx/fonts/cg_34"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+}
