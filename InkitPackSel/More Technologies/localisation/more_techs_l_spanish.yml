@@ -1,0 +1,72 @@
+﻿#######################################
+# Spanish loccalization by 8igualdos0s
+#######################################
+
+l_spanish:
+
+ tech_galactic_ambassadors:0 "Embajadores Galácticos"
+ tech_galactic_ambassadors_desc:0 "Dedicarnos a la promoción diplomática es el único camino que asegurará nuestra supervivencia en esta dura galaxia."\n\n"
+ 
+ tech_efficient_foodmanagement:0 "Gestión Eficiente de Comida"
+ tech_efficient_foodmanagement_desc:0 "Nuestras especies en crecimiento necesitarán nuevas técnicas para gestionar su sustento. El desarrollo de estrategias relacionadas con las mejores prácticas disponibles en la distribución alimentaria, nos permitirá dedicar una menor cantidad de tiempo a la agricultura, y más a la exploración y construcción de infraestructuras.\n\n"
+ 
+ tech_rapid_population:0 "Demografía Acelerada"
+ tech_rapid_population_desc:0 "Mediante la subvención de nacimientos y subsidios a las madres, podremos incrementar de forma efectiva el crecimiento poblacional de nuestro naciente imperio.\n\n"
+ 
+ tech_scientific_excellence:0 "Excelencia Científica"
+ tech_scientific_excellence_desc:0 "Con un continuo impulso de nuestros científicos hasta sus propios límites, podremos seguir a la cabeza de la carrera armamentístico-tecnológica.\n\n"
+ 
+ tech_conquer_the_wastes:0 "Conquista de Basuras"
+ tech_conquer_the_wastes_desc:0 "A medida que nuestro imperio se expande, será cada vez más importante proyectar poder en nuestros dominios. Con las armas de refracción adecuadas, se podrán eliminar criaturas hostiles que habitan en la galaxia.\n\n"
+ 
+ tech_flexible_research:0 "Investigación Flexible"
+ tech_flexible_research_desc:0 "A veces, la investigación de la tecnología más adecuada puede significar la diferencia entre la pobreza y el hambre, y una vida abundante.\n\n"
+ 
+ tech_extended_bureaucracy:0 "Burocracia Extentida"
+ tech_extended_bureaucracy_desc:0 "Al mejorar el nivel de supervisión que tenemos en nuestras colonias, podremos tener un mayor y más efectivo control directo de nuevas zonas.\n\n"
+ 
+ tech_imperial_oversight:0 "Supervisión Imperial"
+ tech_imperial_oversight_desc:0 "Mediante reformas gubernamentales, podremos tener nuevas tierras bajo nuestro control directo.\n\n"
+ 
+ tech_physics_development:0 "Desarrollo de la Física"
+ tech_physics_development_desc:0 "Reorientando nuestras universidades para poner un mayor énfasis en la investigación básica en detrimento de fines más didácticos, podremos mejorar la capacidad innovativa de nuestra sociedad. Sin embargo, esto podría resultar insatisfactorio para algunos de nuestros estudiantes.\n\n"
+ 
+ tech_great_society:0 "Gran Sociedad"
+ tech_great_society_desc:0 "Promulgando la necesidad de reformas gubernamentales, podremos captar voluntarios que ayuden en el diseño de nuevos programas sociales.\n\n"
+ 
+ tech_private_engineering_contractors:0 "Contratación de Ingenieros Privados"
+ tech_private_engineering_contractors_desc:0 "La subcontratación de proyectos especiales por parte de empresas privadas, permitirá centrar la atención de nuestros ingenieros imperiales en otras cuestiones tecnológicas más importantes.\n\n"
+ 
+ tech_quality_of_life:0 "Calidad de Vida"
+ tech_quality_of_life_desc:0 "Los beneficios de la colonización espacial finalmente han dado sus frutos para el ciudadano de a pie. La calidad de vida de nuestro pueblo es ahora un poco mejor que lo que nuestros antepasados tuvieron que vivir.\n\n"
+ 
+ tech_nanomedicine:0 "Nanomedicina"
+ tech_nanomedicine_desc:0 "Nuevos avances en la miniaturización conllevan un aumento en la esperanza de vida de nuestro pueblo.\n\n"
+ 
+ tech_executive_authority:0 "Autoridad Ejecutiva"
+ tech_executive_authority_desc:0 "Mediante la potenciación adicional de la administración central, podemos reducir el coste de la promulgación de edictos favorables.\n\n"
+ 
+ tech_test_tube_babies:0 "Niños Probeta"
+ tech_test_tube_babies_desc:0 "La eliminación de la necesidad de procreación nos permitirá aumentar las poblaciones planetarias de forma extremadamente rápida.\n\n"
+ 
+ tech_genetic_restructuring_one:0 "Recombinación Genética Uno"
+ tech_genetic_restructuring_one_desc:0 "Si dejas entrar a un Blorg en un laboratorio de secuenciación genética, te dirá cuánto Carisma necesita para hacer algunos amigos ...\n\n"
+ 
+ tech_genetic_restructuring_two:0 "Recombinación Genética Dos"
+ tech_genetic_restructuring_two_desc:0 "...Si le das carisma a un Blorg, querrá Belleza para atraer a esos amigos...\n\n"
+ 
+ tech_genetic_restructuring_three:0 "Recombinación Genética Tres"
+ tech_genetic_restructuring_three_desc:0 "...Si le das belleza a un Blorg, querrá Ahorros para poder invitar a sus amigos al cine ...\n\n"
+ 
+ tech_genetic_restructuring_four:0 "Recombinación Genética Cuatro"
+ tech_genetic_restructuring_four_desc:0 "...Si le das ahorros a un Blorg, querrá Inteligencia para así poder construir modernos artilugios para sus amigos ...\n\n"
+ 
+ tech_genetic_restructuring_five:0 "Recombinación Genética Cinco"
+ tech_genetic_restructuring_five_desc:0 "...Si le das inteligencia a un Blorg, querrá Fuerza para poder proteger a sus amigos ...\n\n"
+ 
+ tech_genetic_restructuring_six:0 "Recombinación Genética Seis"
+ tech_genetic_restructuring_six_desc:0 "...Si le das fuerza a un Blorg, se dará cuenta de que en realidad nunca quiso tener amigos, así que LOS ASESINARÁ A TODOS ...\n\n"
+ 
+ tech_genetic_restructuring_seven:0 "Recombinación Genética Siete"
+ tech_genetic_restructuring_seven_desc:0 "...Cuando un Blorg asesina a sus amigos, lo lamenta inmediatamente. Piensa en lo poco carismático que es matar a todos los amigos que uno tiene, por lo que irá a un laboratorio de resecuenciación genética. Y cuando un Blorg va a un laboratorio de resecuenciación genética ... lo más probable es que quiera Carisma para hacer algunos amigos.\n\n"
+ 

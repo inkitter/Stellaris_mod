@@ -1,0 +1,90 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+#######################
+# Custom Ruler Traits #
+#######################
+
+# Ruler-traits have the same parameters as leader-traits
+# leader_class has to be set to include "ruler" for a ruler to be valid for a trait
+# modifiers granted to rulers are applied to the entire Empire
+
+trait_scientist_interstellar_investigator = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_scientist_interstellar_investigator.dds"
+    self_modifier = {
+        leader_age = -15
+    }
+	modifier = {
+		ship_anomaly_generation_chance_mult = 0.10
+		ship_anomaly_research_speed_mult = 0.10
+		ship_anomaly_fail_risk = -0.10
+	}
+	leader_trait = yes
+	leader_class = { scientist }
+}
+trait_scientist_interstellar_surveyor = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_scientist_interstellar_surveyor.dds"
+    self_modifier = {
+        leader_age = -15
+    }
+	modifier = {
+		science_ship_survey_speed = 0.25
+		ship_speed_mult = 0.25
+		ship_combat_speed_mult = 0.25
+	}
+	leader_trait = yes
+	leader_class = { scientist }
+}
+trait_scientist_rocket_scientist = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_scientist_rocket_scientist.dds"
+	modifier = {
+		category_industry_research_speed_mult = 0.1
+		category_rocketry_research_speed_mult = 0.1
+		category_military_theory_research_speed_mult = 0.1
+		category_materials_research_speed_mult = 0.1
+	}
+	leader_trait = yes
+	leader_class = { scientist }
+}
+trait_scientist_wizard = {
+	cost = 3
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_scientist_wizard.dds"
+    self_modifier = {
+        leader_age = 40
+    }
+	modifier = {
+		category_field_manipulation_research_speed_mult = 0.1
+		category_psionics_research_speed_mult = 0.1
+	}
+	leader_trait = yes
+	leader_class = { scientist }
+}
+trait_scientist_futurist = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_scientist_futurist.dds"
+	modifier = {
+		category_biology_research_speed_mult = 0.1
+		category_voidcraft_research_speed_mult = 0.1
+		category_particles_research_speed_mult = 0.1
+		category_computing_research_speed_mult = 0.1
+	}
+	leader_trait = yes
+	leader_class = { scientist }
+}
+
+

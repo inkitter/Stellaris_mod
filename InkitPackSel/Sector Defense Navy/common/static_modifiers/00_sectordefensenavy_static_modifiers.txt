@@ -1,0 +1,10 @@
+##########################################################################
+# Ship Modifiers
+##########################################################################
+sector_defense_fleet = {
+	size_multiplier = 0
+	ship_upkeep_mult = -0.5
+}
+sector_defense_country = {
+	navy_size_mult = -1.0
+}

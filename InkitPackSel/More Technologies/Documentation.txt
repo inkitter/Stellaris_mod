@@ -1,0 +1,29 @@
+** denotes changes to base game files
+
+Remanemporor (mod creator) changes
+-**Changed the warp drive, wormhole, and hyperspace techs in 00_phys_tech
+
+neusaap (Colonization Unlimited)
+-localization file
+-Some tech icons
+-some tile backgrounds
+-**empire initializers
+-**deposits
+-**Planet classes
+-Terraforming --> Repacked to new file
+-**Tile blockers 
+-Soc techs --> Repacked to new file (I created new techs as well)
+-Added traits file, should fix extreme planets from being picked as primary preference
+
+Teh T (Advanced Buildings)
+-Buildings file
+-Tech file
+-Spaceport module file
+-Building icons
+-Removed the spaceport module and tech until it's proprely functional
+
+mastec (Additional War Goals)
+-Put war demand types in a new file that's compatible with the base game
+
+Things to do: 
+-No way to access hydrogen resource, or hydrofusion plant

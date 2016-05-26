@@ -1,0 +1,46 @@
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+################################
+#
+#	Extended Traits Ruler Traits 
+#	by r-M
+#
+################################
+
+trait_ruler_veteran_politician = {
+	cost = 2
+	modification = no
+	icon = "gfx/interface/icons/traits/trait_deliberators.dds"
+	modifier = {
+		influence_gain_mult = 0.2
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+}
+
+trait_ruler_scientific_mind = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/trait_intelligent.dds"
+	modifier = {
+		all_technology_research_speed = 0.05
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+}
+
+trait_ruler_visionary = {
+	cost = 3
+	modification = no
+	icon = "gfx/interface/icons/leader_traits/trait_ruler_charismatic.dds"
+	modifier = {
+		planet_border_mult = 0.15
+	}
+	leader_trait = yes
+	leader_class = { ruler }
+}

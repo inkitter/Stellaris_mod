@@ -1,0 +1,483 @@
+solar_panel_network2 = {
+	icon = "GFX_solar_panel_network"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_solar_panel_network" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 250
+	}	
+	
+	produced_resources = {
+		energy = 6
+	}
+	
+	ai_weight = { 
+		modifier = {
+			factor = 5
+		}
+	}
+}
+
+solar_panel_network3 = {
+	icon = "GFX_solar_panel_network"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { "tech_solar_panel_network" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 500
+	}	
+	
+	produced_resources = {
+		energy = 10
+	}
+	
+	ai_weight = { 
+		modifier = {
+			factor = 5
+		}
+	}
+}
+
+solar_panel_network4 = {
+	icon = "GFX_solar_panel_network"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_solar_panel_network_2" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 1000
+	}	
+	
+	produced_resources = {
+		energy = 15
+	}
+	
+		required_resources = {
+		minerals = 7
+	}
+	
+	ai_weight = { 
+		modifier = {
+			factor = 5
+		}
+	}
+}
+
+hydroponic_farms2 = {
+	icon = "GFX_spaceport_module_hydroponic_farms"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_orbital_hydroponics" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 250
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	planet_modifier = {
+		planet_resource_food_add = 6
+	}
+}
+
+hydroponic_farms3 = {
+	icon = "GFX_spaceport_module_hydroponic_farms"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { "tech_orbital_hydroponics" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 500
+	}
+	
+	required_resources = {
+		energy = 4
+	}
+	
+	planet_modifier = {
+		planet_resource_food_add = 10
+	}
+}
+
+hydroponic_farms4 = {
+	icon = "GFX_spaceport_module_hydroponic_farms"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_orbital_hydroponics_2" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 1000
+	}
+	
+	required_resources = {
+		energy = 7
+	}
+	
+	planet_modifier = {
+		planet_resource_food_add = 15
+	}
+}
+
+corvette_assembly_yards2 = {
+	icon = "GFX_spaceport_module_corvette_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { tech_spaceport_2 }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 300
+	}
+	
+	required_resources = {
+		energy = 2
+	}
+	
+	modifier = {
+		shipsize_corvette_construction_speed_mult = 0.45
+		shipsize_corvette_build_cost_mult = -0.20
+	}
+	
+	
+	ai_weight = {
+		modifier = {
+			weight = 0
+			OR = {
+				has_technology = tech_spaceport_4
+				has_technology = tech_spaceport_5
+				has_technology = tech_spaceport_6
+			}
+		}
+	}
+}
+
+destroyer_assembly_yards2 = {
+	icon = "GFX_spaceport_module_destroyer_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_spaceport_4" }
+	spaceport_level = 4
+	
+	cost = {
+		minerals = 600
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	modifier = {
+		shipsize_destroyer_construction_speed_mult = 0.45
+		shipsize_destroyer_build_cost_mult = -0.20
+	}	
+	
+	ai_weight = {
+		modifier = {
+			weight = 0
+			OR = {
+				has_technology = tech_spaceport_5
+				has_technology = tech_spaceport_6
+			}
+		}
+	}
+}
+
+
+cruiser_assembly_yards2 = {
+	icon = "GFX_spaceport_module_cruiser_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_battleship_yard" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 800
+	}
+	
+	required_resources = {
+		energy = 5
+	}
+	
+	modifier = {
+		shipsize_cruiser_construction_speed_mult = 0.45
+		shipsize_cruiser_build_cost_mult = -0.20
+	}	
+}
+
+battleship_assembly_yards_2 = {
+	icon = "GFX_spaceport_module_battleship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 540
+	prerequisites = { "tech_battleship_yard_2" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 2000
+		influence = 100
+	}	
+	
+	required_resources = {
+		energy = 8
+	}
+	
+	modifier = {
+		shipsize_battleship_construction_speed_mult = 0.45
+		shipsize_battleship_build_cost_mult = -0.20
+	}
+}
+
+synchronized_defenses_2 = {
+	icon = "GFX_spaceport_synchronized_defenses"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { tech_synchronized_defences }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 450
+	}
+	
+	required_resources = {
+		energy = 4
+	}
+	
+	station_modifier = {
+		ship_fire_rate_mult = 0.75
+		ship_weapon_damage = 0.75
+	}
+}
+
+synchronized_defenses_3 = {
+	icon = "GFX_spaceport_synchronized_defenses"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { tech_synchronized_defences_2 }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 1000
+	}
+	
+	required_resources = {
+		energy = 8
+	}
+	
+	station_modifier = {
+		ship_fire_rate_mult = 1.5
+		ship_weapon_damage = 1.5
+	}
+}
+
+engineering_bay_2 = {
+	icon = "GFX_spaceport_module_engineering_bay"
+	section = "HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 270	
+	prerequisites = { "tech_doctrine_fleet_size_4" }
+	spaceport_level = 1
+	
+	cost = {
+		minerals = 400
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	orbit_modifier = {
+		ship_reparation_speed_mult = 0.45
+		ship_reparation_cost_mult = -0.45
+	}
+	
+	ship_modifier = {
+		ship_upkeep_mult = -0.20
+	}
+}
+
+ship_assembly_yards = {
+	icon = "GFX_spaceport_module_destroyer_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { "tech_spaceport_4" }
+	spaceport_level = 4
+	
+	cost = {
+		minerals = 350
+	}	
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	modifier = {
+		shipsize_corvette_construction_speed_mult = 0.15
+		shipsize_corvette_build_cost_mult = -0.05
+		shipsize_destroyer_construction_speed_mult = 0.10
+	}
+}
+
+ship_assembly_yards_2 = {
+	icon = "GFX_spaceport_module_cruiser_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_cruiser_yard" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 450
+	}	
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	modifier = {
+		shipsize_corvette_construction_speed_mult = 0.20
+		shipsize_corvette_build_cost_mult = -0.10
+		shipsize_destroyer_construction_speed_mult = 0.15
+		shipsize_destroyer_build_cost_mult = -0.05
+		shipsize_cruiser_construction_speed_mult = 0.10
+	}
+}
+
+ship_assembly_yards_3 = {
+	icon = "GFX_spaceport_module_battleship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 540
+	prerequisites = { "tech_battleship_yard" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 600
+	}	
+	
+	required_resources = {
+		energy = 5
+	}
+	
+	modifier = {
+		shipsize_corvette_construction_speed_mult = 0.25
+		shipsize_corvette_build_cost_mult = -0.10
+		shipsize_destroyer_construction_speed_mult = 0.20
+		shipsize_destroyer_build_cost_mult = -0.10
+		shipsize_cruiser_construction_speed_mult = 0.15
+		shipsize_cruiser_build_cost_mult = -0.05
+		shipsize_battleship_construction_speed_mult = 0.10
+	}
+}
+
+ship_assembly_yards_4 = {
+	icon = "GFX_spaceport_module_battleship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 720
+	prerequisites = { "tech_battleship_yard_2" }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 800
+	}	
+	
+	required_resources = {
+		energy = 7
+	}
+	
+	modifier = {
+		shipsize_corvette_construction_speed_mult = 0.30
+		shipsize_corvette_build_cost_mult = -0.10
+		shipsize_destroyer_construction_speed_mult = 0.25
+		shipsize_destroyer_build_cost_mult = -0.10
+		shipsize_cruiser_construction_speed_mult = 0.20
+		shipsize_cruiser_build_cost_mult = -0.10
+		shipsize_battleship_construction_speed_mult = 0.15
+		shipsize_battleship_build_cost_mult = -0.05
+	}
+}
+
+crew_quarters_2 = {
+	icon = "GFX_spaceport_module_crew_quarters"
+	section = "HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { "tech_doctrine_fleet_size_3" }
+	spaceport_level = 3
+	
+	cost = {
+		minerals = 300
+	}
+	
+		required_resources = {
+		energy = 1
+	}
+	
+	orbit_modifier = {
+		ship_upkeep_mult = -0.30
+	}
+}
+
+reinforced_hull_1 = {
+	icon = "GFX_spaceport_synchronized_defenses"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180	
+	prerequisites = { tech_reinforced_hull_1 }
+	spaceport_level = 2
+	
+	cost = {
+		minerals = 150
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	station_modifier = {
+		ship_hitpoints_mult = 0.25
+	}
+}
+
+reinforced_hull_2 = {
+	icon = "GFX_spaceport_synchronized_defenses"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 270	
+	prerequisites = { tech_reinforced_hull_1 }
+	spaceport_level = 4
+	
+	cost = {
+		minerals = 300
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	station_modifier = {
+		ship_hitpoints_mult = 0.50
+	}
+}
+
+reinforced_hull_3 = {
+	icon = "GFX_spaceport_synchronized_defenses"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360	
+	prerequisites = { tech_reinforced_hull_2 }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 600
+	}
+	
+	required_resources = {
+		energy = 5
+	}
+	
+	station_modifier = {
+		ship_hitpoints_mult = 1.0
+	}
+}

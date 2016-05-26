@@ -1,0 +1,103 @@
+############################
+#
+# Extended Traits events
+# by r-M
+#
+############################
+
+namespace = extended_traits
+
+event = {
+	id = extended_traits.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			if = {
+				limit = {
+					AND = {
+						has_trait = "trait_very_weak" 
+						NOT = { has_modifier = extraits_very_weak }
+					}
+				}
+				add_modifier = {
+					modifier = extraits_very_weak
+					days = -1
+				}
+			}
+			if = {
+				limit = { 
+					AND = {
+						has_trait = "trait_conservationists" 
+						NOT = { has_modifier = extraits_conservationists }
+					}
+				}
+				add_modifier = {
+					modifier = extraits_conservationists
+					days = -1
+				}
+			}
+			if = {
+				limit = { 
+					AND = {
+						has_trait = "trait_deliberators" 
+						NOT = { has_modifier = extraits_deliberators }
+					}
+				}
+				add_modifier = {
+					modifier = extraits_deliberators
+					days = -1
+				}
+			}
+			if = {
+				limit = { 
+					AND = {
+						has_trait = "trait_virtualists" 
+						NOT = { has_modifier = extraits_virtualists }
+					}
+				}
+				add_modifier = {
+					modifier = extraits_virtualists
+					days = -1
+				}
+			}	
+			if = {
+				limit = { 
+					AND = {
+						has_trait = "trait_politically_adept" 
+						NOT = { has_modifier = extraits_pol_adept }
+					}
+				}
+				add_modifier = {
+					modifier = extraits_pol_adept
+					days = -1
+				}
+			}
+			if = {
+				limit = { 
+					AND = {
+						has_trait = "trait_natural_architects" 
+						NOT = { has_modifier = extraits_natural_architects }
+					}
+				}
+				add_modifier = {
+					modifier = extraits_natural_architects
+					days = -1
+				}
+			}
+			if = {
+				limit = { 
+					AND = {
+						has_trait = "trait_incompetent_architects" 
+						NOT = { has_modifier = extraits_incompetent_architects }
+					}
+				}
+				add_modifier = {
+					modifier = extraits_incompetent_architects
+					days = -1
+				}
+			}
+		}
+	}
+}

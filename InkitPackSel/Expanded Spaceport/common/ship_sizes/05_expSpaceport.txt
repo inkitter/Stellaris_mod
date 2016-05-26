@@ -1,0 +1,77 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+@civilian_ships_combat_speed = 0.5
+@corvette_combat_speed = 1.5
+@corvette_combat_rotation = 0.08
+@corvette_collision_radius = 2.0
+
+@destroyer_combat_speed = 1.0
+@destroyer_combat_rotation = 0.05
+@destroyer_collision_radius = 3
+
+@cruiser_combat_speed = 0.7
+@cruiser_combat_rotation = 0.025
+@cruiser_collision_radius = 4
+
+@battleship_combat_speed = 0.35
+@battleship_combat_rotation = 0.02
+@battleship_collision_radius = 5
+
+@build_block_radius_none = 0
+@build_block_radius_tiny = 10
+@build_block_radius_small = 70
+@build_block_radius_medium = 90
+@build_block_radius_large = 110
+
+
+
+orbital_station = {
+	max_speed = 0.0
+	acceleration = 0.0
+	rotation_speed = 0.0
+	modifier = {
+		ship_evasion_mult = -1
+		ship_weapon_range_mult = 0.20
+	}
+	max_hitpoints = 2500
+	size_multiplier = 8
+	fleet_slot_size = 4
+	section_slots = { 
+		"1" = { locator = "part1" }
+		"2" = { locator = "part2" }
+		"3" = { locator = "part3" }
+		"4" = { locator = "part4" }
+		"5" = { locator = "part5" }
+		"6" = { locator = "part6" }
+		"7" = { locator = "part7" }
+		"8" = { locator = "part8" }
+		"9" = { locator = "part9" }
+		"10" = { locator = "part10" }
+		"11" = { locator = "part11" }
+		"12" = { locator = "part12" }
+		"13" = { locator = "part13" }
+		"14" = { locator = "part14" }
+		"15" = { locator = "part15" }
+		"16" = { locator = "part16" }
+		"17" = { locator = "part17" }
+		"18" = { locator = "part18" }
+		"19" = { locator = "part19" }
+		"20" = { locator = "part20" }
+		"21" = { locator = "part21" }
+		"22" = { locator = "part22" }
+		"23" = { locator = "part23" }
+		"24" = { locator = "part24" }
+		"25" = { locator = "part25" }
+		"26" = { locator = "part26" }
+	}
+	num_target_locators = 0
+	is_space_station = yes
+	build_block_radius = @build_block_radius_tiny
+	cost = 360
+	
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+	prerequisites = { "tech_spaceport_1" }
+	class = shipclass_orbital_station
+	is_designable = no
+}

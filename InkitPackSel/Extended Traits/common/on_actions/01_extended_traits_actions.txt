@@ -1,0 +1,18 @@
+############################
+#
+# Extended Traits on_actions
+# by r-M
+#
+############################
+
+on_game_start = {
+	events = {
+		extended_traits.1
+	}
+}
+
+on_species_modified = {
+	events = {
+		extended_traits.1
+	}
+}

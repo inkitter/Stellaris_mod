@@ -1,0 +1,84 @@
+
+
+# ####################
+#  Critter Weapons - Space Amoeba
+# ####################
+
+@critter_cost_value = 35
+
+
+### Standard Amoeba Weapon
+
+weapon_component_template = {
+	key = "SPACE_AMOEBA_WEAPON"
+	hidden = yes
+
+	size = medium
+	entity = "medium_space_amoeba_weapon_entity"
+	type = instant
+	icon = "GFX_ship_part_space_whale_weapon_1"
+	icon_frame = 1
+	projectile_gfx = "space_amoeba_weapon"
+	tags = { weapon_type_energy }
+	
+	cost = @critter_cost_value
+}
+
+weapon_component_template = {
+	key = "SMALL_SPACE_AMOEBA_WEAPON"
+	hidden = yes
+
+	size = medium
+	entity = "small_space_amoeba_weapon_entity"
+	type = instant
+	icon = "GFX_ship_part_space_whale_weapon_1"
+	icon_frame = 1
+	projectile_gfx = "small_space_amoeba_weapon"
+	tags = { weapon_type_energy }
+	
+	cost = @critter_cost_value
+}
+
+### Strike Craft
+
+strike_craft_component_template = {
+	key = "AMOEBA_STRIKE_CRAFT"
+	size = LARGE
+	entity = "space_amoeba_small_entity"
+	cost = 22
+	power = -45
+
+	count = 8
+	regeneration_per_day = 1.000
+	launch_time = 0.5
+	
+	damage = { min = 7 max = 11 }
+	cooldown = 10
+	range = 15
+	accuracy = 1.0
+	
+	health = 42
+	armor = 0
+	shield = 0
+	
+	speed = 2
+	rotation_speed = 0.5
+	acceleration = 0.5
+	
+	
+	shield_damage = 1.0
+	shield_penetration = 1
+	armor_penetration = 0.5
+	
+	ship_behavior = "bombers_behavior"
+	
+	weapon_type = instant
+	projectile_gfx = "small_space_amoeba_weapon"
+	
+	component_set = "AMOEBA_STRIKE_CRAFT_1"
+	prerequisites = { "tech_amoeba_strike_craft_1" }
+	
+	icon = "GFX_ship_part_amoeba_strike_craft_1"
+	icon_frame = 1
+	tags = { weapon_type_strike_craft }
+}

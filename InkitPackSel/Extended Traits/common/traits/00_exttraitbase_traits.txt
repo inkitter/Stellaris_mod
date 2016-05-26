@@ -1,0 +1,414 @@
+##################
+# Species Traits #
+##################
+
+trait_agrarian = {
+	cost = 2
+	opposites = { "trait_urban" }
+	
+	modifier = {
+		tile_resource_food_mult = 0.15
+	}
+}
+
+trait_urban = {
+	cost = -2
+	opposites = { "trait_agrarian" }
+	
+	modifier = {
+		tile_resource_food_mult = -0.2
+	}
+}
+
+trait_thrifty = {
+	cost = 2
+	opposites = { "trait_indulgent" }
+	
+	modifier = {
+		tile_resource_energy_mult = 0.15
+	}
+}
+
+trait_indulgent = {
+	cost = -1
+	opposites = { "trait_thrifty" }
+	
+	modifier = {
+		tile_resource_energy_mult = -0.1
+	}
+}
+
+trait_industrious = {
+	cost = 2
+	opposites = { "trait_content" }
+	
+	modifier = {
+		tile_resource_minerals_mult = 0.15
+	}
+}
+
+trait_content = {
+	cost = -2
+	opposites = { "trait_industrious" }
+	
+	modifier = {
+		tile_resource_minerals_mult = -0.15
+	}
+}
+
+trait_intelligent = {
+	cost = 2
+	opposites = { "trait_dim" "trait_inept" }
+	
+	modifier = {
+		tile_resource_engineering_research_mult = 0.1
+		tile_resource_physics_research_mult = 0.1
+		tile_resource_society_research_mult = 0.1
+	}
+}
+
+trait_dim = {
+	cost = -1
+	opposites = { "trait_intelligent" "trait_inept" }
+	
+	modifier = {
+		tile_resource_engineering_research_mult = -0.05
+		tile_resource_physics_research_mult = -0.05
+		tile_resource_society_research_mult = -0.05
+	}
+}
+
+trait_inept = {
+	cost = -2
+	opposites = { "trait_intelligent" "trait_dim" }
+
+	modifier = {
+		tile_resource_engineering_research_mult = -0.1
+		tile_resource_physics_research_mult = -0.1
+		tile_resource_society_research_mult = -0.1
+	}
+}
+
+trait_natural_engineers = {
+	cost = 1
+	opposites = { "trait_natural_physicists" "trait_natural_sociologists" "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
+	
+	modifier = {
+		tile_resource_engineering_research_mult = 0.15
+	}
+}
+
+trait_incompetent_engineers = {
+	cost = -1
+	opposites = { "trait_natural_physicists" "trait_natural_sociologists" "trait_natural_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
+	
+	modifier = {
+		tile_resource_engineering_research_mult = -0.15
+	}
+}
+
+trait_natural_physicists = {
+	cost = 1
+	opposites = { "trait_natural_engineers" "trait_natural_sociologists" "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
+	
+	modifier = {
+		tile_resource_physics_research_mult = 0.15
+	}
+}
+
+trait_incompetent_physicists = {
+	cost = -1
+	opposites = { "trait_natural_engineers" "trait_natural_sociologists" "trait_incompetent_engineers" "trait_natural_physicists" "trait_incompetent_sociologists" }
+	
+	modifier = {
+		tile_resource_physics_research_mult = -0.15
+	}
+}
+
+trait_natural_sociologists = {
+	cost = 1
+	opposites = { "trait_natural_physicists" "trait_natural_engineers" "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
+	
+	modifier = {
+		tile_resource_society_research_mult = 0.15
+	}
+}
+
+trait_incompetent_sociologists = {
+	cost = -1
+	opposites = { "trait_natural_physicists" "trait_natural_engineers" "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_natural_sociologists" }
+	
+	modifier = {
+		tile_resource_society_research_mult = -0.15
+	}
+}
+
+trait_extremely_adaptive = {
+	cost = 5
+	opposites = { "trait_nonadaptive" "trait_adaptive" }
+	
+	modifier = {
+		pop_environment_tolerance = 0.20
+	}
+}
+
+trait_adaptive = {
+	cost = 2
+	opposites = { "trait_nonadaptive" "trait_extremely_adaptive"}
+	
+	modifier = {
+		pop_environment_tolerance = 0.10
+	}
+}
+
+trait_nonadaptive = {
+	cost = -1
+	opposites = { "trait_adaptive" "trait_extremely_adaptive"}
+	
+	modifier = {
+		pop_environment_tolerance = -0.10
+	}
+}
+
+
+trait_rapid_breeders = {
+	cost = 1
+	opposites = { "trait_slow_breeders" }
+	
+	modifier = {
+		pop_growth_req_mult = -0.1
+	}
+}
+
+trait_slow_breeders = {
+	cost = -1
+	opposites = { "trait_rapid_breeders" }
+	
+	modifier = {
+		pop_growth_req_mult = 0.15
+	}
+}
+
+trait_talented = {
+	cost = 2
+	
+	modifier = {
+		leader_skill_levels = 1
+	}
+}
+
+trait_quick_learners = {
+	cost = 1
+	opposites = { "trait_slow_learners" }
+	
+	modifier = {
+		species_leader_exp_gain = 0.25
+	}
+}
+
+trait_slow_learners = {
+	cost = -1
+	opposites = { "trait_quick_learners" }
+	
+	modifier = {
+		species_leader_exp_gain = -0.25
+	}
+}
+
+trait_very_strong = {
+	cost = 4
+	opposites = { "trait_weak" "trait_strong" "trait_very_weak" }
+	
+	modifier = {
+		army_damage_mult = 0.40
+		tile_resource_minerals_mult = 0.10
+	}
+}
+
+trait_strong = {
+	cost = 1
+	opposites = { "trait_weak" "trait_very_strong" "trait_very_weak" }
+	
+	modifier = {
+		army_damage_mult = 0.20
+		tile_resource_minerals_mult = 0.05
+	}
+}
+
+trait_weak = {
+	cost = -1
+	opposites = { "trait_strong" "trait_very_strong" "trait_very_weak" }
+	
+	modifier = {
+		army_damage_mult = -0.20
+	}
+}
+
+trait_very_weak = {
+	cost = -3
+	opposites = { "trait_strong" "trait_very_strong" "trait_weak" }
+	
+	modifier = {
+		army_damage_mult = -0.4
+		army_health = -0.25
+		tile_resource_minerals_mult = -0.15
+	}
+}
+
+trait_valiant = {
+	cost = 2
+	opposites = { "trait_craven" }
+	
+	modifier = {
+		army_morale = 0.2
+		army_damage_mult = 0.2
+	}
+}
+
+trait_craven = {
+	cost = -2
+	opposites = { "trait_valiant" }
+	
+	modifier = {
+		army_morale = -0.2
+		army_damage_mult = -0.2
+	}
+}
+
+trait_nomadic = {
+	cost = 1
+	opposites = { "trait_sedentary" }
+	
+	modifier = {
+		pop_migration_time = -0.5
+		pop_resettlement_cost_mult = -0.33
+	}
+}
+
+trait_sedentary = {
+	cost = -1
+	opposites = { "trait_nomadic" }
+	
+	modifier = {
+		pop_migration_time = 0.5
+		pop_resettlement_cost_mult = 0.33
+	}
+}
+
+trait_communal = {
+	cost = 1
+	opposites = { "trait_solitary" }
+	
+	modifier = {
+		pop_happiness = 0.05
+	}
+}
+
+trait_solitary = {
+	cost = -1
+	opposites = { "trait_communal" }
+	
+	modifier = {
+		pop_happiness = -0.05
+	}
+}
+
+trait_charismatic = {
+	cost = 1
+	opposites = { "trait_repugnant" }
+	
+	modifier = {
+		pop_other_species_happiness = 0.01
+	}
+}
+
+trait_repugnant = {
+	cost = -1
+	opposites = { "trait_charismatic" }
+	
+	modifier = {
+		pop_other_species_happiness = -0.01
+	}
+}
+
+trait_uplifted = {
+	cost = 0
+	
+	initial = no
+	modification = no
+}
+
+trait_conformists = {
+	cost = 2
+	opposites = { "trait_individualistic" }
+	
+	modifier = { pop_ethic_shift = -0.2 }
+}
+
+trait_individualistic = {
+	cost = -2
+	opposites = { "trait_conformists" }
+	
+	modifier = {
+		pop_ethic_shift = 0.2
+	}
+}
+
+trait_venerable = {
+	cost = 4
+	modifier = { leader_age = 120 }
+	opposites = { "trait_enduring" "trait_transient" }
+}
+
+trait_enduring = {
+	cost = 1
+	modifier = { leader_age = 30 }
+	opposites = { "trait_venerable" "trait_transient" }
+}
+
+trait_transient = {
+	cost = -1
+	opposites = { "trait_enduring" "trait_venerable" }
+	
+	modifier = {
+		leader_age = -20
+	}
+}
+
+trait_resourceful = {
+	cost = 1
+	opposites = { "trait_decadent" }
+	slavery_trait = yes # will not be picked unless species tolerates slavery
+	
+	modifier = {
+		pop_eff_wo_slaves = 0.1
+	}
+}
+
+trait_decadent = {
+	cost = -1
+	slavery_trait = yes # will not be picked unless species tolerates slavery
+	modifier = {
+		pop_eff_wo_slaves = -0.1
+	}
+}
+
+trait_resilient = {
+	cost = 1
+	opposites = { "trait_delicate" }
+	
+	modifier = {
+		garrison_health = 1.0
+		pop_fortification_defense = 0.5
+	}
+}
+
+trait_delicate = {
+	cost = -1
+	opposites = { "trait_resilient" }
+	
+	modifier = {
+		garrison_health = -0.5
+		pop_fortification_defense = -0.5
+	}
+}

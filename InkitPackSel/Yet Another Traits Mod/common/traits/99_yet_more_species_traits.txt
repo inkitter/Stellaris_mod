@@ -1,0 +1,91 @@
+#########################
+# Custom Species Traits #
+#########################
+trait_fussy = {
+	opposites = { "trait_careless" }
+	cost = 2
+	modifier = {
+		tile_resource_engineering_research_mult = 0.1
+		tile_resource_physics_research_mult = 0.1
+		tile_resource_society_research_mult = 0.1
+		tile_resource_minerals_mult = 0.1
+		pop_happiness = -0.15
+	}
+}
+trait_careless = {
+	opposites = { "trait_fussy" }
+	cost = -2
+	modifier = {
+		tile_resource_engineering_research_mult = -0.1
+		tile_resource_physics_research_mult = -0.1
+		tile_resource_society_research_mult = -0.1
+		tile_resource_minerals_mult = -0.1
+		pop_happiness = 0.15
+	}
+}
+trait_natural_leaders = {
+	opposites = { "trait_inept_leaders" "trait_dynamic_leaders" }
+	cost = 1
+	modifier = {
+		leader_influence_cost = -0.5
+	}
+}
+trait_dynamic_leaders = {
+	opposites = { "trait_inept_leaders" "trait_inept_leaders" }
+	cost = 6
+	modifier = {
+		leader_influence_cost = -1.0
+	}
+}
+trait_inept_leaders = {
+	opposites = { "trait_natural_leaders" "trait_dynamic_leaders" }
+	cost = -1
+	modifier = {
+		leader_influence_cost = 0.5
+	}
+}
+trait_sloth = {
+	cost = 4
+	modifier = {
+		tile_resource_food_mult = 1
+		pop_growth_req_mult = -0.75
+		tile_resource_minerals_mult = -0.5
+		tile_resource_energy_mult = -0.5
+	}
+}
+trait_minor_teleportation = {
+	cost = 4
+	opposites = { "trait_sedentary" "trait_nomadic"}
+	modifier = {
+		pop_migration_time = -1.0
+		pop_resettlement_cost_mult = -0.66
+	}
+}
+trait_die_young = {
+	cost = -3
+	opposites = { "trait_venerable" "trait_enduring" }
+	modifier = {
+		leader_age = -25
+		tile_resource_engineering_research_mult = -0.1
+		tile_resource_physics_research_mult = -0.1
+		tile_resource_society_research_mult = -0.1
+	}
+}
+trait_slave_traders = {
+	cost = -3
+	slavery_trait = yes # will not be picked unless species tolerates slavery
+	modifier = {
+		pop_eff_wo_slaves = -0.35
+		tile_resource_energy_mult = 0.15
+	}
+	opposites = { "trait_decadent" }
+}
+trait_unethical_tactics = {
+	cost = 0
+	opposites = { "trait_venerable" "trait_enduring" }
+	modifier = {
+		army_damage_mult = 0.15
+		pop_ethic_shift = 0.15
+	}
+}
+

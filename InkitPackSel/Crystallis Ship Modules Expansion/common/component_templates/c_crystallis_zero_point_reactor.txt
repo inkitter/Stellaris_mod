@@ -1,0 +1,272 @@
+#############
+#	COST	#
+#############
+
+@cost_1S = 5
+@cost_1M = 10
+@cost_1L = 20
+
+@cost_2S = 10
+@cost_2M = 20
+@cost_2L = 40
+
+@cost_3S = 15
+@cost_3M = 30
+@cost_3L = 60
+
+@cost_4S = 20
+@cost_4M = 40
+@cost_4L = 80
+
+@cost_5S = 25
+@cost_5M = 50
+@cost_5L = 100
+
+@cost_6S = 30
+@cost_6M = 60
+@cost_6L = 120
+
+@cost_7S = 35
+@cost_7M = 70
+@cost_7L = 140
+
+@cost_8S = 40
+@cost_8M = 80
+@cost_8L = 160
+
+@cost_9S = 45
+@cost_9M = 90
+@cost_9L = 180
+
+@cost_10S = 50
+@cost_10M = 100
+@cost_10L = 200
+
+#############
+#	POWER	#
+#############
+
+@power_S1 = 10
+@power_M1 = 20
+@power_L1 = 40
+            
+@power_S2 = 15
+@power_M2 = 30
+@power_L2 = 60
+            
+@power_S3 = 20
+@power_M3 = 40
+@power_L3 = 80
+            
+@power_S4 = 25
+@power_M4 = 50
+@power_L4 = 100
+            
+@power_S5 = 30
+@power_M5 = 60
+@power_L5 = 120
+
+@power_S6 = 35
+@power_M6 = 70
+@power_L6 = 140
+            
+@power_S7 = 40
+@power_M7 = 80
+@power_L7 = 160
+            
+@power_S8 = 45
+@power_M8 = 90
+@power_L8 = 180
+            
+@power_S9 = 50
+@power_M9 = 100
+@power_L9 = 200
+            
+@power_S10 = 55
+@power_M10 = 110
+@power_L10 = 220
+
+# Crystallis Zero-Point Reactors VI
+utility_component_template = {
+	key = "SMALL_ZERO_POINT_REACTOR_6"
+	size = small
+	icon = "GFX_ship_part_reactor_6"
+	icon_frame = 1
+	power = @power_S6
+	cost = @cost_6S
+	
+	prerequisites = { "tech_reactor_6" }
+	component_set = "ZERO_POINT_REACTOR_6"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ZERO_POINT_REACTOR_6"
+	size = medium
+	icon = "GFX_ship_part_reactor_6"
+	icon_frame = 1
+	power = @power_M6
+	cost = @cost_6M
+	
+	prerequisites = { "tech_reactor_6" }
+	component_set = "ZERO_POINT_REACTOR_6"
+}
+
+utility_component_template = {
+	key = "LARGE_ZERO_POINT_REACTOR_6"
+	size = large
+	icon = "GFX_ship_part_reactor_6"
+	icon_frame = 1
+	power = @power_L6
+	cost = @cost_6L
+	
+	prerequisites = { "tech_reactor_6"  }
+	component_set = "ZERO_POINT_REACTOR_6"
+}
+
+# Crystallis Zero-Point Reactors VII
+utility_component_template = {
+	key = "SMALL_ZERO_POINT_REACTOR_7"
+	size = small
+	icon = "GFX_ship_part_reactor_7"
+	icon_frame = 1
+	power = @power_S7
+	cost = @cost_7S
+	
+	prerequisites = { "tech_reactor_7" }
+	component_set = "ZERO_POINT_REACTOR_7"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ZERO_POINT_REACTOR_7"
+	size = medium
+	icon = "GFX_ship_part_reactor_7"
+	icon_frame = 1
+	power = @power_M7
+	cost = @cost_7M
+	
+	prerequisites = { "tech_reactor_7" }
+	component_set = "ZERO_POINT_REACTOR_7"
+}
+
+utility_component_template = {
+	key = "LARGE_ZERO_POINT_REACTOR_7"
+	size = large
+	icon = "GFX_ship_part_reactor_7"
+	icon_frame = 1
+	power = @power_L7
+	cost = @cost_7L
+	
+	prerequisites = { "tech_reactor_7"  }
+	component_set = "ZERO_POINT_REACTOR_7"
+}
+
+# Crystallis Zero-Point Reactors VIII
+utility_component_template = {
+	key = "SMALL_ZERO_POINT_REACTOR_8"
+	size = small
+	icon = "GFX_ship_part_reactor_8"
+	icon_frame = 1
+	power = @power_S8
+	cost = @cost_8S
+	
+	prerequisites = { "tech_reactor_8" }
+	component_set = "ZERO_POINT_REACTOR_8"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ZERO_POINT_REACTOR_8"
+	size = medium
+	icon = "GFX_ship_part_reactor_8"
+	icon_frame = 1
+	power = @power_M8
+	cost = @cost_8M
+	
+	prerequisites = { "tech_reactor_8" }
+	component_set = "ZERO_POINT_REACTOR_8"
+}
+
+utility_component_template = {
+	key = "LARGE_ZERO_POINT_REACTOR_8"
+	size = large
+	icon = "GFX_ship_part_reactor_8"
+	icon_frame = 1
+	power = @power_L8
+	cost = @cost_8L
+	
+	prerequisites = { "tech_reactor_8"  }
+	component_set = "ZERO_POINT_REACTOR_8"
+}
+
+# Crystallis Zero-Point Reactors IX
+utility_component_template = {
+	key = "SMALL_ZERO_POINT_REACTOR_9"
+	size = small
+	icon = "GFX_ship_part_reactor_9"
+	icon_frame = 1
+	power = @power_S9
+	cost = @cost_9S
+	
+	prerequisites = { "tech_reactor_9" }
+	component_set = "ZERO_POINT_REACTOR_9"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ZERO_POINT_REACTOR_9"
+	size = medium
+	icon = "GFX_ship_part_reactor_9"
+	icon_frame = 1
+	power = @power_M9
+	cost = @cost_9M
+	
+	prerequisites = { "tech_reactor_9" }
+	component_set = "ZERO_POINT_REACTOR_9"
+}
+
+utility_component_template = {
+	key = "LARGE_ZERO_POINT_REACTOR_9"
+	size = large
+	icon = "GFX_ship_part_reactor_9"
+	icon_frame = 1
+	power = @power_L9
+	cost = @cost_9L
+	
+	prerequisites = { "tech_reactor_9"  }
+	component_set = "ZERO_POINT_REACTOR_9"
+}
+
+# Crystallis Zero-Point Reactors X
+utility_component_template = {
+	key = "SMALL_ZERO_POINT_REACTOR_10"
+	size = small
+	icon = "GFX_ship_part_reactor_10"
+	icon_frame = 1
+	power = @power_S10
+	cost = @cost_10S
+	
+	prerequisites = { "tech_reactor_10" }
+	component_set = "ZERO_POINT_REACTOR_10"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ZERO_POINT_REACTOR_10"
+	size = medium
+	icon = "GFX_ship_part_reactor_10"
+	icon_frame = 1
+	power = @power_M10
+	cost = @cost_10M
+	
+	prerequisites = { "tech_reactor_10" }
+	component_set = "ZERO_POINT_REACTOR_10"
+}
+
+utility_component_template = {
+	key = "LARGE_ZERO_POINT_REACTOR_10"
+	size = large
+	icon = "GFX_ship_part_reactor_10"
+	icon_frame = 1
+	power = @power_L10
+	cost = @cost_10L
+	
+	prerequisites = { "tech_reactor_10"  }
+	component_set = "ZERO_POINT_REACTOR_10"
+}

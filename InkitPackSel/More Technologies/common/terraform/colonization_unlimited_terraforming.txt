@@ -1,0 +1,628 @@
+# Originally coded by neusaap, repackaged by remanemporor
+
+##########################################################################################################################
+##						Uninhabited planets terraform links					##
+##		Note that thanks to my incapability, all comments this-to-that are the wrong way around			##
+##########################################################################################################################
+
+# Barren worlds
+
+# Barren to Continental
+#terraform_link = {
+#	from = "pc_barren"
+#	to = "pc_continental"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Barren to Ocean
+#terraform_link = {
+#	from = "pc_barren"
+#	to = "pc_ocean"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Barren to Arctic
+#terraform_link = {
+#	from = "pc_barren"
+#	to = "pc_arctic"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Barren to Tundra
+#terraform_link = {
+#	from = "pc_barren"
+#	to = "pc_tundra"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Barren to Arid
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_arid"
+	
+	#cost
+	energy = 2500
+	resources = {
+		sr_oxygen = 5
+		sr_nitrogen = 5
+		sr_water = 1
+		sr_carbon_dioxide = 1
+	}
+	
+	condition = {
+		has_technology = "tech_artificial_atmosphere"
+	}
+}
+
+# Barren to Desert
+#terraform_link = {
+#	from = "pc_barren"
+#	to = "pc_desert"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Barren to Tropical
+#terraform_link = {
+#	from = "pc_barren"
+#	to = "pc_tropical"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Toxic worlds
+
+# Toxic to Continental
+#terraform_link = {
+#	from = "pc_toxic"
+#	to = "pc_continental"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_stimulated_solar_winds"
+#	}
+#}
+
+# Toxic to Ocean
+#terraform_link = {
+#	from = "pc_toxic"
+#	to = "pc_ocean"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_stimulated_solar_winds"
+#	}
+#}
+
+# Toxic to Arctic
+#terraform_link = {
+#	from = "pc_toxic"
+#	to = "pc_arctic"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_stimulated_solar_winds"
+#	}
+#}
+
+# Toxic to Tundra
+#terraform_link = {
+#	from = "pc_toxic"
+#	to = "pc_tundra"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_stimulated_solar_winds"
+#	}
+#}
+
+# Toxic to Arid
+#terraform_link = {
+#	from = "pc_toxic"
+#	to = "pc_arid"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_stimulated_solar_winds"
+#	}
+#}
+
+# Toxic to Desert
+#terraform_link = {
+#	from = "pc_toxic"
+#	to = "pc_desert"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_stimulated_solar_winds"
+#	}
+#}
+
+# Toxic to Tropical
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_tropical"
+	
+	#cost
+	energy = 2500
+	resources = {
+		sr_carbon_dioxide = 2
+		sr_oxygen = 5
+		sr_nitrogen = 5
+		sr_water = 3
+	}
+	
+	condition = {
+		has_technology = "tech_stimulated_solar_winds"
+	}
+}
+
+# Cold barren worlds (yeah, that's the moon)
+
+# Cold Barren to Continental
+#terraform_link = {
+#	from = "pc_barren_cold"
+#	to = "pc_continental"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Cold Barren to Ocean
+#terraform_link = {
+#	from = "pc_barren_cold"
+#	to = "pc_ocean"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Cold Barren to Arctic
+#terraform_link = {
+#	from = "pc_barren_cold"
+#	to = "pc_arctic"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Cold Barren to Tundra
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_tundra"
+	
+	#cost
+	energy = 2500
+	resources = {
+		sr_carbon = 2
+		sr_oxygen = 5
+		sr_nitrogen = 5
+		sr_water = 3
+	}
+	
+	condition = {
+		has_technology = "tech_artificial_atmosphere"
+	}
+}
+
+# Cold Barren to Arid
+#terraform_link = {
+#	from = "pc_barren_cold"
+#	to = "pc_arid"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Cold Barren to Desert
+#terraform_link = {
+#	from = "pc_barren_cold"
+#	to = "pc_desert"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Cold Barren to Tropical
+#terraform_link = {
+#	from = "pc_barren_cold"
+#	to = "pc_tropical"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_artificial_atmosphere"
+#	}
+#}
+
+# Frozen worlds
+
+# Frozen to Continental (Melt it ;))
+#terraform_link = {
+#	from = "pc_frozen"
+#	to = "pc_continental"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_extreme_greenhouse"
+#	}
+#}
+
+# Frozen to Ocean
+#terraform_link = {
+#	from = "pc_frozen"
+#	to = "pc_ocean"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_extreme_greenhouse"
+#	}
+#}
+
+# Frozen to Arctic
+terraform_link = {
+	from = "pc_frozen"
+	to = "pc_arctic"
+	
+	#cost
+	energy = 2500
+	resources = {
+		sr_carbon_dioxide = 2
+		sr_oxygen = 5
+		sr_nitrogen = 5
+		sr_water = 4
+	}
+	
+	condition = {
+		has_technology = "tech_extreme_greenhouse"
+	}
+}
+
+# Frozen to Tundra
+#terraform_link = {
+#	from = "pc_frozen"
+#	to = "pc_tundra"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_extreme_greenhouse"
+#	}
+#}
+
+# Frozen to Arid
+#terraform_link = {
+#	from = "pc_frozen"
+#	to = "pc_arid"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_extreme_greenhouse"
+#	}
+#}
+
+# Frozen to Desert
+#terraform_link = {
+#	from = "pc_frozen"
+#	to = "pc_desert"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_extreme_greenhouse"
+#	}
+#}
+
+# Frozen to Tropical
+#terraform_link = {
+#	from = "pc_frozen"
+#	to = "pc_tropical"
+#	
+#	#cost
+#	energy = 2500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_extreme_greenhouse"
+#	}
+#}
+
+# Molten worlds, the colder you need them to become, the more solarprotection you need to build = more minerals
+
+# Molten to Continental
+#terraform_link = {
+#	from = "pc_molten"
+#	to = "pc_continental"
+#	
+#	#cost
+#	energy = 2500
+#	minerals = 250
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_high_alt_solarprotection"
+#	}
+#}
+
+# Molten to Ocean
+#terraform_link = {
+#	from = "pc_molten"
+#	to = "pc_ocean"
+#	
+#	#cost
+#	energy = 2500
+##	minerals = 300
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_high_alt_solarprotection"
+#	}
+#}
+
+# Molten to Arctic
+#terraform_link = {
+#	from = "pc_molten"
+#	to = "pc_arctic"
+#	
+#	#cost
+#	energy = 2500
+##	minerals = 600
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_high_alt_solarprotection"
+#	}
+#}
+
+# Molten to Tundra
+#terraform_link = {
+#	from = "pc_molten"
+#	to = "pc_tundra"
+#	
+#	#cost
+#	energy = 2500
+##	minerals = 500
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_high_alt_solarprotection"
+#	}
+#}
+
+# Molten to Arid
+#terraform_link = {
+#	from = "pc_molten"
+#	to = "pc_arid"
+#	
+#	#cost
+#	energy = 2500
+##	minerals = 100
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_high_alt_solarprotection"
+#	}
+#}
+
+# Molten to Desert
+terraform_link = {
+	from = "pc_molten"
+	to = "pc_desert"
+	
+	#cost
+	energy = 2500
+#	minerals = 50
+	resources = {
+		sr_carbon = 2
+		sr_oxygen = 5
+		sr_nitrogen = 5
+		sr_water = 1
+	}
+	
+	condition = {
+		has_technology = "tech_high_alt_solarprotection"
+	}
+}
+
+# Molten to Tropical
+#terraform_link = {
+#	from = "pc_molten"
+#	to = "pc_tropical"
+#	
+#	#cost
+#	energy = 2500
+##	minerals = 100
+#	resources = {
+#		sr_terraform_gases = 0
+#		sr_terraform_liquids = 0
+#	}
+#	
+#	condition = {
+#		has_technology = "tech_high_alt_solarprotection"
+#	}
+#}

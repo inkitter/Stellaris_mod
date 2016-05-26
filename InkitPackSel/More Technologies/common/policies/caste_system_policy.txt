@@ -1,0 +1,54 @@
+caste_structure = {
+	potential = {
+		has_government = "caste_system"
+	}
+	option = {
+		name = "castes_formalized"
+		pop_happiness = {
+			base = 0
+			modifier = {
+				add = 0.20
+				OR = {
+					pop_has_trait = trait_leader_caste
+					pop_has_trait = trait_military_caste
+					pop_has_trait = trait_scholar_caste
+					pop_has_trait = trait_merchant_caste
+					pop_has_trait = trait_labor_caste
+				}
+			}
+		}
+
+		#This stuff below doesn't work, but i'd like it to =(
+
+		#tile_resource_food_mult = {
+		#	base = 0
+		#	modifier = {
+		#		add = 0.10
+		#		OR = {
+		#			pop_has_trait = trait_leader_caste
+		#			pop_has_trait = trait_military_caste
+		#			pop_has_trait = trait_scholar_caste
+		#			pop_has_trait = trait_merchant_caste
+		#			pop_has_trait = trait_labor_caste
+		#		}
+		#	}
+		#}
+		#pop_ethnic_shift = {
+		#	base = 0
+		#	modifier = {
+		#		add = -0.10
+		#		OR = {
+		#			pop_has_trait = trait_leader_caste
+		#			pop_has_trait = trait_military_caste
+		#			pop_has_trait = trait_scholar_caste
+		#			pop_has_trait = trait_merchant_caste
+		#			pop_has_trait = trait_labor_caste
+		#		}
+		#	}
+		#}
+	}
+	
+	#option = {
+	#	name = "ad_hoc_castes"
+	#}	
+}

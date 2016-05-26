@@ -1,0 +1,47 @@
+﻿l_english:
+
+ #####################
+ # Bread Basket Mod! #
+ #####################
+ 
+ #Resource
+ stored_food: "Stored Food"
+ stored_food_desc: "§E§HStored Food§! (£stored_food ) is §E§HFood§! (£food ) that has been dehydrated for long term storage and transport, often in the form of nutrition blocks.  Despite the energy costs of large-scale dehydration and rehydration, dehydrated nutrient blocks represent the cheapest and most reliable form of mass Food transport between planets."
+ 
+ #Buildings
+ building_dehydrator: "Dehydrator"
+ building_dehydrator_desc: "Fruits, vegetables, cereals, meat, fish, algae and small live animals have the water sucked out of them with industrial efficiency, then are pressed into highly transportable nutrition blocks.  Basic nutrition blocks are available in 'natural' and 'unflavoured', but given the melange of ingredients mixed into a single block, most consumers choose 'unflavoured'."
+ 
+ building_dehydrator_2: "Industrial Dehydrator"
+ building_dehydrator_2_desc: "Scaling up of the dehydration process permits a higher volume of food to be processed.  With the industrial dehydrator, an entire herd of Vagga can be processed in under an hour!"
+ 
+ building_dehydrator_3: "Export Hub"
+ building_dehydrator_3_desc: "Agricultural products from across this world are brought to the Hub, dehydrated, pressed into compact form and stacked in vast underground freezers awaiting cargo ships to carry them to other, hungrier worlds."
+ 
+ building_dehydrator_4: "Nutrient Processing Plant"
+ building_dehydrator_4_desc: "Food of all types is brought to the vast plant, covering the ground of a whole city, ground up, homogenised, dehydrated and then packed into huge containers of organic matter which are shot directly into waiting cargo ships in orbit via the plant's own mass driver."
+ 
+ building_rehydrator: "Rehydrator"
+ building_rehydrator_desc: "Dried food can be rehydrated into an edible state, the majority of which comes in the form of 'nutrition blocks'.  Consumers may apply one of hundreds of artificial flavour packs in the hope that they can convince themselves that the grey block of matter before them really is genuine Kirillian, rather than algal foodstock."
+ 
+ building_rehydrator_2: "Nutrition Outlets"
+ building_rehydrator_2_desc: "Nutrient blocks are rehydrated at this central plant and then shipped off to a variety of local outlets across the world, some pre-flavoured, others with copious flavour packets attached, in order to feed this world's burgeoning industrial population."
+ 
+ building_rehydrator_3: "Nutrition Franchises"
+ building_rehydrator_3_desc: "In addition to a 'hypermarket' style setup at the plant itself, franchise branches now permeate this whole world, selling a variety of nutrient blocks, many pre-processed with desirable flavours, shapes and in rare cases even textures."
+ 
+ building_rehydrator_4: "Refectory"
+ building_rehydrator_4_desc: "The heart of a vast 'restaurant' business, the Refectory is an elaborate mall filled with various eateries alongside other domestic shopping centres, capable of serving even the greatest megalopolis.  It is said that the replicators can produce every type of food in the universe from nutrition block stock - except tzatziki."
+
+ #Tech
+ tech_food_preservation: "Food Preservation"
+ tech_food_preservation_desc: "Advanced preservation techniques such as dehydration make interstellar food supply possible, permitting whole worlds to be dedicated to agriculture."
+ 
+ tech_food_preservation_2: "Distribution Networks"
+ tech_food_preservation_2_desc: "Collecting produce from millions of smallholder farms or plantations is no trivial task, nor is distributing preserved food to the populace of a major world.  Cautious bureaucratic oversight blended with private sector industry makes sure that hungry mouths get fed, no matter how isolated their owners."
+ 
+ tech_food_preservation_3: "Supply Logistics"
+ tech_food_preservation_3_desc: "It is one thing to preserve food for long-distance transport, it is another thing entirely to get it there.  Redundant networks of civilian freighters ensure that even if one shipment goes missing to piracy or bureaucratic error, millions will not starve waiting for the next."
+ 
+ tech_food_preservation_4: "Replicators"
+ tech_food_preservation_4_desc: "Advanced engineering techniques enable reconstitution of food on the molecular level, reshaping even dull nutrition blocks into mouth-watering facsimiles of the most exquisite foods."
