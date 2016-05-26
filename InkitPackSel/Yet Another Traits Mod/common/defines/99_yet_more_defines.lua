@@ -1,0 +1,2 @@
+NDefines.NSpecies.MAX_TRAIT_POINTS_LEADER = 3
+NDefines.NSpecies.MAX_TRAIT_POINTS_RULER = 4

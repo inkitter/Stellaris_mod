@@ -1,0 +1,58 @@
+[h1][b] Purpose: This mod's goal is to broaden the depth of the vanilla tech tree. It will feature everything from new standard techs to large new features [/b][/h1] 
+https://forum.paradoxplaza.com/forum/index.php?threads/mod-more-technologies.931106/
+(note you must be logged onto a Paradox account that has verified a Stellaris copy to see the above thread)
+
+Tech List
+Preferred: SEE PARADOX THREAD LINKED ABOVE
+Alternate: http://pastebin.com/Gw3t7Ujw
+
+97 New technologies (with more to come)
+[list] [*]New Physics, Society, and Engineering techs included.
+[*]Several new rare techs.
+[*]Techs balanced with cost and reward kept in mind; nothing should be dramatically overpowered.
+[/list]
+Ability to colonize and terraform extreme planets
+[list] [*]Send new Offoworld Robots to colonize extreme planets like Toxic, Frozen, Molten, etc.
+[*]Colonize Venus. Colonize Mars. Colonize Luna.
+[*]Terraform these planets into regular ones at immense time and energy costs
+[*]More info in the Terraforming Guide picture
+[/list]
+Caste System
+[list]
+[*]Specialize your pops into distinct castes that provide their own benefits and drawbacks
+[*]Make your species the leader caste, and use it to keep the other castes in line
+[*]Use adjacency buildings to segregate pops by districts or by entire planets
+[*]More info in the Caste System Guide picture
+[/list]
+Additional wargoals
+[list]
+[*]Fight to force your enemy to abolish purges, slavery, or AI's
+[*]Force your enemy to abandon planets or cede frontier outposts to you
+[*]Humiliate your rivals to reduce their influence and happiness
+[/list]
+Reform Policies
+[list]
+[*]Three new policies allow you to further reform your empire
+[*]Emphasize things such as high-quality ships, imperial centralization, and technological progress
+[*]Work similar to sliders in EU3 with tradeoffs and benefits
+[*]Must be eased into gradually: it would take at least 60 years to go from one extreme to the other
+[*]Cost of policies increases the further away from the center you go --> being on the extremes isn't necessarily the best choice
+[*]However, the extremes have special bonuses symbolizing total commitment
+[*]See the Reform Policies Guide picture for more information
+[/list]
+
+Languages:
+[list]
+[*]English
+[*]Spanish (partial)
+[*]Know how to translate? Volunteer and get listed as a co-contributor!
+[/list]
+
+Compatibility: I've gone to great lengths to keep this mod compatible with others by choosing to add new files instead of changing the base ones. I'm proud to announce that none of the base technology files are overwritten! There are some overwritten files related to colonization: deposits, planet classes, tile blockers, and empire initializers (responsible for how the random starting system option generates home systems). However, custom solar systems should still work.
+
+Contributors
+-Nimbian -- Caste System design and light coding support
+-TehT -- Advanced Buildings
+-neusaap -- Colonization Unlimited
+-8igualdos0s -- Partial Spanish localisation
+-mastech -- Expanded War Goals

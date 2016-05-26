@@ -1,0 +1,63 @@
+############################
+#
+# Extended Traits
+# by r-M
+#
+############################
+
+trait_conservationists = {
+	cost = -3
+	
+	modifier = {
+		planet_clear_blocker_cost_mult = 0.5
+		planet_clear_blocker_time_mult = 0.75
+	}
+}
+
+trait_deliberators = {
+	cost = 2
+	opposites = { "trait_virtualists" }
+	
+	modifier = {
+		influence_gain_add = 1
+	}
+}
+
+trait_virtualists = {
+	cost = -2
+	opposites = { "trait_deliberators" }
+	
+	modifier = {
+		influence_gain_add = -1
+	}
+}
+
+trait_politically_adept = {
+	cost = 1
+	
+	modifier = {
+		max_embassies = 1
+		max_rivalries = 1
+	}
+}
+
+trait_natural_architects = {
+	cost = 1
+	opposites = { "trait_incompetent_architects" }
+
+	modifier = {
+		building_time_mult = -0.05
+		planet_building_cost_mult = -0.1
+	}
+}
+
+trait_incompetent_architects = {
+	cost = -1
+	opposites = { "trait_natural_architects" }
+
+	modifier = {
+		building_time_mult = 0.05
+		planet_building_cost_mult = 0.1
+	}
+}
+

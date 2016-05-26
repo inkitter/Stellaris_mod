@@ -1,0 +1,44 @@
+﻿#######################################
+# Spanish loccalization by 8igualdos0s
+#######################################
+
+l_spanish:
+
+ pc_barren_tile: "Terreno Yermo"
+ pc_barren_tile_desc: "Terreno sin vida ni suministro de aire natural"
+ tech_artificial_atmosphere:0 "Atmósferas Artificiales"
+ tech_artificial_atmosphere_desc:1 "Recientes avances en los reguladores de humedad y en las unidades de dispersión química, en combinación con gases procedentes de otros planetas, nos permitirá crear una nueva atmósfera que facilitará la habitabilidad allí donde pueda resultar necesario.\n\n"
+ TECH_UNLOCK_TERRAFORMING_ART_ATMOSPHERE_TITLE: "Desbloqueo de Función: Atmósferas Artificiales" 
+ TECH_UNLOCK_TERRAFORMING_ART_ATMOSPHERE_DESC: "Nos permite establecer atmósferas artificiales en planetas yermos, lo que a su vez nos permite terraformarlos. (Permite la terraformación de mundos yermos y yermos fríos)"
+ pc_toxic_tile: "Terreno Tóxico"
+ pc_toxic_tile_desc: "Terreno sin vida oculto bajo una gruesa capa de gases tóxicos."
+ tech_stimulated_solar_winds:0 "Control de Vientos Solares"
+ tech_stimulated_solar_winds_desc:1 "Mediante el aprovechamiento de los vientos solares que de vez en cuando se reactivan en una estrella, obtendremos capacidades que casi ni podríamos soñar en el pasado ..."
+ TECH_UNLOCK_TERRAFORMING_STIM_SOLAR_WINDS_TITLE: "Desbloqueo de Función: Control de Vientos Solares"
+ TECH_UNLOCK_TERRAFORMING_STIM_SOLAR_WINDS_DESC: "Nos permite redireccionar los vientos solares de las estrellas hacia los planetas, posibilitando despojarse de una atmósfera tóxica reemplazándola por una habitable. (Permite la terraformación de mundos tóxicos)"
+ pc_barren_cold_tile: "Terreno Yermo frío"
+ pc_barren_cold_tile_desc: "Terreno sin vida ni suministro de aire natural"
+ tech_extreme_greenhouse:0 "Efecto Invernadero Extremo"
+ tech_extreme_greenhouse_desc:1 "Al establecer de forma artificial una cantidad extraordinariamente elevada de gases de efecto invernadero en la troposfera(como el dióxido de carbono y el metano), podemos aumentar la temperatura de planetas alejados de la zona habitable de su estrella."
+ TECH_UNLOCK_TERRAFORMING_EXTREME_GREENHOUSE_TITLE: "Desbloqueo de Función: Efecto Invernadero Extremo"
+ TECH_UNLOCK_TERRAFORMING_EXTREME_GREENHOUSE_DESC: "Nos permite añadir una cantidad extraordinariamente elevada de gases de efecto invernadero a los planetas helados para calentarlos, permitiendo su terraformación. (Permite la terraformación de mundos helados)"
+ pc_frozen_tile: "Terreno Helado"
+ pc_frozen_tile_desc: "Terreno enterrado bajo una gruesa capa de hielo con prácticamente ningún tipo de atmósfera sobre su superficie."
+ pc_molten_tile: "Terreno Fundido"
+ pc_molten_tile_desc: "Terreno semifundido de lava con una fina capa atmosférica en su superficie."
+ tech_high_alt_solarprotection:0 "Protección Solar de Elevada Altitud"
+ tech_high_alt_solarprotection_desc:1 "Construyendo una "presa solar" a elevadas altitudes, podremos regular la cantidad de luz solar que alcanza la superficie del planeta.
+ TECH_UNLOCK_TERRAFORMING_HIGH_ALT_SOLARPROTECTION_TITLE: "Desbloqueo de Función: Protección Solar de Elevada Altitud"
+ TECH_UNLOCK_TERRAFORMING_HIGH_ALT_SOLARPROTECTION_DESC: "Ser capaz de limitar el calor solar que llega a la superficie facilita la solidificación de la corteza de los planetas fundidos, generándose niveles de temperaturas que permiten la habitabilidad. (Permite la terraformación de mundos fundidos)"
+ 
+ 
+ tech_molten_colonization:0 "Colonización de mundos fundidos"
+ tech_molten_colonization_desc:0 "A través de espectaculares hazañas de ingeniería, podemos crear estaciones robóticas aisladas en mundos fundidos."
+ tech_barren_colonization:0 "Colonización de mundos yermos"
+ tech_barren_colonization_desc:0 "Mediante el desarrollo de una nueva protección frente a la radiación solar, podemos crear estaciones en mundos yermos."
+ tech_barren_cold_colonization:0 "Colonización de mundos yermos fríos"
+ tech_barren_cold_colonization_desc:0 "Invertir en refugios ultra-robustos nos permitirá colonizar mundos yermos fríos."
+ tech_toxic_colonization:0 "Colonización de mundos tóxicos"
+ tech_toxic_colonization_desc:0 "A través de los nuevos avances en el desarrollo de duranio ultra-denso, podemos establecer colonias limitadas incluso en el más duro de los climas."
+ tech_frozen_colonization:0 "Colonización de mundos helados"
+ tech_frozen_colonization_desc:0 "Mediante el establecimiento de avanzadas técnicas de aislamiento y calefacción, podemos establecer estaciones en áreas extremadamente frías."

@@ -1,0 +1,663 @@
+# Generated species derive their names from here
+
+### AI
+
+MON = {
+	monsgsefter = {
+		name = "魔物娘"
+		plural = "魔物娘"
+		home_planet = "魔球"
+		home_system = "魔物"
+		name_list = "Human"
+	}
+	mondadbvvteq = {
+		name = "阿波菲斯"
+		plural = "阿波菲斯"
+		home_planet = "阿波菲斯"
+		home_system = "阿波菲斯"
+		name_list = "Human"
+	}
+	ngdd = {
+		name = "阿拉克尼"
+		plural = "阿拉克尼"
+		home_planet = "阿拉克尼"
+		home_system = "阿拉克尼"
+		name_list = "Human"
+	}
+	adwddd = {
+		name = "阿普撒拉斯"
+		plural = "阿普撒拉斯"
+		home_planet = "阿普撒拉斯"
+		home_system = "阿普撒拉斯"
+		name_list = "Human"
+	}
+	gehhr = {
+		name = "爱丽丝"
+		plural = "爱丽丝"
+		home_planet = "爱丽丝"
+		home_system = "爱丽丝"
+		name_list = "Human"
+	}
+	bsefew = {
+		name = "艾露普"
+		plural = "艾露普"
+		home_planet = "艾露普"
+		home_system = "艾露普"
+		name_list = "Human"
+	}
+	bbnnrn = {
+		name = "别西卜"
+		plural = "别西卜"
+		home_planet = "别西卜"
+		home_system = "别西卜"
+		name_list = "Human"
+	}
+	grgrg = {
+		name = "杜拉罕"
+		plural = "杜拉罕"
+		home_planet = "杜拉罕"
+		home_system = "杜拉罕"
+		name_list = "Human"
+	}
+	fwafe = {
+		name = "厄喀德娜"
+		plural = "厄喀德娜"
+		home_planet = "厄喀德娜"
+		home_system = "厄喀德娜"
+		name_list = "Human"
+	}
+	fwwde = {
+		name = "芙兰杰西卡"
+		plural = "芙兰杰西卡"
+		home_planet = "芙兰杰西卡"
+		home_system = "芙兰杰西卡"
+		name_list = "Human"
+	}
+	vafee = {
+		name = "荷斯陶洛斯"
+		plural = "荷斯陶洛斯"
+		home_planet = "荷斯陶洛斯"
+		home_system = "荷斯陶洛斯"
+		name_list = "Human"
+	}
+	grgcc = {
+		name = "史莱姆"
+		plural = "史莱姆"
+		home_planet = "史莱姆"
+		home_system = "史莱姆"
+		name_list = "Human"
+	}
+	qwrt = {
+		name = "卡律布狄斯"
+		plural = "卡律布狄斯"
+		home_planet = "卡律布狄斯"
+		home_system = "卡律布狄斯"
+		name_list = "Human"
+	}
+	ffwqf = {
+		name = "凯斯柏莎"
+		plural = "凯斯柏莎"
+		home_planet = "凯斯柏莎"
+		home_system = "凯斯柏莎"
+		name_list = "Human"
+	}
+	hahha = {
+		name = "库西"
+		plural = "库西"
+		home_planet = "库西"
+		home_system = "库西"
+		name_list = "Human"
+	}
+	hrah = {
+		name = "莉莉娜温"
+		plural = "莉莉娜温"
+		home_planet = "莉莉娜温"
+		home_system = "莉莉娜温"
+		name_list = "Human"
+	}
+	efegh = {
+		name = "玛坦戈"
+		plural = "玛坦戈"
+		home_planet = "玛坦戈"
+		home_system = "玛坦戈"
+		name_list = "Human"
+	}
+}
+ACG = {
+	rara = {
+		name = "奇奇莫拉"
+		plural = "奇奇莫拉"
+		home_planet = "奇奇莫拉"
+		home_system = "奇奇莫拉"
+		name_list = "Human"
+	}
+	tbcm = {
+		name = "圣杯"
+		plural = "圣杯"
+		home_planet = "圣杯"
+		home_system = "圣杯"
+		name_list = "Human"
+	}
+	gioyyt = {
+		name = "圣剑"
+		plural = "圣剑"
+		home_planet = "圣剑"
+		home_system = "圣剑"
+		name_list = "Human"
+	}
+	feefeh = {
+		name = "阿卡林"
+		plural = "阿卡林"
+		home_planet = "阿卡林"
+		home_system = "阿卡林"
+		name_list = "Human"
+	}
+	gefqwe = {
+		name = "兰斯"
+		plural = "兰斯"
+		home_planet = "兰斯"
+		home_system = "兰斯"
+		name_list = "Human"
+	}
+	vvrr = {
+		name = "海港"
+		plural = "海港"
+		home_planet = "海港"
+		home_system = "海港"
+		name_list = "Human"
+	}
+	vdsdv = {
+		name = "欧迪娜"
+		plural = "欧迪娜"
+		home_planet = "欧迪娜"
+		home_system = "欧迪娜"
+		name_list = "Human"
+	}
+	dssss = {
+		name = "京都"
+		plural = "京都"
+		home_planet = "京都"
+		home_system = "京都"
+		name_list = "Human"
+	}
+	bfbbb = {
+		name = "北海道"
+		plural = "北海道"
+		home_planet = "北海道"
+		home_system = "北海道"
+		name_list = "Human"
+	}
+	gege = {
+		name = "大和"
+		plural = "大和"
+		home_planet = "大和"
+		home_system = "大和"
+		name_list = "Human"
+	}
+	grss = {
+		name = "萨摩"
+		plural = "萨摩"
+		home_planet = "萨摩"
+		home_system = "萨摩"
+		name_list = "Human"
+	}
+	fefg = {
+		name = "安云"
+		plural = "安云"
+		home_planet = "安云"
+		home_system = "安云"
+		name_list = "Human"
+	}
+	fawf = {
+		name = "安房"
+		plural = "安房"
+		home_planet = "安房"
+		home_system = "安房"
+		name_list = "Human"
+	}
+	ndd = {
+		name = "伊贺"
+		plural = "伊贺"
+		home_planet = "伊贺"
+		home_system = "伊贺"
+		name_list = "Human"
+	}
+	gfev = {
+		name = "一岐"
+		plural = "一岐"
+		home_planet = "一岐"
+		home_system = "一岐"
+		name_list = "Human"
+	}
+	fsaa = {
+		name = "伊豆"
+		plural = "伊豆"
+		home_planet = "伊豆"
+		home_system = "伊豆"
+		name_list = "Human"
+	}
+	bfsds = {
+		name = "和泉"
+		plural = "和泉"
+		home_planet = "和泉"
+		home_system = "和泉"
+		name_list = "Human"
+	}
+	grwfv = {
+		name = "出云"
+		plural = "出云"
+		home_planet = "出云"
+		home_system = "出云"
+		name_list = "Human"
+	}
+	fesff = {
+		name = "伊势"
+		plural = "伊势"
+		home_planet = "伊势"
+		home_system = "伊势"
+		name_list = "Human"
+	}
+	sdfew = {
+		name = "因幡"
+		plural = "因幡"
+		home_planet = "因幡"
+		home_system = "因幡"
+		name_list = "Human"
+	}
+	dfwgg = {
+		name = "石见"
+		plural = "石见"
+		home_planet = "石见"
+		home_system = "石见"
+		name_list = "Human"
+	}
+	vriiityt = {
+		name = "近江"
+		plural = "近江"
+		home_planet = "近江"
+		home_system = "近江"
+		name_list = "Human"
+	}
+	ngtnsar = {
+		name = "尾张"
+		plural = "尾张"
+		home_planet = "尾张"
+		home_system = "尾张"
+		name_list = "Human"
+	}
+	bntthn = {
+		name = "甲菲"
+		plural = "甲菲"
+		home_planet = "甲菲"
+		home_system = "甲菲"
+		name_list = "Human"
+	}
+	dzdavd = {
+		name = "加贺"
+		plural = "加贺"
+		home_planet = "加贺"
+		home_system = "加贺"
+		name_list = "Human"
+	}
+	dertt = {
+		name = "河内"
+		plural = "河内"
+		home_planet = "河内"
+		home_system = "河内"
+		name_list = "Human"
+	}
+	felladf = {
+		name = "纪伊"
+		plural = "纪伊"
+		home_planet = "纪伊"
+		home_system = "纪伊"
+		name_list = "Human"
+	}
+	fgrwadc = {
+		name = "吉备"
+		plural = "吉备"
+		home_planet = "吉备"
+		home_system = "吉备"
+		name_list = "Human"
+	}
+	sdgillg = {
+		name = "佐度"
+		plural = "佐度"
+		home_planet = "佐度"
+		home_system = "佐度"
+		name_list = "Human"
+	}
+	qqerdfjj = {
+		name = "信浓"
+		plural = "信浓"
+		home_planet = "信浓"
+		home_system = "信浓"
+		name_list = "Human"
+	}
+	bvrhrhra = {
+		name = "周防"
+		plural = "周防"
+		home_planet = "周防"
+		home_system = "周防"
+		name_list = "Human"
+	}
+	banndfasdcus = {
+		name = "摄津"
+		plural = "摄津"
+		home_planet = "摄津"
+		home_system = "摄津"
+		name_list = "Human"
+	}
+	bafenicus = {
+		name = "丹波"
+		plural = "丹波"
+		home_planet = "丹波"
+		home_system = "丹波"
+		name_list = "Human"
+	}
+	vdvbicus = {
+		name = "対马"
+		plural = "対马"
+		home_planet = "対马"
+		home_system = "対马"
+		name_list = "Human"
+	}
+	banqwerccus = {
+		name = "対马"
+		plural = "対马"
+		home_planet = "対马"
+		home_system = "対马"
+		name_list = "Human"
+	}
+	bangefacus = {
+		name = "长门"
+		plural = "长门"
+		home_planet = "长门"
+		home_system = "长门"
+		name_list = "Human"
+	}
+	bannfdanicus = {
+		name = "飞弹"
+		plural = "飞弹"
+		home_planet = "飞弹"
+		home_system = "飞弹"
+		name_list = "Human"
+	}
+	bannfdhcus = {
+		name = "日向"
+		plural = "日向"
+		home_planet = "日向"
+		home_system = "日向"
+		name_list = "Human"
+	}
+	hgjytjy = {
+		name = "三河"
+		plural = "三河"
+		home_planet = "三河"
+		home_system = "三河"
+		name_list = "Human"
+	}
+	bnmhg = {
+		name = "山城"
+		plural = "山城"
+		home_planet = "山城"
+		home_system = "山城"
+		name_list = "Human"
+	}
+	fhjyt = {
+		name = "平壤"
+		plural = "平壤"
+		home_planet = "平壤"
+		home_system = "平壤"
+		name_list = "Human"
+	}
+	fukyuk = {
+		name = "汉城"
+		plural = "汉城"
+		home_planet = "汉城"
+		home_system = "汉城"
+		name_list = "Human"
+	}
+	lliiuy = {
+		name = "仁川"
+		plural = "仁川"
+		home_planet = "仁川"
+		home_system = "仁川"
+		name_list = "Human"
+	}
+	dwwwhhhg = {
+		name = "釜山"
+		plural = "釜山"
+		home_planet = "釜山"
+		home_system = "釜山"
+		name_list = "Human"
+	}
+}
+YXW = {
+	fsdfebp = {
+		name = "卡通"
+		plural = "卡通"
+		home_planet = "卡通"
+		home_system = "卡通"
+		name_list = "Human"
+	}
+	yuktgxd = {
+		name = "欧贝利斯克"
+		plural = "欧贝利斯克"
+		home_planet = "欧贝利斯克"
+		home_system = "欧贝利斯克"
+		name_list = "Human"
+	}
+	sdsdfghhd = {
+		name = "欧西里斯"
+		plural = "欧西里斯"
+		home_planet = "欧西里斯"
+		home_system = "欧西里斯"
+		name_list = "Human"
+	}
+	bbnnmgf = {
+		name = "太阳神"
+		plural = "太阳神"
+		home_planet = "太阳神"
+		home_system = "太阳神"
+		name_list = "Human"
+	}
+	cvvvddv = {
+		name = "哈拉克提"
+		plural = "哈拉克提"
+		home_planet = "哈拉克提"
+		home_system = "哈拉克提"
+		name_list = "Human"
+	}
+	ddfgrgh = {
+		name = "佐克内洛法"
+		plural = "佐克内洛法"
+		home_planet = "佐克内洛法"
+		home_system = "佐克内洛法"
+		name_list = "Human"
+	}
+	hjjjg = {
+		name = "吉尔福德"
+		plural = "吉尔福德"
+		home_planet = "吉尔福德"
+		home_system = "吉尔福德"
+		name_list = "Human"
+	}
+	qefgefdvb = {
+		name = "索加"
+		plural = "索加"
+		home_planet = "索加"
+		home_system = "索加"
+		name_list = "Human"
+	}
+	qqqfffg = {
+		name = "西蒙"
+		plural = "西蒙"
+		home_planet = "西蒙"
+		home_system = "西蒙"
+		name_list = "Human"
+	}
+	aaadwww = {
+		name = "奥利哈刚"
+		plural = "奥利哈刚"
+		home_planet = "奥利哈刚"
+		home_system = "奥利哈刚"
+		name_list = "Human"
+	}
+	wwssdd = {
+		name = "亚马逊"
+		plural = "亚马逊"
+		home_planet = "亚马逊"
+		home_system = "亚马逊"
+		name_list = "Human"
+	}
+	qqqwwwee = {
+		name = "阿克纳帝"
+		plural = "阿克纳帝"
+		home_planet = "阿克纳帝"
+		home_system = "阿克纳帝"
+		name_list = "Human"
+	}
+	ffrnj = {
+		name = "巴库拉"
+		plural = "巴库拉"
+		home_planet = "巴库拉"
+		home_system = "巴库拉"
+		name_list = "Human"
+	}
+	bfnn = {
+		name = "贝卡斯"
+		plural = "贝卡斯"
+		home_planet = "贝卡斯"
+		home_system = "贝卡斯"
+		name_list = "Human"
+	}
+}
+OTH = {
+	dssddsa = {
+		name = "都铎"
+		plural = "都铎"
+		home_planet = "都铎"
+		home_system = "都铎"
+		name_list = "Human"
+	}
+	sfggg = {
+		name = "白金汉"
+		plural = "白金汉"
+		home_planet = "白金汉"
+		home_system = "白金汉"
+		name_list = "Human"
+	}
+	jykl = {
+		name = "威斯敏斯特"
+		plural = "威斯敏斯特"
+		home_planet = "威斯敏斯特"
+		home_system = "威斯敏斯特"
+		name_list = "Human"
+	}
+	qwf = {
+		name = "约克"
+		plural = "约克"
+		home_planet = "约克"
+		home_system = "约克"
+		name_list = "Human"
+	}
+	erhntre = {
+		name = "瓦卢瓦"
+		plural = "瓦卢瓦"
+		home_planet = "瓦卢瓦"
+		home_system = "瓦卢瓦"
+		name_list = "Human"
+	}
+	ilfrdf = {
+		name = "昂古莱姆"
+		plural = "昂古莱姆"
+		home_planet = "昂古莱姆"
+		home_system = "昂古莱姆"
+		name_list = "Human"
+	}
+	jkuts = {
+		name = "波拿巴"
+		plural = "波拿巴"
+		home_planet = "波拿巴"
+		home_system = "波拿巴"
+		name_list = "Human"
+	}
+	ntastga = {
+		name = "维希"
+		plural = "维希"
+		home_planet ="维希"
+		home_system = "维希"
+		name_list = "Human"
+	}
+	dfgrtyu = {
+		name = "诺曼底"
+		plural = "诺曼底"
+		home_planet = "诺曼底"
+		home_system = "诺曼底"
+		name_list = "Human"
+	}
+	zzffg = {
+		name = "许昌"
+		plural = "许昌人"
+		home_planet = "许昌"
+		home_system = "颍川"
+		name_list = "Human"
+	}
+	bhtrjyu = {
+		name = "成都"
+		plural = "成都人"
+		home_planet = "成都"
+		home_system = "益州"
+		name_list = "Human"
+	}
+	hhradf = {
+		name = "建业"
+		plural = "建业人"
+		home_planet = "建业"
+		home_system = "扬州"
+		name_list = "Human"
+	}
+	awq = {
+		name = "汉中"
+		plural = "汉中人"
+		home_planet = "汉中"
+		home_system = "秦川"
+		name_list = "Human"
+	}
+	tryuk = {
+		name = "长安"
+		plural = "长安人"
+		home_planet = "长安"
+		home_system = "司隶"
+		name_list = "Human"
+	}
+	tjara = {
+		name = "洛阳"
+		plural = "洛阳"
+		home_planet = "洛阳"
+		home_system = "豫州"
+		name_list = "Human"
+	}
+	ahbra = {
+		name = "巴格达"
+		plural = "巴格达"
+		home_planet = "巴格达"
+		home_system = "巴格达"
+		name_list = "Human"
+	}
+	gahr = {
+		name = "江陵"
+		plural = "江陵人"
+		home_planet = "江陵"
+		home_system = "荆州"
+		name_list = "Human"
+	}
+	wff = {
+		name = "维多利亚"
+		plural = "维多利亚"
+		home_planet = "维多利亚"
+		home_system = "维多利亚"
+		name_list = "Human"
+	}
+}

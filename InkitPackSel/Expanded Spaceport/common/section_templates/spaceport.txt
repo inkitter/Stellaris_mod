@@ -1,0 +1,180 @@
+ship_section_template = {
+	key = "CORE_SPACEPORT_SECTION"
+	ship_size = orbital_station
+	entity = "orbital_station_core_entity"
+	icon = "GFX_ship_part_core_mid"
+	fits_on_slot = "1"
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}	
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}	
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}	
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+}
+
+ship_section_template = {
+	key = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	ship_size = orbital_station
+	entity = "orbital_station_assemblyyard_section_entity"
+	icon = "GFX_ship_part_core_mid"
+	fits_on_slot = "2"
+	fits_on_slot = "3"
+	fits_on_slot = "4"
+	fits_on_slot = "5"
+	fits_on_slot = "6"
+	fits_on_slot = "8"
+	fits_on_slot = "9"
+	fits_on_slot = "10"
+	fits_on_slot = "11"
+	fits_on_slot = "12"
+	fits_on_slot = "13"
+	fits_on_slot = "14"
+	fits_on_slot = "15"
+	fits_on_slot = "16"
+	fits_on_slot = "17"
+	fits_on_slot = "18"
+	fits_on_slot = "19"
+	fits_on_slot = "20"
+	fits_on_slot = "21"
+	fits_on_slot = "22"
+	fits_on_slot = "23"
+	fits_on_slot = "24"
+	fits_on_slot = "25"
+	fits_on_slot = "26"
+}
+
+ship_section_template = {
+	key = "HANGARBAY_SPACEPORT_SECTION"
+	ship_size = orbital_station
+	entity = "orbital_station_hangarbay_section_entity"
+	icon = "GFX_ship_part_core_mid"
+	fits_on_slot = "2"
+	fits_on_slot = "3"
+	fits_on_slot = "4"
+	fits_on_slot = "5"
+	fits_on_slot = "6"
+	fits_on_slot = "8"
+	fits_on_slot = "9"
+	fits_on_slot = "10"
+	fits_on_slot = "11"
+	fits_on_slot = "12"
+	fits_on_slot = "13"
+	fits_on_slot = "14"
+	fits_on_slot = "15"
+	fits_on_slot = "16"
+	fits_on_slot = "17"
+	fits_on_slot = "18"
+	fits_on_slot = "19"
+	fits_on_slot = "20"
+	fits_on_slot = "21"
+	fits_on_slot = "22"
+	fits_on_slot = "23"
+	fits_on_slot = "24"
+	fits_on_slot = "25"
+	fits_on_slot = "26"
+}
+
+ship_section_template = {
+	key = "REFINERY_SPACEPORT_SECTION"
+	ship_size = orbital_station
+	entity = "orbital_station_refinery_section_entity"
+	icon = "GFX_ship_part_core_mid"
+	fits_on_slot = "2"
+	fits_on_slot = "3"
+	fits_on_slot = "4"
+	fits_on_slot = "5"
+	fits_on_slot = "6"
+	fits_on_slot = "8"
+	fits_on_slot = "9"
+	fits_on_slot = "10"
+	fits_on_slot = "11"
+	fits_on_slot = "12"
+	fits_on_slot = "13"
+	fits_on_slot = "14"
+	fits_on_slot = "15"
+	fits_on_slot = "16"
+	fits_on_slot = "17"
+	fits_on_slot = "18"
+	fits_on_slot = "19"
+	fits_on_slot = "20"
+	fits_on_slot = "21"
+	fits_on_slot = "22"
+	fits_on_slot = "23"
+	fits_on_slot = "24"
+	fits_on_slot = "25"
+	fits_on_slot = "26"
+}
+
+ship_section_template = {
+	key = "SCIENCE_SPACEPORT_SECTION"
+	ship_size = orbital_station
+	entity = "orbital_station_science_section_entity"
+	icon = "GFX_ship_part_core_mid"
+	fits_on_slot = "2"
+	fits_on_slot = "3"
+	fits_on_slot = "4"
+	fits_on_slot = "5"
+	fits_on_slot = "6"
+	fits_on_slot = "8"
+	fits_on_slot = "9"
+	fits_on_slot = "10"
+	fits_on_slot = "11"
+	fits_on_slot = "12"
+	fits_on_slot = "13"
+	fits_on_slot = "14"
+	fits_on_slot = "15"
+	fits_on_slot = "16"
+	fits_on_slot = "17"
+	fits_on_slot = "18"
+	fits_on_slot = "19"
+	fits_on_slot = "20"
+	fits_on_slot = "21"
+	fits_on_slot = "22"
+	fits_on_slot = "23"
+	fits_on_slot = "24"
+	fits_on_slot = "25"
+	fits_on_slot = "26"
+}

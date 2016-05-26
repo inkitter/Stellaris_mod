@@ -1,0 +1,1455 @@
+
+@distance = 50
+@base_moon_distance = 10
+
+
+### Sol System
+sol_system_initializer = {
+	name = "太阳系"
+	
+	class = "sc_g"
+	asteroids_distance = 120
+	flags = { sol_system }
+	
+	usage = custom_empire
+	
+	planet = {
+		name = "太阳"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "水星"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "金星"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "地球"
+		class = "pc_continental"
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		entity = "continental_planet_earth_entity"
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+		
+		moon = {
+			name = "月球"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+		}
+	}
+	
+	planet = {
+		name = "火星"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 15
+		has_ring = no
+		entity = "barren_planet_mars_entity"
+	}
+	
+	planet = {
+		name = "谷神星"
+		class = "pc_asteroid"
+		orbit_distance = 20
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "智神星"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "婚神星"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "灶神星"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "木星"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 35
+		has_ring = no
+		entity = "gas_giant_jupiter_entity"
+		change_orbit = 6
+		
+		moon = {
+			name = "木卫一"
+			class = "pc_molten"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 110
+			has_ring = no
+		}
+		moon = {
+			name = "木卫二"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+		}
+		moon = {
+			name = "木卫三"
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			name = "木卫四"
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -155
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "土星"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 170
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		change_orbit = 7
+		
+		moon = {
+			name = "土卫六"
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "天王星"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+	
+	planet = {
+		name = "海王星"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -195
+		size = 20
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		change_orbit = 4
+		
+		moon = {
+			name = "海卫一"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 7
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+	
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "sol_neighbor_t1"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "sol_neighbor_t1_first_colony"
+	}
+}
+
+# Sol Neighbor Tier 1
+sol_neighbor_t1 = {
+	name = "巴纳德星"
+	class = sc_m
+
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 20
+	}
+	
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "sol_neighbor_t2_second_colony"
+	}
+}
+
+# Neighbor Tier 1 First Colony
+sol_neighbor_t1_first_colony = {	
+	name = "南门二"
+	class = sc_g
+
+	planet = {
+		name = "半人马座α星A"
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = 1
+		orbit_distance = 25
+		class = ideal_planet_class
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 18 }
+	}
+	
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 25
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {			
+			count = { min = 0 max = 1 }
+			orbit_distance = 5
+		}
+	}
+	
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "sol_neighbor_t2"
+	}
+}
+
+
+# Sol Neighbor Tier 2
+sol_neighbor_t2 = {
+	name = "南河三"
+	class = sc_f
+	asteroids_distance = 70
+
+	planet = {
+		name = "南河三A"
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	planet = {
+		count = 1
+		orbit_distance = 45
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		count = { min = 1 max = 3 }
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 0 max = 360 }
+	}
+	
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 25
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {		
+			count = { min = 0 max = 1 }
+			orbit_distance = 5
+		}
+	}
+}
+
+# Sol Neighbor Tier 2 Second Colony
+sol_neighbor_t2_second_colony = {
+	name = "天狼星"
+	class = sc_a
+
+	planet = {
+		name = "天狼星A"
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		count = 2
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
+	}
+	
+	planet = {
+		count = 1
+		orbit_distance = 25
+		class = ideal_planet_class
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 24 }
+		
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = 2
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
+	}
+}
+
+### Deneb System
+deneb_system = {
+	name = "天津四"
+	class = "sc_a"
+	asteroids_distance = 90
+	
+	usage = custom_empire
+	
+	planet = {
+		name = "天津四"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 60
+		has_ring = no
+	}
+	
+	planet = {
+		name = "地狱"
+		class = "pc_molten"
+		orbit_distance = 60
+		orbit_angle = 45
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "DT4-298"
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = 340
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "LR-2129"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 160
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "GR-345"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 270
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "奥林匹斯"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 200
+		size = 40
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		
+		moon = {
+			name = "新月球"
+			class = "pc_frozen"
+			size = 5
+			orbit_distance = 18
+			orbit_angle = 100
+			has_ring = no
+		}
+		moon = {
+			name = "联合"
+			class = ideal_planet_class
+			orbit_distance = 5
+			orbit_angle = 340
+			size = 16
+			starting_planet = yes
+			has_ring = no
+			entity = "continental_planet_01_entity"	
+			tile_blockers = none
+			modifiers = none
+			
+			init_effect = {
+				prevent_anomaly = yes
+			}
+		
+			init_effect = {
+				random_tile = {
+					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+					set_building = "building_capital_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}	
+					add_resource = {
+						resource = minerals
+						amount = 1
+					}					
+					random_neighboring_tile = {
+						limit = { has_blocker = no has_building = no }
+						set_building = "building_hydroponics_farm_1"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}						
+					}
+					random_neighboring_tile = {
+						limit = { has_blocker = no has_building = no }
+						set_building = "building_power_plant_1"
+						add_resource = {
+							resource = energy
+							amount = 1
+							replace = yes
+						}						
+					}
+					random_neighboring_tile = {
+						limit = { has_blocker = no has_building = no }
+						set_building = "building_power_plant_1"
+						add_resource = {
+							resource = energy
+							amount = 1
+							replace = yes
+						}						
+					}
+					random_neighboring_tile = {
+						limit = { has_blocker = no has_building = no }
+						set_building = "building_mining_network_1"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}						
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_failing_infrastructure"
+					add_resource = {
+						resource = engineering_research
+						amount = 1
+						replace = yes
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_failing_infrastructure"
+					add_resource = {
+						resource = society_research
+						amount = 1
+						replace = yes
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_failing_infrastructure"
+					add_resource = {
+						resource = physics_research
+						amount = 1
+						replace = yes
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_decrepit_dwellings"
+					add_resource = {
+						resource = energy
+						amount = 2
+						replace = yes
+					}					
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_decrepit_dwellings"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}					
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_blocker = "tb_decrepit_dwellings"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}				
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}				
+				}			
+			}
+		}		
+	}
+	
+	planet = {
+		name = "云石"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 325
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "海伯利安"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 110
+		size = 30
+		has_ring = no
+		entity = "gas_giant_05_entity"
+		
+		moon = {
+			name = "赫利俄斯"
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 14
+			orbit_angle = 14
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "滚草"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 35
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "杰克逊星"
+		class = "pc_frozen"
+		orbit_distance = 20
+		orbit_angle = 150
+		size = 20
+		has_ring = no
+	}
+	
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		trigger = {#scope = galactic_object ( parent ). root = root gal obj. from = closest parent. from from = grand parent...
+			#want this?
+		}		
+		initializer = "neighbor_t1"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		trigger = {#scope = galactic_object ( parent ). root = root gal obj. from = closest parent. from from = grand parent...
+			#want this?
+		}		
+		initializer = "neighbor_t1_first_colony"
+	}
+}
+
+### Vultaum Home System
+vultaumar_system = {
+	name = "乌尔塔穆尔"
+	class = "sc_b"
+	asteroids_distance = 0
+	flags = { vultaumar }
+	
+	planet = {
+		name = "乌尔塔穆尔"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+	}
+	
+	planet = {
+		name = "第一乌尔塔穆尔"
+		class = "pc_barren"
+		orbit_distance = 80
+		orbit_angle = 76
+		size = 25
+		has_ring = no
+		entity = "barren_planet_01_destroyed_entity"
+		anomaly = "VULTAUMAR"
+		flags = { vultaum_homeworld }
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				location = THIS
+			}
+		}
+		
+		moon = {
+			name = "乌尔塔穆尔Ia"
+			class = "pc_barren_cold"
+			size = 7
+			orbit_distance = 8
+			orbit_angle = 210
+			has_ring = no
+		}
+		moon = {
+			name = "乌尔塔穆尔Ib"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 8
+			orbit_angle = 95
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "乌尔塔穆尔II"
+		class = "pc_toxic"
+		orbit_distance = 30
+		orbit_angle = 320
+		size = 30
+		has_ring = no
+		
+		moon = {
+			name = "乌尔塔穆尔IIa"
+			class = "pc_barren"
+			size = 6
+			orbit_distance = 12
+			orbit_angle = 180
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "乌尔塔穆尔III"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 210
+		size = 25
+		has_ring = yes
+	}
+	
+	planet = {
+		name = "乌尔塔穆尔IV"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 125
+		size = 40
+		has_ring = no
+		
+		moon = {
+			name = "乌尔塔穆尔IVa"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 20
+			orbit_angle = 15
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "乌尔塔穆尔V"
+		class = "pc_gas_giant"
+		orbit_distance = 45
+		orbit_angle = 185
+		size = 50
+		has_ring = yes
+	}
+}
+
+### Yuht Home System
+yuhtaan_system = {
+	name = "尤哈坦"
+	class = "sc_m"
+	asteroids_distance = 125
+	flags = { yuhtaan }
+	
+	planet = {
+		name = "尤哈坦"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name = "大尤哈坦"
+		class = "pc_barren"
+		orbit_distance = 50
+		orbit_angle = 76
+		size = 25
+		has_ring = no
+		entity = "barren_planet_01_destroyed_entity"
+		anomaly = "YUHTAAN"
+		flags = { yuht_homeworld }
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "large_debris_object"
+				location = THIS
+			}
+			create_ambient_object = {
+				type = "abandoned_starbase_01_object"
+			}
+			last_created_ambient_object = { 
+				set_location = {
+					target = THIS
+					distance = 5
+					angle = random
+				}
+			}
+		}
+		
+		moon = {
+			name = "小尤哈坦"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "尤哈坦II"
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 60
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "尤哈坦III"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 175
+		size = 15
+		has_ring = yes
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "尤哈坦IV"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = -160
+		size = 30
+		has_ring = no
+		change_orbit = 6
+		
+		moon = {
+			name = "尤哈坦IVa"
+			class = "pc_barren_cold"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 110
+			has_ring = no
+		}
+		moon = {
+			name = "尤哈坦IVb"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+		}
+		moon = {
+			name = "尤哈坦IVc"
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "尤哈坦V"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -130
+		size = 30
+		has_ring = yes
+		change_orbit = 6
+		
+		moon = {
+			name = "尤哈坦Va"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 16
+			orbit_angle = 110
+			has_ring = no
+		}
+	}
+}
+
+### First League Home System
+fen_habbanis_system = {
+	name = "芬哈比尼斯"
+	class = "sc_g"
+	asteroids_distance = 85
+	flags = { fen_habbanis }
+	
+	planet = {
+		name = "芬哈比尼斯"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "芬哈比尼斯I"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 40
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "芬哈比尼斯II"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = 110
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 25
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "芬哈比尼斯III"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = 190
+		size = 25
+		has_ring = no
+		anomaly = "FEN_HABBANIS"
+		flags = { first_league_homeworld }
+	}
+	
+	planet = {
+		name = "芬哈比尼斯IV"
+		class = "pc_toxic"
+		orbit_distance = 25
+		orbit_angle = 195
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "芬哈比尼斯V"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 290
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "芬哈比尼斯VI"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 35
+		has_ring = no
+	}	
+}
+
+### Irassian Home System
+irass_system = {
+	name = "伊拉斯"
+	class = "sc_f"
+	asteroids_distance = 125
+	flags = { 伊拉斯}
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+	}
+	
+	planet = {
+		name = "伊拉斯I"
+		class = "pc_molten"
+		orbit_distance = 35
+		orbit_angle = 40
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "伊拉斯II"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = 210
+		size = 25
+		has_ring = yes
+	}
+	
+	planet = {
+		name = "伊拉斯III"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 70
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "伊拉斯IV"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 275
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "伊拉斯V"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 45
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "伊拉斯VI"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 145
+		size = 35
+		has_ring = no
+		
+		moon = {
+			name = "伊拉西亚"
+			class = "pc_barren_cold"
+			orbit_distance = 20
+			orbit_angle = 176
+			size = 20
+			has_ring = no
+			anomaly = "IRASSIA"
+			flags = { irassian_homeworld }
+		}
+	}
+	
+	planet = {
+		name = "伊拉斯VII"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 145
+		size = 20
+		has_ring = no
+		
+		moon = {
+			name = "伊拉斯VIIa"
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+		}
+		
+		moon = {
+			name = "伊拉斯VIIb"
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 4
+			orbit_angle = 150
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "伊拉斯VIII"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 145
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name = "伊拉斯IX"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 45
+		size = 15
+		has_ring = no
+	}
+}
+
+### Cybrex Home System
+cybrex_system = {
+	name = "赛布里克斯阿尔法"
+	class = "sc_g"
+	flags = { cybrex }
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		class = "pc_ringworld_habitable_damaged"
+		name = "中央核心"
+		orbit_angle = 30
+		orbit_distance = 0
+		anomaly = "CYBREX"
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "large_debris_object"
+				location = THIS
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech_damaged"
+		name = "废墟区"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				location = THIS
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_tech_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "small_debris_object"
+				location = THIS
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_seam_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_tech_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "medium_debris_02_object"
+				location = THIS
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "large_debris_object"
+				location = THIS
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_tech_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "small_debris_object"
+				location = THIS
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_seam_damaged"
+		name = "遗迹区"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	
+	init_effect = {
+		create_ambient_object = {
+			type = "large_debris_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "large_debris_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "medium_debris_01_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "medium_debris_01_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "medium_debris_02_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "medium_debris_02_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "small_debris_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "small_debris_object"
+			location = solar_system
+		}
+	}
+}
+

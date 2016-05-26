@@ -1,0 +1,1806 @@
+# Generated species derive their names from here
+
+### MAMMALIANS
+
+MAM = {
+	kroll = {
+		name = 克罗尔
+		plural = 克罗尔
+		home_planet = 克罗尔
+		home_system = 克罗尔
+		name_list = "MAM1"
+	}
+	orassian = {
+		name = 奥斯加
+		plural = 奥斯加
+		home_planet = 奥斯加
+		home_system = 奥斯加
+		name_list = "MAM2"
+	}
+
+	aramathi = {
+		name = 奥卡米
+		plural = 奥卡米
+		home_planet = 奥卡米
+		home_system = 奥卡米
+		name_list = "MAM3"
+	}
+		
+	immutharan = {
+		name = 伊姆斯
+		plural = 伊姆斯
+		home_planet = 伊姆斯
+		home_system = 伊姆斯
+		name_list = "MAM2"
+	}
+
+	hiffnar = {
+		name = 赫夫斯
+		plural = 赫夫斯
+		home_planet = 赫夫斯
+		home_system = 赫夫斯
+		name_list = "MAM4"
+	}
+	
+	zaanami = {
+		name = 赞纳米
+		plural = 赞纳米
+		home_planet = 赞纳米
+		home_system = 赞纳米
+		name_list = "MAM5"
+	}
+
+	estwani = {
+		name = 伊斯特万纳
+		plural = 伊斯特万纳
+		home_planet = 伊斯特万纳
+		home_system = 伊斯特万纳
+		name_list = "MAM3"
+	}
+
+	vailon = {
+		name = 伟德里亚
+		plural = 伟德里亚
+		home_planet = 伟德里亚
+		home_system = 伟德里亚
+		name_list = "MAM1"
+	}
+
+	raltek = {
+		name = 洛勒斯
+		plural = 洛勒斯
+		home_planet = 洛勒斯
+		home_system = 洛勒斯
+		name_list = "MAM2"
+	}
+
+	birnathi = {
+		name = 比热那
+		plural = 比热那
+		home_planet = 比热那
+		home_system = 比热那
+		name_list = "MAM3"
+	}
+
+	othari = {
+		name = 奥托
+		plural = 奥托
+		home_planet = 奥托
+		home_system = 奥托
+		name_list = "MAM4"
+	}
+
+	evandari = {
+		name = 伊凡戴维
+		plural = 伊凡戴维
+		home_planet = 伊凡戴维
+		home_system = 伊凡戴维
+		name_list = "MAM5"
+	}
+
+	bothrian = {
+		name = 包思维
+		plural = 包思维
+		home_planet = 包思维
+		home_system = 包思维
+		name_list = "MAM1"
+	}
+
+	dorbolan = {
+		name = 布博都内
+		plural = 布博都内
+		home_planet = 布博都内
+		home_system = 布博都内
+		name_list = "MAM2"
+	}
+
+	fevarian = {
+		name = 费德瑞阿
+		plural = 费德瑞阿
+		home_planet = 费德瑞阿
+		home_system = 费德瑞阿
+		name_list = "MAM3"
+	}
+
+	kenjodan = {
+		name = 肯久旦
+		plural = 肯久旦
+		home_planet = 肯久旦
+		home_system = 肯久旦
+		name_list = "MAM4"
+	}
+
+	glyrran = {
+		name = 盖伦
+		plural = 盖伦
+		home_planet = 盖伦
+		home_system = 盖伦
+		name_list = "MAM5"
+	}
+	
+	pallyrian = {
+		name = 珀勒利威
+		plural = 珀勒利威
+		home_planet = 珀勒利威
+		home_system = 珀勒利威
+		name_list = "MAM3"
+	}
+	
+	quvarian = {
+		name = 库黛莉亚
+		plural = 库黛莉亚
+		home_planet = 库黛莉亚
+		home_system = 库黛莉亚
+		name_list = "MAM1"
+	}
+	
+	qellnuram = {
+		name = 康罗兰
+		plural = 康罗兰
+		home_planet = 康罗兰
+		home_system = 康罗兰
+		name_list = "MAM2"
+	}
+	
+	valdari = {
+		name = 万代
+		plural = 万代
+		home_planet = 万代
+		home_system = 万代
+		name_list = "MAM5"
+	}
+	igarian = {
+		name = 爱盖尔
+		plural = 爱盖尔
+		home_planet = 爱盖尔
+		home_system = 爱盖尔
+		name_list = "MAM4"
+	}
+	adnoran = {
+		name = 阿诺兰
+		plural = 阿若兰
+		home_planet =阿诺兰
+		home_system =阿诺兰
+		name_list = "MAM3"
+	}
+	
+	TJell = {
+		name = 提杰
+		plural = 提杰
+		home_planet = 提杰
+		home_system = 提杰
+		name_list = "MAM4"
+	}
+	
+	tarassi = {
+		name = 塔拉斯
+		plural = 塔拉斯
+		home_planet = 塔拉斯
+		home_system = 塔拉斯
+		name_list = "MAM1"
+	}
+	dssddsa = {
+		name = 都铎
+		plural = 都铎
+		home_planet = 都铎
+		home_system = 都铎
+		name_list = "Human"
+	}
+	sfggg = {
+		name = 白金汉
+		plural = 白金汉
+		home_planet = 白金汉
+		home_system = 白金汉
+		name_list = "Human"
+	}
+	jykl = {
+		name = 威斯敏斯特
+		plural = 威斯敏斯特
+		home_planet = 威斯敏斯特
+		home_system = 威斯敏斯特
+		name_list = "Human"
+	}
+	qwf = {
+		name = 约克
+		plural = 约克
+		home_planet = 约克
+		home_system = 约克
+		name_list = "Human"
+	}
+	erhntre = {
+		name = 瓦卢瓦
+		plural = 瓦卢瓦
+		home_planet = 瓦卢瓦
+		home_system = 瓦卢瓦
+		name_list = "Human"
+	}
+	ilfrdf = {
+		name = 昂古莱姆
+		plural = 昂古莱姆
+		home_planet = 昂古莱姆
+		home_system = 昂古莱姆
+		name_list = "Human"
+	}
+	jkuts = {
+		name = 波拿巴
+		plural = 波拿巴
+		home_planet = 波拿巴
+		home_system = 波拿巴
+		name_list = "Human"
+	}
+	ntastga = {
+		name = 维希
+		plural = 维希
+		home_planet =维希
+		home_system = 维希
+		name_list = "Human"
+	}
+	dfgrtyu = {
+		name = 诺曼底
+		plural = 诺曼底
+		home_planet = 诺曼底
+		home_system = 诺曼底
+		name_list = "Human"
+	}
+	zzffg = {
+		name = 许昌
+		plural = 许昌人
+		home_planet = 许昌
+		home_system = 颍川
+		name_list = "Human"
+	}
+	bhtrjyu = {
+		name = 成都
+		plural = 成都人
+		home_planet = 成都
+		home_system = 益州
+		name_list = "Human"
+	}
+	hhradf = {
+		name = 建业
+		plural = 建业人
+		home_planet = 建业
+		home_system = 扬州
+		name_list = "Human"
+	}
+	awq = {
+		name = 汉中
+		plural = 汉中人
+		home_planet = 汉中
+		home_system = 秦川
+		name_list = "Human"
+	}
+	tryuk = {
+		name = 长安
+		plural = 长安人
+		home_planet = 长安
+		home_system = 司隶
+		name_list = "Human"
+	}
+	tjara = {
+		name = 洛阳
+		plural = 洛阳
+		home_planet = 洛阳
+		home_system = 豫州
+		name_list = "Human"
+	}
+	ahbra = {
+		name = 巴格达
+		plural = 巴格达
+		home_planet = 巴格达
+		home_system = 巴格达
+		name_list = "Human"
+	}
+	gahr = {
+		name = 江陵
+		plural = 江陵人
+		home_planet = 江陵
+		home_system = 荆州
+		name_list = "Human"
+	}
+	wff = {
+		name = 维多利亚
+		plural = 维多利亚
+		home_planet = 维多利亚
+		home_system = 维多利亚
+		name_list = "Human"
+	}
+}
+
+### FUNGOID
+
+FUN = {
+	monsgsefter = {
+		name = 魔物娘
+		plural = 魔物娘
+		home_planet = 魔球
+		home_system = 魔物
+		name_list = "Human"
+	}
+	mondadbvvteq = {
+		name = 阿波菲斯
+		plural = 阿波菲斯
+		home_planet = 阿波菲斯
+		home_system = 阿波菲斯
+		name_list = "Human"
+	}
+	ngdd = {
+		name = 阿拉克尼
+		plural = 阿拉克尼
+		home_planet = 阿拉克尼
+		home_system = 阿拉克尼
+		name_list = "Human"
+	}
+	adwddd = {
+		name = 阿普撒拉斯
+		plural = 阿普撒拉斯
+		home_planet = 阿普撒拉斯
+		home_system = 阿普撒拉斯
+		name_list = "Human"
+	}
+	gehhr = {
+		name = 爱丽丝
+		plural = 爱丽丝
+		home_planet = 爱丽丝
+		home_system = 爱丽丝
+		name_list = "Human"
+	}
+	bsefew = {
+		name = 艾露普
+		plural = 艾露普
+		home_planet = 艾露普
+		home_system = 艾露普
+		name_list = "Human"
+	}
+	bbnnrn = {
+		name = 别西卜
+		plural = 别西卜
+		home_planet = 别西卜
+		home_system = 别西卜
+		name_list = "Human"
+	}
+	grgrg = {
+		name = 杜拉罕
+		plural = 杜拉罕
+		home_planet = 杜拉罕
+		home_system = 杜拉罕
+		name_list = "Human"
+	}
+	fwafe = {
+		name = 厄喀德娜
+		plural = 厄喀德娜
+		home_planet = 厄喀德娜
+		home_system = 厄喀德娜
+		name_list = "Human"
+	}
+	fwwde = {
+		name = 芙兰杰西卡
+		plural = 芙兰杰西卡
+		home_planet = 芙兰杰西卡
+		home_system = 芙兰杰西卡
+		name_list = "Human"
+	}
+	vafee = {
+		name = 荷斯陶洛斯
+		plural = 荷斯陶洛斯
+		home_planet = 荷斯陶洛斯
+		home_system = 荷斯陶洛斯
+		name_list = "Human"
+	}
+	grgcc = {
+		name = 史莱姆
+		plural = 史莱姆
+		home_planet = 史莱姆
+		home_system = 史莱姆
+		name_list = "Human"
+	}
+	qwrt = {
+		name = 卡律布狄斯
+		plural = 卡律布狄斯
+		home_planet = 卡律布狄斯
+		home_system = 卡律布狄斯
+		name_list = "Human"
+	}
+	ffwqf = {
+		name = 凯斯柏莎
+		plural = 凯斯柏莎
+		home_planet = 凯斯柏莎
+		home_system = 凯斯柏莎
+		name_list = "Human"
+	}
+	hahha = {
+		name = 库西
+		plural = 库西
+		home_planet = 库西
+		home_system = 库西
+		name_list = "Human"
+	}
+	hrah = {
+		name = 莉莉娜温
+		plural = 莉莉娜温
+		home_planet = 莉莉娜温
+		home_system = 莉莉娜温
+		name_list = "Human"
+	}
+	efegh = {
+		name = 玛坦戈
+		plural = 玛坦戈
+		home_planet = 玛坦戈
+		home_system = 玛坦戈
+		name_list = "Human"
+	}
+	bhennthell = {
+		name = 孢子
+		plural = 孢子
+		home_planet = 孢子
+		home_system = 孢子
+		name_list = "FUN1"
+	}
+
+	tendrazuhn = {
+		name = 孢囊
+		plural = 孢囊
+		home_planet = 孢囊
+		home_system = 孢囊
+		name_list = "FUN2"
+	}
+	
+	hahnmur = {
+		name = 哈魂木
+		plural = 哈魂木
+		home_planet = 哈魂木
+		home_system = 哈魂木
+		name_list = "FUN1"
+	}
+	
+	menjeti = {
+		name = 门杰特
+		plural = 门杰特
+		home_planet = 门杰特
+		home_system = 门杰特
+		name_list = "FUN2"
+	}
+
+	hissma = {
+		name = 赫思玛
+		plural = 赫思玛
+		home_planet = 赫思玛
+		home_system = 赫思玛
+		name_list = "FUN1"
+	}
+
+	tycan = {
+		name = 思昌
+		plural = 思昌
+		home_planet = 思昌
+		home_system = 思昌
+		name_list = "FUN2"
+	}
+	
+	canthari = {
+		name = 桑特哈鲁
+		plural = 桑特哈鲁
+		home_planet = 桑特哈鲁
+		home_system = 桑特哈鲁
+		name_list = "FUN1"
+	}
+	
+	otaga = {
+		name = 欧塔拉
+		plural = 欧塔拉
+		home_planet = 欧塔拉
+		home_system = 欧塔拉
+		name_list = "FUN2"
+	}
+	
+	zracon = {
+		name = 扎然
+		plural = 扎然
+		home_planet = 扎然
+		home_system = 扎然
+		name_list = "FUN1"
+	}
+	
+	thembolon = {
+		name = 区孟博隆
+		plural = 区孟博隆
+		home_planet = 区孟博隆
+		home_system = 区孟博隆
+		name_list = "FUN2"
+	}
+	
+	jhoolian = {
+		name = 塔太烈
+		plural = 塔太烈
+		home_planet = 塔太烈
+		home_system = 塔太烈
+		name_list = "FUN1"
+	}
+	
+		name = 奇奇莫拉
+		plural = 奇奇莫拉
+		home_planet = 奇奇莫拉
+		home_system = 奇奇莫拉
+		name_list = "Human"
+	}
+	tbcm = {
+		name = 圣杯
+		plural = 圣杯
+		home_planet = 圣杯
+		home_system = 圣杯
+		name_list = "Human"
+	}
+	gioyyt = {
+		name = 圣剑
+		plural = 圣剑
+		home_planet = 圣剑
+		home_system = 圣剑
+		name_list = "Human"
+	}
+	feefeh = {
+		name = 阿卡林
+		plural = 阿卡林
+		home_planet = 阿卡林
+		home_system = 阿卡林
+		name_list = "Human"
+	}
+	gefqwe = {
+		name = 兰斯
+		plural = 兰斯
+		home_planet = 兰斯
+		home_system = 兰斯
+		name_list = "Human"
+	}
+	vvrr = {
+		name = 海港
+		plural = 海港
+		home_planet = 海港
+		home_system = 海港
+		name_list = "Human"
+	}
+	vdsdv = {
+		name = 欧迪娜
+		plural = 欧迪娜
+		home_planet = 欧迪娜
+		home_system = 欧迪娜
+		name_list = "Human"
+	}
+	dssss = {
+		name = 京都
+		plural = 京都
+		home_planet = 京都
+		home_system = 京都
+		name_list = "Human"
+	}
+	bfbbb = {
+		name = 北海道
+		plural = 北海道
+		home_planet = 北海道
+		home_system = 北海道
+		name_list = "Human"
+	}
+	gege = {
+		name = 大和
+		plural = 大和
+		home_planet = 大和
+		home_system = 大和
+		name_list = "Human"
+	}
+	grss = {
+		name = 萨摩
+		plural = 萨摩
+		home_planet = 萨摩
+		home_system = 萨摩
+		name_list = "Human"
+	}
+	fefg = {
+		name = 安云
+		plural = 安云
+		home_planet = 安云
+		home_system = 安云
+		name_list = "Human"
+	}
+	fawf = {
+		name = 安房
+		plural = 安房
+		home_planet = 安房
+		home_system = 安房
+		name_list = "Human"
+	}
+	ndd = {
+		name = 伊贺
+		plural = 伊贺
+		home_planet = 伊贺
+		home_system = 伊贺
+		name_list = "Human"
+	}
+	gfev = {
+		name = 一岐
+		plural = 一岐
+		home_planet = 一岐
+		home_system = 一岐
+		name_list = "Human"
+	}
+	fsaa = {
+		name = 伊豆
+		plural = 伊豆
+		home_planet = 伊豆
+		home_system = 伊豆
+		name_list = "Human"
+	}
+	bfsds = {
+		name = 和泉
+		plural = 和泉
+		home_planet = 和泉
+		home_system = 和泉
+		name_list = "Human"
+	}
+	grwfv = {
+		name = 出云
+		plural = 出云
+		home_planet = 出云
+		home_system = 出云
+		name_list = "Human"
+	}
+	fesff = {
+		name = 伊势
+		plural = 伊势
+		home_planet = 伊势
+		home_system = 伊势
+		name_list = "Human"
+	}
+	sdfew = {
+		name = 因幡
+		plural = 因幡
+		home_planet = 因幡
+		home_system = 因幡
+		name_list = "Human"
+	}
+	dfwgg = {
+		name = 石见
+		plural = 石见
+		home_planet = 石见
+		home_system = 石见
+		name_list = "Human"
+	}
+	vriiityt = {
+		name = 近江
+		plural = 近江
+		home_planet = 近江
+		home_system = 近江
+		name_list = "Human"
+	}
+	ngtnsar = {
+		name = 尾张
+		plural = 尾张
+		home_planet = 尾张
+		home_system = 尾张
+		name_list = "Human"
+	}
+	bntthn = {
+		name = 甲菲
+		plural = 甲菲
+		home_planet = 甲菲
+		home_system = 甲菲
+		name_list = "Human"
+	}
+	dzdavd = {
+		name = 加贺
+		plural = 加贺
+		home_planet = 加贺
+		home_system = 加贺
+		name_list = "Human"
+	}
+	dertt = {
+		name = 河内
+		plural = 河内
+		home_planet = 河内
+		home_system = 河内
+		name_list = "Human"
+	}
+	felladf = {
+		name = 纪伊
+		plural = 纪伊
+		home_planet = 纪伊
+		home_system = 纪伊
+		name_list = "Human"
+	}
+	fgrwadc = {
+		name = 吉备
+		plural = 吉备
+		home_planet = 吉备
+		home_system = 吉备
+		name_list = "Human"
+	}
+	sdgillg = {
+		name = 佐度
+		plural = 佐度
+		home_planet = 佐度
+		home_system = 佐度
+		name_list = "Human"
+	}
+	qqerdfjj = {
+		name = 信浓
+		plural = 信浓
+		home_planet = 信浓
+		home_system = 信浓
+		name_list = "Human"
+	}
+	bvrhrhra = {
+		name = 周防
+		plural = 周防
+		home_planet = 周防
+		home_system = 周防
+		name_list = "Human"
+	}
+	banndfasdcus = {
+		name = 摄津
+		plural = 摄津
+		home_planet = 摄津
+		home_system = 摄津
+		name_list = "Human"
+	}
+	bafenicus = {
+		name = 丹波
+		plural = 丹波
+		home_planet = 丹波
+		home_system = 丹波
+		name_list = "Human"
+	}
+	vdvbicus = {
+		name = 対马
+		plural = 対马
+		home_planet = 対马
+		home_system = 対马
+		name_list = "Human"
+	}
+	banqwerccus = {
+		name = 対马
+		plural = 対马
+		home_planet = 対马
+		home_system = 対马
+		name_list = "Human"
+	}
+	bangefacus = {
+		name = 长门
+		plural = 长门
+		home_planet = 长门
+		home_system = 长门
+		name_list = "Human"
+	}
+	bannfdanicus = {
+		name = 飞弹
+		plural = 飞弹
+		home_planet = 飞弹
+		home_system = 飞弹
+		name_list = "Human"
+	}
+	bannfdhcus = {
+		name = 日向
+		plural = 日向
+		home_planet = 日向
+		home_system = 日向
+		name_list = "Human"
+	}
+	hgjytjy = {
+		name = 三河
+		plural = 三河
+		home_planet = 三河
+		home_system = 三河
+		name_list = "Human"
+	}
+	bnmhg = {
+		name = 山城
+		plural = 山城
+		home_planet = 山城
+		home_system = 山城
+		name_list = "Human"
+	}
+	fhjyt = {
+		name = 平壤
+		plural = 平壤
+		home_planet = 平壤
+		home_system = 平壤
+		name_list = "Human"
+	}
+	fukyuk = {
+		name = 汉城
+		plural = 汉城
+		home_planet = 汉城
+		home_system = 汉城
+		name_list = "Human"
+	}
+	lliiuy = {
+		name = 仁川
+		plural = 仁川
+		home_planet = 仁川
+		home_system = 仁川
+		name_list = "Human"
+	}
+	dwwwhhhg = {
+		name = 釜山
+		plural = 釜山
+		home_planet = 釜山
+		home_system = 釜山
+		name_list = "Human"
+	}
+}
+
+### ARTHROPOID
+
+ART = {
+	qqq = {
+		name = 保加利亚
+		plural = 保加利亚族
+		home_planet = 保加利亚
+		home_system = 保加利亚
+		name_list = "MAM1"
+	}
+	qqw = {
+		name = 亚历山大
+		plural = 亚历山大族
+		home_planet = 亚历山大
+		home_system = 亚历山大
+		name_list = "MAM1"
+	}
+	qqe = {
+		name = 米海尔
+		plural = 米海尔族
+		home_planet = 米海尔
+		home_system = 米海尔
+		name_list = "MAM1"
+	}
+	qqr = {
+		name = 布里恩
+		plural = 布里恩族
+		home_planet = 布里恩
+		home_system = 布里恩
+		name_list = "MAM1"
+	}
+	themlar = {
+		name = 汤姆勒
+		plural = 汤姆勒
+		home_planet = 汤姆勒
+		home_system = 汤姆勒
+		name_list = "ART1"
+	}
+	gagega = {
+		name = 哈根达斯
+		plural = 哈根达斯
+		home_planet = 哈根达斯
+		home_system = 哈根达斯
+		name_list = "ART1"
+	}
+
+	garhh = {
+		name = 短笛
+		plural = 短笛族
+		home_planet = 短笛
+		home_system = 短笛
+		name_list = "ART1"
+	}
+
+	fabhtnj = {
+		name = 维京
+		plural = 维京
+		home_planet = 维京
+		home_system = 维京
+		name_list = "ART1"
+	}
+
+	agrgrga = {
+		name = 琥珀
+		plural = 琥珀族
+		home_planet = 琥珀
+		home_system = 琥珀
+		name_list = "ART1"
+	}
+
+	dnsdnt = {
+		name = 瓦尔德马
+		plural = 瓦尔德马
+		home_planet = 瓦尔德马
+		home_system = 瓦尔德马
+		name_list = "ART1"
+	}
+
+	hrhyjk = {
+		name = 文德
+		plural = 文德
+		home_planet = 文德
+		home_system = 文德
+		name_list = "ART1"
+	}
+
+	hwhwweg = {
+		name = 克努特
+		plural = 克努特
+		home_planet = 克努特
+		home_system = 克努特
+		name_list = "ART1"
+	}
+	 rqgr5t = {
+		name = 斯文
+		plural = 斯文
+		home_planet = 斯文
+		home_system = 斯文
+		name_list = "ART1"
+	}
+	afweqwq = {
+		name = 卡尔马
+		plural = 卡尔马
+		home_planet = 卡尔马
+		home_system = 卡尔马
+		name_list = "ART1"
+	}
+
+	tezhnid = {
+		name = 八爪
+		plural = 八爪族
+		home_planet = 八爪
+		home_system = 八爪
+		name_list = "ART2"
+	}
+	
+	pithok = {
+		name = 六爪
+		plural = 六爪族
+		home_planet = 六爪
+		home_system = 六爪
+		name_list = "ART1"
+	}
+
+	cithin = {
+		name = 十爪
+		plural = 十爪族
+		home_planet = 十爪
+		home_system = 十爪
+		name_list = "ART2"
+	}
+
+	thimoid = {
+		name = 屈帕隆
+		plural = 屈帕隆
+		home_planet = 屈帕隆
+		home_system = 屈帕隆
+		name_list = "ART1"
+	}
+
+	rutharian = {
+		name = 林阙利安
+		plural = 林阙利安
+		home_planet = 林阙利安
+		home_system = 林阙利安
+		name_list = "ART2"
+	}
+
+	jhabbanid = {
+		name = 尤博
+		plural = 尤博
+		home_planet = 尤博
+		home_system = 尤博
+		name_list = "ART1"
+	}
+	bsdffe = {
+		name = 德里
+		plural = 德里
+		home_planet = 德里
+		home_system = 德里
+		name_list = "ART1"
+	}
+	bkle = {
+		name = 罗第
+		plural = 罗第
+		home_planet = 罗第
+		home_system = 罗第
+		name_list = "ART1"
+	}
+	avdae = {
+		name = 安得拉
+		plural = 安得拉
+		home_planet = 安得拉
+		home_system = 安得拉
+		name_list = "ART1"
+	}
+	bbbaaa = {
+		name = 特里普拉
+		plural = 特里普拉
+		home_planet = 特里普拉
+		home_system = 特里普拉
+		name_list = "ART1"
+	}
+	dvdses = {
+		name = 棱镜
+		plural = 棱镜
+		home_planet = 棱镜
+		home_system = 棱镜
+		name_list = "ART1"
+	}
+	qfgee = {
+		name = 卷体族
+		plural = 卷体族
+		home_planet = 卷体族
+		home_system = 卷体族
+		name_list = "ART1"
+	}
+	gwwww = {
+		name = 大触
+		plural = 大触族
+		home_planet = 大触
+		home_system = 大触
+		name_list = "ART1"
+	}
+	tsgf = {
+		name = 卡纳塔克
+		plural = 卡纳塔克
+		home_planet = 卡纳塔克
+		home_system = 卡纳塔克
+		name_list = "ART1"
+	}
+
+	saathid = {
+		name = 皮托斯
+		plural = 皮托斯
+		home_planet = 皮托斯
+		home_system = 皮托斯
+		name_list = "ART2"
+	}
+}
+
+### REPTILIAN
+
+REP = {
+	rethellian = {
+		name = 暗鳞
+		plural = 暗鳞族
+		home_planet = 暗鳞
+		home_system = 暗鳞
+		name_list = "REP1"
+	}
+	
+	kammarian = {
+		name = 光鳞
+		plural = 光鳞族
+		home_planet = 光鳞
+		home_system = 光鳞
+		name_list = "REP2"
+	}
+	
+	anathurian = {
+		name = 爬行族
+		plural = 爬行族
+		home_planet = 爬行
+		home_system = 爬行
+		name_list = "REP3"
+	}
+
+	zuifvan = {
+		name = 冷血
+		plural = 冷血族
+		home_planet = 冷血
+		home_system = 冷血
+		name_list = "REP1"
+	}
+	
+	reshethi = {
+		name = 冬眠
+		plural = 冬眠族
+		home_planet = 冬眠
+		home_system = 冬眠
+		name_list = "REP2"
+	}
+
+	dethakkan = {
+		name = 夏眠
+		plural = 夏眠族
+		home_planet = 夏眠
+		home_system = 夏眠
+		name_list = "REP3"
+	}
+
+	ikarzuri = {
+		name = 铁皮
+		plural = 铁皮族
+		home_planet = 铁皮
+		home_system = 铁皮
+		name_list = "REP1"
+	}
+
+	vhemm = {
+		name = 两栖
+		plural = 两栖族
+		home_planet = 两栖
+		home_system = 两栖
+		name_list = "REP2"
+	}
+	
+	fweggh = {
+		name = 条顿
+		plural = 条顿
+		home_planet = 条顿
+		home_system = 条顿
+		name_list = "REP3"
+	}
+	fwegtynj = {
+		name = 波美拉尼亚
+		plural = 波美拉尼亚
+		home_planet = 波美拉尼亚
+		home_system = 波美拉尼亚
+		name_list = "REP3"
+	}
+	thyjq = {
+		name = 汉萨
+		plural = 汉萨
+		home_planet = 汉萨
+		home_system = 汉萨
+		name_list = "REP3"
+	}
+	hytjr = {
+		name = 阿尔伯特
+		plural = 阿尔伯特
+		home_planet = 阿尔伯特
+		home_system = 阿尔伯特
+		name_list = "REP3"
+	}
+	grehthy = {
+		name = 腓特烈
+		plural = 腓特烈
+		home_planet = 腓特烈
+		home_system = 腓特烈
+		name_list = "REP3"
+	}
+	qqetg = {
+		name = 柯尼斯
+		plural = 柯尼斯
+		home_planet = 柯尼斯堡
+		home_system = 柯尼斯
+		name_list = "REP3"
+	}
+	sdbh = {
+		name = 沙恩霍斯特
+		plural = 沙恩霍斯特
+		home_planet = 沙恩霍斯特
+		home_system = 沙恩霍斯特
+		name_list = "REP3"
+	}
+	abftnt = {
+		name = 法兰克尼亚
+		plural = 法兰克尼亚
+		home_planet = 法兰克尼亚
+		home_system = 法兰克尼亚
+		name_list = "REP3"
+	}
+	vgtod = {
+		name = 米兰
+		plural = 米兰
+		home_planet = 米兰
+		home_system = 米兰
+		name_list = "REP1"
+	}
+	hrebre = {
+		name = 布拉格
+		plural = 布拉格
+		home_planet = 布拉格
+		home_system = 布拉格
+		name_list = "REP3"
+	}
+	ntrae = {
+		name = 根特
+		plural = 根特
+		home_planet = 根特
+		home_system = 根特
+		name_list = "REP2"
+	}
+	bear = {
+		name = 科隆
+		plural = 科隆
+		home_planet = 科隆
+		home_system = 科隆
+		name_list = "REP2"
+	}
+	hraqq = {
+		name = 布鲁日
+		plural = 布鲁日
+		home_planet = 布鲁日
+		home_system = 布鲁日
+		name_list = "REP2"
+	}
+	gety = {
+		name = 布鲁塞尔
+		plural = 布鲁塞尔
+		home_planet = 布鲁塞尔
+		home_system = 布鲁塞尔
+		name_list = "REP2"
+	}
+	huoi = {
+		name = 安特卫普
+		plural = 安特卫普
+		home_planet = 安特卫普
+		home_system = 安特卫普
+		name_list = "REP2"
+	}
+	htrew = {
+		name = 维也纳
+		plural = 维也纳
+		home_planet = 维也纳
+		home_system = 维也纳
+		name_list = "REP2"
+	}
+	rgwaq = {
+		name = 亚琛
+		plural = 亚琛
+		home_planet = 亚琛
+		home_system = 亚琛
+		name_list = "REP2"
+	}
+	htewa = {
+		name = 波西米亚
+		plural = 波西米亚
+		home_planet = 波西米亚
+		home_system = 波西米亚
+		name_list = "REP2"
+	}
+	
+	khjgty = {
+		name = 葡萄石
+		plural = 葡萄石
+		home_planet = 葡萄石
+		home_system = 葡萄石
+		name_list = "REP3"
+	}
+	
+	
+	tendrakkian = {
+		name = 高冷
+		plural = 高冷族
+		home_planet = 高冷
+		home_system = 高冷
+		name_list = "REP3"
+	}
+	
+	baanthurian = {
+		name = 巴安德日安
+		plural = 巴安德日安
+		home_planet = 巴安德日安
+		home_system = 巴安德日安
+		name_list = "REP1"
+	}
+	
+	cormathani = {
+		name = 玛汤尼
+		plural = 玛汤尼
+		home_planet = 玛汤尼
+		home_system = 玛汤尼
+		name_list = "REP2"
+	}
+	
+	kirillian = {
+		name = 凯瑞艾力兰
+		plural = 凯瑞艾力兰
+		home_planet = 凯瑞艾力兰
+		home_system = 凯瑞艾力兰
+		name_list = "REP3"
+	}
+	
+}
+
+### AVIAN 
+
+AVI = {
+	budapeisi = {
+		name = 布达佩斯
+		plural = 布达佩斯
+		home_planet = 布达佩斯
+		home_system = 布达佩斯
+		name_list = "AVI1"
+	}
+	pannuoya = {
+		name = 阿尔帕德
+		plural = 阿尔帕德
+		home_planet = 阿尔帕德
+		home_system = 阿尔帕德
+		name_list = "AVI1"
+	}
+	wfqgegq = {
+		name = 佩切涅格
+		plural = 佩切涅格
+		home_planet = 佩切涅格
+		home_system = 佩切涅格
+		name_list = "AVI1"
+	}
+	qqs = {
+		name = 墨尔文
+		plural = 墨尔文族
+		home_planet = 墨尔文
+		home_system = 墨尔文
+		name_list = "MAM1"
+	}
+	qqv = {
+		name = 比耶博
+		plural = 比耶博族
+		home_planet = 比耶博
+		home_system = 比耶博
+		name_list = "MAM1"
+	}
+	qqh = {
+		name = 巴伐利亚
+		plural = 巴伐利亚族
+		home_planet = 巴伐利亚
+		home_system = 巴伐利亚
+		name_list = "MAM1"
+	}
+	egwgtwgfer = {
+		name = 潘诺尼亚
+		plural = 潘诺尼亚
+		home_planet = 潘诺尼亚
+		home_system = 潘诺尼亚
+		name_list = "AVI1"
+	}
+	fwqffe = {
+		name = 马克西米利安
+		plural = 马克西米利安
+		home_planet = 马克西米利安
+		home_system = 马克西米利安
+		name_list = "AVI1"
+	}
+	shantari = {
+		name = 高空
+		plural = 高空族
+		home_planet = 高空
+		home_system = 高空
+		name_list = "AVI1"
+	}
+	
+	saiiban = {
+		name = 低空
+		plural = 低空族
+		home_planet = 低空
+		home_system = 低空
+		name_list = "AVI2"
+	}
+
+	ikaanan = {
+		name = 振翅
+		plural = 振翅族
+		home_planet = 振翅
+		home_system = 振翅
+		name_list = "AVI3"
+	}
+
+	avarrian = {
+		name = 翎羽
+		plural = 翎羽族
+		home_planet = 翎羽
+		home_system = 翎羽
+		name_list = "AVI1"
+	}
+
+	khessam = {
+		name = 猛禽
+		plural = 猛禽族
+		home_planet = 猛禽
+		home_system = 猛禽
+		name_list = "AVI2"
+	}
+	
+	cynn = {
+		name = 彩羽
+		plural = 彩羽族
+		home_planet = 彩羽
+		home_system = 彩羽
+		name_list = "AVI3"
+	}
+	
+	yeon = {
+		name = 追风
+		plural = 追风族
+		home_planet = 追风
+		home_system = 追风
+		name_list = "AVI1"
+	}
+	dsgrrw = {
+		name = 斯拉夫
+		plural = 斯拉夫人
+		home_planet = 斯拉夫
+		home_system = 斯拉夫
+		name_list = "AVI1"
+	}
+	gswrhtr = {
+		name = 莫西科
+		plural = 莫西科
+		home_planet = 莫西科
+		home_system = 莫西科
+		name_list = "AVI1"
+	}
+	jipu = {
+		name = 基普
+		plural = 基普
+		home_planet = 基普
+		home_system = 基普
+		name_list = "AVI1"
+	}
+	gfegew = {
+		name = 弗拉基米尔
+		plural = 弗拉基米尔
+		home_planet = 弗拉基米尔
+		home_system = 弗拉基米尔
+		name_list = "AVI1"
+	}
+	gage = {
+		name = 斯摩棱斯克
+		plural = 斯摩棱斯克
+		home_planet = 斯摩棱斯克
+		home_system = 斯摩棱斯克
+		name_list = "AVI1"
+	}
+	afwfe = {
+		name = 诺夫哥罗德
+		plural = 诺夫哥罗德
+		home_planet = 诺夫哥罗德
+		home_system = 诺夫哥罗德
+		name_list = "AVI1"
+	}
+	qqt = {
+		name = 布雷塔尼
+		plural = 布雷塔尼族
+		home_planet = 布雷塔尼
+		home_system = 布雷塔尼
+		name_list = "MAM1"
+	}
+	qqy = {
+		name = 高卢
+		plural = 高卢族
+		home_planet = 高卢
+		home_system = 高卢
+		name_list = "MAM1"
+	}
+	qqa = {
+		name = 罗马
+		plural = 罗马族
+		home_planet = 罗马
+		home_system = 罗马
+		name_list = "MAM1"
+	}
+	qqd = {
+		name = 耶路撒冷
+		plural = 耶路撒冷族
+		home_planet = 耶路撒冷
+		home_system = 耶路撒冷
+		name_list = "MAM1"
+	}
+	
+}
+
+### MOLLUSCOID
+
+MOL = {
+	fsdfebp = {
+		name = 卡通
+		plural = 卡通
+		home_planet = 卡通
+		home_system = 卡通
+		name_list = "Human"
+	}
+	yuktgxd = {
+		name = 欧贝利斯克
+		plural = 欧贝利斯克
+		home_planet = 欧贝利斯克
+		home_system = 欧贝利斯克
+		name_list = "Human"
+	}
+	sdsdfghhd = {
+		name = 欧西里斯
+		plural = 欧西里斯
+		home_planet = 欧西里斯
+		home_system = 欧西里斯
+		name_list = "Human"
+	}
+	bbnnmgf = {
+		name = 太阳神
+		plural = 太阳神
+		home_planet = 太阳神
+		home_system = 太阳神
+		name_list = "Human"
+	}
+	cvvvddv = {
+		name = 哈拉克提
+		plural = 哈拉克提
+		home_planet = 哈拉克提
+		home_system = 哈拉克提
+		name_list = "Human"
+	}
+	ddfgrgh = {
+		name = 佐克内洛法
+		plural = 佐克内洛法
+		home_planet = 佐克内洛法
+		home_system = 佐克内洛法
+		name_list = "Human"
+	}
+	hjjjg = {
+		name = 吉尔福德
+		plural = 吉尔福德
+		home_planet = 吉尔福德
+		home_system = 吉尔福德
+		name_list = "Human"
+	}
+	qefgefdvb = {
+		name = 索加
+		plural = 索加
+		home_planet = 索加
+		home_system = 索加
+		name_list = "Human"
+	}
+	qqqfffg = {
+		name = 西蒙
+		plural = 西蒙
+		home_planet = 西蒙
+		home_system = 西蒙
+		name_list = "Human"
+	}
+	aaadwww = {
+		name = 奥利哈刚
+		plural = 奥利哈刚
+		home_planet = 奥利哈刚
+		home_system = 奥利哈刚
+		name_list = "Human"
+	}
+	wwssdd = {
+		name = 亚马逊
+		plural = 亚马逊
+		home_planet = 亚马逊
+		home_system = 亚马逊
+		name_list = "Human"
+	}
+	qqqwwwee = {
+		name = 阿克纳帝
+		plural = 阿克纳帝
+		home_planet = 阿克纳帝
+		home_system = 阿克纳帝
+		name_list = "Human"
+	}
+	ffrnj = {
+		name = 巴库拉
+		plural = 巴库拉
+		home_planet = 巴库拉
+		home_system = 巴库拉
+		name_list = "Human"
+	}
+	bfnn = {
+		name = 贝卡斯
+		plural = 贝卡斯
+		home_planet = 贝卡斯
+		home_system = 贝卡斯
+		name_list = "Human"
+	}
+	Aztani = {
+		name = 蜗壳
+		plural = 蜗壳族
+		home_planet = 蜗壳
+		home_system = 蜗壳
+		name_list = "MOL1"
+	}
+	
+	karabnar = {
+		name = 触手
+		plural = 触手族
+		home_planet = 触手
+		home_system = 触手
+		name_list = "MOL2"
+	}
+	
+	ymorz = {
+		name = 海贝
+		plural = 海贝族
+		home_planet = 海贝
+		home_system = 海贝
+		name_list = "MOL1"
+	}
+	
+	bilnoc = {
+		name = 藏贝
+		plural = 藏贝族
+		home_planet = 藏贝
+		home_system = 藏贝
+		name_list = "MOL2"
+	}
+	
+	larongo = {
+		name = 软足
+		plural = 软足族
+		home_planet = 软足
+		home_system = 软足
+		name_list = "MOL1"
+	}
+	
+	uthonian = {
+		name = 硬腹
+		plural = 硬腹族
+		home_planet = 硬腹
+		home_system = 硬腹
+		name_list = "MOL2"
+	}
+	
+	elaaminid = {
+		name = 大壳
+		plural = 大壳族
+		home_planet = 大壳
+		home_system = 大壳
+		name_list = "MOL1"
+	}
+	
+	heejam = {
+		name = 双壳
+		plural = 双壳族
+		home_planet = 双壳
+		home_system = 双壳
+		name_list = "MOL2"
+	}
+	
+	hannfelir = {
+		name = 无板
+		plural = 无板族
+		home_planet = 无板
+		home_system = 无板
+		name_list = "MOL1"
+	}
+	
+	cyggan = {
+		name = 尾腔
+		plural = 尾腔族
+		home_planet = 尾腔
+		home_system = 尾腔
+		name_list = "MOL2"
+	}
+	
+	gorothi = {
+		name = 硬螺
+		plural = 硬螺族
+		home_planet = 硬螺
+		home_system = 硬螺
+		name_list = "MOL1"
+	}
+	
+	connisthian = {
+		name = 墨汁
+		plural = 墨汁族
+		home_planet = 墨汁
+		home_system = 墨汁
+		name_list = "MOL2"
+	}
+	
+	nuurian = {
+		name = 游触
+		plural = 游触族
+		home_planet = 游触
+		home_system = 游触
+		name_list = "MOL1"
+	}
+	
+	genoggian = {
+		name = 吸盘
+		plural = 吸盘族
+		home_planet = 吸盘
+		home_system = 吸盘
+		name_list = "MOL2"
+	}
+	
+	dabulan = {
+		name = 达布兰
+		plural = 达布兰
+		home_planet = 达布兰
+		home_system = 达布兰
+		name_list = "MOL1"
+	}
+	
+	uthabulan = {
+		name = 海布兰
+		plural = 海布兰
+		home_planet = 海布兰
+		home_system = 海布兰
+		name_list = "MOL2"
+	}
+	
+	gurite = {
+		name = 古日特
+		plural = 古日特
+		home_planet = 古日特
+		home_system = 古日特
+		name_list = "MOL1"
+	}
+	
+	hythean = {
+		name = 秋河岸
+		plural = 秋河岸族
+		home_planet = 秋河岸
+		home_system = 秋河岸
+		name_list = "MOL2"
+	}
+	
+	tebbran = {
+		name = 忒博布朗
+		plural = 忒博布朗
+		home_planet = 忒博布朗
+		home_system = 忒博布朗
+		name_list = "MOL1"
+	}
+	
+	kundaric = {
+		name = 昆达日茨
+		plural = 昆达日茨
+		home_planet = 昆达日茨 
+		home_system = 昆达日茨
+		name_list = "MOL2"
+	}
+	
+	sejethari = {
+		name = 瑟杰
+		plural = 瑟杰
+		home_planet = 瑟杰
+		home_system = 瑟杰
+		name_list = "MOL1"
+	}
+	
+	bakurian = {
+		name = 巴库瑞尔
+		plural = 巴库瑞尔
+		home_planet = 巴库瑞尔
+		home_system = 巴库瑞尔
+		name_list = "MOL2"
+	}
+	
+	sebannic = {
+		name = 瑟博
+		plural = 瑟博
+		home_planet = 瑟博
+		home_system = 瑟博
+		name_list = "MOL1"
+	}
+	
+	jakly = {
+		name = 加库里
+		plural = 加库里
+		home_planet = 加库里
+		home_system = 加库里
+		name_list = "MOL2"
+	}
+	
+	bavi = {
+		name = 霸伊
+		plural = 霸伊
+		home_planet = 霸伊
+		home_system = 霸伊
+		name_list = "MOL1"
+	}
+}
+
+### AI
+
+AI = {
+	ai = {
+		name = 机器人
+		plural = 机器人
+		home_planet = "Grid x0y0z0"
+		home_system = "UGrid x0y0z0"
+		name_list = "AI"
+	}
+}

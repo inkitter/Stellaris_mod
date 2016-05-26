@@ -1,0 +1,93 @@
+war_name_parts_list = {
+	key = "war_names"
+	parts = {
+		"之战" = 1
+		"之争" = 1
+		"纠纷" = 1
+	}
+}
+
+war_name_parts_list = {
+	key = "freedom_names"
+	parts = {
+		"自由" = 1
+		"解放" = 1
+		"独立" = 1
+	}
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_alliance = yes
+			}
+			defender = {
+				has_alliance = yes
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetAllianceName] <war_names>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_alliance = yes
+			}
+			defender = {
+				has_alliance = no
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAllianceName] - [This.MainDefender.GetSpeciesName] <war_names>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				has_alliance = no
+			}
+			defender = {
+				has_alliance = yes
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetSpeciesName] - [This.MainDefender.GetAllianceName] <war_names>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				NOT = {
+					exists = overlord
+				}
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetSpeciesName] - [This.MainDefender.GetSpeciesName] <war_names>"
+}
+
+war_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1
+			attacker = {
+				exists = overlord
+			}
+		}
+	}
+	format = "[This.MainAttacker.GetAdj] <freedom_names> <war_names>"
+}

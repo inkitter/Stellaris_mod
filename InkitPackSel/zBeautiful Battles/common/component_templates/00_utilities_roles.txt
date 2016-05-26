@@ -1,0 +1,202 @@
+#############
+# UTILITIES ROLES #
+#############
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_DEFAULT"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	ship_behavior = "default"
+	modifier = {
+		ship_weapon_damage = 0.1	
+		ship_evasion_add = 10
+	}		
+	
+	ai_weight = {
+		weight = 15	
+	}
+	
+	class_restriction = { shipclass_military }
+	
+	component_set = "combat_computers"
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_AGGRESSIVE_BASIC"
+	size = small
+	icon = "GFX_ship_part_computer_aggressive_basic"
+	icon_frame = 1
+	power = 0
+	cost = 1
+	ship_behavior = "aggressive"
+	modifier = {
+		ship_fire_rate_mult = 0.1
+		ship_weapon_damage = 0.1
+	}
+	
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 2
+			has_country_flag = ai_flag_aggressive_personality
+		}
+	}
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "combat_computers"
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_DEFENSIVE_BASIC"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_basic"
+	icon_frame = 1
+	power = 0
+	cost = 3
+	ship_behavior = "defensive"
+	modifier = {
+		ship_hitpoints_mult = 0.1
+		ship_evasion_add = 10
+	}
+	
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 2
+			has_country_flag = ai_flag_defensive_personality
+		}
+	}
+
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_1" }
+	component_set = "combat_computers"
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_AGGRESSIVE_ADVANCED"
+	size = small
+	icon = "GFX_ship_part_computer_aggressive_advanced"
+	icon_frame = 1
+	power = 0
+	cost = 1
+	ship_behavior = "aggressive"
+	modifier = {
+		ship_fire_rate_mult = 0.2
+		ship_weapon_damage = 0.2
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 2
+			has_country_flag = ai_flag_aggressive_personality
+		}
+	}
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_2" }
+	component_set = "combat_computers"
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_DEFENSIVE_ADVANCED"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_advanced"
+	icon_frame = 1
+	power = 0
+	cost = 3
+	ship_behavior = "defensive"
+	modifier = {
+		ship_hitpoints_mult = 0.2
+		ship_evasion_add = 15
+	}
+	
+	ai_weight = {
+		weight = 100
+		modifier = {
+			factor = 2
+			has_country_flag = ai_flag_defensive_personality
+		}
+	}
+
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_2" }
+	component_set = "combat_computers"
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_SENTIENT"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	ship_behavior = "default"
+	modifier = {
+		ship_fire_rate_mult = 0.2
+		ship_evasion_add = 15
+		ship_weapon_damage = 0.2
+	}
+	
+	ai_weight = {
+		weight = 500
+		modifier = {
+			factor = 2
+			OR = {
+				has_ethic = "ethic_materialist"
+				has_ethic = "ethic_fanatic_materialist"
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				has_ethic = "ethic_spiritualist"
+				has_ethic = "ethic_fanatic_spiritualist"
+			}
+		}
+	}
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_combat_computers_3" }
+	component_set = "combat_computers"
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	ship_behavior = "default"
+	modifier = {
+		ship_evasion_add = 20
+		ship_weapon_damage = 0.1
+	}
+	
+	ai_weight = {
+		weight = 500
+		modifier = {
+			factor = 2
+			OR = {
+				has_ethic = "ethic_spiritualist"
+				has_ethic = "ethic_fanatic_spiritualist"
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				has_ethic = "ethic_materialist"
+				has_ethic = "ethic_fanatic_materialist"
+			}
+		}
+	}
+	
+	class_restriction = { shipclass_military }
+	prerequisites = { "tech_precognition_interface" }
+	component_set = "combat_computers"
+}

@@ -1,0 +1,569 @@
+#######################################
+# Coded by mastec
+# Repacked and edited by Remanemporor
+#######################################
+
+abandon_planet = {
+	execution_order = 1
+	
+	parameters = {
+		planet = {
+			type = planet
+			filter = owned
+		}
+	}
+	
+	warscore_cost = {
+		base = 20	
+
+		scaled_modifier = {
+			scope = parameter:planet
+			add = 0.8
+			calc = pop_count
+		}
+	}
+	
+	potential = {
+		has_technology = tech_ideological_wars
+		parameter:planet = {
+			owner = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		subject_can_diplomacy = this
+		parameter:planet = {
+			is_neighbor_of = root
+			is_capital = no
+		}		
+	}
+	
+	possible = {
+		always = yes
+	}
+	
+	proposable = {
+		war_demand_counter = {
+			type = ceded_or_liberated
+			value < 1
+		}
+	}
+	
+	demandable = {
+		parameter:planet = {
+			controller = {
+				fromfrom = {
+					is_war_participant = {
+						who = prev
+						side = from
+					}
+				}
+			}
+		}
+	}
+	
+	effect = {
+		parameter:planet = {		
+			destroy_colony = yes
+		}			
+	}
+
+	counters = {
+		num_owned_planets = {
+			context = parameter:planet.owner
+			value = {
+				base = -1
+			}
+		}
+		ceded_or_liberated = {
+			context = parameter:planet
+			value = {
+				base = 1
+			}			
+		}		
+	}
+	
+	ai_weight = {
+		base = 20
+		
+		modifier = {
+			factor = 10.0
+			has_ethic = ethic_xenophobe
+			has_ethic = ethic_fanatic_militarist
+		}
+		
+		modifier = {
+			factor = 20.0
+			has_ethic = ethic_fanatic_xenophobe
+		}		
+		
+		scaled_modifier = {
+			scope = parameter:planet
+			div = 2
+			calc = planet_distance_empire
+		}
+		
+		scaled_modifier = {
+			scope = parameter:planet
+			add = 2
+			calc = planets_in_country
+		}
+		
+		modifier = {
+			factor = 20
+			OR = {
+				has_ai_personality_behaviour = liberator
+				has_ai_personality_behaviour = conqueror
+			}
+		}
+	}
+	
+	AI_invasion_target = yes
+}
+
+abolish_ai = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 80
+	}
+	
+	potential = {
+		has_technology = tech_ideological_wars	
+		parameter:country = {
+			is_country = from
+		}		
+	}
+	
+	possible = {			
+		parameter:country = {
+			NOT = { has_policy_flag = ai_outlawed }
+			has_technology = tech_robotic_workers
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {		
+			hidden_effect = {
+				set_policy = {
+					policy = artificial_intelligence_policy
+					option = ai_outlawed
+					cooldown = yes
+				}
+			}		
+		}
+	}
+	
+	ai_weight = {
+		base = 80
+		
+		modifier = {
+			factor = 10
+			has_ethic = ethic_spiritualist
+		}
+		
+		modifier = {
+			factor = 20
+			has_ethic = ethic_fanatic_spiritualist
+		}
+	}
+}
+
+abolish_slavery = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 80
+	}
+
+	potential = {
+		has_technology = tech_ideological_wars	
+		parameter:country = {
+			is_country = from
+		}		
+	}
+	
+	possible = {			
+		parameter:country = {
+			NOT = { has_policy_flag = slavery_not_allowed }
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {		
+			hidden_effect = {
+				set_policy = {
+					policy = slavery
+					option = slavery_not_allowed
+					cooldown = yes
+				}
+			}		
+		}
+	}
+	
+	ai_weight = {
+		base = 20
+		
+		modifier = {
+			factor = 20
+			OR = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_individualist
+				has_ethic = ethic_pacifist
+			}
+		}
+		
+		modifier = {
+			factor = 30
+			OR = {
+				has_ethic = ethic_fanatic_xenophile
+				has_ethic = ethic_fanatic_individualist
+			}
+		}
+		
+		modifier = {
+			factor = 30
+			OR = {
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = peaceful_traders
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = federation_builders
+			}
+		}
+	}
+}
+
+abolish_purge = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 80
+	}
+
+	potential = {
+		has_technology = tech_ideological_wars
+		parameter:country = {
+			is_country = from
+		}		
+	}
+	
+	possible = {			
+		parameter:country = {
+			NOT = { has_policy_flag = purge_not_allowed }
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {		
+			hidden_effect = {
+				set_policy = {
+					policy = purge
+					option = purge_not_allowed
+					cooldown = yes
+				}
+			}		
+		}
+	}
+	
+	ai_weight = {
+		base = 20
+		
+		modifier = {
+			factor = 0
+			#NOT = { has_ai_personality = fallen_empire_xenophile }
+		}
+		
+		modifier = {
+			factor = 20
+			has_ethic = ethic_xenophile
+			has_ethic = ethic_pacifist
+		}
+		
+		modifier = {
+			factor = 30
+			has_ethic = ethic_fanatic_xenophile
+			has_ethic = ethic_fanatic_pacifist
+		}
+		
+		modifier = {
+			factor = 30
+			OR = {
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = peaceful_traders
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = federation_builders
+			}
+		}
+	}
+}
+
+humiliate = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 60
+	}
+
+	potential = {
+		has_technology = tech_ideological_wars
+		parameter:country = {
+			is_country = from
+		}		
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {		
+			add_modifier = { modifier = humiliated days = 7200 }			
+		}
+		hidden_effect = {
+			add_opinion_modifier = { modifier = opinion_put_in_their_place who = parameter:country }
+		}		
+	}
+	
+	ai_weight = {
+		base = 20
+		
+		modifier = {
+			factor = 20
+			OR = {
+				has_ai_personality_behaviour = liberator
+				has_ai_personality_behaviour = conqueror
+			}
+		}
+	}
+}
+
+cede_frontier_outpost = {
+	execution_order = 1
+	
+	parameters = {
+		system = {
+			type = galactic_object
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Ruler Trait - Expansionist
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_trait_expansionist"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_expansionist }
+			}
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+	}
+	
+	potential = {
+		has_technology = tech_ideological_wars
+		custom_tooltip_fail = {
+			text = "war_demand_cede_frontier_outpost_no_stations"
+			parameter:system = {
+				any_ship_in_system = {
+					is_ship_class = shipclass_outpost_station
+					owner = {
+						OR = {
+							AND = {
+								exists = fromfrom
+								from = {
+									from = {
+										is_war_participant = {
+											who = prevprev
+											side = prev
+										}
+									}
+								}
+							}
+							AND = {
+								NOT = { exists = fromfrom }
+								would_join_war = {
+									attacker = root
+									defender = from
+									side = from
+								}
+							}
+							
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_cede_planet_no_vassals"
+			subject_can_diplomacy = this
+		}
+	}
+	
+	possible = {
+		custom_tooltip_fail = {
+			text = "war_demand_cede_frontier_outpost_no_stations_left"
+			any_country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+				}
+				
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+				parameter:system = {
+					any_ship_in_system = {
+						is_ship_class = shipclass_outpost_station
+						owner = {
+							is_same_value = prevprevprev
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:system = {
+			every_fleet_in_system = {
+				limit = {
+					is_ship_class = shipclass_outpost_station
+					owner = {
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+				}
+				set_owner = fromfromfrom
+			}
+		}
+	}
+	
+	ai_weight = {
+		base = 30
+		
+		modifier = {
+			factor = 20
+			OR = {
+				has_ai_personality_behaviour = liberator
+				has_ai_personality_behaviour = conqueror
+			}
+		}
+	}
+}

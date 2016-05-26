@@ -1,0 +1,87 @@
+namespace = sectordefensenavy
+
+country_event = {
+	id = sectordefensenavy.1
+	hide_window = yes
+	fire_only_once = no
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		is_ai = no
+	}
+		
+	immediate = {
+		every_ship = {
+			limit = {
+				NOT = { has_modifier = sector_defense_fleet }
+				fleet = { 
+					OR  = { 
+						is_ship_size = constructor # Makes sure we only hit ships the sector can build.
+						is_ship_size = corvette
+						is_ship_size = destroyer
+						is_ship_size = cruiser
+						is_ship_size = battleship
+					}
+					#sector_controlled = yes
+				}
+				#sector_controlled = yes
+				owner = { 
+					is_ai = no # Ensures we don't hit other countries ships. 
+				}
+			}
+			#add_modifier = {
+				#modifier = sector_defense_fleet # Modifier to remove the naval capacity cost.
+				#days = -1 # Makes it permanent.
+			#}
+			#owner = {
+				#add_modifier = {
+					#modifier = sector_defense_country
+					#days = -1
+				#}
+			#}
+			#reduce_hp = 20
+		}
+		#recalc_fleet_presence
+		#reload stats
+	}
+}
+
+	#Scopes
+	#every_owned_ship 
+	#fleet
+	#owner
+	#any_sector
+	
+	#Conditions
+	#is_ship_class
+	#is_ship_size
+	
+	#Modifiers
+	#ship_upkeep_mult = 0.1
+	#navy_size_add = 0.1
+	#navy_size_mult = 1
+	
+	#Effects
+	#set_owner
+	
+	#every_system?
+	#every_fleet?
+	#every_fleet_in_system
+	#every_ship?
+	#has_ship_flag? Can I use this to check for county ownership?
+	
+	#Go through every ship in the country, if the owner isn't the player.  Set it's naval capacity to 0 if possible, or add its ship size to the country's capacity.
+	
+	#is_ship_size = corvette
+	#navy_size_add = 1
+	#is_ship_size = destroyer
+	#navy_size_add = 2
+	#is_ship_size = cruiser
+	#navy_size_add = 4
+	#is_ship_size = battleship
+	#navy_size_add = 8

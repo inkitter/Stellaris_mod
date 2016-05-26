@@ -1,0 +1,126 @@
+# Generated species derive their names from here
+
+### 哺乳
+
+MAM = {
+	miaoxinr = {
+		name = "喵星"
+		plural = "喵星人"
+		home_planet = "喵星"
+		home_system = "喵星"
+		name_list = "MOL3"
+	}
+	wangxinr = {
+		name = "汪星人"
+		plural = "汪星人"
+		home_planet = "汪星"
+		home_system = "汪星"
+		name_list = "MOL3"
+	}
+	boerduo = {
+		name = "波尔多"
+		plural = "波尔多人"
+		home_planet = "波尔多"
+		home_system ="波尔多"
+		name_list = MAM1
+	}
+	yashu = {
+		name = "亚述"
+		plural = "亚述人"
+		home_planet = "亚述"
+		home_system ="亚述"
+		name_list = MAM1
+	}
+	sibada = {
+		name = "斯巴达"
+		plural = "斯巴达人"
+		home_planet = "斯巴达"
+		home_system ="斯巴达"
+		name_list = MAM1
+	}
+}
+
+### 菌类
+
+FUN = {
+	heian = {
+		name = "暗光"
+		plural = "暗光族"
+		home_planet = "暗光"
+		home_system = "暗光"
+		name_list = "FUN3"
+	}
+	chaos = {
+		name = "潮湿族"
+		plural = "潮湿族"
+		home_planet = "潮湿族"
+		home_system = "潮湿族"
+		name_list = "FUN3"
+	}
+	aerfa = {
+		name = "阿尔法"
+		plural = "阿尔法"
+		home_planet = "阿尔法"
+		home_system = "阿尔法"
+		name_list = "FUN3"
+	}
+}
+
+### 节肢动物
+
+ART = {
+	boerduo = {
+		name = "埃克斯"
+		plural = "埃克斯人"
+		home_planet = "埃克斯"
+		home_system = "埃克斯"
+		name_list = "ART3"
+	}
+	aobiga = {
+		name = "奥米加"
+		plural = "奥米加"
+		home_planet = "奥米加"
+		home_system = "奥米加"
+		name_list = "ART3"
+	}
+
+}
+
+### 爬行动物
+
+REP = {
+	beita = {
+		name = "贝他"
+		plural = "贝他"
+		home_planet = "贝他"
+		home_system = "贝他"
+		name_list = "REP3"
+	}
+	
+}
+
+### 鸟类
+
+AVI = {
+	
+	yinjiu = {
+		name = "鹰鹫"
+		plural = "鹰鹫族"
+		home_planet = "鹰鹫"
+		home_system = "鹰鹫"
+		name_list = "AVI1"
+	}
+}
+
+### 软体动物
+
+MOL = {
+	gama = {
+		name = "伽马"
+		plural = "伽马"
+		home_planet = "伽马"
+		home_system = "伽马"
+		name_list = "MOL3"
+	}
+	
+}

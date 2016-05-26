@@ -1,0 +1,38 @@
+############################
+#
+# Extended Traits events
+# by r-M
+#
+############################
+
+extraits_very_weak = {
+	ship_weapon_damage = -0.1
+}
+
+extraits_conservationists = {
+	planet_clear_blocker_cost_mult = 0.5
+	planet_clear_blocker_time_mult = 0.75
+}
+
+extraits_deliberators = {
+	influence_gain_add = 1
+}
+
+extraits_virtualists = {
+	influence_gain_add = -1
+}
+
+extraits_pol_adept = {
+	max_rivalries = 1
+	max_embassies = 1
+}
+
+extraits_natural_architects = {
+	building_time_mult = -0.05
+	planet_building_cost_mult = -0.1
+}
+
+extraits_incompetent_architects = {
+	building_time_mult = 0.05
+	planet_building_cost_mult = 0.1
+}

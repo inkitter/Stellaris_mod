@@ -1,0 +1,153 @@
+planet_edict = {
+	name = "border_growth_I"
+	influence_cost = 50
+	modifier = {
+		planet_border_mult = 0.2
+	}
+	
+	length = 3600
+	
+	potential = {
+		planet = {
+			OR = {
+				has_building = building_colony_shelter
+				has_building = building_capital_1
+				has_building = building_capital_2
+				has_building = building_capital_3
+			}
+		}
+	}
+	
+	allow = {
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			num_pops<6
+		}
+	}
+}
+
+planet_edict = {
+	name = "border_growth_II"
+	influence_cost = 100
+	modifier = {
+		planet_border_mult = 0.4
+	}
+	
+	length = 3600
+	
+	potential = {
+		planet = {
+			OR = {
+				has_building = building_capital_1
+				has_building = building_capital_2
+				has_building = building_capital_3
+			}
+		}
+	}
+	
+	allow = {
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			num_pops<6
+		}
+	}
+}
+
+planet_edict = {
+	name = "border_growth_III"
+	influence_cost = 200
+	modifier = {
+		planet_border_mult = 0.6
+	}
+	
+	length = 3600
+	
+	potential = {
+		planet = {
+			OR = {
+				has_building = building_capital_1
+				has_building = building_capital_2
+				has_building = building_capital_3
+			}
+		}
+	}
+	
+	allow = {
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			num_pops<6
+		}
+	}
+}
+
+planet_edict = {
+	name = "border_growth_IV"
+	influence_cost = 400
+	modifier = {
+		planet_border_mult = 0.8
+	}
+	
+	length = 3600
+	
+	potential = {
+		planet = {
+			OR = {
+				has_building = building_capital_2
+				has_building = building_capital_3
+			}
+		}
+	}
+	
+	allow = {
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			num_pops<6
+		}
+	}
+}
+
+planet_edict = {
+	name = "border_growth_V"
+	influence_cost = 750
+	modifier = {
+		planet_border_mult = 1
+	}
+	
+	length = 3600
+	
+	potential = {
+		planet = {
+			OR = {
+				has_building = building_capital_2
+				has_building = building_capital_3
+			}
+		}
+	}
+	
+	allow = {
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0
+			num_pops<6
+		}
+	}
+}

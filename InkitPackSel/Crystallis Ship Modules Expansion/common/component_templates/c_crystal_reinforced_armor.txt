@@ -1,0 +1,288 @@
+
+#############
+#	COST	#
+#############
+
+@cost_1S = 5
+@cost_1M = 10
+@cost_1L = 20
+
+@cost_2S = 10
+@cost_2M = 20
+@cost_2L = 40
+
+@cost_3S = 15
+@cost_3M = 30
+@cost_3L = 60
+
+@cost_4S = 20
+@cost_4M = 40
+@cost_4L = 80
+
+@cost_5S = 25
+@cost_5M = 50
+@cost_5L = 100
+
+@cost_6S = 30
+@cost_6M = 60
+@cost_6L = 120
+
+@cost_7S = 35
+@cost_7M = 70
+@cost_7L = 140
+
+@cost_8S = 40
+@cost_8M = 80
+@cost_8L = 160
+
+@cost_9S = 45
+@cost_9M = 90
+@cost_9L = 180
+
+@cost_10S = 50
+@cost_10M = 100
+@cost_10L = 200
+
+#############
+#	ARMOR	#
+#############
+
+@armor_1S = 1
+@armor_1M = 2
+@armor_1L = 4
+
+@armor_2S = 2
+@armor_2M = 4
+@armor_2L = 8
+
+@armor_3S = 3
+@armor_3M = 6
+@armor_3L = 12
+
+@armor_4S = 4
+@armor_4M = 8
+@armor_4L = 16
+
+@armor_5S = 5
+@armor_5M = 10
+@armor_5L = 20
+
+@armor_6S = 6
+@armor_6M = 12
+@armor_6L = 24
+
+@armor_7S = 7
+@armor_7M = 14
+@armor_7L = 28
+
+@armor_8S = 8
+@armor_8M = 16
+@armor_8L = 32
+
+@armor_9S = 9
+@armor_9M = 18
+@armor_9L = 36
+
+@armor_10S = 10
+@armor_10M = 20
+@armor_10L = 40
+
+# Plasteel Armor
+utility_component_template = {
+	key = "SMALL_ARMOR_6"
+	size = small
+	icon = "GFX_ship_part_armor_6"
+	icon_frame = 1
+	power = 0
+	cost = @cost_6S
+	armor_value = @armor_6S
+	
+	prerequisites = { "tech_ship_armor_6" }
+	component_set = "ARMOR_6"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ARMOR_6"
+	size = medium
+	icon = "GFX_ship_part_armor_6"
+	icon_frame = 1
+	power = 0
+	cost = @cost_6M
+	armor_value = @armor_6M
+	
+	prerequisites = { "tech_ship_armor_6" }
+	component_set = "ARMOR_6"
+}
+
+utility_component_template = {
+	key = "LARGE_ARMOR_6"
+	size = large
+	icon = "GFX_ship_part_armor_6"
+	icon_frame = 1
+	power = 0
+	cost = @cost_6L
+	armor_value = @armor_6L
+	
+	prerequisites = { "tech_ship_armor_6" }
+	component_set = "ARMOR_6"
+}
+
+# Durasteel Armor
+utility_component_template = {
+	key = "SMALL_ARMOR_7"
+	size = small
+	icon = "GFX_ship_part_armor_7"
+	icon_frame = 1
+	power = 0
+	cost = @cost_7S
+	armor_value = @armor_7S
+	
+	prerequisites = { "tech_ship_armor_7" }
+	component_set = "ARMOR_7"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ARMOR_7"
+	size = medium
+	icon = "GFX_ship_part_armor_7"
+	icon_frame = 1
+	power = 0
+	cost = @cost_7M
+	armor_value = @armor_7M
+	
+	prerequisites = { "tech_ship_armor_7" }
+	component_set = "ARMOR_7"
+}
+
+utility_component_template = {
+	key = "LARGE_ARMOR_7"
+	size = large
+	icon = "GFX_ship_part_armor_7"
+	icon_frame = 1
+	power = 0
+	cost = @cost_7L
+	armor_value = @armor_7L
+	
+	prerequisites = { "tech_ship_armor_7" }
+	component_set = "ARMOR_7"
+}
+
+# Ceramo-Metal Armor
+utility_component_template = {
+	key = "SMALL_ARMOR_8"
+	size = small
+	icon = "GFX_ship_part_armor_8"
+	icon_frame = 1
+	power = 0
+	cost = @cost_8S
+	armor_value = @armor_8S
+	
+	prerequisites = { "tech_ship_armor_8" }
+	component_set = "ARMOR_8"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ARMOR_8"
+	size = medium
+	icon = "GFX_ship_part_armor_8"
+	icon_frame = 1
+	power = 0
+	cost = @cost_8M
+	armor_value = @armor_8M
+	
+	prerequisites = { "tech_ship_armor_8" }
+	component_set = "ARMOR_8"
+}
+
+utility_component_template = {
+	key = "LARGE_ARMOR_8"
+	size = large
+	icon = "GFX_ship_part_armor_8"
+	icon_frame = 1
+	power = 0
+	cost = @cost_8L
+	armor_value = @armor_8L
+	
+	prerequisites = { "tech_ship_armor_8" }
+	component_set = "ARMOR_8"
+}
+
+# Nanocomposite Armor
+utility_component_template = {
+	key = "SMALL_ARMOR_9"
+	size = small
+	icon = "GFX_ship_part_armor_9"
+	icon_frame = 1
+	power = 0
+	cost = @cost_9S
+	armor_value = @armor_9S
+	
+	prerequisites = { "tech_ship_armor_9" }
+	component_set = "ARMOR_9"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ARMOR_9"
+	size = medium
+	icon = "GFX_ship_part_armor_9"
+	icon_frame = 1
+	power = 0
+	cost = @cost_9M
+	armor_value = @armor_9M
+	
+	prerequisites = { "tech_ship_armor_9" }
+	component_set = "ARMOR_9"
+}
+
+utility_component_template = {
+	key = "LARGE_ARMOR_9"
+	size = large
+	icon = "GFX_ship_part_armor_9"
+	icon_frame = 1
+	power = 0
+	cost = @cost_9L
+	armor_value = @armor_9L
+	
+	prerequisites = { "tech_ship_armor_9" }
+	component_set = "ARMOR_9"
+}
+
+# Neutronium Armor
+utility_component_template = {
+	key = "SMALL_ARMOR_10"
+	size = small
+	icon = "GFX_ship_part_armor_10"
+	icon_frame = 1
+	power = 0
+	cost = @cost_10S
+	armor_value = @armor_10S
+	
+	prerequisites = { "tech_ship_armor_10" }
+	component_set = "ARMOR_10"
+}
+
+utility_component_template = {
+	key = "MEDIUM_ARMOR_10"
+	size = medium
+	icon = "GFX_ship_part_armor_10"
+	icon_frame = 1
+	power = 0
+	cost = @cost_10M
+	armor_value = @armor_10M
+	
+	prerequisites = { "tech_ship_armor_10" }
+	component_set = "ARMOR_10"
+}
+
+utility_component_template = {
+	key = "LARGE_ARMOR_10"
+	size = large
+	icon = "GFX_ship_part_armor_10"
+	icon_frame = 1
+	power = 0
+	cost = @cost_10L
+	armor_value = @armor_10L
+	
+	prerequisites = { "tech_ship_armor_10" }
+	component_set = "ARMOR_10"
+}

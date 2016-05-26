@@ -1,0 +1,528 @@
+ship_focus = {
+	potential = {
+		has_technology = tech_fleet_focus
+	}
+	option = {
+		name = "extreme_quality_ship_focus"
+		
+		valid = {
+			OR = {
+				has_policy_flag = quality_ship_focus
+				has_policy_flag = extreme_quality_ship_focus
+			}
+		}
+		policy_flags = {
+			extreme_quality_ship_focus
+		}
+		modifier = {
+			ship_auto_repair_add = 0.01
+			navy_size_mult = -0.4
+			ship_upkeep_mult = 0.5
+			spaceport_ship_build_cost_mult = 0.5
+			planet_ship_build_speed_mult = -0.5
+			ship_fire_rate_mult = 0.3
+			ship_hitpoints_mult = 0.3
+
+
+		}
+	}
+
+	option = {
+		name = "quality_ship_focus"
+
+		prerequisites = {
+			"tech_imperial_reforms"
+		}
+
+		valid = {
+			OR = {
+				has_policy_flag = extreme_quality_ship_focus
+				has_policy_flag = quality_ship_focus
+				has_policy_flag = slight_quality_ship_focus
+			}
+		}
+		policy_flags = {
+			quality_ship_focus
+		}
+		modifier = {
+			navy_size_mult = -0.25
+			ship_upkeep_mult = 0.25
+			spaceport_ship_build_cost_mult = 0.25
+			planet_ship_build_speed_mult = -0.25
+			ship_fire_rate_mult = 0.2
+			ship_hitpoints_mult = 0.2
+		}
+	}	
+	option = {
+		name = "slight_quality_ship_focus"
+
+		prerequisites = {
+			"tech_fleet_focus"
+		}
+		
+		valid = {
+			OR = {
+				has_policy_flag = quality_ship_focus
+				has_policy_flag = slight_quality_ship_focus
+				has_policy_flag = balanced_ship_focus
+			}
+		}
+		policy_flags = {
+			slight_quality_ship_focus
+		}
+		modifier = {
+			navy_size_mult = -0.1
+			ship_upkeep_mult = 0.1
+			spaceport_ship_build_cost_mult = 0.1
+			planet_ship_build_speed_mult = -0.1
+			ship_fire_rate_mult = 0.1
+			ship_hitpoints_mult = 0.1
+		}
+	}
+	option = {
+		name = "balanced_ship_focus"
+		
+		valid = {
+			OR = {
+				NOT = {
+					# For the first time around
+					has_policy_flag = extreme_quality_ship_focus
+					has_policy_flag = quality_ship_focus
+					has_policy_flag = slight_quality_ship_focus
+					has_policy_flag = balanced_ship_focus
+					has_policy_flag = slight_quantity_ship_focus
+					has_policy_flag = quantity_ship_focus
+					has_policy_flag = extreme_quantity_ship_focus
+				}
+				OR = {
+					has_policy_flag = slight_quality_ship_focus
+					has_policy_flag = balanced_ship_focus
+					has_policy_flag = slight_quantity_ship_focus
+				}
+			}
+		}
+		policy_flags = {
+			balanced_ship_focus
+		}
+	}
+	option = {
+		name = "slight_quantity_ship_focus"
+
+		prerequisites = {
+			"tech_fleet_focus"
+		}
+		
+		valid = {
+			OR = {
+				has_policy_flag = quantity_ship_focus
+				has_policy_flag = slight_quantity_ship_focus
+				has_policy_flag = balanced_ship_focus
+			}
+		}
+		policy_flags = {
+			slight_quantity_ship_focus
+		}
+		modifier = {
+			navy_size_mult = 0.1
+			ship_upkeep_mult = -0.1
+			spaceport_ship_build_cost_mult = -0.1
+			planet_ship_build_speed_mult = 0.1
+			ship_fire_rate_mult = -0.05
+			ship_hitpoints_mult = -0.05
+		}
+	}
+	option = {
+		name = "quantity_ship_focus"
+		
+		valid = {
+			OR = {
+				has_policy_flag = quantity_ship_focus
+				has_policy_flag = slight_quantity_ship_focus
+				has_policy_flag = extreme_quantity_ship_focus
+			}
+		}
+		prerequisites = {
+			"tech_imperial_reforms"
+		}
+		policy_flags = {
+			quantity_ship_focus
+		}
+		modifier = {
+			navy_size_mult = 0.2
+			ship_upkeep_mult = -0.2
+			spaceport_ship_build_cost_mult = -0.2
+			planet_ship_build_speed_mult = 0.2
+			ship_fire_rate_mult = -0.2
+			ship_hitpoints_mult = -0.2
+		}
+	}
+	option = {
+		name = "extreme_quantity_ship_focus"
+		
+		valid = {
+			OR = {
+				has_policy_flag = quantity_ship_focus
+				has_policy_flag = extreme_quantity_ship_focus
+			}
+		}
+		policy_flags = {
+			extreme_quantity_ship_focus
+		}
+		modifier = {
+			country_leader_cap = 2
+			navy_size_mult = 0.3
+			ship_upkeep_mult = -0.3
+			spaceport_ship_build_cost_mult = -0.3
+			planet_ship_build_speed_mult = 0.3
+			ship_fire_rate_mult = -0.4
+			ship_hitpoints_mult = -0.4
+		}
+	}
+}
+
+#######################################################################################
+#######################################################################################
+
+# Mind vs Matter
+mind_or_materials = {
+	potential = {
+		has_technology = tech_mind_or_materials
+	}
+	option = {
+		name = "extreme_mind_focus"
+		
+		valid = {
+			OR = {
+				has_policy_flag = mind_focus
+				has_policy_flag = extreme_mind_focus
+			}
+		}
+		policy_flags = {
+			extreme_mind_focus
+		}
+		modifier = {
+			num_tech_alternatives_add = 1
+			tile_resource_minerals_mult = -0.45
+			tile_resource_energy_mult = -0.45
+			tile_resource_physics_research_mult = 0.20
+			tile_resource_society_research_mult = 0.20
+			tile_resource_engineering_research_mult = 0.20
+		}
+	}
+
+	option = {
+		name = "mind_focus"
+		
+		valid = {
+			OR = {
+				has_policy_flag = extreme_mind_focus
+				has_policy_flag = mind_focus
+				has_policy_flag = slight_mind_focus
+			}
+		}
+		prerequisites = {
+			"tech_imperial_reforms"
+		}
+		policy_flags = {
+			mind_focus
+		}
+		modifier = {
+			tile_resource_minerals_mult = -0.25
+			tile_resource_energy_mult = -0.25
+			tile_resource_physics_research_mult = 0.14
+			tile_resource_society_research_mult = 0.14
+			tile_resource_engineering_research_mult = 0.14
+		}
+	}	
+	option = {
+		name = "slight_mind_focus"
+
+		prerequisites = {
+			"tech_mind_or_materials"
+		}
+		
+		valid = {
+			OR = {
+				has_policy_flag = mind_focus
+				has_policy_flag = slight_mind_focus
+				has_policy_flag = balanced_mind_materials_focus
+			}
+		}
+		policy_flags = {
+			slight_mind_focus
+		}
+		modifier = {
+			tile_resource_minerals_mult = -0.10
+			tile_resource_energy_mult = -0.10
+			tile_resource_physics_research_mult = 0.07
+			tile_resource_society_research_mult = 0.07
+			tile_resource_engineering_research_mult = 0.07
+		}
+	}
+	option = {
+		name = "balanced_mind_materials_focus"
+		
+		valid = {
+			OR = {
+				NOT = {
+					# For the first time around
+					has_policy_flag = extreme_mind_focus
+					has_policy_flag = mind_focus
+					has_policy_flag = slight_mind_focus
+					has_policy_flag = balanced_mind_materials_focus
+					has_policy_flag = slight_materials_focus
+					has_policy_flag = materials_focus
+					has_policy_flag = extreme_materials_focus
+				}
+				OR = {
+					has_policy_flag = slight_mind_focus
+					has_policy_flag = balanced_mind_materials_focus
+					has_policy_flag = slight_materials_focus
+				}
+			}
+		}
+		policy_flags = {
+			balanced_mind_materials_focus
+		}
+	}
+	option = {
+		name = "slight_materials_focus"
+
+		prerequisites = {
+			"tech_mind_or_materials"
+		}
+		
+		valid = {
+			OR = {
+				has_policy_flag = materials_focus
+				has_policy_flag = slight_materials_focus
+				has_policy_flag = balanced_mind_materials_focus
+			}
+		}
+		policy_flags = {
+			slight_materials_focus
+		}
+		modifier = {
+			tile_resource_minerals_mult = 0.15
+			tile_resource_energy_mult = 0.15
+			tile_resource_physics_research_mult = -0.05
+			tile_resource_society_research_mult = -0.05
+			tile_resource_engineering_research_mult = -0.05
+		}
+	}
+	option = {
+		name = "materials_focus"
+
+		prerequisites = {
+			"tech_imperial_reforms"
+		}
+		
+		valid = {
+			OR = {
+				has_policy_flag = materials_focus
+				has_policy_flag = slight_materials_focus
+				has_policy_flag = extreme_materials_focus
+			}
+		}
+		policy_flags = {
+			materials_focus
+		}
+		modifier = {
+			tile_resource_minerals_mult = 0.30
+			tile_resource_energy_mult = 0.30
+			tile_resource_physics_research_mult = -0.15
+			tile_resource_society_research_mult = -0.15
+			tile_resource_engineering_research_mult = -0.15
+		}
+	}
+	option = {
+		name = "extreme_materials_focus"
+		
+		valid = {
+			OR = {
+				has_policy_flag = materials_focus
+				has_policy_flag = extreme_materials_focus
+			}
+		}
+		policy_flags = {
+			extreme_materials_focus
+		}
+		modifier = {
+			max_energy = 2000
+			tile_resource_minerals_mult = 0.45
+			tile_resource_energy_mult = 0.45
+			tile_resource_physics_research_mult = -0.25
+			tile_resource_society_research_mult = -0.25
+			tile_resource_engineering_research_mult = -0.25
+		}
+	}
+}
+
+###################################################################################
+###################################################################################
+
+# Centralization
+centralization_extent = {
+	potential = {
+		has_technology = tech_centralization_extent
+	}
+	option = {
+		name = "extreme_centralization"
+
+		valid = {
+			OR = {
+				has_policy_flag = moderate_centralization
+				has_policy_flag = extreme_centralization
+			}
+		}
+		policy_flags = {
+			extreme_centralization
+		}
+		modifier = {
+			leader_influence_cost = -0.25
+			country_core_sector_planet_cap = 3
+			influence_gain_add = 1.5
+			pop_happiness = -0.15
+			country_sector_cap_add  = -4
+		}
+	}
+
+	option = {
+		name = "moderate_centralization"
+		prerequisites = {
+			"tech_imperial_reforms"
+		}	
+		valid = {
+			OR = {
+				has_policy_flag = extreme_centralization
+				has_policy_flag = moderate_centralization
+				has_policy_flag = slight_centralization
+			}
+		}
+		policy_flags = {
+			moderate_centralization
+		}
+		modifier = {
+			country_core_sector_planet_cap = 2
+			influence_gain_add = 1
+			pop_happiness = -0.08
+			country_sector_cap_add  = -2
+		}
+	}	
+	option = {
+		name = "slight_centralization"
+
+		prerequisites = {
+			"tech_centralization_extent"
+		}
+		
+		valid = {
+			OR = {
+				has_policy_flag = moderate_centralization
+				has_policy_flag = slight_centralization
+				has_policy_flag = balance_of_power
+			}
+		}
+		policy_flags = {
+			slight_centralization
+		}
+		modifier = {
+			country_core_sector_planet_cap = 1
+			influence_gain_add = 0.5
+			pop_happiness = -0.03
+			country_sector_cap_add  = -1
+		}
+	}
+	option = {
+		name = "balance_of_power"
+		
+		valid = {
+			OR = {
+				NOT = {
+					# For the first time around
+					has_policy_flag = extreme_centralization
+					has_policy_flag = moderate_centralization
+					has_policy_flag = slight_centralization
+					has_policy_flag = balance_of_power
+					has_policy_flag = slight_decentralization
+					has_policy_flag = moderate_decentralization
+					has_policy_flag = extreme_decentralization
+				}
+				OR = {
+					has_policy_flag = slight_centralization
+					has_policy_flag = balance_of_power
+					has_policy_flag = slight_decentralization
+				}
+			}
+		}
+		policy_flags = {
+			balance_of_power
+		}
+	}
+	option = {
+		name = "slight_decentralization"
+
+		prerequisites = {
+			"tech_centralization_extent"
+		}
+		
+		valid = {
+			OR = {
+				has_policy_flag = moderate_decentralization
+				has_policy_flag = slight_decentralization
+				has_policy_flag = balance_of_power
+			}
+		}
+		policy_flags = {
+			slight_decentralization
+		}
+		modifier = {
+			country_core_sector_planet_cap = -1
+			influence_gain_add = -0.5
+			pop_happiness = 0.03
+			country_sector_cap_add  = 1
+		}
+	}
+	option = {
+		name = "moderate_decentralization"
+		prerequisites = {
+			"tech_imperial_reforms"
+		}
+		valid = {
+			OR = {
+				has_policy_flag = moderate_decentralization
+				has_policy_flag = slight_decentralization
+				has_policy_flag = extreme_decentralization
+			}
+		}
+		policy_flags = {
+			moderate_decentralization
+		}
+		modifier = {
+			country_core_sector_planet_cap = -2
+			influence_gain_add = -1.5
+			pop_happiness = 0.06
+			country_sector_cap_add  = 2
+		}
+	}
+	option = {
+		name = "extreme_decentralization"
+		
+		valid = {
+			OR = {
+				has_policy_flag = moderate_decentralization
+				has_policy_flag = extreme_decentralization
+			}
+		}
+		policy_flags = {
+			extreme_decentralization
+		}
+		modifier = {
+			pop_environment_tolerance = 0.05 # Represents improved maximum happiness
+			country_core_sector_planet_cap = -4
+			influence_gain_add = -3
+			pop_happiness = 0.10
+			country_sector_cap_add  = 3
+		}
+	}
+}

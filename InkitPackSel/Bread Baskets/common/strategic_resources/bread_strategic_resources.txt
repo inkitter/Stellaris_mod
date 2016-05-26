@@ -1,0 +1,16 @@
+### Basic Resources //For reference
+
+#	food = {
+#		is_planet_local = yes
+#		accumulative = yes
+#		AI_category = food
+#	}
+
+### Mod Resources
+
+stored_food = {
+	accumulative = yes
+	AI_category = strategic_resource
+	is_rare = yes
+	num_ai_wanted = 0
+}
