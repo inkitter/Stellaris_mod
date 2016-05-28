@@ -1,0 +1,38 @@
+﻿l_english:
+# edict_easy_buff_:0 "$edict_easy_buff_d$§R§!"
+# edict_easy_buff__desc:0 "§R§!"
+#### by Inkit ####
+#### DEFINE 
+ edict_easy_buff_d:0 "§M*作弊*§!"
+ 
+#### Easy Buffs ####
+ edict_easy_buff_default:0 "$edict_easy_buff_d$ £society §R简单模式增益§!"
+ edict_easy_buff_default_desc:0 "§E让游戏变得更简单的整体参数调整。§Y一般来说只开启这个就简单许多了。§!"
+ edict_easy_buff_superresearch:0 "$edict_easy_buff_d$ £physics §R火星科研§!"
+ edict_easy_buff_superresearch_desc:0 "§E科研速度变得难以想象§!"
+ edict_easy_buff_leader:0 "$edict_easy_buff_d$ £influence §R天神下凡§!"
+ edict_easy_buff_leader_desc:0 "§E领导人都是的神仙来的！§!"
+ edict_easy_buff_mil:0 "$edict_easy_buff_d$ £military_power §R战无不胜§!"
+ edict_easy_buff_mil_desc:0 "§E有这样的军队吗？§!"
+ edict_easy_buff_boarder:0 "$edict_easy_buff_d$ £colony_ship §R占球为王§!"
+ edict_easy_buff_boarder_desc:0 "§E扩张速度疯狂提升§!"
+ edict_easy_buff_makegold:0 "$edict_easy_buff_d$ £energy §R点石成金§!"
+ edict_easy_buff_makegold_desc:0 "§E凭空获得了§G食物§!、§R资源§!和§Y知识!§!"
+ edict_easy_buff_godfleet:0 "$edict_easy_buff_d$ £ship_stats_hitpoints §R诺亚神舟§!"
+ edict_easy_buff_godfleet_desc:0 "§E战斗之后如果剩了一艘船，那么一定是诺亚神舟§!"
+ edict_easy_buff_massfleet:0 "$edict_easy_buff_d$ £navy_size §R船山船海§!"
+ edict_easy_buff_massfleet_desc:0 "§E想有多少舰船？§!"
+ edict_easy_buff_pop:0 "$edict_easy_buff_d$ £pop §R鼓励生育§!"
+ edict_easy_buff_pop_desc:0 "§E人口相关增益§!"
+ edict_easy_buff_build:0 "$edict_easy_buff_d$ £engineering §R大搞建设§!"
+ edict_easy_buff_build_desc:0 "§E建设速度提高，种地流最爱§!"
+ edict_easy_buff_def:0 "$edict_easy_buff_d$ £ship_stats_shield §R超级要塞§!"
+ edict_easy_buff_def_desc:0 "§E要塞加强，搭配建设，种地流最爱§!"
+ edict_easy_buff_stock:0 "$edict_easy_buff_d$ £minerals §R囤积资源§!"
+ edict_easy_buff_stock_desc:0 "§E囤积资源，资源上限增加§!"
+ 
+#### Fix no word #### 
+ country_resource_physics_research_add:0 "£physics物理研究"
+ country_resource_society_research_add:0 "£society社会研究"
+ country_resource_engineering_research_add:0 "£engineering工程研究"
+ budget_group_country_modifier:0 "国家收入增益"

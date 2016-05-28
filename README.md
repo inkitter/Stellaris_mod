@@ -49,7 +49,7 @@ https://github.com/inkitter/Stellaris_mod
 * Yet Another Traits Mod 更多领袖特性 __morechn已汉化__
 * Bread Baskets 可以在行星间运输的食物 __morechn已汉化__ http://bbs.3dmgame.com/thread-5099700-1-1.html
 * Expanded Spaceport 扩展的空间站，空间站有24格建筑空间
-* Crystallis Ship Modules Expansion 水晶船模块扩展
+* Crystallis Ship Modules Expansion 水晶船模块扩展 __morechn已汉化__
 
 ## 纯搬运
 * Zeon 机战吉恩公国  __morechn已汉化__

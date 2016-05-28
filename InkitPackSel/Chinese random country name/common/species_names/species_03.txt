@@ -1,4 +1,4 @@
-# Generated species derive their names from here
+﻿# Generated species derive their names from here
 
 ### 哺乳
 
@@ -8,35 +8,35 @@ MAM = {
 		plural = "喵星人"
 		home_planet = "喵星"
 		home_system = "喵星"
-		name_list = "MOL3"
+		name_list = "MAM1"
 	}
 	wangxinr = {
 		name = "汪星人"
 		plural = "汪星人"
 		home_planet = "汪星"
 		home_system = "汪星"
-		name_list = "MOL3"
+		name_list = "MAM1"
 	}
 	boerduo = {
 		name = "波尔多"
 		plural = "波尔多人"
 		home_planet = "波尔多"
 		home_system ="波尔多"
-		name_list = MAM1
+		name_list = "MAM1"
 	}
 	yashu = {
 		name = "亚述"
 		plural = "亚述人"
 		home_planet = "亚述"
 		home_system ="亚述"
-		name_list = MAM1
+		name_list = "MAM1"
 	}
 	sibada = {
 		name = "斯巴达"
 		plural = "斯巴达人"
 		home_planet = "斯巴达"
 		home_system ="斯巴达"
-		name_list = MAM1
+		name_list = "MAM1"
 	}
 }
 
@@ -48,21 +48,28 @@ FUN = {
 		plural = "暗光族"
 		home_planet = "暗光"
 		home_system = "暗光"
-		name_list = "FUN3"
+		name_list = "FUN1"
 	}
 	chaos = {
 		name = "潮湿族"
 		plural = "潮湿族"
 		home_planet = "潮湿族"
 		home_system = "潮湿族"
-		name_list = "FUN3"
+		name_list = "FUN1"
 	}
 	aerfa = {
 		name = "阿尔法"
 		plural = "阿尔法"
 		home_planet = "阿尔法"
 		home_system = "阿尔法"
-		name_list = "FUN3"
+		name_list = "FUN1"
+	}
+	faluowei = {
+		name = "法罗威"
+		plural = "法罗威"
+		home_planet = "法罗威"
+		home_system = "法罗威"
+		name_list = "FUN1"
 	}
 }
 
@@ -74,14 +81,21 @@ ART = {
 		plural = "埃克斯人"
 		home_planet = "埃克斯"
 		home_system = "埃克斯"
-		name_list = "ART3"
+		name_list = "ART1"
 	}
 	aobiga = {
 		name = "奥米加"
 		plural = "奥米加"
 		home_planet = "奥米加"
 		home_system = "奥米加"
-		name_list = "ART3"
+		name_list = "ART1"
+	}
+	awefoga = {
+		name = "罗密诺"
+		plural = "罗密诺"
+		home_planet = "罗密诺"
+		home_system = "罗密诺"
+		name_list = "ART1"
 	}
 
 }
@@ -94,7 +108,21 @@ REP = {
 		plural = "贝他"
 		home_planet = "贝他"
 		home_system = "贝他"
-		name_list = "REP3"
+		name_list = "REP1"
+	}
+	foendasi = {
+		name = "弗恩达斯"
+		plural = "弗恩达斯"
+		home_planet = "弗恩达斯"
+		home_system = "弗恩达斯"
+		name_list = "REP1"
+	}
+	qiaobani = {
+		name = "乔布尔拉尼"
+		plural = "乔布尔拉尼"
+		home_planet = "乔布尔拉尼"
+		home_system = "乔布尔拉尼"
+		name_list = "REP1"
 	}
 	
 }
@@ -110,6 +138,20 @@ AVI = {
 		home_system = "鹰鹫"
 		name_list = "AVI1"
 	}
+	chuzhi = {
+		name = "雏鹰"
+		plural = "雏鹰"
+		home_planet = "雏鹰"
+		home_system = "雏鹰"
+		name_list = "AVI1"
+	}
+	zhabuluosi = {
+		name = "扎普洛斯"
+		plural = "扎普洛斯"
+		home_planet = "扎普洛斯"
+		home_system = "扎普洛斯"
+		name_list = "AVI1"
+	}
 }
 
 ### 软体动物
@@ -120,7 +162,20 @@ MOL = {
 		plural = "伽马"
 		home_planet = "伽马"
 		home_system = "伽马"
-		name_list = "MOL3"
+		name_list = "MOL1"
 	}
-	
+	yipuxil = {
+		name = "伊普西龙"
+		plural = "伊普西龙"
+		home_planet = "伊普西龙"
+		home_system = "伊普西龙"
+		name_list = "MOL1"
+	}
+	shiyu = {
+		name = "诗域"
+		plural = "诗域"
+		home_planet = "诗域"
+		home_system = "诗域"
+		name_list = "MOL1"
+	}
 }

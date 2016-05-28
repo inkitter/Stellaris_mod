@@ -19,3 +19,7 @@
  FLAG_CATEGORY_clancrest:0 "BT 家族"
  FLAG_CATEGORY_ispolitical:0 "BT 政治"
  FLAG_CATEGORY_mercenary:0 "BT 雇佣兵"
+ MON:1 "魔物娘"
+ trait_ruler_faith:1 "美德"
+ trait_ruler_faith_desc: "好棒好棒的"
+ name_list_ASG1: "舰娘"
