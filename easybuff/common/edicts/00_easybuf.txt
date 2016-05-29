@@ -77,7 +77,6 @@ country_edict = {
   modifier = {
     leader_age = 300
     leader_skill_levels = 5
-    LEADER_RULER_SKILL_LEVELS = 5
     country_leader_cap = 5
     country_leader_pool_size = 2
     leader_influence_cost = -0.5
@@ -89,9 +88,6 @@ country_edict = {
     pop_environment_tolerance = 0.70
     
     influence_gain_add = 7
-    
-    COUNTRY_EDICT_LENGTH_MULT = 1
-    COUNTRY_TRAIT_POINTS = 5
   }
 
   influence_cost = 0

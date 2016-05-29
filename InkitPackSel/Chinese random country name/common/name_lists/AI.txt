@@ -1,0 +1,140 @@
+﻿### AI NATION
+AI = {
+	selectable = no
+	randomized = no
+	
+	### SHIPS
+
+	ship_names = {
+	
+		
+
+		generic = {
+			"Subunit A-001" "Subunit A-002" "Subunit A-003" "Subunit A-004" "Subunit A-005" "Subunit A-006" "Subunit A-007" "Subunit A-008" "Subunit A-009" "Subunit A-010" "Subunit A-011" "Subunit A-012"
+			"Subunit A-013" "Subunit A-014" "Subunit A-015" "Subunit A-016" "Subunit A-017" "Subunit A-018" "Subunit A-019" "Subunit A-020" "Subunit A-021" "Subunit A-022" "Subunit A-023" "Subunit A-024"
+			"Subunit A-025" "Subunit A-026" "Subunit A-027" "Subunit A-028" "Subunit A-029" "Subunit A-030" "Subunit A-031" "Subunit A-032" "Subunit A-033" "Subunit A-034" "Subunit A-035" "Subunit A-036"
+			"Subunit A-037" "Subunit A-038" "Subunit A-039" "Subunit A-040" "Subunit A-041" "Subunit A-042" "Subunit A-043" "Subunit A-044" "Subunit A-045" "Subunit A-046" "Subunit A-047" "Subunit A-048"
+			"Subunit A-049" "Subunit A-050" "Subunit A-051" "Subunit A-052" "Subunit A-053" "Subunit A-054" "Subunit A-055" "Subunit A-056" "Subunit A-057" "Subunit A-058" "Subunit A-059" "Subunit A-060"
+			"Subunit A-061" "Subunit A-062" "Subunit A-063" "Subunit A-064" "Subunit A-065" "Subunit A-066" "Subunit A-067" "Subunit A-068" "Subunit A-069" "Subunit A-070" "Subunit A-071" "Subunit A-072"
+			"Subunit A-073" "Subunit A-074" "Subunit A-075" "Subunit A-076" "Subunit A-077" "Subunit A-078" "Subunit A-079" "Subunit A-080" "Subunit A-081" "Subunit A-082" "Subunit A-083" "Subunit A-084"
+			"Subunit A-085" "Subunit A-086" "Subunit A-087" "Subunit A-088" "Subunit A-089" "Subunit A-090" "Subunit A-091" "Subunit A-092" "Subunit A-093" "Subunit A-094" "Subunit A-095" "Subunit A-096"
+			"Subunit A-097" "Subunit A-098" "Subunit A-099" "Subunit A-100" "Subunit A-101" "Subunit A-102" "Subunit A-103" "Subunit A-104" "Subunit A-105" "Subunit A-106" "Subunit A-107" "Subunit A-108"
+			"Subunit A-109" "Subunit A-110" "Subunit A-111" "Subunit A-112" "Subunit A-113" "Subunit A-114" "Subunit A-115" "Subunit A-116" "Subunit A-117" "Subunit A-118" "Subunit A-119" "Subunit A-120"
+			"Subunit A-121" "Subunit A-122" "Subunit A-123" "Subunit A-124" "Subunit A-125" "Subunit A-126" "Subunit A-127" "Subunit A-128" "Subunit A-129" "Subunit A-130" "Subunit A-131" "Subunit A-132"
+			"Subunit A-133" "Subunit A-134" "Subunit A-135" "Subunit A-136" "Subunit A-137" "Subunit A-138" "Subunit A-139" "Subunit A-140" "Subunit A-141" "Subunit A-142" "Subunit A-143" "Subunit A-144"
+			"Subunit A-145" "Subunit A-146" "Subunit A-147" "Subunit A-148" "Subunit A-149" "Subunit A-150" "Subunit A-151" "Subunit A-152" "Subunit A-153" "Subunit A-154" "Subunit A-155" "Subunit A-156"
+			"Subunit A-157" "Subunit A-158" "Subunit A-159" "Subunit A-160" "Subunit A-161" "Subunit A-162" "Subunit A-163" "Subunit A-164" "Subunit A-165" "Subunit A-166" "Subunit A-167" "Subunit A-168"
+			"Subunit A-169" "Subunit A-170" "Subunit A-171" "Subunit A-172" "Subunit A-173" "Subunit A-174" "Subunit A-175" "Subunit A-176" "Subunit A-177" "Subunit A-178" "Subunit A-179" "Subunit A-180"
+			"Subunit A-181" "Subunit A-182" "Subunit A-183" "Subunit A-184" "Subunit A-185" "Subunit A-186" "Subunit A-187" "Subunit A-188" "Subunit A-189" "Subunit A-190" "Subunit A-191" "Subunit A-192"
+			"Subunit A-193" "Subunit A-194" "Subunit A-195" "Subunit A-196" "Subunit A-197" "Subunit A-198" "Subunit A-199" "Subunit A-200" "Subunit A-201" "Subunit A-202" "Subunit A-203" "Subunit A-204"
+			"Subunit A-205" "Subunit A-206" "Subunit A-207" "Subunit A-208" "Subunit A-209" "Subunit A-210" "Subunit A-211" "Subunit A-212" "Subunit A-213" "Subunit A-214" "Subunit A-215" "Subunit A-216"
+			"Subunit A-217" "Subunit A-218" "Subunit A-219" "Subunit A-220" "Subunit A-221" "Subunit A-222" "Subunit A-223" "Subunit A-224" "Subunit A-225" "Subunit A-226" "Subunit A-227" "Subunit A-228"
+			"Subunit A-229" "Subunit A-230" "Subunit A-231" "Subunit A-232" "Subunit A-233" "Subunit A-234" "Subunit A-235" "Subunit A-236" "Subunit A-237" "Subunit A-238" "Subunit A-239" "Subunit A-240" 
+			"Subunit A-241" "Subunit A-242" "Subunit A-243" "Subunit A-244" "Subunit A-245" "Subunit A-246" "Subunit A-247" "Subunit A-248" "Subunit A-249" "Subunit A-250" "Subunit A-251" "Subunit A-252" 
+			"Subunit A-253" "Subunit A-254" "Subunit A-255" "Subunit A-256" "Subunit A-257" "Subunit A-258" "Subunit A-259" "Subunit A-260" "Subunit A-261" "Subunit A-262" "Subunit A-263" "Subunit A-264" 
+			"Subunit A-265" "Subunit A-266" "Subunit A-267" "Subunit A-268" "Subunit A-269" "Subunit A-270" "Subunit A-271" "Subunit A-272" "Subunit A-273" "Subunit A-274" "Subunit A-275" "Subunit A-276" 
+			"Subunit A-277" "Subunit A-278" "Subunit A-279" "Subunit A-280" "Subunit A-281" "Subunit A-282" "Subunit A-283" "Subunit A-284" "Subunit A-285" "Subunit A-286" "Subunit A-287" "Subunit A-288"
+			"Subunit A-289" "Subunit A-290" "Subunit A-291" "Subunit A-292" "Subunit A-293" "Subunit A-294" "Subunit A-295" "Subunit A-296" "Subunit A-297" "Subunit A-298" "Subunit A-299" "Subunit A-300"
+		}
+
+		large_ship_ai = {
+		}
+		
+		small_ship_ai = {
+		}
+		
+		constructor = {
+			"Utility Unit 1X-5"
+		}
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+			"Transport Unit D-56-1"
+		}
+		
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+	}
+
+	fleet_names = {
+		sequential_name = "Autonomous Cluster %CCC%"
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Node LF-54-9" "XR-29" "D3-72" "Hub 79-F" "Installation R-941" "XTR-12" "Conduit LT5-9" "Grid W-1-7" "Node O-155" "Node 245-L"
+				"Junction Y-42" "Junction NE-X-39" "Junction ML-9383" "Hub S-12" 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		default = {
+			full_names = {
+				"Unit MZ-34" "Unit P2-XR0" "Unit 19-G" "Unit Q-12" "Unit XI-130" "Unit V13" "Unit 44/1" "Unit LFA-5" "Unit 15/57" "Unit J-14"
+				"Unit OR-004" "Unit KT-5" "Unit 0009-X" "Unit Alpha-2" "Unit 388-F" "Unit M8-4" "Unit 54.2" "Unit 54.1" "Unit 48B" "Unit XR-2"
+				"Unit FR-9" "Unit VK-12" "Unit HK-48" "Unit L8P9" "Unit IX-1442" "Unit U-89" "Unit PDX-1" "Unit S09-B" "Unit S0B" "Unit M1D" 
+				"Unit F-19" "Unit TLY-68" "Unit 14/2" "Unit BX-4" "Unit Kappa 5" "Unit Sigma" "Unit YT-8" "Unit M4-L" "Unit 38-38" "Unit 8-99"
+			}
+			
+			first_names = {
+			}
+			
+			second_names = {
+			}
+		}
+	}
+}

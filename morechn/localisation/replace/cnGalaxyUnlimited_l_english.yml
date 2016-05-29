@@ -3,21 +3,18 @@
 
 #### Galaxies Unlimited ####
 #### http://steamcommunity.com/sharedfiles/filedetails/?id=682835797  ####
-Microscopic:0 "最微小"
-Minuscule:0 "更微小"
-Small:0 "小"
-Tiny:0 "微小"
-Average:0 "一般"
-Medium:0 "中等"
-Big:0 "稍大"
-Huge:0 "大"
-large:0 "更大"
-Gigantic:0 "特大"
-Enormous:0 "超大"
-Massive:0 "巨型"
-Colossal:0 "超巨型"
+Microscopic:0 "§g最小§!"
+Minuscule:0 "§g更小§!"
+Small:0 "§W小型§!"
+Tiny:0 "§W稍小§!"
+Average:0 "§E一般§!"
+Medium:0 "§E中等§!"
+Big:0 "§B稍大§!"
+Huge:0 "§B大型§!"
+large:0 "§Y更大§!"
+Gigantic:0 "§Y特大§!"
+Enormous:0 "§H超大§!"
+Massive:0 "§G巨型§!"
+Colossal:0 "§L超巨型§!"
 Epic:0 "§M史诗§!"
 Insane:0 "§R疯狂§!"
-
-
-

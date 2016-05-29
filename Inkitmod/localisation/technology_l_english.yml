@@ -764,7 +764,7 @@
 
  # Pirate techs
  tech_pirate_starting:0 "仅限海盗的科技"
- tech_pirate_starting_desc:0 ""
+ tech_pirate_starting_desc:0 "仅限海盗的科技"
 
  #####################################
  # Event Techs

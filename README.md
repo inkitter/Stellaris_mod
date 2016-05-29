@@ -16,19 +16,17 @@ https://github.com/inkitter/Stellaris_mod
 
 ###汉化包
 * Chinese font  简体中文字库v4.6  来自 http://steamcommunity.com/sharedfiles/filedetails/?id=682681372
-* 3dmchn2.5  3DM汉化包  localisation\replace 文件夹内，若想使用其他汉化包，或者是升级直接把别的.yml文件覆盖进来即可。
+* 汉化包1.1beta  基于3DM汉化包2.5，加入1.1的一些文本  localisation\replace 文件夹内，若想使用其他汉化包，或者是升级直接把别的.yml文件覆盖进来即可。
 * morechn   我自制的一些工坊英文mod汉化包。支持的mod详见morechn发布帖 http://bbs.3dmgame.com/thread-5095348-1-1.html 。
 
 ###改进
 * Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 common\solar_system_initializers\ringworld_st_systems.txt
 * Complete Colors  种族设计界面有更多（RGB）可选颜色，注意这个多颜色选择会与其他的冲突，请不要再加载其他增加可选颜色的mod，这个已经是颜色最全的 flags\colors.txt
 * Galaxies Unlimited  新建游戏时，星系大小有等多选择，从很少到很多的更多选项。
-* Tech tab height  科技研发面板高度调整，可以一下子看到更多可选项，不再被滚动条所烦恼。
 * Reduce Aura Graphics  减轻单位光环的视觉效果，更容易看到船而不是光环。
 * 汉语种族随机名  种族设计界面以汉语命名的可选类型，随机汉语船、人名等。
 
 ###游戏性
-* Leader level Uncap to 10  领袖最高等级从5调整到10  在 common\defines\00_skillcap.lua
 * easybuf 自制的政策界面作弊。名为“简单模式增益”。在 common\edicts\00_easybuf.txt
 
 ## 选择性安装包
