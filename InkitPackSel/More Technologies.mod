@@ -5,4 +5,4 @@ tags={
 }
 picture="newtechs.png"
 remote_file_id="683851819"
-supported_version="1.0.*"
+supported_version="1.1"

@@ -12,7 +12,7 @@ particle={
 		billboard=no
 		hide=no
 		texture={
-			file="gfx/particles/glow.dds"
+			file="gfx/particles/glowx.dds"
 			x=1
 			y=1
 			shader="ParticleAdditive"
@@ -21,7 +21,7 @@ particle={
 			x=150.000
 			y=200.000
 			z=255.000
-			alpha=5.000,alpha_fade_flare
+			alpha=15.000,alpha_fade_flare
 		}
 		position={
 			x=0.000
@@ -37,7 +37,7 @@ particle={
 		velocity=0.000
 		life=3.000
 		emission=10.000
-		size=25.000
+		size=50.000
 		particle_pitch=90.000
 		rotation={ 0.000 180.000 }
 	}

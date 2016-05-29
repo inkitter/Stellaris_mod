@@ -5,4 +5,4 @@ tags={
 }
 picture="zbeautifulbattles.jpg"
 remote_file_id="682776251"
-supported_version="1.0.*"
+supported_version="1.1"

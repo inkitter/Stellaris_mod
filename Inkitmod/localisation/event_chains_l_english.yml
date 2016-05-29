@@ -92,6 +92,8 @@
  probe_search_4_poi:1 "搜寻 [probe_system_4.GetName]"
  probe_ion_trail_poi:0 "追寻离子轨迹"
  probe_ion_trail_poi_desc:0 "其中一个遗失的亚光速探测器的离子轨迹指向这个星系。"
+ probe_subspace_anomaly_poi:2 "被敌人阻碍"
+ probe_subspace_anomaly_poi_desc:1 "敌人阻碍了我们进入这个星域."
  coming_storm_poi_1_poi:0 "突破口"
  coming_storm_poi_1_poi_desc:0 "根据航线推测，那个亚空间种群会在这些星系附近进入我们的银河系。"
  systems_visited_poi:0 "已拜访的星系"
@@ -105,7 +107,6 @@
  extradimensional_invasion_2_poi_desc:0 "在 [second_portal_system.GetName]星系发现了第二个位面传送门。和第一个一样，源源不断的异位面敌方飞船从中涌来。"
  extradimensional_invasion_3_poi:0 "第三传送门"
  extradimensional_invasion_3_poi_desc:0 "在 [third_portal_system.GetName]星系发现了第三个位面传送门。它现在还在向我们的世界传输异位面敌人的舰船。"
- 
  vultaum_1_poi:0 "沃陶姆尔"
  vultaum_1_poi_desc:0 "我们已经拥有了沃陶姆母星星系的坐标。"
  yuht_1_poi:0 "尤特安"

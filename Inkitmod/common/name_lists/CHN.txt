@@ -78,10 +78,10 @@
 		terraform_station = { }
 		observation_station = { }
 		outpost_station = {
-			random_names = {
+			#random_names = {
 				西域 安西 安北 安东 安南 单于 北庭 陇右 燕然 瀚海 镇北 金山 西州 昆陵 镇西
-			}
-			sequential_name = "%O% 都护府"
+			#}
+			#sequential_name = "%O% 都护府"
 		}
 		
 		transport = {

@@ -5,18 +5,7 @@
  
  # General Greetings
  MON:1 "魔物娘"
- ACG:1 "ACG人物"
- YXW:1 "宠物"
- OTH:1 "高纬度生物"
- zizhi1:1 "帝国"
- zizhi2:1 "K隆星地球侵略小队"
- zizhi3:1 "光之国"
- zizhi4:1 "自由行星同盟"
- zizhi5:1 "银河帝国"
- zizhi6:1 "美利坚合众国"
- zizhi7:1 "大英帝国"
- zizhi8:1 "法兰西第一帝国"
- zizhi9:1 "帝国"
- zizhi11:1 "帝国"
- zizhi12:1 "帝国"
- zizhi13:1 "帝国"
+ trait_ruler_faith:1 "美德"
+ trait_ruler_faith_desc: "好棒好棒的"
+ name_list_ASG1: "warshipgirls 1"
+ 
