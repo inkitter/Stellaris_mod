@@ -3,4 +3,4 @@ path="mod/easybuff"
 tags={
 }
 picture="Inkitcat.jpg"
-supported_version="1.0.*"
+supported_version="1.1"
