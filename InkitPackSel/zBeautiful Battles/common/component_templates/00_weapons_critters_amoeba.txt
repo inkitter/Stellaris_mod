@@ -20,6 +20,7 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "space_amoeba_weapon"
 	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
 	
 	cost = @critter_cost_value
 }
@@ -35,6 +36,7 @@ weapon_component_template = {
 	icon_frame = 1
 	projectile_gfx = "small_space_amoeba_weapon"
 	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
 	
 	cost = @critter_cost_value
 }
@@ -45,14 +47,14 @@ strike_craft_component_template = {
 	key = "AMOEBA_STRIKE_CRAFT"
 	size = LARGE
 	entity = "space_amoeba_small_entity"
-	cost = 22
+	cost = 45
 	power = -45
 
-	count = 8
+	count = 10
 	regeneration_per_day = 1.000
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 7 max = 11 }
+	damage = { min = 10 max = 17 }
 	cooldown = 10
 	range = 15
 	accuracy = 1.0
@@ -81,4 +83,5 @@ strike_craft_component_template = {
 	icon = "GFX_ship_part_amoeba_strike_craft_1"
 	icon_frame = 1
 	tags = { weapon_type_strike_craft }
+	ai_tags = { weapon_role_anti_shield }
 }

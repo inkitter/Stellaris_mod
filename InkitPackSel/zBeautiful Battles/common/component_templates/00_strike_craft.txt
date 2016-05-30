@@ -1,3 +1,4 @@
+@fighters = 10
 
 strike_craft_component_template = {
 	key = "LARGE_SCOUT_HANGAR_1"
@@ -6,14 +7,14 @@ strike_craft_component_template = {
 	
 	weapon_type = point_defence
 	projectile_gfx = "red_laser_pd"
-	power = -10
+	power = -20
 	cost = 20
 	
-	count = 8
+	count = @fighters
 	regeneration_per_day = 1.0
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 1 max = 3 }
+	damage = { min = 2 max = 5 }
 	cooldown = 6
 	range = 15
 	accuracy = 1.0
@@ -45,14 +46,14 @@ strike_craft_component_template = {
 	
 	weapon_type = point_defence
 	projectile_gfx = "red_laser_pd"
-	power = -15
+	power = -30
 	cost = 30
 	
-	count = 8
+	count = @fighters
 	regeneration_per_day = 1.0
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 2 max = 4 }
+	damage = { min = 3 max = 6 }
 	cooldown = 6
 	range = 15
 	accuracy = 1.0
@@ -85,14 +86,14 @@ strike_craft_component_template = {
 	
 	weapon_type = point_defence
 	projectile_gfx = "blue_laser_pd"
-	power = -20
+	power = -40
 	cost = 40
 	
-	count = 8
+	count = @fighters
 	regeneration_per_day = 1.0
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 3 max = 4 }
+	damage = { min = 5 max = 7 }
 	cooldown = 6
 	range = 15
 	accuracy = 1.0
@@ -125,14 +126,14 @@ strike_craft_component_template = {
 	
 	weapon_type = point_defence
 	projectile_gfx = "white_laser_pd"
-	power = -25
+	power = -50
 	cost = 50
 	
-	count = 8
+	count = @fighters
 	regeneration_per_day = 1.0
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 3 max = 5 }
+	damage = { min = 5 max = 8 }
 	cooldown = 6
 	range = 15
 	accuracy = 1.0
@@ -162,14 +163,14 @@ strike_craft_component_template = {
 	key = "LARGE_BOMBERS_HANGAR_1"
 	size = LARGE
 	entity = "bomber_entity"
-	power = -15
+	power = -30
 	cost = 30
 		
-	count = 8
+	count = @fighters
 	regeneration_per_day = 1.00
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 5 max = 9 }
+	damage = { min = 7 max = 14 }
 	cooldown = 10
 	range = 15
 	accuracy = 1.0
@@ -202,14 +203,14 @@ strike_craft_component_template = {
 	key = "LARGE_BOMBERS_HANGAR_2"
 	size = LARGE
 	entity = "bomber_entity"
-	power = -20
+	power = -40
 	cost = 40
 		
-	count = 8
+	count = @fighters
 	regeneration_per_day = 1.00
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 6 max = 10 }
+	damage = { min = 9 max = 15 }
 	cooldown = 10
 	range = 15
 	accuracy = 1.0
@@ -242,14 +243,14 @@ strike_craft_component_template = {
 	key = "LARGE_BOMBERS_HANGAR_3"
 	size = LARGE
 	entity = "bomber_entity"
-	power = -25
+	power = -50
 	cost = 50
 		
-	count = 8
+	count = @fighters
 	regeneration_per_day = 1.0
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 7 max = 12 }
+	damage = { min = 10 max = 18 }
 	cooldown = 10
 	range = 15
 	accuracy = 1.0

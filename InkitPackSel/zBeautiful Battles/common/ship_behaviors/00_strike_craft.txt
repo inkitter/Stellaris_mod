@@ -29,7 +29,7 @@ ship_behavior = {
 	preferred_attack_range = 15.0
 	formation_distance = 150
 	return_to_formation_distance = 150
-	
+
 	attack_move_pattern = charge
 	passive_move_pattern = charge
 		

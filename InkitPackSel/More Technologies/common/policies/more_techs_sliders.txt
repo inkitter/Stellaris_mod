@@ -6,6 +6,7 @@ ship_focus = {
 		name = "extreme_quality_ship_focus"
 		
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = quality_ship_focus
 				has_policy_flag = extreme_quality_ship_focus
@@ -30,11 +31,8 @@ ship_focus = {
 	option = {
 		name = "quality_ship_focus"
 
-		prerequisites = {
-			"tech_imperial_reforms"
-		}
-
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = extreme_quality_ship_focus
 				has_policy_flag = quality_ship_focus
@@ -135,14 +133,12 @@ ship_focus = {
 		name = "quantity_ship_focus"
 		
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = quantity_ship_focus
 				has_policy_flag = slight_quantity_ship_focus
 				has_policy_flag = extreme_quantity_ship_focus
 			}
-		}
-		prerequisites = {
-			"tech_imperial_reforms"
 		}
 		policy_flags = {
 			quantity_ship_focus
@@ -160,6 +156,7 @@ ship_focus = {
 		name = "extreme_quantity_ship_focus"
 		
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = quantity_ship_focus
 				has_policy_flag = extreme_quantity_ship_focus
@@ -192,6 +189,7 @@ mind_or_materials = {
 		name = "extreme_mind_focus"
 		
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = mind_focus
 				has_policy_flag = extreme_mind_focus
@@ -214,14 +212,12 @@ mind_or_materials = {
 		name = "mind_focus"
 		
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = extreme_mind_focus
 				has_policy_flag = mind_focus
 				has_policy_flag = slight_mind_focus
 			}
-		}
-		prerequisites = {
-			"tech_imperial_reforms"
 		}
 		policy_flags = {
 			mind_focus
@@ -312,12 +308,9 @@ mind_or_materials = {
 	}
 	option = {
 		name = "materials_focus"
-
-		prerequisites = {
-			"tech_imperial_reforms"
-		}
 		
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = materials_focus
 				has_policy_flag = slight_materials_focus
@@ -339,6 +332,7 @@ mind_or_materials = {
 		name = "extreme_materials_focus"
 		
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = materials_focus
 				has_policy_flag = extreme_materials_focus
@@ -370,6 +364,7 @@ centralization_extent = {
 		name = "extreme_centralization"
 
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = moderate_centralization
 				has_policy_flag = extreme_centralization
@@ -389,10 +384,9 @@ centralization_extent = {
 
 	option = {
 		name = "moderate_centralization"
-		prerequisites = {
-			"tech_imperial_reforms"
-		}	
+
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = extreme_centralization
 				has_policy_flag = moderate_centralization
@@ -485,10 +479,8 @@ centralization_extent = {
 	}
 	option = {
 		name = "moderate_decentralization"
-		prerequisites = {
-			"tech_imperial_reforms"
-		}
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = moderate_decentralization
 				has_policy_flag = slight_decentralization
@@ -509,6 +501,7 @@ centralization_extent = {
 		name = "extreme_decentralization"
 		
 		valid = {
+			has_technology = tech_imperial_reforms
 			OR = {
 				has_policy_flag = moderate_decentralization
 				has_policy_flag = extreme_decentralization
@@ -523,6 +516,32 @@ centralization_extent = {
 			influence_gain_add = -3
 			pop_happiness = 0.10
 			country_sector_cap_add  = 3
+		}
+	}
+}
+
+######################################################################################
+
+test_desc_policy = {
+	potential = {
+		always = no
+	}
+
+	option = {
+		name = "reform_desc_fake_policy"
+
+		prerequisites = {
+			"tech_imperial_reforms"
+		}
+
+		valid = {
+			always = yes
+		}
+
+		policy_flags = {
+		}
+
+		modifier = {
 		}
 	}
 }
