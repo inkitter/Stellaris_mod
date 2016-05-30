@@ -25,12 +25,12 @@
  * Grow Borders With Influence http://steamcommunity.com/sharedfiles/filedetails/?id=685223286
  * More Technologies http://steamcommunity.com/sharedfiles/filedetails/?id=683851819
  * Yet Another Traits Mod http://steamcommunity.com/sharedfiles/filedetails/?id=682239360
- * Playable Robots http://steamcommunity.com/sharedfiles/filedetails/?id=681553348 by steam@Mahou_1942 
- * Bread Baskets http://steamcommunity.com/sharedfiles/filedetails/?id=690067609 by steam@Garfeineko 3DM@春天的园草
+ * Playable Robots http://steamcommunity.com/sharedfiles/filedetails/?id=681553348 by Mahou_1942@steam
+ * Bread Baskets http://steamcommunity.com/sharedfiles/filedetails/?id=690067609 by Garfeineko@steam 春天的园草@3DM
  * Crystallis Ship Modules Expansion http://steamcommunity.com/sharedfiles/filedetails/?id=690350384
- * Hungry World http://steamcommunity.com/sharedfiles/filedetails/?id=691822150
- * Interstellar Trading System http://steamcommunity.com/workshop/filedetails/?id=687532370
- * System Variety - Dead world: Colony Ship Start http://steamcommunity.com/workshop/filedetails/?id=691851232
+ * Hungry World http://steamcommunity.com/sharedfiles/filedetails/?id=691822150 by Garfeineko@steam 春天的园草@3DM
+ * Interstellar Trading System http://steamcommunity.com/workshop/filedetails/?id=687532370 by Garfeineko@steam 春天的园草@3DM
+ * System Variety - Dead world: Colony Ship Start http://steamcommunity.com/workshop/filedetails/?id=691851232 by Garfeineko@steam 春天的园草@3DM
 
 待汉化:
  * Fight For Universe: Infinite Legacy (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=685233391
