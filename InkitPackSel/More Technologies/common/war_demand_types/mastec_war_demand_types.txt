@@ -397,173 +397,173 @@ humiliate = {
 	}
 }
 
-cede_frontier_outpost = {
-	execution_order = 1
-	
-	parameters = {
-		system = {
-			type = galactic_object
-		}
-	}
-	
-	warscore_cost = {
-		base = 30
-
-		# Ruler Trait - Warlike
-		modifier = {
-			factor = 0.95
-			custom_tooltip = {
-				text = "war_demand_trait_warlike"
-				exists = ruler
-				ruler = { has_trait = trait_ruler_warlike }
-			}
-		}
-
-		# Ruler Trait - Expansionist
-		modifier = {
-			factor = 0.9
-			custom_tooltip = {
-				text = "war_demand_trait_expansionist"
-				exists = ruler
-				ruler = { has_trait = trait_ruler_expansionist }
-			}
-		}
-
-		# Tech - Galactic Ambitions
-		modifier = {
-			factor = 0.95
-			custom_tooltip = {
-				text = "war_demand_tech_galactic_ambitions"
-				has_technology = tech_galactic_ambitions
-			}
-		}
-
-		# Tech - Manifest Destiny
-		modifier = {
-			factor = 0.9
-			custom_tooltip = {
-				text = "war_demand_tech_manifest_destiny"
-				has_technology = tech_manifest_destiny
-			}
-		}
-	}
-	
-	potential = {
-		has_technology = tech_ideological_wars
-		custom_tooltip_fail = {
-			text = "war_demand_cede_frontier_outpost_no_stations"
-			parameter:system = {
-				any_ship_in_system = {
-					is_ship_class = shipclass_outpost_station
-					owner = {
-						OR = {
-							AND = {
-								exists = fromfrom
-								from = {
-									from = {
-										is_war_participant = {
-											who = prevprev
-											side = prev
-										}
-									}
-								}
-							}
-							AND = {
-								NOT = { exists = fromfrom }
-								would_join_war = {
-									attacker = root
-									defender = from
-									side = from
-								}
-							}
-							
-						}
-					}
-				}
-			}
-		}
-		custom_tooltip_fail = {
-			text = "war_demand_cede_planet_no_vassals"
-			subject_can_diplomacy = this
-		}
-	}
-	
-	possible = {
-		custom_tooltip_fail = {
-			text = "war_demand_cede_frontier_outpost_no_stations_left"
-			any_country = {
-				OR = {
-					AND = {
-						exists = fromfrom
-						from = {
-							from = {
-								is_war_participant = {
-									who = prevprev
-									side = prev
-								}
-							}
-						}
-					}
-					AND = {
-						NOT = { exists = fromfrom }
-						would_join_war = {
-							attacker = root
-							defender = from
-							side = from
-						}
-					}
-				}
-				
-				war_demand_counter = {
-					type = num_owned_planets
-					value > 0
-				}
-				parameter:system = {
-					any_ship_in_system = {
-						is_ship_class = shipclass_outpost_station
-						owner = {
-							is_same_value = prevprevprev
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	proposable = {
-		always = yes
-	}
-	
-	effect = {	
-		parameter:system = {
-			every_fleet_in_system = {
-				limit = {
-					is_ship_class = shipclass_outpost_station
-					owner = {
-						from = {
-							from = {
-								is_war_participant = {
-									who = prevprev
-									side = prev
-								}
-							}
-						}
-					}
-				}
-				set_owner = fromfromfrom
-			}
-		}
-	}
-	
-	ai_weight = {
-		base = 30
-		
-		modifier = {
-			factor = 20
-			OR = {
-				has_ai_personality_behaviour = liberator
-				has_ai_personality_behaviour = conqueror
-			}
-		}
-	}
-}
+#cede_frontier_outpost = {
+#	execution_order = 1
+#	
+#	parameters = {
+#		system = {
+#			type = galactic_object
+#		}
+#	}
+#	
+#	warscore_cost = {
+#		base = 30
+#
+#		# Ruler Trait - Warlike
+#		modifier = {
+#			factor = 0.95
+#			custom_tooltip = {
+#				text = "war_demand_trait_warlike"
+#				exists = ruler
+#				ruler = { has_trait = trait_ruler_warlike }
+#			}
+#		}
+#
+#		# Ruler Trait - Expansionist
+#		modifier = {
+#			factor = 0.9
+#			custom_tooltip = {
+#				text = "war_demand_trait_expansionist"
+#				exists = ruler
+#				ruler = { has_trait = trait_ruler_expansionist }
+#			}
+#		}
+#
+#		# Tech - Galactic Ambitions
+#		modifier = {
+#			factor = 0.95
+#			custom_tooltip = {
+#				text = "war_demand_tech_galactic_ambitions"
+#				has_technology = tech_galactic_ambitions
+#			}
+#		}
+#
+#		# Tech - Manifest Destiny
+#		modifier = {
+#			factor = 0.9
+#			custom_tooltip = {
+#				text = "war_demand_tech_manifest_destiny"
+#				has_technology = tech_manifest_destiny
+#			}
+#		}
+#	}
+#	
+#	potential = {
+#		has_technology = tech_ideological_wars
+#		custom_tooltip_fail = {
+#			text = "war_demand_cede_frontier_outpost_no_stations"
+#			parameter:system = {
+#				any_ship_in_system = {
+#					is_ship_class = shipclass_outpost_station
+#					owner = {
+#						OR = {
+#							AND = {
+#								exists = fromfrom
+#								from = {
+#									from = {
+#										is_war_participant = {
+#											who = prevprev
+#											side = prev
+#										}
+#									}
+#								}
+#							}
+#							AND = {
+#								NOT = { exists = fromfrom }
+#								would_join_war = {
+#									attacker = root
+#									defender = from
+#									side = from
+#								}
+#							}
+#							
+#						}
+#					}
+#				}
+#			}
+#		}
+#		custom_tooltip_fail = {
+#			text = "war_demand_cede_planet_no_vassals"
+#			subject_can_diplomacy = this
+#		}
+#	}
+#	
+#	possible = {
+#		custom_tooltip_fail = {
+#			text = "war_demand_cede_frontier_outpost_no_stations_left"
+#			any_country = {
+#				OR = {
+#					AND = {
+#						exists = fromfrom
+#						from = {
+#							from = {
+#								is_war_participant = {
+#									who = prevprev
+#									side = prev
+#								}
+#							}
+#						}
+#					}
+#					AND = {
+#						NOT = { exists = fromfrom }
+#						would_join_war = {
+#							attacker = root
+#							defender = from
+#							side = from
+#						}
+#					}
+#				}
+#				
+#				war_demand_counter = {
+#					type = num_owned_planets
+#					value > 0
+#				}
+#				parameter:system = {
+#					any_ship_in_system = {
+#						is_ship_class = shipclass_outpost_station
+#						owner = {
+#							is_same_value = prevprevprev
+#						}
+#					}
+#				}
+#			}
+#		}
+#	}
+#	
+#	proposable = {
+#		always = yes
+#	}
+#	
+#	effect = {	
+#		parameter:system = {
+#			every_fleet_in_system = {
+#				limit = {
+#					is_ship_class = shipclass_outpost_station
+#					owner = {
+#						from = {
+#							from = {
+#								is_war_participant = {
+#									who = prevprev
+#									side = prev
+#								}
+#							}
+#						}
+#					}
+#				}
+#				set_owner = fromfromfrom
+#			}
+#		}
+#	}
+#	
+#	ai_weight = {
+#		base = 30
+#		
+#		modifier = {
+#			factor = 20
+#			OR = {
+#				has_ai_personality_behaviour = liberator
+#				has_ai_personality_behaviour = conqueror
+#			}
+#		}
+#	}
+#}

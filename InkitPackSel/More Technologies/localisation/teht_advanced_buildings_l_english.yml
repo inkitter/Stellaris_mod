@@ -1,4 +1,13 @@
 ﻿l_english:
+ building_power_relay_d:0 "继电站"
+ building_irrigation_system_d:0 "灌溉系统"
+ building_mining_barracks_d:0 "采矿营地"
+ building_combo_food_power_d:0 "太阳能收割机"
+ building_combo_mineral_power_d:0 "多功能热电站"
+ building_combo_mineral_food_d:0 "生化采石场"
+ building_science_campus_phys_d:0 "物理学院"
+ building_science_campus_soc_d:0 "生物学院"
+ building_science_campus_eng_d:0 "工程学院"
 
  building_basic_power_relay_desc:1 "Power Relays Improve increase the yield of nearby energy producing buildings"
  building_power_relay_1:0 "Power Relay I"
@@ -131,7 +140,7 @@
  
  tech_science_campus_eng_4:0 "Engineering Think Tanks"
  tech_science_campus_eng_4_desc:0 "Harnessing our empire's brainpower to create wonders.\n\n"
- 
+ ####
  tech_power_relay_1:0 "Small Power Relays"
  tech_power_relay_1_desc:0 "By redirecting currents to their optimum paths, we can boost our energy output in nearby sectors.\n\n"
  

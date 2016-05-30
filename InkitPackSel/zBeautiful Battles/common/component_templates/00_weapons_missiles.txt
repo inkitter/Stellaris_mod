@@ -34,6 +34,7 @@ weapon_component_template = {
 	component_set = "MISSILE_1"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Missile Launcher
@@ -56,6 +57,7 @@ weapon_component_template = {
 	component_set = "MISSILE_1"
 	projectile_gfx = "medium_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Missile Launcher
@@ -78,6 +80,7 @@ weapon_component_template = {
 	component_set = "MISSILE_1"
 	projectile_gfx = "large_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Advanced Missile Launcher
@@ -100,6 +103,7 @@ weapon_component_template = {
 	component_set = "MISSILE_2"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Advanced Missile Launcher
@@ -122,6 +126,7 @@ weapon_component_template = {
 	component_set = "MISSILE_2"
 	projectile_gfx = "medium_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Advanced Missile Launcher
@@ -144,6 +149,7 @@ weapon_component_template = {
 	component_set = "MISSILE_2"
 	projectile_gfx = "large_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Strike Missile Launcher
@@ -166,6 +172,7 @@ weapon_component_template = {
 	component_set = "MISSILE_3"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Strike Missile Launcher
@@ -188,6 +195,7 @@ weapon_component_template = {
 	component_set = "MISSILE_3"
 	projectile_gfx = "medium_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Strike Missile Launcher
@@ -210,6 +218,7 @@ weapon_component_template = {
 	component_set = "MISSILE_3"
 	projectile_gfx = "large_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Heavy Missile Launcher
@@ -232,6 +241,7 @@ weapon_component_template = {
 	component_set = "MISSILE_4"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Heavy Missile Launcher
@@ -254,6 +264,7 @@ weapon_component_template = {
 	component_set = "MISSILE_4"
 	projectile_gfx = "medium_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Heavy Missile Launcher
@@ -276,6 +287,7 @@ weapon_component_template = {
 	component_set = "MISSILE_4"
 	projectile_gfx = "large_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Advanced Heavy Missile Launcher
@@ -298,6 +310,7 @@ weapon_component_template = {
 	component_set = "MISSILE_5"
 	projectile_gfx = "small_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Advanced Heavy Missile Launcher
@@ -320,6 +333,7 @@ weapon_component_template = {
 	component_set = "MISSILE_5"
 	projectile_gfx = "medium_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Advanced Heavy Missile Launcher
@@ -342,6 +356,7 @@ weapon_component_template = {
 	component_set = "MISSILE_5"
 	projectile_gfx = "large_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 # ####################
@@ -366,6 +381,7 @@ weapon_component_template = {
 	hidden = yes
 	component_set = "SPACEPORT_MISSILE"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 weapon_component_template = {
@@ -386,6 +402,7 @@ weapon_component_template = {
 	hidden = yes
 	component_set = "SPACEPORT_MISSILE"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 weapon_component_template = {
@@ -406,6 +423,7 @@ weapon_component_template = {
 	hidden = yes
 	component_set = "SPACEPORT_MISSILE"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 
@@ -433,6 +451,7 @@ weapon_component_template = {
 	component_set = "SWARMER_MISSILE_1"
 	projectile_gfx = "swarmer_missiles"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Advanced Swarmer Missile Launcher
@@ -455,6 +474,7 @@ weapon_component_template = {
 	component_set = "SWARMER_MISSILE_2"
 	projectile_gfx = "swarmer_missiles_02"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 # ####################
@@ -482,6 +502,7 @@ weapon_component_template = {
 	component_set = "TORPEDO_1"
 	projectile_gfx = "small_torpedo"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Torpedo Launcher
@@ -504,6 +525,7 @@ weapon_component_template = {
 	component_set = "TORPEDO_1"
 	projectile_gfx = "medium_torpedo"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Torpedo Launcher
@@ -526,6 +548,7 @@ weapon_component_template = {
 	component_set = "TORPEDO_1"
 	projectile_gfx = "large_torpedo"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Armored Torpedoes
@@ -548,6 +571,7 @@ weapon_component_template = {
 	component_set = "TORPEDO_2"
 	projectile_gfx = "small_torpedo_02"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Armored Torpedoes
@@ -570,6 +594,7 @@ weapon_component_template = {
 	component_set = "TORPEDO_2"
 	projectile_gfx = "medium_torpedo_02"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Armored Torpedoes
@@ -592,6 +617,7 @@ weapon_component_template = {
 	component_set = "TORPEDO_2"
 	projectile_gfx = "large_torpedo_02"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Striker Torpedoes
@@ -614,6 +640,7 @@ weapon_component_template = {
 	component_set = "TORPEDO_3"
 	projectile_gfx = "small_torpedo_03"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Striker Torpedoes
@@ -636,6 +663,7 @@ weapon_component_template = {
 	component_set = "TORPEDO_3"
 	projectile_gfx = "medium_torpedo_03"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Striker Torpedoes
@@ -658,4 +686,5 @@ weapon_component_template = {
 	component_set = "TORPEDO_3"
 	projectile_gfx = "large_torpedo_03"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }

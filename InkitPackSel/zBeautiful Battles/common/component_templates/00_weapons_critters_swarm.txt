@@ -29,6 +29,7 @@ weapon_component_template = {
 	component_set = "SCOURGE_MISSILE_1"
 	projectile_gfx = "scourge_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 # Small Spaceport Scourge Missiles
@@ -51,6 +52,7 @@ weapon_component_template = {
 	component_set = "SPACEPORT_SCOURGE_MISSILE"
 	projectile_gfx = "scourge_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 # Medium Spaceport Scourge Missiles
@@ -73,6 +75,7 @@ weapon_component_template = {
 	component_set = "SPACEPORT_SCOURGE_MISSILE"
 	projectile_gfx = "scourge_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 # Large Spaceport Scourge Missiles
@@ -95,6 +98,7 @@ weapon_component_template = {
 	component_set = "SPACEPORT_SCOURGE_MISSILE"
 	projectile_gfx = "scourge_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
 }
 
 ### Projectiles
@@ -137,13 +141,13 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "swarm_01_fighter_entity"
 	cost = 40
-	power = -20
+	power = -40
 
-	count = 8
+	count = 10
 	regeneration_per_day = 1.00
-	launch_time = 0.5
+	launch_time = 1.0
 	
-	damage = { min = 5 max = 13 }
+	damage = { min = 7 max = 19 }
 	cooldown = 10
 	range = 15
 	accuracy = 1.0

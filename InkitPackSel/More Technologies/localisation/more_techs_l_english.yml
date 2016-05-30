@@ -138,7 +138,7 @@
 ##################################################
 # Policies submod
 # Coded by Remanemporor
-# Last updated 5/17/16
+# Last updated 5/28/16
 ##################################################
 
  tech_fleet_focus:0 "Fleet Focus"
@@ -220,8 +220,14 @@
  extreme_decentralization_desc:0 ""
  
  tech_imperial_reforms:0 "Imperial Reforms"
- tech_imperial_reforms_desc:0 "Our past leaders had deemed reform too costly. But those leaders are no longer around. Let us throw caution to the wind and build the empire we were always meant to."
+ tech_imperial_reforms_desc:0 "Our past leaders had deemed reform too costly. But those leaders are no longer around; let us throw caution to the wind and build the empire we were always meant to."
  
+ # below edited at 5/28/16
+ policy_test_desc_policy:0 "More slider options"
+ policy_test_desc_policy_desc:0 "Policy Test Desc Policy Desc"
+ reform_desc_fake_policy:0 "Moderate and Extreme versions"
+ reform_desc_fake_policy_name:0 "More slider options"
+ reform_desc_fake_policy_desc:0 "Allows us access to the moderate and extreme versions of the slider policies (like Centralization, Fleet Focus, etc.)"
  
 ##################################################
 # Other FTL types

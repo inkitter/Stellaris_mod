@@ -167,8 +167,10 @@ tech_imperial_reforms = {
 	# Unlocks moderate and extreme versions of the edicts
 
 	weight_modifier = {
+		factor = 1
 	}
-	
+
 	ai_weight = {
+		factor = 1
 	}
 }
