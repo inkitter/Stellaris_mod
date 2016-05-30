@@ -28,6 +28,9 @@
  * Playable Robots http://steamcommunity.com/sharedfiles/filedetails/?id=681553348 by steam@Mahou_1942 
  * Bread Baskets http://steamcommunity.com/sharedfiles/filedetails/?id=690067609 by steam@Garfeineko 3DM@春天的园草
  * Crystallis Ship Modules Expansion http://steamcommunity.com/sharedfiles/filedetails/?id=690350384
+ * Hungry World http://steamcommunity.com/sharedfiles/filedetails/?id=691822150
+ * Interstellar Trading System http://steamcommunity.com/workshop/filedetails/?id=687532370
+ * System Variety - Dead world: Colony Ship Start http://steamcommunity.com/workshop/filedetails/?id=691851232
 
 待汉化:
  * Fight For Universe: Infinite Legacy (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=685233391
