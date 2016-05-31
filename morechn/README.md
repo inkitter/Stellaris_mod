@@ -31,6 +31,7 @@
  * Hungry World http://steamcommunity.com/sharedfiles/filedetails/?id=691822150 by Garfeineko@steam 春天的园草@3DM
  * Interstellar Trading System http://steamcommunity.com/workshop/filedetails/?id=687532370 by Garfeineko@steam 春天的园草@3DM
  * System Variety - Dead world: Colony Ship Start http://steamcommunity.com/workshop/filedetails/?id=691851232 by Garfeineko@steam 春天的园草@3DM
+ * Auto improve buildings http://steamcommunity.com/sharedfiles/filedetails/?id=691008512
 
 待汉化:
  * Fight For Universe: Infinite Legacy (0%) http://steamcommunity.com/sharedfiles/filedetails/?id=685233391
