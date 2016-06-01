@@ -7045,6 +7045,8 @@ UPGRADING_SHIP_DESIGN_TO:0 "升级到 §H$CLASS$-class§!"
  COMBAT_LOCATION_DESC:0 "在 $SYSTEM|Y$ 发生战斗 ($DATE$)"
  COMBAT_WON:0 "胜利"
  COMBAT_LOST:0 "失败"
+ HIT_RATIO_MISSED:0 "未命中: $MISSED|Y0%$"
+ HIT_RATIO_EVADED:0 "被闪避: $EVADED|Y0%$"
 
  # Subject Integration
  INTEGRATE_SUBJECT_INVALID_OVERLORD:0 "不是合格的霸主"
@@ -7144,3 +7146,5 @@ UPGRADING_SHIP_DESIGN_TO:0 "升级到 §H$CLASS$-class§!"
  ship_weapons:0 "$STARTING_WEAPONS$"
  ship_ftl:0 "$FTL_LABEL$"
  ship_gfx_culture:0 "$SHIP_GRAPHICS$"
+ 
+ REQUESTING_HOT_JOIN:1 "请求加入"
