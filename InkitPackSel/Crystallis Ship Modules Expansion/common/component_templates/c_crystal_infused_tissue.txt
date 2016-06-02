@@ -47,25 +47,25 @@
 #	REGEN	#
 #############
 
-@regen_1S = 0.025
-@regen_1M = 0.05
-@regen_1L = 0.10
+@regen_1S = 0.015
+@regen_1M = 0.03
+@regen_1L = 0.06
 
-@regen_2S = 0.05
-@regen_2M = 0.10
-@regen_2L = 0.20
+@regen_2S = 0.02
+@regen_2M = 0.04
+@regen_2L = 0.08
 
-@regen_3S = 0.10
-@regen_3M = 0.20
-@regen_3L = 0.40
+@regen_3S = 0.025
+@regen_3M = 0.05
+@regen_3L = 0.10
 
-@regen_4S = 0.20
-@regen_4M = 0.30
-@regen_4L = 0.60
+@regen_4S = 0.03
+@regen_4M = 0.06
+@regen_4L = 0.12
 
-@regen_5S = 0.25
-@regen_5M = 0.50
-@regen_5L = 1.00
+@regen_5S = 0.035
+@regen_5M = 0.07
+@regen_5L = 0.14
 
 # ####################
 #  Regen mods

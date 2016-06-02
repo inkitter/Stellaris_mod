@@ -18,6 +18,11 @@
 @tier3cost3 = 3360
 @tier3cost4 = 3880
 
+@tier4cost1 = 4500
+@tier4cost2 = 5000
+@tier4cost3 = 6000
+@tier4cost4 = 8000 # Absurdly intricate techs
+
 ####################
 ### TECH WEIGHTS ###
 ####################
@@ -36,6 +41,11 @@
 @tier3weight2 = 45
 @tier3weight3 = 40
 @tier3weight4 = 35
+
+@tier4weight1 = 30
+@tier4weight2 = 25
+@tier4weight3 = 20
+@tier4weight4 = 15
 
 ################################
 # New Physics Techs
@@ -1075,5 +1085,670 @@ tech_ubiquitous_mines = {
 				has_trait = "leader_trait_expertise_industry"
 			}
 		}
+	}
+}
+
+#####################################
+# Release 7
+#####################################
+
+tech_colonization_four = {
+	cost = @tier3cost2
+	area = society
+	tier = 3
+	category = { new_worlds }
+	prerequisites = { "tech_colonization_3" }
+	weight = @tier3weight2
+	
+	modifier = {
+		pop_environment_tolerance = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+
+tech_colonization_five = {
+	cost = @tier3cost4
+	area = society
+	tier = 3
+	category = { new_worlds }
+	prerequisites = { "tech_colonization_four" }
+	weight = @tier3weight4
+	
+	modifier = {
+		pop_environment_tolerance = 0.05
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}
+
+tech_long_range_scanners = {
+	area = physics
+	cost = @tier1cost3
+	tier = 1
+	category = { voidcraft }
+	prerequisites = { "tech_sensors_2" }
+	weight = @tier1weight3
+	
+	modifier = {
+		planet_sensor_range_mult = 0.20
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_clairvoyant_beacons = {
+	area = physics
+	cost = @tier3cost3
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_sensors_4" }
+	weight = @tier3weight3
+	
+	modifier = {
+		planet_sensor_range_mult = 0.20
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_particle_accelerators = {
+	area = physics
+	cost = @tier2cost2
+	tier = 2
+	category = { particles }
+	prerequisites = {"tech_lasers_2"}
+	weight = @tier2weight2
+	
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+		weapon_type_energy_weapon_fire_rate_mult = 0.10
+	}
+}
+
+tech_particle_sublimators = {
+	area = physics
+	cost = @tier2cost3
+	tier = 2
+	category = { particles }
+	prerequisites = {"tech_lasers_2"}
+	weight = @tier2weight3
+	
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+		weapon_type_energy_weapon_damage_mult = 0.10
+	}
+}
+
+tech_particle_missile_fuel = {
+	area = physics
+	cost = @tier2cost2
+	tier = 2
+	category = { particles }
+	prerequisites = {"tech_missiles_3"}
+	weight = @tier2weight2
+	
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+		weapon_type_explosive_weapon_fire_rate_mult = 0.10
+	}
+}
+
+tech_particle_missile_warheads = {
+	area = physics
+	cost = @tier2cost3
+	tier = 2
+	category = { particles }
+	prerequisites = {"tech_missiles_3"}
+	weight = @tier2weight3
+	
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+		weapon_type_explosive_weapon_damage_mult = 0.10
+	}
+}
+	
+tech_particle_reloaders = {
+	area = physics
+	cost = @tier2cost2
+	tier = 2
+	category = { particles }
+	prerequisites = {"tech_mass_drivers_3"}
+	weight = @tier2weight2
+	
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+		weapon_type_kinetic_weapon_fire_rate_mult = 0.10
+	}
+}
+
+tech_particle_slugs = {
+	area = physics
+	cost = @tier2cost3
+	tier = 2
+	category = { particles }
+	prerequisites = {"tech_missiles_3"}
+	weight = @tier2weight3
+	
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+		weapon_type_kinetic_weapon_damage_mult = 0.10
+	}
+}
+
+tech_particle_repeaters = {
+	area = physics
+	cost = @tier3cost2
+	tier = 3
+	category = { particles }
+	prerequisites = {"tech_strike_craft_1"}
+	weight = @tier3weight2
+	
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+		weapon_type_strike_craft_weapon_fire_rate_mult = 0.10
+	}
+}
+
+tech_particle_infused_machineguns = {
+	area = physics
+	cost = @tier3cost3
+	tier = 3
+	category = { particles }
+	prerequisites = {"tech_strike_craft_1"}
+	weight = @tier3weight3
+	
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+		weapon_type_strike_craft_weapon_damage_mult = 0.10
+	}
+}
+
+tech_ringworld_construction_one = {
+	area = engineering
+	cost = @tier4cost1
+	tier = 4
+	category = { industry }
+	is_rare = yes
+	prerequisites = { "tech_mine_living_metal" }
+	weight = @tier4weight1
+	
+	# First of four techs to be able to construct ringworlds
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 0
+	}
+}
+
+
+tech_ringworld_construction_two = {
+	area = engineering
+	cost = @tier4cost2
+	tier = 4
+	category = { industry }
+	is_rare = yes
+	prerequisites = { "tech_ringworld_construction_one" }
+	weight = @tier4weight2
+	
+	# Second of four techs to be able to construct ringworlds
+
+	weight_modifier = {
+		factor = 3.0 # Have to get the first rare tech, so make this a bit more common
+	}
+	
+	ai_weight = {
+		factor = 0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_ringworld_construction_three = {
+	area = engineering
+	cost = @tier4cost3
+	tier = 4
+	category = { industry }
+	is_rare = yes
+	prerequisites = { "tech_ringworld_construction_two" }
+	weight = @tier4weight3
+	
+	# Third of four techs to be able to construct ringworlds
+
+	weight_modifier = {
+		factor = 3.0
+	}
+	
+	ai_weight = {
+		factor = 0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_ringworld_construction_four = {
+	area = engineering
+	cost = @tier4cost4
+	tier = 4
+	category = { industry }
+	is_rare = yes
+	prerequisites = { "tech_ringworld_construction_three" }
+	weight = @tier4weight4
+	
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_RING_MIL_CON"
+			desc = "TECH_UNLOCK_RING_MIL_CON_DESC"
+		}
+	}
+
+	weight_modifier = {
+		factor = 3.0
+	}
+	
+	ai_weight = {
+		factor = 0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_orbital_economics = {
+	area = engineering
+	cost = @tier1cost4
+	tier = 1
+	category = { industry }
+	prerequisites = { "tech_orbital_hydroponics" "tech_solar_panel_network" }
+	weight = @tier1weight4
+	
+	# Unlocks Solar Panel Network 2, Hydroponic Farms 2
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_orbital_microeconomy = {
+	area = engineering
+	cost = @tier2cost3
+	tier = 2
+	category = { industry }
+	prerequisites = { "tech_orbital_economics" }
+	weight = @tier2weight3
+	
+	# Unlocks Solar Panel Network 3, Hydroponic Farms 3
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_orbital_macroeconomy = {
+	area = engineering
+	cost = @tier3cost2
+	tier = 3
+	category = { industry }
+	prerequisites = { "tech_orbital_microeconomy" }
+	weight = @tier3weight2
+	
+	# Unlocks Solar Panel Network 4, Hydroponic Farms 4
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_advanced_corvette_construction = {
+	area = engineering
+	cost = @tier2cost1
+	tier = 2
+	category = { industry }
+	prerequisites = { "tech_spaceport_2" }
+	weight = @tier2weight1
+	
+	# Unlocks Corvette Assembly Yards 2
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_advanced_destroyer_construction = {
+	area = engineering
+	cost = @tier2cost3
+	tier = 2
+	category = { industry }
+	prerequisites = { "tech_advanced_corvette_construction" "tech_spaceport_4" }
+	weight = @tier2weight3
+	
+	# Unlocks Destroyer Assembly Yards 2
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_advanced_industry_retooling = {
+	area = engineering
+	cost = @tier3cost1
+	tier = 3
+	category = { industry }
+	prerequisites = { "tech_advanced_destroyer_construction" }
+	weight = @tier3weight1
+	
+	# Unlocks Cruiser Assembly Yards 2, Ship Assembly Yards
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_massive_industrial_overhaul = {
+	area = engineering
+	cost = @tier3cost3
+	tier = 3
+	category = { industry }
+	prerequisites = { "tech_advanced_industry_retooling" }
+	weight = @tier3weight3
+	
+	# Unlocks Battleship Assembly Yards 2, Ship Assembly Yards 2
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_industrial_generalization = {
+	area = engineering
+	cost = @tier3cost4
+	tier = 3
+	category = { industry }
+	prerequisites = { "tech_massive_industrial_overhaul" }
+	weight = @tier3weight4
+	
+	# Unlocks Ship Assembly Yards 3
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_hyperdynamic_industry = {
+	area = engineering
+	cost = @tier4cost1
+	tier = 4
+	category = { industry }
+	prerequisites = { "tech_industrial_generalization" }
+	weight = @tier4weight1
+	
+	# Unlocks Ship Assembly Yards 4
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_organized_supply_chains = {
+	area = engineering
+	cost = @tier2cost4
+	tier = 2
+	category = { industry }
+	prerequisites = { "tech_doctrine_fleet_size_3" }
+	weight = @tier2weight4
+	
+	# Unlocks Crew Quarters 2, Engineering Bay 2
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_station_defenses = {
+	area = engineering
+	cost = @tier1cost4
+	tier = 1
+	category = { industry }
+	prerequisites = { "tech_spaceport_2" }
+	weight = @tier1weight4
+	
+	# Unlocks Reinforced Hull 1
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_station_fortifications = {
+	area = engineering
+	cost = @tier2cost3
+	tier = 2
+	category = { industry }
+	prerequisites = { "tech_station_defenses" }
+	weight = @tier2weight3
+	
+	# Unlocks Reinforced Hull 2, Synchronized Defenses 2
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
+	}
+}
+
+tech_indomitable_fortresses = {
+	area = engineering
+	cost = @tier3cost1
+	tier = 3
+	category = { industry }
+	prerequisites = { "tech_station_fortifications" }
+	weight = @tier3weight1
+	
+	# Unlocks Reinforced Hull 3, Synchronized Defenses 3
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	modifier = {
 	}
 }

@@ -54,7 +54,7 @@ leader_trait_butcher = {
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_butcher.dds"
 	modifier = {
-		army_damage_mult = 0.2
+		army_damage_mult = 0.1
 	}
 	leader_trait = yes
 	leader_class = { general }
@@ -67,7 +67,7 @@ leader_trait_glory_seeker = {
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
 	modifier = {
 		army_morale = 0.1
-		army_damage_mult = 0.1
+		army_damage_mult = 0.05
 	}
 	leader_trait = yes
 	leader_class = { general }

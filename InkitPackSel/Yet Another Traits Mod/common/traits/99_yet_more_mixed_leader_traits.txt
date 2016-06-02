@@ -42,7 +42,7 @@ trait_mixed_front_lines = {
         army_morale = 0.15
     }
     leader_trait = yes
-    leader_class = { ruler general admiral }
+    leader_class = { general admiral }
 }
 trait_mixed_progressive = {
     cost = 1

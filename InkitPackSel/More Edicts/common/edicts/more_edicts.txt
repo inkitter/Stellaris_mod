@@ -3,7 +3,7 @@ country_edict = {
 	modifier = {
 		ship_weapon_damage = 0.33
 		ship_combat_speed_mult = 0.25
-		ship_accuracy_add = 0.10
+		ship_accuracy_add = 10
 		ship_upkeep_mult = 1.5
 	}
 	
@@ -61,8 +61,8 @@ country_edict = {
 country_edict = {
 	name = "barrage_protocols"
 	modifier = {
-		ship_weapon_damage = -0.60
-		ship_accuracy_add = 0.30
+		ship_weapon_damage = -0.40
+		ship_accuracy_add = 20
 		weapon_type_explosive_weapon_fire_rate_mult = 1
 		weapon_type_energy_weapon_fire_rate_mult = 1
 		weapon_type_kinetic_weapon_fire_rate_mult = 1
@@ -263,71 +263,6 @@ country_edict = {
 
 	prerequisites = {
 		"tech_space_defense_station_2"
-	}	
-}
-
-country_edict = {
-	name = "expansionist"
-	modifier = {
-		country_border_mult = 0.2
-		shipsize_outpost_station_build_cost_mult = -0.20
-		pop_growth_req_mult = -0.10
-		rivalry_influence_gain = 0.30
-		tile_resource_minerals_mult = -0.20
-		tile_resource_energy_mult = -0.20
-	}
-	
-	influence_cost = 2
-		
-	allow = {
-		NOT = {
-			OR = {
-				has_country_edict = isolationist
-			}
-		}
-	}
-	
-	ai_weight = {
-		weight = 0		
-	}	
-
-	prerequisites = {
-		"tech_galactic_administration"
-	}	
-}
-
-country_edict = {
-	name = "isolationist"
-	modifier = {
-		country_core_sector_planet_cap = 2
-		shipsize_mining_station_upkeep_mult = -0.25
-		shipsize_research_station_upkeep_mult = -0.25
-		tile_resource_food_mult = 0.05
-		tile_resource_minerals_mult = 0.05
-		tile_resource_energy_mult = 0.05
-		all_technology_research_speed = 0.05
-		country_border_mult = -0.10
-		pop_xenophobia = 0.3
-		influence_gain_add = -1.5
-		rivalry_influence_gain = -0.5
-	}
-	
-	influence_cost = 1
-		
-	allow = {
-		NOT = {
-			OR = {
-				has_country_edict = expansionist
-			}
-		}
-	}
-	
-	ai_weight = {
-		weight = 0		
-	}	
-	
-	prerequisites = {
-		"tech_galactic_administration"
 	}	
 }
 

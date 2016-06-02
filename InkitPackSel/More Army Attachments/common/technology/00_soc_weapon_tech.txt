@@ -37,6 +37,135 @@
 @tier3weight3 = 40
 @tier3weight4 = 35
 
+# ## Society - Weapon Technologies
+
+# ##################
+# Biological Weapons
+# ##################
+
+# Space Amoeba Strike Craft
+tech_amoeba_strike_craft_1 = {
+	area = society
+	cost = @tier2cost4
+	tier = 2
+	category = { biology }
+	ai_update_type = military
+	weight = 0
+	
+	ai_weight = {
+		factor = 0.25
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+# Swarm Strike Craft
+tech_swarm_strike_craft_1 = {
+	area = society
+	cost = @tier3cost3
+	tier = 3
+	is_rare = yes
+	category = { biology }
+	ai_update_type = military
+	weight = 0
+	
+	ai_weight = {
+		factor = 0.25
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+# Swarm Scourge Missiles
+tech_scourge_missile_1 = {
+	area = society
+	cost = @tier3cost3
+	tier = 3
+	is_rare = yes
+	category = { biology }
+	ai_update_type = military
+	weight = 0
+	
+	ai_weight = {
+		factor = 0.25
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+# Space Whale Weapon
+tech_space_whale_weapon_1 = {
+	area = society
+	cost = @tier3cost3
+	tier = 3
+	category = { biology }
+	ai_update_type = military
+	weight = 0
+	
+	ai_weight = {
+		factor = 0.25
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+
 # ##################
 #   MMA Tech
 # ##################
@@ -211,7 +340,7 @@ tech_slave_tech_1 = {
 tech_slave_tech_2 = {
 	area = society
 	cost = @tier1cost2
-	tier = 1
+	tier = 2
 	category = { military_theory }
 	prerequisites = { "tech_slave_tech_1" }
 	weight = @tier1weight1
@@ -263,3 +392,58 @@ tech_slave_tech_2 = {
 	}
 }
 
+# ODST Training
+ tech_odst_training = {
+	area = society
+	cost = @tier2cost3
+	tier = 2
+	category = { military_theory }
+	prerequisites = { "tech_body_armour_2" }
+	weight = @tier2weight3
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}

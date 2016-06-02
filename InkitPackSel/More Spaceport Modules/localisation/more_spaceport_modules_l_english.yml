@@ -36,19 +36,19 @@
  
  sm_crew_quarters_2:0 "Advanced Crew Quarters" 
  
- sm_reinforced_hull_1:0 "Reinforced Hull" 
+ sm_reinforced_hull_1:0 "Station Hull Reinforcement" 
  
- sm_reinforced_hull_2:0 "Upgraded Reinforced Hull" 
+ sm_reinforced_hull_2:0 "Upgraded Station Hull Reinforcement" 
  
- sm_reinforced_hull_3:0 "Advanced Reinforced Hull" 
+ sm_reinforced_hull_3:0 "Advanced Station Hull Reinforcement" 
 
  tech_synchronized_defences_2:0 "Advanced Synchronized Defences"
  tech_synchronized_defences_2_desc:0 "Aligning defensive and offensive weapon execution paradigms allows for increased efficiency."
  
- tech_reinforced_hull_1:0 "Reinforced Hull"
+ tech_reinforced_hull_1:0 "Hull Reinforcement"
  tech_reinforced_hull_1_desc:0 "Reinforcing the hulls of a space station greatly increases its resistance in the rare case of attack."
  
- tech_reinforced_hull_2:0 "Advanced Reinforced Hull"
+ tech_reinforced_hull_2:0 "Advanced Hull Reinforcement"
  tech_reinforced_hull_2_desc:0 "Reinforcing the hulls of a space station greatly increases its resistance in the rare case of attack."
  
  tech_battleship_yard_2:0 "Advanced Battleship Patterns"

@@ -1,0 +1,17 @@
+#icon_frame = 1 # green frame
+#icon_frame = 2 # yellow frame
+#icon_frame = 3 # red frame
+
+
+##########################################################################
+# Empire Modifiers
+##########################################################################
+megaconstruction_cooldown_ringworld = {
+	influence_gain_add = -3
+	country_resource_minerals_add = -80
+	country_resource_energy_add = -30
+	#influence_gain_mult = -0.25
+	#tile_resource_energy_mult = -0.25
+	#tile_resource_minerals_mult = -0.25
+}
+

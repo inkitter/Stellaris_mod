@@ -1,0 +1,22 @@
+opinion_empire_focus = {
+	opinion = {
+		base = 0
+		modifier = {
+			add = -3
+			FROM = {
+				has_policy_flag = empire_focus_expansionist
+			}
+		modifier = {
+			add = 1
+			FROM = {
+				has_policy_flag = empire_focus_isolationist
+			}
+		}	
+	}
+	
+	accumulative = yes
+	
+	decay = {
+		base = 2
+	}
+}

@@ -1,9 +1,19 @@
-#######################################
-# Coded by mastec
-# Repacked and edited by Remanemporor
-#######################################
+# variables:
+# parameters, data containing the specifics, eg which planet we're talking about
+# warscore_cost, scripted value, root is target country, amount of warscore required to push this demand
+# potential, trigger, root and from are main attackers and defenders, war is fromfrom, decides if this demand is listed
+# possible, trigger, root and from are main attackers and defenders, war is fromfrom, fromfromfrom is the target country, decides if this demand can go through
+# proposable, trigger, root and from are main attackers and defenders, war is fromfrom, fromfromfrom is the target country, decides if this demand is ok to propose
+# demandable, trigger, root and from are main attackers and defenders, war is fromfrom, fromfromfrom is the target country, decides if you can send a peace offer demanding ( not surrendering ) the demand.
+# effect, effect, root and main are main attacker and defender, war is fromfrom, fromfromfrom is the target country, effect which executes when the demand is accepted
+# execution_order, integer, defines in which order demands are executed, lower is higher priority, having the same execution order will make the first defined one higher prio
+# monthly_warscore, a descriptor on monthly wargoal score
+#	amount, scripted value, root and from are main attackers and defenders, war is fromfrom, fromfromfrom is the target country
+#   valid, trigger, root and from are main attackers and defenders, war is fromfrom, fromfromfrom is the target country
 
-abandon_planet = {
+
+
+abandon_planet_fix = {
 	execution_order = 1
 	
 	parameters = {
@@ -104,16 +114,16 @@ abandon_planet = {
 	}
 	
 	ai_weight = {
-		base = 20
+		base = 100
 		
 		modifier = {
-			factor = 10.0
+			factor = 20.0
 			has_ethic = ethic_xenophobe
 			has_ethic = ethic_fanatic_militarist
 		}
 		
 		modifier = {
-			factor = 20.0
+			factor = 30.0
 			has_ethic = ethic_fanatic_xenophobe
 		}		
 		
@@ -141,7 +151,7 @@ abandon_planet = {
 	AI_invasion_target = yes
 }
 
-abolish_ai = {
+abolish_ai_fix = {
 	execution_order = 1
 	
 	parameters = {
@@ -151,7 +161,7 @@ abolish_ai = {
 	}
 	
 	warscore_cost = {
-		base = 80
+		base = 40
 	}
 	
 	potential = {
@@ -185,7 +195,7 @@ abolish_ai = {
 	}
 	
 	ai_weight = {
-		base = 80
+		base = 100
 		
 		modifier = {
 			factor = 10
@@ -199,7 +209,7 @@ abolish_ai = {
 	}
 }
 
-abolish_slavery = {
+abolish_slavery_fix = {
 	execution_order = 1
 	
 	parameters = {
@@ -209,7 +219,7 @@ abolish_slavery = {
 	}
 	
 	warscore_cost = {
-		base = 80
+		base = 40
 	}
 
 	potential = {
@@ -242,10 +252,10 @@ abolish_slavery = {
 	}
 	
 	ai_weight = {
-		base = 20
+		base = 100
 		
 		modifier = {
-			factor = 20
+			factor = 30
 			OR = {
 				has_ethic = ethic_xenophile
 				has_ethic = ethic_individualist
@@ -254,7 +264,7 @@ abolish_slavery = {
 		}
 		
 		modifier = {
-			factor = 30
+			factor = 40
 			OR = {
 				has_ethic = ethic_fanatic_xenophile
 				has_ethic = ethic_fanatic_individualist
@@ -262,7 +272,7 @@ abolish_slavery = {
 		}
 		
 		modifier = {
-			factor = 30
+			factor = 40
 			OR = {
 				has_ai_personality = spiritual_seekers
 				has_ai_personality = peaceful_traders
@@ -273,7 +283,7 @@ abolish_slavery = {
 	}
 }
 
-abolish_purge = {
+abolish_purge_fix = {
 	execution_order = 1
 	
 	parameters = {
@@ -283,7 +293,7 @@ abolish_purge = {
 	}
 	
 	warscore_cost = {
-		base = 80
+		base = 40
 	}
 
 	potential = {
@@ -316,27 +326,22 @@ abolish_purge = {
 	}
 	
 	ai_weight = {
-		base = 20
+		base = 100
 		
 		modifier = {
-			factor = 0
-			#NOT = { has_ai_personality = fallen_empire_xenophile }
-		}
-		
-		modifier = {
-			factor = 20
+			factor = 30
 			has_ethic = ethic_xenophile
 			has_ethic = ethic_pacifist
 		}
 		
 		modifier = {
-			factor = 30
+			factor = 40
 			has_ethic = ethic_fanatic_xenophile
 			has_ethic = ethic_fanatic_pacifist
 		}
 		
 		modifier = {
-			factor = 30
+			factor = 40
 			OR = {
 				has_ai_personality = spiritual_seekers
 				has_ai_personality = peaceful_traders
@@ -347,7 +352,7 @@ abolish_purge = {
 	}
 }
 
-humiliate = {
+humiliate_fix = {
 	execution_order = 1
 	
 	parameters = {
@@ -357,7 +362,7 @@ humiliate = {
 	}
 	
 	warscore_cost = {
-		base = 60
+		base = 40
 	}
 
 	potential = {
@@ -377,7 +382,7 @@ humiliate = {
 	
 	effect = {	
 		parameter:country = {		
-			add_modifier = { modifier = humiliated days = 7200 }			
+			add_modifier = { modifier = humiliated days = 3600 }			
 		}
 		hidden_effect = {
 			add_opinion_modifier = { modifier = opinion_put_in_their_place who = parameter:country }
@@ -385,7 +390,7 @@ humiliate = {
 	}
 	
 	ai_weight = {
-		base = 20
+		base = 100
 		
 		modifier = {
 			factor = 20
@@ -397,173 +402,60 @@ humiliate = {
 	}
 }
 
-#cede_frontier_outpost = {
-#	execution_order = 1
-#	
-#	parameters = {
-#		system = {
-#			type = galactic_object
-#		}
-#	}
-#	
-#	warscore_cost = {
-#		base = 30
-#
-#		# Ruler Trait - Warlike
-#		modifier = {
-#			factor = 0.95
-#			custom_tooltip = {
-#				text = "war_demand_trait_warlike"
-#				exists = ruler
-#				ruler = { has_trait = trait_ruler_warlike }
-#			}
-#		}
-#
-#		# Ruler Trait - Expansionist
-#		modifier = {
-#			factor = 0.9
-#			custom_tooltip = {
-#				text = "war_demand_trait_expansionist"
-#				exists = ruler
-#				ruler = { has_trait = trait_ruler_expansionist }
-#			}
-#		}
-#
-#		# Tech - Galactic Ambitions
-#		modifier = {
-#			factor = 0.95
-#			custom_tooltip = {
-#				text = "war_demand_tech_galactic_ambitions"
-#				has_technology = tech_galactic_ambitions
-#			}
-#		}
-#
-#		# Tech - Manifest Destiny
-#		modifier = {
-#			factor = 0.9
-#			custom_tooltip = {
-#				text = "war_demand_tech_manifest_destiny"
-#				has_technology = tech_manifest_destiny
-#			}
-#		}
-#	}
-#	
-#	potential = {
-#		has_technology = tech_ideological_wars
-#		custom_tooltip_fail = {
-#			text = "war_demand_cede_frontier_outpost_no_stations"
-#			parameter:system = {
-#				any_ship_in_system = {
-#					is_ship_class = shipclass_outpost_station
-#					owner = {
-#						OR = {
-#							AND = {
-#								exists = fromfrom
-#								from = {
-#									from = {
-#										is_war_participant = {
-#											who = prevprev
-#											side = prev
-#										}
-#									}
-#								}
-#							}
-#							AND = {
-#								NOT = { exists = fromfrom }
-#								would_join_war = {
-#									attacker = root
-#									defender = from
-#									side = from
-#								}
-#							}
-#							
-#						}
-#					}
-#				}
-#			}
-#		}
-#		custom_tooltip_fail = {
-#			text = "war_demand_cede_planet_no_vassals"
-#			subject_can_diplomacy = this
-#		}
-#	}
-#	
-#	possible = {
-#		custom_tooltip_fail = {
-#			text = "war_demand_cede_frontier_outpost_no_stations_left"
-#			any_country = {
-#				OR = {
-#					AND = {
-#						exists = fromfrom
-#						from = {
-#							from = {
-#								is_war_participant = {
-#									who = prevprev
-#									side = prev
-#								}
-#							}
-#						}
-#					}
-#					AND = {
-#						NOT = { exists = fromfrom }
-#						would_join_war = {
-#							attacker = root
-#							defender = from
-#							side = from
-#						}
-#					}
-#				}
-#				
-#				war_demand_counter = {
-#					type = num_owned_planets
-#					value > 0
-#				}
-#				parameter:system = {
-#					any_ship_in_system = {
-#						is_ship_class = shipclass_outpost_station
-#						owner = {
-#							is_same_value = prevprevprev
-#						}
-#					}
-#				}
-#			}
-#		}
-#	}
-#	
-#	proposable = {
-#		always = yes
-#	}
-#	
-#	effect = {	
-#		parameter:system = {
-#			every_fleet_in_system = {
-#				limit = {
-#					is_ship_class = shipclass_outpost_station
-#					owner = {
-#						from = {
-#							from = {
-#								is_war_participant = {
-#									who = prevprev
-#									side = prev
-#								}
-#							}
-#						}
-#					}
-#				}
-#				set_owner = fromfromfrom
-#			}
-#		}
-#	}
-#	
-#	ai_weight = {
-#		base = 30
-#		
-#		modifier = {
-#			factor = 20
-#			OR = {
-#				has_ai_personality_behaviour = liberator
-#				has_ai_personality_behaviour = conqueror
-#			}
-#		}
-#	}
-#}
+demand_tribute = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		scaled_modifier = {
+			scope = parameter:country
+			add = 0.5
+			calc = pop_count
+		}	
+	}
+
+	potential = {
+		has_technology = tech_ideological_wars
+		parameter:country = {
+			is_country = from
+		}		
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {		
+			add_modifier = { modifier = loser_war_tributary days = 3600 }			
+		}
+		
+		parameter:root = {
+			add_modifier = { modifier = winner_war_tributary days = 3600 }
+		}	
+	}
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 20
+			OR = {
+				has_ai_personality_type = capitalist
+				has_ai_personality_type = hegemon
+				has_ai_personality_behaviour = opportunist
+			}
+		}
+	}
+}

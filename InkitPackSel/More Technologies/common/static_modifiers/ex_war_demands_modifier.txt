@@ -1,0 +1,9 @@
+winner_war_tributary = {
+	tile_resource_energy_mult = 0.1
+	tile_resource_minerals_mult = 0.1
+}
+
+loser_war_tributary = {
+	tile_resource_energy_mult = -0.1
+	tile_resource_minerals_mult = -0.1
+}
