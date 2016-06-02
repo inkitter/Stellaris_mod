@@ -35,9 +35,8 @@ https://github.com/inkitter/Stellaris_mod
 * Unique Resources 战略资源图标替换，战略资源图示更容易区别（比如原版两种蓝色的矿……），但因样式修改较大，放在可选包。
 * Chinese random country name **汉语随机命名** 多个部分用汉语命名，但考虑过于破坏原本游戏的未来太空感觉，放在可选包。
 * Beautiful Battles  漂亮的战斗。 提高了战斗的美观度，有不少战斗平衡性调整，例如舰船战斗阵形优化等。但此mod改变的数据较多，想体验原始战斗设计还是不开启较好。
+* Fox Leader Mod 领袖等级上限调整等
 * More Technologies  更多的科技。 __morechn已汉化__。   这个包是Advanced Buildings等mod的整合包，修改较多较复杂，**启用了它就不要启用Advanced Buildings**。
-* Advanced Buildings  高级建筑。 __morechn已汉化__。   More Technologies新增建筑的独立mod，**请不要同时开启**。
-* Research All FTL  可以研究所有FTL迁跃理论。   More Technologies也有类似的科技，**请不要同时开启**
 * More Spaceport Modules  更多的空间站模块。 __morechn已汉化__。
 * Extended Traits  更多的领袖特长。  __morechn已汉化__。
 * More Army Attachments  更多的军队模块。  __morechn已汉化__。
@@ -46,30 +45,16 @@ https://github.com/inkitter/Stellaris_mod
 * Grow Borders  边界增长速度加快的星球政策，需要影响力。  __morechn已汉化__
 * Yet Another Traits Mod 更多领袖特性 __morechn已汉化__
 * Bread Baskets 可以在行星间运输的食物 __morechn已汉化__ http://bbs.3dmgame.com/thread-5099700-1-1.html
-* Expanded Spaceport 扩展的空间站，空间站有24格建筑空间
 * Crystallis Ship Modules Expansion 水晶船模块扩展 __morechn已汉化__
 
 ## 纯搬运
 * Zeon 机战吉恩公国  __morechn已汉化__
 * Playable Robot 可玩的机器人 __morechn已汉化__
+* Expanded Spaceport 扩展的空间站 24格
+* Research All FTL  可以研究所有FTL迁跃理论。   More Technologies也有类似的科技，**请不要同时开启**
+* The Elder's Notification 游戏默认语音替换为中文长者提示音
 
 ## 记录
 
 ### 160519 初次发布
-### 更新日期160520：
-1. 为了提高兼容性，修改了部分mod文件夹结构，本次更新需要删除原来的整合包。以后尽量避免需要删除旧版……
-2. 考虑包的大小，单独把更多旗帜和背景贴图提取出来了。如果需要，把 flags 文件夹放在Inkitmod文件夹内即可。
-3. 修改可选包中Advanced Buildings，More Army Attachments等mod以提高兼容性，原版mod因修改了原始文件使得兼容性极差。
-4. 更新morechn汉化包，加入更多的mod支持（可选包里的）。因此包可能经常更新，也单独放出来，便于更新。启用时注意同时启用Inkitmod与morchn两个mod来保证额外的mod的汉化。
-
-### 更新日期160522：
-1. 更新更多旗帜贴图和背景，在 更多的旗帜与背景整合160522.zip 文件中。
-2. 更新主包可选颜色为RGB版，基本是全颜色了。
-3. 主包中加入汉语命名类型。
-4. 更新部分morechn。
-5. 可选包加入部分新内容，一些旧包的版本更新。
-6. 可选包加入战略图标资源替换，可更好区别战略资源。
-7. 不好意思之前的包为了加更多的种族颜色但是少删除了一个文件：Inkitmod\interface\xExpandedColors.gui 这个是原来120色的文件。手工删掉它。或者删除整个文件夹并安装 InkitModPack主包160522_2.zip
-
-### 更新160523
-1. More Technologies 汉化。
+### 160601 更新1.1版
