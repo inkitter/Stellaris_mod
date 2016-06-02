@@ -451,6 +451,7 @@
  SD_VASSAL_GREETING_01:0 "我们将寻求最好的服务标准，使我国可更好的服务于 [From.GetName]."
  DH_VASSAL_GREETING_01:0 "你好，尊敬的 [From.GetRulerTitle]. 您有什么需要?"
  EE_VASSAL_GREETING_01:0 "[Root.GetName]任何的发现和好的想法都会向[From.GetRulerTitle] [From.GetRulerName]报告的."
+ SS_VASSAL_GREETING_01:0 "在你的指引下，我们可以继续寻求许多复杂问题的答案."
  HC_VASSAL_GREETING_01:0 "我希望我们的社会建设能在 [From.GetAdj] 的指导下进行."
  HG_VASSAL_GREETING_01:0 "我们恳求你谦虚，不去亵渎神圣的世界，即使在你的控制下，我们也不能忘记我们的使命."
  KK_VASSAL_GREETING_01:0 "别因为征服了 [Root.GetName] 而骄傲， [From.GetSpeciesName]. 任何人都会因为自大而付出代价."
