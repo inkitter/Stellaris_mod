@@ -106,8 +106,8 @@
  humiliated_desc:0 "我们受到另一个帝国的公开侮辱。"
  TOOLTIP_HAPPINESS_GOV_ETHOS:0 "$ETHIC$政权 $VAL$"
  TOOLTIP_HAPPINESS_XENO_OVERLORDS:0 "外星统治者：$VAL$"
- swarm_border:0 " "
- swarm_border_desc:0 " "
+ swarm_border:1 ""
+ swarm_border_desc:1 ""
 
  ####################################
  # Pop Modifiers
@@ -153,7 +153,7 @@
  damage_vs_country_type_crystal_mult:0 "晶态实体受到伤害"
  damage_vs_country_type_drone_mult:0 "古早采矿无人机受到伤害"
  damage_vs_country_type_cloud_mult:0 "虚空之云受到伤害"
- damage_vs_country_type_swarm_mult:0 "普雷索林生物受到伤害"
+ damage_vs_country_type_swarm_mult:1 "普雷索林生物受到伤害"
 
  ####################################
  # Opinion Modifiers

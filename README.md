@@ -14,8 +14,8 @@ https://github.com/inkitter/Stellaris_mod
 ## 主包 Inkit MOD
 ###汉化
 * Chinese font  简体中文字库v4.6  来自 http://steamcommunity.com/sharedfiles/filedetails/?id=682681372
-* 汉化包1.1  **基于3DM汉化包2.5** 加入1.1的一些文本  \localisation\*.yml 若想使用其他汉化包直接把别的同名.yml文件覆盖进来即可。
-* morechn   我自制的一些工坊英文mod汉化包。
+* 3DM汉化包3.0  1.1版全汉化  \localisation\*.yml
+* morechn   自制的一些工坊英文mod汉化包。
 
 ###改进
 * Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 common\solar_system_initializers\ringworld_st_systems.txt

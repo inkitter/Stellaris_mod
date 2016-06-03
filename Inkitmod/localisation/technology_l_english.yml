@@ -194,7 +194,7 @@
  tech_mass_drivers_2:0 "线圈炮"
  tech_mass_drivers_2_desc:0 "线圈炮是早期质量加速器的升级版，使用电磁线圈加速弹药。"
  tech_mass_drivers_3:0 "轨道炮"
- tech_mass_drivers_3_desc:0 "轨道炮是最新的电磁加速器，使用双轨，出弹速度难以想象。"
+ tech_mass_drivers_3_desc:0 "轨道炮是最新的电磁加速器，轨道炮通过两个一模一样的平行轨道加速炮弹并且以令人惊讶的速度发射出去。"
  tech_mass_drivers_4:0 "升级版轨道炮"
  tech_mass_drivers_4_desc:0 "经典轨道炮的新版本，有更强的扶手，增大了的火力供应。这些武器比之前的更强劲，更准确。\n\n"
  tech_mass_drivers_5:0 "高斯炮"
@@ -696,7 +696,7 @@
  
  # Engineering
  tech_repeatable_improved_tile_mineral_output:0 "提取模式"
- tech_repeatable_improved_tile_mineral_output_desc:1 "交联武器系统发射的交错式齐射可以极大提升军事基地的伤害。\n\n"
+ tech_repeatable_improved_tile_mineral_output_desc:2 "了解矿物沉积的变动形式可以更有效的钻矿洞。"
  tech_repeatable_improved_military_station_damage:0 "同步放电模式"
  tech_repeatable_improved_military_station_damage_desc:1 "交联武器系统发射的交错式齐射可以极大提升军事基地的伤害。\n\n"
  tech_repeatable_improved_military_station_health:0 "强化核心层"
@@ -764,7 +764,7 @@
 
  # Pirate techs
  tech_pirate_starting:0 "仅限海盗的科技"
- tech_pirate_starting_desc:0 "仅限海盗的科技"
+ tech_pirate_starting_desc:0 ""
 
  #####################################
  # Event Techs

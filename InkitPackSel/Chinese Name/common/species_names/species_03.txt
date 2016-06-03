@@ -64,13 +64,6 @@ FUN = {
 		home_system = "阿尔法"
 		name_list = "FUN1"
 	}
-	faluowei = {
-		name = "法罗威"
-		plural = "法罗威"
-		home_planet = "法罗威"
-		home_system = "法罗威"
-		name_list = "FUN1"
-	}
 }
 
 ### 节肢动物
@@ -90,13 +83,6 @@ ART = {
 		home_system = "奥米加"
 		name_list = "ART1"
 	}
-	awefoga = {
-		name = "罗密诺"
-		plural = "罗密诺"
-		home_planet = "罗密诺"
-		home_system = "罗密诺"
-		name_list = "ART1"
-	}
 
 }
 
@@ -108,20 +94,6 @@ REP = {
 		plural = "贝他"
 		home_planet = "贝他"
 		home_system = "贝他"
-		name_list = "REP1"
-	}
-	foendasi = {
-		name = "弗恩达斯"
-		plural = "弗恩达斯"
-		home_planet = "弗恩达斯"
-		home_system = "弗恩达斯"
-		name_list = "REP1"
-	}
-	qiaobani = {
-		name = "乔布尔拉尼"
-		plural = "乔布尔拉尼"
-		home_planet = "乔布尔拉尼"
-		home_system = "乔布尔拉尼"
 		name_list = "REP1"
 	}
 	
@@ -138,20 +110,6 @@ AVI = {
 		home_system = "鹰鹫"
 		name_list = "AVI1"
 	}
-	chuzhi = {
-		name = "雏鹰"
-		plural = "雏鹰"
-		home_planet = "雏鹰"
-		home_system = "雏鹰"
-		name_list = "AVI1"
-	}
-	zhabuluosi = {
-		name = "扎普洛斯"
-		plural = "扎普洛斯"
-		home_planet = "扎普洛斯"
-		home_system = "扎普洛斯"
-		name_list = "AVI1"
-	}
 }
 
 ### 软体动物
@@ -164,18 +122,5 @@ MOL = {
 		home_system = "伽马"
 		name_list = "MOL1"
 	}
-	yipuxil = {
-		name = "伊普西龙"
-		plural = "伊普西龙"
-		home_planet = "伊普西龙"
-		home_system = "伊普西龙"
-		name_list = "MOL1"
-	}
-	shiyu = {
-		name = "诗域"
-		plural = "诗域"
-		home_planet = "诗域"
-		home_system = "诗域"
-		name_list = "MOL1"
-	}
+	
 }
