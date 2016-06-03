@@ -3,11 +3,13 @@ It's a mod collection for Chinese. 这是中文整合包
 
 下载地址： http://pan.baidu.com/s/1pLxjUbT 更新时请删除原文件夹内容
 
+创意工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=696221547
+
 * 放在 ** 文档\Paradox Interactive\Stellaris\mod\ **文件夹内，并在游戏启动器里勾选Inkitmod、morechn以及其他需要的mod。
 * 请留言推荐值得加入的mod或者报告BUG。
-* 主包主要是为了安装其他mod方便一些，这些不会强制性的影响游戏性，又是很常用而且不是很需要更新的mod。
+* 主要是为了安装其他mod方便一些，这些不会强制性的影响游戏性，又是很常用而且不是很需要更新的mod。
 * **会影响steam铁人成就**。
-* 可选包是搬运Steam工坊里增加游戏内容的mod。可能会有**相互不兼容**或者**内容重复**的可能性，因此不要无脑开启所有，选择性的加载比较妥。
+
 
 ##推广使用Github协作制作mod
 https://github.com/inkitter/Stellaris_mod 
@@ -28,10 +30,11 @@ https://github.com/inkitter/Stellaris_mod
 * 汉语种族随机名  种族设计界面以汉语命名的可选类型，随机汉语船、人名等。
 
 ###作弊
-* Easybuff 自制的政策界面作弊。前缀为“作弊”的一系列政策。已分离成单独mod。
+* Easybuff 自制的政策界面作弊。前缀为“作弊”的一系列政策。已分离成单独mod。 http://steamcommunity.com/sharedfiles/filedetails/?id=696221722
 
 
 ## 选择性安装包
+* 可选包是搬运Steam工坊里增加游戏内容的mod。可能会有**相互不兼容**或者**内容重复**的可能性，因此不要无脑开启所有，选择性的加载比较妥。
 ### 图案、文本替换增强类
 * 更多的旗帜与背景整合.zip 压缩包 多个种族设计界面的纹章和背景整合：光环、日式、Flags:Emblems & Backgrounds、IT、星际之门、现实国家风格、刺客信条等。
 * Unique Resources 战略资源图标替换，战略资源图示更容易区别（比如原版两种蓝色的矿……）。
