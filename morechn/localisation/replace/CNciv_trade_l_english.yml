@@ -36,12 +36,12 @@
  # Civilian Trade effects
  #############################
   
- trade_network_minerals:0 "Trade Network"
- trade_network_minerals_desc:0 "Intergalactic traders have recently made a stop at this planet providing a small boost to its economy."
- trade_network_energy:0 "Trade Network"
- trade_network_energy_desc:0 "Intergalactic traders have recently made a stop at this planet providing a small boost to its economy."  
- trade_network_food:0 "Trade Network"
- trade_network_food_desc:0 "Intergalactic traders have recently made a stop at this planet providing a small boost to its economy."
+ trade_network_minerals:0 "交易网络"
+ trade_network_minerals_desc:0 "星际贸易商最近在这个星球上建立了一个交易站，这将小幅提振我们的经济。"
+ trade_network_energy:0 "交易网络"
+ trade_network_energy_desc:0 "星际贸易商最近在这个星球上建立了一个交易站，这将小幅提振我们的经济。"  
+ trade_network_food:0 "交易网络"
+ trade_network_food_desc:0 "星际贸易商最近在这个星球上建立了一个交易站，这将小幅提振我们的经济。"
  
  
  
@@ -49,8 +49,8 @@
  # Civilian Trade personality
  #############################
  
- personality_civilian_traders:0 "Civilian Traders"
- personality_civilian_traders_desc:0 "Civilian Traders making their rounds across your empire always looking to trade."
+ personality_civilian_traders:0 "民间商人"
+ personality_civilian_traders_desc:0 "民间商人会在你的国家内徘徊以寻求交易。"
  
  ####################################
  # Edicts
@@ -58,49 +58,49 @@
 
  # Planet Edicts
  
- edict_trade_hub:0 "Trade Hub"
- edict_trade_hub_desc:0 "Providing a suitable amount of amenities and space this planet attracts a larger amount of traders then most planets as well as being able to take advantage of their presence."
+ edict_trade_hub:0 "交易中心"
+ edict_trade_hub_desc:0 "这个星球提供了这样一个设施和空间用以吸引更多的商人来发挥他们的特长。"
  
  # Country Edicts
  
- edict_trade_subsidies:0 "Trade Subsidies"
- edict_trade_subsidies_desc:0 "Feeling the need to give your traders a helping hand to get started you help them get started. Traders will be constructed more frequently."
+ edict_trade_subsidies:0 "贸易补贴"
+ edict_trade_subsidies_desc:0 "基于需求，你给予了你的商人们一点援助来帮助他们创业。这将使商人出现得更加频繁。"
  
  ####################################
  # Policies
  #################################### 
  
- policy_civilian_trade:0 "Civilian Trade"
- policy_civilian_trade_desc:0 "Depending on how tightly you hold the reigns of trade the more or less traders your empire will produce."
+ policy_civilian_trade:0 "民间贸易"
+ policy_civilian_trade_desc:0 "你的国家产生的商人数量取决于你掌握的贸易范围的大小。"
  
- unrestricted_trade:0 "Unrestricted"
- unrestricted_trade_name: "Unrestricted Trade" 
- unrestricted_trade_desc:0 "Prefering to take a hands off approach you let the markets decide their bounds."
+ unrestricted_trade:0 "自由的"
+ unrestricted_trade_name: "自由贸易" 
+ unrestricted_trade_desc:0 "倾向采用自由贸易，让市场起决定作用。"
 
- restricted_trade:0 "Restricted"
- restricted_trade_name:0 "Restricted Trade"
- restricted_trade_desc:0 "Too much freedom of movement and freedom of trade is bad for the empire. No new traders are allowed."
+ restricted_trade:0 "限制的"
+ restricted_trade_name:0 "限制贸易"
+ restricted_trade_desc:0 "太自由的迁徙和贸易不利于我国的发展。将不在核准新的商人入市。"
  
- policy_trade_focus:0 "Trade Focus"
- policy_trade_focus_desc:0 "Governemt stockpiles can focus on purchasing a specific commodity that your empire is lacking."
+ policy_trade_focus:0 "贸易焦点"
+ policy_trade_focus_desc:0 "国库能够致力于购买你的国家缺乏的特定商品。"
  
- mineral_focus:0 "Minerals"
- mineral_focus_name:0 "Mineral Focus"
- mineral_focus_desc:0 "Instruct administrators to purchase minerals from the traders."
+ mineral_focus:0 "矿产"
+ mineral_focus_name:0 "矿产焦点"
+ mineral_focus_desc:0 "指示管理者从商人处购入矿产。"
  
- energy_focus:0 "Energy Credits"
- energy_focus_name:0 "Energy Credits Focus"
- energy_focus_desc:0 "Instruct administrators to trade for energy credits."
+ energy_focus:0 "能源"
+ energy_focus_name:0 "能源焦点"
+ energy_focus_desc:0 "指示管理者从商人处购入能源。"
  
- food_focus:0 "Food"
- food_focus_name:0 "Food Focus"
- food_focus_desc:0 "Instruct administrators to purchase food from the traders."
+ food_focus:0 "食物"
+ food_focus_name:0 "食物焦点"
+ food_focus_desc:0 "指示管理者从商人处购入食物。"
  
  ####################################
  # Hull Sizes
  ####################################  
  
- civilian_trade_freighter:0 "Civilian Freighter"
- civilian_trade_freighter_plural:0 "Civilian Freighters"
- civilian_trade_tanker:0 "Civilian Tanker"
- civilian_trade_tanker_plural:0 "Civilian Tankers"
+ civilian_trade_freighter:0 "民间货舰"
+ civilian_trade_freighter_plural:0 "民间货舰们"
+ civilian_trade_tanker:0 "民间油轮"
+ civilian_trade_tanker_plural:0 "民间油轮们"
