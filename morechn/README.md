@@ -1,18 +1,14 @@
+已汉化的mod做了收录合辑方便订阅： http://steamcommunity.com/sharedfiles/filedetails/?id=695887620 
+
 # More Chinese · 更多的中文
 ## 需要中文字库支持
 
 在GitHub上维护： https://github.com/inkitter/Stellaris_mod
-
 创意工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
-同时我做了一个轻量的mod整合包： http://bbs.3dmgame.com/thread-5096002-1-1.html 已经集成本mod。
+同时我做了一个轻量的mod整合包： http://bbs.3dmgame.com/thread-5096002-1-1.html
 
-欢迎提建议便于加入更多汉化支持。
-为一些mod提供汉化，支持的mod如下：
-
-
-已汉化:
-
+已汉化MOD如下:
  * More Spaceport Modules http://steamcommunity.com/sharedfiles/filedetails/?id=682659220
  * Ringworld Start http://steamcommunity.com/sharedfiles/filedetails/?id=681864454
  * Slvrbuu's Stellaris Cheat Menu http://steamcommunity.com/sharedfiles/filedetails/?id=681947845

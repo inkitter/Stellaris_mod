@@ -1,3 +1,4 @@
+It's a mod collection for Chinese. 这是中文整合包
 # Inkit MOD整合包
 
 下载地址： http://pan.baidu.com/s/1pLxjUbT 更新时请删除原文件夹内容
@@ -11,11 +12,13 @@
 ##推广使用Github协作制作mod
 https://github.com/inkitter/Stellaris_mod 
 
+--------
+
 ## 主包 Inkit MOD
 ###汉化
-* Chinese font  简体中文字库v4.6  来自 http://steamcommunity.com/sharedfiles/filedetails/?id=682681372
-* 3DM汉化包3.0  1.1版全汉化  \localisation\*.yml
-* morechn   自制的一些工坊英文mod汉化包。
+* Chinese font  简体中文字库v4.6  http://steamcommunity.com/sharedfiles/filedetails/?id=682681372
+* 3DM汉化包3.0  1.1版全汉化  \localisation\*.yml http://steamcommunity.com/sharedfiles/filedetails/?id=683978765
+* morechn   自制的一些工坊英文mod汉化包。 http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
 ###改进
 * Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 common\solar_system_initializers\ringworld_st_systems.txt
@@ -58,7 +61,7 @@ https://github.com/inkitter/Stellaris_mod
 * Expanded Spaceport 扩展的空间站 24格 兼容性较差 小心开启
 * Research All FTL  可以研究所有FTL迁跃理论。   More Technologies也有类似的科技，**请不要同时开启**
 * The Elder's Notification 游戏默认语音替换为中文长者提示音
-
+--------
 ## 记录
 * 160519 初次发布
 * 160601 更新1.1版
