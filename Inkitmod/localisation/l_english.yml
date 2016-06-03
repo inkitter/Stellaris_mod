@@ -5857,7 +5857,7 @@
  alert_powerful_factions_instruction:0 "左键查看人民派系"
  alert_powerful_factions_entry:0 "$INDEX$: $NAME$ ( $SUPPORT|%$ )"
  alert_research_missing_scientist_title:1 "进行到一半的研究缺少科研人员。"
- alert_research_missing_scientist_instant:1 ""
+ alert_research_missing_scientist_instant:1 "没有科研人员"
  alert_research_missing_scientist_entry:1 "$TECHAREA|H$ 没有科研人员。"
  
  ####################################
