@@ -34,3 +34,4 @@
  * Civilian Trade http://steamcommunity.com/sharedfiles/filedetails/?id=693402022 by Garfeineko@steam 春天的园草@3DM
  * Change Capital Planet http://steamcommunity.com/sharedfiles/filedetails/?id=695883812 by Garfeineko@steam 春天的园草@3DM
  * Planetary Rally Points http://steamcommunity.com/sharedfiles/filedetails/?id=693310104 by Garfeineko@steam 春天的园草@3DM
+ * Design Everything / Station BUFF http://steamcommunity.com/sharedfiles/filedetails/?id=691660541 可以设计各类宇宙空间站（采矿站、观测站等）以增加攻击防御；可以近距离修建固定式防御空间站。
