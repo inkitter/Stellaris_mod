@@ -7,8 +7,8 @@
 创意工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
 ##同时我做了一个轻量的mod整合包
-*3DM： http://bbs.3dmgame.com/thread-5096002-1-1.html
-*steam工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=696221547
+* 3DM： http://bbs.3dmgame.com/thread-5096002-1-1.html
+* steam工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=696221547
 
 已汉化MOD如下:
  * More Spaceport Modules http://steamcommunity.com/sharedfiles/filedetails/?id=682659220
