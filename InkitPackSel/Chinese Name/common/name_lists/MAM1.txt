@@ -1,4 +1,4 @@
-### Mammalian 1
+﻿### Mammalian 1
 MAM1 = {
 	### SHIPS
 
@@ -52,64 +52,62 @@ MAM1 = {
 		research_station = { }
 		wormhole_station = { }
 		terraform_station = { }
-		observation_station = { sequential_name = "第%O%观测站" }
+		observation_station = {  }
 		outpost_station = {
-			sequential_name = "第%O%哨所"
+			sequential_name = "第%CC%前哨站"
 		}
 	
 		military_station_small = {
-			sequential_name = "第%O%卫戍站"
 			}
 		military_station_medium = {
-			sequential_name = "第%O%军事卫所"
 			}
 		military_station_large = {
-			sequential_name = "第%O%军事基地"
 			}	
 	}
 
 	fleet_names = {
 		random_names = {
 			勇气舰队 友情舰队 诚实舰队 爱心舰队 知识舰队 纯真舰队 希望舰队 光舰队 善良舰队 奇迹舰队 命运舰队
+			"国防第1舰队" "国防第2舰队" "国防第3舰队" "国防第4舰队" "国防第5舰队" "国防第6舰队" "国防第7舰队" "国防第8舰队" "国防第9舰队" "国防第10舰队" "国防第11舰队" "国防第12舰队" "国防第13舰队" "国防第14舰队" "国防第15舰队" "国防第16舰队" "国防第17舰队" "国防第18舰队" "国防第19舰队" "国防第20舰队"
 		}
-		sequential_name = "环宇海军第%O%舰队"
+		sequential_name = "环宇海军第%CC%舰队"
 	}
 	
 	army_names = {
 		defense_army = {
-			sequential_name = "第%O%防卫旅"
+			sequential_name = "第%CC%防卫旅"
 		}
 			
 		assault_army = {
-			sequential_name = "第%O%攻击旅"
+			sequential_name = "第%CC%攻击旅"
 		}
 		
 		slave_army = {
-			sequential_name = "第%O%奴隶人部队"
+			sequential_name = "第%CC%奴隶人部队"
 		}
 		
 		clone_army = {
-			sequential_name = "第%O%克隆人旅"
+			sequential_name = "第%CC%克隆人旅"
 		}
 		
 		robotic_army = {
-			sequential_name = "第%O%机械旅"
+			sequential_name = "第%CC%机械旅"
 		}
 		
 		android_army = {
-			sequential_name = "第%O%机器人突击旅"
+			sequential_name = "第%CC%机器人突击旅"
 		}
 		
 		psionic_army = {
-			sequential_name = "第%O%灵能突击旅"
+			sequential_name = "第%CC%灵能突击旅"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "第%O%异性突击旅"
+			sequential_name = "第%CC%异性突击旅"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "第%O%改造人突击旅"
+			sequential_name = "第%CC%改造人突击旅"
 		}
 	}
 

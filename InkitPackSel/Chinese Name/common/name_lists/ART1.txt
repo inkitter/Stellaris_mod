@@ -1,9 +1,8 @@
-### Arthropoid 1
+﻿### Arthropoid 1
 ART1 = {	
 	### SHIPS
 
 	ship_names = {
-	
 		generic = {
 			"蟑螂号" "蚂蚁号" "蜜蜂号" "龙虾号" "蜘蛛号" "大闸蟹号" "梭子蟹号" "椰子蟹号" "寄居蟹号" "瓷蟹号" "花蟹号" "毒蚊号" "飞蝇号" "蜈蚣号" "七星瓢虫号" "螳螂号" "寒蝉号" "飞蝗号" "蜻蜓号" "跳蚤号" "工蜂号"
 		}
@@ -36,27 +35,26 @@ ART1 = {
 		research_station = { }
 		wormhole_station = { }
 		terraform_station = { }
-		observation_station = { sequential_name = "科学院第%O%观测站" }
 		outpost_station = {
-			sequential_name = "国防部第%O%哨所"
+			sequential_name = "第%CC%前哨站"
+		}
+		outpost_station = {
 		}
 	
 		military_station_small = {
-			sequential_name = "国防部第%O%卫戍站"
 			}
 		military_station_medium = {
-			sequential_name = "国防部第%O%军事卫所"
 			}
 		military_station_large = {
-			sequential_name = "国防部第%O%军事基地"
 			}	
 	}
 	
 	fleet_names = {
 		random_names = {
 			"国立太空军学院教导舰队" "荣耀海军旗舰队"
+			"光勋第1舰队" "光勋第2舰队" "光勋第3舰队" "光勋第4舰队" "光勋第5舰队" "光勋第6舰队" "光勋第7舰队" "光勋第8舰队" "光勋第9舰队" "光勋第10舰队" "光勋第11舰队" "光勋第12舰队" "光勋第13舰队" "光勋第14舰队" "光勋第15舰队" "光勋第16舰队" "光勋第17舰队" "光勋第18舰队" "光勋第19舰队" "光勋第20舰队"
 		}
-		sequential_name = "荣耀海军第%O%舰队"
+		sequential_name = "荣耀海军第%CC%舰队"
 	}
 
 
@@ -64,39 +62,39 @@ ART1 = {
 	army_names = {
 	
 		defense_army = {
-			sequential_name = "国土防卫军第%O%纵队"
+			sequential_name = "国土防卫军第%CC%纵队"
 		}
 			
 		assault_army = {
-			sequential_name = "国立攻击军第%O%纵队"
+			sequential_name = "国立攻击军第%CC%纵队"
 		}
 		
 		slave_army = {
-			sequential_name = "第%O%奴隶团"
+			sequential_name = "第%CC%奴隶团"
 		}
 		
 		clone_army = {
-			sequential_name = "第%O%克隆人纵队"
+			sequential_name = "第%CC%克隆人纵队"
 		}
 		
 		robotic_army = {
-			sequential_name = "第%O%机械纵队"
+			sequential_name = "第%CC%机械纵队"
 		}
 		
 		android_army = {
-			sequential_name = "第%O%机器人突击队"
+			sequential_name = "第%CC%机器人突击队"
 		}
 		
 		psionic_army = {
-			sequential_name = "第%O%灵能突击队"
+			sequential_name = "第%CC%灵能突击队"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "第%O%异性突击队"
+			sequential_name = "第%CC%异性突击队"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "第%O%改造人突击队"
+			sequential_name = "第%CC%改造人突击队"
 		}
 	}
 	

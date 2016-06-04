@@ -1,4 +1,4 @@
-### Reptilian 1
+﻿### Reptilian 1
 REP1 = {
 	### SHIPS
 
@@ -36,19 +36,16 @@ REP1 = {
 		research_station = { }
 		wormhole_station = { }
 		terraform_station = { }
-		observation_station = { sequential_name = "第%O%观测站" }
+		observation_station = {}
 		outpost_station = {
-			sequential_name = "第%O%哨所"
+			sequential_name = "第%CC%前哨站"
 		}
 	
 		military_station_small = {
-			sequential_name = "第%O%卫戍站"
 			}
 		military_station_medium = {
-			sequential_name = "第%O%军事卫所"
 			}
 		military_station_large = {
-			sequential_name = "第%O%军事基地"
 			}	
 	}
 
@@ -56,47 +53,44 @@ REP1 = {
 		random_names = {
 			"龙翼第1舰队" "龙翼第2舰队" "龙翼第3舰队" "龙翼第4舰队" "龙翼第5舰队" "龙翼第6舰队" "龙翼第7舰队" "龙翼第8舰队" "龙翼第9舰队" "龙翼第10舰队" "龙翼第11舰队" "龙翼第12舰队" "龙翼第13舰队" "龙翼第14舰队" "龙翼第15舰队" "龙翼第16舰队" "龙翼第17舰队" "龙翼第18舰队" "龙翼第19舰队" "龙翼第20舰队"
 		}
-		sequential_name = "死亡海军第%O%舰队"
-		sequential_name = "罪恶海军第%O%舰队"
-		sequential_name = "裁决海军第%O%舰队"
-		sequential_name = "不义海军第%O%舰队"
+		sequential_name = "裁决海军第%CC%舰队"
 	}
 	
 	army_names = {
 		defense_army = {
-			sequential_name = "第%O%防卫集团军"
+			sequential_name = "第%CC%防卫集团军"
 		}
 			
 		assault_army = {
-			sequential_name = "第%O%突击集团军"
+			sequential_name = "第%CC%突击集团军"
 		}
 		
 		slave_army = {
-			sequential_name = "第%O%奴隶人小队"
+			sequential_name = "第%CC%奴隶人小队"
 		}
 		
 		clone_army = {
-			sequential_name = "第%O%克隆人集团军"
+			sequential_name = "第%CC%克隆人集团军"
 		}
 		
 		robotic_army = {
-			sequential_name = "第%O%机械集团军"
+			sequential_name = "第%CC%机械集团军"
 		}
 		
 		android_army = {
-			sequential_name = "第%O%机器人突击集团军"
+			sequential_name = "第%CC%机器人突击集团军"
 		}
 		
 		psionic_army = {
-			sequential_name = "第%O%灵能突击集团军"
+			sequential_name = "第%CC%灵能突击集团军"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "第%O%异性突击集团军"
+			sequential_name = "第%CC%异性突击集团军"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "第%O%改造人突击集团军"
+			sequential_name = "第%CC%改造人突击集团军"
 		}
 	}
 		

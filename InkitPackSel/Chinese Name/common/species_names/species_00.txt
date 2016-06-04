@@ -75,10 +75,10 @@ MAM = {
 	}
 
 	birnathi = {
-		name = 比热那
-		plural = 比热那
-		home_planet = 比热那
-		home_system = 比热那
+		name = 比罗娜
+		plural = 比罗娜
+		home_planet = 比罗娜
+		home_system = 比罗娜
 		name_list = "MAM1"
 	}
 
@@ -207,31 +207,31 @@ MAM = {
 		name_list = "Human"
 	}
 	sfggg = {
-		name = 白金汉
-		plural = 白金汉
-		home_planet = 白金汉
-		home_system = 白金汉
+		name = 拜金罕
+		plural = 拜金罕
+		home_planet = 拜金罕
+		home_system = 拜金罕
 		name_list = "Human"
 	}
 	jykl = {
-		name = 威斯敏斯特
-		plural = 威斯敏斯特
-		home_planet = 威斯敏斯特
-		home_system = 威斯敏斯特
+		name = 威斯敏斯
+		plural = 威斯敏斯
+		home_planet = 威斯敏斯
+		home_system = 威斯敏斯
 		name_list = "Human"
 	}
 	qwf = {
-		name = 约克
-		plural = 约克
-		home_planet = 约克
-		home_system = 约克
+		name = 耀克
+		plural = 耀克
+		home_planet = 耀克
+		home_system = 耀克
 		name_list = "Human"
 	}
 	erhntre = {
-		name = 瓦卢瓦
-		plural = 瓦卢瓦
-		home_planet = 瓦卢瓦
-		home_system = 瓦卢瓦
+		name = 瓦杜瓦
+		plural = 瓦杜瓦
+		home_planet = 瓦杜瓦
+		home_system = 瓦杜瓦
 		name_list = "Human"
 	}
 	ilfrdf = {
@@ -1308,10 +1308,10 @@ REP = {
 
 AVI = {
 	budapeisi = {
-		name = 布达佩斯
-		plural = 布达佩斯
-		home_planet = 布达佩斯
-		home_system = 布达佩斯
+		name = 布达培兹
+		plural = 布达培兹
+		home_planet = 布达培兹
+		home_system = 布达培兹
 		name_list = "AVI1"
 	}
 	pannuoya = {
@@ -1322,31 +1322,31 @@ AVI = {
 		name_list = "AVI1"
 	}
 	wfqgegq = {
-		name = 佩切涅格
-		plural = 佩切涅格
-		home_planet = 佩切涅格
-		home_system = 佩切涅格
+		name = 佩切洛格
+		plural = 佩切洛格
+		home_planet = 佩切洛格
+		home_system = 佩切洛格
 		name_list = "AVI1"
 	}
 	qqs = {
-		name = 墨尔文
-		plural = 墨尔文族
-		home_planet = 墨尔文
-		home_system = 墨尔文
+		name = 符文族
+		plural = 符文族
+		home_planet = 符文
+		home_system = 符文
 		name_list = "AVI1"
 	}
 	qqv = {
-		name = 比耶博
-		plural = 比耶博族
-		home_planet = 比耶博
-		home_system = 比耶博
+		name = 猫眼石
+		plural = 猫眼石族
+		home_planet = 猫眼石
+		home_system = 猫眼石
 		name_list = "AVI1"
 	}
 	qqh = {
-		name = 巴伐利亚
-		plural = 巴伐利亚族
-		home_planet = 巴伐利亚
-		home_system = 巴伐利亚
+		name = 巴伐尼亚
+		plural = 巴伐尼亚族
+		home_planet = 巴伐尼亚
+		home_system = 巴伐尼亚
 		name_list = "AVI1"
 	}
 	egwgtwgfer = {
@@ -1447,17 +1447,17 @@ AVI = {
 		name_list = "AVI1"
 	}
 	gage = {
-		name = 斯摩棱斯克
-		plural = 斯摩棱斯克
-		home_planet = 斯摩棱斯克
-		home_system = 斯摩棱斯克
+		name = 斯摩棱兹
+		plural = 斯摩棱兹克
+		home_planet = 斯摩棱兹
+		home_system = 斯摩棱兹
 		name_list = "AVI1"
 	}
 	afwfe = {
-		name = 诺夫哥罗德
-		plural = 诺夫哥罗德
-		home_planet = 诺夫哥罗德
-		home_system = 诺夫哥罗德
+		name = 诺夫莫德
+		plural = 诺夫莫德
+		home_planet = 诺夫莫德
+		home_system = 诺夫莫德
 		name_list = "AVI1"
 	}
 	qqt = {
@@ -1468,17 +1468,17 @@ AVI = {
 		name_list = "AVI1"
 	}
 	qqy = {
-		name = 高卢
-		plural = 高卢族
-		home_planet = 高卢
-		home_system = 高卢
+		name = 高颅
+		plural = 高颅族
+		home_planet = 高颅
+		home_system = 高颅
 		name_list = "AVI1"
 	}
 	qqa = {
-		name = 罗马
-		plural = 罗马族
-		home_planet = 罗马
-		home_system = 罗马
+		name = 波罗丁
+		plural = 波罗丁族
+		home_planet = 波罗丁
+		home_system = 波罗丁
 		name_list = "AVI1"
 	}
 	qqd = {

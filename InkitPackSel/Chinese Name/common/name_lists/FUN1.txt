@@ -1,4 +1,4 @@
-### Fungoid 1
+﻿### Fungoid 1
 FUN1 = {
 	### SHIPS
 
@@ -35,64 +35,62 @@ FUN1 = {
 		research_station = { }
 		wormhole_station = { }
 		terraform_station = { }
-		observation_station = { sequential_name = "第%O%观测站" }
+		observation_station = {  }
 		outpost_station = {
-			sequential_name = "第%O%哨所"
+			sequential_name = "第%CC%前哨站"
 		}
 	
 		military_station_small = {
-			sequential_name = "第%O%卫戍站"
 			}
 		military_station_medium = {
-			sequential_name = "第%O%军事卫所"
 			}
 		military_station_large = {
-			sequential_name = "第%O%军事基地"
 			}	
 	}
 
 	fleet_names = {
 		random_names = {
 			蘑菇舰队 香菇舰队 平菇舰队 木耳舰队 灵芝舰队 松露舰队 孢子舰队
+			"孢子第1舰队" "孢子第2舰队" "孢子第3舰队" "孢子第4舰队" "孢子第5舰队" "孢子第6舰队" "孢子第7舰队" "孢子第8舰队" "孢子第9舰队" "孢子第10舰队" "孢子第11舰队" "孢子第12舰队" "孢子第13舰队" "孢子第14舰队" "孢子第15舰队" "孢子第16舰队" "孢子第17舰队" "孢子第18舰队" "孢子第19舰队" "孢子第20舰队"
 		}
-		sequential_name = "希望海军第%O%舰队"
+		sequential_name = "希望海军第%CC%舰队"
 	}
 	
 	army_names = {
 		defense_army = {
-			sequential_name = "自卫第%O%集群"
+			sequential_name = "自卫第%CC%集群"
 		}
 			
 		assault_army = {
-			sequential_name = "突击第%O%集群"
+			sequential_name = "突击第%CC%集群"
 		}
 		
 		slave_army = {
-			sequential_name = "第%O%奴隶人集群"
+			sequential_name = "第%CC%奴隶人集群"
 		}
 		
 		clone_army = {
-			sequential_name = "第%O%克隆人集群"
+			sequential_name = "第%CC%克隆人集群"
 		}
 		
 		robotic_army = {
-			sequential_name = "第%O%机械集群"
+			sequential_name = "第%CC%机械集群"
 		}
 		
 		android_army = {
-			sequential_name = "第%O%机器人突击集群"
+			sequential_name = "第%CC%机器人突击集群"
 		}
 		
 		psionic_army = {
-			sequential_name = "第%O%灵能突击集群"
+			sequential_name = "第%CC%灵能突击集群"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "第%O%异性突击集群"
+			sequential_name = "第%CC%异形突击集群"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "第%O%改造人突击集群"
+			sequential_name = "第%CC%改造人突击集群"
 		}
 	}
 
@@ -150,7 +148,7 @@ FUN1 = {
 		default = {
 			# A complete name
 			full_names = {
-				斯佩克尔 帝格那吉尔 沙博格尼基 亨格伦 威戈厄尔 曼斯戈尔 理格瑞 噶奔 哈勃 葛娜乐 斯卢安摩尔 施邦廸尔 威戈劳勒里 富葛特那勒 思博林 胡密格尔 卡觉尔 凯格赫洛 凯斯法尔洛 柯傅布朗
+				斯佩克尔 帝格那吉尔 沙博格尼基 亨格伦 威戈厄尔 曼斯戈尔 理格瑞 噶奔 哈勃 葛娜乐 斯卢安摩尔 施邦迪尔 威戈劳勒里 富葛特那勒 思博林 胡密格尔 卡觉尔 凯格赫洛 凯斯法尔洛 柯傅布朗
 			}
 			
 			# Always combined with a second name

@@ -66,7 +66,9 @@ PRT1 = {
 		research_station = { }
 		wormhole_station = { }
 		terraform_station = { }
-		observation_station = { }
+		observation_station = {
+			"Prethoryn Infestor"
+			}
 		
 		transport = {
 			"Carrier"
@@ -91,9 +93,7 @@ PRT1 = {
 
 	fleet_names = {
 		random_names = {
-			"Blood Armada" "Dread Fleet" "Flotilla of Death" "Skull Armada" "Fleet of Doom" "Raider Flotilla" "Raiding Force"
-			"Pirate Squadron" "Dark Flotilla" "War Party" "Pirate Armada" "Pirate Flotilla" "Raiding Strike Force" "Blood Host"
-			"Hunting Squadron" "Hunting Pack" "Scourge of the Stars" "Black Flotilla" "Crimson Flotilla" "Stellar Marauders"
+			 血舰队 恐惧舰队 舰队 骷髅死 舰队 舰队毁灭 突击舰队  海盗中队  黑暗舰队  战争派  海盗舰队  海盗舰队 袭击打击  血主 狩猎中队  狩猎包  灾难之星  黑队  红色舰队 恒星的掠夺者 
 		}
 	}
 

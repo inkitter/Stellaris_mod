@@ -1,4 +1,4 @@
-### Template
+﻿### Template
 AVI1 = {
 	### SHIPS
 
@@ -44,64 +44,62 @@ AVI1 = {
 		research_station = { }
 		wormhole_station = { }
 		terraform_station = { }
-		observation_station = { sequential_name = "科学院第%O%观测站" }
+		observation_station = { }
 		outpost_station = {
-			sequential_name = "统帅部第%O%哨所"
+			sequential_name = "第%CC%前哨站"
 		}
 	
 		military_station_small = {
-			sequential_name = "统帅部第%O%卫戍站"
 			}
 		military_station_medium = {
-			sequential_name = "统帅部第%O%军事卫所"
 			}
 		military_station_large = {
-			sequential_name = "统帅部第%O%军事基地"
 			}	
 	}
 
 	fleet_names = {
 		random_names = {
 			太空海军模范舰队 统帅部直属舰 北方舰队 南方舰队 西方舰队 东方舰队
+			"太空第1舰队" "太空第2舰队" "太空第3舰队" "太空第4舰队" "太空第5舰队" "太空第6舰队" "太空第7舰队" "太空第8舰队" "太空第9舰队" "太空第10舰队" "太空第11舰队" "太空第12舰队" "太空第13舰队" "太空第14舰队" "太空第15舰队" "太空第16舰队" "太空第17舰队" "太空第18舰队" "太空第19舰队" "太空第20舰队"
 		}
-		sequential_name = "星辰海军第%O%舰队"
+		sequential_name = "星辰海军第%CC%舰队"
 	}
 	
 	army_names = {
 		defense_army = {
-			sequential_name = "防卫统合军第%O%兵团"
+			sequential_name = "防卫统合军第%CC%兵团"
 		}
 			
 		assault_army = {
-			sequential_name = "统帅部专属第%O%突击兵团"
+			sequential_name = "统帅部专属第%CC%突击兵团"
 		}
 		
 		slave_army = {
-			sequential_name = "第%O%奴隶人兵团"
+			sequential_name = "第%CC%奴隶人兵团"
 		}
 		
 		clone_army = {
-			sequential_name = "第%O%克隆人兵团"
+			sequential_name = "第%CC%克隆人兵团"
 		}
 		
 		robotic_army = {
-			sequential_name = "第%O%机械兵团"
+			sequential_name = "第%CC%机械兵团"
 		}
 		
 		android_army = {
-			sequential_name = "第%O%机器人突击兵团"
+			sequential_name = "第%CC%机器人突击兵团"
 		}
 		
 		psionic_army = {
-			sequential_name = "第%O%灵能突击兵团"
+			sequential_name = "第%CC%灵能突击兵团"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "第%O%异性突击兵团"
+			sequential_name = "第%CC%异性突击兵团"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "第%O%改造人突击兵团"
+			sequential_name = "第%CC%改造人突击兵团"
 		}
 	}
 		

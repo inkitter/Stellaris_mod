@@ -37,7 +37,9 @@ Prethoryn = {
 		research_station = { }
 		wormhole_station = { }
 		terraform_station = { }
-		observation_station = { }
+		observation_station = { 
+			sequential_name = "第%CC%前哨站"
+			}
 
 		military_station_small = {}
 		military_station_medium = {}
@@ -45,7 +47,7 @@ Prethoryn = {
 	}
 
 	fleet_names = {
-		sequential_name = "%O% Star Brood"
+		sequential_name = "第%CC%新巢"
 	}
 
 	### CHARACTERS
@@ -53,21 +55,20 @@ Prethoryn = {
 	character_names = {
 		default = {
 			full_names = {
-				"Gestalt Pattern 'Hunter'" "Gestalt Pattern 'Stalker'" "Gestalt Pattern 'Devourer'" "Gestalt Pattern 'Slayer'" 
-				"Gestalt Pattern 'Destroyer'" "Gestalt Pattern 'Executioner'" "Gestalt Pattern 'Reaper'" "Gestalt Pattern 'Slaughterer'" 
-				"Gestalt Pattern 'Howler'" "Gestalt Pattern 'Prowler'" "Gestalt Pattern 'Killer'" "Gestalt Pattern 'Mauler'"
-				"Gestalt Pattern 'Seeker'" "Gestalt Pattern 'Butcher'" "Gestalt Pattern 'Corrupter'" "Gestalt Pattern 'Screamer'" 
-				"Gestalt Pattern 'Stinger'" "Gestalt Pattern 'Thresher'" "Gestalt Pattern 'Strider'" "Gestalt Pattern 'Singer'" 
-				"Gestalt Pattern 'Silencer'" "Gestalt Pattern 'Feeder'" "Gestalt Pattern 'Striker'" "Gestalt Pattern 'Smiter'"
-				"Gestalt Pattern 'Watcher'" "Gestalt Pattern 'Observer'" "Gestalt Pattern 'Chaser'" "Gestalt Pattern 'Vanquisher'" 
-				"Gestalt Pattern 'Crusher'" "Gestalt Pattern 'Eater'" "Gestalt Pattern 'Invader'" "Gestalt Pattern 'Interloper'" 
-				"Gestalt Pattern 'Intruder'" "Gestalt Pattern 'Trespasser'" "Gestalt Pattern 'Encroacher'" "Gestalt Pattern 'Ravager'" 
-				"Gestalt Pattern 'Gnawer'" "Gestalt Pattern 'Ruiner'" "Gestalt Pattern 'Wrecker'" "Gestalt Pattern 'Despoiler'" 
-				"Gestalt Pattern 'Pillager'" "Gestalt Pattern 'Tainter'" "Gestalt Pattern 'Depriver'" "Gestalt Pattern 'Reaver'" 
-				"Gestalt Pattern 'Berserker'" "Gestalt Pattern 'Punisher'" "Gestalt Pattern 'Scourer'" "Gestalt Pattern 'Cleanser'" 
-				"Gestalt Pattern 'Shatterer'" "Gestalt Pattern 'Tormenter'" "Gestalt Pattern 'Terrorizer'"
+			"完全体'猎人'" "完全体'死缠烂打'" "完全体'吞食者'" "完全体'杀手'"
+			"完全体'驱逐舰'" "完全体'刽子手'" "完全体'收割机'" "完全体'屠夫'"
+			"完全体'吼'" "完全体'徘徊'" "完全体'杀手'" "完全体'撕咬'"
+			"完全体'探索者'" "完全体'屠夫'" "完全体'腐败'" "完全体'大人物'"
+			"完全体'毒刺'" "完全体'脱粒机'" "完全体'苍蝇'" "完全体'歌手'"
+			"完全体'消声器'" "完全体'埋葬者''" "完全体'前锋'" "完全体'击打'"
+			"完全体'守望者'" "完全体'观察者'" "完全体'追逐者'" "完全体'征服者'"
+			"完全体'破碎机'" "完全体'食'" "完全体'入侵者'" "完全体'闯入者'"
+			"完全体'入侵者'" "完全体'入侵者'" "完全体'权'" "完全体'破坏者'"
+			"完全体'女神'" "完全体'清障'" "完全体'掠夺者'"
+			"完全体'掠夺者'" "完全体'弧形'" "完全体'金甲虫'"
+			"完全体'狂战士'" "完全体'惩罚者'" "完全体'球'" "完全体'清洁剂'"
+			"完全体'毁灭者'" "完全体'折磨'" "完全体'恐怖分子'"
 			}
-			
 		}
 	}
 }

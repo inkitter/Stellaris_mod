@@ -361,7 +361,7 @@ special_init_02 = {
 									set_owner = last_created_country
 									create_ship = {
 										name = "太空站"
-										design = "太空站"
+										design = "Space Station"
 									}
 									set_location = PREV
 								}
@@ -696,7 +696,7 @@ special_init_03 = {
 				# Early Space Age
 				25 = {
 					create_species = {
-						name = Human
+						name = "真-地球人"
 						plural = Humans
 						class = "MAM"
 						portrait = "human"
@@ -783,7 +783,7 @@ special_init_03 = {
 						set_owner = last_created_country
 						create_ship = {
 							name = "ISS II"
-							design = "太空站"
+							design = "Space Station"
 						}
 						set_location = PREV
 					}
@@ -1983,44 +1983,44 @@ special_init_07 = {
 				last_created_fleet = {
 					set_owner = PREV
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					set_location = {
 						target = PREVPREV
@@ -2032,44 +2032,44 @@ special_init_07 = {
 				last_created_fleet = {
 					set_owner = PREV
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					set_location = {
 						target = PREVPREV
@@ -2081,44 +2081,44 @@ special_init_07 = {
 				last_created_fleet = {
 					set_owner = PREV
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					set_location = {
 						target = PREVPREV
@@ -2130,44 +2130,45 @@ special_init_07 = {
 				last_created_fleet = {
 					set_owner = PREV
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+
+						design = "Small Crystal Entity Blue"
 					}
 					create_ship = {
-						name = "Shardling"
-						design = "小水晶蓝实体"
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
 					}
 					set_location = {
 						target = PREVPREV

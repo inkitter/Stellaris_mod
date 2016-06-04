@@ -1,4 +1,4 @@
-### Molluscoid 1
+﻿### Molluscoid 1
 MOL1 = {
 	### SHIPS
 
@@ -35,19 +35,16 @@ MOL1 = {
 		research_station = { }
 		wormhole_station = { }
 		terraform_station = { }
-		observation_station = { sequential_name = "第%O%观测站" }
+		observation_station = {  }
 		outpost_station = {
-			sequential_name = "第%O%哨所"
+			sequential_name = "第%CC%前哨站"
 		}
 	
 		military_station_small = {
-			sequential_name = "第%O%卫戍站"
 			}
 		military_station_medium = {
-			sequential_name = "第%O%军事卫所"
 			}
 		military_station_large = {
-			sequential_name = "第%O%军事基地"
 			}	
 	}
 
@@ -56,44 +53,44 @@ MOL1 = {
 			联合第1舰队 联合第2舰队 联合第3舰队 联合第4舰队 联合第5舰队 联合第6舰队 联合第7舰队 联合第8舰队 联合第9舰队 联合第10舰队 
 			联合第11舰队 联合第12舰队 联合第13舰队 联合第14舰队 联合第15舰队 联合第16舰队 联合第17舰队 联合第18舰队 联合第19舰队 联合第20舰队 
 		}
-		sequential_name = "星际海军第%O%舰队"
+		sequential_name = "星际海军第%CC%舰队"
 	}
 	
 	army_names = {
 		defense_army = {
-			sequential_name = "第%O%防卫战队"
+			sequential_name = "第%CC%防卫战队"
 		}
 			
 		assault_army = {
-			sequential_name = "第%O%突击战队"
+			sequential_name = "第%CC%突击战队"
 		}
 		
 		slave_army = {
-			sequential_name = "第%O%奴隶人小队"
+			sequential_name = "第%CC%奴隶人小队"
 		}
 		
 		clone_army = {
-			sequential_name = "第%O%克隆人战队"
+			sequential_name = "第%CC%克隆人战队"
 		}
 		
 		robotic_army = {
-			sequential_name = "第%O%机械战队"
+			sequential_name = "第%CC%机械战队"
 		}
 		
 		android_army = {
-			sequential_name = "第%O%机器人突击战队"
+			sequential_name = "第%CC%机器人突击战队"
 		}
 		
 		psionic_army = {
-			sequential_name = "第%O%灵能突击战队"
+			sequential_name = "第%CC%灵能突击战队"
 		}
 		
 		xenomorph_army = {
-			sequential_name = "第%O%异性突击战队"
+			sequential_name = "第%CC%异性突击战队"
 		}
 		
 		gene_warrior_army = {
-			sequential_name = "第%O%改造人突击战队"
+			sequential_name = "第%CC%改造人突击战队"
 		}
 	}
 
@@ -160,7 +157,7 @@ MOL1 = {
 			
 			# Always combined with a first name
 			second_names = {
-				巴库拉 贝卡斯 古日特 忒博布朗  昆达日茨 瑟杰 巴库瑞尔 瑟博 加库里 
+				巴库拉 贝卡斯 古日特 特博布朗  昆达日茨 瑟杰 巴库瑞尔 瑟博 加库里 
 			}
 			
 			regnal_first_names = {

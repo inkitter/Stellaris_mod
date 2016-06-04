@@ -19,7 +19,7 @@ pop_faction_name_parts_list = {
 pop_faction_name_parts_list = {
 	key = "emancipation_names"
 	parts = {
-		"独立运动" = 1
+		"解放运动" = 1
 	}
 }
 
@@ -34,7 +34,7 @@ pop_faction_name_parts_list = {
 pop_faction_name_parts_list = {
 	key = "purged_names"
 	parts = {
-		"净化反对者" = 1
+		"净化抗议者" = 1
 	}
 }
 
@@ -45,8 +45,8 @@ pop_faction_name_parts_list = {
 		"分裂" = 1
 		"独立" = 1
 		"解放" = 1
-		"民族独立" = 1
 		"自主" = 1
+		"民族独立" = 1
 		"自由" = 1
 		"自治" = 1
 		"圣战" = 1
@@ -87,8 +87,8 @@ pop_faction_name_parts_list = {
 	key = "nationalist_names"
 	parts = {
 		"尊祖派" = 1
-		"仇外联盟" = 1
-		"国民派" = 1
+		"Xenos联盟" = 1
+		"民族本位派" = 1
 	}
 }
 
@@ -98,6 +98,8 @@ pop_faction_name_parts_list = {
 		"政府集团" = 1
 		"政府游说集团" = 1
 		"政府内部人士" = 1
+		"政府边缘人士" = 1
+		"温和政见者" = 1
 	}
 }
 

@@ -8,11 +8,11 @@ Extradimensional = {
 	ship_names = {
 	
 		generic = {
-			"Extradimensional Invader"
+			"异次元入侵" "异次元进攻" "异次元侵袭" "异次元侵扰" "异次元侵略"
 		}
 		
 		construction_ship_ed = {
-			"Void Shaper"
+			"空"
 		}
 		
 		mining_station = { }
@@ -21,7 +21,7 @@ Extradimensional = {
 		terraform_station = { }
 		observation_station = { }
 		outpost_station = {
-			sequential_name = "%O% Frontier Outpost"
+			sequential_name = "%O%边防哨所"
 		}
 
 		military_station_small = {}
@@ -30,7 +30,7 @@ Extradimensional = {
 	}
 
 	fleet_names = {
-		sequential_name = "Extradimensional Armada %CC%"
+		sequential_name = "第%CC%异次元武装舰队"
 	}
 
 	### CHARACTERS

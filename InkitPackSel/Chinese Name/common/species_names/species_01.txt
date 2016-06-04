@@ -1,4 +1,4 @@
-﻿# Generated species derive their names from here
+# Generated species derive their names from here
 
 ### MAMMALIANS
 
@@ -268,24 +268,24 @@ MAM = {
 		name_list = "MAM1"
 	}
 	qqs = {
-		name = "墨尔文"
-		plural = "墨尔文族"
-		home_planet = "墨尔文"
-		home_system = "墨尔文"
+		name = "墨洛塔尼安"
+		plural = "墨洛塔尼安族"
+		home_planet = "墨洛塔尼安"
+		home_system = "墨洛塔尼安"
 		name_list = "MAM1"
 	}
 	qqv = {
-		name = "比夜博"
-		plural = "比夜博"
-		home_planet = "比夜博"
-		home_system = "比夜博"
+		name = "比尔特拉夫"
+		plural = "比尔特拉夫"
+		home_planet = "比尔特拉夫"
+		home_system = "比尔特拉夫"
 		name_list = "MAM1"
 	}
 	qqh = {
-		name = "巴伐尼亚"
-		plural = "巴伐尼亚族"
-		home_planet = "巴伐尼亚"
-		home_system = "巴伐尼亚"
+		name = "巴坦尼亚"
+		plural = "巴坦尼亚族"
+		home_planet = "巴坦尼亚"
+		home_system = "巴坦尼亚"
 		name_list = "MAM1"
 	}
 }
@@ -512,10 +512,10 @@ ART = {
 	}
 
 	natfankan = {
-		name = "马扎尔"
-		plural = "马扎尔"
-		home_planet = "马扎尔"
-		home_system = "马扎尔"
+		name = "莫塔尔"
+		plural = "莫塔尔"
+		home_planet = "莫塔尔"
+		home_system = "莫塔尔"
 		name_list = "ART1"
 	}
 
@@ -557,35 +557,35 @@ ART = {
 
 REP = {
 	shizi = {
-		name = "十字"
+		name = "十字族"
 		plural = "十字族"
 		home_planet = "十字"
 		home_system = "十字"
 		name_list = "REP1"
 	}
 	leiting = {
-		name = "雷霆"
+		name = "雷霆族"
 		plural = "雷霆族"
 		home_planet = "雷霆"
 		home_system = "雷霆"
 		name_list = "REP1"
 	}
 	fenyun = {
-		name = "风云"
+		name = "风云族"
 		plural = "风云族"
 		home_planet = "风云"
 		home_system = "风云"
 		name_list = "REP1"
 	}
 	huoyan = {
-		name = "火焰"
+		name = "火焰人"
 		plural = "火焰人"
 		home_planet = "火焰"
 		home_system = "火焰"
 		name_list = "REP1"
 	}
 	mingxin = {
-		name = "明星"
+		name = "明星族"
 		plural = "明星族"
 		home_planet = "明星"
 		home_system = "明星"
@@ -830,10 +830,10 @@ AVI = {
 	}
 	
 	qixlufran = {
-		name = "亚里桑那"
-		plural = "亚里桑那"
-		home_planet = "亚里桑那"
-		home_system = "亚里桑那"
+		name = "瓦丽吉娜"
+		plural = "瓦丽吉娜"
+		home_planet = "瓦丽吉娜"
+		home_system = "瓦丽吉娜"
 		name_list = "AVI1"
 	}
 	
@@ -886,10 +886,10 @@ AVI = {
 	}
 	
 	iztran = {
-		name = "犹他"
-		plural = "犹他"
-		home_planet = "犹他"
-		home_system = "犹他"
+		name = "弗他"
+		plural = "弗他"
+		home_planet = "弗他"
+		home_system = "弗他"
 		name_list = "AVI1"
 	}
 	
@@ -973,13 +973,6 @@ AVI = {
 		name_list = "AVI1"
 	}
 	
-	pelxcradonian = {
-		name = "乔治亚"
-		plural = "乔治亚"
-		home_planet = "乔治亚"
-		home_system = "乔治亚"
-		name_list = "AVI1"
-	}
 	
 	jaazijan = {
 		name = "伊利诺"
@@ -1138,10 +1131,10 @@ MOL = {
 	}
 	
 	usanace = {
-		name = "田那西"
-		plural = "田那西"
-		home_planet = "田那西"
-		home_system = "田那西"
+		name = "天那西"
+		plural = "天那西"
+		home_planet = "天那西"
+		home_system = "天那西"
 		name_list = "MOL1"
 	}
 	
