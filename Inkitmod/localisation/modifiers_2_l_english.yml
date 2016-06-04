@@ -106,8 +106,8 @@
  humiliated_desc:0 "我们受到另一个帝国的公开侮辱。"
  TOOLTIP_HAPPINESS_GOV_ETHOS:0 "$ETHIC$政权 $VAL$"
  TOOLTIP_HAPPINESS_XENO_OVERLORDS:0 "外星统治者：$VAL$"
- swarm_border:1 ""
- swarm_border_desc:1 ""
+ swarm_border:1 " "
+ swarm_border_desc:1 " "
 
  ####################################
  # Pop Modifiers

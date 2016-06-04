@@ -1,12 +1,24 @@
 ﻿l_english:
-edict_auto_build:0 "自动升级"
-edict_auto_build_desc:0 "启用这个法令会使你的建筑物自动升级."
+ edict_auto_build:0 "自动升级"
+ edict_auto_build_desc:0 "启用这个法令会使你的建筑物自动升级."
 
-edict_auto_build_2:0 "自动改善影响力成本"
-edict_auto_build_desc_2:0 "启用这个法令会使你的建筑物需要的影响力自动改善."
+ edict_auto_build_2:0 "自动改善影响力成本"
+ edict_auto_build_desc_2:0 "启用这个法令会使你的建筑物需要的影响力自动改善."
 
-edict_auto_build_3:0 "自动建筑"
-edict_auto_build_desc_3:0 "启用这个法令后在有资源的情况下会自动建筑."
+ edict_auto_build_3:0 "自动建筑"
+ edict_auto_build_desc_3:0 "启用这个法令后在有资源的情况下会自动建筑."
 
-edict_auto_build_4:0 "自动奴役"
-edict_auto_build_desc_4:0 "启用这个法令后在矿场与农场的人口将会被自动奴役."
+ edict_auto_build_4:0 "自动奴役"
+ edict_auto_build_desc_4:0 "启用这个法令后在矿场与农场的人口将会被自动奴役."
+
+ edict_auto_build_5:0 "自动改进实验室"
+ edict_auto_build_5_desc:0 "启用这个法令之后，某一领域的研究速度将得到提升." 
+ 
+ edict_auto_build_6:0 "半随机改进实验室"
+ edict_auto_build_6_desc:0 "启用这个法令后，所有实验室都会根据地格资源类型提升科研." 
+ 
+ edict_auto_build_cost:0 "保持资源储备"
+ edict_auto_build_cost_desc:0 "While active edict, all the buildings and improvements will occur if you have 1000 minerals or 250 influence, if required."
+ 
+ edict_no_sector:0 "星区不消耗"
+ edict_no_sector_desc:0 "启用这个法令后，星区不消耗."

@@ -7,8 +7,8 @@
 创意工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
 ##同时我做了一个轻量的mod整合包
-*3DM： http://bbs.3dmgame.com/thread-5096002-1-1.html
-*steam工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=696221547
+* 3DM： http://bbs.3dmgame.com/thread-5096002-1-1.html
+* steam工坊： http://steamcommunity.com/sharedfiles/filedetails/?id=696221547
 
 已汉化MOD如下:
  * More Spaceport Modules http://steamcommunity.com/sharedfiles/filedetails/?id=682659220
@@ -31,3 +31,6 @@
  * System Variety - Dead world: Colony Ship Start http://steamcommunity.com/workshop/filedetails/?id=691851232 by Garfeineko@steam 春天的园草@3DM
  * Auto improve buildings http://steamcommunity.com/sharedfiles/filedetails/?id=691008512 by Mahou_1942@steam
  * DZ Unique Starting Systems http://steamcommunity.com/sharedfiles/filedetails/?id=683580268 by Garfeineko@steam 春天的园草@3DM
+ * Civilian Trade http://steamcommunity.com/sharedfiles/filedetails/?id=693402022 by Garfeineko@steam 春天的园草@3DM
+ * Change Capital Planet http://steamcommunity.com/sharedfiles/filedetails/?id=695883812 by Garfeineko@steam 春天的园草@3DM
+ * Planetary Rally Points http://steamcommunity.com/sharedfiles/filedetails/?id=693310104 by Garfeineko@steam 春天的园草@3DM
