@@ -36,6 +36,8 @@
  # Civilian Trade effects
  #############################
   
+ expanded_trade_network:0 "繁荣的贸易网络"
+ expanded_trade_network_desc:0 "随着产能的增加和基建的完善，这个星球能够有效地利用贸易带来的福祉。"
  trade_network_minerals:0 "已接入贸易网络"
  trade_network_minerals_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
  trade_network_energy:0 "已接入贸易网络"
@@ -50,7 +52,7 @@
  #############################
  
  personality_civilian_traders:0 "民间商人"
- personality_civilian_traders_desc:0 "民间商人会在你的国家内徘徊以寻求贸易。"
+ personality_civilian_traders_desc:0 "民间商人会在你的国家内徘徊以寻求贸易机会。"
  
  ####################################
  # Edicts
