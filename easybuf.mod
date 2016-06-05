@@ -1,0 +1,5 @@
+name="Easy Buffs"
+path="mod/easybuff"
+picture="Inkitcat.jpg"
+remote_file_id="696221722"
+supported_version="1.1.*"

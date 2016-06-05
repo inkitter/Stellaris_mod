@@ -1,0 +1,432 @@
+# Generated species derive their names from here
+
+### 哺乳
+
+MAM = {
+	miaoxinr = {
+		name = "喵星"
+		plural = "喵星人"
+		home_planet = "喵星"
+		home_system = "喵星"
+		name_list = "MAM1"
+	}
+	wangxinr = {
+		name = "汪星人"
+		plural = "汪星人"
+		home_planet = "汪星"
+		home_system = "汪星"
+		name_list = "MAM1"
+	}
+	boerduo = {
+		name = "波尔达"
+		plural = "波尔达人"
+		home_planet = "波尔达"
+		home_system ="波尔达"
+		name_list = "MAM1"
+	}
+	yashu = {
+		name = "亚宿"
+		plural = "亚宿人"
+		home_planet = "亚宿"
+		home_system ="亚宿"
+		name_list = "MAM1"
+	}
+	sibada = {
+		name = "斯帕"
+		plural = "斯帕人"
+		home_planet = "斯帕"
+		home_system ="斯帕"
+		name_list = "MAM1"
+	}
+	break = {
+		name = "博瑞克"
+		plural = "博瑞克族"
+		home_planet = "博瑞克"
+		home_system = "博瑞克"
+		name_list = "MAM1"
+	}
+	case = {
+		name = "凯兹"
+		plural = "凯兹族"
+		home_planet = "凯兹"
+		home_system = "凯兹"
+		name_list = "MAM1"
+	}
+	char = {
+		name = "卡耳"
+		plural = "卡耳族"
+		home_planet = "卡耳"
+		home_system = "卡耳"
+		name_list = "MAM1"
+	}
+	const = {
+		name = "康司德"
+		plural = "康司德族"
+		home_planet = "康司德"
+		home_system = "康司德"
+		name_list = "MAM1"
+	}
+	continue = {
+		name = "坦泰尼尔"
+		plural = "坦泰尼尔族"
+		home_planet = "坦泰尼尔"
+		home_system = "坦泰尼尔"
+		name_list = "MAM1"
+	}
+	extern = {
+		name = "艾克斯德瑞"
+		plural = "艾克斯德瑞族"
+		home_planet = "艾克斯德瑞"
+		home_system = "艾克斯德瑞"
+		name_list = "MAM1"
+	}
+	register = {
+		name = "瓦吉奥斯多"
+		plural = "瓦吉奥斯多族"
+		home_planet = "瓦吉奥斯多"
+		home_system = "瓦吉奥斯多"
+		name_list = "MAM1"
+	}
+	volatile = {
+		name = "威尔洛特都"
+		plural = "威尔洛特都族"
+		home_planet = "威尔洛特都"
+		home_system = "威尔洛特都"
+		name_list = "MAM1"
+	}
+	unsigned = {
+		name = "安塞德"
+		plural = "安塞德族"
+		home_planet = "安塞德"
+		home_system = "安塞德"
+		name_list = "MAM1"
+	}
+}
+
+### 菌类
+
+FUN = {
+	heian = {
+		name = "暗光"
+		plural = "暗光族"
+		home_planet = "暗光"
+		home_system = "暗光"
+		name_list = "FUN1"
+	}
+	chaos = {
+		name = "潮湿族"
+		plural = "潮湿族"
+		home_planet = "潮湿族"
+		home_system = "潮湿族"
+		name_list = "FUN1"
+	}
+	aerfa = {
+		name = "阿尔法"
+		plural = "阿尔法"
+		home_planet = "阿尔法"
+		home_system = "阿尔法"
+		name_list = "FUN1"
+	}
+	faluowei = {
+		name = "法罗威"
+		plural = "法罗威"
+		home_planet = "法罗威"
+		home_system = "法罗威"
+		name_list = "FUN1"
+	}
+	snails = {
+		name = "斯纳欧斯"
+		plural = "斯纳欧斯族"
+		home_planet = "斯纳欧斯"
+		home_system = "斯纳欧斯"
+		name_list = "FUN1"
+	}
+	octopus = {
+		name = "阿帝柏斯"
+		plural = "阿帝柏斯族"
+		home_planet = "阿帝柏斯"
+		home_system = "阿帝柏斯"
+		name_list = "FUN1"
+	}
+	mushroom = {
+		name = "莫逊尔"
+		plural = "莫逊尔族"
+		home_planet = "莫逊尔"
+		home_system = "莫逊尔"
+		name_list = "FUN1"
+	}
+	ganoderma = {
+		name = "盖瑞多玛"
+		plural = "盖瑞多玛族"
+		home_planet = "盖瑞多玛"
+		home_system = "盖瑞多玛"
+		name_list = "FUN1"
+	}
+	fungus = {
+		name = "方各兹"
+		plural = "方各兹族"
+		home_planet = "方各兹"
+		home_system = "方各兹"
+		name_list = "FUN1"
+	}
+	truffles = {
+		name = "卡弗兹"
+		plural = "卡弗兹族"
+		home_planet = "卡弗兹"
+		home_system = "卡弗兹"
+		name_list = "FUN1"
+	}
+	puffball = {
+		name = "泡弗尔"
+		plural = "泡弗尔族"
+		home_planet = "泡弗尔"
+		home_system = "泡弗尔"
+		name_list = "FUN1"
+	}
+}
+
+### 节肢动物
+
+ART = {
+	boerduo = {
+		name = "埃克斯"
+		plural = "埃克斯人"
+		home_planet = "埃克斯"
+		home_system = "埃克斯"
+		name_list = "ART1"
+	}
+	aobiga = {
+		name = "奥米加"
+		plural = "奥米加"
+		home_planet = "奥米加"
+		home_system = "奥米加"
+		name_list = "ART1"
+	}
+	awefoga = {
+		name = "罗密诺"
+		plural = "罗密诺"
+		home_planet = "罗密诺"
+		home_system = "罗密诺"
+		name_list = "ART1"
+	}
+	siabide = {
+		name = "斯柏德"
+		plural = "斯柏德族"
+		home_planet = "斯柏德"
+		home_system = "斯柏德"
+		name_list = "ART1"
+	}
+	lobster = {
+		name = "莱布斯德"
+		plural = "莱布斯德族"
+		home_planet = "莱布斯德"
+		home_system = "莱布斯德"
+		name_list = "ART1"
+	}
+	crab = {
+		name = "库瑞博"
+		plural = "库瑞博族"
+		home_planet = "库瑞博"
+		home_system = "库瑞博"
+		name_list = "ART1"
+	}
+	trilobite = {
+		name = "柴诺巴特"
+		plural = "柴诺巴特族"
+		home_planet = "柴诺巴特"
+		home_system = "柴诺巴特"
+		name_list = "ART1"
+	}
+	insect = {
+		name = "茵赛"
+		plural = "茵赛族"
+		home_planet = "茵赛"
+		home_system = "茵赛"
+		name_list = "ART1"
+	}
+}
+
+### 爬行动物
+
+REP = {
+	beita = {
+		name = "贝他"
+		plural = "贝他"
+		home_planet = "贝他"
+		home_system = "贝他"
+		name_list = "REP1"
+	}
+	foendasi = {
+		name = "弗恩达斯"
+		plural = "弗恩达斯"
+		home_planet = "弗恩达斯"
+		home_system = "弗恩达斯"
+		name_list = "REP1"
+	}
+	qiaobani = {
+		name = "乔布尔拉尼"
+		plural = "乔布尔拉尼"
+		home_planet = "乔布尔拉尼"
+		home_system = "乔布尔拉尼"
+		name_list = "REP1"
+	}
+	duolagon = {
+		name = "多拉贡"
+		plural = "多拉贡族"
+		home_planet = "多拉贡"
+		home_system = "多拉贡"
+		name_list = "REP1"
+	}
+	lizard = {
+		name = "利泽瑞德"
+		plural = "利泽瑞德族"
+		home_planet = "利泽瑞德"
+		home_system = "利泽瑞德"
+		name_list = "REP1"
+	}
+	viper = {
+		name = "瓦博"
+		plural = "瓦博族"
+		home_planet = "瓦博"
+		home_system = "瓦博"
+		name_list = "REP1"
+	}
+	crocodile = {
+		name = "卡洛奇戴尔"
+		plural = "卡洛奇戴尔族"
+		home_planet = "卡洛奇戴尔"
+		home_system = "卡洛奇戴尔"
+		name_list = "REP1"
+	}
+	tortoise = {
+		name = "托德斯"
+		plural = "托德斯族"
+		home_planet = "托德斯"
+		home_system = "托德斯"
+		name_list = "REP1"
+	}
+	
+}
+
+### 鸟类
+
+AVI = {
+	
+	yinjiu = {
+		name = "鹰鹫"
+		plural = "鹰鹫族"
+		home_planet = "鹰鹫"
+		home_system = "鹰鹫"
+		name_list = "AVI1"
+	}
+	chuzhi = {
+		name = "雏鹰"
+		plural = "雏鹰"
+		home_planet = "雏鹰"
+		home_system = "雏鹰"
+		name_list = "AVI1"
+	}
+	zhabuluosi = {
+		name = "扎普洛斯"
+		plural = "扎普洛斯"
+		home_planet = "扎普洛斯"
+		home_system = "扎普洛斯"
+		name_list = "AVI1"
+	}
+	gangyi = {
+		name = "刚翼"
+		plural = "刚翼族"
+		home_planet = "刚翼"
+		home_system = "刚翼"
+		name_list = "AVI1"
+	}
+	windowsssss = {
+		name = "温度司"
+		plural = "温度司族"
+		home_planet = "温度司"
+		home_system = "温度司"
+		name_list = "AVI1"
+	}
+	voidww = {
+		name = "伍德"
+		plural = "伍德族"
+		home_planet = "伍德"
+		home_system = "伍德"
+		name_list = "AVI1"
+	}
+	shiftaa = {
+		name = "雪福特"
+		plural = "雪福特族"
+		home_planet = "雪福特"
+		home_system = "雪福特"
+		name_list = "AVI1"
+	}
+	talin = {
+		name = "塔林"
+		plural = "塔林族"
+		home_planet = "塔林"
+		home_system = "塔林"
+		name_list = "AVI1"
+	}
+}
+
+### 软体动物
+
+MOL = {
+	gama = {
+		name = "伽马"
+		plural = "伽马"
+		home_planet = "伽马"
+		home_system = "伽马"
+		name_list = "MOL1"
+	}
+	yipuxil = {
+		name = "伊普西龙"
+		plural = "伊普西龙"
+		home_planet = "伊普西龙"
+		home_system = "伊普西龙"
+		name_list = "MOL1"
+	}
+	shiyu = {
+		name = "诗域"
+		plural = "诗域"
+		home_planet = "诗域"
+		home_system = "诗域"
+		name_list = "MOL1"
+	}
+	aktvt = {
+		name = "艾可提威特"
+		plural = "艾可提威特族"
+		home_planet = "艾可提威特"
+		home_system = "艾可提威特"
+		name_list = "MOL1"
+	}
+	iff = {
+		name = "伊弗"
+		plural = "伊弗族"
+		home_planet = "伊弗"
+		home_system = "伊弗"
+		name_list = "MOL1"
+	}
+	elase = {
+		name = "埃尔斯"
+		plural = "埃尔斯族"
+		home_planet = "埃尔斯"
+		home_system = "埃尔斯"
+		name_list = "MOL1"
+	}
+	logggg = {
+		name = "罗格"
+		plural = "罗格族"
+		home_planet = "罗格"
+		home_system = "罗格"
+		name_list = "MOL1"
+	}
+	publickkk = {
+		name = "帕布里克"
+		plural = "帕布里克族"
+		home_planet = "帕布里克"
+		home_system = "帕布里克"
+		name_list = "MOL1"
+	}
+}

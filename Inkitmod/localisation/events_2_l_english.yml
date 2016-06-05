@@ -193,7 +193,7 @@
  anomaly.165.name:0 "旧神：施助者的神殿"
  anomaly.165.desc:0 "破解施助者神殿的象形文字要比想象中顺利许多。所有参与破解的语言学家都认为，虽然这种语言古老而且复杂，但都与他们快速“形成共鸣”。\n\n然而，这些文字在其他三组取得进展之前，难以真正达意。"
  anomaly.166.name:0 "旧神：无畏者的神殿"
- anomaly.166.desc:0 "在数日“碌碌无为”之后，科学官 [From.From.From.GetLeaderName]终于从卷轴中破解了无畏者的教条。"
+ anomaly.166.desc:1 "在“瞎找”了好几天之后，科学官员[Root.GetLeaderName]获得了无畏者的档案，是一个用坚固塑料膜封存的织物卷轴。"
  anomaly.167.name:0 "旧神：感知者的神殿"
  anomaly.167.desc:0 "科学官 [Root.GetLeaderName]汇报了 [Root.GetName]在感知者神殿的发现。早先他们识别出墙上的图案具有文字性质，被半透明的胶漆所扭曲与掩盖。\n\n最初他们试图依靠 [Root.GetName]计算机的原始功能直接从图像中识别文字，这项努力终告失败，因为这些文字过于扭曲，无法与已知的任何语言体系建立联系。后来， [Root.GetName]成员试图用多种波段的射线穿透胶漆，但并未发现有益的反应。显然 [Root.GetLeaderName]考虑过用物理手段直接分离胶漆，但他意识到这些文字可能一开始就是扭曲的，只有透过胶漆才能看出它们本来的形状。\n\n科学官 [Root.GetLeaderName]恼怒地来回踱步，即将宣告任务失败，但他在抬头仰望时，意识到那些离散的线条短暂地在他们眼前形成连贯的文字，但片刻又溶解，被新的文字替代。\n\n不久之后他们便将天花板、墙面和地板制成了螺旋式图案。其他神殿的文字可以帮他们理清头绪。"
  anomaly.168.name:0 "旧神：启示"
@@ -338,7 +338,7 @@
  anomaly.285.name:0 "不寻常的地壳"
  anomaly.285.desc:0 " [Root.GetName]在 [From.GetName]上找到的并非是建筑，而是十分普通的矿物岩层。科学官 [Root.GetLeaderName]认为这些岩层之所以会露出地面，是因为不同的地壳构造版块互相撞击而形成的，其形状的特殊性或许是因为行星土地中构造物理的性质不同。\n\n因为其形状过于工整，看起来某种外星生物似乎曾经对 [From.GetName]的地壳进行过改动。"
  anomaly.285.a:0 "还真有意思。"
- anomaly.285.a.tooltip:2 "添加§Y异常地壳§!加成系数至 [From.GetName]：\n£engineering  §G+3§!\n£physics  §G+6§!"
+ anomaly.285.a.tooltip:1 "添加§Y异常地壳§!加成系数至 [From.GetName]：\n£engineering  §G+3§!\n£physics  §G+6§!"
  anomaly.290.name:0 "潜在矿脉"
  anomaly.290.desc:0 " [From.GetName]的矿脉资源十分丰富。\n\n不幸的是，其中大部分矿石对我们都没用。科学官 [Root.GetLeaderName]认为 [From.GetName]地壳中的许多元素都可以通过正电子轰炸而转化成对我方有用的矿石。\n\n [Root.GetName]希望 [Root.Owner.GetName]能拨出100能源点数进行此计划。"
  anomaly.290.a:0 "不行，不批准。"
@@ -571,11 +571,11 @@
  anomaly.3129.desc:0 "老旧的石层破开，有东西涌了出来。\n\n只不过涌出的并不是之前预测的光滑矿石。锯齿状的晶体边缘切碎了老旧的轨道站，随后便将其注意力转向了 [Root.GetFleetName]。"
  anomaly.3129.a.tooltip:0 "古代工厂已被毁。\n [Root.GetFleetName]正遭受攻击！"
 
- anomaly.3130.name:1 "辩论与讨论"
- anomaly.3130.desc:1 "科学官员 [Root.GetLeaderName]报告称 [From.GetPlanetMoon]  [From.GetName]上确实存在过较为发达的文明，但其在逃离了 [From.GetPlanetMoon]后便消亡了。通过分析从星球表面回收的古代无线通讯站碎片， [Root.GetName]的船员逐渐还原了整个文明消逝的过程。\n\n在很久前某个时间点，其意识形态上产生了分歧，分成了集体主义与个人主义两派。虽说这些哲学上的争论与 [Root.Owner.GetName]人民的生活并没有什么太大联系，这个文明因为应该采用何种意识形态和道德标准产生了急剧的内部分裂。"
- anomaly.3130.desc.colle:1 "科学官员 [Root.GetLeaderName]报告称 [From.GetPlanetMoon]  [From.GetName]上确实存在过较为发达的文明，但其在逃离了 [From.GetPlanetMoon]后便消亡了。通过分析从星球表面回收的古代无线通讯站碎片， [Root.GetName]的船员逐渐还原了整个文明消逝的过程。\n\n在很久前某个时间点，其意识形态上产生了分歧，分成了集体主义与个人主义两派。虽说集体主义的本质对于 [Root.Owner.GetName]人民来说再明显不过，这个文明却因为应该采用何种意识形态和道德标准产生了急剧的内部分裂。"
- anomaly.3130.desc.mater:1 "科学官员 [Root.GetLeaderName]报告称 [From.GetPlanetMoon]  [From.GetName]上确实存在过较为发达的文明，但其在逃离了 [From.GetPlanetMoon]后便消亡了。通过分析从星球表面回收的古代无线通讯站碎片， [Root.GetName]的船员逐渐还原了整个文明消逝的过程。\n\n在很久前某个时间点，其意识形态上产生了分歧，分成了集体主义与个人主义两派。虽说个人主义的本质对于 [Root.Owner.GetName]人民来说再明显不过，这个文明却因为应该采用何种意识形态和道德标准产生了急剧的内部分裂。"
- anomaly.3130.a:1 "这真是太糟糕了。"
+ anomaly.3130.name:2 "辩论与讨论"
+ anomaly.3130.desc:2 "科学官员 [Root.GetLeaderName]报告称 [From.GetPlanetMoon]  [From.GetName]上确实存在过较为发达的文明，但其在逃离了 [From.GetPlanetMoon]后便消亡了。通过分析从星球表面回收的古代无线通讯站碎片， [Root.GetName]的船员逐渐还原了整个文明消逝的过程。\n\n在很久前某个时间点，其意识形态上产生了分歧，分成了集体主义与个人主义两派。虽说这些哲学上的争论与 [Root.Owner.GetName]人民的生活并没有什么太大联系，这个文明因为应该采用何种意识形态和道德标准产生了急剧的内部分裂。"
+ anomaly.3130.desc.colle:2 "科学官员 [Root.GetLeaderName]报告称 [From.GetPlanetMoon]  [From.GetName]上确实存在过较为发达的文明，但其在逃离了 [From.GetPlanetMoon]后便消亡了。通过分析从星球表面回收的古代无线通讯站碎片， [Root.GetName]的船员逐渐还原了整个文明消逝的过程。\n\n在很久前某个时间点，其意识形态上产生了分歧，分成了集体主义与个人主义两派。虽说集体主义的本质对于 [Root.Owner.GetName]人民来说再明显不过，这个文明却因为应该采用何种意识形态和道德标准产生了急剧的内部分裂。"
+ anomaly.3130.desc.mater:2 "科学官员 [Root.GetLeaderName]报告称 [From.GetPlanetMoon]  [From.GetName]上确实存在过较为发达的文明，但其在逃离了 [From.GetPlanetMoon]后便消亡了。通过分析从星球表面回收的古代无线通讯站碎片， [Root.GetName]的船员逐渐还原了整个文明消逝的过程。\n\n在很久前某个时间点，其意识形态上产生了分歧，分成了集体主义与个人主义两派。虽说个人主义的本质对于 [Root.Owner.GetName]人民来说再明显不过，这个文明却因为应该采用何种意识形态和道德标准产生了急剧的内部分裂。"
+ anomaly.3130.a:2 "这真是太糟糕了。"
 
  ####################################
  # Country Events
@@ -901,7 +901,7 @@
  # +6 mult phys research, +10% dmg vs cloud modifier
  story.405.desc:0 "目前， [Root.GetSpeciesAdj]的研究者认为虚云是宇宙中最古老的存在，它们似乎是在宇宙诞生后仅仅几十亿年后出现的，这是年轻而又强壮的宇宙凭空创造出来的产物，曾经的它们可能也是恒星，但那已经是不知道多久以前的事情了。\n\n想要解释它们那种原始的动物本能更是困难，但是这个答案可能与它们互相之间存在的强烈的电磁场有关——这也是在它们出现的时候就存在的东西。可以预见，只要有足够的时间，它奇怪的星尘和引力场循环将会变得和神经回路一样。\n\n虚云似乎在向互相发送脉冲波，这之中似乎存在量子纠缠的现象。"
  story.405.a.spiri:0 "不要太过分了。"
- story.405.a.spiri.tooltip:0 "§Y你的帝国§!获得了§Y大项目§!修改器：\n§G+10%§!"
+ story.405.a.spiri.tooltip:0 "将§Y宏大设计§!加成添加到§Y你的帝国§!：\n幸福度：§G+5%§!"
  story.405.b:0 "摧毁它们。"
  story.405.b.tooltip:0 "§Y你的帝国§!获得了§Y捕云器§!：\n对虚云的伤害：§G+10%§!"
  story.405.c:0 "我们能够追踪这种脉冲波么？"
@@ -916,7 +916,7 @@
 
  story.501.name:0 "缇杨凯"
  story.501.desc.spiri:0 "被称为"§Y缇杨凯§!"的圣者。\n\n我们应该与其保持距离。"
- story.501.desc:0 "被 [Root.GetSpeciesAdj]社会研究的领头人物称为“§Y缇杨凯§!”的宇宙生物是一种非常温顺的存在，它们能够进入低维的亚空间，它们可以轻易地在星系之间穿梭，当然，还是不及 [Root.GetSpeciesAdj]的舰队的。\n\n他们会吸收气态巨行星最外层的气体，但是显然这并不是它们赖以生存的食物，但是这些气体中蕴含的物质还是值得留意的。\n\n他们很少会有攻击行为，因此可以放心地无视它们。"
+ story.501.desc:0 "被 [Root.GetSpeciesAdj]社会研究的领头人物称为“§Y缇杨凯§!”的宇宙生物是一种非常温顺的存在，它们能够进入低围的亚空间，它们可以轻易地在星系之间穿梭，当然，还是不及 [Root.GetSpeciesAdj]的舰队的。\n\n他们会吸收气态巨行星最外层的气体，但是显然这并不是它们赖以生存的食物，但是这些气体中蕴含的物质还是值得留意的。\n\n他们很少会有攻击行为，因此可以放心地无视它们。"
  story.501.a.spiri:0 "令人钦佩。"
  story.501.a.mater:0 "捕猎他们也不会有什么坏处。"
 

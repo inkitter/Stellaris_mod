@@ -126,8 +126,8 @@ trait_ruler_military_pioneer = {
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_military_pioneer.dds"
 	modifier = {
-		country_ship_upgrade_cost_mult = -0.5
-		spaceport_ship_build_cost_mult = 0.1
+		country_ship_upgrade_cost_mult = -0.35
+		spaceport_ship_build_cost_mult = -0.1
 	}
 	leader_trait = yes
 	leader_class = { ruler }
@@ -139,7 +139,7 @@ trait_ruler_warlike = {
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_fist.dds"
 	modifier = {
-		spaceport_ship_build_cost_mult = -0.1
+		spaceport_ship_build_cost_mult = -0.15
 		planet_army_build_cost_mult = -0.2		
 	}
 	leader_trait = yes

@@ -1,0 +1,172 @@
+﻿### Molluscoid 1
+MOL1 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"章鱼号" "乌贼号" "海星号" "水母号" "蜗牛号" "石鳖号" "蛞蝓号" "文蛤号" "蛤仔号" "蛤蜊号" "田螺号" "螺蛳号" "闪耀毛皮贝号" "河蚌号" "毛蚶号" "贻贝号" "玉螺号" "扇贝号" "江珧号" "牡蛎号" "角贝号" "鹦鹉螺号" "旋壳乌贼号" "微鳍乌贼号" "武装乌贼号" "鳞甲乌贼号" "菱鳍乌贼号" "青蛤号" "江瑶号" "珍珠贝号" "三角帆蚌号" "珠蚌号" "帆蚌号" "海笋号" "船蛆号" "斧蛤号" "樱蛤号" "紫云蛤号" "胡桃蛤号" "吻状蛤号" "廷达蛤号" "马雷蛤号" "帽蚶号" "横齿蚶号" "细饰蚶号" "拟锉蛤号" "丁蛎号" "拟日月贝号" "海菊蛤号" "襞蛤号" "双肌蛤号" "不等蛤号" "锉蛤号" "缘曲牡蛎号" "满月蛤号" "索足蛤号" "镶边蛤号" "猿头蛤号" "爱尔西蛤号" "薄壳蛤号" "凯利蛤号" "孟达蛤号" "鼬眼蛤号" "心蛤号" "厚壳蛤号" "鸟蛤号" "住石蛤号" "饰贝号" "熊蛤号" "小凯利蛤号" "棱蛤号" "筒蛎号" "隔鳃号" "海兔号" "龟螺号" "笔帽螺号" "长角螺号" "皮鳃号" "海若螺号" "海天牛号" "长足螺号" "双壳螺号" "海蛞蝓号" "小甜螺号" "无壳螺号" "阿地螺号" "法螺号" "宝螺号" "滨螺号" "冠螺号" "逆卷贝号" "扁卷螺号"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+			克拉肯号战列舰
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = {  }
+		outpost_station = {
+			sequential_name = "第%CC%前哨站"
+		}
+	
+		military_station_small = {
+			}
+		military_station_medium = {
+			}
+		military_station_large = {
+			}	
+	}
+
+	fleet_names = {
+		random_names = {
+			联合第1舰队 联合第2舰队 联合第3舰队 联合第4舰队 联合第5舰队 联合第6舰队 联合第7舰队 联合第8舰队 联合第9舰队 联合第10舰队 
+			联合第11舰队 联合第12舰队 联合第13舰队 联合第14舰队 联合第15舰队 联合第16舰队 联合第17舰队 联合第18舰队 联合第19舰队 联合第20舰队 
+		}
+		sequential_name = "星际海军第%CC%舰队"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "第%CC%防卫战队"
+		}
+			
+		assault_army = {
+			sequential_name = "第%CC%突击战队"
+		}
+		
+		slave_army = {
+			sequential_name = "第%CC%奴隶人小队"
+		}
+		
+		clone_army = {
+			sequential_name = "第%CC%克隆人战队"
+		}
+		
+		robotic_army = {
+			sequential_name = "第%CC%机械战队"
+		}
+		
+		android_army = {
+			sequential_name = "第%CC%机器人突击战队"
+		}
+		
+		psionic_army = {
+			sequential_name = "第%CC%灵能突击战队"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "第%CC%异性突击战队"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "第%CC%改造人突击战队"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				森旺 斯洛格 瑞格纳 鲁奇帕什 恩格伦 恩格觉 梅格拉菲 菊棒 葛莱逊 美格他什 葛博雷 瑞博莱哥 
+				特根 斯莱格思 威戈罗 贝格吉 古杜尔 艾斯格尔 艾格罗
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				苏莱曼 派格罗 格罗恩 塞格罗尔 艾法格 别贝拉许 罗格洛尔 伽马 巴纳格 泰格瑞 瑞博莱 格莱西 司罗根 萨胥克 尔洛雷 艾博格鲁 霞格鲁 派罗须 盖特马 格莱森斯
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				巴库拉 贝卡斯 古日特 特博布朗  昆达日茨 瑟杰 巴库瑞尔 瑟博 加库里 
+			}
+			
+			regnal_first_names = {
+				苏莱曼 派格罗 格罗恩 塞格罗尔 艾法格 别贝拉许 罗格洛尔 伽马 巴纳格 泰格瑞 瑞博莱 格莱西 司罗根 萨胥克 尔洛雷 艾博格鲁 霞格鲁 派罗须 盖特马 格莱森斯
+			}
+			
+			regnal_second_names = {
+				"苏 欧贝利斯克" "苏 欧西里斯" "苏 哈拉克提" "苏 佐克内洛法" "苏 吉尔福德" "苏 索加" "苏 奥利哈刚" "苏 阿克纳帝"
+			}
+		}
+	}
+}

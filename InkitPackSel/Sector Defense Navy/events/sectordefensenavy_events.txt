@@ -40,8 +40,6 @@ country_event = {
 			#}
 			#owner = {
 				#add_modifier = {
-					#modifier = sector_defense_country
-					#days = -1
 				#}
 			#}
 			#reduce_hp = 20

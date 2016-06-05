@@ -1,0 +1,287 @@
+﻿l_russian:
+
+ tech_galactic_ambassadors:0 "Галактические послы"
+ tech_galactic_ambassadors_desc:0 "Посвятить себя продвижению дипломатии, единственный способ гарантировать наше выживание в этой суровой галактике.\n\n"
+ 
+ tech_efficient_foodmanagement:0 "Эффективное продовольственное управление"
+ tech_efficient_foodmanagement_desc:0 "Нашему развивающемуся виду нужны новые способы управления питанием. Разработка передовой стратегии распределения еды, даст нам возможность уделять меньше времени аграрному сектору, что в свою очередь увеличит нашу занятность в инфаструктурном и исследовательском секторе.\n\n"
+ 
+ tech_rapid_population:0 "Материнский капитал"
+ tech_rapid_population_desc:0 "Выделяя субсидии на рождаемость и выплачивая материнский капитал, мы увеличим рождаемость в нашей зарождающейся империи.\n\n"
+ 
+ tech_scientific_excellence:0 "Научное мастерство"
+ tech_scientific_excellence_desc:0 "Превосходно распределяя нагрузку между учёными, мы никогда не отстанем в научной гонке.\n\n"
+ 
+ tech_conquer_the_wastes:0 "Захват бесхозного"
+ tech_conquer_the_wastes_desc:0 "В то время как наша империя продолжает расшираться, становиться необходимым расширить свою власть на пустующих землях. С превосходными оружейними системами мы сможем уничтожать враждебных существ которые населяют галактику.\n\n"
+ 
+ tech_flexible_research:0 "Гибкая наука"
+ tech_flexible_research_desc:0 "Иногда, исследование правильной технологии может сыграть роль между бедность и голоданием, а так же жизнью с избытком.\n\n"
+ 
+ tech_extended_bureaucracy:0 "Расширенная бюрократия"
+ tech_extended_bureaucracy_desc:0 "Улучшая уровень надзора над колониями, мы можем подчинить новые территории под наше прямое управление.\n\n"
+ 
+ tech_imperial_oversight:0 "Имперский надзор"
+ tech_imperial_oversight_desc:0 "Изменяя способы правления власти мы подчиним новые территории под наше прямое управление\n\n"
+ 
+ tech_physics_development:0 "Развитие физики"
+ tech_physics_development_desc:0 "Перенаправляя ресурсы наших университетов с обучения на исследования, мы можем увеличить изобретательскую способность нашего общества. Студенты будут негодовать.\n\n"
+ 
+ tech_great_society:0 "Великое общество"
+ tech_great_society_desc:0 "Проповедуя государственные реформы, мы можем мотивировать волонтёров помогать в разработке новых государственных программ.\n\n"
+ 
+ tech_private_engineering_contractors:0 "Частные инженерные компании"
+ tech_private_engineering_contractors_desc:0 "Предоставляя доступ частным компаниям к специальным проэктам, мы можем сконцентрироваться на других инженерных задачах.\n\n"
+ 
+ tech_quality_of_life:0 "Качество жизни"
+ tech_quality_of_life_desc:0 "Дивиденды космической колонизации наконец-то окупились для среднестатичтического гражданина. Качество жизни которой наслаждаются наши люди немного выше чем у наших предков.\n\n"
+ 
+ tech_nanomedicine:0 "Сила земли"
+ tech_nanomedicine_desc:0 "Нестандартные способы медицины увеличвают срок жизни наших граждан.\n\n"
+ 
+ tech_executive_authority:0 "Исполнительная власть"
+ tech_executive_authority_desc:0 "Дальнейшим увеличением центрального аппарата власти, мы можем уменьшить затраты на введение нужных нам реформ."
+ 
+ tech_test_tube_babies:0 "Дети из пробирки"
+ tech_test_tube_babies_desc:0 "Разработка нашего учёного корнея, убирает необходимость в прямом совокуплении, даст нам возможность заселять планеты невероятно быстро.\n\n"
+ 
+ tech_genetic_restructuring_one:0 "Первая генетическая реструктуризация"
+ tech_genetic_restructuring_one_desc:0 "Если вы пустите Блорга в лабараторию реструктуризации генома, он скажет вам что хочет харизмы чтобы завести друзей...\n\n"
+ 
+ tech_genetic_restructuring_two:0 "Вторая генетическая реструктуризация"
+ tech_genetic_restructuring_two_desc:0 "...Если вы дадите ему харизму, он захочет красоты чтобы привлекать друзей...\n\n"
+ 
+ tech_genetic_restructuring_three:0 "Третья генетическая реструктуризация"
+ tech_genetic_restructuring_three_desc:0 "...Если вы дадите ему красоту, он захочет быть экономным чтобы водить своих друзей в кино...\n\n"
+ 
+ tech_genetic_restructuring_four:0 "Четвертая генетическая реструктуризация"
+ tech_genetic_restructuring_four_desc:0 "...Если вы сделаете его успешным, он захочет быть умным чтобы изобретать классные гаджеты для своих друзей...\n\n"
+ 
+ tech_genetic_restructuring_five:0 "Пятая генетическая реструктуризация"
+ tech_genetic_restructuring_five_desc:0 "...Если вы дадите ему интеллект, он захочет силы чтобы защищать своих друзей...\n\n"
+ 
+ tech_genetic_restructuring_six:0 "Шестая генетическая реструктуризация"
+ tech_genetic_restructuring_six_desc:0 "...Если вы дадите ему силу, он неожиданно поймет что никогда не хотел друзей, и УБЬЁТ ИХ ВСЕХ...\n\n"
+ 
+ tech_genetic_restructuring_seven:0 "Седьмая генетическая реструктуризация"
+ tech_genetic_restructuring_seven_desc:0 "...И когда он убьёт всех, он неожиданно пожалеет об этом. И подумает как же некрасиво было убить товарища, пойдет в лабараторию реструктуризации генома чтобы вернуть себе прежний вид, и шанс что он захочет попросить харизму очень велики.\n\n"
+ 
+ tech_rapid_clearing:0 "Чисти чисти, вот как нужно чистить"
+ tech_rapid_clearing_desc:0 "Удвоением наших трудов создать пригодную к жизни территорию, мы можем увеличить земли для наших граждан.\n\n"
+ 
+ tech_quantum_dynamite:0 "Квантовый динамит"
+ tech_quantum_dynamite_desc:0 "Новые технологии позволяют нам создавать массивные контролируемые взрывы которые уменьшают стоимость чистки территории.\n\n"
+ 
+ tech_world_building:0 "Создание миров"
+ tech_world_building_desc:0 "Капитальная реструктуризация нашей терраформирующей инфаструктуры повысит её эффективность.\n\n"
+ 
+ tech_planet_shaping:0 "Планетарное моделирование"
+ tech_planet_shaping_desc:0 "Большими стараниями, мы можем изменять планеты словно лепим из пластелина.\n\n"
+ 
+ tech_mining_propogation:0 "Распространение добычи"
+ tech_mining_propogation_desc:0 "Увеличить добычу минералов наиболее важная задача растущей империи.\n\n"
+ 
+ tech_ubiquitous_mines:0 "Повсеместная добыча"
+ tech_ubiquitous_mines_desc:0 "Повсеместные добывающие предприятия повышают наш максимальный обьём минералов.\n\n"
+ 
+ ROBOT_POP_SPECIES_0:0 "Всепригодный робот"
+ buildable_robot_pop_0:1 "$ROBOT_POP_SPECIES_0$"
+ buildable_robot_pop_0_desc:1 "$trait_robotic_1_desc$"
+ 
+ tech_water_extracting:0 "Извлечение воды"
+ tech_water_extracting_desc:0 "Лучшими техниками очищения мы можем производить большое количество воды для использования на всех планетах."
+ 
+ tech_ideological_wars:0 "Идеологические войны"
+ tech_ideological_wars_desc:0 "У войны бывает множество целей, а не только захват территорий.\n\n"
+ TECH_UNLOCK_ADDITIONAL_WARGOAL_TYPES_TITLE:0 "§HUnlocks Feature:§! New Wargoal Types"
+ TECH_UNLOCK_ADDITIONAL_WARGOAL_TYPES_DESC:0 "§HNew Wargoal Types§!\nAllows us to use the Abandon Planet, Abolish AI, Abolish Slavery, Abolish Purge, Humiliate, and Cede Frontier Outpost wargoals."
+ 
+##################################################
+# Simple Caste System submod
+# Coded by Remanemporor
+# Last updated 5/16/16
+##################################################
+ 
+ trait_leader_caste:0 "Каста предводителей"
+ trait_leader_caste_desc:0 "Эти индивиды привыкли управлять. Это сделало их непригодными к ручной работе, но они лучшие управленцы галактики, они так же хороши в поддержании порядка.\n"
+
+ trait_military_caste:0 "Военная каста"
+ trait_military_caste_desc:0 "Воины чести не разбирающиеся в стратегии или командовании, но они знают как убивать эффективно.\n"
+ 
+ trait_scholar_caste:0 "Каста учёных"
+ trait_scholar_caste_desc:0 "Не заботясь о строении своего тела, специализированные учёные хороши в продвижении в общество новых идей, плохих или хороших.\n"
+ 
+ trait_merchant_caste:0 "Торговая Каста"
+ trait_merchant_caste_desc:0 "Даже если это не особо привлекательная позиция, кто-то должен поддерживать рынок и торговые потоки.\n"
+ 
+ trait_labor_caste:0 "Рабочий класс"
+ trait_labor_caste_desc:0 "Ненавидимое днище общества, но необходимое.\n"
+ 
+ tech_caste_system:0 "Система каст"
+ tech_caste_system_desc:0 "С помощью перестройка общества по ролям, мы можем поднять эффективность нашей империи до одних из лучших показателей.\n\n"
+ 
+ TECH_UNLOCK_CASTE_GOVERNMENT_TITLE:0 "§HUnlocks Government:§! Caste System"
+ TECH_UNLOCK_CASTE_GOVERNMENT_TITLE_DESC:0 "§HCaste Government§!\nAllows us to augment our castes with additional bonuses."
+ 
+ caste_system:0 "Система Каст"
+ caste_system_desc: "Отказавшись от других государственных выгод, мы можем подойти формально к кастовой системе, добавляя бонусы кастам."
+ 
+ policy_caste_structure:0 "Кастовая структура"
+ policy_caste_structure_desc:0 "Приняв кастовую форму правления, наши граждане в кастах стали счастливее.\n"
+ castes_formalized:0 "Официально"
+ castes_formalized_name:0 "Официальные касты"
+ castes_formalized_desc:0 "Официально приняв кастовую структуру значит что все знают своё место, нравиться оно им или нет."
+ ad_hoc_castes:0 "Специальные касты"
+ ad_hoc_castes_name:0 "Специальные касты"
+ ad_hoc_castes_desc:0 "Если вы выберете эту опцию то вы потеряете все бонусы не выбирайте её."
+ 
+##################################################
+# Policies submod
+# Coded by Remanemporor
+# Last updated 5/17/16
+##################################################
+
+ tech_fleet_focus:0 "Флотская направленность"
+ tech_fleet_focus_desc:0 "Через сконцентрированные усилия мы можем продвинуть наш флот в совершенно новом направлении.\n\n"
+ policy_ship_focus:0 "Корабельная направленность"
+ policy_ship_focus_desc:0 "Полеруя нашу флотскую доктрину, мы можем увеличить наши сильные и слабые стороны.\n"
+ balanced_ship_focus:0 "Сбалансированный"
+ balanced_ship_focus_name:0 "Сбалансировванная корабельная сосредоточение"
+ balanced_ship_focus_desc:0 ""
+ slight_quality_ship_focus:0 "Незначительное сосредоточение на качестве"
+ slight_quality_ship_focus_name:0 "Незначительное сосредоточение на качестве кораблей"
+ slight_quality_ship_focus_desc:0 ""
+ quality_ship_focus:0 "Сосредоточение на качестве"
+ quality_ship_focus_name:0 "Сосредоточение на качестве кораблей"
+ quality_ship_focus_desc:0 ""
+ extreme_quality_ship_focus:0 "Максимальное сосредоточение"
+ extreme_quality_ship_focus_name:0 "Максимальное сосредоточение на качестве кораблей"
+ extreme_quality_ship_focus_desc:0 ""
+ slight_quantity_ship_focus:0 "Незначительное сосредоточение на количестве кораблей"
+ slight_quantity_ship_focus_name:0 "Незначительное сосредоточение на количестве кораблей"
+ slight_quantity_ship_focus_desc:0 ""
+ quantity_ship_focus:0 "Сосредоточение на количестве кораблей"
+ quantity_ship_focus_name:0 "Сосредоточение на количестве кораблей"
+ quantity_ship_focus_desc:0 ""
+ extreme_quantity_ship_focus:0 "Максимальное сосредоточение на количестве кораблей"
+ extreme_quantity_ship_focus_name:0 "Максимальное сосредоточение на количестве кораблей"
+ extreme_quantity_ship_focus_desc:0 ""
+ 
+ tech_mind_or_materials:0 "Дух или материя"
+ tech_mind_or_materials_desc:0 "Подчеркивая духовную или материальную составляющую, мы можем более чётко выделить парадигму нашей империи.\n\n"
+ policy_mind_or_materials:0 "Дух или материя"
+ policy_mind_or_materials_desc:0 "Выбрав акцент на сырье или интеллектуальной способности мы можем изменить направление нашей империи.\n"
+ balanced_mind_materials_focus:0 "Сбалансированная"
+ balanced_mind_materials_focus_name:0 "Сбалансированная Дух и Материя."
+ balanced_mind_materials_focus_desc:0 ""
+ slight_mind_focus:0 "Слабое сосредоточение разума"
+ slight_mind_focus_name:0 "Слабое сосредоточение разума"
+ slight_mind_focus_desc:0 ""
+ mind_focus:0 "Сосредоточение разума"
+ mind_focus_name:0 "Сосредоточение разума"
+ mind_focus_desc:0 ""
+ extreme_mind_focus:0 "Сильное сосредоточение разума"
+ extreme_mind_focus_name:0 "Сильное сосредоточение разума"
+ extreme_mind_focus_desc:0 ""
+ slight_materials_focus:0 "Слабое материальное сосредоточение"
+ slight_materials_focus_name:0 "Слабое материальное сосредоточение"
+ slight_materials_focus_desc:0 ""
+ materials_focus:0 "Материальное сосредоточение"
+ materials_focus_name:0 "Материальное сосредоточение"
+ materials_focus_desc:0 ""
+ extreme_materials_focus:0 "Сильное материальное сосредоточение"
+ extreme_materials_focus_name:0 "Сильное материальное сосредоточение"
+ extreme_materials_focus_desc:0 ""
+ 
+ tech_centralization_extent:0 "Степень центролизации"
+ tech_centralization_extent_desc:0 "Наше процветающуее государство должно точно указать насколько сильно оно будет вмешиваться в жизни граждан.\n\n"
+ policy_centralization_extent:0 "Степень централизации"
+ policy_centralization_extent_desc:0 "Изменение наших государственных практик для управления окраин нашей империи.\n"
+ balance_of_power:0 "Баланс власти"
+ balance_of_power_name:0 "Баланс власти"
+ balance_of_power_desc:0 ""
+ slight_centralization:0 "Слабая централизация"
+ slight_centralization_name:0 "Слабая централизация"
+ slight_centralization_desc:0 ""
+ moderate_centralization:0 "Средняя централизация"
+ moderate_centralization_name:0 "Средняя централизация"
+ moderate_centralization_desc:0 ""
+ extreme_centralization:0 "Максимальная централизация"
+ extreme_centralization_name:0 "Максимальная централизация"
+ extreme_centralization_desc:0 ""
+ slight_decentralization:0 "Слабая децентрализация"
+ slight_decentralization_name:0 "Слабая децентрализация"
+ slight_decentralization_desc:0 ""
+ moderate_decentralization:0 "Средняя децентрализация"
+ moderate_decentralization_name:0 "Средняя децентрализация"
+ moderate_decentralization_desc:0 ""
+ extreme_decentralization:0 "Максимальная децентрализация"
+ extreme_decentralization_name:0 "Максимальная децентрализация"
+ extreme_decentralization_desc:0 ""
+ 
+ tech_imperial_reforms:0 "Имперские реформы"
+ tech_imperial_reforms_desc:0 "Наши прошлые лидеры считали реформы слишком затратными. Но они уже не с нами. Отбросим все предосторожности и построим империю которой мы должны принадлежать."
+ 
+ 
+##################################################
+# Other FTL types
+# Coded by Remanemporor
+# Last updated 5/18/16
+##################################################
+ 
+ WARP_DRIVE_SPOOF_1:0 "Варп движок I Spoof"
+ WARP_DRIVE_SPOOF_1_DESC:1 "Варп движки позволяют путешествовать по галактике с окраин звёздных систем, с ограниченным радиусом, предпрыжковой подготовкой и послепрыжковой задержкой.."
+ WARP_DRIVE_SPOOF_2:0 "Варп движок II Spoof"
+ WARP_DRIVE_SPOOF_2_DESC:1 "$WARP_DRIVE_1_DESC$"
+ WARP_DRIVE_SPOOF_3:0 "Варп движок III Spoof"
+ WARP_DRIVE_SPOOF_3_DESC:1 "$WARP_DRIVE_1_DESC$"
+ HYPER_DRIVE_SPOOF_1:0 "Гипер движок I Spoof"
+ HYPER_DRIVE_SPOOF_1_DESC:1 "Корабли оборудованные гипер движками могут перемещаться лишь по межзвездным каналам, но могут начать прыжок из любой точки системы."
+ HYPER_DRIVE_SPOOF_2:0 "Гипер движок II Spoof"
+ HYPER_DRIVE_SPOOF_2_DESC:1 "$HYPER_DRIVE_1_DESC$"
+ HYPER_DRIVE_SPOOF_3:0 "Гипер движок III Spoof"
+ HYPER_DRIVE_SPOOF_3_DESC:1 "$HYPER_DRIVE_1_DESC$"
+ WORMHOLE_SPOOF:1 "Модулятор черных дыр Spoof"
+ WORMHOLE_SPOOF_DESC:0 "Корабли экипированные модуляторами чёрных дыр могут использовать порталы созданные генератором черных дыр, для перемещения между звёздными системами."
+ 
+ tech_wormhole_spoof_generation_1:0 "Черная дыраSpoofing I"
+ tech_wormhole_spoof_generation_1_desc:0 "Пробиваясь сквозь подпространство, временная связь может быть установлена между двумя точками в обычном космосе. Перемещение между этими двумя точками будет практически мгновенным."
+ tech_wormhole_spoof_generation_2:0 "Матрица точных настроек чёрных дыр Spoof"
+ tech_wormhole_spoof_generation_2_desc:0 "Создание стабильный черной дыры требует времени и огромного количества энергии, но процесс можно модернизировать с помощью точных настроек.\n\n"
+ tech_wormhole_spoof_generation_3:0 "Сдерживающее поле черных дыр Spoof"
+ tech_wormhole_spoof_generation_3_desc:0 "Эти сдерживающие поля позволяют создавать более крупные черные дыры без риска спровоцировать подпространственный разрыв.\n\n"
+ tech_hyper_drive_spoof_1:0 "Подпространственные перемещения Spoof"
+ tech_hyper_drive_spoof_1_desc:0 "Как нити паутины, подпространственная область гиперкосмоса находится между гравитационными колодцами большинства звёзд.\n\n"
+ tech_hyper_drive_spoof_2:0 "Подпространственные точки выхода Spoof"
+ tech_hyper_drive_spoof_2_desc:0 "Мы подтвердили существование точек где наши корабли смогут выходить из гиперпространства с меньшей затратой энергии. Это приведет к разработке нового поколения гипер движков.\n\n"
+ tech_hyper_drive_spoof_3:0 "Подпространственные течения Spoof"
+ tech_hyper_drive_spoof_3_desc:0 "Нове поколение гипер движков способное использовать подпространственные течения. Это привело к увеличению эффективности движков.\n\n"
+ tech_warp_drive_spoof_1:0 "Варп перемещения Spoof"
+ tech_warp_drive_spoof_1_desc:0 "Обволакивая корабль в поле варпа и создавая подпространственный пузырь вокруг него, становяться доступны скорости превыщающие скорости света считавшиеся недостижимыми.\n\n"
+ tech_warp_drive_spoof_2:0 "Поля стабилизации варпа Spoof"
+ tech_warp_drive_spoof_2_desc:0 "Улучшенные техники стабилизации варповых полей позволят нашим кораблям летать дальше и тратить меньше энергии.\n\n"
+ tech_warp_drive_spoof_3:0 "Захватыватели частиц варпа Spoof"
+ tech_warp_drive_spoof_3_desc:0 "Эти революционные устройства используются на наших варповых двигателях и работают как собиратели частиц варпа, восстанавливая топливо наших кораблей.\n\n"
+ 
+ TECH_UNLOCK_HYPERDRIVE_1_SPOOF_TITLE:0 "§HUnlocks Component:§! Hyperdrive I Spoof"
+ TECH_UNLOCK_HYPERDRIVE_1_SPOOF_DESC:0 "§HHyperdrive I§!\n$tech_hyper_drive_1_desc$"
+ TECH_UNLOCK_HYPERDRIVE_2_SPOOF_TITLE:0 "§HUnlocks Component:§! Hyperdrive II Spoof"
+ TECH_UNLOCK_HYPERDRIVE_2_SPOOF_DESC:0 "§HHyperdrive II§!\n$tech_hyper_drive_2_desc$"
+ TECH_UNLOCK_HYPERDRIVE_3_SPOOF_TITLE:0 "§HUnlocks Component:§! Hyperdrive III Spoof"
+ TECH_UNLOCK_HYPERDRIVE_3_SPOOF_DESC:0 "§HHyperdrive III§!\n$tech_hyper_drive_3_desc$"
+ TECH_UNLOCK_WARPDRIVE_1_SPOOF_TITLE:0 "§HUnlocks Component:§! Warp Drive I Spoof"
+ TECH_UNLOCK_WARPDRIVE_1_SPOOF_DESC:0 "§HWarp Drive I§!\n$tech_warp_drive_1_desc$"
+ TECH_UNLOCK_WARPDRIVE_2_SPOOF_TITLE:0 "§HUnlocks Component:§! Warp Drive II Spoof"
+ TECH_UNLOCK_WARPDRIVE_2_SPOOF_DESC:0 "§HWarp Drive II§!\n$tech_warp_drive_2_desc$"
+ TECH_UNLOCK_WARPDRIVE_3_SPOOF_TITLE:0 "§HUnlocks Component:§! Warp Drive III Spoof"
+ TECH_UNLOCK_WARPDRIVE_3_SPOOF_DESC:0 "§HWarp Drive III§!\n$tech_warp_drive_3_desc$"
+ TECH_UNLOCK_WORMHOLE_1_SPOOF_TITLE:0 "§HUnlocks Station:§! Wormhole Station Spoof"
+ TECH_UNLOCK_WORMHOLE_1_SPOOF_DESC:0 "§HWormhole Station§!\n$tech_wormhole_generation_1_desc$"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,171 @@
+﻿### Fungoid 1
+FUN1 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"深凹杯伞号" "灵芝号" "香菇号" "洋菇号" "金针菇号" "松露号" "银耳号" "木耳号" "白毒伞号" "猴头菇号" "草菇号" "羊肚菌号" "双孢菇号" "平菇" "凤尾菇号" "竹荪号" "牛肝菌号" "杏鲍菇号" "蟹味菇号" "油菇号" "桦树菇号" "榛蘑号" "亮菌号" "茯苓号" "石耳号"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+			
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = {  }
+		outpost_station = {
+			sequential_name = "第%CC%前哨站"
+		}
+	
+		military_station_small = {
+			}
+		military_station_medium = {
+			}
+		military_station_large = {
+			}	
+	}
+
+	fleet_names = {
+		random_names = {
+			蘑菇舰队 香菇舰队 平菇舰队 木耳舰队 灵芝舰队 松露舰队 孢子舰队
+			"孢子第1舰队" "孢子第2舰队" "孢子第3舰队" "孢子第4舰队" "孢子第5舰队" "孢子第6舰队" "孢子第7舰队" "孢子第8舰队" "孢子第9舰队" "孢子第10舰队" "孢子第11舰队" "孢子第12舰队" "孢子第13舰队" "孢子第14舰队" "孢子第15舰队" "孢子第16舰队" "孢子第17舰队" "孢子第18舰队" "孢子第19舰队" "孢子第20舰队"
+		}
+		sequential_name = "希望海军第%CC%舰队"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "自卫第%CC%集群"
+		}
+			
+		assault_army = {
+			sequential_name = "突击第%CC%集群"
+		}
+		
+		slave_army = {
+			sequential_name = "第%CC%奴隶人集群"
+		}
+		
+		clone_army = {
+			sequential_name = "第%CC%克隆人集群"
+		}
+		
+		robotic_army = {
+			sequential_name = "第%CC%机械集群"
+		}
+		
+		android_army = {
+			sequential_name = "第%CC%机器人突击集群"
+		}
+		
+		psionic_army = {
+			sequential_name = "第%CC%灵能突击集群"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "第%CC%异形突击集群"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "第%CC%改造人突击集群"
+		}
+	}
+
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				潮湿之地 阴暗之地 遗弃之地 空白之地 渺小之地 无言之地 虚空之地 遗忘之地 路标之地 交错之地 暮光之地 月满之地
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				斯佩克尔 帝格那吉尔 沙博格尼基 亨格伦 威戈厄尔 曼斯戈尔 理格瑞 噶奔 哈勃 葛娜乐 斯卢安摩尔 施邦迪尔 威戈劳勒里 富葛特那勒 思博林 胡密格尔 卡觉尔 凯格赫洛 凯斯法尔洛 柯傅布朗
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				斯佩克尔 帝格那吉尔 沙博格尼基 亨格伦 威戈厄尔 曼斯戈尔 理格瑞 噶奔 哈勃 葛娜乐 斯卢安摩尔 施邦廸尔 威戈劳勒里 富葛特那勒 思博林 胡密格尔 卡觉尔 凯格赫洛 凯斯法尔洛 柯傅布朗
+			}
+			
+			regnal_second_names = {
+				"于 格拉贝尔" "于 沙罗斯"  "于 特拉法特" "于 伯莱纳" 
+			}
+		}
+	}
+}

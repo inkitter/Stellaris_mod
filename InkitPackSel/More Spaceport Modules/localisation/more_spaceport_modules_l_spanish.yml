@@ -1,0 +1,65 @@
+﻿l_spanish:
+
+ sm_solar_panel_network2:0 "Red de Paneles Solares Mediana"
+  
+ sm_solar_panel_network3:0 "Red de Paneles Solares Grande"
+  
+ sm_solar_panel_network4:0 "Red de Paneles Solares Inmensa"
+  
+ sm_hydroponic_farms2:0 "Granjas Hidropónicas Medianas"
+  
+ sm_hydroponic_farms3:0 "Granjas Hidropónicas Grandes"
+  
+ sm_hydroponic_farms4:0 "Granjas Hidropónicas Inmensas"
+  
+ sm_corvette_assembly_yards2:0 "Bahía de Ensamble Avanzada de Corvetas"
+  
+ sm_destroyer_assembly_yards2:0 "Bahía de Ensamble Avanzada de Destructores"
+  
+ sm_cruiser_assembly_yards2:0 "Bahía de Ensamble Avanzada de Cruseros"
+ 
+ sm_battleship_assembly_yards_2:0 "Bahía de Ensamble Avanzada de Acorazados"
+ 
+ sm_synchronized_defenses_2:0 "Defensas Sincronizadas Mejoradas"
+  
+ sm_synchronized_defenses_3:0 "Defensas Sincronizadas Avanzadas"
+ 
+ sm_engineering_bay_2:0 "Bahía Avanzada de Ingeniería"
+ 
+ sm_ship_assembly_yards:0 "Bahía de Ensamble de Naves Pequeñas"
+ 
+ sm_ship_assembly_yards_2:0 "Bahía de Ensamble de Naves Medianas"
+ 
+ sm_ship_assembly_yards_3:0 "Bahía de Ensamble de Naves Grandes"
+ 
+ sm_ship_assembly_yards_4:0 "Bahía de Ensamble de Naves Inmensas"
+ 
+ sm_crew_quarters_2:0 "Cuarteles Avanzados de Personal" 
+ 
+ sm_reinforced_hull_1:0 "Estación de Refuerzo del Casco" 
+ 
+ sm_reinforced_hull_2:0 "Estación Mejorada de Refuerzo del Casco" 
+ 
+ sm_reinforced_hull_3:0 "Estación Avanzada de Refuerzo del Casco" 
+
+ tech_synchronized_defences_2:0 "Defensas Sincronizadas Avanzadas"
+ tech_synchronized_defences_2_desc:0 "Permite un incremento en la eficiencia para la ejecución de los paradigmas del alineamiento de las armas defensivas y ofensivas."
+ 
+ tech_reinforced_hull_1:0 "Refuerzo del Casco"
+ tech_reinforced_hull_1_desc:0 "Reforzar el casco de una estación espacial aumenta mucho su resistencia en el raro caso de un ataque."
+ 
+ tech_reinforced_hull_2:0 "Refuerzo Mejorado del Casco"
+ tech_reinforced_hull_2_desc:0 "Reforzar el casco de una estación espacial aumenta mucho su resistencia en el raro caso de un ataque."
+ 
+ tech_reinforced_hull_3:0 "Refuerzo Avanzado del Casco"
+ tech_reinforced_hull_3_desc:0 "Reforzar el casco de una estación espacial aumenta mucho su resistencia en el raro caso de un ataque."
+
+ tech_battleship_yard_2:0 "Diseños Avanzados para Acorazados"
+ tech_battleship_yard_2_desc:0 "Al establecer estándares avanzados para el diseño y construcción de naves inmensas clase Acorazados mejora mucho la velocidad con la que pueden ser ensamblados.\n\n"
+ 
+ tech_orbital_hydroponics_2:0 "Sistema Avanzado Hidropónico en Órbita"
+ tech_orbital_hydroponics_2_desc:0 "Los desafíos inherentes al cultivo en gravedad 0 son ciertamente únicos, pero distan de ser insoslayables.\n\n"
+ 
+ tech_solar_panel_network_2:0 "Conversión Avanzada de Energía en Órbita"
+ tech_solar_panel_network_2_desc:0 "Los Avances en la tecnología de paneles solares podría, potencialmente, reducir el costo operativo de nuestras estaciones. De todas formas, los paneles requerirían un módulo de la estación completo para generar suficiente energía.\n\n"
+

@@ -1,4 +1,5 @@
-name="Inkit Mods"
+name="!Inkit Mods"
 path="mod/Inkitmod"
 picture="Inkitcat.jpg"
-supported_version="1.1"
+remote_file_id="696221547"
+supported_version="1.1.*"

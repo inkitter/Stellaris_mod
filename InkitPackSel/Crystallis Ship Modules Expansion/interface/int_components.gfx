@@ -115,6 +115,26 @@ spriteTypes{
 		name = "GFX_ship_part_shield_10"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_shield_10.dds"
 	}
+	spriteType = {
+		name = "GFX_ship_part_c_science_lab_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_c_science_lab_1.dds"
+	}	
+	spriteType = {
+		name = "GFX_ship_part_c_science_lab_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_c_science_lab_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_c_science_lab_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_c_science_lab_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_c_science_lab_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_c_science_lab_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_c_science_lab_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_c_science_lab_5.dds"
+	}
 	
 	
 }

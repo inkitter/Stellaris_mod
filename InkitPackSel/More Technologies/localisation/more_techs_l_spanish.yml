@@ -1,0 +1,232 @@
+﻿l_spanish:
+
+ tech_galactic_ambassadors:0 "Embajadores Galácticos"
+ tech_galactic_ambassadors_desc:0 "Dedicarnos a la promoción diplomática es el único camino que asegurará nuestra supervivencia en esta dura galaxia."\n\n"
+ 
+ tech_efficient_foodmanagement:0 "Gestión Eficiente de Comida"
+ tech_efficient_foodmanagement_desc:0 "Nuestras especies en crecimiento demográfico necesitarán nuevas técnicas para gestionar su propio sustento. El desarrollo de estrategias relacionadas con las mejores prácticas disponibles en la distribución alimentaria nos permitirá dedicar una menor cantidad de tiempo a la agricultura, y más a la exploración y construcción de infraestructuras.\n\n"
+ 
+ tech_rapid_population:0 "Demografía Acelerada"
+ tech_rapid_population_desc:0 "Mediante la subvención de nacimientos y subsidios a las madres, podremos incrementar de forma efectiva el crecimiento poblacional de nuestro naciente imperio.\n\n"
+ 
+ tech_scientific_excellence:0 "Excelencia Científica"
+ tech_scientific_excellence_desc:0 "Con un continuo impulso de nuestros científicos hasta sus propios límites, podremos seguir a la cabeza de la carrera armamentístico-tecnológica.\n\n"
+ 
+ tech_conquer_the_wastes:0 "Conquistando los Residuos"
+ tech_conquer_the_wastes_desc:0 "A medida que nuestro imperio se expande, será cada vez más importante proyectar poder en nuestros dominios. Con las armas de refracción adecuadas, se podrán eliminar criaturas hostiles que habitan en la galaxia.\n\n"
+ 
+ tech_flexible_research:0 "Investigación Flexible"
+ tech_flexible_research_desc:0 "A veces, la investigación de la tecnología más adecuada puede significar la diferencia entre la pobreza y el hambre, y una vida abundante.\n\n"
+ 
+ tech_extended_bureaucracy:0 "Burocracia Extentida"
+ tech_extended_bureaucracy_desc:0 "Al mejorar el nivel de supervisión que tenemos en nuestras colonias, podremos tener un mayor y más efectivo control directo de nuevas zonas.\n\n"
+ 
+ tech_imperial_oversight:0 "Supervisión Imperial"
+ tech_imperial_oversight_desc:0 "Mediante reformas gubernamentales, podremos tener nuevas tierras bajo nuestro control directo.\n\n"
+ 
+ tech_physics_development:0 "Desarrollo de la Física"
+ tech_physics_development_desc:0 "Reorientando nuestras universidades para poner un mayor énfasis en la investigación básica en detrimento de fines más didácticos, podremos mejorar la capacidad innovativa de nuestra sociedad. Sin embargo, esto podría resultar insatisfactorio para algunos de nuestros estudiantes.\n\n"
+ 
+ tech_great_society:0 "Gran Sociedad"
+ tech_great_society_desc:0 "Promulgando la necesidad de reformas gubernamentales, podremos captar voluntarios que ayuden en el diseño de nuevos programas sociales.\n\n"
+ 
+ tech_private_engineering_contractors:0 "Contratación de Ingenieros Privados"
+ tech_private_engineering_contractors_desc:0 "La subcontratación de proyectos especiales por parte de empresas privadas, permitirá centrar la atención de nuestros ingenieros imperiales en otras cuestiones tecnológicas más importantes.\n\n"
+ 
+ tech_quality_of_life:0 "Calidad de Vida"
+ tech_quality_of_life_desc:0 "Los beneficios de la colonización espacial finalmente han dado sus frutos para el ciudadano de a pie. La calidad de vida de nuestro pueblo es ahora un poco mejor que lo que nuestros antepasados tuvieron que vivir.\n\n"
+ 
+ tech_nanomedicine:0 "Nanomedicina"
+ tech_nanomedicine_desc:0 "Nuevos avances en la miniaturización conllevan un aumento en la esperanza de vida de nuestro pueblo.\n\n"
+ 
+ tech_executive_authority:0 "Autoridad Ejecutiva"
+ tech_executive_authority_desc:0 "Mediante la potenciación adicional de la administración central, podemos reducir el coste de la promulgación de edictos favorables.\n\n"
+ 
+ tech_test_tube_babies:0 "Niños Probeta"
+ tech_test_tube_babies_desc:0 "La eliminación de la necesidad de procreación nos permitirá aumentar las poblaciones planetarias de forma extremadamente rápida.\n\n"
+ 
+ tech_genetic_restructuring_one:0 "Recombinación Genética Uno"
+ tech_genetic_restructuring_one_desc:0 "Si dejas entrar a un Blorg en un laboratorio de secuenciación genética, te dirá cuánto Carisma necesita para hacer algunos amigos ...\n\n"
+ 
+ tech_genetic_restructuring_two:0 "Recombinación Genética Dos"
+ tech_genetic_restructuring_two_desc:0 "...Si le das carisma a un Blorg, querrá Belleza para atraer a esos amigos...\n\n"
+ 
+ tech_genetic_restructuring_three:0 "Recombinación Genética Tres"
+ tech_genetic_restructuring_three_desc:0 "...Si le das belleza a un Blorg, querrá Ahorros para poder invitar a sus amigos al cine ...\n\n"
+ 
+ tech_genetic_restructuring_four:0 "Recombinación Genética Cuatro"
+ tech_genetic_restructuring_four_desc:0 "...Si le das ahorros a un Blorg, querrá Inteligencia para así poder construir modernos artilugios para sus amigos ...\n\n"
+ 
+ tech_genetic_restructuring_five:0 "Recombinación Genética Cinco"
+ tech_genetic_restructuring_five_desc:0 "...Si le das inteligencia a un Blorg, querrá Fuerza para poder proteger a sus amigos ...\n\n"
+ 
+ tech_genetic_restructuring_six:0 "Recombinación Genética Seis"
+ tech_genetic_restructuring_six_desc:0 "...Si le das fuerza a un Blorg, se dará cuenta de que en realidad nunca quiso tener amigos, así que LOS ASESINARÁ A TODOS ...\n\n"
+ 
+ tech_genetic_restructuring_seven:0 "Recombinación Genética Siete"
+ tech_genetic_restructuring_seven_desc:0 "...Cuando un Blorg asesina a sus amigos, lo lamenta inmediatamente. Piensa en lo poco carismático que es matar a todos los amigos que uno tiene, por lo que irá a un laboratorio de resecuenciación genética. Y cuando un Blorg va a un laboratorio de resecuenciación genética ... lo más probable es que quiera Carisma para hacer algunos amigos.\n\n"
+ 
+ tech_rapid_clearing:0 "Despeje rápido"
+ tech_rapid_clearing_desc:0 "Redoblando nuestros esfuerzos para crear espacios habitables, podemos generar más tierra para nuestro pueblo.\n\n"
+ 
+ tech_quantum_dynamite:0 "Dinamita Cuántica"
+ tech_quantum_dynamite_desc:0 "Nuevas tecnologías permiten crear explosiones controladas masivas que reducen el costo de la limpieza de la tierra.\n\n"
+ 
+ tech_world_building:0 "Construcción de Mundos"
+ tech_world_building_desc:0 "La renovación de toda nuestra infraestructura de terraformación generará una mayor eficiencia.\n\n"
+ 
+ tech_planet_shaping:0 "Remodelación Planetaria"
+ tech_planet_shaping_desc:0 "A través de este esfuerzo masivo, podremos moldear los planetas como si fuesen plastilina en nuestras manos.\n\n"
+ 
+ tech_mining_propogation:0 "Propagación minera"
+ tech_mining_propogation_desc:0 "El aumento de la cantidad de mineral generado es imprescindible para un imperio en expansión.\n\n"
+ 
+ tech_ubiquitous_mines:0 "Minas Omnipresentes"
+ tech_ubiquitous_mines_desc:0 "El gran alcance de nuestro imperio requiere de una gran cantidad de minerales.\n\n"
+ 
+ ROBOT_POP_SPECIES_0:0 "Robots Extraplanetarios"
+ buildable_robot_pop_0:1 "$ROBOT_POP_SPECIES_0$"
+ buildable_robot_pop_0_desc:1 "$trait_robotic_1_desc$"
+ 
+ tech_water_extracting:0 "Extracción de Agua"
+ tech_water_extracting_desc:0 "Técnicas de sublimación a gran escala permiten generar una cantidad enorme de agua para su posterior uso en otros planetas en los que resulte necesario."
+ 
+ tech_ideological_wars:0 "Guerras Ideológicas"
+ tech_ideological_wars_desc:0 "Existen otras razones para luchar, además de simplemente para conquistar territorios.\n\n"
+ TECH_UNLOCK_ADDITIONAL_WARGOAL_TYPES_TITLE:0 "§HUnlocks Feature:§! New Wargoal Types"
+ TECH_UNLOCK_ADDITIONAL_WARGOAL_TYPES_DESC:0 "§HNew Wargoal Types§!\nPermite el uso de Abandonar Planeta, Abolir uso de IA, Abolir Esclavitud, Abolir Purga, Humillar, y Ceder Puesto Fronterizo."
+ 
+##################################################
+# Simple Caste System submod
+# Coded by Remanemporor
+# Last updated 5/16/16
+##################################################
+ 
+ trait_leader_caste:0 "Casta Dirigente"
+ trait_leader_caste_desc:0 "Estas personas se han acostumbrado a tener el mando. Su posición elevada ha hecho que no sean aptos para el trabajo manual, pero en cambio algunos de ellos se pueden contar entre los mejores líderes que la galaxia haya conocido. También son buenos en la mitigación de posibles estallidos revolucionarios. \\n"
+
+ trait_military_caste:0 "Casta Militar"
+ trait_military_caste_desc:0 "Guerreros basados en el honor, pueden no saber acerca de estrategia o liderazgo, pero saben cómo matar. Muy eficientemente.\n"
+ 
+ trait_scholar_caste:0 "Casta Académica"
+ trait_scholar_caste_desc:0 "Aunque no cuidan mucho su forma física, estos eruditos son geniales a la hora de impulsar la sociedad hacia adelante con nuevas ideas, buenas y malas.\n"
+ 
+ trait_merchant_caste:0 "Casta Mercantil"
+ trait_merchant_caste_desc:0 "Aunque no sea una un empleo muy popular, alguien tiene que abastecer los supermercados y mantener el comercio fluyendo.\n"
+ 
+ trait_labor_caste:0 "Casta Trabajadora"
+ trait_labor_caste_desc:0 "El último peldaño de la sociedad es una posición odiada pero muy necesaria para mantener el imperio.\n"
+ 
+ tech_caste_system:0 "Sistema de Castas"
+ tech_caste_system_desc:0 "Estableciendo roles para cada casta, podremos crear uno de los imperios más eficientes de la galaxia.\n\n"
+ 
+ TECH_UNLOCK_CASTE_GOVERNMENT_TITLE:0 "§HUnlocks Government:§! Sistema de Castas"
+ TECH_UNLOCK_CASTE_GOVERNMENT_TITLE_DESC:0 "§HCaste Government§!\nPermite aumentar nuestro sistema de castas con bonificaciones adicionales."
+ 
+ caste_system:0 "Sistema de Castas"
+ caste_system_desc: "Dejando de lado otras medidas gubernamentales, podremos formalizar un sistema de castas que proporcionará beneficios a cada casta."
+ 
+ policy_caste_structure:0 "Estructura de Castas"
+ policy_caste_structure_desc:0 "Al adoptar el sistema de castas como nuestra forma de gobierno, las personas que están en castas son más felices.\n"
+ castes_formalized:0 "Formalización"
+ castes_formalized_name:0 "Castas Formalizadas"
+ castes_formalized_desc:0 "La formalización de la estructura de castas significa que todo el mundo sabe cuál es su lugar, les guste o no."
+ ad_hoc_castes:0 "Ad Hoc"
+ ad_hoc_castes_name:0 "Castas Ad Hoc"
+ ad_hoc_castes_desc:0 "Si eliges esta opción, perderás tus bonificaciones, por lo que mejor no hagas click aquí."
+ 
+##################################################
+# Policies submod
+# Coded by Remanemporor
+# Last updated 5/28/16
+##################################################
+
+ tech_fleet_focus:0 "Enfoque de Flota"
+ tech_fleet_focus_desc:0 "A través de un esfuerzo coordinado, podemos impulsar nuestra flota en una nueva y osada dirección.\n\n"
+ policy_ship_focus:0 "Enfoque de Nave"
+ policy_ship_focus_desc:0 "Perfeccionando nuestra Doctrina de Flota, podemos enfatizar nuestros puntos fuertes...aunque también nuestras debilidades.\n"
+ balanced_ship_focus:0 "Equilibrado"
+ balanced_ship_focus_name:0 "Enfoque de Nave Equilibrado"
+ balanced_ship_focus_desc:0 ""
+ slight_quality_ship_focus:0 "Enfoque de Calidad Leve"
+ slight_quality_ship_focus_name:0 "Enfoque de Calidad de Naves Leve"
+ slight_quality_ship_focus_desc:0 ""
+ quality_ship_focus:0 "Enfoque de Calidad"
+ quality_ship_focus_name:0 "Enfoque de Calidad de Naves"
+ quality_ship_focus_desc:0 ""
+ extreme_quality_ship_focus:0 "Enfoque de Calidad Extremo"
+ extreme_quality_ship_focus_name:0 "Enfoque de Calidad de Naves Extremo"
+ extreme_quality_ship_focus_desc:0 ""
+ slight_quantity_ship_focus:0 "Enfoque de Cantidad Leve"
+ slight_quantity_ship_focus_name:0 "Enfoque de Cantidad de Naves Leve"
+ slight_quantity_ship_focus_desc:0 ""
+ quantity_ship_focus:0 "Enfoque de Cantidad"
+ quantity_ship_focus_name:0 "Enfoque de Cantidad de Naves"
+ quantity_ship_focus_desc:0 ""
+ extreme_quantity_ship_focus:0 "Enfoque de Cantidad Extremo"
+ extreme_quantity_ship_focus_name:0 "Enfoque de Cantidad de Naves Extremo"
+ extreme_quantity_ship_focus_desc:0 ""
+ 
+ tech_mind_or_materials:0 "Mente o Materiales"
+ tech_mind_or_materials_desc:0 "Fomentando el mundo físico o potenciando más nuestra mente, podremos enfatizar aún más el paradigma de nuestro imperio.\n\n"
+ policy_mind_or_materials:0 "Mente o Materiales"
+ policy_mind_or_materials_desc:0 "Apostando más por las materias primas o decantándonos por nuestra capacidad intelectual,cambiaremos drásticamente el curso de nuestro imperio.\n"
+ balanced_mind_materials_focus:0 "Equilibrado"
+ balanced_mind_materials_focus_name:0 "Mente Vs Materiales Equilibrado"
+ balanced_mind_materials_focus_desc:0 ""
+ slight_mind_focus:0 "Enfoque Mental Leve"
+ slight_mind_focus_name:0 "Enfoque Mental Leve"
+ slight_mind_focus_desc:0 ""
+ mind_focus:0 "Enfoque Mental"
+ mind_focus_name:0 "Enfoque Mental"
+ mind_focus_desc:0 ""
+ extreme_mind_focus:0 "Enfoque Mental Extremo"
+ extreme_mind_focus_name:0 "Enfoque Mental Extremo"
+ extreme_mind_focus_desc:0 ""
+ slight_materials_focus:0 "Enfoque Materiales Leve"
+ slight_materials_focus_name:0 "Enfoque Materiales Leve"
+ slight_materials_focus_desc:0 ""
+ materials_focus:0 "Enfoque Materiales"
+ materials_focus_name:0 "Enfoque Materiales"
+ materials_focus_desc:0 ""
+ extreme_materials_focus:0 "Enfoque Materiales Extremo"
+ extreme_materials_focus_name:0 "Enfoque Materiales Extremo"
+ extreme_materials_focus_desc:0 ""
+ 
+ tech_centralization_extent:0 "Alcance de Centralización"
+ tech_centralization_extent_desc:0 "Nuestra floreciente nación deberá especificar exactamente cuánto va a interferir con la vida de las personas.\n\n"
+ policy_centralization_extent:0 "Alcance de Centralización"
+ policy_centralization_extent_desc:0 "Cambiar nuestras prácticas estatales para la gestión de la periferia de nuestro imperio puede generar importantes ganancias.\n"
+ balance_of_power:0 "Equilibrio de Poder"
+ balance_of_power_name:0 "Equilibrio de Poder"
+ balance_of_power_desc:0 ""
+ slight_centralization:0 "Centralización Leve"
+ slight_centralization_name:0 "Centralización Leve"
+ slight_centralization_desc:0 ""
+ moderate_centralization:0 "Centralización Moderada"
+ moderate_centralization_name:0 "Centralización Moderada"
+ moderate_centralization_desc:0 ""
+ extreme_centralization:0 "Centralización Extrema"
+ extreme_centralization_name:0 "Centralización Extrema"
+ extreme_centralization_desc:0 ""
+ slight_decentralization:0 "Descentralización Leve"
+ slight_decentralization_name:0 "Descentralización Leve"
+ slight_decentralization_desc:0 ""
+ moderate_decentralization:0 "Descentralización Moderada"
+ moderate_decentralization_name:0 "Descentralización Moderada"
+ moderate_decentralization_desc:0 ""
+ extreme_decentralization:0 "Descentralización Extrema"
+ extreme_decentralization_name:0 "Descentralización Extrema"
+ extreme_decentralization_desc:0 ""
+ 
+ tech_imperial_reforms:0 "Reformas Imperiales"
+ tech_imperial_reforms_desc:0 "En el pasado, nuestros líderes consideraron demasiado costoso reformar nuestro las políticas de nuestro naciente imperio. Pero esos líderes ya no están aquí. Vamos a dejar atrás nuestros miedos y precauciones para construir el imperio que siempre quisimos."
+ 
+ # below edited at 5/28/16
+ policy_test_desc_policy:0 "Más opciones"
+ policy_test_desc_policy_desc:0 "Política Test Desc Política Desc"
+ reform_desc_fake_policy:0 "Versiones Moderada y Extrema"
+ reform_desc_fake_policy_name:0 "Más opciones"
+ reform_desc_fake_policy_desc:0 Nos permite acceder a las versiones moderadas y extremas de las políticas (como la centralización, enfoque de flota, etc.)"
+ 
+ 

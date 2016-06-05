@@ -1,0 +1,67 @@
+﻿l_english:
+
+SMALL_AETHER_REACTOR_1:0 "小型虚空反应堆"
+MEDIUM_AETHER_REACTOR_1:0 "中型虚空反应堆"
+LARGE_AETHER_REACTOR_1:0 "大型虚空反应堆"
+AETHER_REACTOR_1:0 "虚空反应堆"
+AETHER_REACTOR_1_DESC:0 "通过回收宇宙熵生成新的能量."
+
+SMALL_AETHER_REACTOR_2:0 "小型虚空反应堆"
+MEDIUM_AETHER_REACTOR_2:0 "中型虚空反应堆"
+LARGE_AETHER_REACTOR_2:0 "大型虚空反应堆"
+AETHER_REACTOR_2:0 "虚空反应堆"
+AETHER_REACTOR_2_DESC:0 "通过回收宇宙熵生成新的能量."
+
+SMALL_AETHER_REACTOR_3:0 "小型虚空反应堆"
+MEDIUM_AETHER_REACTOR_3:0 "中型虚空反应堆"
+LARGE_AETHER_REACTOR_3:0 "大型虚空反应堆"
+AETHER_REACTOR_3:0 "虚空反应堆"
+AETHER_REACTOR_3_DESC:0 "通过回收宇宙熵生成新的能量."
+
+SMALL_AETHER_REACTOR_4:0 "小型虚空反应堆"
+MEDIUM_AETHER_REACTOR_4:0 "中型虚空反应堆"
+LARGE_AETHER_REACTOR_4:0 "大型虚空反应堆"
+AETHER_REACTOR_4:0 "虚空反应堆"
+AETHER_REACTOR_4_DESC:0 "通过回收宇宙熵生成新的能量."
+
+SMALL_AETHER_REACTOR_5:0 "小型虚空反应堆"
+MEDIUM_AETHER_REACTOR_5:0 "中型虚空反应堆"
+LARGE_AETHER_REACTOR_5:0 "大型虚空反应堆"
+AETHER_REACTOR_5:0 "虚空反应堆"
+AETHER_REACTOR_5_DESC:0 "通过回收宇宙熵生成新的能量."
+
+tech_aether_reactor_1:0 "研究虚空"
+tech_aether_reactor_1_desc:1 "研究神秘能量生物的生命将使我们能够利用他们在性交时散发出的能量，是的，我们的船舰动利用爱发电."
+tech_aether_reactor_2:0 "研究虚空"
+tech_aether_reactor_2_desc:1 "研究神秘能量生物的生命将使我们能够利用他们在性交时散发出的能量，是的，我们的船舰动利用爱发电."
+tech_aether_reactor_3:0 "研究虚空"
+tech_aether_reactor_3_desc:1 "研究神秘能量生物的生命将使我们能够利用他们在性交时散发出的能量，是的，我们的船舰动利用爱发电."
+tech_aether_reactor_4:0 "研究虚空"
+tech_aether_reactor_4_desc:1 "研究神秘能量生物的生命将使我们能够利用他们在性交时散发出的能量，是的，我们的船舰动利用爱发电."
+tech_aether_reactor_5:0 "研究虚空"
+tech_aether_reactor_5_desc:1 "研究神秘能量生物的生命将使我们能够利用他们在性交时散发出的能量，是的，我们的船舰动利用爱发电."
+
+story.57301.name:0 "发现了奇怪的能量生物"
+story.57301.desc:0 "一种特殊的生命体 - 这是 [Root.GetSpeciesAdj] 负责这次研究的科学人员称为 "§YAetherials§!" - 耗费大量的生命力四处传跃来生殖."
+story.57301.a:0 "有趣,送一些标本回实验室吧."
+
+SHIP_SENSOR_BABEL_1:0 "杂乱传感器 Mk1"
+SHIP_SENSOR_BABEL_2:0 "杂乱传感器 Mk2"
+SHIP_SENSOR_BABEL_3:0 "杂乱传感器 Mk3"
+SHIP_SENSOR_BABEL_4:0 "杂乱传感器 Mk4"
+
+ship_sensor_components:0 "杂乱船舰传感器"
+ship_sensor_components_DESC:0 "研究神秘能量生物的生命将使我们能够利用他们在性交时散发出的能量."
+
+tech_sensors_babel_1:0 "杂乱传感器 Mk1研究"
+tech_sensors_babel_1_desc:0 "杂乱传感器 Mk1研究概述"
+tech_sensors_babel_2:0 "杂乱传感器 Mk2研究"
+tech_sensors_babel_2_desc:0 "杂乱传感器 Mk2研究概述"
+tech_sensors_babel_3:0 "杂乱传感器 Mk3研究"
+tech_sensors_babel_3_desc:0 "杂乱传感器 Mk3研究概述"
+tech_sensors_babel_4:0 "杂乱传感器 Mk4研究"
+tech_sensors_babel_4_desc:0 "杂乱传感器 Mk4研究概述"
+
+story.57302.name:0 "发现了奇怪的水生生物"
+story.57302.desc:0 "一种特殊的生命体 - 这是 [Root.GetSpeciesAdj] 负责这次研究的科学人员称为 "§YBabels§!" - 耗费大量的生命力四处传跃来生殖."
+story.57302.a:0 "有趣,送一些标本回实验室吧."

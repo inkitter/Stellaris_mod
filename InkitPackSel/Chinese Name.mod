@@ -1,0 +1,5 @@
+name="Chinese Name 中文命名"
+archive="mod/Chinese Name"
+picture="a.jpg"
+remote_file_id="689203811"
+supported_version="1.1"

@@ -1,0 +1,179 @@
+﻿### Arthropoid 1
+ART1 = {	
+	### SHIPS
+
+	ship_names = {
+		generic = {
+			"蟑螂号" "蚂蚁号" "蜜蜂号" "龙虾号" "蜘蛛号" "大闸蟹号" "梭子蟹号" "椰子蟹号" "寄居蟹号" "瓷蟹号" "花蟹号" "毒蚊号" "飞蝇号" "蜈蚣号" "七星瓢虫号" "螳螂号" "寒蝉号" "飞蝗号" "蜻蜓号" "跳蚤号" "工蜂号"
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+			"千足百眼号战列舰" "黑寡妇号战列舰" "赤背蜘号战列舰" "隐士号战列舰" "天龙号战列舰" "光明女神号战列舰" "皇蛾号战列舰"
+			"蜂后号战列舰" "卡申夫号战列舰" "天牛号战列舰" "象甲号战列舰" "金龟子号战列舰" "三叶号战列舰" "剑尾号战列舰" "巨螯号战列舰" 
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		outpost_station = {
+			sequential_name = "第%CC%前哨站"
+		}
+		outpost_station = {
+		}
+	
+		military_station_small = {
+			}
+		military_station_medium = {
+			}
+		military_station_large = {
+			}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"国立太空军学院教导舰队" "荣耀海军旗舰队"
+			"光勋第1舰队" "光勋第2舰队" "光勋第3舰队" "光勋第4舰队" "光勋第5舰队" "光勋第6舰队" "光勋第7舰队" "光勋第8舰队" "光勋第9舰队" "光勋第10舰队" "光勋第11舰队" "光勋第12舰队" "光勋第13舰队" "光勋第14舰队" "光勋第15舰队" "光勋第16舰队" "光勋第17舰队" "光勋第18舰队" "光勋第19舰队" "光勋第20舰队"
+		}
+		sequential_name = "荣耀海军第%CC%舰队"
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "国土防卫军第%CC%纵队"
+		}
+			
+		assault_army = {
+			sequential_name = "国立攻击军第%CC%纵队"
+		}
+		
+		slave_army = {
+			sequential_name = "第%CC%奴隶团"
+		}
+		
+		clone_army = {
+			sequential_name = "第%CC%克隆人纵队"
+		}
+		
+		robotic_army = {
+			sequential_name = "第%CC%机械纵队"
+		}
+		
+		android_army = {
+			sequential_name = "第%CC%机器人突击队"
+		}
+		
+		psionic_army = {
+			sequential_name = "第%CC%灵能突击队"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "第%CC%异性突击队"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "第%CC%改造人突击队"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				阿克玛皮奇特里 维兹里维特尔 奇马尔波波卡 伊兹柯阿特尔 蒙特 阿哈雅卡特尔 提佐克 阿维索特尔 库伊特拉华克 库奥赫特莫克
+				特奥蒂瓦坎 托尔特克 特诺奇蒂特兰 特拉科班 德斯科科 贝拉斯克斯 蒂卡尔 帕伦克 卡拉克穆尔 科潘 奇琴伊察 波南帕克 科巴 基里瓜
+				美尼斯 那尔迈 荷尔阿哈  哲尔 卡塞凯姆威 左塞尔 斯尼夫鲁 胡夫 哈夫拉 孟卡拉 萨胡拉 
+				威卡 珀图 雷玛 苏培 于克 伊尔西 艾玛度 居达 瓦莱 欧德 艾伯纳 爱卡利尔 厄巴尔 柏凯 瑞古
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				威卡 珀图 雷玛 苏培 于克 伊尔西 艾玛度 居达 瓦莱 欧德 艾伯纳 爱卡利尔 厄巴尔 柏凯 瑞古 瑞尔威尔 由威特 艾菲鲁昂 欧尔索诺 博宇 屈帕隆 林阙利安 德里 罗第 安得拉 皮托斯 茜拉 汤姆勒 斯文 美尼斯 那尔迈 荷尔阿哈  哲尔 卡塞凯姆威 左塞尔 斯尼夫鲁 胡夫 哈夫拉 孟卡拉 萨胡拉
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				桑度 佛里希 司柏德 艾德 毕 英瑟 弗莱 爱拓柏斯 桑特比 库尔奈特 卡尔马 尤博 潘诺尼 优芙洛西尼  蒂卡尔 帕伦克 卡拉克穆尔 科潘 奇琴伊察 波南帕克 科巴 基里瓜
+			}
+			
+			regnal_first_names = {
+				威卡 珀图 雷玛 苏培 于克 伊尔西 艾玛度 居达 瓦莱 欧德 艾伯纳 爱卡利尔 厄巴尔 柏凯 瑞古 瑞尔威尔 由威特 艾菲鲁昂 欧尔索诺 博宇 都德 卡萨 克拉 波奇可耐 茜拉 汤姆勒 斯文 屈帕隆 德里 罗第 安得拉 特里普拉 卡纳塔克 皮托斯
+			}
+			
+			regnal_second_names = {
+				"摩 阿史那" "摩 布蓝" "摩 贝伦伽" "摩 弗留利" "摩 约基别" "摩 潘诺尼" "摩 优芙洛西尼"  "摩 拉丁"  "摩 哈根达斯"  "摩 瓦尔德马"  "摩 文德"  "摩 克努特" 
+				
+			}
+		}
+	}
+}

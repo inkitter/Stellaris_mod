@@ -1,0 +1,125 @@
+@distance = 50
+@base_moon_distance = 10
+
+### Ringworld
+ringworld_const_system = {
+	asteroids_distance = 150
+	name = "Ring"
+
+	class = "rl_standard_stars"
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Segment-A"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		starting_planet = yes
+		
+		init_effect = {
+			prevent_anomaly = yes			
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Segment-B"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Segment-C"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Segment-D"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes						
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Segment-E"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Segment-F"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Segment-G"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes	
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Segment-H"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Segment-I"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "Segment-J"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes		
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "Segment-K"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "Segment-L"
+		orbit_angle = 30
+		orbit_distance = 0
+	}
+	
+	change_orbit = 105
+	
+	planet = {
+		count = { min = 1 max = 4 }
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+}

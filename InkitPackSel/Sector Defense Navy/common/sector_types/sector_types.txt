@@ -1,0 +1,72 @@
+# production_targets: strategic resources
+# ships: ships to build
+# military_station: set to yes if want to build military stations
+# modifier: modifiers
+
+# ai_weight - used for AI chance
+# modifier - weight, will replace the weight value
+# modifier - factor, will multiply the weight value
+
+military = {
+	production_targets = {
+		minerals
+	}
+	
+	ships = {
+		constructor
+		corvette
+		destroyer
+		cruiser
+		battleship
+	}
+	
+	military_station = yes
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+industrial = {
+	production_targets = {
+		minerals
+	}
+	
+	ships = {
+		constructor
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+research = {
+	production_targets = {
+		society_research
+		engineering_research
+		physics_research
+	}
+	
+	ships = {
+		constructor
+	}
+
+	ai_weight = {
+		weight = 50
+	}
+}
+
+financial = {
+	production_targets = {
+		energy
+	}
+	
+	ships = {
+		constructor
+	}
+	
+	ai_weight = {
+		weight = 50
+	}
+}

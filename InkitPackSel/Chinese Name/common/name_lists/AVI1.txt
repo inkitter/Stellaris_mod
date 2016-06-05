@@ -1,0 +1,180 @@
+﻿### Template
+AVI1 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"飞雏号" "战雏号" "敏雏号" "怒雏号" "智雏号" "勇雏号" "狡雏号" "奢雏号" "欢雏号" 
+			"疯雏号" "恨雏号" "恶雏号" "愤雏号" "急雏号" "贪雏号" "冷雏号" "武雏号" "爽雏号" 
+			"傻雏号" "孤雏号" "独雏号" "激雏号" "躁雏号" "毒雏号" "雅雏号" "硬雏号" 
+			"壮雏号" "枭雏号" "鹰雏号" "鹫雏号" "力雏号" "星雏号" "幸雏号" "活雏号" 
+			"禽雏号" "轻雏号" "夜雏号" "野雏号" "病雏号" "暴雏号" "倔雏号" "坚雏号" 
+			"顽雏号" "凶雏号" "彩雏号" "鹤雏号" "雀雏号" "鸽雏号" "蛮雏号" "喧雏号" 
+			"忠雏号" "诚雏号" "痴雏号" "废雏号" "劲雏号" "警雏号" "真雏号" "怪雏号" 
+			"乖雏号" "新雏号" "祥雏号" "神雏号" "圣雏号" "杰雏号" "洁雏号" "速雏号" 
+			"金雏号" "银雏号" "铜雏号" "铁雏号" "钢雏号" "火雏号" "水雏号" "木雏号" 
+			"土雏号" "高雏号" "低雏号" "帝雏号" "仇雏号" "画雏号" "渺雏号" "雄雏号" 
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+			白头秃鹰号 猫头鹰号 血雉号 七彩凤凰号 高空鹰隼号 杜鹃号 击空苍鹰号 红爪怒鹰号
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "第%CC%前哨站"
+		}
+	
+		military_station_small = {
+			}
+		military_station_medium = {
+			}
+		military_station_large = {
+			}	
+	}
+
+	fleet_names = {
+		random_names = {
+			太空海军模范舰队 统帅部直属舰 北方舰队 南方舰队 西方舰队 东方舰队
+			"太空第1舰队" "太空第2舰队" "太空第3舰队" "太空第4舰队" "太空第5舰队" "太空第6舰队" "太空第7舰队" "太空第8舰队" "太空第9舰队" "太空第10舰队" "太空第11舰队" "太空第12舰队" "太空第13舰队" "太空第14舰队" "太空第15舰队" "太空第16舰队" "太空第17舰队" "太空第18舰队" "太空第19舰队" "太空第20舰队"
+		}
+		sequential_name = "星辰海军第%CC%舰队"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "防卫统合军第%CC%兵团"
+		}
+			
+		assault_army = {
+			sequential_name = "统帅部专属第%CC%突击兵团"
+		}
+		
+		slave_army = {
+			sequential_name = "第%CC%奴隶人兵团"
+		}
+		
+		clone_army = {
+			sequential_name = "第%CC%克隆人兵团"
+		}
+		
+		robotic_army = {
+			sequential_name = "第%CC%机械兵团"
+		}
+		
+		android_army = {
+			sequential_name = "第%CC%机器人突击兵团"
+		}
+		
+		psionic_army = {
+			sequential_name = "第%CC%灵能突击兵团"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "第%CC%异性突击兵团"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "第%CC%改造人突击兵团"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				纳穆 安启 宁图 安 恩利尔 恩奇 苏恩 乌图 伊南娜 埃列什吉伽尔 古加尔安纳 涅伽尔 埃利都 基什 拉格什 乌鲁克 乌尔 温马 尼普尔 乌鲁卡基那 祺 彼勒 南纳 纳姆塔 尼纳祖 涅蒂 加拉 宁吉兹济达  宁吉尔斯 奈加尔  吉比尔 阿达德 伊斯穆德 恩奇木杜 夏拉 卢拉尔  宁舒布尔 伊什木 拉哈尔  阿什南 恩比卢卢 苏穆甘 南舍
+				}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {}
+			
+			# Always combined with a second name
+			first_names = {
+				克莱尔 布莱克 瑞德 尤迪克 莱克米 尔萨柯 伊艾兹 伊赫克 勒格莱 斯科瑞尔 特奈尔 瑞布尔 皮可达 赫尔瑞尔 科瑞尔 图茹第 丝克尔 欧德戴拿 赫加克尔 罗杰特 尼努尔塔 阿扎格 尼沙巴纳姆塔 尼纳祖 涅蒂 加拉 宁吉兹济达  宁吉尔斯 奈加尔  吉比尔 阿达德 伊斯穆德 恩奇木杜 夏拉 卢拉尔  宁舒布尔 伊什木 拉哈尔  阿什南 恩比卢卢 苏穆甘 南舍
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				埃利都 基什 拉格什 乌鲁克 乌尔 温马 尼普尔 乌鲁卡基那 祺 彼勒 南纳 纳穆 安启 宁图 安 恩利尔 恩奇 
+			}
+			
+			regnal_first_names = {
+				克莱尔 布莱克 瑞德 尤迪克 莱克米 尔萨柯 伊艾兹 伊赫克 勒格莱 斯科瑞尔 特奈尔 瑞布尔 皮可达 赫尔瑞尔 科瑞尔 图茹第 丝克尔 欧德戴拿 赫加克尔 罗杰特 尼努尔塔 阿扎格 尼沙巴 纳姆塔 尼纳祖 涅蒂 加拉 宁吉兹济达  宁吉尔斯 奈加尔  吉比尔 阿达德 伊斯穆德 恩奇木杜 夏拉 卢拉尔  宁舒布尔 伊什木 拉哈尔  阿什南 恩比卢卢 苏穆甘 南舍
+			}
+			
+			regnal_second_names = {
+				"科 纳穆" "科 安启" "科 宁图" "科 安" "科 恩利尔" "科 恩奇" "科 苏恩" "科 乌图" "科 伊南娜" "科 埃列什吉伽尔" "科 古加尔安纳""科 涅伽尔"
+			}
+		}
+	}
+}

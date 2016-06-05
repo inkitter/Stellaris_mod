@@ -1,0 +1,5352 @@
+@base_moon_distance = 10
+
+# Black Holes
+special_init_01 = {
+	class = sc_black_hole
+	
+	usage = misc_system_init
+	usage_odds = 2
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+	}
+	
+	change_orbit = 60
+	
+	planet = {
+		count = { min = 0 max = 1 }
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		size = { min = 10 max = 15 }
+	}
+	
+	change_orbit = 30
+	
+	planet = {
+		count = { min = 0 max = 1 }
+		class = "pc_barren_cold"
+		size = { min = 10 max = 20 }
+	}
+}
+
+# Primitive Civilizations
+special_init_02 = {
+	class = "rl_standard_stars"
+	
+	usage = misc_system_init
+	usage_odds = 6
+
+	flags = { primitive_system }
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 20
+	
+	planet = {
+		orbit_distance = 20
+		count = { min = 0 max = 3 }
+	}
+	
+	change_orbit = 20
+	
+	planet = {
+		count = 1
+		orbit_distance = 0
+		class = "rl_habitable_normal"
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 15 max = 25 }
+		#tile_blockers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+			random_list = {
+				# Industrial Civilization
+				50 = {
+					create_species = {
+						name = random
+						class = random
+						portrait = random
+						homeworld = THIS
+						traits = {
+							trait = random_trait
+							trait = random_trait
+						}
+					}
+					create_country = {
+						name = random
+						government = fragmented_nations
+						species = last_created
+						ethos = random
+						flag = {
+							icon = {
+								category = "spherical"
+								file = "flag_spherical_22.dds"
+							}
+							background= {
+								category = "backgrounds"
+								file = "new_dawn.dds"
+							}
+							colors={
+								"turquoise"
+								"green"
+								"null"
+								"null"
+							}
+						}
+						type = primitive
+					}
+					last_created_country = {
+						set_graphical_culture = industrial_01
+						random_list = {
+							25 = { 
+								set_country_flag = industrial_age 
+								set_primitive_age = industrial_age
+							}
+							25 = { 
+								set_country_flag = machine_age
+								set_primitive_age = machine_age
+							}
+							25 = { 
+								set_country_flag = atomic_age 
+								set_primitive_age = atomic_age
+							}
+							25 = { 
+								set_country_flag = early_space_age 
+								set_primitive_age = early_space_age
+							}
+						}
+					}
+					create_colony = {
+						owner = last_created_country
+						species = last_created
+						ethos = owner
+					}				
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}					
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}						
+					}					
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}						
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}						
+					}					
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}						
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}							
+					}
+					random_tile = {
+						limit = { has_building = "building_colony_shelter" }
+						remove_building = yes
+					}
+					last_created_country = {
+						if = {
+							limit = { has_country_flag = industrial_age }
+							PREV = {
+								create_army = {
+									name = "工业时代军队"
+									owner = last_created
+									species = last_created
+									type = "industrial_army"
+								}
+								create_army = {
+									name = "工业时代军队"
+									owner = last_created
+									species = last_created
+									type = "industrial_army"
+								}
+							}
+							break = yes
+						}
+						if = {
+							limit = { has_country_flag = machine_age }
+							PREV = {
+								create_army = {
+									name = "工业时代军队"
+									owner = last_created
+									species = last_created
+									type = "industrial_army"
+								}
+								create_army = {
+									name = "工业时代军队"
+									owner = last_created
+									species = last_created
+									type = "industrial_army"
+								}
+								create_army = {
+									name = "工业时代军队"
+									owner = last_created
+									species = last_created
+									type = "industrial_army"
+								}
+								create_army = {
+									name = "工业时代军队"
+									owner = last_created
+									species = last_created
+									type = "industrial_army"
+								}
+							}
+							break = yes
+						}
+						if = {
+							limit = { has_country_flag = atomic_age }
+							PREV = {
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+							}
+							break = yes
+						}
+						if = {
+							limit = { has_country_flag = early_space_age }
+							PREV = {
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+								create_army = {
+									name = "后原子时代军队"
+									owner = last_created
+									species = last_created
+									type = "postatomic_army"
+								}
+								create_fleet = {
+									name = "太空站" 
+								}
+								last_created_fleet = {
+									set_owner = last_created_country
+									create_ship = {
+										name = "太空站"
+										design = "Space Station"
+									}
+									set_location = PREV
+								}
+							}
+							break = yes
+						}
+					}
+				}
+				# Medieval Civilization
+				50 = {
+					create_species = {
+						name = random
+						class = random
+						portrait = random
+						homeworld = THIS
+						traits = {
+							trait = random_trait
+							trait = random_trait
+						}
+					}
+					create_country = {
+						name = random
+						government = primitive_feudalism
+						species = last_created
+						ethos = random
+						flag = {
+							icon = {
+								category = "special"
+								file = "primitive.dds"
+							}
+							background= {
+								category = "backgrounds"
+								file = "new_dawn.dds"
+							}
+							colors={
+								"turquoise"
+								"green"
+								"null"
+								"null"
+							}
+						}
+						type = primitive
+					}
+					last_created_country = {
+						set_graphical_culture = preindustrial_01
+						random_list = {
+							20 = { 
+								set_country_flag = bronze_age 
+								set_primitive_age = bronze_age
+							}
+							20 = { 
+								set_country_flag = iron_age 
+								set_primitive_age = iron_age
+							}
+							20 = { 
+								set_country_flag = late_medieval_age 
+								set_primitive_age = late_medieval_age
+							}
+							20 = { 
+								set_country_flag = renaissance_age 
+								set_primitive_age = renaissance_age
+							}
+							20 = { 
+								set_country_flag = steam_age 
+								set_primitive_age = steam_age
+							}
+						}
+					}
+					create_colony = {
+						owner = last_created_country
+						species = last_created
+						ethos = owner
+					}					
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}					
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}					
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { has_building = "building_colony_shelter" }
+						remove_building = yes
+					}
+					last_created_country = {
+						if = {
+							limit = { has_country_flag = bronze_age }
+							PREV = {
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+							}
+							break = yes
+						}
+						if = {
+							limit = { has_country_flag = iron_age }
+							PREV = {
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+							}
+							break = yes
+						}
+						if = {
+							limit = { has_country_flag = late_medieval_age }
+							PREV = {
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+							}
+							break = yes
+						}
+						if = {
+							limit = { has_country_flag = renaissance_age }
+							PREV = {
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+							}
+							break = yes
+						}
+						if = {
+							limit = { has_country_flag = steam_age }
+							PREV = {
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+								create_army = {
+									name = "原始陆军"
+									owner = last_created
+									species = last_created
+									type = "primitive_army"
+								}
+								create_army = {
+									name = "工业时代军队"
+									owner = last_created
+									species = last_created
+									type = "industrial_army"
+								}
+								create_army = {
+									name = "工业时代军队"
+									owner = last_created
+									species = last_created
+									type = "industrial_army"
+								}
+							}
+							break = yes
+						}
+					}
+				}
+			}
+		}
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		orbit_distance = 20
+		count = { min = 1 max = 4 }
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		orbit_distance = 20
+		count = { min = 0 max = 2 }
+	}
+}
+
+# Sol System (Primitive Humans)
+special_init_03 = {
+	name = "太阳系"
+	class = "sc_g"
+	asteroids_distance = 120
+
+	flags = { primitive_sol }
+	
+	planet = {
+		name = "太阳"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_continental"
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 20
+		has_ring = no
+		entity = "continental_planet_earth_entity"
+		#tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			random_list = {
+				# Early Space Age
+				25 = {
+					create_species = {
+						name = "真-地球人"
+						plural = Humans
+						class = "MAM"
+						portrait = "human"
+						homeworld = THIS
+						traits = {
+							trait = "trait_quick_learners"
+							trait = "trait_nomadic"
+						}
+					}
+					create_country = {
+						name = random
+						government = fragmented_nations
+						species = last_created
+						ethos = {
+							ethic = "ethic_xenophile"
+							ethic = "ethic_fanatic_individualist"			
+						}
+						flag = {
+							icon = {
+								category = "human"
+								file = "flag_human_9.dds"
+							}
+							background= {
+								category = "backgrounds"
+								file = "circle.dds"
+							}
+							colors={
+								"dark_blue"
+								"green"
+								"null"
+								"null"
+							}
+						}
+						type = primitive
+					}
+					last_created_country = {
+						set_graphical_culture = industrial_01
+						set_country_flag = early_space_age
+						set_country_flag = humans_early_space_age
+						set_primitive_age = early_space_age
+					}
+					create_colony = {
+						owner = last_created_country
+						species = last_created
+						ethos = {
+							ethic = "ethic_xenophile"
+							ethic = "ethic_fanatic_individualist"			
+						}
+					}
+					create_army = {
+						name = "西部美军"
+						owner = last_created
+						species = last_created
+						type = "postatomic_army"
+					}
+					create_army = {
+						name = "东部美军"
+						owner = last_created
+						species = last_created
+						type = "postatomic_army"
+					}
+					create_army = {
+						name = "中国人民解放军"
+						owner = last_created
+						species = last_created
+						type = "postatomic_army"
+					}
+					create_army = {
+						name = "俄罗斯陆军"
+						owner = last_created
+						species = last_created
+						type = "postatomic_army"
+					}
+					create_army = {
+						name = "欧洲陆军"
+						owner = last_created
+						species = last_created
+						type = "postatomic_army"
+					}
+					create_fleet = {
+						name = "ISS II" 
+					}
+					last_created_fleet = {
+						set_owner = last_created_country
+						create_ship = {
+							name = "ISS II"
+							design = "Space Station"
+						}
+						set_location = PREV
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}	
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}	
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}	
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { has_building = "building_colony_shelter" }
+						remove_building = yes
+					}
+					last_created_country = {
+						capital_scope = { set_name = "太阳III" }
+					}
+				}
+				# Industrial
+				25 = {
+					create_species = {
+						name = Human
+						plural = Humans
+						class = "MAM"
+						portrait = "human"
+						traits = {
+							trait = "trait_quick_learners"
+							trait = "trait_nomadic"
+							#ideal_planet_class = "pc_continental"
+						}
+						homeworld = this
+					}
+					create_country = {
+						name = random
+						government = fragmented_nations
+						species = last_created
+						ethos = { 
+							ethic = "ethic_materialist"
+							ethic = "ethic_fanatic_militarist"
+						}
+						flag = {
+							icon = {
+								category = "human"
+								file = "flag_human_7.dds"
+							}
+							background= {
+								category = "backgrounds"
+								file = "circle.dds"
+							}
+							colors={
+								"dark_blue"
+								"red"
+								"null"
+								"null"
+							}
+						}
+						day_zero_contact = no
+						type = primitive
+					}
+					last_created_country = {
+						set_graphical_culture = industrial_01
+						set_country_flag = machine_age
+						set_country_flag = humans_machine_age
+						set_primitive_age = machine_age
+					}
+					create_colony = {
+						owner = last_created_country
+						species = last_created
+						ethos = { 
+							ethic = "ethic_materialist"
+							ethic = "ethic_fanatic_militarist"
+						}
+					}
+					create_army = {
+						name = "德国国防军"
+						owner = last_created
+						species = last_created
+						type = "industrial_army"
+					}
+					create_army = {
+						name = "苏联红军"
+						owner = last_created
+						species = last_created
+						type = "industrial_army"
+					}
+					create_army = {
+						name = "美国陆军"
+						owner = last_created
+						species = last_created
+						type = "industrial_army"
+					}
+					create_army = {
+						name = "不列颠陆军"
+						owner = last_created
+						species = last_created
+						type = "industrial_army"
+					}
+					create_army = {
+						name = "日本帝国陆军"
+						owner = last_created
+						species = last_created
+						type = "industrial_army"
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}	
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}	
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}	
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_factory"
+						add_resource = {
+							resource = minerals
+							amount = 1
+							replace = yes
+						}	
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}							
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { has_building = "building_colony_shelter" }
+						remove_building = yes
+					}
+					last_created_country = {
+						capital_scope = { set_name = "太阳III" }
+					}
+				}
+				# Medieval
+				25 = {
+					create_species = {
+						name = Human
+						plural = Humans
+						class = "MAM"
+						portrait = "human"
+						homeworld = THIS
+						traits = {
+							trait = "trait_quick_learners"
+							trait = "trait_nomadic"
+						}
+					}
+					create_country = {
+						name = random
+						government = primitive_feudalism
+						species = last_created
+						ethos = random
+						flag = {
+							icon = {
+								category = "ornate"
+								file = "flag_ornate_11.dds"
+							}
+							background = {
+								category = "backgrounds"
+								file = "00_solid.dds"
+							}
+							colors = {
+								"dark_blue"
+								"dark_blue"
+								"null"
+								"null"
+							}
+						}
+						day_zero_contact = no
+						type = primitive
+					}
+					last_created_country = {
+						set_graphical_culture = preindustrial_01
+						set_country_flag = late_medieval_age
+						set_country_flag = humans_late_medieval_age
+						set_primitive_age = late_medieval_age
+					}
+					create_colony = {
+						owner = last_created_country
+						species = last_created
+						ethos = { 
+							ethic = "ethic_xenophobe"
+							ethic = "ethic_spiritualist"
+							ethic = "ethic_collectivist"
+						}
+					}
+					create_army = {
+						name = "封建卫队"
+						owner = last_created
+						species = last_created
+						type = "primitive_army"
+					}
+					create_army = {
+						name = "封建卫队"
+						owner = last_created
+						species = last_created
+						type = "primitive_army"
+					}
+					create_army = {
+						name = "封建卫队"
+						owner = last_created
+						species = last_created
+						type = "primitive_army"
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = {
+							has_blocker = no
+							has_grown_pop = no
+							has_growing_pop = no
+						}
+						create_pop = {
+							species = last_created
+							ethos = owner
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { 
+							has_blocker = no 
+							has_building = no 
+							has_grown_pop = yes
+						}
+						set_building = "building_primitive_farm"
+						add_resource = {
+							resource = food
+							amount = 1
+							replace = yes
+						}
+					}
+					random_tile = {
+						limit = { has_building = "building_colony_shelter" }
+						remove_building = yes
+					}
+					last_created_country = {
+						capital_scope = { set_name = "太阳III" }
+					}
+				}
+			}
+		}
+		
+		moon = {
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+		}
+	}
+	
+	planet = {
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 15
+		has_ring = no
+		entity = "barren_planet_mars_entity"
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 20
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 35
+		has_ring = no
+		entity = "gas_giant_jupiter_entity"
+		change_orbit = 6
+		
+		moon = {
+			class = "pc_molten"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 110
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -155
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 170
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		change_orbit = 7
+		
+		moon = {
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -195
+		size = 20
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		change_orbit = 4
+		
+		moon = {
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 7
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+}
+
+# Sol System (Nuclear Wasteland)
+special_init_04 = {
+	name = "太阳系"
+	class = "sc_g"
+	asteroids_distance = 120
+
+	flags = { nuked_sol }
+	
+	planet = {
+		name = "太阳"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_nuked"
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 20
+		has_ring = no
+		anomaly = "sol_wasteland_category"
+		
+		moon = {
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+		}
+	}
+	
+	planet = {
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 15
+		has_ring = no
+		entity = "barren_planet_mars_entity"
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 20
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 35
+		has_ring = no
+		entity = "gas_giant_jupiter_entity"
+		change_orbit = 6
+		
+		moon = {
+			class = "pc_molten"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 110
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -155
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 170
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		change_orbit = 7
+		
+		moon = {
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -195
+		size = 20
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		change_orbit = 4
+		
+		moon = {
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 7
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+}
+
+# Stone Age Primitives
+special_init_05 = {
+	class = "rl_standard_stars"
+	
+	usage = misc_system_init
+	usage_odds = 4
+
+	flags = { stone_age_primitive_system }
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 20
+	
+	planet = {
+		orbit_distance = 20
+		count = { min = 0 max = 3 }
+	}
+	
+	change_orbit = 20
+	
+	planet = {
+		count = 1
+		orbit_distance = 0
+		class = "rl_habitable_normal"
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 15 max = 25 }
+		flags = { stone_age_primitives }
+
+		init_effect = {
+			add_modifier = {
+				modifier = "stone_age_civilization"
+				days = -1
+			}
+		}
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		orbit_distance = 20
+		count = { min = 1 max = 4 }
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	planet = {
+		orbit_distance = 20
+		count = { min = 0 max = 2 }
+	}
+}
+
+# Guardians of Zanaam
+special_init_06 = {
+	class = "rl_standard_stars"
+	asteroids_distance = 150
+	usage = misc_system_init
+	max_instances = 1
+	spawn_chance = 10
+	
+	flags = { guardians_of_zanaam hostile_system }
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		count = 1
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		size = 25
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	planet = {
+		name = Zanaam
+		count = 1
+		orbit_distance = 30
+		class = "pc_gaia"
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_zanaam_obelisk"
+			}
+			create_country = {
+				name = "扎南的守护者"
+				type = faction
+			}
+			last_created_country = {
+				set_country_flag = zanaam_country
+				create_fleet = { name = "扎南的守护者" }
+				last_created_fleet = {
+					set_owner = PREV
+					set_fleet_flag = zanaam_fleet
+					create_ship = {
+						name = "阿尔法卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "贝塔卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "伽马卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "德尔塔卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "爱普希龙卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "泽塔卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "埃塔卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "色他卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "越塔卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "卡帕卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "兰巴卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "姆卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "努卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "卡斯卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "奥秘卡隆卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "派卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "罗霍卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "西格玛卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "陶卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "乌普希龙卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "布尼卫队"
+						design = "Guardian"
+					}							
+					create_ship = {
+						name = "其卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "普斯卫队"
+						design = "Guardian"
+					}
+					create_ship = {
+						name = "欧米茄卫队"
+						design = "Guardian"
+					}					
+					set_location = PREVPREV
+				}
+			}
+		}
+	}
+	
+	change_orbit = 10
+	
+	planet = {
+		count = 1
+		orbit_distance = 20
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+	}
+	
+	planet = {
+		count = 1
+		orbit_distance = 20
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+	}
+	
+	init_effect = {
+		create_ambient_object = {
+			type = "abandoned_ship_2_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "abandoned_ship_2_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "abandoned_ship_2_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "abandoned_ship_2_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "abandoned_ship_2_object"
+			location = solar_system
+		}
+		create_ambient_object = {
+			type = "abandoned_ship_2_object"
+			location = solar_system
+		}
+	}
+}
+
+# Crystal Lair
+special_init_07 = {
+	class = "rl_standard_stars"
+	asteroids_distance = 150
+	
+	usage = misc_system_init
+	max_instances = 1
+	
+	flags = { hostile_system }
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+		
+		init_effect = {
+			create_country = {
+				name = "碎片"
+				type = faction
+			}
+			last_created_country = {
+				create_fleet = { name = "黑曜石碎片" }
+				last_created_fleet = {
+					set_owner = PREV
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 70
+						angle = 90
+					}
+				}
+				create_fleet = { name = "钻石碎片" }
+				last_created_fleet = {
+					set_owner = PREV
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 70
+						angle = 180
+					}
+				}
+				create_fleet = { name = "玛瑙碎片" }
+				last_created_fleet = {
+					set_owner = PREV
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 70
+						angle = 270
+					}
+				}
+				create_fleet = { name = "蓝宝石碎片" }
+				last_created_fleet = {
+					set_owner = PREV
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+
+						design = "Small Crystal Entity Blue"
+					}
+					create_ship = {
+						name = "小水晶蓝实体"
+						design = "Small Crystal Entity Blue"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 70
+						angle = 0
+					}
+				}
+			}
+		}
+	}
+	
+	change_orbit = 150
+	
+	planet = {
+		name = "约马克之牙"
+		count = 1
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = 10
+	}
+	planet = {
+		name = "约马克之眼"
+		count = 1
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = 46
+	}
+	planet = {	
+		name = "约马克之舌"
+		count = 1
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = 97
+	}
+	planet = {
+		name = "约马克之尾"
+		count = 1
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = 145
+	}
+	planet = {
+		name = "约马克之心"
+		count = 1
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = 189
+	}
+	planet = {
+		name = "约马克之腹"
+		count = 1
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = 231
+	}
+	planet = {
+		name = "约马克之口"
+		count = 1
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = 286
+	}
+	planet = {
+		name = "约马克之指"
+		count = 1
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = 321
+	}
+}
+
+# Neutron Stars
+special_init_08 = {
+	class = sc_neutron_star
+	
+	usage = misc_system_init
+	usage_odds = 2
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		count = { min = 1 max = 6 }
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+}
+
+# Pulsars
+special_init_09 = {
+	class = sc_pulsar
+	
+	usage = misc_system_init
+	usage_odds = 2
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		count = { min = 1 max = 6 }
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+}
+
+### The Sanctuary
+sanctuary_system = {
+	asteroids_distance = 150
+	usage = misc_system_init
+	usage_odds = 2000000
+	max_instances = 1
+	flags = { sanctuary_system }
+	spawn_chance = 10
+	
+	name = "圣所"
+
+	class = "sc_g"
+	
+	planet = {
+		class = star
+		orbit_distance = 0
+		
+		init_effect = {
+			create_country = {
+				name = "圣所"
+				type = faction
+			}
+			last_created_country = {
+				save_event_target_as = sanctuary
+				create_fleet = { name = "圣所核心" }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = "管理员"
+						design = "Sanctuary Core"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 25
+						angle = random 
+					}
+					save_event_target_as = sanctuary_core
+					set_fleet_flag = sanctuary_core
+				}
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = event_target:sanctuary_core
+						distance = 8
+						angle = 90
+					}
+				}
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = event_target:sanctuary_core
+						distance = 8
+						angle = 180
+					}
+				}
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = event_target:sanctuary_core
+						distance = 8
+						angle = 270
+					}
+				}
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = event_target:sanctuary_core
+						distance = 8
+						angle = 0
+					}
+				}
+			}
+		}
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "圣所A"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+			
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-1"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 1
+						angle = random 
+					}
+				}
+			}
+			
+			create_species = {
+				name = random
+				class = MAM
+				portrait = random
+				traits = {
+					#ideal_planet_class = "pc_continental"
+					trait = random_trait
+					trait = random_trait
+				}
+				homeworld = this
+			}
+			create_country = {
+				name = random
+				government = primitive_feudalism
+				species = last_created
+				ethos = random
+				flag = {
+					icon = {
+						category = "special"
+						file = "primitive.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "new_dawn.dds"
+					}
+					colors={
+						"turquoise"
+						"green"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+			last_created_country = {
+				random_list = {
+					20 = { 
+						set_country_flag = bronze_age 
+						set_primitive_age = bronze_age
+					}
+					20 = { 
+						set_country_flag = iron_age 
+						set_primitive_age = iron_age
+					}
+					20 = { 
+						set_country_flag = late_medieval_age 
+						set_primitive_age = late_medieval_age
+					}
+					20 = { 
+						set_country_flag = renaissance_age 
+						set_primitive_age = renaissance_age
+					}
+					20 = { 
+						set_country_flag = steam_age 
+						set_primitive_age = steam_age
+					}
+				}
+			}
+			set_owner = last_created_country
+			set_capital = yes
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			if = {
+				limit = {
+					last_created_country = {
+						OR = {
+							has_country_flag = late_medieval_age 
+							has_country_flag = renaissance_age 
+							has_country_flag = steam_age
+						}
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			if = {
+				limit = {
+					last_created_country = {
+						OR = {
+							has_country_flag = renaissance_age 
+							has_country_flag = steam_age
+						}
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}								
+			if = {
+				limit = {
+					last_created_country = {
+						has_country_flag = steam_age
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}	
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}	
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_factory"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}	
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_factory"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}		
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}			
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "圣所-B"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = PREVPREV
+				}
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "圣所-C"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = PREVPREV
+				}
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "圣所-D"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+			
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-1"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 1
+						angle = random 
+					}
+				}
+			}
+			
+			create_species = {
+				name = random
+				class = REP
+				portrait = random
+				traits = {
+					#ideal_planet_class = "pc_desert"
+					trait = random_trait
+					trait = random_trait
+				}
+				homeworld = this
+			}
+			create_country = {
+				name = random
+				government = primitive_feudalism
+				species = last_created
+				ethos = random
+				flag = {
+					icon = {
+						category = "special"
+						file = "primitive.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "new_dawn.dds"
+					}
+					colors={
+						"turquoise"
+						"green"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+			last_created_country = {
+				random_list = {
+					20 = { 
+						set_country_flag = bronze_age 
+						set_primitive_age = bronze_age
+					}
+					20 = { 
+						set_country_flag = iron_age 
+						set_primitive_age = iron_age
+					}
+					20 = { 
+						set_country_flag = late_medieval_age 
+						set_primitive_age = late_medieval_age
+					}
+					20 = { 
+						set_country_flag = renaissance_age 
+						set_primitive_age = renaissance_age
+					}
+					20 = { 
+						set_country_flag = steam_age 
+						set_primitive_age = steam_age
+					}
+				}
+			}
+			set_owner = last_created_country
+			set_capital = yes
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			if = {
+				limit = {
+					last_created_country = {
+						OR = {
+							has_country_flag = late_medieval_age 
+							has_country_flag = renaissance_age 
+							has_country_flag = steam_age
+						}
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			if = {
+				limit = {
+					last_created_country = {
+						OR = {
+							has_country_flag = renaissance_age 
+							has_country_flag = steam_age
+						}
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}								
+			if = {
+				limit = {
+					last_created_country = {
+						has_country_flag = steam_age
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}	
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}	
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_factory"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}	
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_factory"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}			
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}			
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}				
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "圣所-E"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = PREVPREV
+				}
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "圣所-F"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = PREVPREV
+				}
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "圣所-G"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+			
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-1"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 1
+						angle = random 
+					}
+				}
+			}
+			
+			create_species = {
+				name = random
+				class = MOL
+				portrait = random
+				traits = {
+					#ideal_planet_class = "pc_ocean"
+					trait = random_trait
+					trait = random_trait
+				}
+				homeworld = this
+			}
+			create_country = {
+				name = random
+				government = primitive_feudalism
+				species = last_created
+				ethos = random
+				flag = {
+					icon = {
+						category = "special"
+						file = "primitive.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "new_dawn.dds"
+					}
+					colors={
+						"turquoise"
+						"green"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+			last_created_country = {
+				random_list = {
+					20 = { 
+						set_country_flag = bronze_age 
+						set_primitive_age = bronze_age
+					}
+					20 = { 
+						set_country_flag = iron_age 
+						set_primitive_age = iron_age
+					}
+					20 = { 
+						set_country_flag = late_medieval_age 
+						set_primitive_age = late_medieval_age
+					}
+					20 = { 
+						set_country_flag = renaissance_age 
+						set_primitive_age = renaissance_age
+					}
+					20 = { 
+						set_country_flag = steam_age 
+						set_primitive_age = steam_age
+					}
+				}
+			}
+			set_owner = last_created_country
+			set_capital = yes
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			if = {
+				limit = {
+					last_created_country = {
+						OR = {
+							has_country_flag = late_medieval_age 
+							has_country_flag = renaissance_age 
+							has_country_flag = steam_age
+						}
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			if = {
+				limit = {
+					last_created_country = {
+						OR = {
+							has_country_flag = renaissance_age 
+							has_country_flag = steam_age
+						}
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}								
+			if = {
+				limit = {
+					last_created_country = {
+						has_country_flag = steam_age
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}	
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}	
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_factory"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}	
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_factory"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}		
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}		
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}				
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "圣所-H"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = PREVPREV
+				}
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_seam_damaged"
+		name = "圣所-I"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				location = THIS
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_habitable"
+		name = "圣所-J"
+		orbit_angle = 30
+		orbit_distance = 0
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+			
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-1"
+						graphical_culture = "ai_01"
+					}
+					set_location = {
+						target = PREVPREV
+						distance = 1
+						angle = random 
+					}
+				}
+			}
+			
+			create_species = {
+				name = random
+				class = FUN
+				portrait = random
+				traits = {
+					#ideal_planet_class = "pc_tundra"
+					trait = random_trait
+					trait = random_trait
+				}
+				homeworld = this
+			}
+			create_country = {
+				name = random
+				government = primitive_feudalism
+				species = last_created
+				ethos = random
+				flag = {
+					icon = {
+						category = "special"
+						file = "primitive.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "new_dawn.dds"
+					}
+					colors={
+						"turquoise"
+						"green"
+						"null"
+						"null"
+					}
+				}
+				type = primitive
+			}
+			last_created_country = {
+				random_list = {
+					20 = { 
+						set_country_flag = bronze_age 
+						set_primitive_age = bronze_age
+					}
+					20 = { 
+						set_country_flag = iron_age 
+						set_primitive_age = iron_age
+					}
+					20 = { 
+						set_country_flag = late_medieval_age 
+						set_primitive_age = late_medieval_age
+					}
+					20 = { 
+						set_country_flag = renaissance_age 
+						set_primitive_age = renaissance_age
+					}
+					20 = { 
+						set_country_flag = steam_age 
+						set_primitive_age = steam_age
+					}
+				}
+			}
+			set_owner = last_created_country
+			set_capital = yes
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = last_created
+					ethos = owner
+				}
+			}
+			if = {
+				limit = {
+					last_created_country = {
+						OR = {
+							has_country_flag = late_medieval_age 
+							has_country_flag = renaissance_age 
+							has_country_flag = steam_age
+						}
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			if = {
+				limit = {
+					last_created_country = {
+						OR = {
+							has_country_flag = renaissance_age 
+							has_country_flag = steam_age
+						}
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_farm"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}								
+			if = {
+				limit = {
+					last_created_country = {
+						has_country_flag = steam_age
+					}					
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}	
+				random_tile = {
+					limit = {
+						has_blocker = no
+						has_grown_pop = no
+						has_growing_pop = no
+					}
+					create_pop = {
+						species = last_created
+						ethos = owner
+					}
+				}	
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_factory"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}	
+				random_tile = {
+					limit = { 
+						has_blocker = no 
+						has_building = no 
+						has_grown_pop = yes
+					}
+					set_building = "building_primitive_factory"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}			
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}			
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}	
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = yes
+				}
+				set_building = "building_primitive_farm"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}						
+			}				
+		}
+	}
+	planet = {
+		class = "pc_ringworld_tech"
+		name = "圣所-K"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = PREVPREV
+				}
+			}
+		}
+	}
+	planet = {
+		class = "pc_ringworld_seam"
+		name = "圣所-L"
+		orbit_angle = 30
+		orbit_distance = 0
+		
+		init_effect = {
+			last_created_country = {
+				create_fleet = { }
+				last_created_fleet = {
+					set_owner = event_target:sanctuary
+					create_ship = {
+						name = random
+						design = "Defensive A-2"
+						graphical_culture = "ai_01"
+					}
+					set_location = PREVPREV
+				}
+			}
+		}
+	}
+	
+	change_orbit = 105
+	
+	planet = {
+		count = { min = 1 max = 4 }
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		class = pc_gas_giant
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 1 max = 4 }
+			size = { min = 8 max = 20 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 6
+		}
+	}
+	
+	change_orbit = 30
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+	}
+}
+
+hyacinth_system = {
+	class = "rl_standard_stars"
+	flags = { hyacinth_system }
+
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		count = { min = 1 max = 2 }
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		class = random_non_colonizable
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		orbit_angle = { min = 90 max = 270 }
+		class = pc_barren
+		flags = { hyacinth_planet }
+	}
+	
+	change_orbit = 45
+	
+	planet = {
+		orbit_angle = { min = 90 max = 270 }
+		class = pc_gas_giant
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 3 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+}
+
+# Sol System (Commonwealth of Man SP)
+com_sol_system = {
+	name = "太阳系"
+	
+	class = "sc_g"
+	asteroids_distance = 120
+	flags = { sol_system com_sol }
+	
+	planet = {
+		name = "太阳"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "水星"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "金星"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "地球"
+		class = "pc_continental"
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		entity = "continental_planet_earth_entity"
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+			random_country = {
+				limit = { has_country_flag = human_2 }
+				owner_species = { save_event_target_as = human_species }
+			}
+			create_country = {
+				name = "地球联邦"
+				government = "indirect_democracy"
+				species = event_target:human_species
+				name_list = "Human"
+				ship_prefix = "UNS"
+				ethos = {
+					ethic = "ethic_xenophile"
+					ethic = "ethic_fanatic_individualist"	
+				}
+				flag = {
+					icon = {
+						category = "human"
+						file = "flag_human_8.dds"
+					}
+					background = {
+						category = "backgrounds"
+						file = "00_solid.dds"
+					}
+					colors = {
+						"dark_blue"
+						"dark_blue"
+						"null"
+						"null"
+					}
+				}
+				type = default
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = event_target:human_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = event_target:human_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = event_target:human_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = event_target:human_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = event_target:human_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = event_target:human_species
+					ethos = owner
+				}
+			}
+			random_tile = {
+				limit = {
+					has_blocker = no
+					has_grown_pop = no
+					has_growing_pop = no
+				}
+				create_pop = {
+					species = event_target:human_species
+					ethos = owner
+				}
+			}
+			set_owner = last_created_country
+			create_spaceport = {
+				owner = last_created_country
+				initial_module = "missile_weapon"
+			}
+			last_created_country = { add_minerals = 300 }
+		}
+		
+		moon = {
+			name = "月球"
+			class = "pc_barren_cold"
+			size = 5
+			orbit_distance = 12
+			orbit_angle = 40
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+		}
+	}
+	
+	planet = {
+		name = "火星"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 15
+		has_ring = no
+		entity = "barren_planet_mars_entity"
+	}
+	
+	planet = {
+		name = "谷神星"
+		class = "pc_asteroid"
+		orbit_distance = 20
+		orbit_angle = -210
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "智神星"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -95
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "婚神星"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 285
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "灶神星"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "木星"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 35
+		has_ring = no
+		entity = "gas_giant_jupiter_entity"
+		change_orbit = 6
+		
+		moon = {
+			name = "木卫一"
+			class = "pc_molten"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 110
+			has_ring = no
+		}
+		moon = {
+			name = "木卫二"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 10
+			has_ring = no
+		}
+		moon = {
+			name = "木卫三"
+			class = "pc_frozen"
+			size = 9
+			orbit_distance = 2.5
+			orbit_angle = 80
+			has_ring = no
+		}
+		moon = {
+			name = "木卫四"
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -155
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "土星"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 170
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		change_orbit = 7
+		
+		moon = {
+			name = "土卫六"
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 12
+			orbit_angle = 320
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		name = "天王星"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+	
+	planet = {
+		name = "海王星"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -195
+		size = 20
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		change_orbit = 4
+		
+		moon = {
+			name = "海卫一"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 7
+			orbit_angle = 115
+			has_ring = no
+		}
+	}
+}
+
+# AI Revolt System
+ai_system_1 = {
+	class = "rl_standard_stars"
+	flags = { ai_system }
+	asteroids_distance = 100
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+		
+		init_effect = { prevent_anomaly = yes }
+	}
+	
+	change_orbit = 40
+	
+	planet = {
+		orbit_distance = 20
+		class = random_non_colonizable
+		count = 2
+		
+		init_effect = { prevent_anomaly = yes }
+	}
+	
+	change_orbit = 20
+	
+	planet = {
+		count = 5
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 40 max = 100 }
+		
+		init_effect = { prevent_anomaly = yes }
+	}
+	
+	change_orbit = 20
+	
+	planet = {
+		orbit_distance = 20
+		class = random_non_colonizable
+		count = { min = 1 max = 3 }
+		
+		init_effect = { prevent_anomaly = yes }
+		
+		change_orbit = @base_moon_distance
+
+		moon = {
+			count = { min = 0 max = 1 }
+			class = random_non_colonizable
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+			
+			init_effect = { prevent_anomaly = yes }
+		}
+	}
+	
+	change_orbit = 20
+	
+	planet = {
+		count = 1
+		orbit_distance = 0
+		class = "pc_ai"
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		tile_blockers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+	
+	planet = {
+		orbit_distance = 20
+		count = { min = 0 max = 3 }
+		class = random_non_colonizable
+		
+		init_effect = { prevent_anomaly = yes }
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+			
+			init_effect = { prevent_anomaly = yes }
+		}
+	}
+}
+
+### Sentinel System
+sentinel_system = {
+	class = "rl_standard_stars"
+	name = "瑟拉特"
+	asteroids_distance = 200
+	flags = { sentinel_system }
+
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_molten"
+		orbit_distance = 60
+		orbit_angle = 45
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_molten"
+		orbit_distance = 25
+		orbit_angle = 85
+		size = 28
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_barren"
+		orbit_distance = 25
+		orbit_angle = 45
+		size = 16
+		has_ring = yes
+		
+		moon = {
+			class = "pc_barren_cold"
+			size = 8
+			orbit_distance = 14
+			orbit_angle = 14
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		flags = { sentinel_alpha }
+		class = "pc_gaia"
+		orbit_distance = 25
+		orbit_angle = 150
+		size = 25
+		has_ring = no
+		tile_blockers = none
+	}
+	
+	planet = {
+		class = "pc_barren_cold"
+		orbit_distance = 25
+		orbit_angle = 45
+		size = 22
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 40
+		orbit_angle = 10
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 120
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 76
+		size = 5
+		has_ring = no
+	}
+	planet = {
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = 88
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 210
+		size = 35
+		has_ring = yes
+		change_orbit = 6
+	}
+	
+	planet = {
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 140
+		size = 38
+		has_ring = no
+		change_orbit = 6
+		
+		moon = {
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 10
+			orbit_angle = 40
+			has_ring = no
+		}
+		moon = {
+			class = "pc_barren_cold"
+			size = 6
+			orbit_distance = 2.5
+			orbit_angle = 90
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			size = 5
+			orbit_distance = 2.5
+			orbit_angle = 220
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 2.5
+			orbit_angle = -155
+			has_ring = no
+		}
+	}
+	
+	planet = {
+		class = "pc_frozen"
+		orbit_distance = 40
+		orbit_angle = 190
+		size = 9
+		has_ring = no
+		change_orbit = 6
+	}
+	
+	init_effect = {
+		random_system_planet = {
+			limit = { has_planet_flag = sentinel_alpha }
+			prevent_anomaly = yes
+			create_species = {
+				name = random
+				class = random
+				portrait = random
+				traits = random
+				homeworld = this
+			}
+			create_country = {
+				name = "哨兵"
+				type = sentinels
+				government = military_order
+				species = last_created
+				ethos = {
+					ethic = "ethic_fanatic_militarist"
+					ethic = "ethic_individualist"	
+				}
+			}
+			every_country = {
+				establish_communications = last_created_country
+			}
+			create_colony = {
+				owner = last_created_country
+				species = owner_main_species
+			}
+			set_capital = yes
+			create_spaceport = {
+				owner = last_created_country
+				initial_module = "fallen_empire_weapon"
+			}
+			last_created_country = {
+				add_minerals = 5000
+				add_energy = 5000
+				add_influence = 5000
+			}
+			random_tile = {
+				limit = { has_building = "building_colony_shelter" }
+				remove_building = yes
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_capital_3"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_ancient_factory"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_ancient_factory"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_ancient_factory"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no
+					has_grown_pop = no					
+				}
+				set_building = "building_ancient_factory"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_hydroponics_farm_3"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_hydroponics_farm_3"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_hydroponics_farm_3"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_hydroponics_farm_3"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_power_plant_3"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_power_plant_3"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_power_plant_3"
+				create_pop = { species = last_created }
+			}
+			random_tile = {
+				limit = { 
+					has_blocker = no 
+					has_building = no 
+					has_grown_pop = no
+				}
+				set_building = "building_power_plant_3"
+				create_pop = { species = last_created }
+			}
+			set_name = "哨兵阿尔法"
+			create_army = {
+				name = random
+				owner = last_created_country
+				species = last_created_country
+				type = "psionic_army"
+			}
+			create_army = {
+				name = random
+				owner = last_created_country
+				species = last_created_country
+				type = "robotic_army"
+			}
+			create_army = {
+				name = random
+				owner = last_created_country
+				species = last_created_country
+				type = "robotic_army"
+			}
+			
+			create_fleet = { }
+			last_created_fleet = {
+				set_owner = last_created_country
+				create_ship = {
+					name = "哨兵基地"
+					design = "Vigil"
+				}
+				set_location = {
+					target = PREV
+					distance = 10
+					angle = 210
+				}
+			}
+			create_fleet = { }
+			last_created_fleet = {
+				set_owner = last_created_country
+				create_ship = {
+					name = "要塞 G-12"
+					design = "Sentinel-1"
+					graphical_culture = "mammalian_01"
+				}
+				set_location = {
+					target = PREV
+					distance = 20
+					angle = 40
+				}
+			}
+			create_fleet = { }
+			last_created_fleet = {
+				set_owner = last_created_country
+				create_ship = {
+					name = "要塞 A-59"
+					design = "Omega"
+					graphical_culture = "fallen_empire_01"
+				}
+				set_location = {
+					target = PREV
+					distance = 10
+					angle = 340
+				}
+			}
+			last_created_country = {
+				create_leader = {
+					type = admiral
+					species = owner_main_species
+					name = random
+					skill = 500
+					traits = {
+						trait = leader_trait_sentinel
+					}
+				}
+			}
+			create_fleet = { name = "哨兵舰队" }
+			last_created_fleet = {
+				set_owner = last_created_country
+				create_ship = {
+					name = random
+					design = "Judgment"
+					graphical_culture = "fallen_empire_01"
+				}
+				assign_leader = last_created_leader
+				create_ship = {
+					name = random
+					design = "Avatar"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Judgment"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Avatar"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Avatar"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Avatar"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Avatar"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Avatar"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Eclipse"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Eclipse"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Eclipse"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Eclipse"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Voidstalker"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Voidstalker"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Voidstalker"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Starfang"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Starfang"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Eclipse"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Eclipse"
+					graphical_culture = "fallen_empire_01"
+				}
+				create_ship = {
+					name = random
+					design = "Eclipse"
+					graphical_culture = "fallen_empire_01"
+				}
+				set_location = {
+					target = PREV
+					distance = 25
+					angle = random 
+				}
+				
+				set_fleet_stance = aggressive
+				set_aggro_range = 500
+				set_aggro_range_measure_from = return_point
+			}
+		}
+		
+		random_system_planet = {
+			limit = { is_planet_class = pc_asteroid }
+			set_planet_flag = ast_1
+			create_fleet = { }
+			last_created_fleet = {
+				set_owner = last_created_country
+				create_ship = {
+					name = "预警 X-34"
+					design = "Sentry"
+				}
+				set_location = {
+					target = PREV
+					distance = 10
+					angle = random
+				}
+			}
+		}
+		
+		random_system_planet = {
+			limit = { 
+				is_planet_class = pc_asteroid
+				NOT = { has_planet_flag = ast_1 }
+			}
+			create_fleet = { }
+			last_created_fleet = {
+				set_owner = last_created_country
+				create_ship = {
+					name = "难民站阿尔法"
+					design = "PR-417"
+					graphical_culture = "pirate_01"
+				}
+				set_location = {
+					target = PREV
+					distance = 5
+					angle = random
+				}
+			}
+			create_fleet = { name = "难民舰队" }
+			last_created_fleet = {
+				set_owner = last_created_country
+				create_ship = {
+					name = "格雷文"
+					design = "C1"
+				}
+				last_created_ship = { set_disabled = yes }
+				create_ship = {
+					name = "克罗斯公主"
+					design = "C1"
+				}
+				last_created_ship = { set_disabled = yes }
+				create_ship = {
+					name = "科布衣尔"
+					design = "C2"
+				}
+				last_created_ship = { set_disabled = yes }
+				create_ship = {
+					name = "深邃的眼睛"
+					design = "C2"
+				}
+				last_created_ship = { set_disabled = yes }
+				create_ship = {
+					name = "恒星女王"
+					design = "C2"
+				}
+				last_created_ship = { set_disabled = yes }
+				set_location = {
+					target = PREV
+					distance = 10
+					angle = random
+				}
+			}
+		}
+	}
+}
+
+# Crystal Manufactory version of Basic 4
+crystal_manufactory_system = {
+	class = "rl_standard_stars"
+	flags = { manufactory_system }
+	asteroids_distance = 120
+	
+	usage = misc_system_init
+	usage_odds = 5
+	max_instances = 1
+	spawn_chance = 25
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 120
+	
+	planet = {
+		count = { min = 3 max = 6 }
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	change_orbit = -80
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	change_orbit = 80
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+	}
+
+	init_effect = {
+		random_system_planet = {
+			limit = {
+				#is_asteroid = yes
+				has_deposit_for = shipclass_mining_station
+				#reduces spawn rate of manufactory, but not system
+			}
+			create_ambient_object = {
+				type = "crystal_manufactory_object"
+				location = this
+			}
+			last_created_ambient_object = {
+				set_ambient_object_flag = manufactory
+			}
+			add_anomaly = CRYSTAL_MANUFACTORY_CAT
+		}
+	}
+}
+
+# Space Nomads origin point, based on basic_init_02
+space_nomads_01 = {
+	class = "rl_standard_stars"
+	asteroids_distance = 95
+	
+	usage = misc_system_init
+	usage_odds = 9999
+	max_instances = 1
+	spawn_chance = 25
+
+	flags = { nomad01_system }
+	
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	
+	change_orbit = 30
+	
+	planet = {
+		count = 2
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		count = { min = 1 max = 4 }
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+	}
+	
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 25
+		orbit_angle = { min = 90 max = 270 }
+		
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 1 }
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 5
+		}
+	}
+
+	init_effect = {
+		if = {
+			limit = { NOT = { exists = event_target:nomad01_country } }
+			create_species = {
+				name = Nomad
+				class = random
+				portrait = random
+				traits = random
+				immortal = yes
+			}
+			create_country = {
+				name = "太空游牧民"
+				type = nomad
+				species = last_created
+				flag = {
+					icon = {
+						category = "pointy"
+						file = "flag_pointy_15.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "horizontal_stripe.dds"
+					}
+					colors={
+						"grey"
+						"dark_teal"
+						"null"
+						"null"
+					}
+				}
+			}
+			last_created_country = {
+				set_country_flag = nomad01_country_flag
+				save_global_event_target_as = nomad01_country
+				#last_created_species = { save_event_target_as = nomad_leader_species }
+			}
+		}
+		random_system_planet = { save_event_target_as = nomad_spawn }
+		event_target:nomad01_country = {
+			create_leader = {
+				type = admiral
+				species = owner_main_species
+				name = random
+				skill = 100
+			}
+			create_fleet = { name = "游牧舰队" }
+			last_created_fleet = {
+				set_owner = PREV
+				set_fleet_stance = passive
+				set_aggro_range_measure_from = self
+				set_aggro_range = 0
+				#create_ship_design = {
+				#	design = Diaspora
+				#	ftl = hyperdrive
+				#}
+				#create_ship = {
+				#	name = "Home Five"
+				#	design = "Diaspora"
+				#}
+				#create_ship = {
+				#	name = "Home Six"
+				#	design = "Diaspora"
+				#}
+				#create_ship_design = {
+				#	design = Defender
+				#	#graphical_culture = "pirate_01"
+				#	ftl = hyperdrive
+				#}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = "Defender"
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				create_ship = {
+					name = "保护者"
+					design = Defender
+					graphical_culture = "pirate_01"
+				}
+				#create_ship_design = {
+				#	design = Diaspora
+				#	ftl = hyperdrive
+				#}
+				create_ship = {
+					name = "一号"
+					design = Diaspora
+				}
+				create_ship = {
+					name = "二号"
+					design = Diaspora
+				}
+				create_ship = {
+					name = "三号"
+					design = Diaspora
+				}
+				create_ship = {
+					name = "四号"
+					design = Diaspora
+				}
+				#create_ship_design = {
+				#	design = Guardian
+				#	#graphical_culture = "pirate_01"
+				#	ftl = hyperdrive
+				#}
+				#create_ship = {
+				#	name = "Guardian"
+				#	design = "Guardian"
+				#	graphical_culture = "pirate_01"
+				#}
+				#create_ship = {
+				#	name = "Guardian"
+				#	design = "Guardian"
+				#	graphical_culture = "pirate_01"
+				#}
+				#create_ship = {
+				#	name = "Guardian"
+				#	design = "Guardian"
+				#	graphical_culture = "pirate_01"
+				#}
+				#create_ship = {
+				#	name = "Guardian"
+				#	design = "Guardian"
+				#	graphical_culture = "pirate_01"
+				#}
+				assign_leader = last_created_leader
+				set_location = event_target:nomad_spawn
+				
+				queue_actions = {
+					repeat = {
+						find_random_system = {
+							trigger = {
+								id = nomad.1.trigger.1
+								NOT = { 
+									has_star_flag = hostile_system 
+								}
+								#any_planet = {
+								#	OR = {
+								#		has_mining_station = yes
+								#		has_research_station = yes
+								#	}
+								#	exists = controller
+								#	controller = { is_same_value = event_target:pirate_target }
+								#}
+								distance = {
+									source = PREV
+									max_distance = 50
+									min_distance = 5
+								}
+							}
+							found_system = {
+								move_to = this
+							}	
+						}
+						find_closest_planet = {
+							trigger = {
+								id = nomad.1.trigger.2
+								is_star = yes
+							}
+							found_planet = {
+								orbit_planet = this
+								wait = {
+									duration = 20
+								}
+							}
+						}
+						find_random_system = {
+							trigger = {
+								id = nomad.1.trigger.3
+								any_planet = {
+									is_star = yes
+								}
+							}
+							found_system = {
+								move_to = this
+							}	
+						}
+						find_closest_planet = {
+							trigger = {
+								id = nomad.1.trigger.4
+								is_star = yes
+							}
+							found_planet = {
+								orbit_planet = this
+								wait = {
+									duration = 20
+									random = 10
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

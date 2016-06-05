@@ -1,0 +1,173 @@
+﻿### Reptilian 1
+REP1 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"眼中钉号" "易燃品号" "干粮号" "死亡陷阱号" "碎石机号" "爱哭鬼号" "扫兴号" "自满号" "拖油瓶号" "团队号" "不满者号" "愤世嫉俗号" "吸盘号" "农夫号" "侏儒号" "无义号" "奥特洛号" "股神号" "齿轮号" "午餐号" "自由号" "恶棍号" "任性号" "叛逆号" "小行星号" "巨人号" "丑女号" "游吟诗人号" "虫子号" "驱动号" "巴掌号" "毛毯号" "急速彗星号" "卜德尔号" "雏龙号" "苛刻号" "空气号" "猎鬼号" "铁轨号" "物流号" "火枪号" "管风琴号" "皇后号" "误会号" "梦魇号" "不屈号" "神州号" "毒龙号" "蜥蜴号" "白痴号" "罗杰号" "圣诞号" "白骨号" "男爵号" "罪恶号" "无罪号" "不雅号" "野兽号" "红爪号" "亚军号" "教师号" "脊髓号" "腐蚀号" "智囊号" "乞丐号" "无辜号" "裁决号" "火焰号" "宠物号" "笨蛋号" "石斧号" "愤怒号" "盗窃号" "橡皮虫号" "红唇号" "歌声号" "灭绝号"
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+			"命运女神号" "宇宙战神号" "无情复仇号" "黑暗死神号" "星辰海神号" "黑翼天龙号" "蓝翼海龙号" "红翼火龙号" "白翼神龙号"
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = {}
+		outpost_station = {
+			sequential_name = "第%CC%前哨站"
+		}
+	
+		military_station_small = {
+			}
+		military_station_medium = {
+			}
+		military_station_large = {
+			}	
+	}
+
+	fleet_names = {
+		random_names = {
+			"龙翼第1舰队" "龙翼第2舰队" "龙翼第3舰队" "龙翼第4舰队" "龙翼第5舰队" "龙翼第6舰队" "龙翼第7舰队" "龙翼第8舰队" "龙翼第9舰队" "龙翼第10舰队" "龙翼第11舰队" "龙翼第12舰队" "龙翼第13舰队" "龙翼第14舰队" "龙翼第15舰队" "龙翼第16舰队" "龙翼第17舰队" "龙翼第18舰队" "龙翼第19舰队" "龙翼第20舰队"
+		}
+		sequential_name = "裁决海军第%CC%舰队"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "第%CC%防卫集团军"
+		}
+			
+		assault_army = {
+			sequential_name = "第%CC%突击集团军"
+		}
+		
+		slave_army = {
+			sequential_name = "第%CC%奴隶人小队"
+		}
+		
+		clone_army = {
+			sequential_name = "第%CC%克隆人集团军"
+		}
+		
+		robotic_army = {
+			sequential_name = "第%CC%机械集团军"
+		}
+		
+		android_army = {
+			sequential_name = "第%CC%机器人突击集团军"
+		}
+		
+		psionic_army = {
+			sequential_name = "第%CC%灵能突击集团军"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "第%CC%异性突击集团军"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "第%CC%改造人突击集团军"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				内托格 那多 贝却尔 贝格罗逊 艾特法讷雷逊 新内托格 新那多 新贝却尔 新贝格罗逊 新艾特法讷雷逊 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				  
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				沃根 爱茉莉 卡梅尼拉  佐姆 泰瑞格 索冉思 派尔曼 囧诺 根特尔 比瑞姆
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				海思克 贝他 伊芙丽亚 克鲁姆 瓦罗斯
+			}
+			
+			regnal_first_names = {
+				沃根 爱茉莉 卡梅尼拉  佐姆 泰瑞格 索冉思 派尔曼 囧诺 根特尔 比瑞姆
+			}
+			
+			regnal_second_names = {
+				"棱 美兹克" "棱 迪尔菲鲁斯" "棱 普雷西亚" "棱 阿尔萨斯" "棱 潘普洛纳" "棱 洛德布罗克"
+			}
+		}
+	}
+}

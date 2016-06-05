@@ -3,69 +3,93 @@
 #	COST	#
 #############
 
-@cost_1S = 5
-@cost_1M = 10
-@cost_1L = 20
+@cost_1S = 10
+@cost_1M = 20
+@cost_1L = 40
 
-@cost_2S = 10
-@cost_2M = 20
-@cost_2L = 40
+@cost_2S = 20
+@cost_2M = 40
+@cost_2L = 80
 
-@cost_3S = 15
-@cost_3M = 30
-@cost_3L = 60
+@cost_3S = 30
+@cost_3M = 60
+@cost_3L = 120
 
-@cost_4S = 20
-@cost_4M = 40
-@cost_4L = 80
+@cost_4S = 40
+@cost_4M = 80
+@cost_4L = 160
 
-@cost_5S = 25
-@cost_5M = 50
-@cost_5L = 100
+@cost_5S = 50
+@cost_5M = 100
+@cost_5L = 200
 
-@cost_6S = 30
-@cost_6M = 60
-@cost_6L = 120
+@cost_6S = 60
+@cost_6M = 120
+@cost_6L = 240
 
-@cost_7S = 35
-@cost_7M = 70
-@cost_7L = 140
+@cost_7S = 70
+@cost_7M = 140
+@cost_7L = 280
 
-@cost_8S = 40
-@cost_8M = 80
-@cost_8L = 160
+@cost_8S = 80
+@cost_8M = 160
+@cost_8L = 320
 
-@cost_9S = 45
-@cost_9M = 90
-@cost_9L = 180
+@cost_9S = 90
+@cost_9M = 180
+@cost_9L = 360
 
-@cost_10S = 50
-@cost_10M = 100
-@cost_10L = 200
+@cost_10S = 100
+@cost_10M = 200
+@cost_10L = 400
 
 #############
 # ACCURACY	#
 #############
 
-@acc_1S = 1
+@acc_1S = 2
 @acc_1M = 2
-@acc_1L = 4
+@acc_1L = 2
 
-@acc_2S = 2
+@acc_2S = 4
 @acc_2M = 4
-@acc_2L = 8
+@acc_2L = 4
 
-@acc_3S = 3
+@acc_3S = 6
 @acc_3M = 6
-@acc_3L = 12
+@acc_3L = 6
 
-@acc_4S = 4
+@acc_4S = 8
 @acc_4M = 8
-@acc_4L = 16
+@acc_4L = 8
 
-@acc_5S = 5
+@acc_5S = 10
 @acc_5M = 10
-@acc_5L = 15
+@acc_5L = 10
+
+#############
+# FIRERATE	#
+#############
+
+@firerate_1S = 0.01
+@firerate_1M = 0.02
+@firerate_1L = 0.04
+
+@firerate_2S = 0.02
+@firerate_2M = 0.04
+@firerate_2L = 0.08
+
+@firerate_3S = 0.03
+@firerate_3M = 0.06
+@firerate_3L = 0.12
+
+@firerate_4S = 0.04
+@firerate_4M = 0.08
+@firerate_4L = 0.16
+
+@firerate_5S = 0.05
+@firerate_5M = 0.10
+@firerate_5L = 0.15
 
 #############
 #	POWER	#
@@ -105,8 +129,9 @@ utility_component_template = {
 	icon_frame = 1
 	power = @power_S1
 	cost = @cost_1S
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_1S
+		ship_fire_rate_mult = @firerate_1S
 	}
 	prerequisites = { tech_crystalis_targeting_matrix_1 }
 	component_set = "TARGETTING_COMPUTER_1"
@@ -121,8 +146,9 @@ utility_component_template = {
 	power = @power_M1
 	cost = @cost_1M
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_1M
+		ship_fire_rate_mult = @firerate_1M
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_1 }
@@ -138,8 +164,9 @@ utility_component_template = {
 	power = @power_L1
 	cost = @cost_1L
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_1L
+		ship_fire_rate_mult = @firerate_1L
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_1 }
@@ -156,8 +183,9 @@ utility_component_template = {
 	icon_frame = 1
 	power = @power_S2
 	cost = @cost_2S
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_2S
+		ship_fire_rate_mult = @firerate_2S
 	}
 	prerequisites = { tech_crystalis_targeting_matrix_2 }
 	component_set = "TARGETTING_COMPUTER_2"
@@ -172,8 +200,9 @@ utility_component_template = {
 	power = @power_M2
 	cost = @cost_2M
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_2M
+		ship_fire_rate_mult = @firerate_2M
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_2 }
@@ -189,8 +218,9 @@ utility_component_template = {
 	power = @power_L2
 	cost = @cost_2L
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_2L
+		ship_fire_rate_mult = @firerate_2L
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_2 }
@@ -207,8 +237,9 @@ utility_component_template = {
 	icon_frame = 1
 	power = @power_S3
 	cost = @cost_3S
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_3S
+		ship_fire_rate_mult = @firerate_3S
 	}
 	prerequisites = { tech_crystalis_targeting_matrix_3 }
 	component_set = "TARGETTING_COMPUTER_3"
@@ -223,8 +254,9 @@ utility_component_template = {
 	power = @power_M3
 	cost = @cost_3M
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_3M
+		ship_fire_rate_mult = @firerate_3M
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_3 }
@@ -240,8 +272,9 @@ utility_component_template = {
 	power = @power_L3
 	cost = @cost_3L
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_3L
+		ship_fire_rate_mult = @firerate_3L
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_3 }
@@ -258,8 +291,9 @@ utility_component_template = {
 	icon_frame = 1
 	power = @power_S4
 	cost = @cost_4S
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_4S
+		ship_fire_rate_mult = @firerate_4S
 	}
 	prerequisites = { tech_crystalis_targeting_matrix_4 }
 	component_set = "TARGETTING_COMPUTER_4"
@@ -274,8 +308,9 @@ utility_component_template = {
 	power = @power_M4
 	cost = @cost_4M
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_4M
+		ship_fire_rate_mult = @firerate_4M
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_4 }
@@ -291,8 +326,9 @@ utility_component_template = {
 	power = @power_L4
 	cost = @cost_4L
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_4L
+		ship_fire_rate_mult = @firerate_4L
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_4 }
@@ -309,9 +345,12 @@ utility_component_template = {
 	icon_frame = 1
 	power = @power_S5
 	cost = @cost_5S
-	modifier = {
+	
+	ship_modifier = {
 		ship_accuracy_add = @acc_5S
+		ship_fire_rate_mult = @firerate_5S
 	}
+	
 	prerequisites = { tech_crystalis_targeting_matrix_5 }
 	component_set = "TARGETTING_COMPUTER_5"
 	military_power = 1
@@ -325,8 +364,9 @@ utility_component_template = {
 	power = @power_M5
 	cost = @cost_5M
 
-	modifier = {
+	ship_modifier = {
 		ship_accuracy_add = @acc_5M
+		ship_fire_rate_mult = @firerate_5M
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_5 }
@@ -341,9 +381,10 @@ utility_component_template = {
 	icon_frame = 1
 	power = @power_L5
 	cost = @cost_5L
-
-	modifier = {
+	
+	ship_modifier = {
 		ship_accuracy_add = @acc_5L
+		ship_fire_rate_mult = @firerate_5L
 	}
 	
 	prerequisites = { tech_crystalis_targeting_matrix_5 }

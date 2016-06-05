@@ -1,0 +1,186 @@
+﻿### Mammalian 1
+MAM1 = {
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			巨神兵号 刽子手号 富豪号 磨难号 检察官号 惩罚者号 艾玛切割机号 白银富豪号 黄金富豪号 矮脚鸡号 秃鹫号 苍鹭号 狮鹫号 茶隼号 小鹰号 加达里霍克比尔号 
+			阿维达斯号 阿特龙号 伊米卡斯号 毛鲁斯号 因卡萨斯号 特里斯坦号 爆发号 探索号 守夜者号 伐木者号 分裂者号 裂谷号 火尾鸡号
+			德拉米尔号 凝血号 潜龙号 魔女号 夜魔侠号 帝国号 伊毕斯号 维拉托尔号 死神号 咒逐号  秃鹰号  太阳神号  猎豹号 净化号  蝎尾怪号  纳美西斯号  猎犬号
+			咒灭号  十字军号  猛禽号  黑鸦号  阿瑞斯号  塔纳尼斯号  短剑号  利爪号 哨兵号  斯芬尼克斯号  克勒斯号  土狼号
+			复仇号  审判者号  战鹰号  女妖号  伊什库尔号  恩尤号  美洲虎号  猎狼号 强制者号  海燕号  促进号  长尾鲛号
+			异端号  飞燕号  厄里斯号  剑齿虎号 奥格诺号  主宰号  启示号  暴君号  奥格诺号型  启示号型
+			鱼鹰号  黑鸟号  狞獾号  巨鸟号  鱼鹰号型  狞獾号型 送葬者号  星空号  狂怒者号  托勒克斯号  送葬者号型  狂怒守卫者号  狂怒者型  奥普克斯号
+			镰刀号  挑战号  刺客号  断崖号  镰刀号型  刺客号型 塞纳波号  阿什姆号  毒蜥号  幽灵号  警惕号
+			朝圣号  诅咒号  战隼号  白嘴鸦号  埃拉兹号  拉克希斯号  长剑号  休津号 狂热号  渎圣号  希尔博拉斯号  银鹰号  伊什塔号  戴默斯号  流浪号  缪宁号
+			奉献号  奥尼克斯号  伏波斯号  阔刀号 帕拉丁号  魔像号  克洛诺斯号  恶狼号  救世号  寡妇号  罪恶号  黑豹号
+			守卫号  皇冠蜥号  奥内罗斯号  曲剑号 魔符号  恩赐者号  獾号 伊特龙号 环绕号  囤积者号  猛犸号  
+			分裂号  激进号  天鹤号  大鸨号  履行者号  奥卡托号  徘徊者号  巨象号 猎获号  回旋者号  妄想号 逆戟鲸号
+			轻舟号  麦基诺号  霍克号 长须鲸号  普罗维登斯号  渡神号  方尖塔号  芬利厄号 方舟号  奥鸟号  安莎尔号  游牧者号 警惕号 复仇者号 潜龙号  
+
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		先知号  先驱者号  猛鲑号  幼龙号  布鲁提克斯号  弥尔米顿号  飓风号  暴风号 永灭号  救赎号  兀鹫号  夜鹰号  曙光女神号  阿施塔特号  月刃号  斯雷普尼号
+		末日沙场号  灾难号  地狱天使号  毒蝎号  乌鸦号  鹏鲲号 多米尼克斯号  万王宝座号  亥伯龙神号 台风号  狂暴号  死亡漩涡号 马克瑞号  巴戈龙号  响尾蛇号  噩梦号  复仇者号
+		神示号  凤凰号  莫洛号  纳迦法号 执政官号  奇美拉号  绝念号  尼铎格尔号 万古号  飞龙号  夜神号  冥府号 神使号  勒维亚坦号  俄洛巴斯号  拉格纳洛克号
+		
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = {  }
+		outpost_station = {
+			sequential_name = "第%CC%前哨站"
+		}
+	
+		military_station_small = {
+			}
+		military_station_medium = {
+			}
+		military_station_large = {
+			}	
+	}
+
+	fleet_names = {
+		random_names = {
+			勇气舰队 友情舰队 诚实舰队 爱心舰队 知识舰队 纯真舰队 希望舰队 光舰队 善良舰队 奇迹舰队 命运舰队
+			"国防第1舰队" "国防第2舰队" "国防第3舰队" "国防第4舰队" "国防第5舰队" "国防第6舰队" "国防第7舰队" "国防第8舰队" "国防第9舰队" "国防第10舰队" "国防第11舰队" "国防第12舰队" "国防第13舰队" "国防第14舰队" "国防第15舰队" "国防第16舰队" "国防第17舰队" "国防第18舰队" "国防第19舰队" "国防第20舰队"
+		}
+		sequential_name = "环宇海军第%CC%舰队"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "第%CC%防卫旅"
+		}
+			
+		assault_army = {
+			sequential_name = "第%CC%攻击旅"
+		}
+		
+		slave_army = {
+			sequential_name = "第%CC%奴隶人部队"
+		}
+		
+		clone_army = {
+			sequential_name = "第%CC%克隆人旅"
+		}
+		
+		robotic_army = {
+			sequential_name = "第%CC%机械旅"
+		}
+		
+		android_army = {
+			sequential_name = "第%CC%机器人突击旅"
+		}
+		
+		psionic_army = {
+			sequential_name = "第%CC%灵能突击旅"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "第%CC%异性突击旅"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "第%CC%改造人突击旅"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+			 田鼠星 牦牛星 羚羊星 麋鹿星 白兔星 鼹鼠星 袋鼠星 长颈鹿星 蓝鲸星 抹香鲸星 海豚星 白鳍豚星 河马星 骆驼星 猫鼬星 大熊猫星 浣熊星 臭鼬星
+			 猎狗星 棕熊星 水獭星 蜜獾星 海象星 海狮星  海豹星 蝙蝠星 刺猬星 松鼠星 豪猪星  土豚星 猩猩星 狒狒星 狐狸星 树猴星  夜猴星 猫猴星
+			}
+		}
+		
+		pc_desert = {
+			names = {}
+		}
+		
+		pc_tropical = {
+			names = {}
+		}
+		
+		pc_arid = {
+			names = {}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				莫德 尔麦斯 杰帕 威克耳 马讷克 培瑞克 偌德 罗贝特 卡勒 赫欧斯 佩格 泰格 潘德 莱恩 茂斯 西普 曼克 多格 卡特
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				特瑞尔 沃耿 特尔萨鲁 维斯 威格斯 厄聂格  托尔 维克 帕克 维文 卡普 涅克 塔拉斯 微格拉斯 尼康
+			}
+			
+			regnal_first_names = {
+				莫德 尔麦斯 杰帕 威克耳 马讷克 培瑞克 偌德 罗贝特 卡勒 赫欧斯 佩格 泰格 潘德 莱恩 茂斯 西普 曼克 多格 卡特
+			}
+			
+			regnal_second_names = {
+				"冯 史塔克" "冯 马泰尔" "冯 兰尼斯特" "冯 坦格利安" "冯 拜拉席恩" "冯 葛雷乔伊" "冯 徒利" "冯 艾林" "冯 提利尔" 
+			}
+		}
+	}
+}
