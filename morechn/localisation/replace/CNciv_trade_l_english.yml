@@ -6,7 +6,7 @@
 
 
  civtrade.1.name:0 "民间贸易"
- civtrade.1.desc:0 "在成功建立第一个殖民地 [Root.Owner.GetSpeciesName] 后， [Root.Capital.GetName] 上一些被人说成是SB的勇敢的实业家们开始踏上了第一次星际贸易的征程。\n\n这对于 [Root.Owner.GetName] 来说是值得纪念的一天，并将永远成为未来的民间的深空贸易的基石。"
+ civtrade.1.desc:0 "在成功建立第一个殖民地 [Root.Owner.GetSpeciesName] 后， [Root.Capital.GetName] 上一些勇敢却被人认为是SB的实业家们开始踏上了第一次星际贸易的征程。\n\n这对于 [Root.Owner.GetName] 来说是值得纪念的一天，并将永远成为未来民间深空贸易的基石。"
 
  # Options
  
@@ -27,7 +27,7 @@
  civtrade.1.f:0 "按时纳税，一切OK。"
  
  
- civtrade.1.g:0 "自由迁徙和自由贸易是我们这个社会的特点。"
+ civtrade.1.g:0 "自由迁徙和自由贸易一直是我们这个社会的优点，不是吗？"
  
  civtrade.1.h:0 "你的许可已签发。一路顺风。"
 
@@ -36,12 +36,12 @@
  # Civilian Trade effects
  #############################
   
- trade_network_minerals:0 "交易网络"
- trade_network_minerals_desc:0 "星际贸易商最近在这个星球上建立了一个交易站，这将小幅提振我们的经济。"
- trade_network_energy:0 "交易网络"
- trade_network_energy_desc:0 "星际贸易商最近在这个星球上建立了一个交易站，这将小幅提振我们的经济。"  
- trade_network_food:0 "交易网络"
- trade_network_food_desc:0 "星际贸易商最近在这个星球上建立了一个交易站，这将小幅提振我们的经济。"
+ trade_network_minerals:0 "已接入贸易网络"
+ trade_network_minerals_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
+ trade_network_energy:0 "已接入贸易网络"
+ trade_network_energy_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"  
+ trade_network_food:0 "已接入贸易网络"
+ trade_network_food_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
  
  
  
@@ -50,7 +50,7 @@
  #############################
  
  personality_civilian_traders:0 "民间商人"
- personality_civilian_traders_desc:0 "民间商人会在你的国家内徘徊以寻求交易。"
+ personality_civilian_traders_desc:0 "民间商人会在你的国家内徘徊以寻求贸易。"
  
  ####################################
  # Edicts
@@ -58,7 +58,7 @@
 
  # Planet Edicts
  
- edict_trade_hub:0 "交易中心"
+ edict_trade_hub:0 "贸易中心"
  edict_trade_hub_desc:0 "这个星球提供了这样一个设施和空间用以吸引更多的商人来发挥他们的特长。"
  
  # Country Edicts
