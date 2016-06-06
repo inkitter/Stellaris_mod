@@ -16,7 +16,7 @@ https://github.com/inkitter/Stellaris_mod
 
 --------
 
-## 主包 Inkit MOD
+## 主包 Inkit MOD (!)
 ###汉化
 * Chinese font  简体中文字库v4.6  http://steamcommunity.com/sharedfiles/filedetails/?id=682681372
 * 3DM汉化包3.0  1.1版全汉化  \localisation\*.yml http://steamcommunity.com/sharedfiles/filedetails/?id=683978765
