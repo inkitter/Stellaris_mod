@@ -52,13 +52,7 @@
  trait_ruler_scientific_mind_desc:0 "§L这个统治者有科学头脑.§!\n"
  trait_ruler_visionary:0 "梦想家"
  trait_ruler_visionary_desc:0 "§这个统治者对帝国的未来有强大而清晰的愿景.§!\n"
- 
- 
- # Some strings 
 
- CANNOT_PICK_SLAVERY_TRAIT:3 "不能选择 $trait_decadent$ 或 $trait_resourceful$，除非你已经选择了一个可以增加 $MOD_POP_SLAVERY_TOLERANCE$ 的特性、思潮或政府 ."
- CANNOT_PICK_SLAVERY_TRAIT_2:2 "不能选择 $trait_decadent$ 或 $trait_resourceful$，因为你已经选择了一个减少 $MOD_POP_SLAVERY_TOLERANCE$ 的特性、思潮或政府."
- 
   # Governor Traits
  trait_governor_energetic_encourager:0 "精力充沛的鼓舞者"
  trait_governor_energetic_encourager_desc:0 "§这个总督鼓励人们花一些私人时间在一起.§!\n"
@@ -67,6 +61,11 @@
  trait_governor_inspiring_leader:0 "鼓舞人心的领导者"
  trait_governor_inspiring_leader_desc:0 "§这位领导与他的个人魅力激发出民众坚强的意志.§!\n"
  
+ 
+  # Some strings 
+
+ CANNOT_PICK_SLAVERY_TRAIT:3 "不能选择 $trait_decadent$ 或 $trait_resourceful$，除非你已经选择了一个可以增加 $MOD_POP_SLAVERY_TOLERANCE$ 的特性、思潮或政府 ."
+ CANNOT_PICK_SLAVERY_TRAIT_2:2 "不能选择 $trait_decadent$ 或 $trait_resourceful$，因为你已经选择了一个减少 $MOD_POP_SLAVERY_TOLERANCE$ 的特性、思潮或政府."
  
 # Empire modifiers
 

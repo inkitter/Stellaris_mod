@@ -1,0 +1,109 @@
+﻿l_english:
+
+ #############################
+ # Civilian Trade Events
+ #############################
+
+
+ civtrade.1.name:0 "Civilian Trade"
+ civtrade.1.desc:0 "After the successful establishment of the first [Root.Owner.GetSpeciesName] colony an intrepid and some would say foolhardy group of entrepreneurs on [Root.Capital.GetName] have set out on their first trade run to the outer colonies. \n\nThis is a monumental day for [Root.Owner.GetName] and will forever set the tone for future civilian endeavors in the depths of space."
+
+ # Options
+ 
+ civtrade.1.a:0 "May their faith ever guide them on their journey."
+ 
+ civtrade.1.b:0 "Your permits seem to be in order. On your way."
+ 
+ 
+ civtrade.1.c:0 "Independent action begets independent thought, be weary of your hubris."
+ 
+ 
+ civtrade.1.d:0 "Advancement through ones own hands is a worthwhile endeavor."
+ 
+ 
+ civtrade.1.e:0 "Your attempts at independent enterprise will not be tolerated."
+ 
+ 
+ civtrade.1.f:0 "Keep your fees paid and taxes on time and there will be no problem."
+ 
+ 
+ civtrade.1.g:0 "Freedom of movement and freedom of trade are hallmarks of our society."
+ 
+ civtrade.1.h:0 "Your permits seem to be in order. On your way."
+
+ 
+ #############################
+ # Civilian Trade effects
+ #############################
+  
+  
+ expanded_trade_network:0 "Expanded Trade Network"
+ expanded_trade_network_desc:0 "With increase compacity and infastructure this planet can get the most out of its traders."
+ trade_network_minerals:0 "Trade Network"
+ trade_network_minerals_desc:0 "Intergalactic traders have recently made a stop at this planet providing a small boost to its economy."
+ trade_network_energy:0 "Trade Network"
+ trade_network_energy_desc:0 "Intergalactic traders have recently made a stop at this planet providing a small boost to its economy."  
+ trade_network_food:0 "Trade Network"
+ trade_network_food_desc:0 "Intergalactic traders have recently made a stop at this planet providing a small boost to its economy."
+ 
+ 
+ 
+ #############################
+ # Civilian Trade personality
+ #############################
+ 
+ personality_civilian_traders:0 "Civilian Traders"
+ personality_civilian_traders_desc:0 "Civilian Traders making their rounds across your empire always looking to trade."
+ 
+ ####################################
+ # Edicts
+ #################################### 
+
+ # Planet Edicts
+ 
+ edict_trade_hub:0 "Trade Hub"
+ edict_trade_hub_desc:0 "Providing a suitable amount of amenities and space this planet attracts a larger amount of traders then most planets as well as being able to take advantage of their presence."
+ 
+ # Country Edicts
+ 
+ edict_trade_subsidies:0 "Trade Subsidies"
+ edict_trade_subsidies_desc:0 "Feeling the need to give your traders a helping hand to get started you help them get started. Traders will be constructed more frequently."
+ 
+ ####################################
+ # Policies
+ #################################### 
+ 
+ policy_civilian_trade:0 "Civilian Trade"
+ policy_civilian_trade_desc:0 "Depending on how tightly you hold the reigns of trade the more or less traders your empire will produce."
+ 
+ unrestricted_trade:0 "Unrestricted"
+ unrestricted_trade_name: "Unrestricted Trade" 
+ unrestricted_trade_desc:0 "Prefering to take a hands off approach you let the markets decide their bounds."
+
+ restricted_trade:0 "Restricted"
+ restricted_trade_name:0 "Restricted Trade"
+ restricted_trade_desc:0 "Too much freedom of movement and freedom of trade is bad for the empire. No new traders are allowed and current operating traders will slowly be decomissioned. "
+ 
+ policy_trade_focus:0 "Trade Focus"
+ policy_trade_focus_desc:0 "Governemt stockpiles can focus on purchasing a specific commodity that your empire is lacking."
+ 
+ mineral_focus:0 "Minerals"
+ mineral_focus_name:0 "Mineral Focus"
+ mineral_focus_desc:0 "Instruct administrators to purchase minerals from the traders."
+ 
+ energy_focus:0 "Energy Credits"
+ energy_focus_name:0 "Energy Credits Focus"
+ energy_focus_desc:0 "Instruct administrators to trade for energy credits."
+ 
+ food_focus:0 "Food"
+ food_focus_name:0 "Food Focus"
+ food_focus_desc:0 "Instruct administrators to purchase food from the traders."
+ 
+ ####################################
+ # Hull Sizes
+ ####################################  
+ 
+ civilian_trade_freighter:0 "Civilian Freighter"
+ civilian_trade_freighter_plural:0 "Civilian Freighters"
+ civilian_trade_tanker:0 "Civilian Tanker"
+ civilian_trade_tanker_plural:0 "Civilian Tankers"

@@ -3,6 +3,13 @@
 ### MAMMALIANS
 
 MAM = {
+	fwefaf = {
+		name = "半人马"
+		plural = "半人马"
+		home_planet = "半人马"
+		home_system = "半人马"
+		name_list = "AVI1"
+	}
 	kroll = {
 		name = 克罗尔
 		plural = 克罗尔

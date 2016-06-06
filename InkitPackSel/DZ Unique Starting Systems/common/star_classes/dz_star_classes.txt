@@ -1,0 +1,6 @@
+dz_ringworld_planet = {
+	class 			= barren
+	icon_scale		= 0.65
+	spawn_odds 		= 0.0
+	num_planets 	= { min = 0 max = 0 }	
+}

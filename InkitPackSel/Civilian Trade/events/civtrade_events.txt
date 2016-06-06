@@ -1,0 +1,1241 @@
+############################
+#
+# Civilian Trade Events
+#
+# Written by Kyoj1n
+#
+############################
+
+namespace = civtrade
+
+# Birth of Civilian Trade
+
+## Main spawn event. Creates country and first ship
+
+country_event = {
+	id = civtrade.1
+	title = "civtrade.1.name"
+	picture = GFX_evt_hangar_bay
+	show_sound = event_ship_thrusters
+	
+	desc = {
+		text = civtrade.1.desc
+		}
+	is_triggered_only = yes
+	
+	trigger = {
+		is_country_type = default
+		NOT = { 
+			has_policy_flag = restricted_trade
+			has_country_flag = birth_of_civtrade }
+		any_owned_planet = {
+				is_homeworld = no
+			}
+	}		
+	
+	immediate = {
+
+		set_country_flag = birth_of_civtrade
+		owner_species = { save_event_target_as = owner_species }
+
+		capital_scope = {
+			save_event_target_as = spawnpoint
+			space_owner = { save_event_target_as = home_country }			
+					}
+					if = {
+							limit = { has_technology = "tech_wormhole_generation_1" }
+								
+								create_country = {
+									name = "Traders"
+									type = civtrader
+									species = event_target:owner_species
+									
+								}	
+								solar_system = {									
+									create_wormhole_station = { 
+										owner = last_created_country
+										angle = random
+									}																																
+									set_star_flag = trader_wormhole
+									
+									
+								}								
+								last_created_country = {
+									establish_communications_no_message = root
+									establish_contact = { who = root }
+									save_event_target_as = civilian_traders
+									set_country_flag = civtrader
+									add_opinion_modifier = { who = ROOT modifier = opinion_alliance }
+									}																				
+								last_created_country = {
+									create_leader = {
+										type = admiral
+										species = event_target:owner_species
+										name = random
+										skill = 100
+									}
+									create_fleet = { name = "Civilian Trade Fleet" }
+										last_created_fleet = {
+													set_owner = PREV
+													set_fleet_stance = evasive
+													random_list = { 
+														50 = { create_ship_design = {
+																design = "T1" 
+															   ftl = ROOT
+															}
+														}
+														50 = {  create_ship_design = {
+																design = "T2" 
+															   ftl = ROOT
+															}
+														}
+													}	
+													create_ship = {
+														name = random
+														design = last_created_design
+														graphical_culture = "pirate_01"
+													}
+													
+													assign_leader = last_created_leader
+													set_location = event_target:spawnpoint
+														queue_actions = {																			
+															repeat = {																																															
+																	find_random_system = {
+																		trigger = {
+																				id = civtrade.1.trigger.1
+																					 
+																						any_planet = {
+																							OR = {
+																								NOT = { 
+																									has_planet_flag = trade_network_flag
+																								}
+																								has_edict = "trade_hub" 
+																							}
+																							is_colony = yes
+																							has_owner = yes
+																							OR = {
+																								owner = { is_same_value = event_target:home_country }
+																								owner = { 
+																									is_neighbor_of = event_target:home_country 
+																									has_access_civilian = event_target:home_country
+																								}
+																							}
+																							
+																							
+																						}
+																																											
+																				}																		
+																		found_system = {
+																				move_to = THIS
+																			}
+																		}	
+																		find_random_planet = {
+																				trigger = {
+																				id = civtrade.1.trigger.2
+																				
+																					OR = {
+																							NOT = { 
+																								has_planet_flag = trade_network_flag
+																							}
+																							has_edict = "trade_hub" 
+																						}
+																					is_colony = yes
+																					has_owner = yes
+																					controller = { is_same_value = event_target:home_country }
+																					
+																				}																	
+																				found_planet = {
+																					orbit_planet = THIS 
+																					wait = { 
+																						duration = 3
+																						random = 1
+																						}
+																					effect = { 
+																						id = civtrade.1.effect.1
+																						planet_event = { id = civtrade.8 }
+																						} 
+																					}																																							
+																		}																										
+															}
+														}																																													
+										}
+									}
+								
+						
+						else = {
+							if = {
+							
+								limit = { 
+									OR = {
+										has_technology = "tech_warp_drive_1" 
+										has_technology = "tech_hyper_drive_1"
+									}
+								}		
+								
+								create_country = {
+									name = "Traders"
+									type = civtrader
+									species = event_target:owner_species
+									ethos = ROOT
+								}
+							
+								last_created_country = {
+									establish_communications_no_message = root
+									establish_contact = { who = root }
+									save_global_event_target_as = civilian_traders
+									set_country_flag = civtrader
+									add_opinion_modifier = { who = ROOT modifier = opinion_alliance }
+									if = {
+										limit = {
+											ROOT = { has_technology = "tech_warp_drive_1" }
+										}
+										set_country_flag = warp_traders
+										else = {
+											if = {
+												limit = {
+													ROOT = { has_technology = "tech_hyper_drive_1" }
+												}
+												set_country_flag = hyper_traders
+											}
+										}
+									}
+									}
+									last_created_country = {
+										create_leader = {
+											type = admiral
+											species = event_target:owner_species
+											name = random
+											skill = 100
+										}									
+										create_fleet = { name = "Civilian Trade Fleet" }
+											last_created_fleet = {
+														set_owner = PREV
+														set_fleet_stance = evasive														
+														random_list = { 
+															50 = { create_ship_design = {
+																design = "T1" 
+															   ftl = ROOT
+																}
+															}
+															50 = {  create_ship_design = {
+																design = "T2" 
+															   ftl = ROOT
+																}
+															}
+														}														
+														create_ship = {
+															name = random
+															design = last_created_design
+															graphical_culture = "pirate_01"
+														}
+														
+														assign_leader = last_created_leader
+														set_location = event_target:spawnpoint
+															queue_actions = {														
+																repeat = {																																							
+																		find_random_system = {
+																			trigger = {
+																					id = civtrade.1.trigger.3
+																						any_planet = {
+																							OR = {
+																								NOT = { 
+																									has_planet_flag = trade_network_flag
+																								}
+																								has_edict = "trade_hub" 
+																							}
+																							is_colony = yes
+																							owner = yes
+																							OR = {
+																								owner = { is_same_value = event_target:home_country }
+																								owner = { 
+																									is_neighbor_of = event_target:home_country 
+																									has_access_civilian = event_target:home_country
+																								}
+																							}
+																						}
+																					}																		
+																			found_system = {
+																					move_to = THIS
+																				}
+																			}	
+																			find_random_planet = {
+																					trigger = {
+																						id = civtrade.1.trigger.4															
+																						OR = {
+																							NOT = { 
+																								has_planet_flag = trade_network_flag
+																							}
+																							has_edict = "trade_hub" 
+																						}
+																						is_colony = yes
+																						has_owner = yes
+																						controller = { is_same_value = event_target:home_country }
+																					}																		
+																					found_planet = {
+																						orbit_planet = THIS 
+																						effect = { 
+																							id = civtrade.1.effect.2
+																							planet_event = { id = civtrade.8 }
+																						}																							
+																						wait = { 
+																							duration = 3
+																							random = 1
+																							}
+
+																					}																																			
+																			}
+																							
+																}
+															}																					
+											}
+									}
+											
+											
+							
+							
+							
+							
+							
+							
+							}
+					}
+			}
+			
+			
+	}
+	
+	
+	option = {
+		name = civtrade.1.a
+		trigger = {
+			OR = {
+				has_government = theocratic_republic
+				has_government = transcendent_republic
+				has_government = theocratic_oligarchy
+				has_government = transcendent_oligarchy
+				has_government = divine_mandate
+				has_government = transcendent_empire
+			}
+		}
+	}
+	option = {
+		name = civtrade.1.b
+		trigger = {
+			OR = {
+				has_government = military_dictatorship
+				has_government = martial_empire
+				has_government = military_junta
+				has_government = ordered_stratocracy
+				has_government = military_republic
+				has_government = martial_demarchy
+			}
+		}
+	}
+	option = {
+		name = civtrade.1.c
+		trigger = {
+			OR = {
+				has_government = despotic_hegemony
+				has_government = ai_overlordship
+				has_government = science_directorate
+				has_government = illuminated_technocracy
+				has_government = direct_democracy
+				has_government = subconscious_consensus
+			}
+		}
+	}
+	option = {
+		name = civtrade.1.d
+		trigger = {
+			OR = {
+				has_government = moral_democracy
+				has_government = irenic_democracy
+				has_government = peaceful_bureaucracy
+				has_government = irenic_protectorate
+				has_government = enlightened_monarchy
+				has_government = irenic_monarchy
+			}
+		}
+	}
+	option = {
+		name = civtrade.1.e
+		trigger = {
+			OR = {
+				has_government = despotic_empire
+				has_government = star_empire
+			}
+		}
+	}
+	option = {
+		name = civtrade.1.f
+		trigger = {
+			OR = {
+				has_government = plutocratic_oligarchy
+				has_government = mega_corporation
+			}
+		}
+	}
+	option = {
+		name = civtrade.1.g
+		trigger = {
+			OR = {
+				has_government = indirect_democracy
+				has_government = democratic_utopia
+			}
+		}
+	}
+	option = {
+		name = civtrade.1.h
+		trigger = {
+			NOT = {
+				has_government = indirect_democracy
+				has_government = democratic_utopia
+				has_government = plutocratic_oligarchy
+				has_government = mega_corporation
+				has_government = despotic_empire
+				has_government = star_empire
+				has_government = moral_democracy
+				has_government = irenic_democracy
+				has_government = peaceful_bureaucracy
+				has_government = irenic_protectorate
+				has_government = enlightened_monarchy
+				has_government = irenic_monarchy
+				has_government = despotic_hegemony
+				has_government = ai_overlordship
+				has_government = science_directorate
+				has_government = illuminated_technocracy
+				has_government = direct_democracy
+				has_government = subconscious_consensus
+				has_government = military_dictatorship
+				has_government = martial_empire
+				has_government = military_junta
+				has_government = ordered_stratocracy
+				has_government = military_republic
+				has_government = martial_demarchy
+				has_government = theocratic_republic
+				has_government = transcendent_republic
+				has_government = theocratic_oligarchy
+				has_government = transcendent_oligarchy
+				has_government = divine_mandate
+				has_government = transcendent_empire
+				
+			}
+		}
+	}
+}
+
+	
+	
+## Randomizes first event time to trigger.
+
+
+country_event = {
+	id = civtrade.2
+
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_policy_flag = restricted_trade }
+		is_country_type = default
+			any_owned_planet = {
+				is_homeworld = no
+			}		
+	}
+	immediate = {
+
+		random_list = {
+			40 = { country_event = { id = civtrade.1 days = 60 random = 30} }
+			40 = { country_event = { id = civtrade.1 days = 180 random = 60 } }
+			20 = { country_event = { id = civtrade.1 days = 30 random = 15} }
+		}
+	}
+
+}
+
+## Triggers first event on yearly pulse
+
+event = {
+	id = civtrade.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		
+		every_country = {
+			limit = {
+				NOT = { 
+					has_country_flag = birth_of_civtrade
+					has_policy_flag = restricted_trade
+				}
+			}
+			
+			country_event = { id = civtrade.2 }
+
+		}
+	}
+}
+
+## Randomizes first colony ship spawn
+
+planet_event = {
+	id = civtrade.4
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+	trigger = {
+		owner = {is_country_type = default
+		has_country_flag = birth_of_civtrade 
+		}
+	}
+	
+	immediate = {
+	
+			owner = {
+				if = {
+					limit = {has_technology = "tech_wormhole_generation_1"} 
+					ROOT = { planet_event = { id = civtrade.5 days = 360 random = 180} }
+					
+					else = {
+						if = {
+							limit = {has_technology = "tech_warp_drive_1"} 
+							ROOT = { planet_event = { id = civtrade.6 days = 360 random = 180} }
+								
+							else = {
+								if = {
+									limit {has_technology = "tech_hyper_drive_1"} 
+									ROOT = { planet_event = { id = civtrade.7  days = 360 random = 180} }		
+													
+								}
+							
+							}
+						
+					
+						}
+					
+					}
+					
+				}
+			
+			}
+		
+		
+	
+	
+	}
+
+}
+
+## Wormhole spawn ship
+
+planet_event = {
+	id = civtrade.5
+	hide_window = yes
+	location = ROOT
+	
+	trigger = {
+		owner = {is_country_type = default
+		has_country_flag = birth_of_civtrade 
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		owner = { 
+			species = {save_event_target_as = owner_species }
+			}
+		ROOT = {
+			owner = { save_event_target_as = home_country }			
+					}
+				random_country = {
+					limit = {
+						is_country_type = civtrader
+						is_same_species = event_target:owner_species
+						}
+						create_leader = {
+							type = admiral
+							species = event_target:owner_species
+							name = random
+							skill = 100
+						}
+					save_event_target_as = trader_country
+				}				
+					if = {
+							limit = { owner =  {has_technology = "tech_wormhole_generation_1"} }					
+									solar_system = {
+										if = {
+											limit = {																							
+													NOT = {
+														has_star_flag = trader_wormhole
+													}																							
+											}
+											create_wormhole_station = { 
+												owner = event_target:trader_country
+												angle = random
+											}
+											set_star_flag = trader_wormhole
+											break = yes
+										}
+									}
+									
+										
+									create_fleet = { name = "Civilian Trade Fleet" }	
+										last_created_fleet = {
+													set_owner = event_target:trader_country
+													set_fleet_stance = evasive 
+													if = {
+														random_list = { 
+															50 = { create_ship_design = {
+																design = "T1" 
+															   ftl = wormhole
+																}
+															}
+															50 = {  create_ship_design = {
+																design = "T2" 
+															   ftl = wormhole
+																}
+															}
+														}
+													}
+													
+													create_ship = {
+														name = random
+														design = last_created_design
+														graphical_culture = "pirate_01"
+													}
+													
+													assign_leader = last_created_leader
+													set_location = ROOT
+														queue_actions = {																			
+															repeat = {																																															
+																	find_random_system = {
+																		trigger = {
+																				id = civtrade.5.trigger.1
+																				
+																						any_planet = {
+																							OR = {
+																								NOT = { 
+																									has_planet_flag = trade_network_flag
+																								}
+																								has_edict = "trade_hub" 
+																							}
+																							is_colony = yes
+																							has_owner = yes
+																							OR = {
+																								owner = { is_same_value = event_target:home_country }
+																								owner = { 
+																									is_neighbor_of = event_target:home_country 
+																									has_access_civilian = event_target:home_country
+																								}
+																							}																						
+																						}
+																						
+																				}																		
+																		found_system = {
+																				move_to = THIS
+																			}
+																		}	
+																		find_random_planet = {
+																				trigger = {
+																				id = civtrade.5.trigger.2
+																					
+																						OR = {
+																								NOT = { 
+																									has_planet_flag = trade_network_flag
+																								}
+																								has_edict = "trade_hub" 
+																						}
+																						is_colony = yes
+																						has_owner = yes
+																						controller = { is_same_value = event_target:home_country }
+																					
+																				}																	
+																				found_planet = {
+																					orbit_planet = THIS 
+																					wait = { 
+																						duration = 3
+																						random = 1
+																						}
+																					effect = { 
+																						id = civtrade.5.effect.1
+																						planet_event = { id = civtrade.8 }
+																						
+																					}																																							
+																				}																										
+															}
+														}																																													
+										}
+									}					
+					}
+					
+			}
+			
+}
+
+## Warp drive spawn ship
+
+planet_event = {
+	id = civtrade.6
+	hide_window = yes
+	location = ROOT
+	
+	trigger = {
+		owner = {is_country_type = default
+		has_country_flag = birth_of_civtrade 
+		}
+	}
+	is_triggered_only = yes
+	immediate = {
+		owner = { 
+			species = {save_event_target_as = owner_species }
+			}
+		ROOT = {
+			owner = { save_event_target_as = home_country }			
+					}
+				random_country = {
+					limit = {
+						is_country_type = civtrader
+						is_same_species = event_target:owner_species
+						}
+						create_leader = {
+							type = admiral
+							species = event_target:owner_species
+							name = random
+							skill = 100
+						}
+					save_event_target_as = trader_country
+				}				
+					if = {
+							limit = { owner =  {has_technology = "tech_warp_drive_1"} }					
+
+									create_fleet = { name = "Civilian Trade Fleet" }
+										
+										last_created_fleet = {
+													set_owner = event_target:trader_country
+													set_fleet_stance = evasive
+													if = {
+														random_list = { 
+															50 = { create_ship_design = {
+																design = "T1" 
+															   ftl = warp
+																}
+															}
+															50 = {  create_ship_design = {
+																design = "T2" 
+															   ftl = warp
+																}
+															}
+														}
+													}
+													
+													create_ship = {
+														name = random
+														design = last_created_design
+														graphical_culture = "pirate_01"
+													}
+													
+													assign_leader = last_created_leader
+													set_location = ROOT
+														queue_actions = {																			
+															repeat = {																																															
+																	find_random_system = {
+																		trigger = {
+																				id = civtrade.6.trigger.1
+																					any_planet = {
+																						OR = {
+																							NOT = { 
+																								has_planet_flag = trade_network_flag
+																							}
+																							has_edict = "trade_hub" 
+																						}
+																						is_colony = yes
+																						has_owner = yes
+																						OR = {
+																								owner = { is_same_value = event_target:home_country }
+																								owner = { 
+																									is_neighbor_of = event_target:home_country 
+																									has_access_civilian = event_target:home_country
+																								}
+																							}																					
+																					}																						
+																				}																		
+																		found_system = {
+																				move_to = THIS
+																			}
+																		}	
+																		find_random_planet = {
+																				trigger = {
+																				id = civtrade.6.trigger.2
+																					OR = {
+																							NOT = { 
+																								has_planet_flag = trade_network_flag
+																							}
+																							has_edict = "trade_hub" 
+																						}
+																					is_colony = yes
+																					exists = controller
+																					controller = { is_same_value = event_target:home_country }
+																				}																	
+																				found_planet = {
+																					orbit_planet = THIS 
+																					wait = { 
+																						duration = 3
+																						random = 1
+																						}
+																					effect = { 
+																						id = civtrade.6.effect.1
+																						planet_event = { id = civtrade.8 }
+																					}																																							
+																				}																										
+															}
+														}																																													
+										}
+									}					
+					}
+					
+			}
+			
+}
+
+## Hyperdrive spawn ship
+
+planet_event = {
+	id = civtrade.7
+	hide_window = yes
+	location = ROOT
+	
+	trigger = {
+		owner = {is_country_type = default
+				has_country_flag = birth_of_civtrade 
+		}
+	}
+	is_triggered_only = yes	
+	immediate = {
+		owner = { 
+			species = {save_event_target_as = owner_species }
+			}
+		ROOT = {
+			owner = { save_event_target_as = home_country }			
+					}
+				random_country = {
+					limit = {
+						is_country_type = civtrader
+						is_same_species = event_target:owner_species
+						}
+						create_leader = {
+							type = admiral
+							species = event_target:owner_species
+							name = random
+							skill = 100
+						}
+					save_event_target_as = trader_country
+				}				
+					if = {
+							limit = { owner =  {has_technology = "tech_hyper_drive_1"} }					
+									create_fleet = { name = "Civilian Trade Fleet" }
+										
+										last_created_fleet = {
+													set_owner = event_target:trader_country
+													set_fleet_stance = evasive
+													if = {
+														random_list = { 
+															50 = { create_ship_design = {
+																design = "T1" 
+															   ftl = hyperdrive
+																}
+															}
+															50 = {  create_ship_design = {
+																design = "T2" 
+															   ftl = hyperdrive
+																}
+															}
+														}
+													}
+													
+													create_ship = {
+														name = random
+														design = last_created_design
+														graphical_culture = "pirate_01"
+													}
+													
+													assign_leader = last_created_leader
+													set_location = ROOT
+														queue_actions = {																			
+															repeat = {																																															
+																	find_random_system = {
+																		trigger = {
+																				id = civtrade.7.trigger.1
+																					any_planet = {
+																						OR = {
+																							NOT = { 
+																								has_planet_flag = trade_network_flag
+																							}
+																							has_edict = "trade_hub" 
+																						}
+																						is_colony = yes
+																						has_owner = yes
+																						OR = {
+																								owner = { is_same_value = event_target:home_country }
+																								owner = { 
+																									is_neighbor_of = event_target:home_country 
+																									has_access_civilian = event_target:home_country
+																								}
+																							}																						
+																					}																						
+																				}																		
+																		found_system = {
+																				move_to = THIS
+																			}
+																		}	
+																		find_random_planet = {
+																				trigger = {
+																				id = civtrade.7.trigger.2
+																					OR = {
+																							NOT = { 
+																								has_planet_flag = trade_network_flag
+																							}
+																							has_edict = "trade_hub" 
+																						}
+																					is_colony = yes
+																					exists = controller
+																					controller = { is_same_value = event_target:home_country }
+																				}																	
+																				found_planet = {
+																					orbit_planet = THIS 
+																					wait = { 
+																						duration = 3
+																						random = 1
+																						}
+																					effect = { 
+																						id = civtrade.7.effect.1
+																						planet_event = { id = civtrade.8 }
+																					}																																							
+																				}																										
+															}
+														}																																													
+										}
+									}					
+					}
+					
+			}
+			
+}
+
+## Planet Modifiers
+
+planet_event = {
+	id = civtrade.8
+	hide_window = yes
+	is_triggered_only = yes
+	
+	
+	immediate = {
+		random_country = {
+					limit = {
+						is_country_type = civtrader
+						is_same_species = event_target:owner_species
+						}
+					add_minerals = 10
+					add_energy = 10
+		}
+		if = {
+			limit = {
+				has_edict = trade_hub
+				num_modifiers < 6
+			}
+			add_modifier = {
+				modifier = "expanded_trade_network"
+				days = 45
+				}
+		}
+		if = {
+			limit = {
+				NOT = { has_edict = trade_hub }
+				NOT = { has_planet_flag = trade_network_flag }
+				owner = {has_policy_flag = mineral_focus}
+			}
+			remove_modifier = "trade_network_minerals" 
+			add_modifier = {
+				modifier = "trade_network_minerals"
+				days = 45
+				}
+			set_timed_planet_flag = { flag = trade_network_flag days = 45 }		
+		
+			else = {
+				if = {
+					limit = {
+					has_planet_flag = trade_network_flag 
+					}
+				break = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_edict = trade_hub }
+				NOT = { has_planet_flag = trade_network_flag }
+				owner = {has_policy_flag = energy_focus}
+			}
+			remove_modifier = "trade_network_energy" 
+			add_modifier = {
+				modifier = "trade_network_energy"
+				days = 45
+				}
+			set_timed_planet_flag = { flag = trade_network_flag days = 45 }		
+		
+			else = {
+				if = {
+					limit = {
+					has_planet_flag = trade_network_flag 
+					}
+				break = yes
+				}
+			}
+		}
+				if = {
+			limit = {
+				NOT = { has_edict = trade_hub }
+				NOT = { has_planet_flag = trade_network_flag }
+				owner = {has_policy_flag = food_focus}
+			}
+			remove_modifier = "trade_network_food" 
+			add_modifier = {
+				modifier = "trade_network_food"
+				days = 45
+				}
+			set_timed_planet_flag = { flag = trade_network_flag days = 45 }		
+		
+			else = {
+				if = {
+					limit = {
+					has_planet_flag = trade_network_flag 
+					}
+				break = yes
+				}
+			}
+		}
+		
+	}		
+}
+
+## Decade pulse chance event
+
+event = {
+	id = civtrade.9
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		
+		every_country = {
+			limit = {
+				has_country_flag = birth_of_civtrade
+				NOT = { has_policy_flag = restricted_trade }
+			}
+			random_owned_planet = { 
+				random_list = {
+					80 = { planet_event = { id = civtrade.10 days = 300 random 150 }  }
+					20 = {  }
+				}
+						
+			}
+			
+		}
+	}
+}
+
+## Decade/Subsidized pulse spawn
+
+planet_event = {
+	id = civtrade.10
+	hide_window = yes
+	is_triggered_only = yes
+	location = ROOT
+	
+	trigger = {
+		owner = {is_country_type = default
+		has_country_flag = birth_of_civtrade 
+		NOT = { has_policy_flag = restricted_trade }
+		}
+	}
+	
+	immediate = {
+			
+			owner = {
+				if = {
+					limit = {has_technology = "tech_wormhole_generation_1"} 
+					ROOT = { planet_event = { id = civtrade.5 } }
+					
+					else = {
+						if = {
+							limit = {has_technology = "tech_warp_drive_1"} 
+							ROOT = { planet_event = { id = civtrade.6 } }
+								
+							else = {
+								if = {
+									limit {has_technology = "tech_hyper_drive_1"} 
+									ROOT = { planet_event = { id = civtrade.7  } }		
+													
+								}
+							
+							}
+						
+					
+						}
+					
+					}
+					
+				}
+			
+			}
+		
+		
+	
+	
+	}
+
+}
+
+## Check if planet has a trade hub
+
+country_event = {
+	id = civtrade.11
+	hide_window = yes
+
+	trigger = {
+		is_country_type = default
+		has_country_flag = birth_of_civtrade
+	}
+	immediate = {	
+		if = {
+			limit = {
+				any_owned_planet = {
+					has_edict = trade_hub
+				}
+			}
+			set_country_flag = trade_hub_active
+			else = {
+				if = {
+					limit = {
+						any_owned_planet = {
+							NOT = { has_edict = trade_hub }
+						}
+						has_country_flag = trade_hub_active
+					}
+					remove_country_flag = trade_hub_active
+				}
+				
+			}
+		}
+	}
+}
+		
+## Check and spawn for subsidized trade
+
+country_event = {
+	id = civtrade.12
+	hide_window = yes
+	
+	trigger = {
+		has_country_flag = birth_of_civtrade
+		has_edict = trade_subsidies	
+	}
+	
+	mean_time_to_happen = {
+		days = 720
+	}
+	
+	immediate = {
+			random_owned_planet = { planet_event = { id = civtrade.10 }  }				
+	}
+}
+
+
+
+# Event to fix hostile fleets coused by patch 1.1.0, this deletes all trader countries and resets country flags
+
+event = {
+	id = civtrade.13
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes 
+	
+	trigger = {
+		any_country = {
+			is_country_type = civtrader
+		}
+	}
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_country_type = civtrader
+			}
+			destroy_country = yes
+		
+		}
+		every_country = {
+			limit = {
+				has_country_flag = birth_of_civtrade
+			}
+			remove_country_flag = birth_of_civtrade
+		}
+			
+	}
+}
+
+country_event = {
+	id = civtrade.14
+	hide_window = yes
+	
+	trigger = {
+		has_country_flag = birth_of_civtrade
+		has_policy_flag = restricted_trade	
+	}
+	
+	mean_time_to_happen = {
+		days = 360
+	}
+	
+	immediate = {
+			species = {save_event_target_as = owner_species }				
+			random_country = {
+				limit = {
+					is_country_type = civtrader
+					is_same_species = event_target:owner_species
+				}
+				random_owned_fleet = { 
+					limit = { 
+						random_owned_ship = { 
+							limit = {
+								OR = {
+									is_ship_size = civilian_trade_freighter
+									is_ship_size = civilian_trade_tanker
+								}
+							}						
+						}
+					}
+					fleet_event = { id = civtrade.15 }
+					
+				}
+				
+			}
+			
+	}
+}
+
+fleet_event = {
+	id = civtrade.15
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger {
+	}
+	
+	immediate = {
+		destroy_fleet = ROOT	
+	}
+}
+
+

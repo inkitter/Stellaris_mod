@@ -1,0 +1,55 @@
+﻿l_german:
+
+#############################
+# Civilian Trade Events
+#############################
+
+
+ civtrade.1.name:0 "Privathandel"
+ civtrade.1.desc:0 "After the successful establishment of the first [Root.Owner.GetSpeciesName] colony an intrepid and some would say foolhardy group of entrepreneurs on [Root.Capital.GetName] have set out on their first trade run to the outer colonies. \n\nThis is a monumental day for [Root.Owner.GetName] and will forever set the tone for future civilian endeavors in the depths of space."
+ civtrade.4.name:0 "Ein neues Convoy!"
+ civtrade.1.respond: "Los geths!"
+ civtrade.2.name:0 "Test"
+
+# Options
+ civtrade.1.a:0 "Die Geister werden ihnen den weg zeigen."
+ civtrade.1.b:0 "Eure Lizens ist gueltig. Ihr duerft abfliegen."
+ civtrade.1.c:0 "Unabhängige Aktionen stehen su ein unabhängiges Kopf zu: passt auf eurer Hybris auf."
+ civtrade.1.d:0 "Sich mit eigenen Haende hochzuschaffen ist bemerkenswert. Viel Glueck."
+ civtrade.1.e:0 "Diese Egoistische und Antikollektivistische Aktion ist unfassbar!"
+ civtrade.1.f:0 "Bislang ihr Steuern und Zinsen bezahlen werdet, ist alles Ok."
+ civtrade.1.g:0 "Dank Reisefreiheit und Handelsfreiheit ist unsere Gesellschaft Stark."
+#############################
+# Civilian Trade effects
+#############################
+ trade_network:0 "Handlaer Besuch"
+ trade_network_desc:0 "Weltraumhaendler sind vor wenigem hier gewesen. Ihr aufenthalt hat die Planetoekonomie eifriger gemacht."
+#############################
+# Civilian Trade personality
+#############################
+ personality_civilian_traders:0 "Handelsbund"
+ personality_civilian_traders_desc:0 "Die Weltallaendler sind immer unterwegs, auf der suche nach neue Handelsmoeglichkeiten."
+####################################
+# Edicts
+#################################### 
+
+# Planet Edicts
+ edict_trade_hub:0 "Handelszentrum"
+ edict_trade_hub_desc:0 "Mit der beschaffung von Speziellen Handelsorten und verleichtate Uebernachtungsmoeglichkeiten muessten wessentlich mehr Haendler interessiert sein unser Planet in dessen Handelsrouten hinzuzufuegen."
+
+####################################
+# Policies
+#################################### 
+
+ policy_civilian_trade:0 "Privathandel"
+ policy_civilian_trade_desc:0 "Ob Weltraumhandel unter Protektionismus oder Frei Handel sich aufbauen wird, wird zu mehr oder weniger neue Haendler bringen."
+
+ unrestricted_trade:0 "Freihandel"
+ unrestricted_trade_name: "Freihandel" 
+ unrestricted_trade_desc:0 "Der Staat hat kein grund sich im Handel einzumischen (es sei den zwei-drei Kontrolleaktionen durchzufueren)."
+ subsidized_trade:0 "Subventioniert"
+ subsidized_trade_name:0 "Subventioniertes Handel"
+ subsidized_trade_desc:0 "Da Handel so wichtig fuer unser Staat und unsere Buerger ist, sollten wir neue Haendler helfen ihr Geschaefft aufzumachen. MEHR Haendlerlizensen werden gegeben."
+ restricted_trade:0 "Planetarer Protektionismus"
+ restricted_trade_name:0 "Planetarer Protektionismus"
+ restricted_trade_desc:0 "Zu viel freier Handel ist schlecht fuer unsere Interessen. Haendler sollen auf ihre Planeten Handeln. KEINE neuen Haendler sind zugelassen."

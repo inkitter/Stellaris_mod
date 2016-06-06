@@ -1,0 +1,225 @@
+# Icons set here are the ones shown in component editor list.
+
+component_set = {
+	key = "C_AUTO_REPAIR_1"
+	
+	icon = "GFX_C_ship_part_auto_repair_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "C_AUTO_REPAIR_2"
+	
+	icon = "GFX_C_ship_part_auto_repair_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "C_AUTO_REPAIR_3"
+	
+	icon = "GFX_C_ship_part_auto_repair_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "C_AUTO_REPAIR_4"
+	
+	icon = "GFX_C_ship_part_auto_repair_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "C_AUTO_REPAIR_5"
+	
+	icon = "GFX_C_ship_part_auto_repair_5"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TARGETTING_COMPUTER_1"
+	
+	icon = "GFX_ship_part_targeting_computer_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TARGETTING_COMPUTER_2"
+	
+	icon = "GFX_ship_part_targeting_computer_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TARGETTING_COMPUTER_3"
+	
+	icon = "GFX_ship_part_targeting_computer_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TARGETTING_COMPUTER_4"
+	
+	icon = "GFX_ship_part_targeting_computer_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TARGETTING_COMPUTER_5"
+	
+	icon = "GFX_ship_part_targeting_computer_5"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "CRYSTAL_ARMOR_3"
+	
+	icon = "GFX_ship_part_crystal_armor_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "CRYSTAL_ARMOR_4"
+	
+	icon = "GFX_ship_part_crystal_armor_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "CRYSTAL_ARMOR_5"
+	
+	icon = "GFX_ship_part_crystal_armor_5"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "CRYSTAL_ARMOR_6"
+	
+	icon = "GFX_ship_part_crystal_armor_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ARMOR_6"
+	
+	icon = "GFX_ship_part_armor_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ARMOR_7"
+	
+	icon = "GFX_ship_part_armor_7"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ARMOR_8"
+	
+	icon = "GFX_ship_part_armor_8"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ARMOR_9"
+	
+	icon = "GFX_ship_part_armor_9"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ARMOR_10"
+	
+	icon = "GFX_ship_part_armor_10"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ZERO_POINT_REACTOR_6"
+	
+	icon = "GFX_ship_part_reactor_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ZERO_POINT_REACTOR_7"
+	
+	icon = "GFX_ship_part_reactor_7"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ZERO_POINT_REACTOR_8"
+	
+	icon = "GFX_ship_part_reactor_8"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ZERO_POINT_REACTOR_9"
+	
+	icon = "GFX_ship_part_reactor_9"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ZERO_POINT_REACTOR_10"
+	
+	icon = "GFX_ship_part_reactor_10"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SHIELD_6"
+	
+	icon = "GFX_ship_part_shield_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SHIELD_7"
+	
+	icon = "GFX_ship_part_shield_7"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SHIELD_8"
+	
+	icon = "GFX_ship_part_shield_8"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SHIELD_9"
+	
+	icon = "GFX_ship_part_shield_9"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "SHIELD_10"
+	
+	icon = "GFX_ship_part_shield_10"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "C_CREW_1"
+	
+	icon = "GFX_ship_part_c_crew_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "C_CREW_2"
+	
+	icon = "GFX_ship_part_c_crew_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "C_CREW_3"
+	
+	icon = "GFX_ship_part_c_crew_3"
+	icon_frame = 1	
+}

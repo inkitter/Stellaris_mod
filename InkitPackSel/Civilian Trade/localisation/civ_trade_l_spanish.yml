@@ -1,0 +1,80 @@
+﻿l_spanish:
+
+
+#############################
+# Civilian Trade Events
+#############################
+
+
+civtrade.1.name:0 "Comercio Civil"
+civtrade.1.desc:0 "Tras el exitoso establecimiento de la primera colonia [Root.Owner.GetSpeciesName], un intrépido y algunos dirían que imprudente grupo de empresarios de [Root.Capital.GetName] han establecido su primera ruta comercial hacia las colonias exteriores. \n\nEste es un día colosal para [Root.Owner.GetName] y sentará las bases de futuros esfuerzos civiles en las profundidades del espacio para siempre ."
+
+# Options
+civtrade.1.a:0 "Que su fé los guíe siempre en su camino."
+civtrade.1.b:0 "Sus permisos parecen estar en orden. Continuen."
+civtrade.1.c:0 "La acción independiente engendra el pensamiento independiente. Vigile su arrogancia."
+civtrade.1.d:0 "El progreso a través de tus propios medios es un esfuerzo que vale la pena."
+civtrade.1.e:0 "Sus propuestas de comercio independiente no serán toleradas."
+civtrade.1.f:0 "Mantenga sus salarios e impuestos al día y no habrá ningún problema."
+civtrade.1.g:0 "La libertad de movimiento y la libertad de comercio son características de nuestra sociedad."
+civtrade.1.h:0 "Sus permisos parecen estar en orden. Continuen."
+
+#############################
+# Civilian Trade effects
+#############################
+trade_network_minerals:0 "Red Comercial"
+trade_network_minerals_desc:0 "Comerciantes intergalácticos han establecido un puesto comercial recientemente en este planeta, proporcionando un pequeño impulso a su economía."
+trade_network_energy:0 "Red Comercial"
+trade_network_energy_desc:0 "Comerciantes intergalácticos han establecido un puesto comercial recientemente en este planeta, proporcionando un pequeño impulso a su economía."
+trade_network_food:0 "Red Comercial"
+trade_network_food_desc:0 "Comerciantes intergalácticos han establecido un puesto comercial recientemente en este planeta, proporcionando un pequeño impulso a su economía."
+
+#############################
+# Civilian Trade personality
+#############################
+personality_civilian_traders:0 "Comerciantes Civiles"
+personality_civilian_traders_desc:0 "Comerciantes civiles haciendo sus rutas a través de todo su imperio, siempre buscando algo con lo que comerciar."
+####################################
+# Edicts
+####################################
+
+# Planet Edicts
+edict_trade_hub:0 "Centro de Comercio"
+edict_trade_hub_desc:0 "Proporcionando una cantidad suficiente de servicios y espacio, este planeta puede atraer a una gran cantidad de comerciantes de diferentes planetas, así como ser capaz de tomar ventaja de su presencia."
+
+# Country Edicts
+edict_trade_subsidies:0 "Subvenciones Comerciales"
+edict_trade_subsidies_desc:0 " "Se entiende la necesidad de echar una mano a los comerciantes para apoyarlos en sus inicios. Mayor producción de comerciantes."
+
+####################################
+# Policies
+####################################
+policy_civilian_trade:0 "Comercio Civil"
+policy_civilian_trade_desc:0 "Dependiendo del grado de tensión con que se ajusten las "riendas" del comercio, tu imperio generará un mayor o menor número de comerciantes."
+unrestricted_trade:0 "Sin Restricciones"
+unrestricted_trade_name: "Comercio Sin Restricciones"
+unrestricted_trade_desc:0 "Preferencia por un enfoque sin intervención que permita a los mercados marcarse sus propios límites."
+
+restricted_trade:0 "Restringido"
+restricted_trade_name:0 "Comercio Restringido"
+restricted_trade_desc:0 "El exceso de libertad de movimiento y de comercio son negativos para nuestro imperio. No se permiten nuevos comerciantes."
+
+policy_trade_focus:0 "Enfoque Comercio"
+policy_trade_focus_desc:0 "Las reservas del gobierno pueden centrarse en la compra de un producto específico del que su imperio carezca."
+mineral_focus:0 "Minerales"
+mineral_focus_name:0 "Enfoque Mineral"
+mineral_focus_desc:0 "Instruir a los administradores para la compra de minerales de los comerciantes."
+energy_focus:0 "Energía"
+energy_focus_name:0 "Enfoque Energía"
+energy_focus_desc:0 "Instruir a los administradores para el comercio de créditos de energía."
+food_focus:0 "Comida"
+food_focus_name:0 "Enfoque Comida"
+food_focus_desc:0 "Instruir a los administradores para la compra de comida de los comerciantes."
+
+####################################
+# Hull Sizes
+#################################### 
+civilian_trade_freighter:0 "Carguero Civil"
+civilian_trade_freighter_plural:0 "Cargueros Civiles"
+civilian_trade_tanker:0 "Nave-cisterna Civil"
+civilian_trade_tanker_plural:0 "Naves-cisterna Civiles"

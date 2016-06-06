@@ -1,0 +1,196 @@
+#	Example:
+# 
+#	example_effect = {
+#		add_energy = -100
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+#	Example:
+# 
+#	example_effect = {
+#		add_energy = -100
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+# Concession Demand Effects
+	energy_war_lose1 = {
+		add_energy = -100
+	}
+	
+	energy_war_win1 = {
+		add_energy = 100
+	}
+	
+# Checks if Crystalline Entity country (global event target) exists
+# Creates the country and saves it if it does not
+create_crystal_country = {
+	if = {
+		limit = {
+			NOT = {
+				exists = event_target:crystal_country
+			}
+		}
+		create_country = {
+			name = "Prism"
+			type = crystal
+			flag = {
+				icon = {
+					category = "zoological"
+					file = "flag_zoological_1.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}
+		last_created_country = {
+			save_global_event_target_as = crystal_country
+		}
+	}
+}
+
+# Checks if Void Cloud country (global event target) exists
+# Creates the country and saves it if it does not
+create_cloud_country = {
+	if = {
+		limit = { NOT = { exists = event_target:cloud_country } }
+		create_country = {
+			name = "Enigmatic Energy"
+			type = cloud
+			flag = {
+				icon = {
+					category = "zoological"
+					file = "flag_zoological_1.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}
+		last_created_country = {
+			save_global_event_target_as = cloud_country
+		}
+	}
+}
+
+# Checks if Space Amoeba country (global event target) exists
+# Creates the country and saves it if it does not
+create_amoeba_country = {
+	if = {
+		limit = { NOT = { exists = event_target:amoeba_country } }
+		create_country = {
+			name = "Spaceborne Organics"
+			type = amoeba
+			flag = {
+				icon = {
+					category = "zoological"
+					file = "flag_zoological_1.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}
+		last_created_country = {
+			save_global_event_target_as = amoeba_country
+		}
+	}
+}
+
+# Checks if Mining Drone country (global event target) exists
+# Creates the country and saves it if it does not
+create_drone_country = {
+	if = {
+		limit = { NOT = { exists = event_target:drone_country } }
+		create_country = {
+			name = "Mineral Extraction Operation"
+			type = drone
+			flag = {
+				icon = {
+					category = "zoological"
+					file = "flag_zoological_1.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}
+		last_created_country = {
+			save_global_event_target_as = drone_country
+			set_graphical_culture = ancient_drone_01
+		}
+	}
+}
+
+# Checks if Tiyanki country (global event target) exists
+# Creates the country and saves it if it does not
+create_tiyanki_country = {
+	if = {
+		limit = { NOT = { exists = event_target:tiyanki_country } }
+		create_country = {
+			name = "Placid Leviathans"
+			type = tiyanki
+			flag = {
+				icon = {
+					category = "zoological"
+					file = "flag_zoological_1.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+		}
+		last_created_country = {
+			save_global_event_target_as = tiyanki_country
+		}
+	}
+}

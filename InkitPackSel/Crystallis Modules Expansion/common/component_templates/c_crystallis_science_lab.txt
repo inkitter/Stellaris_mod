@@ -1,0 +1,217 @@
+#############
+#	COST	#
+#############
+
+@cost_S1 = 5
+@cost_M1 = 10
+@cost_L1 = 20
+
+@cost_S2 = 10
+@cost_M2 = 20
+@cost_L2 = 40
+
+@cost_S3 = 15
+@cost_M3 = 30
+@cost_L3 = 60
+
+@cost_S4 = 20
+@cost_M4 = 40
+@cost_L4 = 80
+
+@cost_S5 = 25
+@cost_M5 = 50
+@cost_L5 = 100
+
+@cost_S6 = 30
+@cost_M6 = 60
+@cost_L6 = 120
+
+@cost_S7 = 35
+@cost_M7 = 70
+@cost_L7 = 140
+
+@cost_S8 = 40
+@cost_M8 = 80
+@cost_L8 = 160
+
+@cost_S9 = 45
+@cost_M9 = 90
+@cost_L9 = 180
+
+@cost_S10 = 50
+@cost_M10 = 100
+@cost_L10 = 200
+
+#############
+#	POWER	#
+#############
+
+@power_S1 = -5
+@power_M1 = -10
+@power_L1 = -20
+             
+@power_S2 = -7.5
+@power_M2 = -15
+@power_L2 = -30
+             
+@power_S3 = -10
+@power_M3 = -20
+@power_L3 = -40
+             
+@power_S4 = -12.5
+@power_M4 = -25
+@power_L4 = -50
+             
+@power_S5 = -15
+@power_M5 = -30
+@power_L5 = -60
+
+@power_S6 = -17.5
+@power_M6 = -35
+@power_L6 = -70
+             
+@power_S7 = -20
+@power_M7 = -40
+@power_L7 = -80
+             
+@power_S8 = -22.5
+@power_M8 = -45
+@power_L8 = -90
+             
+@power_S9 = -25
+@power_M9 = -50
+@power_L9 = -100
+             
+@power_S10 = -27.5
+@power_M10 = -55
+@power_L10 = -110
+
+utility_component_template = {
+	key = "C_MEDIUM_SCIENCE_LAB_1"
+	size = medium
+	icon = "GFX_ship_part_c_science_lab_1"
+	icon_frame = 1
+	power = @power_S1
+	cost = @cost_S3
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+	ship_modifier = {
+		ship_shield_hp_mult = 0.25
+		ship_shield_regen_add_perc = 0.25
+		science_ship_survey_speed = 0.2
+		ship_anomaly_fail_risk = -0.05
+		ship_anomaly_generation_chance_mult = 0.05
+	}
+	
+	prerequisites = { tech_c_deep_space_lab_1 }
+	component_set = "science_labs"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "C_MEDIUM_SCIENCE_LAB_2"
+	size = medium
+	icon = "GFX_ship_part_c_science_lab_2"
+	icon_frame = 1
+	power = @power_M1
+	cost = @cost_S4
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+	ship_modifier = {
+		ship_shield_hp_mult = 0.5
+		ship_shield_regen_add_perc = 0.5
+		science_ship_survey_speed = 0.4
+		ship_anomaly_fail_risk = -0.10
+		ship_anomaly_generation_chance_mult = 0.1
+	}
+	
+	prerequisites = { tech_c_deep_space_lab_2 }
+	component_set = "science_labs"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "C_MEDIUM_SCIENCE_LAB_3"
+	size = medium
+	icon = "GFX_ship_part_c_science_lab_3"
+	icon_frame = 1
+	power = @power_M2
+	cost = @cost_S5
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+	ship_modifier = {
+		ship_shield_hp_mult = 1
+		ship_shield_regen_add_perc = 1
+		science_ship_survey_speed = 0.6
+		ship_anomaly_fail_risk = -0.15
+		ship_anomaly_generation_chance_mult = 0.15
+	}
+	
+	prerequisites = { tech_c_deep_space_lab_3 }
+	component_set = "science_labs"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "C_MEDIUM_SCIENCE_LAB_4"
+	size = medium
+	icon = "GFX_ship_part_c_science_lab_4"
+	icon_frame = 1
+	power = @power_M3
+	cost = @cost_S6
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+	ship_modifier = {
+		ship_shield_hp_mult = 1.5
+		ship_shield_regen_add_perc = 1.5
+		science_ship_survey_speed = 0.8
+		ship_anomaly_fail_risk = -0.20
+		ship_anomaly_generation_chance_mult = 0.2
+	}
+	
+	prerequisites = { tech_c_deep_space_lab_4 }
+	component_set = "science_labs"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "C_MEDIUM_SCIENCE_LAB_5"
+	size = medium
+	icon = "GFX_ship_part_c_science_lab_5"
+	icon_frame = 1
+	power = @power_M4
+	cost = @cost_S7
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+	ship_modifier = {
+		ship_shield_hp_mult = 2
+		ship_shield_regen_add_perc = 2
+		science_ship_survey_speed = 1
+		ship_anomaly_fail_risk = -0.25
+		ship_anomaly_generation_chance_mult = 0.25
+	}
+	
+	prerequisites = { tech_c_deep_space_lab_5 }
+	component_set = "science_labs"
+	
+	ai_weight = {
+		weight = 1
+	}
+}

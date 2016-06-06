@@ -91,7 +91,7 @@ trait_inept = {
 
 trait_natural_engineers = {
 	cost = 1
-	opposites = { "trait_natural_physicists" "trait_natural_sociologists" "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
+	opposites = { "trait_natural_physicists" "trait_natural_sociologists" }
 	
 	modifier = {
 		tile_resource_engineering_research_mult = 0.15
@@ -100,7 +100,7 @@ trait_natural_engineers = {
 
 trait_incompetent_engineers = {
 	cost = -1
-	opposites = { "trait_natural_physicists" "trait_natural_sociologists" "trait_natural_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
+	opposites = { "trait_natural_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
 	
 	modifier = {
 		tile_resource_engineering_research_mult = -0.15
@@ -109,7 +109,7 @@ trait_incompetent_engineers = {
 
 trait_natural_physicists = {
 	cost = 1
-	opposites = { "trait_natural_engineers" "trait_natural_sociologists" "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
+	opposites = { "trait_natural_engineers" "trait_natural_sociologists" }
 	
 	modifier = {
 		tile_resource_physics_research_mult = 0.15
@@ -118,7 +118,7 @@ trait_natural_physicists = {
 
 trait_incompetent_physicists = {
 	cost = -1
-	opposites = { "trait_natural_engineers" "trait_natural_sociologists" "trait_incompetent_engineers" "trait_natural_physicists" "trait_incompetent_sociologists" }
+	opposites = { "trait_incompetent_engineers" "trait_natural_physicists" "trait_incompetent_sociologists" }
 	
 	modifier = {
 		tile_resource_physics_research_mult = -0.15
@@ -127,7 +127,7 @@ trait_incompetent_physicists = {
 
 trait_natural_sociologists = {
 	cost = 1
-	opposites = { "trait_natural_physicists" "trait_natural_engineers" "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_incompetent_sociologists" }
+	opposites = { "trait_natural_physicists" "trait_natural_engineers" }
 	
 	modifier = {
 		tile_resource_society_research_mult = 0.15
@@ -136,7 +136,7 @@ trait_natural_sociologists = {
 
 trait_incompetent_sociologists = {
 	cost = -1
-	opposites = { "trait_natural_physicists" "trait_natural_engineers" "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_natural_sociologists" }
+	opposites = { "trait_incompetent_engineers" "trait_incompetent_physicists" "trait_natural_sociologists" }
 	
 	modifier = {
 		tile_resource_society_research_mult = -0.15
@@ -169,7 +169,6 @@ trait_nonadaptive = {
 		pop_environment_tolerance = -0.10
 	}
 }
-
 
 trait_rapid_breeders = {
 	cost = 1
@@ -217,7 +216,7 @@ trait_slow_learners = {
 
 trait_very_strong = {
 	cost = 4
-	opposites = { "trait_weak" "trait_strong" "trait_very_weak" }
+	opposites = { "trait_weak" "trait_strong" }
 	
 	modifier = {
 		army_damage_mult = 0.40
@@ -227,7 +226,7 @@ trait_very_strong = {
 
 trait_strong = {
 	cost = 1
-	opposites = { "trait_weak" "trait_very_strong" "trait_very_weak" }
+	opposites = { "trait_weak" "trait_very_strong" }
 	
 	modifier = {
 		army_damage_mult = 0.20
@@ -237,7 +236,7 @@ trait_strong = {
 
 trait_weak = {
 	cost = -1
-	opposites = { "trait_strong" "trait_very_strong" "trait_very_weak" }
+	opposites = { "trait_strong" "trait_very_strong" }
 	
 	modifier = {
 		army_damage_mult = -0.20
@@ -357,13 +356,13 @@ trait_individualistic = {
 trait_venerable = {
 	cost = 4
 	modifier = { leader_age = 120 }
-	opposites = { "trait_enduring" "trait_transient" }
+	opposites = { "trait_enduring" }
 }
 
 trait_enduring = {
 	cost = 1
 	modifier = { leader_age = 30 }
-	opposites = { "trait_venerable" "trait_transient" }
+	opposites = { "trait_venerable" }
 }
 
 trait_transient = {

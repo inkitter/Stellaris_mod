@@ -1,0 +1,319 @@
+# Variables:
+#  name, the name of the edict, also serves as localisation key.
+#  influence_cost, the base influence cost of activating the edict.
+#  potential, planet or country trigger to decide whether the edict should be shown.
+#  allow, planet or country trigger to decide if whether this edict can be activated.
+#  effect, an effect that is executed when this trigger activates.
+#  prerequisites, tech requirements for this trigger.
+#  ai_will_do, determines AI scoring for edict
+#  modifier, a list of modifiers
+#  length, number of days the trigger is active.
+
+# Sets the edict-cost for all edicts with this variable
+
+
+# TODO: 
+# See if it's possible to display the designated planet in the send_to_rally_X
+# If possible, add tooltip that hides the 'gives modifier: '
+#
+#
+
+
+##### Set Rally Points ############
+
+########## Rally point 1 ################
+planet_edict = {
+	name = "set_rally_point_1"
+	influence_cost = 0
+	length = 0
+	potential = { 
+		NOT = { has_modifier = "rally_point_1" }
+		NOT = { has_planet_flag = hide_rally_point_edicts}
+	}
+	allow = { }
+
+	effect = { 
+		#Clear rally point 1 from the planet which previously had it, dunno what happens if two planets has the same rally point active.
+		#Probably it would only send the ships to the last or first planet added.
+		owner = {
+			every_owned_planet = {
+				limit = {
+					has_modifier = "rally_point_1"
+				}
+				custom_tooltip = edict_set_rally_point_removed.tooltip
+				hidden_effect = {
+					remove_modifier = "rally_point_1"
+				}
+			}
+		}
+		custom_tooltip = edict_set_rally_point.tooltip
+		hidden_effect = {
+			add_modifier = {
+				modifier = "rally_point_1"
+				days = -1
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+########## Rally point 2 ################
+planet_edict = {
+	name = "set_rally_point_2"
+	influence_cost = 0
+	length = 0
+	potential = { 
+		NOT = { has_modifier = "rally_point_2" }
+		NOT = { has_planet_flag = hide_rally_point_edicts}
+	}
+	allow = { }
+
+	effect = { 
+		owner = {
+			every_owned_planet = {
+				limit = {
+					has_modifier = "rally_point_2"
+				}
+				custom_tooltip = edict_set_rally_point_removed.tooltip
+				hidden_effect = {
+					remove_modifier = "rally_point_2"
+				}
+			}
+		}
+		custom_tooltip = edict_set_rally_point.tooltip
+		hidden_effect = {
+			add_modifier = {
+				modifier = "rally_point_2"
+				days = -1
+			}
+		}
+
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+########## Rally point 3 ################
+planet_edict = {
+	name = "set_rally_point_3"
+	influence_cost = 0
+	length = 0
+	potential = {
+		NOT = { has_modifier = "rally_point_3" }
+		NOT = { has_planet_flag = hide_rally_point_edicts} 
+	}
+	allow = { }
+
+	effect = { 
+
+		owner = {
+			every_owned_planet = {
+				limit = {
+					has_modifier = "rally_point_3"
+				}
+				custom_tooltip = edict_set_rally_point_removed.tooltip
+				hidden_effect = {
+					remove_modifier = "rally_point_3"
+				}
+			}
+		}
+		custom_tooltip = edict_set_rally_point.tooltip
+		hidden_effect = {
+			add_modifier = {
+				modifier = "rally_point_3"
+				days = -1
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+
+#########Set Send Rally points ###########
+
+planet_edict = {
+	name = "send_to_rally_point_1"
+	influence_cost = 0
+	length = 0
+	potential = {
+		is_not_sending_or_hiding = yes
+		exists_rally_point_1 = yes #From scripted effects/planetary_rally_point_scripted_effects.txt
+	}
+	allow = { }
+
+	effect = { 
+		owner = {
+			every_owned_planet = {
+				limit = {
+					has_modifier = "rally_point_1"
+				}
+				custom_tooltip = sending_to_rally_point.tooltip
+			}
+		}
+		hidden_effect = {
+			add_modifier = {
+				modifier = "send_to_rally_point_1"
+				days = -1
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+planet_edict = {
+	name = "send_to_rally_point_2"
+	influence_cost = 0
+	length = 0
+	potential = { 
+		is_not_sending_or_hiding = yes
+		exists_rally_point_2 = yes
+	}
+	allow = { }
+
+	effect = { 
+		owner = {
+			every_owned_planet = {
+				limit = {
+					has_modifier = "rally_point_2"
+				}
+				custom_tooltip = sending_to_rally_point.tooltip
+			}
+		}
+		hidden_effect = {
+			add_modifier = {
+				modifier = "send_to_rally_point_2"
+				days = -1
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+planet_edict = {
+	name = "send_to_rally_point_3"
+	influence_cost = 0
+	length = 0
+	potential = {
+		is_not_sending_or_hiding = yes
+		exists_rally_point_3 = yes
+	}
+	allow = { }
+
+	effect = { 
+		owner = {
+			every_owned_planet = {
+				limit = {
+					has_modifier = "rally_point_3"
+				}
+				custom_tooltip = sending_to_rally_point.tooltip
+			}
+		}
+		hidden_effect = {
+			add_modifier = {
+				modifier = "send_to_rally_point_3"
+				days = -1
+			}
+		}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}
+
+
+######## RALLY TO ME ##########
+planet_edict = {
+	name = "rally_to_me"
+	influence_cost = 0
+	length = 0
+	potential = {
+		NOT = { has_planet_flag = hide_rally_point_edicts }
+		has_any_rally_point = yes
+	}
+	effect = {
+		owner = {
+			every_owned_planet = {
+				limit = {
+					distance = { #All planets within 60 distance units (units are the same kind as the one for sensors/warp)
+						source = ROOT
+						max_distance = 60
+						min_distance = 0
+					}
+					NOT = { is_same_value = ROOT } #Do not apply to the planet calling to arms
+				}
+
+				custom_tooltip = rally_to_me_custom.tooltip
+				hidden_effect = {
+					set_correct_send_to = yes
+				}
+			}
+		}
+	}
+}
+
+
+####### Clear Rally Point ########
+
+#Clear planet of all rally points
+planet_edict = {
+	name = "clear_rally_point"
+	influence_cost = 0
+	length = 0
+	potential = { 
+		has_any_rally_point = yes
+		NOT = { has_planet_flag = hide_rally_point_edicts}
+	}
+	effect = {
+		hidden_effect = {
+			remove_modifier = "rally_point_1"
+			remove_modifier = "rally_point_2"
+			remove_modifier = "rally_point_3"
+		}
+	}
+}
+#Clear planet of all send to-modifiers, (A planet will only have one but this makes it only take one edict instead of three)
+planet_edict = {
+	name = "clear_send_to_rally_point"
+	influence_cost = 0
+	length = 0
+	potential = {
+		is_sending_to_rally_point = yes
+		NOT = { has_planet_flag = hide_rally_point_edicts}
+	}
+	effect = {
+		hidden_effect = {
+			remove_all_send_to_modifiers = yes
+		}
+	}
+}
+
+
+#### Toggles if edicts related to Rally Points are shown ###
+planet_edict = {
+	name = "toggle_rally_point_visibility"
+	influence_cost = 0
+	length = 0
+	potential = {}
+
+	effect = {
+		IF = {
+			LIMIT = { 
+				has_planet_flag = hide_rally_point_edicts 
+			} 
+			remove_planet_flag = hide_rally_point_edicts
+		ELSE = {
+			set_planet_flag = hide_rally_point_edicts
+		}
+		}
+	}
+}

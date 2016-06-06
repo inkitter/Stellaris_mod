@@ -1,0 +1,88 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+@civilian_ships_combat_speed = 0.5
+@corvette_combat_speed = 1.5
+@corvette_combat_rotation = 0.08
+@corvette_collision_radius = 2.0
+
+@destroyer_combat_speed = 1.0
+@destroyer_combat_rotation = 0.05
+@destroyer_collision_radius = 3
+
+@cruiser_combat_speed = 0.7
+@cruiser_combat_rotation = 0.025
+@cruiser_collision_radius = 4
+
+@battleship_combat_speed = 0.35
+@battleship_combat_rotation = 0.02
+@battleship_collision_radius = 5
+
+@build_block_radius_none = 0
+@build_block_radius_tiny = 10
+@build_block_radius_small = 70
+@build_block_radius_medium = 90
+@build_block_radius_large = 110
+
+
+# Civilian Trader Freighter
+civilian_trade_freighter = {
+	graphical_culture = no
+	entity = cargo_transport_containers_entity
+	max_speed = 3.75
+	acceleration = 0.3
+	rotation_speed = 0.2
+	combat_max_speed = 0.5
+	combat_rotation_speed = 0.2
+	
+	modifier = {
+		ship_evasion_mult = -1
+		ship_armor_add = 3
+	}
+	max_hitpoints = 240
+	size_multiplier = 1
+	fleet_slot_size = 3
+	section_slots = { "mid" = { locator = "root" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60	
+	is_civilian = yes
+	class = shipclass_military
+	
+	is_designable = no
+	
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+}
+
+# Civilian Trade Tanker
+civilian_trade_tanker = {
+	graphical_culture = no
+	entity = cargo_transport_tanker_entity
+	max_speed = 3.75
+	acceleration = 0.3
+	rotation_speed = 0.2
+	combat_max_speed = 0.5
+	combat_rotation_speed = 0.2
+	
+	modifier = {
+		ship_evasion_mult = -1
+		ship_armor_add = 3
+	}
+	max_hitpoints = 240
+	size_multiplier = 1
+	fleet_slot_size = 3
+	section_slots = { "mid" = { locator = "root" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60	
+	is_civilian = yes
+	class = shipclass_military
+	
+	is_designable = no
+	
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+}

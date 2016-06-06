@@ -1,0 +1,79 @@
+################
+#Flagship Malus#
+################
+
+#Flagship Built Check
+country_event = {
+	id = carriermod.flagship.1
+	title = "flagship_warning"
+	desc = "flagship_warning.desc"
+	picture = GFX_evt_ship_in_orbit
+	
+	trigger = {
+		is_country_type = default
+		not = {
+			has_country_flag = flagship_built
+		}
+		count_owned_ships = {
+			owner = root
+			limit = { is_ship_size = Flagship }
+			count = 1
+		}
+	}
+	
+	immediate = {
+		set_country_flag = flagship_built
+	}
+	
+	option = {
+		name = UNDERSTOOD
+	}
+}
+
+#Flagship Over Limit
+country_event = {
+	id = carriermod.flagship.3
+	title = "flagship_over"
+	desc = "flagship_over.desc"
+	fire_only_once = yes
+	picture = GFX_evt_galactic_senate
+	
+	trigger = {
+		is_country_type = default
+		has_country_flag = flagship_built	
+		count_owned_ships = {
+			limit = { is_ship_size = Flagship }
+			count > 1
+		}
+	}
+	
+	option = {
+		name = OOPS
+	}
+}
+
+#Flagship Destroyed/Dismissed 
+#Remove flagship_built from country
+country_event = {
+	id = carriermod.flagship.2
+	title = "flagship_reset"
+	desc = "flagship_reset.desc"
+	picture = GFX_evt_ship_in_orbit
+	
+	trigger = {
+		is_country_type = default
+		has_country_flag = flagship_built	
+		count_owned_ships = {
+			limit = { is_ship_size = Flagship }
+			count < 1
+		}
+	}
+	
+	immediate = {
+		remove_country_flag = flagship_built
+	}
+	
+	option = {
+		name = EXCELLENT
+	}
+}

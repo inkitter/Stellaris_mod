@@ -1,0 +1,22 @@
+﻿l_english:
+####################################
+ # Diplomacy text
+ ####################################
+ 
+ # General Greetings
+ playablecolonists.2.title: "System Variety - Dead World"
+ playablecolonists.2.desc: "Thank you for choosing to use the MOD System Variety - Dead world: Colony Ship Start! To begin choose, 'I wish to take to the stars.'"
+ playablecolonists.2.tooltip: "I wish to take to the starts!"
+ 
+ playablecolonists.1.title: "A distant hope"
+ playablecolonists.1.desc: "Faint signals from across the stars have been detected... a probe has found a new world. The last of your people are ready to leave and a colony ship stands ready. \n\nYou must journey from all you have known to this new world in hopes of reviving the [Root.GetName] from the abyss."
+ playablecolonists.1.tooltip: "You are ready! Take to the stars!"
+ 
+ playablecolonists.1.choice.1: "Choice 1"
+ playablecolonists.1.choice.2: "Choice 2"
+ 
+ playablecolonists.3.title: "Tragedy: [Root.GetSpeciesName] Homeworld Lost!"
+ playablecolonists.3.desc: "The [Root.GetSpeciesName] homeworld has become an uninhabitable wasteland lost to [From.GetSpeciesNamePlural] past mistakes. Luckily you made it in time to a new planet to call home. \n\nYour ships have been broken down and used for scrap, you'll have to carefully manage these resources. \n\nThis world is the last light of [Root.GetSpeciesName] civilization. Will the [Root.GetName] flourish and spread like wildfire throughout the galaxy? Or will the [Root.GetSpeciesName] species be snuffed out before you can gain a foothold on a galactic scale?"
+
+ playablecolonists.4.title: "Tragedy: [Root.GetSpeciesName] Homeworld Lost!"
+ playablecolonists.4.desc: "The [Root.GetSpeciesName] homeworld has become an uninhabitable wasteland lost to [From.GetSpeciesNamePlural] past mistakes. Luckily you made it in time to a new planet... Unfortunately it's not the ideal world you hoped for. \n\nDespite this your ships have been broken down and used for scrap, you'll have to be extra carefully with your resources given your less than ideal new homeworld. \n\nThis world is the last light of [Root.GetSpeciesName] civilization. Will the [Root.GetName] flourish and spread like wildfire throughout the galaxy? Or will the [Root.GetSpeciesName] species be snuffed out before you can gain a foothold on a galactic scale?"

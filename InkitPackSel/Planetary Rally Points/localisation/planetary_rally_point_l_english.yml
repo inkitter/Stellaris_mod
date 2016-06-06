@@ -1,0 +1,67 @@
+﻿l_english:
+####MODIFIERS#########
+
+###### DESIGNATE RALLY POINT ########
+ rally_point_1:0 "Rally point 1"
+ rally_point_1_desc:0 "This planet is designated 'Rally Point 1' and can be chosen as a rally point for other planets in our empire."
+
+ rally_point_2:0 "Rally point 2"
+ rally_point_2_desc:0 "This planet is designated 'Rally Point 2' and can be chosen as a rally point for other planets in our empire."
+
+ rally_point_3:0 "Rally point 3"
+ rally_point_3_desc:0 "This planet is designated 'Rally Point 3' and can be chosen as a rally point for other planets in our empire."
+
+
+##### SEND TO RALLY POINTS ##############
+ send_to_rally_point_1:0 "Sending to Rally Point 1"
+ send_to_rally_point_1_desc:0 "This planet is sending all ships it constructs to the planet designated as rally point 1."
+
+ send_to_rally_point_2:0 "Sending to Rally Point 2"
+ send_to_rally_point_2_desc:0 "This planet is sending all ships it constructs to the planet designated as rally point 2."
+
+ send_to_rally_point_3:0 "Sending to Rally Point 3"
+ send_to_rally_point_3_desc:0 "This planet is sending all ships it constructs to the planet designated as rally point 3."
+
+
+#################### EDICTS ##########################
+ edict_set_rally_point_removed.tooltip:0 "This planet will no longer be a Rally Point."
+ edict_set_rally_point.tooltip:0 "§Y[Root.GetName]§! will become a Rally Point."
+ sending_to_rally_point.tooltip:0 "Is the planet we will send our ships to."
+
+
+ edict_set_rally_point_1:0 "Designate Rally Point 1"
+ edict_set_rally_point_1_desc:0 "This Edict designates this planet as a gathering point.\nIf another planet previously had this rally point, it will have its status as a rally point removed."
+
+ edict_set_rally_point_2:0 "Designate Rally Point 2"
+ edict_set_rally_point_2_desc:0 "This Edict designates this planet as a gathering point.\nIf another planet previously had this rally point, it will have its status as a rally point removed."
+ 
+ edict_set_rally_point_3:0 "Designate Rally Point 3"
+ edict_set_rally_point_3_desc:0 "This Edict designates this planet as a gathering point.\nIf another planet previously had this rally point, it will have its status as a rally point removed."
+  
+ edict_send_to_rally_point_1:0 "Send to Rally Point 1"
+ edict_send_to_rally_point_1_desc:0 "This planet will send all ships it constructs to the planet designated as rally point 1."
+
+ edict_send_to_rally_point_2:0 "Send to Rally Point 2"
+ edict_send_to_rally_point_2_desc:0 "This planet will send all ships it constructs to the planet designated as rally point 2."
+
+ edict_send_to_rally_point_3:0 "Send to Rally Point 3"
+ edict_send_to_rally_point_3_desc:0 "This planet will send all ships it constructs to the planet designated as rally point 3."
+
+ edict_clear_rally_point:0 "Clear Rally Points"
+ edict_clear_rally_point_desc:0 "This Edict will clear this planet of all of its designated rally points."
+
+
+ edict_clear_send_to_rally_point:0 "Clear Send to Rally Point"
+ edict_clear_send_to_rally_point_desc:0 "This Edict will stop the sending of ships to a rally point."
+ 
+ edict_toggle_rally_point_visibility:0 "Toggle Rally Edicts"
+ edict_toggle_rally_point_visibility_desc:0 "This Edict will toggle the visibility of rally point edicts on this planet."
+
+ edict_rally_to_me:0 "Rally to Me!"
+ edict_rally_to_me_desc:0 "This Edict will make nearby planets rally to us."
+
+
+ ### POLICIES  ###
+ range_holder_desc:0 "Placeholder"
+ rally_to_me_custom.tooltip:0 "This planet will rally to us.\n"
+ ##Note to self: It's important that 'Root' and 'From' are spelled exactly like that, FROM won't work.

@@ -1,0 +1,55 @@
+﻿l_french:
+
+#############################
+# Civilian Trade Events
+#############################
+
+
+ civtrade.1.name:0 "Marché privé"
+ civtrade.1.desc:0 "Forts du succès de la première colonie [Root.Owner.GetSpeciesName] , un petit groupe d'entrepreneurs de [Root.Capital.GetName] a ouvert la voie au commerce interplanétaire. Qu'ils soient sagaces ou hardis... Nul ne le sait. \n\nC'est un jour mémorable pour toute l'espèce [Root.Owner.GetName] qui a marqué le pas d'une future civilisation dont l'histoire s'écrira dans les étoiles."
+ civtrade.4.name:0 "Un nouvel convoi!"
+ civtrade.1.respond: "Laissez-faire, laissez-passez!"
+ civtrade.2.name:0 "Teste"
+
+# Options
+ civtrade.1.a:0 "Que la foi puisse leur éclairé le chemin."
+ civtrade.1.b:0 "Vos papiers sont valides. Partez!"
+ civtrade.1.c:0 "Des actions indépendantes supposent une pénsée indépendante: attention à votre hubris."
+ civtrade.1.d:0 "Le développement fait par soi-meme est un signe de grand travail personel."
+ civtrade.1.e:0 "Cette déclaration d'egoisme avec vos reves individualistes ne seront pas tollérés."
+ civtrade.1.f:0 "Tant que vous payerez vos impots et frets de douane tout ira bien."
+ civtrade.1.g:0 "La liberté de mouvement et de commerce sont la base de notre société."
+#############################
+# Civilian Trade effects
+#############################
+ trade_network:0 "Passage du Commercant"
+ trade_network_desc:0 "Des comercant interplanétaires sont recamment venu sur notre planète, ce qui a favorisé son économie."
+#############################
+# Civilian Trade personality
+#############################
+ personality_civilian_traders:0 "Commercants"
+ personality_civilian_traders_desc:0 "Des Commercant en cherche de quelques échange profitable. Ils transitent paisiblement votre espace."
+####################################
+# Edicts
+#################################### 
+
+# Planet Edicts
+ edict_trade_hub:0 "HUB Interplanétaire"
+ edict_trade_hub_desc:0 "Avec la création de quelqes zones franches et infrastructures adaptés, la planète devient un escale obbligatoire pour tout commercant intéressé à LA bonne affaire. Notre Planète ne pourra qu'en profiter."
+
+####################################
+# Policies
+#################################### 
+
+ policy_civilian_trade:0 "Commerce interplanétaire"
+ policy_civilian_trade_desc:0 "Selon les politiques plus ou moins de libre échange ou protectionistes, le nombre de nouveux commercants varie."
+
+ unrestricted_trade:0 "Libre échange"
+ unrestricted_trade_name: "Marché du Libre échange" 
+ unrestricted_trade_desc:0 "Laissez-faire, laissez-passer. Que les comercants fassent comme bon leur semble (Avec quelques limites bien sur.)."
+ subsidized_trade:0 "Subventioné"
+ subsidized_trade_name:0 "Subventions au commerce interplanétaire"
+ subsidized_trade_desc:0 "Etant un domaine primordial au bien etre de notre Etat et de nos citoyens, nous devrions aidez les entrepreuners commercieaux. PLIS de commercants seront crées."
+ restricted_trade:0 "Protectionisme Planétaire"
+ restricted_trade_name:0 "Protectionisme Planétaire"
+ restricted_trade_desc:0 "Trop de libre circulation au sein de notre Etat est mauvais. Le commerce reste cerné par planète. AUCUN nouveau commercant n'est crée."

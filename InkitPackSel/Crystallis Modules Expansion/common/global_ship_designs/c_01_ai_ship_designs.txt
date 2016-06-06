@@ -1,0 +1,329 @@
+# AI Large Ship
+ship_design = {
+	name = "Euthanizer"
+	ship_size = large_ship_ai
+	section = {
+		template = "ai_large_warship_key"
+		slot = "mid"
+		
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "POINT_DEFENCE_2"
+		}
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ENERGY_TORPEDO_2"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ENERGY_TORPEDO_2"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_GAMMA_LASER"
+		}		
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_GAMMA_LASER"
+		}		
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_GAMMA_LASER"
+		}		
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_SHIELD_7"
+		}
+	}
+	required_component="WARP_DRIVE_3"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# AI Small Ship
+ship_design = {
+	name = "Sterilizer"
+	ship_size = small_ship_ai
+	section = {
+		template = "ai_warship_small_key"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_GAMMA_LASER"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_GAMMA_LASER"
+		}		
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_GAMMA_LASER"
+		}		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_SHIELD_10"
+		}
+	}
+	required_component="WARP_DRIVE_3"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# AI Large Station
+ship_design = {
+	name = "AI_1"
+	ship_size = military_station_large_ai
+	section = {
+		template = "ai_station_large_key"
+		slot = "mid"
+		
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_PLASMA_3"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PLASMA_3"
+		}
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ARMOR_10"
+		}
+	}
+}
+
+# AI Small Station
+ship_design = {
+	name = "AI_2"
+	ship_size = military_station_small_ai
+	section = {
+		template = "ai_station_small_key"
+		slot = "mid"
+		
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_PLASMA_3"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_PLASMA_3"
+		}
+		component = {
+			slot = "SMALL_GUN_03"
+			template = "POINT_DEFENCE_1"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_GAMMA_LASER"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_GAMMA_LASER"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_SHIELD_10"
+		}
+	}
+}
+
+# AI Core
+ship_design = {
+	name = "AI Core"
+	ship_size = core_ai
+	country_type = ai_empire
+	section = {
+		template = "ai_core_key"
+		slot = "mid"
+		
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_DISRUPTOR_3"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_DISRUPTOR_3"
+		}
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_8"
+			template = "LARGE_ARMOR_10"
+		}
+	}
+}
+
+# AI Transport
+ship_design = {
+	name = "AI Transport"
+	ship_size = transport_ship_ai
+	country_type = ai_empire
+	
+	section = {
+		template = "ai_transport_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="WARP_DRIVE_3"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# AI Colonizer
+ship_design = {
+	name = "AI Colonizer"
+	ship_size = colony_ship_ai
+	country_type = ai_empire
+	
+	section = {
+		template = "ai_colonizer_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="WARP_DRIVE_3"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# AI Constructor
+ship_design = {
+	name = "AI Constructor"
+	ship_size = construction_ship_ai
+	country_type = ai_empire
+	
+	section = {
+		template = "ai_constructor_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="WARP_DRIVE_3"
+	required_component="SHIP_THRUSTER_3"
+}

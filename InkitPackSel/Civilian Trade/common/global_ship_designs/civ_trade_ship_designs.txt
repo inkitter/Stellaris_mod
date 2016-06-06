@@ -1,0 +1,35 @@
+# Civilian Trade Freighter
+ship_design = {
+	name = "T1"
+	ship_size = civilian_trade_freighter
+	
+	section = {
+		template = "civilian_freighter_section"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ANTIMATTER_REACTOR"
+		}
+	}
+	required_component = "WARP_DRIVE_1"
+	required_component = "SHIP_THRUSTER_1"
+}
+
+# Civilian Trade Tanker
+ship_design = {
+	name = "T2"
+	ship_size = civilian_trade_tanker
+	
+	section = {
+		template = "civilian_tanker_section"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ANTIMATTER_REACTOR"
+		}
+	}
+	required_component = "WARP_DRIVE_1"
+	required_component = "SHIP_THRUSTER_1"
+}

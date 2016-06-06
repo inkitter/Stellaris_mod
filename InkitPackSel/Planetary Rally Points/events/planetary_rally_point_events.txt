@@ -1,0 +1,143 @@
+namespace = planetary_rally_point
+#Sends built ship to rally point if it the building planet has modifier send_to_rally_point_x and there is a planet with the rally_point_x modifier
+
+ship_event = {
+	id = planetary_rally_point.1
+	hide_window = yes
+	is_triggered_only = yes
+	title = "Event 1"
+	trigger = {
+		matches_rally_point_1 = yes
+	}
+
+	immediate = {
+		send_ship_to_rally_point_1 = yes
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+ship_event = {
+	id = planetary_rally_point.2
+	hide_window = yes
+	is_triggered_only = yes
+	title = "Event 2"
+
+	trigger = {
+		matches_rally_point_2 = yes
+	}
+
+	immediate = {
+		send_ship_to_rally_point_2 = yes
+	}
+
+	option = {
+		name = "OK"
+	}
+}
+
+ship_event = {
+	id = planetary_rally_point.3
+	hide_window = yes
+	title = "Event 3"
+	is_triggered_only = yes
+
+	trigger = {
+		matches_rally_point_3 = yes
+	}
+
+	immediate = {
+		send_ship_to_rally_point_3 = yes
+	}
+}
+
+#Clears built ships fleet action_queue so they can be given new orders
+fleet_event = {
+	id = planetary_rally_point.4
+	hide_window = yes
+	title = "Clear queue"
+	is_triggered_only = yes
+
+	immediate = {
+		clear_fleet_actions = this
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+
+#country_event = {
+#	id = planetary_rally_point.10
+#	title = "Changed Call to Arms Value"
+#	is_triggered_only = yes
+#	desc = "The value of [Root.range_of_rally_to_me.GetName] is now : [Root.range_of_rally_to_me.GetValue] "
+#	option = {
+#		name = "OK"
+#	}
+#}
+#planet_event = {
+#	id = planetary_rally_point.11
+#	title = "cta.11.name"
+#	is_triggered_only = yes
+#	desc = "cta.11.desc"
+#	option = {
+#		name = "OK"
+#	}
+#}
+#
+#country_event = {
+#	id = planetary_rally_point.21
+#	title = "Testing Variable localisation"
+#	is_triggered_only = yes
+#	immediate = {
+#		set_variable = { which = "range_of_rally_to_me" value = 42 }
+#	}
+#	option = {
+#		name = "OK"
+#	}
+#}
+#
+#country_event = {
+#	id = planetary_rally_point.22
+#	title = "Testing Variable localisation printing"
+#	is_triggered_only = yes
+#	desc = "The value of [Root.GetName] is $RANGE_OF_rally_to_me$"
+#	option = {
+#		name = "OK"
+#	}
+#}
+
+### INTERESTING ###
+## Observation Posts set to Passive study when policy is downgraded to Passive
+#country_event = {
+#	id = action.35
+#	hide_window = yes
+#	is_triggered_only = yes
+#	trigger = {
+#		last_changed_policy = interference
+#		has_policy_flag = interference_passive
+#	}
+#	immediate = {
+#		every_owned_ship = {
+#			limit = { 
+#				fleet = {
+#					is_ship_size = observation_station 
+#				}
+#			}
+#			
+#			fleet = {
+#				if = {
+#					limit = { 
+#						OR = { 
+#							has_mission = covert_infiltration 
+#							has_mission = specimen_collection
+#						} 
+#					}
+#					set_mission = passive_observation
+#				}
+#			}
+#		}
+#	}
+#}

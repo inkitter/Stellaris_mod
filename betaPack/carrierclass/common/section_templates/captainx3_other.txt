@@ -1,0 +1,511 @@
+###########################
+## Military Station
+###########################
+
+ship_section_template = {
+	key = "HANGAR_MILITARY_STATION_SECTION"
+	ship_size = military_station_small
+	ship_size = military_station_medium
+	
+	fits_on_slot = "north"
+	fits_on_slot = "west"
+	fits_on_slot = "east"
+	fits_on_slot = "south"
+	entity = "military_station_section_heavy_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+				
+	small_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 2
+}
+
+
+ship_section_template = {
+	key = "HANGAR_LARGE_MILITARY_STATION_SECTION"
+	ship_size = military_station_large
+	
+	fits_on_slot = "north"
+	fits_on_slot = "west"
+	fits_on_slot = "east"
+	fits_on_slot = "south"
+	
+	entity = "military_station_section_heavy_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+		
+	small_utility_slots = 3
+	medium_utility_slots = 3
+	large_utility_slots = 3
+}
+
+
+ship_section_template = {
+	key = "LIGHT_MILITARY_STATION_XLARGE_SECTION"
+	ship_size = military_station_xlarge
+	
+	fits_on_slot = "north"
+	fits_on_slot = "west"
+	fits_on_slot = "east"
+	fits_on_slot = "south"
+	entity = "military_station_section_light_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+		section_instance = 0
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+		is_side_slot = no
+		section_instance = 0
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_04"
+		is_side_slot = no
+		section_instance = 0
+	}	
+	
+	component_slot = {
+		name = "SMALL_GUN_05"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+		section_instance = 1
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_06"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_07"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+		is_side_slot = no
+		section_instance = 1
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_08"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_04"
+		is_side_slot = no
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_09"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+		section_instance = 0
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_10"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_11"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+		is_side_slot = no
+		section_instance = 1
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_12"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_04"
+		is_side_slot = no
+		section_instance = 1
+	}	
+				
+	small_utility_slots = 4
+	medium_utility_slots = 4
+	large_utility_slots = 4
+}
+
+ship_section_template = {
+	key = "MEDIUM_MILITARY_STATION_XLARGE_SECTION"
+	ship_size = military_station_xlarge
+	
+	fits_on_slot = "north"
+	fits_on_slot = "west"
+	fits_on_slot = "east"
+	fits_on_slot = "south"
+	entity = "military_station_section_medium_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+		
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+		section_instance = 0
+	}
+
+		
+	small_utility_slots = 4
+	medium_utility_slots = 4
+	large_utility_slots = 4
+}
+
+ship_section_template = {
+	key = "HEAVY_MILITARY_STATION_XLARGE_SECTION"
+	ship_size = military_station_xlarge
+	
+	fits_on_slot = "north"
+	fits_on_slot = "west"
+	fits_on_slot = "east"
+	fits_on_slot = "south"
+	
+	entity = "military_station_section_heavy_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+		
+	small_utility_slots = 4
+	medium_utility_slots = 4
+	large_utility_slots = 4
+}
+
+ship_section_template = {
+	key = "HANGAR_MILITARY_STATION_XLARGE_SECTION"
+	ship_size = military_station_xlarge
+	
+	fits_on_slot = "north"
+	fits_on_slot = "west"
+	fits_on_slot = "east"
+	fits_on_slot = "south"
+	
+	entity = "military_station_section_heavy_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_07"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 0
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		rotation = 90
+		locatorname = "large_gun_01"
+		section_instance = 1
+	}
+		
+	small_utility_slots = 4
+	medium_utility_slots = 4
+	large_utility_slots = 4
+}

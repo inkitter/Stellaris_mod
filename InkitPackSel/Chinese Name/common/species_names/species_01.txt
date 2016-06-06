@@ -328,11 +328,25 @@ FUN = {
 		home_system = "天宇"
 		name_list = "FUN1"
 	}
-	baidu = {
+	baiqqdu = {
 		name = "百度"
 		plural = "百度"
 		home_planet = "百度"
 		home_system = "百度"
+		name_list = "FUN1"
+	}
+	baiwwdu = {
+		name = "千度"
+		plural = "千度"
+		home_planet = "千度"
+		home_system = "千度"
+		name_list = "FUN1"
+	}
+	baeeidu = {
+		name = "十度"
+		plural = "十度"
+		home_planet = "十度"
+		home_system = "十度"
 		name_list = "FUN1"
 	}
 	
@@ -718,13 +732,6 @@ REP = {
 
 AVI = {
 
-	fwefaf = {
-		name = "半人马"
-		plural = "半人马"
-		home_planet = "半人马"
-		home_system = "半人马"
-		name_list = "AVI1"
-	}
 	longjiy = {
 		name = "龙晶"
 		plural = "龙晶"

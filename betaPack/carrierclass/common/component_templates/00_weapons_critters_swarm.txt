@@ -1,0 +1,178 @@
+
+
+# ####################
+#  Critter Weapons - Swarm
+# ####################
+
+@critter_cost_value = 35
+@missile_speed = 5
+
+### Missiles
+
+# Standard Scourge Missile
+weapon_component_template = {
+	key = "LARGE_SCOURGE_MISSILE_1"
+	size = large
+	entity = "turret_missile_large_entity"
+	damage = { min = 42.0 max = 74.0 }
+	windup = { min = 2.5 max = 7.5 }
+	missile_speed = @missile_speed
+	total_fire_time = 75
+	range = 20.0
+	icon = "GFX_ship_part_scourge_missile_1"
+	icon_frame = 1
+	static_rotation = yes
+	type = missile
+	power = -162
+	cost = @critter_cost_value
+	prerequisites = { "tech_scourge_missile_1" }
+	component_set = "SCOURGE_MISSILE_1"
+	projectile_gfx = "scourge_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
+}
+
+# Small Spaceport Scourge Missiles
+weapon_component_template = {
+	key = "SMALL_SPACEPORT_SCOURGE_MISSILE"
+	size = small
+	hidden = yes
+	entity = "turret_missile_small_entity"
+	damage = { min = 42.0 max = 74.0 }
+	windup = { min = 2.5 max = 7.5 }
+	missile_speed = @missile_speed
+	total_fire_time = 75
+	range = 20.0
+	icon = "GFX_ship_part_scourge_missile_1"
+	icon_frame = 1
+	static_rotation = yes
+	type = missile
+	power = -162
+	cost = @critter_cost_value
+	component_set = "SPACEPORT_SCOURGE_MISSILE"
+	projectile_gfx = "scourge_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
+}
+
+# Medium Spaceport Scourge Missiles
+weapon_component_template = {
+	key = "MEDIUM_SPACEPORT_SCOURGE_MISSILE"
+	size = medium
+	hidden = yes
+	entity = "turret_missile_medium_entity"
+	damage = { min = 42.0 max = 74.0 }
+	windup = { min = 2.5 max = 7.5 }
+	missile_speed = @missile_speed
+	total_fire_time = 75
+	range = 20.0
+	icon = "GFX_ship_part_scourge_missile_1"
+	icon_frame = 1
+	static_rotation = yes
+	type = missile
+	power = -162
+	cost = @critter_cost_value
+	component_set = "SPACEPORT_SCOURGE_MISSILE"
+	projectile_gfx = "scourge_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
+}
+
+# Large Spaceport Scourge Missiles
+weapon_component_template = {
+	key = "LARGE_SPACEPORT_SCOURGE_MISSILE"
+	size = large
+	hidden = yes
+	entity = "turret_missile_large_entity"
+	damage = { min = 42.0 max = 74.0 }
+	windup = { min = 2.5 max = 7.5 }
+	missile_speed = @missile_speed
+	total_fire_time = 75
+	range = 20.0
+	icon = "GFX_ship_part_scourge_missile_1"
+	icon_frame = 1
+	static_rotation = yes
+	type = missile
+	power = -162
+	cost = @critter_cost_value
+	component_set = "SPACEPORT_SCOURGE_MISSILE"
+	projectile_gfx = "scourge_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_long_range }
+}
+
+### Projectiles
+
+# Medium Projectile
+weapon_component_template = {
+	key = "SCOURGE_PROJECTILE_WEAPON"
+	hidden = yes
+
+	size = medium
+	entity = "medium_scourge_projectile_weapon_entity"
+	type = instant
+	icon = "GFX_ship_part_scourge_missile_1"
+	icon_frame = 1
+	projectile_gfx = "scourge_projectile_weapon"
+	
+	cost = @critter_cost_value
+}
+
+# Small Projectile
+weapon_component_template = {
+	key = "SMALL_SCOURGE_PROJECTILE_WEAPON"
+	hidden = yes
+
+	size = small
+	entity = "small_scourge_projectile_weapon_entity"
+	type = instant
+	icon = "GFX_ship_part_scourge_missile_1"
+	icon_frame = 1
+	projectile_gfx = "small_scourge_projectile_weapon"
+	
+	cost = @critter_cost_value
+}
+
+### Strike Craft
+
+# Standard Swarm Fighter
+strike_craft_component_template = {
+	key = "SWARM_STRIKE_CRAFT"
+	size = LARGE
+	entity = "swarm_01_fighter_entity"
+	cost = 80
+	power = -80
+
+	count = 8
+	regeneration_per_day = 0.034
+	launch_time = 5.0
+	
+	damage = { min = 15 max = 40 }
+	cooldown = 5
+	range = 6
+	accuracy = 1.0
+	
+	health = 15
+	armor = 0
+	shield = 0
+	
+	speed = 2
+	rotation_speed = 0.2
+	acceleration = 0.5
+	
+	
+	shield_damage = 1.0
+	shield_penetration = 1
+	armor_penetration = 0.66
+	
+	ship_behavior = "bombers_behavior"
+	
+	weapon_type = instant
+	projectile_gfx = "small_space_amoeba_weapon"
+	
+	prerequisites = { "tech_swarm_strike_craft_1" }
+	component_set = "SWARM_STRIKE_CRAFT_1"
+	icon = "GFX_ship_part_swarm_strike_craft_1"
+	icon_frame = 1
+	tags = { weapon_type_strike_craft }
+}

@@ -2,19 +2,19 @@
 # This file is where you start when you want to configure something new, then go to sections
 
 @civilian_ships_combat_speed = 0.5
-@corvette_combat_speed = 1.1
+@corvette_combat_speed = 1.0
 @corvette_combat_rotation = 0.026
 @corvette_collision_radius = 1.0
 
-@destroyer_combat_speed = 0.85
+@destroyer_combat_speed = 0.80
 @destroyer_combat_rotation = 0.023
 @destroyer_collision_radius = 2.0
 
-@cruiser_combat_speed = 0.60
+@cruiser_combat_speed = 0.65
 @cruiser_combat_rotation = 0.021
 @cruiser_collision_radius = 3.0
 
-@battleship_combat_speed = 0.40
+@battleship_combat_speed = 0.50
 @battleship_combat_rotation = 0.018
 @battleship_collision_radius = 4.0
 

@@ -1,0 +1,80 @@
+##### Types:
+# honorbound -> Cares about honor and martial prowess above all else
+# capitalist -> Cares about trade and material profit above all else
+# hegemon -> Cares about the superiority of their own empire above all else
+# ideologue -> Cares about combating opposing ethoses above all else
+# isolationist -> Cares about maintaining their isolation from other empires above all else
+# federation_builder -> Cares about bringing different species together in a federation above all else
+# propagator -> Cares about the propagation of its species above all else
+# purifier -> Cares about purifying the galaxy of other species above all else
+# explorer -> Cares about exploring the galaxy and making scientific/spiritual discoveries above all else
+
+##### Behaviours:
+# conqueror -> Will they conquer planets from other empires?
+# subjugator -> Will they vassalise other empires?
+# liberator -> Will they liberate conquered empires?
+# opportunist -> Are they more likely to attack someone already embroiled in war?
+# uplifter -> Will they uplift and enlighten other species?
+# infiltrator -> Will they infiltrate primitives?
+# dominator -> Will they invade primitives?
+# slaver -> Will they enslave pops?
+# purger -> Will they purge alien pops?
+# robot_exploiter -> Will they use robots for menial labor?
+# robot_liberator -> Will they give rights to robots?
+# migrator -> Will they want to migrate to other empires?
+
+##### Modifiers:
+# aggressiveness -> Chance of declaring wars
+# trade_willingness -> At 1.0 willingness they will accept a deal that is equally good for both sides
+# bravery -> Affects the chance that they will pick rivals & war targets of similar strength instead of picking on the weak
+# military_spending -> Affects mineral & energy budget that goes to navies and armies
+# colony_spending -> Affects mineral & energy budget that goes to new colonies
+
+##### Diplomacy:
+# alliance_acceptance -> Added directly to chance of accepting an alliance
+# federation_acceptance -> Added directly to chance of accepting to form/join a federation
+
+# NOTE: Weight is additive!
+
+
+
+civilian_traders = { 
+	type = capitalist
+
+	aggressiveness = 0.5
+	trade_willingness = 2.0
+	bravery = 0.5
+	
+	military_spending = 0.1
+	colony_spending = 0.1	
+	
+	alliance_acceptance = 10
+	federation_acceptance = 10
+	
+	threat_modifier = 1.3
+	friction_modifier = 0.25
+	
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = yes
+		opportunist = yes
+		slaver = yes
+		uplifter = yes
+		purger = no
+		infiltrator = yes
+		dominator = no
+		robot_exploiter = yes
+		robot_liberator = no
+		migrator = no
+	}
+	
+	allow = {
+		is_country_type = civtrader
+		}		
+	
+	
+	weight_modifier = {
+		weight = 100		
+	}
+}

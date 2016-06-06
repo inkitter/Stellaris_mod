@@ -29,41 +29,51 @@ https://github.com/inkitter/Stellaris_mod
 * Reduce Aura Graphics  减轻单位光环的视觉效果，更容易看到船而不是光环。
 * 汉语种族随机名  种族设计界面以汉语命名的可选类型，随机汉语船、人名等。
 
-###作弊
-* Easybuff 自制的政策界面作弊。前缀为“作弊”的一系列政策。已分离成单独mod。 http://steamcommunity.com/sharedfiles/filedetails/?id=696221722
-
 
 ## 选择性安装包
 * 可选包是搬运Steam工坊里增加游戏内容的mod。可能会有**相互不兼容**或者**内容重复**的可能性，因此不要无脑开启所有，选择性的加载比较妥。
-### 图案、文本替换增强类
+### 图案、文本替换增强类(#)
 * 更多的旗帜与背景整合.zip 压缩包 多个种族设计界面的纹章和背景整合：光环、日式、Flags:Emblems & Backgrounds、IT、星际之门、现实国家风格、刺客信条等。
 * Unique Resources 战略资源图标替换，战略资源图示更容易区别（比如原版两种蓝色的矿……）。
-* Chinese random country name **汉语随机命名** 星系、帝国等多个部分用汉语命名。
-
-### 游戏性类  （不保证兼容性，一起开有可能产生未知后果）
-
-#### 较推荐的
+* Chinese name **汉语随机命名** 星系、帝国等多个部分用汉语命名。
+### 功能增强(%)
+* Change Capital Planet 改变首都。 __morechn已汉化__。
+* Planetary Rally Points 设置舰队集结点。 __morechn已汉化__。
+* DZ Unique Starting Systems 创建种族时有更多的起始星系选择。 __morechn已汉化__。
+### 领袖增强(+)
 * Fox Leader Mod 领袖等级上限调整等领袖强化。
+* Yet Another Traits Mod 更多领袖特性 __morechn已汉化__
+* Extended Traits  更多的领袖特长。  __morechn已汉化__。
+### 综合类
+* Crystallis Ship Modules Expansion 水晶船模块扩展 __morechn已汉化__
 * More Technologies  更多的科技。 __morechn已汉化__。   这个包是多个增量mod的整合包，修改较多较复杂，不过挺好玩的。
 * More Spaceport Modules  更多的空间站模块。 __morechn已汉化__。
-* Yet Another Traits Mod 更多领袖特性 __morechn已汉化__
 * More Army Attachments  更多的军队模块。  __morechn已汉化__。
-* Sector Defense Navy  会自动制造舰队的星区（会占用你的军舰人口，而且AI的智商你懂的，不过可以少浪费些资源，不需要的舰队送掉或者解散掉吧。） 
-
-#### 选择性开启的
 * zBeautiful Battles  漂亮的战斗。 提高了战斗的美观度，有不少战斗平衡性调整，例如舰船战斗阵形优化等。但此mod改变的数据较多，想体验原始战斗设计还是不开启较好。
-* Extended Traits  更多的领袖特长。  __morechn已汉化__。
-* More Edicts  更多的政策。  __morechn已汉化__。
-* Grow Borders  边界增长速度加快的星球政策，需要影响力。  __morechn已汉化__
+#### 贸易增强（0）
+同时开启的话可能发生意外。
 * Bread Baskets 可以在行星间运输的食物 __morechn已汉化__ http://bbs.3dmgame.com/thread-5099700-1-1.html
-* Crystallis Ship Modules Expansion 水晶船模块扩展 __morechn已汉化__
+* Civilian Trade __morechn已汉化__
+* Interstellar Trading System __morechn已汉化__
+###作弊
+* Easybuff 自制的政策界面作弊。前缀为“作弊”的一系列政策。已分离成单独mod。 http://steamcommunity.com/sharedfiles/filedetails/?id=696221722
+* Grow Borders  边界增长速度加快的星球政策，需要影响力。  __morechn已汉化__
 
-## 纯搬运
+## 测试包（betaPack） 可能引发错误的
+* Auto improve buildings 自动升级建筑 __morechn已汉化__。
+* New Ship Classes & More 更多的舰船类型 
+* Colony Ship Start 殖民船开局 __morechn已汉化__。
+* Expanded Spaceport 24格空间站 
+* Expanded War Demands 更多的战争要求 __morechn已汉化__。
+* More Edicts  更多的政策。  __morechn已汉化__。
+* Research All FTL  可以研究所有FTL迁跃理论。 
+* Sector Defense Navy  会自动制造舰队的星区（星区选择第一种AI）
+
+## 大文件包
 * Zeon 机战吉恩公国  __morechn已汉化__
 * Playable Robot 可玩的机器人 __morechn已汉化__
-* Expanded Spaceport 扩展的空间站 24格 兼容性较差 小心开启
-* Research All FTL  可以研究所有FTL迁跃理论。   More Technologies也有类似的科技，**请不要同时开启**
 * The Elder's Notification 游戏默认语音替换为中文长者提示音
+* 动物徽章EmblemsFauna 超多动物徽章
 --------
 ## 记录
 * 160519 初次发布

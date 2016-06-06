@@ -1,0 +1,51 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_counter_corvette"
+		textureFile = "gfx/interface/system/icon_corvette.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ship_counter_transport"
+		textureFile = "gfx/interface/system/icon_corvette.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_destroyer"
+		textureFile = "gfx/interface/system/icon_destroyer.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ship_counter_cruiser"
+		textureFile = "gfx/interface/system/icon_cruiser.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ship_counter_battleship"
+		textureFile = "gfx/interface/system/icon_battleship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_Battlecruiser"
+		textureFile = "gfx/interface/system/icon_Battlecruiser.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_Light_Carrier"
+		textureFile = "gfx/interface/system/icon_LightCarrier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_Carrier"
+		textureFile = "gfx/interface/system/icon_Carrier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_Dreadnought"
+		textureFile = "gfx/interface/system/icon_Dreadnought.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_Flagship"
+		textureFile = "gfx/interface/system/icon_Flagship.dds"
+	}
+}

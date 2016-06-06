@@ -1,0 +1,3455 @@
+###### New Demands for Default Countries from Fallen Empires
+abandon_planet_default = {
+	execution_order = 0
+	
+	parameters = {
+		planet = {
+			type = planet
+			filter = owned
+		}
+	}
+	
+	warscore_cost = {
+		base = 30	
+		
+		scaled_modifier = {
+			scope = parameter:planet
+			add = 0.8
+			calc = pop_count
+		}
+		
+		scaled_modifier = {
+			scope = parameter:planet.owner
+			div = 0.05
+			calc = planets_in_country
+		}
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Ruler Trait - Expansionist
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_trait_expansionist"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_expansionist }
+			}
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.8
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+	}
+	
+	potential = {
+		NOT = {
+			root = { is_country_type = fallen_empire }
+			from = { is_country_type = fallen_empire }
+		}
+		parameter:planet = {
+			owner = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		subject_can_diplomacy = this
+		parameter:planet = {
+			is_neighbor_of = root
+			is_capital = no
+		}		
+	}
+	
+	possible = {
+		always = yes
+	}
+	
+	proposable = {
+		war_demand_counter = {
+			type = ceded_or_liberated
+			value < 1
+		}
+	}
+	
+	demandable = {
+		custom_tooltip_fail = {
+			text = "war_demand_cede_planet_not_under_our_control"
+			parameter:planet = {
+				controller = {
+					OR = {
+						is_country = parameter:planet.owner
+						fromfrom = {
+							is_war_participant = {
+								who = prev
+								side = from
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	effect = {
+		add_threat = {
+			who = fromfromfrom
+			amount = 3 # scales to pops
+		}
+		
+		parameter:planet = {		
+			destroy_colony = yes
+		}			
+	}
+
+	counters = {
+		num_owned_planets = {
+			context = parameter:planet.owner
+			value = {
+				base = -1
+			}
+		}
+		ceded_or_liberated = {
+			context = parameter:planet
+			value = {
+				base = 1
+			}			
+		}		
+	}
+	
+	ai_weight = {
+		base = 50
+		
+		scaled_modifier = {
+			scope = parameter:planet
+			div = 2
+			calc = planet_distance_empire
+		}
+		
+		scaled_modifier = {
+			scope = parameter:planet
+			add = 2
+			calc = planets_in_country
+		}
+	}
+	
+	AI_invasion_target = yes
+}
+
+humiliate_default = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 25
+		
+		scaled_modifier = {
+			scope = parameter:country
+			add = 2
+			calc = planets_in_country
+		}		
+
+		scaled_modifier = {
+			scope = parameter:country
+			add = 0.2
+			calc = pop_count
+		}
+
+		scaled_modifier = {
+			scope = parameter:country
+			div = 0.05
+			calc = planets_in_country
+		}
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+	}
+
+	potential = {
+		NOT = {
+			root = { is_country_type = fallen_empire }
+			from = { is_country_type = fallen_empire }
+		}
+		parameter:country = {
+			OR = {
+				AND = {
+					exists = fromfrom
+					from = {
+						from = {
+							is_war_participant = {
+								who = prevprev
+								side = prev
+							}
+						}
+					}
+				}
+				AND = {
+					NOT = { exists = fromfrom }
+					would_join_war = {
+						attacker = root
+						defender = from
+						side = from
+					}
+				}	
+			}
+		}
+	}
+
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	demandable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {		
+			add_modifier = { modifier = humiliated days = 3600 }			
+		}
+		root = {
+			add_modifier = { modifier = shown_superiority days = 3600}
+		}
+	}
+	
+	ai_weight = {
+		base = 100
+	}
+}
+
+##### Start of Payment Demands
+give_energy_1 = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 40
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Materialist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_materialist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_materialist
+			}
+	}
+	
+	potential = {
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {
+		custom_tooltip_fail = {
+		text = "war_demand_not_enough_energy"
+			if = {
+				limit = {
+					parameter:country = {
+						has_country_resource = {
+							type = energy
+							amount > 500
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {
+			add_energy = -500
+		}
+		fromfromfrom = {
+			add_energy = 500
+		}
+	}	
+	
+	ai_weight = {
+		base = 70
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+		
+	}
+}
+
+give_energy_2 = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 60
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Materialist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_materialist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_materialist
+			}
+	}
+	
+	potential = {
+		root = {
+			has_technology = tech_power_hub_1
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {
+		custom_tooltip_fail = {
+		text = "war_demand_not_enough_energy"
+			if = {
+				limit = {
+					parameter:country = {
+						has_country_resource = {
+							type = energy
+							amount > 1000
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {
+			add_energy = -1000
+		}
+		fromfromfrom = {
+			add_energy = 1000
+		}
+	}	
+	
+	ai_weight = {
+		base = 80
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+		
+	}
+}
+
+give_energy_3 = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 80
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Materialist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_materialist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_materialist
+			}
+	}
+	
+	potential = {
+		root = {
+			has_technology = tech_power_hub_2
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {
+		custom_tooltip_fail = {
+		text = "war_demand_not_enough_energy"
+			if = {
+				limit = {
+					parameter:country = {
+						has_country_resource = {
+							type = energy
+							amount > 1500
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {
+			add_energy = -1500
+		}
+		fromfromfrom = {
+			add_energy = 1500
+		}
+	}	
+	
+	ai_weight = {
+		base = 90
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+		
+	}
+}
+	
+give_minerals_1 = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 40
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Materialist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_materialist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_materialist
+			}
+	}
+	
+	potential = {
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {
+		custom_tooltip_fail = {
+		text = "war_demand_not_enough_minerals"
+			if = {
+				limit = {
+					parameter:country = {
+						has_country_resource = {
+							type = minerals
+							amount > 1000
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {
+			add_minerals = -1000
+		}
+		fromfromfrom = {
+			add_minerals = 1000
+		}
+	}	
+	
+	ai_weight = {
+		base = 70
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+		
+	}
+}
+
+give_minerals_2 = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 60
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Materialist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_materialist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_materialist
+			}
+	}
+	
+	potential = {
+		root = {
+			has_technology = tech_mineral_processing_1
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {
+		custom_tooltip_fail = {
+		text = "war_demand_not_enough_minerals"
+			if = {
+				limit = {
+					parameter:country = {
+						has_country_resource = {
+							type = minerals
+							amount > 2000
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {
+			add_minerals = -2000
+		}
+		fromfromfrom = {
+			add_minerals = 2000
+		}
+	}	
+	
+	ai_weight = {
+		base = 80
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+		
+	}
+}
+
+give_minerals_3 = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 80
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Materialist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_materialist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_materialist
+			}
+	}
+	
+	potential = {
+		root = {
+			has_technology = tech_mineral_processing_2
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {
+		custom_tooltip_fail = {
+		text = "war_demand_not_enough_minerals"
+			if = {
+				limit = {
+					parameter:country = {
+						has_country_resource = {
+							type = minerals
+							amount > 3000
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		parameter:country = {
+			add_minerals = -3000
+		}
+		fromfromfrom = {
+			add_minerals = 3000
+		}
+	}	
+	
+	ai_weight = {
+		base = 90
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_materialist
+		}
+		
+	}
+}
+
+##### Start of Policy Change demands
+change_war_economy = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Pacifist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = static_we }	
+					}
+					AND = { root = { has_policy_flag = static_we } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = semi_static_we }
+					}
+					AND = { root = { has_policy_flag = semi_static_we } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = dynamic_we }
+					}
+					AND = { root = { has_policy_flag = dynamic_we } }	
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = versatile_we }
+					}
+					AND = { root = { has_policy_flag = versatile_we } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = static_we }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = static_we } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_war_economy_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = war_economy
+						option = static_we
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = semi_static_we }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = semi_static_we } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_war_economy_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = war_economy
+						option = semi_static_we
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = dynamic_we }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = dynamic_we } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_war_economy_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = war_economy
+							option = dynamic_we
+							cooldown = yes
+						}
+					}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = versatile_we }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = versatile_we } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_war_economy_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = war_economy
+							option = versatile_we
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		
+		modifier = {
+			factor = 0
+			NOT = { 
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+	}
+}
+
+change_slavery = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Individualist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_individualist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_individualist
+			}
+		# Ethic Specific - Collectivist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_collectivist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_collectivist
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = slavery_not_allowed }	
+					}
+					AND = { root = { has_policy_flag = slavery_not_allowed } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = slavery_allowed_xenos_only }
+					}
+					AND = { root = { has_policy_flag = slavery_allowed_xenos_only } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = slavery_allowed_all }
+					}
+					AND = { root = { has_policy_flag = slavery_allowed_all } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = slavery_not_allowed }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = slavery_not_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_slavery_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = slavery
+						option = slavery_not_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = slavery_allowed_xenos_only }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = slavery_allowed_xenos_only } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_slavery_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = slavery
+						option = slavery_allowed_xenos_only
+						cooldown = yes
+					}
+				}
+			}
+			parameter:country = {
+				hidden_effect = {
+					set_policy = {
+						policy = slavery_procreation
+						option = slavery_procreation_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = slavery_allowed_all }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = slavery_allowed_all } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_slavery_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = slavery
+							option = slavery_allowed_all
+							cooldown = yes
+						}
+					}
+			}
+			parameter:country = {
+				hidden_effect = {
+					set_policy = {
+						policy = slavery_procreation
+						option = slavery_procreation_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_individualist
+				has_ethic = ethic_fanatic_individualist
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+	}
+}
+
+change_purge = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Individualist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_individualist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_individualist
+			}
+		# Ethic Specific - Xenophile
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_xenophile
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_individualist
+			}
+		# Ethic Specific - Collectivist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_collectivist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_collectivist
+			}
+		# Ethic Specific - Xenophobe
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_xenophobe
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_xenophobe
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = purge_not_allowed }	
+					}
+					AND = { root = { has_policy_flag = purge_not_allowed } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = purge_allowed_xenos_only }
+					}
+					AND = { root = { has_policy_flag = purge_allowed_xenos_only } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = purge_allowed_all }
+					}
+					AND = { root = { has_policy_flag = purge_allowed_all } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = purge_not_allowed }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = purge_not_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_purge_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = purge
+						option = purge_not_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = purge_allowed_xenos_only }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = purge_allowed_xenos_only } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_purge_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = purge
+						option = purge_allowed_xenos_only
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = purge_allowed_all }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = purge_allowed_all } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_purge_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = purge
+							option = purge_allowed_all
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_individualist
+				has_ethic = ethic_fanatic_individualist
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+	}
+}
+
+change_orbital_bombardment = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Pacifist
+			modifier = {
+			factor = 0.75
+			has_ethic = ethic_pacifist
+			}
+		
+			modifier = {
+			factor = 0.5
+			has_ethic = ethic_fanatic_pacifist
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = allow_orbital_bombardment_light }	
+					}
+					AND = { root = { has_policy_flag = allow_orbital_bombardment_light } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = allow_orbital_bombardment_limited }
+					}
+					AND = { root = { has_policy_flag = allow_orbital_bombardment_limited } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = allow_orbital_bombardment_full }
+					}
+					AND = { root = { has_policy_flag = allow_orbital_bombardment_full } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = allow_orbital_bombardment_light }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = allow_orbital_bombardment_light } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_orbital_bombardment_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = orbital_bombardment
+						option = allow_orbital_bombardment_light
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = allow_orbital_bombardment_limited }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = allow_orbital_bombardment_limited } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_orbital_bombardment_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = orbital_bombardment
+						option = allow_orbital_bombardment_limited
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = allow_orbital_bombardment_full }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = allow_orbital_bombardment_full } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_orbital_bombardment_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = orbital_bombardment
+							option = allow_orbital_bombardment_full
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+	}
+}
+
+change_interference = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Xenophile
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_xenophile
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_xenophile
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_interference_no_primative"
+			AND = {
+				 AND = {
+					parameter:country = { 
+						has_country_flag = encountered_first_primitive
+					}
+				}
+				AND = {
+					root = {
+						has_country_flag = encountered_first_primitive
+					}	
+				}
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = interference_passive }	
+					}
+					AND = { root = { has_policy_flag = interference_passive } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = interference_active }
+					}
+					AND = { root = { has_policy_flag = interference_active } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = interference_full }
+					}
+					AND = { root = { has_policy_flag = interference_full } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = interference_passive }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = interference_passive } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_interference_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = interference
+						option = interference_passive
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = interference_active }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = interference_active } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_interference_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = interference
+						option = interference_active
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = interference_full }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = interference_full } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_interference_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = interference
+							option = interference_full
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+	}
+}
+
+change_enlightenment = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+			# Ethic Specific - Xenophobe
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_xenophobe
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_xenophobe
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_interference_no_primative"
+			AND = {
+				 AND = {
+					parameter:country = { 
+						has_country_flag = encountered_first_primitive
+					}
+				}
+				AND = {
+					root = {
+						has_country_flag = encountered_first_primitive
+					}	
+				}
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = enlightenment_not_allowed }	
+					}
+					AND = { root = { has_policy_flag = enlightenment_not_allowed } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = enlightenment_allowed }
+					}
+					AND = { root = { has_policy_flag = enlightenment_allowed } }
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = enlightenment_not_allowed }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = enlightenment_not_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_enlightenment_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = enlightenment
+						option = enlightenment_not_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = enlightenment_allowed }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = enlightenment_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_enlightenment_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = enlightenment
+						option = enlightenment_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ai_personality_behaviour = uplifter
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+	}
+}
+
+change_migration = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Individualist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_individualist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_individualist
+			}
+			
+		# Ethic Specific - Collectivist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_collectivist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_collectivist
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = migration_not_allowed }	
+					}
+					AND = { root = { has_policy_flag = migration_not_allowed } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = migration_allowed_primary_only }
+					}
+					AND = { root = { has_policy_flag = migration_allowed_primary_only } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = migration_allowed_all }
+					}
+					AND = { root = { has_policy_flag = migration_allowed_all } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = migration_not_allowed }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = migration_not_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_migration_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = migration
+						option = migration_not_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = migration_allowed_primary_only }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = migration_allowed_primary_only } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_migration_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = migration
+						option = migration_allowed_primary_only
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = migration_allowed_all }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = migration_allowed_all } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_migration_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = migration
+							option = migration_allowed_all
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_individualist
+				has_ethic = ethic_fanatic_individualist
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+	}
+}
+
+change_resettlement = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Individualist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_individualist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_individualist
+			}
+		# Ethic Specific - Collectivist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_collectivist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_collectivist
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = resettlement_not_allowed }	
+					}
+					AND = { root = { has_policy_flag = resettlement_not_allowed } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = resettlement_allowed }
+					}
+					AND = { root = { has_policy_flag = resettlement_allowed } }
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = resettlement_not_allowed }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = resettlement_not_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_resettlement_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = resettlement
+						option = resettlement_not_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = resettlement_allowed }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = resettlement_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_resettlement_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = resettlement
+						option = resettlement_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_individualist
+				has_ethic = ethic_fanatic_individualist
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+	}
+}
+
+change_voting_rights = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Individualist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_individualist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_individualist
+			}
+		# Ethic Specific - Collectivist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_collectivist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_collectivist
+			}
+		# Ethic Specific - Xenophile
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_xenophile
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_xenophile
+			}
+		# Ethic Specific - Xenophobe
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_xenophobe
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_xenophobe
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = voting_not_allowed }	
+					}
+					AND = { root = { has_policy_flag = voting_not_allowed } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = voting_allowed_elites_only }
+					}
+					AND = { root = { has_policy_flag = voting_allowed_elites_only } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = voting_allowed_primary_only }
+					}
+					AND = { root = { has_policy_flag = voting_allowed_primary_only } }	
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = voting_allowed_all }
+					}
+					AND = { root = { has_policy_flag = voting_allowed_all } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = voting_not_allowed }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = voting_not_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_voting_rights_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = voting_rights
+						option = voting_not_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = voting_allowed_elites_only }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = voting_allowed_elites_only } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_voting_rights_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = voting_rights
+						option = voting_allowed_elites_only
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = voting_allowed_primary_only }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = voting_allowed_primary_only } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_voting_rights_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = voting_rights
+							option = voting_allowed_primary_only
+							cooldown = yes
+						}
+					}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = voting_allowed_all }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = voting_allowed_all } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_voting_rights_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = voting_rights
+							option = voting_allowed_all
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_individualist
+				has_ethic = ethic_fanatic_individualist
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+	}
+}
+
+change_leadership = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Xenophile
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_xenophile
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_xenophile
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = leadership_allow_dominant_only }	
+					}
+					AND = { root = { has_policy_flag = leadership_allow_dominant_only } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = leadership_allow_xeno }
+					}
+					AND = { root = { has_policy_flag = leadership_allow_xeno } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = leadership_allow_robot }
+					}
+					AND = { root = { has_policy_flag = leadership_allow_robot } }	
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = leadership_allow_all }
+					}
+					AND = { root = { has_policy_flag = leadership_allow_all } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = leadership_allow_dominant_only }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = leadership_allow_dominant_only } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_leadership_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = leadership
+						option = leadership_allow_dominant_only
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = leadership_allow_xeno }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = leadership_allow_xeno } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_leadership_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = leadership
+						option = leadership_allow_xeno
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = leadership_allow_robot }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = leadership_allow_robot } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_leadership_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = leadership
+							option = leadership_allow_robot
+							cooldown = yes
+						}
+					}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = leadership_allow_all }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = leadership_allow_all } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_leadership_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = leadership
+							option = leadership_allow_all
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+	}
+}
+
+change_leader_enhancement = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Spiritualist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_spiritualist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_spiritualist
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_change_leader_enhancement_no_tech"
+			AND = {
+				parameter:country = { has_technology = tech_selected_lineages }
+				root = { has_technology = tech_selected_lineages }
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = leader_enhancement_natural_selection }	
+					}
+					AND = { root = { has_policy_flag = leader_enhancement_natural_selection } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = leader_enhancement_selected_lineages }
+					}
+					AND = { root = { has_policy_flag = leader_enhancement_selected_lineages } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = leader_enhancement_capacity_boosters }
+					}
+					AND = { root = { has_policy_flag = leader_enhancement_capacity_boosters } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = leader_enhancement_natural_selection }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = leader_enhancement_natural_selection } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_leader_enhancement_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = leader_enhancement
+						option = leader_enhancement_natural_selection
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = leader_enhancement_selected_lineages }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = leader_enhancement_selected_lineages } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_leader_enhancement_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = leader_enhancement
+						option = leader_enhancement_selected_lineages
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = leader_enhancement_capacity_boosters }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = leader_enhancement_capacity_boosters } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_leader_enhancement_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = leader_enhancement
+							option = leader_enhancement_capacity_boosters
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+	}
+}
+
+change_first_contact_protocol = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Xenophile
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_xenophile
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_xenophile
+			}
+		# Ethic Specific - Pacifist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+			}
+	}
+	
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = first_contact_attack_not_allowed }	
+					}
+					AND = { root = { has_policy_flag = first_contact_attack_not_allowed } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = first_contact_attack_allowed }
+					}
+					AND = { root = { has_policy_flag = first_contact_attack_allowed } }
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = first_contact_attack_not_allowed }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = first_contact_attack_not_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_first_contact_protocol_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = first_contact_protocol
+						option = first_contact_attack_not_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = first_contact_attack_allowed }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = first_contact_attack_allowed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_first_contact_protocol_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = first_contact_protocol
+						option = first_contact_attack_allowed
+						cooldown = yes
+					}
+				}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+	}
+}
+
+change_artificial_intelligence_policy = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 30
+		
+		# Ruler Trait - Warlike
+			modifier = {
+				factor = 0.95
+				custom_tooltip = {
+					text = "war_demand_trait_warlike"
+					exists = ruler
+					ruler = { has_trait = trait_ruler_warlike }
+				}
+			}
+		
+		# Ethic Specific - Materialist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_materialist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_materialist
+			}
+		# Ethic Specific - Spiritualist
+			modifier = {
+			factor = 0.9
+			has_ethic = ethic_spiritualist
+			}
+		
+			modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_spiritualist
+			}
+	}
+	
+	potential = {
+		NOT = {
+			parameter:country = {
+				is_country_type = ai_empire 
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_change_artificial_intelligence_policy_no_tech"
+			AND = {
+				parameter:country = { has_technology = tech_robotic_workers }
+				root = { has_technology = tech_robotic_workers }
+			}
+		}
+				
+		custom_tooltip_fail = {
+			text = "war_demand_policy_match"
+			OR = {
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = ai_outlawed }	
+					}
+					AND = { root = { has_policy_flag = ai_outlawed } }
+				}
+				AND = {
+					parameter:country = {
+					NOT = { has_policy_flag = ai_servitude }
+					}
+					AND = { root = { has_policy_flag = ai_servitude } }
+				}
+				AND = {
+					parameter:country = {
+						NOT = { has_policy_flag = ai_full_rights }
+						has_technology = tech_synthetic_workers
+					}
+					AND = { root = { has_policy_flag = ai_full_rights } }	
+				}
+			}
+		}
+		OR = {
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}	
+				}
+			}
+		}
+	}
+	
+	possible = {			
+		always = yes
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {	
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = ai_outlawed }	
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = ai_outlawed } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_artificial_intelligence_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = artificial_intelligence_policy
+						option = ai_outlawed
+						cooldown = yes
+					}
+				}
+			}
+		}		
+		if = {
+			limit= {
+				parameter:country = {
+					NOT = { has_policy_flag = ai_servitude }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = ai_servitude } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { 
+					modifier = forced_artificial_intelligence_policy days = 3600 
+				}
+				hidden_effect = {
+					set_policy = {
+						policy = artificial_intelligence_policy
+						option = ai_servitude
+						cooldown = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit= {
+				parameter:country = {
+						NOT = { has_policy_flag = ai_full_rights }
+				}
+				AND = { 
+					fromfromfrom = { has_policy_flag = ai_full_rights } 
+				}
+			}
+			parameter:country = {	
+				add_modifier = { modifier = forced_artificial_intelligence_policy days = 3600 }
+					hidden_effect = {
+						set_policy = {
+							policy = artificial_intelligence_policy
+							option = ai_full_rights
+							cooldown = yes
+						}
+					}
+			}
+		}
+	}	
+	
+	ai_weight = {
+		base = 100
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_ethic = ethic_materialist
+				has_ethic = ethic_fanatic_materialist
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+	}
+}

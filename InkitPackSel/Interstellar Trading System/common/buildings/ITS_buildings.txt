@@ -1,0 +1,107 @@
+
+building_energyexport = {
+	base_buildtime = 180
+	
+	cost = {
+		minerals = 90
+	}
+	
+	required_resources = {
+		energy = 20
+	}
+	
+
+	produced_resources = {
+		sr_energyconvoy = 1
+	}
+	
+	planet_unique = yes
+	ai_special_building = yes
+}
+
+building_energyimport = {
+	base_buildtime = 90
+	
+	cost = {
+		minerals = 90
+	}
+	
+	required_resources = {
+		sr_energyconvoy = 1
+	}
+	
+	produced_resources = {
+		energy = 20
+	}
+	ai_special_building = yes
+}
+building_energyimportlarge = {
+	base_buildtime = 90
+	
+	cost = {
+		minerals = 180
+	}
+	
+	required_resources = {
+		sr_energyconvoy = 2
+	}
+	
+	produced_resources = {
+		energy = 40
+	}
+	ai_special_building = yes
+}
+
+building_mineralexport = {
+	base_buildtime = 180
+	
+	cost = {
+		minerals = 90
+	}
+	
+	required_resources = {
+		energy = 2
+		minerals = 20
+	}
+	
+	produced_resources = {
+		sr_mineralconvoy = 1
+	}
+	planet_unique = yes	
+	ai_special_building = yes
+}
+
+building_mineralimport = {
+	base_buildtime = 90
+	
+	cost = {
+		minerals = 90
+	}
+	
+	required_resources = {
+		sr_mineralconvoy = 1
+		energy = 2
+	}
+	
+	produced_resources = {
+		minerals = 20
+	}	
+	ai_special_building = yes
+}
+building_mineralimportlarge = {
+	base_buildtime = 90
+	
+	cost = {
+		minerals = 180
+	}
+	
+	required_resources = {
+		sr_mineralconvoy = 2
+		energy = 4
+	}
+	
+	produced_resources = {
+		minerals = 40
+	}	
+	ai_special_building = yes
+}

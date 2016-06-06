@@ -1,0 +1,77 @@
+##########################################################################
+# Planet edicts
+##########################################################################
+
+# Variables:
+#  name, the name of the edict, also serves as localisation key.
+#  influence_cost, the base influence cost of activating the edict.
+#  potential, planet or country trigger to decide whether the edict should be shown.
+#  allow, planet or country trigger to decide if whether this edict can be activated.
+#  effect, an effect that is executed when this trigger activates.
+#  prerequisites, tech requirements for this trigger.
+#  ai_will_do, determines AI scoring for edict
+#  modifier, a list of modifiers
+#  length, number of days the trigger is active.
+
+# Sets the edict-cost for all edicts with this variable
+@standardEdictCost = 150
+
+
+
+planet_edict = {
+	name = "trade_hub"
+	influence_cost = @standardEdictCost
+	modifier = {
+		pop_ethic_shift = 0.05
+		}
+	potential = {
+		owner = {
+				has_country_flag = birth_of_civtrade
+				NOT = { has_country_flag = trade_hub_active }	
+		}
+	}
+	length = 3600
+	
+	allow = {
+		NOT = { has_edict = trade_hub }
+	}
+	
+	ai_weight = {
+		weight = 0
+	}	
+}
+
+
+##########################################################################
+# Empire edicts
+##########################################################################
+
+country_edict = {
+	name = "trade_subsidies"
+	modifier = {
+		pop_ethic_shift = 0.01
+		tile_resource_energy_mult = -0.03
+		tile_resource_mineral_mult = -0.03
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		has_country_flag = birth_of_civtrade					
+	}
+	
+	allow = {
+		NOT = { has_policy_flag = restricted_trade }
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0
+			NOR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}		
+	}	
+}

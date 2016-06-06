@@ -814,9 +814,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<autocracy_mil>"
-	prefix_format = ".[This.Capital.System.GetName]<autocracy_mil>"
-	noun = ".[This.Capital.System.GetName]"
+	format = "	[This.Capital.System.GetName]<autocracy_mil>"
+	prefix_format = "	[This.Capital.System.GetName]<autocracy_mil>"
+	noun = "	[This.Capital.System.GetName]"
 	# Empire of Sol
 }
 
@@ -835,9 +835,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_mil>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_mil>"
+	format = "	[This.GetSpeciesName]<autocracy_mil>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_mil>"
 	# Human Empire
 }
 
@@ -856,9 +856,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<autocracy_mil_desc>[This.GetSpeciesName]<autocracy_mil>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_mil>"
+	format = "	<autocracy_mil_desc>[This.GetSpeciesName]<autocracy_mil>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_mil>"
 	# Great Human Empire
 }
 
@@ -877,9 +877,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_mil_mid_desc><autocracy_mil>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_mil>"
+	format = "	[This.GetSpeciesName]<autocracy_mil_mid_desc><autocracy_mil>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_mil>"
 	# Human Star Empire
 }
 
@@ -900,9 +900,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<autocracy_spi>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<autocracy_spi>"
+	format = "	[This.Capital.System.GetName]<autocracy_spi>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<autocracy_spi>"
 	# Empire of Sol
 }
 
@@ -921,9 +921,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_spi>"
+	format = "	[This.GetSpeciesName]<autocracy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_spi>"
 	# Human Empire
 }
 
@@ -942,9 +942,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<autocracy_spi_desc>[This.GetSpeciesName]<autocracy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_spi>"
+	format = "	<autocracy_spi_desc>[This.GetSpeciesName]<autocracy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_spi>"
 	# Great Human Empire
 }
 
@@ -963,9 +963,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_spi_mid_desc><autocracy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_spi>"
+	format = "	[This.GetSpeciesName]<autocracy_spi_mid_desc><autocracy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_spi>"
 	# Human Star Empire
 }
 
@@ -986,9 +986,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<autocracy_mat>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<autocracy_mat>"
+	format = "	[This.Capital.System.GetName]<autocracy_mat>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<autocracy_mat>"
 	# Empire of Sol
 }
 
@@ -1007,9 +1007,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_mat>"
+	format = "	[This.GetSpeciesName]<autocracy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_mat>"
 	# Human Empire
 }
 
@@ -1028,9 +1028,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<autocracy_mat_desc>[This.GetSpeciesName]<autocracy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_mat>"
+	format = "	<autocracy_mat_desc>[This.GetSpeciesName]<autocracy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_mat>"
 	# Great Human Empire
 }
 
@@ -1049,9 +1049,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_mat_mid_desc><autocracy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_mat>"
+	format = "	[This.GetSpeciesName]<autocracy_mat_mid_desc><autocracy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_mat>"
 	# Human Star Empire
 }
 
@@ -1072,9 +1072,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<autocracy_pac>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<autocracy_pac>"
+	format = "	[This.Capital.System.GetName]<autocracy_pac>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<autocracy_pac>"
 	# Empire of Sol
 }
 
@@ -1093,9 +1093,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_pac>"
+	format = "	[This.GetSpeciesName]<autocracy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_pac>"
 	# Human Empire
 }
 
@@ -1114,9 +1114,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<autocracy_pac_desc>[This.GetSpeciesName]<autocracy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_pac>"
+	format = "	<autocracy_pac_desc>[This.GetSpeciesName]<autocracy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_pac>"
 	# Great Human Empire
 }
 
@@ -1135,9 +1135,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_pac_mid_desc><autocracy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_pac>"
+	format = "	[This.GetSpeciesName]<autocracy_pac_mid_desc><autocracy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_pac>"
 	# Human Star Empire
 }
 
@@ -1158,9 +1158,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<autocracy_gen>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<autocracy_gen>"
+	format = "	[This.Capital.System.GetName]<autocracy_gen>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<autocracy_gen>"
 	# Empire of Sol
 }
 
@@ -1179,9 +1179,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_gen>"
+	format = "	[This.GetSpeciesName]<autocracy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_gen>"
 	# Human Empire
 }
 
@@ -1200,9 +1200,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<autocracy_gen_desc>[This.GetSpeciesName]<autocracy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_gen>"
+	format = "	<autocracy_gen_desc>[This.GetSpeciesName]<autocracy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_gen>"
 	# Great Human Empire
 }
 
@@ -1221,9 +1221,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<autocracy_gen_mid_desc><autocracy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<autocracy_gen>"
+	format = "	[This.GetSpeciesName]<autocracy_gen_mid_desc><autocracy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<autocracy_gen>"
 	# Human Star Empire
 }
 
@@ -1244,9 +1244,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<oligarchy_mil>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<oligarchy_mil>"
+	format = "	[This.Capital.System.GetName]<oligarchy_mil>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<oligarchy_mil>"
 	# Empire of Sol
 }
 
@@ -1265,9 +1265,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_mil>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_mil>"
+	format = "	[This.GetSpeciesName]<oligarchy_mil>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_mil>"
 	# Human Empire
 }
 
@@ -1286,9 +1286,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<oligarchy_mil_desc>[This.GetSpeciesName]<oligarchy_mil>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_mil>"
+	format = "	<oligarchy_mil_desc>[This.GetSpeciesName]<oligarchy_mil>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_mil>"
 	# Great Human Empire
 }
 
@@ -1307,9 +1307,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_mil_mid_desc><oligarchy_mil>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_mil>"
+	format = "	[This.GetSpeciesName]<oligarchy_mil_mid_desc><oligarchy_mil>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_mil>"
 	# Human Star Empire
 }
 
@@ -1330,9 +1330,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<oligarchy_spi>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<oligarchy_spi>"
+	format = "	[This.Capital.System.GetName]<oligarchy_spi>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<oligarchy_spi>"
 	# Empire of Sol
 }
 
@@ -1351,9 +1351,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_spi>"
+	format = "	[This.GetSpeciesName]<oligarchy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_spi>"
 	# Human Empire
 }
 
@@ -1372,9 +1372,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<oligarchy_spi_desc>[This.GetSpeciesName]<oligarchy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_spi>"
+	format = "	<oligarchy_spi_desc>[This.GetSpeciesName]<oligarchy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_spi>"
 	# Great Human Empire
 }
 
@@ -1393,9 +1393,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_spi_mid_desc><oligarchy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_spi>"
+	format = "	[This.GetSpeciesName]<oligarchy_spi_mid_desc><oligarchy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_spi>"
 	# Human Star Empire
 }
 
@@ -1416,9 +1416,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<oligarchy_mat>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<oligarchy_mat>"
+	format = "	[This.Capital.System.GetName]<oligarchy_mat>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<oligarchy_mat>"
 	# Empire of Sol
 }
 
@@ -1437,9 +1437,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_mat>"
+	format = "	[This.GetSpeciesName]<oligarchy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_mat>"
 	# Human Empire
 }
 
@@ -1458,9 +1458,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<oligarchy_mat_desc>[This.GetSpeciesName]<oligarchy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_mat>"
+	format = "	<oligarchy_mat_desc>[This.GetSpeciesName]<oligarchy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_mat>"
 	# Great Human Empire
 }
 
@@ -1479,9 +1479,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_mat_mid_desc><oligarchy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_mat>"
+	format = "	[This.GetSpeciesName]<oligarchy_mat_mid_desc><oligarchy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_mat>"
 	# Human Star Empire
 }
 
@@ -1502,9 +1502,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<oligarchy_pac>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<oligarchy_pac>"
+	format = "	[This.Capital.System.GetName]<oligarchy_pac>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<oligarchy_pac>"
 	# Empire of Sol
 }
 
@@ -1523,9 +1523,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_pac>"
+	format = "	[This.GetSpeciesName]<oligarchy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_pac>"
 	# Human Empire
 }
 
@@ -1544,9 +1544,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<oligarchy_pac_desc>[This.GetSpeciesName]<oligarchy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_pac>"
+	format = "	<oligarchy_pac_desc>[This.GetSpeciesName]<oligarchy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_pac>"
 	# Great Human Empire
 }
 
@@ -1565,9 +1565,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_pac_mid_desc><oligarchy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_pac>"
+	format = "	[This.GetSpeciesName]<oligarchy_pac_mid_desc><oligarchy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_pac>"
 	# Human Star Empire
 }
 
@@ -1588,9 +1588,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<oligarchy_gen>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<oligarchy_gen>"
+	format = "	[This.Capital.System.GetName]<oligarchy_gen>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<oligarchy_gen>"
 	# Empire of Sol
 }
 
@@ -1609,9 +1609,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_gen>"
+	format = "	[This.GetSpeciesName]<oligarchy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_gen>"
 	# Human Empire
 }
 
@@ -1630,9 +1630,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<oligarchy_gen_desc>[This.GetSpeciesName]<oligarchy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_gen>"
+	format = "	<oligarchy_gen_desc>[This.GetSpeciesName]<oligarchy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_gen>"
 	# Great Human Empire
 }
 
@@ -1651,9 +1651,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<oligarchy_gen_mid_desc><oligarchy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<oligarchy_gen>"
+	format = "	[This.GetSpeciesName]<oligarchy_gen_mid_desc><oligarchy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<oligarchy_gen>"
 	# Human Star Empire
 }
 
@@ -1674,9 +1674,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<democracy_mil>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<democracy_mil>"
+	format = "	[This.Capital.System.GetName]<democracy_mil>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<democracy_mil>"
 	# Empire of Sol
 }
 
@@ -1695,9 +1695,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_mil>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_mil>"
+	format = "	[This.GetSpeciesName]<democracy_mil>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_mil>"
 	# Human Empire
 }
 
@@ -1716,9 +1716,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<democracy_mil_desc>[This.GetSpeciesName]<democracy_mil>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_mil>"
+	format = "	<democracy_mil_desc>[This.GetSpeciesName]<democracy_mil>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_mil>"
 	# Great Human Empire
 }
 
@@ -1737,9 +1737,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_gen_mid_desc><democracy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_mil>"
+	format = "	[This.GetSpeciesName]<democracy_gen_mid_desc><democracy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_mil>"
 	# Human Star Empire
 }
 
@@ -1760,9 +1760,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<democracy_spi>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<democracy_spi>"
+	format = "	[This.Capital.System.GetName]<democracy_spi>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<democracy_spi>"
 	# Empire of Sol
 }
 
@@ -1781,9 +1781,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_spi>"
+	format = "	[This.GetSpeciesName]<democracy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_spi>"
 	# Human Empire
 }
 
@@ -1802,9 +1802,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<democracy_spi_desc>[This.GetSpeciesName]<democracy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_spi>"
+	format = "	<democracy_spi_desc>[This.GetSpeciesName]<democracy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_spi>"
 	# Great Human Empire
 }
 
@@ -1823,9 +1823,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_spi_mid_desc><democracy_spi>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_spi>"
+	format = "	[This.GetSpeciesName]<democracy_spi_mid_desc><democracy_spi>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_spi>"
 	# Human Star Empire
 }
 
@@ -1846,9 +1846,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<democracy_mat>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<democracy_mat>"
+	format = "	[This.Capital.System.GetName]<democracy_mat>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<democracy_mat>"
 	# Empire of Sol
 }
 
@@ -1867,9 +1867,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_mat>"
+	format = "	[This.GetSpeciesName]<democracy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_mat>"
 	# Human Empire
 }
 
@@ -1888,9 +1888,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<democracy_mat_desc>[This.GetSpeciesName]<democracy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_mat>"
+	format = "	<democracy_mat_desc>[This.GetSpeciesName]<democracy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_mat>"
 	# Great Human Empire
 }
 
@@ -1909,9 +1909,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_mat_mid_desc><democracy_mat>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_mat>"
+	format = "	[This.GetSpeciesName]<democracy_mat_mid_desc><democracy_mat>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_mat>"
 	# Human Star Empire
 }
 
@@ -1932,9 +1932,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<democracy_pac>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<democracy_pac>"
+	format = "	[This.Capital.System.GetName]<democracy_pac>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<democracy_pac>"
 	# Empire of Sol
 }
 
@@ -1953,9 +1953,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_pac>"
+	format = "	[This.GetSpeciesName]<democracy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_pac>"
 	# Human Empire
 }
 
@@ -1974,9 +1974,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<democracy_pac_desc>[This.GetSpeciesName]<democracy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_pac>"
+	format = "	<democracy_pac_desc>[This.GetSpeciesName]<democracy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_pac>"
 	# Great Human Empire
 }
 
@@ -1995,9 +1995,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_pac_mid_desc><democracy_pac>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_pac>"
+	format = "	[This.GetSpeciesName]<democracy_pac_mid_desc><democracy_pac>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_pac>"
 	# Human Star Empire
 }
 
@@ -2018,9 +2018,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.Capital.System.GetName]<democracy_gen>"
-	noun = ".[This.Capital.System.GetName]"
-	prefix_format = ".[This.Capital.System.GetName]<democracy_gen>"
+	format = "	[This.Capital.System.GetName]<democracy_gen>"
+	noun = "	[This.Capital.System.GetName]"
+	prefix_format = "	[This.Capital.System.GetName]<democracy_gen>"
 	# Empire of Sol
 }
 
@@ -2039,9 +2039,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_gen>"
+	format = "	[This.GetSpeciesName]<democracy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_gen>"
 	# Human Empire
 }
 
@@ -2060,9 +2060,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<democracy_gen_desc>[This.GetSpeciesName]<democracy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_gen>"
+	format = "	<democracy_gen_desc>[This.GetSpeciesName]<democracy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_gen>"
 	# Great Human Empire
 }
 
@@ -2081,9 +2081,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".[This.GetSpeciesName]<democracy_gen_mid_desc><democracy_gen>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<democracy_gen>"
+	format = "	[This.GetSpeciesName]<democracy_gen_mid_desc><democracy_gen>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<democracy_gen>"
 	# Human Star Empire
 }
 
@@ -2112,9 +2112,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<generic_aut_desc>[This.GetSpeciesName]<generic_states>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<generic_states>"
+	format = "	<generic_aut_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<generic_states>"
 	# United Human Colonies
 }
 
@@ -2141,9 +2141,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<generic_aut_desc>[This.GetSpeciesName]<generic_states>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<generic_states>"
+	format = "	<generic_aut_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<generic_states>"
 	# Human Federated Colonies
 }
 
@@ -2170,9 +2170,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<generic_oli_desc>[This.GetSpeciesName]<generic_states>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<generic_states>"
+	format = "	<generic_oli_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<generic_states>"
 	# United Human Colonies
 }
 
@@ -2199,9 +2199,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<generic_oli_desc>[This.GetSpeciesName]<generic_states>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<generic_states>"
+	format = "	<generic_oli_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<generic_states>"
 	# Human Federated Colonies
 }
 
@@ -2228,9 +2228,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<generic_dem_desc>[This.GetSpeciesName]<generic_states>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<generic_states>"
+	format = "	<generic_dem_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<generic_states>"
 	# United Human Colonies
 }
 
@@ -2257,9 +2257,9 @@ empire_name_format = {
 			NOT = { is_country_type = fallen_empire }
 		}
 	}
-	format = ".<generic_dem_desc>[This.GetSpeciesName]<generic_states>"
-	noun = ".[This.GetSpeciesName]"
-	prefix_format = ".[This.GetSpeciesName]<generic_states>"
+	format = "	<generic_dem_desc>[This.GetSpeciesName]<generic_states>"
+	noun = "	[This.GetSpeciesName]"
+	prefix_format = "	[This.GetSpeciesName]<generic_states>"
 	# Human Federated Colonies
 }
 
@@ -2283,8 +2283,8 @@ empire_name_format = {
 			}
 		}
 	}
-	format = ".[This.GetSpeciesName]<primitive_names>"
-	noun = ".[This.GetSpeciesName]"
+	format = "	[This.GetSpeciesName]<primitive_names>"
+	noun = "	[This.GetSpeciesName]"
 	# Human Civilization
 }
 

@@ -1,0 +1,403 @@
+# Swarm Large Ship
+ship_design = {
+	name = "Swarm Large"
+	ship_size = large_ship_swarm
+	country_type = swarm
+	section = {
+		template = "swarm_warship_large_key" 
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	required_component="WARP_DRIVE_3"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_4"
+}
+
+# Swarm Large Carrier Ship
+ship_design = {
+	name = "Swarm Carrier"
+	ship_size = large_ship_carrier_swarm
+	country_type = swarm
+	section = {
+		template = "swarm_carrier_large_key"
+		slot = "mid"
+		
+		component = {
+			slot = "STRIKE_CRAFT_01"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_02"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_03"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_04"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	required_component="WARP_DRIVE_3"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_4"
+}
+
+# Swarm Small Ship
+ship_design = {
+	name = "Swarm Small"
+	ship_size = small_ship_swarm
+	country_type = swarm
+	section = {
+		template = "swarm_warship_small_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	required_component="WARP_DRIVE_3"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_4"
+}
+
+# Swarm Large Station
+ship_design = {
+	name = "Swarm Large Station"
+	ship_size = military_station_large_swarm
+	country_type = swarm
+	section = {
+		template = "swarm_station_large_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_04"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_05"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_05"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_01"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_02"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_03"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+}
+
+# Swarm Small Station
+ship_design = {
+	name = "Swarm Small Station"
+	ship_size = military_station_small_swarm
+	country_type = swarm
+	section = {
+		template = "swarm_station_small_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_03"
+			template = "SMALL_SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_01"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+}
+
+# Swarm Queen
+ship_design = {
+	name = "Swarm Queen"
+	ship_size = queen_swarm
+	country_type = swarm
+	section = {
+		template = "swarm_queen_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "LARGE_GUN_04"
+			template = "LARGE_SCOURGE_MISSILE_1"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "SCOURGE_PROJECTILE_WEAPON"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_01"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_02"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "STRIKE_CRAFT_03"
+			template = "SWARM_STRIKE_CRAFT"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	required_component="WARP_DRIVE_3"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_4"
+}
+
+# Swarm Transport
+ship_design = {
+	name = "Swarm Transport"
+	ship_size = transport_ship_swarm
+	country_type = swarm
+	
+	section = {
+		template = "swarm_transport_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="WARP_DRIVE_3"
+	required_component="SHIP_THRUSTER_4"
+}
+
+# Swarm Colonizer
+ship_design = {
+	name = "Swarm Colonizer"
+	ship_size = colony_ship_swarm
+	country_type = swarm
+	
+	section = {
+		template = "swarm_colonizer_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="WARP_DRIVE_3"
+	required_component="SHIP_THRUSTER_4"
+}
+
+# Swarm Constructor
+ship_design = {
+	name = "Swarm Constructor"
+	ship_size = construction_ship_swarm
+	country_type = swarm
+	
+	section = {
+		template = "swarm_constructor_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="WARP_DRIVE_3"
+	required_component="SHIP_THRUSTER_4"
+}

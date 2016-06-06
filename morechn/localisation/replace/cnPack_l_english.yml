@@ -2,24 +2,90 @@
 ####  By Inkit  ####
 
 #### 汉语命名组 ####
- name_list_CHN:0 "人族 汉语"
+ name_list_CHN:0 "人族:§S中国风§!"
+ name_list_ASG1: "舰娘"
+ MON:1 "魔物娘"
+#############################
 
 #### Emblems 徽章文件夹 ####
- FLAG_CATEGORY_divers:0 "金"
- FLAG_CATEGORY_divers2:0 "银"
- FLAG_CATEGORY_domination:0 "统治"
+ FLAG_CATEGORY_divers:0 "+§L金§!"
+ FLAG_CATEGORY_divers2:0 "+银"
+ FLAG_CATEGORY_domination:0 "+统治"
+ FLAG_CATEGORY_extendedemblems:0 "+§G徽章扩展§!"
  FLAG_CATEGORY_special:0 "特别"
- FLAG_CATEGORY_jpicons:0 "日式"
- FLAG_CATEGORY_halo:0 "光环"
- FLAG_CATEGORY_stargate:0 "星门"
- FLAG_CATEGORY_IT:0 "IT"
- FLAG_CATEGORY_nationalism:0 "现实历史国家"
- FLAG_CATEGORY_assassins_creed:0 "刺客信条"
- FLAG_CATEGORY_real_world:0 "现实世界"
- FLAG_CATEGORY_clancrest:0 "BT 家族"
- FLAG_CATEGORY_ispolitical:0 "BT 政治"
- FLAG_CATEGORY_mercenary:0 "BT 雇佣兵"
- MON:1 "魔物娘"
+
+ FLAG_CATEGORY_jpricons:0 "+§H日式§!"
+ 
+ FLAG_CATEGORY_halo:0 "+§Y光环§"
+ FLAG_CATEGORY_stargate:0 "+§Y星门§"
+ 
+ FLAG_CATEGORY_IT:0 "+§BIT§!"
+ FLAG_CATEGORY_assassins_creed:0 "+§R刺客信条§!"
+ 
+ FLAG_CATEGORY_real_world:0 "+§R现实世界§!"
+ FLAG_CATEGORY_nationalism:0 "+现实历史国家"
+ 
+ FLAG_CATEGORY_BT:0 "+§BBT系列§!"
+ FLAG_CATEGORY_clancrest:0 "+BT 家族"
+ FLAG_CATEGORY_ispolitical:0 "+BT 政治"
+ FLAG_CATEGORY_mercenary:0 "+BT 雇佣兵"
+#############################
+ 
+#### Other ####
  trait_ruler_faith:1 "美德"
  trait_ruler_faith_desc: "好棒好棒的"
- name_list_ASG1: "舰娘"
+#############################
+
+#### setcap ####
+ edict_planet_capital:0 "设定为我国首都"
+ edict_planet_capital_desc:0 "点击后将设定此星球为我国新的首都。" 
+ edict_planet_capital.tooltip:0 "将 §Y[Root.GetName]§! 设为你的首都。"
+#############################
+ 
+#### Ringworld Start ####
+#### http://steamcommunity.com/sharedfiles/filedetails/?id=681864454 ####
+ ringworld_st_system_NAME:0 "§G环形世界§!"
+ ringworld_st_system_DESC:0 "有4个可居住地区的环形世界.\n\n$system_initializer_DESC$"
+ ringworld_dmg_st_system_NAME:0 "§E损坏的环形世界§!"
+ ringworld_dmg_st_system_DESC:0 "有4个可居住地区的圆环世界，有一个损坏的裂缝.\n\n$system_initializer_DESC$"
+ ringworld_des_st_system_NAME:0 "§R毁灭的圆环世界§!"
+ ringworld_des_st_system_DESC:0 "只有1个可居住地区的环形世界.\n\n$system_initializer_DESC$"
+ ringworld_sup_st_system_NAME:0 "§L超级圆环世界§!"
+ ringworld_sup_st_system_DESC:0 "有一打可居住地区的环形世界.\n\n$system_initializer_DESC$"
+#############################
+
+#### bordergrow_l_english ####
+ edict_border_growth_d:0 "边界增长"
+ #border growth edicts
+ edict_border_growth_I:0 "$edict_border_growth_d$ I"
+ edict_border_growth_I_desc:0 "我们可以使用影响力来提高全国的边界增长速度。\n通过建设更高级的城市首府来解锁更快速的边界增长政策."
+ edict_border_growth_II:0 "$edict_border_growth_d$ II"
+ edict_border_growth_II_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_III:0 "$edict_border_growth_d$ III"
+ edict_border_growth_III_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_IV:0 "$edict_border_growth_d$ IV"
+ edict_border_growth_IV_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_V:0 "$edict_border_growth_d$ V"
+ edict_border_growth_V_desc:0 "$edict_border_growth_I_desc$."
+#############################
+
+#### GalaxyUnlimited_l_english ####
+#### Galaxies Unlimited ####
+#### http://steamcommunity.com/sharedfiles/filedetails/?id=682835797  ####
+Microscopic:0 "§g最小§!"
+Minuscule:0 "§g更小§!"
+Small:0 "§W小型§!"
+Tiny:0 "§W稍小§!"
+Average:0 "§E一般§!"
+Medium:0 "§E中等§!"
+Big:0 "§B稍大§!"
+Huge:0 "§B大型§!"
+large:0 "§Y更大§!"
+Gigantic:0 "§Y特大§!"
+Enormous:0 "§H超大§!"
+Massive:0 "§G巨型§!"
+Colossal:0 "§L超巨型§!"
+Epic:0 "§M史诗§!"
+Insane:0 "§R疯狂§!"
+
+#############################

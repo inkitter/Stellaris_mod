@@ -20,5 +20,5 @@
  edict_auto_build_cost:0 "保持资源储备"
  edict_auto_build_cost_desc:0 "While active edict, all the buildings and improvements will occur if you have 1000 minerals or 250 influence, if required."
  
- edict_no_sector:0 "星区不消耗"
- edict_no_sector_desc:0 "启用这个法令后，星区不消耗."
+ edict_no_sector:0 "更多的直辖行星"
+ edict_no_sector_desc:0 "启用这个法令后，直辖行星上限提高."

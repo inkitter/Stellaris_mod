@@ -1,0 +1,5 @@
+﻿l_english:
+  #Events
+ edict_planet_capital:0 "Set Planet Capital"
+ edict_planet_capital_desc:0 "Click this to set this planet as your capital" 
+ edict_planet_capital.tooltip:0 "Set §Y[Root.GetName]§! as your capital"
