@@ -90,67 +90,35 @@ colony_fleet_system_initializer = {
 			}				
 			create_ambient_object = {
 				type = "large_debris_object"
-				set_location = {
-						target = PREV
-						distance = 10
-						angle = random 
-				}
+				location = this
 			}
 			create_ambient_object = {
 				type = "large_debris_object"
-				set_location = {
-						target = PREV
-						distance = 10
-						angle = random 
-				}			
+				location = this	
 			}
 			create_ambient_object = {
 				type = "medium_debris_01_object"
-				set_location = {
-						target = PREV
-						distance = 10
-						angle = random 
-				}
+				location = this	
 			}
 			create_ambient_object = {
 				type = "medium_debris_01_object"
-				set_location = {
-						target = PREV
-						distance = 10
-						angle = random 
-				}
+				location = this	
 			}
 			create_ambient_object = {
 				type = "medium_debris_02_object"
-				set_location = {
-						target = PREV
-						distance = 10
-						angle = random 
-				}
+				location = this	
 			}
 			create_ambient_object = {
 				type = "medium_debris_02_object"
-				set_location = {
-						target = PREV
-						distance = 10
-						angle = random 
-				}
+				location = this	
 			}
 			create_ambient_object = {
 				type = "small_debris_object"
-				set_location = {
-						target = PREV
-						distance = 0
-						angle = random 
-				}
+				location = this	
 			}
 			create_ambient_object = {
 				type = "small_debris_object"
-				set_location = {
-						target = PREV
-						distance = 0
-						angle = random 
-				}
+				location = this	
 			}
 		}
 	}
@@ -218,7 +186,6 @@ ilus_init = {
 		orbit_distance = { min = 20 max = 50 }
 		orbit_angle = { min = 90 max = 250 }
 		size = { min = 18 max = 25 }
-		modifier = "lush_planet"
 		
 		init_effect = {
 			set_planet_flag = ilus_prime_colony

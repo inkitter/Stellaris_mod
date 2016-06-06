@@ -405,7 +405,7 @@ guiTypes = {
 
 		iconType = {
 			name = "icon"
-			spriteType = "GFX_diplo_status"
+			spriteType = "GFX_diplo_type_icon"
 		}
 	}
 

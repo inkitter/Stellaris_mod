@@ -46,7 +46,6 @@ ring_mil_con = {
 	cost = 20000
 	base_buildtime = 6000
 	components_add_to_cost = no
-	gfx_culture = { "fallen_empire_01" }
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	prerequisites = { "tech_ringworld_construction_four" }
 	class = shipclass_military_station

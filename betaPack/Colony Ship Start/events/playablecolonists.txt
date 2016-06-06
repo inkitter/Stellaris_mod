@@ -311,7 +311,6 @@ country_event = {
 			create_ship = {
 				name = "Ark - Last Hope"
 				design = last_created_design
-				species = owner_main_species
 			}	
 			set_location = {
 				target = event_target:spawn_planet

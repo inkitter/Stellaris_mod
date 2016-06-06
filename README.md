@@ -50,8 +50,8 @@ https://github.com/inkitter/Stellaris_mod
 * Crystallis Ship Modules Expansion 水晶船模块扩展 __morechn已汉化__
 * More Technologies  更多的科技。 __morechn已汉化__。   这个包是多个增量mod的整合包，修改较多较复杂，不过挺好玩的。
 * More Spaceport Modules  更多的空间站模块。 __morechn已汉化__。
-* More Army Attachments  更多的军队模块。  __morechn已汉化__。
 * zBeautiful Battles  漂亮的战斗。 提高了战斗的美观度，有不少战斗平衡性调整，例如舰船战斗阵形优化等。但此mod改变的数据较多，想体验原始战斗设计还是不开启较好。
+* Research All FTL  可以研究所有FTL迁跃理论。 
 
 ### 贸易增强（0）
 同时开启的话可能发生意外。
@@ -70,8 +70,7 @@ https://github.com/inkitter/Stellaris_mod
 * Colony Ship Start 殖民船开局 __morechn已汉化__。
 * Expanded Spaceport 24格空间站 
 * Expanded War Demands 更多的战争要求 __morechn已汉化__。
-* More Edicts  更多的政策。  __morechn已汉化__。
-* Research All FTL  可以研究所有FTL迁跃理论。 
+* More Army Attachments  更多的军队模块。  __morechn已汉化__。
 * Sector Defense Navy  会自动制造舰队的星区（星区选择第一种AI）
 
 ## 大文件包
