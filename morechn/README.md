@@ -36,3 +36,4 @@
  * Planetary Rally Points http://steamcommunity.com/sharedfiles/filedetails/?id=693310104 by Garfeineko@steam 春天的园草@3DM
  * Design Everything / Station BUFF http://steamcommunity.com/sharedfiles/filedetails/?id=691660541 可以设计各类宇宙空间站（采矿站、观测站等）以增加攻击防御；可以近距离修建固定式防御空间站。 by Garfeineko@steam 春天的园草@3DM
  * Expanded War Demands http://steamcommunity.com/sharedfiles/filedetails/?id=684037552 可以在战争中提出包括羞辱、弃星、改变政策、给能源矿物等一系列要求。AI同样适用。
+ * New Ship Classes & More http://steamcommunity.com/sharedfiles/filedetails/?id=684861648 by 往事随行@3dm
