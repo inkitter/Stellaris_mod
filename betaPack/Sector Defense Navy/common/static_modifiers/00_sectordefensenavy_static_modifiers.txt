@@ -2,5 +2,6 @@
 # Ship Modifiers
 ##########################################################################
 sector_defense_fleet = {
+	size_multiplier = 0
 	ship_upkeep_mult = -0.5
 }

@@ -1,0 +1,21 @@
+### Planet Modifiers
+
+pm_asteroid_environment = {
+	spawn_chance = {
+		modifier = {
+			add = 10
+			is_planet_class = "pc_asteroid"
+		}
+		modifier = {
+			factor = 0
+			has_planet_modifier = "pm_asteroid_environment"
+		}
+		modifier = {
+			factor = 0
+			num_modifiers > 1
+		}
+	}
+	
+	modifier = "asteroid_environment"
+}
+

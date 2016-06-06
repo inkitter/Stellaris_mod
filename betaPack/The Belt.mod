@@ -1,0 +1,5 @@
+name="The Belt"
+archive="mod/The Belt"
+picture="the_belt_thumbnail.jpg"
+remote_file_id="694492075"
+supported_version="1.1"

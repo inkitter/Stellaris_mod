@@ -40,6 +40,7 @@ https://github.com/inkitter/Stellaris_mod
 * Change Capital Planet 改变首都。 __morechn已汉化__。
 * Planetary Rally Points 设置舰队集结点。 __morechn已汉化__。
 * DZ Unique Starting Systems 创建种族时有更多的起始星系选择。 __morechn已汉化__。
+* Better Sector Mod 星区不再消耗影响、星区视觉效果改善。
 
 ### 领袖增强(+)
 * Fox Leader Mod 领袖等级上限调整等领袖强化。
@@ -65,13 +66,15 @@ https://github.com/inkitter/Stellaris_mod
 
 
 ## 测试包（betaPack） 可能引发错误的
-* Auto improve buildings 自动升级建筑 __morechn已汉化__。
-* New Ship Classes & More 更多的舰船类型 __morechn已汉化__。
-* Colony Ship Start 殖民船开局 __morechn已汉化__。
+* Auto improve buildings 自动升级建筑 __morechn已汉化__
+* New Ship Classes & More 更多的舰船类型 __morechn已汉化__
+* Colony Ship Start 殖民船开局 __morechn已汉化__
 * Expanded Spaceport 24格空间站 
-* Expanded War Demands 更多的战争要求 __morechn已汉化__。
-* More Army Attachments  更多的军队模块。  __morechn已汉化__。
+* Expanded War Demands 更多的战争要求 __morechn已汉化__
+* More Army Attachments  更多的军队模块。  __morechn已汉化__
 * Sector Defense Navy  会自动制造舰队的星区（星区选择第一种AI）
+* Slvrbuu's Stellaris Cheat Menu 作弊菜单 __morechn已汉化__
+* The Belt 可在不能殖民的星球殖民，此mod内容较多 __未汉化__
 
 ## 大文件包
 * Zeon 机战吉恩公国  __morechn已汉化__

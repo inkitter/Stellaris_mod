@@ -1,0 +1,26 @@
+# Possible Deposit Variables
+# modifier - weight, will replace the weight value
+# modifier - factor, will multiply the weight value
+# resources, resource and amount
+# station = station class in orbit to gather
+# if you mix resources that are not supposed to be collected by an orbital station remember to put is_orbital_slot = no
+
+##################################
+########## TERRAFORMING ##########
+##################################
+
+d_c_terraforming_resource_deposit = {
+	resources = {
+		sr_terraform_gases = 10
+		sr_terraform_liquids = 10
+		energy = 5
+	}
+	station = shipclass_mining_station
+	orbital_weight = {
+		weight = 0
+	}
+	
+	drop_weight = {
+		weight = 0
+	}
+}

@@ -48,7 +48,7 @@ guiTypes = {
 	# How small the window must be before it moves planet_name
 	positionType = {
 		name = "planet_name_move_size_y"
-		position = { x = 0 y = 640 }
+		position = { x = 0 y = 700 }
 	}
 	
 
@@ -401,7 +401,7 @@ guiTypes = {
 	# Diplo status entry
 	containerWindowType = {
 		name = "planet_view_module_colonized_top_bar_diplo_entry"
-		size = { width = 30 height = 30 }
+		size = { width = 32 height = 32 }
 
 		iconType = {
 			name = "icon"
@@ -924,7 +924,7 @@ guiTypes = {
 				iconType = {
 					name = "portrait"
 					quadTextureSprite = "GFX_portrait_character"
-					position = { x = -25 y = -10 }
+					position = { x = -85 y = -27 }
 					scale = 0.5
 					alwaysTransparent = yes
 				}
@@ -1131,9 +1131,10 @@ guiTypes = {
 				iconType = {
 					name = "portrait"
 					quadTextureSprite = "GFX_portrait_character"
-					position = { x = -25 y = 0 }
-					scale = 0.3
+					#position = { x = -25 y = 0 }
+					scale = 0.25
 					alwaysTransparent = yes
+					position = { x = -45 y = -12 }
 				}
 				
 
@@ -1404,8 +1405,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "embark_all_button"
-			quadTextureSprite = "GFX_button_116_24"
-			position = { x = 1 y = -65 }
+			quadTextureSprite = "GFX_button_150_24"
+			position = { x = -11 y = -65 }
 			orientation = lower_left
 			font = "cg_16b"
 			text = "PLANET_VIEW_EMBARK_ALL"
@@ -1415,8 +1416,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "land_all_button"
-			quadTextureSprite = "GFX_button_116_24"
-			position = { x = 1 y = -32  }
+			quadTextureSprite = "GFX_button_150_24"
+			position = { x = -11 y = -32  }
 			orientation = lower_left
 			font = "cg_16b"
 			text = "PLANET_VIEW_LAND_ALL"
@@ -1429,8 +1430,8 @@ guiTypes = {
 			name = "planet_fortifications"
 			font = "cg_16b"
 			text = "PLANET_FORTIFICATIONS_INFO"
-			position = { x = -140 y = -50 }
-			maxWidth = 240
+			position = { x = -105 y = -50 }
+			maxWidth = 200
 			fixedSize = yes
 			format = center
 			orientation = center_down
@@ -2101,7 +2102,7 @@ guiTypes = {
 			iconType = {
 				name = "portrait"
 				quadTextureSprite = "GFX_portrait_character"
-				position = { x = -10 y = 10 }
+				position = { x = -30 y = -2 }
 				scale = 0.205		# DONT TOUCH, MAGIC NUMBER!
 			}
 
@@ -2380,7 +2381,7 @@ guiTypes = {
 		iconType = {
 			name = "species_portrait"
 			spriteType = "GFX_portrait_character"
-			position = { x = 0 y = 4 }
+			position = { x = -20 y = -9 }
 			scale = 0.2
 			alwaysTransparent = yes
 		}
@@ -2863,7 +2864,8 @@ guiTypes = {
 		iconType = {
 			name = "repairing"
 			spriteType = "GFX_repairing"
-			position = { x = 210 y = 10 }
+			position = { x = 188 y = 8 }
+			scale = 1.0
 		}
 	}
 
@@ -3070,6 +3072,7 @@ guiTypes = {
 				font = "malgun_goth_24"
 				buttonText = "DETAILS"
 			}
+
 			### EXPANDED SPACEPORT
 			# This is where you need to do your adjustments. Every module is a square of 54 pixels, thus you need to adjust the [position] and [size] accordingly.
 			# Max slots determine how many can be shown in the given direction, but not how many is shown.
@@ -3226,9 +3229,10 @@ guiTypes = {
 			iconType = {
 				name = "portrait"
 				quadTextureSprite = "GFX_portrait_character"
-				position = { x = -12 y = 25 }
+				position = { x = -62 y = 2 }
 				scale = 0.4
-				alwaysTransparent = yes
+			#	scale = 1.0
+				#alwaysTransparent = yes
 			}
 		}
 
@@ -3439,7 +3443,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "tile_description_label"
 			font = "cg_16b"
-			text = "Building Details"
+			text = "BUILDING_DETAILS"
 			position = { x = 17 y = 12 }
 			maxWidth = 344
 			maxHeight = 40
@@ -4061,7 +4065,7 @@ guiTypes = {
 			buttonType = {
 				name = "portrait"
 				spriteType = "GFX_portrait_character"
-				position = { x = -8 y = 0 }
+				position = { x = -40 y = -20 }
 				scale = 0.3
 				alwaystransparent = yes
 			}

@@ -1,0 +1,19 @@
+# Event chains.
+
+# counter, counters that can be increased and checked from effects and triggers
+#
+# Loclizaton needed:
+# event_chain_chainnkey_title, a title to show in the situation log.
+# event_chain_chainnkey_desc, a description to show in the situation log.
+
+
+
+asteroid_home_system_sighted_chain = {
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+	picture = GFX_evt_asteroid_approaching_planet
+	counter = {
+		asteroid_destroyed = {
+			max = 1
+		}
+	}
+}

@@ -1,0 +1,1 @@
+NDefines.NGameplay.TERRAFORM_DEFAULT_DURATION_DAYS	= 10	-- Default number of days required to successfully terraform a planet

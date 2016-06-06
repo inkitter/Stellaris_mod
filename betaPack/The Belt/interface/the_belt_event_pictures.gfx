@@ -1,0 +1,48 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_evt_the_belt_life_support_fail"
+		texturefile = "gfx/event_pictures/the_belt_life_support_fail.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes			
+	}
+	
+	spriteType = {
+		name = "GFX_evt_the_belt_growth_of_independent_mining"
+		texturefile = "gfx/event_pictures/the_belt_growth_of_independent_mining.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes			
+	}
+	
+	spriteType = {
+		name = "GFX_evt_the_belt_asteroid_type_mining"
+		texturefile = "gfx/event_pictures/the_belt_asteroid_type_mining.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes			
+	}
+	
+	spriteType = {
+		name = "GFX_evt_the_belt_orbital_guard"
+		texturefile = "gfx/event_pictures/the_belt_orbital_guard.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes			
+	}
+	
+	spriteType = {
+		name = "GFX_evt_the_belt_mining_incidents"
+		texturefile = "gfx/event_pictures/the_belt_mining_incidents.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes			
+	}
+	
+	spriteType = {
+		name = "GFX_evt_the_belt_penal_colony"
+		texturefile = "gfx/event_pictures/the_belt_penal_colony.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes			
+	}
+	
+}
+
+
+

@@ -1,0 +1,148 @@
+############################
+#
+# Fallen Empire Events
+#
+# Written by Martin Anward
+#
+############################
+
+namespace = c_buff
+
+country_event = {
+	id = c_buff.1
+	title = c_buff.1.name
+	desc = c_buff.1.desc
+	
+	is_triggered_only = yes
+	
+	picture_event_data = {
+		portrait = from
+		planet_background = from
+		graphical_culture = from
+		city_level = from
+		room = from
+	}
+	
+	option = {
+		name = c_buff.1.a
+		trigger = {
+			NOT = { has_modifier = cheat_country_one }
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		add_modifier = {
+			modifier = cheat_country_one
+			days = -1
+		}
+	}
+	option = {
+		name = c_buff.1.a.b
+		trigger = {
+			has_modifier = cheat_country_one
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		remove_modifier = cheat_country_one
+	}
+	option = {
+		name = c_buff.1.b
+		trigger = {
+			NOT = { has_modifier = cheat_military_one }
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		add_modifier = {
+			modifier = cheat_military_one
+			days = -1
+		}
+	}
+	option = {
+		name = c_buff.1.b.b
+		trigger = {
+			has_modifier = cheat_military_one
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		remove_modifier = cheat_military_one
+	}
+	option = {
+		name = c_buff.1.c
+		trigger = {
+			NOT = { has_modifier = cheat_build_one }
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		add_modifier = {
+			modifier = cheat_build_one
+			days = -1
+		}
+	}
+	option = {
+		name = c_buff.1.c.b
+		trigger = {
+			has_modifier = cheat_build_one
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		remove_modifier = cheat_build_one
+	}
+	option = {
+		name = c_buff.1.e
+		trigger = {
+			NOT = { has_modifier = cheat_leader_one }
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		add_modifier = {
+			modifier = cheat_leader_one
+			days = -1
+		}
+	}
+	option = {
+		name = c_buff.1.e.b
+		trigger = {
+			has_modifier = cheat_leader_one
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		remove_modifier = cheat_leader_one
+	}
+	option = {
+		name = c_buff.1.f
+		trigger = {
+			NOT = { has_modifier = cheat_research_one }
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		add_modifier = {
+			modifier = cheat_research_one
+			days = -1
+		}
+	}
+	option = {
+		name = c_buff.1.f.b
+		trigger = {
+			has_modifier = cheat_research_one
+		}
+		ai_chance = {
+			factor = 0			
+		}		
+		remove_modifier = cheat_research_one
+	}
+
+	option = {
+		name = c_buff.1.d
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

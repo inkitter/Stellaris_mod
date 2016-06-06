@@ -1,0 +1,558 @@
+# Possible Tile Blocker Variables
+# spawn_chance, tile scope, value will compete with the spawn chance of every other item and there's a constant 100 for no blocker to spawn.
+# cost, resource table, the cost to clear this tile blocker
+# time, amount of days it takes to clear this tile blocker.
+# picture = tb_active_volcano #Use art from tb_active_volcano
+
+tb_mountain_range = {	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 9
+			planet = {
+				is_colonizable = yes
+				NOT = { is_planet_class = pc_ocean }
+				NOT = { is_planet_class = pc_continental }
+				NOT = { is_planet_class = pc_asteroid }
+				
+			}
+		}
+		modifier = {
+			add = 13.5
+			planet = {
+				is_colonizable = yes
+				is_planet_class = pc_continental
+				NOT = { is_planet_class = pc_asteroid }
+				
+			}
+		}
+		modifier = {
+				factor = 0.25
+				planet = {
+					has_modifier = "titanic_life"
+					NOT = { is_planet_class = pc_asteroid }
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_mountain_range" }
+}
+
+tb_active_volcano = {
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 9
+			planet = {
+				is_colonizable = yes
+				NOT = { is_planet_class = pc_ocean }
+				NOT = { is_planet_class = pc_continental }
+				NOT = { is_planet_class = pc_asteroid }
+				
+			}
+		}
+		modifier = {
+			add = 13.5
+			planet = {
+				is_colonizable = yes
+				is_planet_class = pc_continental
+				NOT = { is_planet_class = pc_asteroid }
+			}
+		}
+		modifier = {
+			add = 18
+			planet = {
+				is_colonizable = yes
+				is_planet_class = pc_ocean
+				NOT = { is_planet_class = pc_asteroid }
+			}
+		}
+		modifier = {
+				factor = 0.25
+				planet = {
+					has_modifier = "titanic_life"
+					NOT = { is_planet_class = pc_asteroid }
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_volcano" }
+}
+
+tb_dangerous_wildlife = {	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 9
+			planet = {
+				is_colonizable = yes
+				NOT = { is_planet_class = pc_continental }
+				NOT = { is_planet_class = pc_asteroid }
+			}
+		}
+		modifier = {
+			add = 13.5
+			planet = {
+				is_colonizable = yes
+				is_planet_class = pc_continental
+				NOT = { is_planet_class = pc_asteroid }
+			}
+		}
+		modifier = {
+				factor = 2
+				planet = {
+					has_modifier = "dangerous_wildlife"
+					NOT = { is_planet_class = pc_asteroid }
+				}
+			}
+		modifier = {
+				factor = 0
+				planet = {
+					has_modifier = "titanic_life"
+					is_planet_class = pc_asteroid
+					is_planet_class = pc_hollowed_asteroid
+					NOT = { is_planet_class = pc_asteroid }
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_dangerous_wildlife" }
+}
+
+tb_dense_jungle = {	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 36
+			planet = {
+				is_planet_class = pc_tropical
+			}
+		}
+		modifier = {
+			add = 20.25
+			planet = {
+				is_planet_class = pc_continental
+			}
+		}
+		modifier = {
+				factor = 0.25
+				planet = {
+					has_modifier = "titanic_life"
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_dense_jungle" }
+}
+
+tb_quicksand_basin = {	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 36
+			planet = {
+				is_planet_class = pc_desert
+			}
+		}
+		modifier = {
+			add = 20
+			planet = {
+				is_planet_class = pc_arid
+			}
+		}
+		modifier = {
+				factor = 0.25
+				planet = {
+					has_modifier = "titanic_life"
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_quicksand_basin" }
+}
+
+tb_noxious_swamp = {
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 36
+			planet = {
+				is_planet_class = pc_tundra
+			}
+		}
+		modifier = {
+			add = 18
+			planet = {
+				is_planet_class = pc_tropical
+			}
+		}
+		modifier = {
+				factor = 0.25
+				planet = {
+					has_modifier = "titanic_life"
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_noxious_swamp" }
+}
+
+tb_massive_glacier = {	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 54
+			planet = {
+				is_planet_class = pc_arctic
+			}
+		}
+		modifier = {
+			add = 18
+			planet = {
+				is_planet_class = pc_tundra
+			}
+		}
+		modifier = {
+				factor = 0.25
+				planet = {
+					has_modifier = "titanic_life"
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_massive_glacier" }
+}
+
+tb_toxic_kelp = {	
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 54
+			planet = {
+				is_planet_class = pc_ocean
+			}
+		}
+		modifier = {
+			add = 20.25
+			planet = {
+				is_planet_class = pc_continental
+			}
+		}
+		modifier = {
+				factor = 0.25
+				planet = {
+					has_modifier = "titanic_life"
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_toxic_kelp" }
+}
+
+tb_deep_sinkhole = {
+	time = 100
+	cost = {
+		energy = 100
+		minerals = 100
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 36
+			planet = {
+				is_planet_class = pc_arid
+			}
+		}
+		modifier = {
+			add = 18
+			planet = {
+				is_planet_class = pc_desert
+			}
+		}
+		modifier = {
+				factor = 0.25
+				planet = {
+					has_modifier = "titanic_life"
+				}
+		}
+	}
+	
+	prerequisites = { "tech_tb_deep_sinkhole" }
+}
+
+### SPECIAL
+
+tb_radioactive_wasteland = {
+	time = 100
+	cost = {
+		energy = 50
+		minerals = 50
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 30
+			planet = {
+				is_planet_class = pc_nuked
+			}
+		}
+	}
+	
+	adjacency_bonus = {
+		resource_society_research_add = 2
+		resource_physics_research_add = 2
+	}
+}
+
+tb_city_ruins = {
+	time = 100
+	cost = {
+		energy = 50
+		minerals = 50
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 20
+			planet = {
+				is_planet_class = pc_nuked
+			}
+		}
+	}
+}
+
+tb_infestation = {
+	time = 100
+	cost = {
+		energy = 50
+		minerals = 50
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}
+
+tb_quarantine_zone = {
+	time = 100
+	cost = {
+		energy = 50
+		minerals = 50
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}
+
+tb_slums = {
+	time = 100
+	cost = {
+		energy = 50
+		minerals = 50
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}
+
+tb_crater = {
+	time = 100
+	cost = {
+		energy = 50
+		minerals = 50
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}
+
+tb_tribal_settlement = {
+	cost = { # Can't be removed
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+
+	adjacency_bonus = {
+		resource_society_research_add = 3
+	}
+}
+
+tb_wandering_forests = {
+	picture = tb_dense_jungle 
+	cost = { # Can't be removed
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}
+
+tb_wandering_forest_reserve = {
+	picture = tb_dense_jungle 
+	cost = { # Can't be removed
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+
+	adjacency_bonus = {
+		resource_society_research_add = 5
+	}
+}
+
+tb_sinkhole_subterraneans = {
+	picture = tb_deep_sinkhole
+	time = 100
+	cost = {
+		energy = 125
+		minerals = 125
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}
+
+tb_bomb_crater = {
+	picture = tb_crater
+	time = 100
+	cost = {
+		energy = 125
+		minerals = 125
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 10
+			planet = {
+				is_planet_class = pc_nuked
+			}
+		}
+	}
+}
+
+tb_titanic_life_blocker = {	#Added via event
+	picture = tb_dangerous_wildlife
+	cost = {
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+	
+}
+
+# Failing Infrastructure are generated on homeworlds at game-start
+
+tb_failing_infrastructure = {
+	picture = tb_city_ruins
+	time = 120
+	cost = {
+		energy = 60
+		minerals = 60
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}
+
+# Decrepit Dwellings are generated on homeworlds at game-start
+
+tb_decrepit_dwellings = {
+	picture = tb_slums
+	time = 90
+	cost = {
+		energy = 40
+		minerals = 40
+	}
+
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}
+
+# Bombarded land, generated from orbital bombardment
+
+tb_bombarded_land = {
+	picture = tb_bomb_crater
+	time = 100
+	cost = {
+		energy = 75
+		minerals = 75
+	}
+	
+	spawn_chance = {
+		modifier = {
+			add = 0
+		}
+	}
+}

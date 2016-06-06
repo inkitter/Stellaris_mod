@@ -47,7 +47,7 @@ tech_spaceport_1 = {
 	area = engineering	start_tech = yes
 	category = { voidcraft }
 	tier = 0
-	feature_flags = { spaceport_level_2 spaceport_level_3 spaceport_level_4 }
+	feature_flags = { spaceport_level_2 spaceport_level_3 spaceport_level_4 spaceport_level_5 spaceport_level_6  spaceport_level_7 }
 	# unlocks additional terraforming-options
 	prereqfor_desc = {
 		ship = {
@@ -81,7 +81,7 @@ tech_spaceport_2 = {
 		max_minerals = 2000
 	}
 	
-	feature_flags = { spaceport_level_5 spaceport_level_6  spaceport_level_7 }
+	feature_flags = { spaceport_level_2 }
 	
 	weight_modifier = {
 		modifier = {
@@ -143,7 +143,7 @@ tech_spaceport_3 = {
 		max_minerals = 2000
 	}
 	
-	feature_flags = { spaceport_level_8 spaceport_level_9 spaceport_level_10 spaceport_level_11 }
+	feature_flags = { spaceport_level_3 }
 	
 	weight_modifier = {
 		modifier = {
@@ -201,7 +201,7 @@ tech_spaceport_4 = {
 		max_minerals = 2000
 	}		
 		
-	feature_flags = { spaceport_level_12 spaceport_level_13 spaceport_level_14 spaceport_level_15 }
+	feature_flags = { spaceport_level_4 }
 	
 	weight_modifier = {
 		modifier = {
@@ -267,7 +267,7 @@ tech_spaceport_5 = {
 		max_minerals = 2000
 	}	
 	
-	feature_flags = { spaceport_level_16 spaceport_level_17 spaceport_level_18 spaceport_level_19  spaceport_level_20 }
+	feature_flags = { spaceport_level_5 }
 	
 	weight_modifier = {
 		modifier = {
@@ -333,7 +333,7 @@ tech_spaceport_6 = {
 		max_minerals = 2000
 	}
 	
-	feature_flags = { spaceport_level_21 spaceport_level_22 spaceport_level_23 spaceport_level_24 spaceport_level_25 }
+	feature_flags = { spaceport_level_6 }
 	
 	weight_modifier = {
 		modifier = {
@@ -804,6 +804,14 @@ tech_thrusters_2 = {
 				has_trait = "leader_trait_expertise_rocketry"
 			}
 		}
+		modifier = {
+			factor = 2
+			has_technology = tech_spaceport_2
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_spaceport_3
+		}
 	}
 	
 	prereqfor_desc = {
@@ -844,6 +852,14 @@ tech_thrusters_3 = {
 				has_trait = "leader_trait_expertise_rocketry"
 			}
 		}
+		modifier = {
+			factor = 2
+			has_technology = tech_spaceport_4
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_spaceport_5
+		}
 	}
 	
 	prereqfor_desc = {
@@ -883,6 +899,10 @@ tech_thrusters_4 = {
 				area = engineering
 				has_trait = "leader_trait_expertise_rocketry"
 			}
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_spaceport_6
 		}
 	}
 	
@@ -1147,7 +1167,7 @@ tech_powered_exoskeletons = {
 	}
 	
 	weight_modifier = {
-		factor = 1.5
+		factor = 1.5		
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -1510,6 +1530,14 @@ tech_robotic_workers = {
 	weight_modifier = {
 		factor = 1.5
 		modifier = {
+			factor = 0.2
+			has_ethic = "ethic_spiritualist"
+		}
+		modifier = {
+			factor = 0.1
+			has_ethic = "ethic_fanatic_spiritualist"
+		}			
+		modifier = {
 			factor = 1.25
 			research_leader = {
 				area = engineering
@@ -1519,6 +1547,12 @@ tech_robotic_workers = {
 	}
 	
 	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			NOT = { has_ai_personality_behaviour = robot_exploiter }
+			NOT = { has_ai_personality_behaviour = robot_liberator }
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -1543,14 +1577,13 @@ tech_droid_workers = {
 
 	weight_modifier = {
 		modifier = {
-			factor = 0.25
-			NOT = {
-				research_leader = {
-					area = engineering
-					has_trait = "leader_trait_expertise_industry"
-				}
-			}
+			factor = 0.2
+			has_ethic = "ethic_spiritualist"
 		}
+		modifier = {
+			factor = 0.1
+			has_ethic = "ethic_fanatic_spiritualist"
+		}			
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -1562,6 +1595,12 @@ tech_droid_workers = {
 	}
 	
 	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			NOT = { has_ai_personality_behaviour = robot_exploiter }
+			NOT = { has_ai_personality_behaviour = robot_liberator }
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -1588,6 +1627,14 @@ tech_synthetic_workers = {
 	weight_modifier = {
 		factor = 5	# Requires rare tech, so higher weight
 		modifier = {
+			factor = 0.2
+			has_ethic = "ethic_spiritualist"
+		}
+		modifier = {
+			factor = 0.1
+			has_ethic = "ethic_fanatic_spiritualist"
+		}			
+		modifier = {
 			factor = 1.10
 			research_leader = {
 				area = society
@@ -1612,6 +1659,12 @@ tech_synthetic_workers = {
 	}
 	
 	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			NOT = { has_ai_personality_behaviour = robot_exploiter }
+			NOT = { has_ai_personality_behaviour = robot_liberator }
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -1635,6 +1688,14 @@ tech_synthetic_leaders = {
 	## unlocks robot-leaders
 	
 	weight_modifier = {
+		modifier = {
+			factor = 0.2
+			has_ethic = "ethic_spiritualist"
+		}
+		modifier = {
+			factor = 0.1
+			has_ethic = "ethic_fanatic_spiritualist"
+		}		
 		modifier = {
 			factor = 0.10
 			NOT = {
@@ -1667,6 +1728,15 @@ tech_synthetic_leaders = {
 			}
 		}
 		#BREAKTHROUGH - check for scientist
+	}
+
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			NOT = { has_ai_personality_behaviour = robot_exploiter }
+			NOT = { has_ai_personality_behaviour = robot_liberator }
+		}
 	}
 }
 
