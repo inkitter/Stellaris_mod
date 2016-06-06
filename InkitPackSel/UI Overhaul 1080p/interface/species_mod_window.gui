@@ -1,0 +1,366 @@
+guiTypes = {
+	containerWindowType = {
+		name = "species_mod_window"
+		position = { x = 0 y = -10 }
+		size = { width = 630 height = 650 }
+		orientation = center
+		origo = center
+		moveable = yes
+		
+		background = {
+			name = "species_mod_background"
+			quadTextureSprite = "GFX_tile_outliner_bg"
+		}
+			
+		iconType = {
+			name = "species_portrait"
+			spriteType = "GFX_portrait_character"
+			position = { x = -20 y = 23 }
+			orientation = "UPPER_LEFT"
+			scale = 0.28
+		}
+		
+	#	buttonType = {
+	#		name = "slot_1"
+	#		spriteType = "GFX_value_slot_1"
+	#		position = { x = 15 y = 140}
+	#		alwaystransparent = yes
+	#	}	
+
+	#	buttonType = {
+	#		name = "slot_2"
+	#		spriteType = "GFX_value_slot_1"
+	#		position = { x = 15 y = 285}
+	#		alwaystransparent = yes
+	#	}	
+	
+		instantTextBoxType={
+			name = "title"
+			font = "malgun_goth_24"
+			position = { x = 10 y = 2 }
+			maxWidth = 344
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+		
+		instantTextBoxType={
+			name = "species_name"
+			font = "cg_16b"
+			position = { x = 120 y = 40 }
+			maxWidth = 200
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			pdx_tooltip = "SPECIES_NAME_TOOLTIP"
+		}
+		
+		instantTextBoxType={
+			name = "species_class"
+			font = "cg_16b"
+			position = { x = 120 y = 60 }
+			maxWidth = 200
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			text_color_code = "E"
+			pdx_tooltip = "SPECIES_CLASS_TOOLTIP"
+		}
+		
+		instantTextBoxType={
+			name = "ideal_planet_class"
+			font = "cg_16b"
+			position = { x = 120 y = 80 }
+			maxWidth = 200
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			pdx_tooltip = "IDEAL_PLANET_CLASS_TOOLTIP"
+		}
+		
+		containerWindowType = {
+			name = "has_traits_frame_box"
+			size = { width = 310 height = 50 }
+			position = { x = 10 y = 130 }
+			
+				background = {
+					name = "has_traits_frame"
+					spriteType = "GFX_clean_frame_area"
+				}
+		}
+		
+		containerWindowType = {
+			name = "current_traits_container"
+			size = { width = 272 height = 84 }
+			verticalScrollbar = "right_vertical_slider"
+			position = { x = 20 y = 136}
+			
+			#background = {
+			#	name = "current_traits_background"
+			#	quadTextureSprite = "GFX_species_mod_window_bg"
+			#}
+			
+			gridBoxType = {
+				name = "traits"
+				slotSize = { width = 42 height = 45 }
+				max_slots_horizontal = 6
+				format = "UPPER_LEFT"
+			}
+		}
+		instantTextBoxType = {
+			name = "planet_traits_header"
+			font = "cg_16b"
+			position = { x = 20 y = 188 }
+			maxWidth = 344
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			text = "PLANET_CLASS_PREFERENCE_TRAITS"
+		}
+		containerWindowType = {
+			name = "planet_class_traits_frame_box"
+			size = { width = 310 height = 50 }
+			position = { x = 10 y = 205 }
+			
+				background = {
+					name = "has_traits_frame"
+					spriteType = "GFX_clean_frame_area"
+				}
+		}
+		containerWindowType = {
+			name = "planet_class_traits_container"
+			size = { width = 272 height = 84 }
+			verticalScrollbar = "right_vertical_slider"
+			position = { x = 20 y = 211}
+			
+			#background = {
+			#	name = "current_traits_background"
+			#	quadTextureSprite = "GFX_species_mod_window_bg"
+			#}
+			
+			gridBoxType = {
+				name = "traits"
+				slotSize = { width = 42 height = 45 }
+				max_slots_horizontal = 7
+				format = "UPPER_LEFT"
+			}
+		}
+		instantTextBoxType = {
+			name = "points"
+			font = "cg_16b"
+			position = { x = 20 y = 263 }
+			maxWidth = 344
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+		}
+		
+		containerWindowType = {
+			name = "possible_traits_frame_box"
+			size = { width = 310 height = 270 }
+			position = { x = 10 y = 280 }
+			
+				background = {
+					name = "possible_traits_frame"
+					spriteType = "GFX_clean_frame_area"
+				}
+		}
+		
+		containerWindowType = {
+			name = "available_traits_container"
+			size = { width = 272 height = 126 }
+			verticalScrollbar = "right_vertical_slider"
+			position = { x = 20 y = 289 }
+			
+			#background = {
+			#	name = "available_traits_background"
+			#	spriteType = "GFX_species_mod_window_bg"
+			#}
+			
+			gridBoxType = {
+				name = "traits"
+				slotSize = { width = 42 height = 40 }
+				max_slots_horizontal = 7
+				format = "UPPER_LEFT"
+			}
+		}
+		
+		instantTextBoxType = {
+			name = "species_mod_footer"
+			font = "cg_16b"
+			text = "SPECIES_MOD_SELECT_TRAITS"
+			position = { x = 10 y = -85 }
+			orientation = "LOWER_LEFT"
+			maxWidth = 314
+			maxHeight = 50
+			format = center
+			alwaysTransparent = no
+		}
+		
+		instantTextBoxType={
+			name = "num_pops"
+			font = "cg_16b"
+			position = { x = -300 y = -85 }
+			orientation = "LOWER_RIGHT"
+			maxWidth = 300
+			maxHeight = 22
+			fixedSize = yes
+			format = centre
+			#text_color_code = "E"
+			pdx_tooltip = "NUM_AFFECTED_POPS_TOOLTIP"
+		}
+		instantTextBoxType={
+			name = "cost"
+			font = "cg_16b"
+			position = { x = -370 y = -40 }
+			orientation = "LOWER_RIGHT"
+			maxWidth = 200
+			maxHeight = 22
+			fixedSize = yes
+			format = right
+			#text_color_code = "E"
+			text = "MOD_SPECIES_COST"
+		}
+		
+		buttonType = {
+			name = "ok"
+			quadTextureSprite = "GFX_standard_button_142_34_button"
+			position = { x = -172 y = -60  }
+			orientation = "LOWER_RIGHT"
+			shortCut = "RETURN"
+			text = "MODIFY"
+			font = "cg_16b"
+		}
+		
+		buttonType = {
+			name = "cancel"
+			quadTextureSprite = "GFX_standard_button_142_34_button"
+			position = { x = 05 y = -60 }
+			orientation = "LOWER_LEFT"
+			shortCut = "ESCAPE"
+			text = "CANCEL"
+			font = "cg_16b"
+			clicksound = "back_click"
+		}
+		
+		buttonType = {
+			name = "select_all"
+			quadTextureSprite = "GFX_standard_button_142_34_button"
+			position = { x = 315 y = 10  }
+			text = "SELECT_ALL"
+			font = "cg_16b"
+		}
+		
+		buttonType = {
+			name = "clear_selection"
+			quadTextureSprite = "GFX_standard_button_142_34_button"
+			position = { x = 468 y = 10  }
+			text = "CLEAR_SELECTION"
+			font = "cg_16b"
+		}
+		smoothListBoxType = {
+			name = "planets_list"
+			position = { x = 333 y = 60 }
+			size = { x = 280 y = 394 }
+			spacing = 2
+			scrollbartype = "standardlistbox_slider"
+			#background = "GFX_black_box_bg"
+		}
+	}
+	
+	# TRAIT ENTRY
+	
+	containerWindowType = {
+		name = "species_mod_trait_entry"
+		size = { width = 44 height = 44 }
+		clipping = no
+				
+		buttonType = {
+			name = "trait"
+			position = { x = 5 y = 5 }
+			quadTextureSprite = "GFX_traits"
+			#alwaysTransparent = yes
+		}
+				
+		iconType = {
+			name = "selected"
+			position = { x = 2 y = 2 }
+			quadTextureSprite = "GFX_traits_selected"
+			#alwaysTransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "species_mod_planet_entry"		
+		#position = { x = 325 y = 60 }
+		size = { width = 300 height = 64 }
+		background = {
+			name = "species_mod_background"
+			quadTextureSprite = "GFX_black_box_bg"
+		}		
+		
+		checkboxType = {
+			name = "selected"
+			position = { x = 0 y = 15 }
+			quadTextureSprite = "GFX_checkbox_20_20_01"
+		}
+		
+		iconType = {
+			name = "portrait"
+			spriteType = "GFX_portrait_character"
+			position = { x = -100 y = 2 }
+			orientation = "UPPER_RIGHT"
+			scale = 0.19
+		}
+		buttonType = {
+			name = "planet_icon"
+			quadTextureSprite = "GFX_dummy_species_mod_planet"
+			position = { x = 30 y = 2 }
+			size = { x = 60 y = 60 }
+		}
+		instantTextBoxType = {
+			name = "planet_name"
+			font = "cg_16b"
+			position = { x = 95 y = 10 }
+			maxWidth = 200
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			text_color_code = "E"
+			text = "NAME_HERE"
+		}
+		instantTextBoxType = {
+			name = "planet_class"
+			font = "cg_16b"
+			position = { x = 95 y = 25 }
+			maxWidth = 200
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			text = "CLASS_HERE"
+		}
+		instantTextBoxType = {
+			name = "sector_name"
+			font = "cg_16b"
+			position = { x = 95 y = 40 }
+			maxWidth = 200
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			text = ""
+		}
+		instantTextBoxType = {
+			name = "num_pops"
+			font = "cg_16b"
+			position = { x = -115 y = 45 }
+			orientation = "UPPER_RIGHT"
+			maxWidth = 40
+			maxHeight = 22
+			fixedSize = yes
+			format = right
+			text_color_code = "H"
+			text = "12345"
+		}
+	}
+}

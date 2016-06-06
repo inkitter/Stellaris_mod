@@ -35,6 +35,7 @@ https://github.com/inkitter/Stellaris_mod
 * 更多的旗帜与背景整合.zip 压缩包 多个种族设计界面的纹章和背景整合：光环、日式、Flags:Emblems & Backgrounds、IT、星际之门、现实国家风格、刺客信条等。
 * Unique Resources 战略资源图标替换，战略资源图示更容易区别（比如原版两种蓝色的矿……）。
 * Chinese name **汉语随机命名** 星系、帝国等多个部分用汉语命名。
+* UI Overhaul 1080p UI重制，1080p版
 
 ### 功能增强(%)
 * Change Capital Planet 改变首都。 __morechn已汉化__。
@@ -80,8 +81,16 @@ https://github.com/inkitter/Stellaris_mod
 * Zeon 机战吉恩公国  __morechn已汉化__
 * Playable Robot 可玩的机器人 __morechn已汉化__
 * The Elder's Notification 游戏默认语音替换为中文长者提示音
+* Chinese Voice 3DM论坛中文男声
 * 动物徽章EmblemsFauna 超多动物徽章
+* New Ships & Realistics Ships 更多的船 __未汉化__
+* Music Pack 音乐包
 
+### 动漫人物
+* Animaris
+* Monster Girls
+* Neptunia
+* WarshipGirls
 --------
 
 ## 记录
