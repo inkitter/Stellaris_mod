@@ -81,7 +81,6 @@ https://github.com/inkitter/Stellaris_mod
 * 动物徽章EmblemsFauna 超多动物徽章
 
 --------
---------
 
 ## 记录
 * 160519 初次发布
