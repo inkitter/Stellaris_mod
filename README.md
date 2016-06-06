@@ -61,7 +61,7 @@ https://github.com/inkitter/Stellaris_mod
 
 ## 测试包（betaPack） 可能引发错误的
 * Auto improve buildings 自动升级建筑 __morechn已汉化__。
-* New Ship Classes & More 更多的舰船类型 
+* New Ship Classes & More 更多的舰船类型 __morechn已汉化__。
 * Colony Ship Start 殖民船开局 __morechn已汉化__。
 * Expanded Spaceport 24格空间站 
 * Expanded War Demands 更多的战争要求 __morechn已汉化__。
