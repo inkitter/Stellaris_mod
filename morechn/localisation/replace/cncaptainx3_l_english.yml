@@ -152,7 +152,7 @@ TECH_UNLOCK_CARRIER_CONSTRUCTION_DESC:0 "§H航母§!\n拥有巨大的船体结�
 TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 无畏舰"
 TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_DESC:0 "§H无畏舰§!\n拥有巨大的船体结构，无畏舰需要巨量的生产成本，但其恐怖的火力与极低的机动性也令人乍舌。"
 TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 旗舰"
-TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_DESC:0 "§H旗舰§!\n最为巨大的船体结构，无畏舰拥有大量的火力和装甲并能为舰队提供大量的额外奖励，单它需要几乎整个帝国的资源来建造和维护。"
+TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_DESC:0 "§H旗舰§!\n最为巨大的船体结构，旗舰拥有大量的火力和装甲并能为舰队提供大量的额外奖励，但它需要几乎整个帝国的资源来建造和维护。"
 tech_carrier_1:0 "航母"
 tech_carrier_1_desc:0 "扩大船坞以允许航母级军用船只的建造。"
 tech_dreadnought_1:0 "无畏舰"
