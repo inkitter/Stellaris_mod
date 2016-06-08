@@ -26,7 +26,6 @@ https://github.com/inkitter/Stellaris_mod
 * Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 common\solar_system_initializers\ringworld_st_systems.txt
 * Complete Colors  种族设计界面有更多（RGB）可选颜色，注意这个多颜色选择会与其他的冲突，请不要再加载其他增加可选颜色的mod，这个已经是颜色最全的 flags\colors.txt及interface\zCompleteColors.gui
 * Galaxies Unlimited  新建游戏时，星系大小有等多选择，从很少到很多的更多选项。且根据大小标记成不同的颜色。
-* Reduce Aura Graphics  减轻单位光环的视觉效果，更容易看到船而不是光环。
 * 汉语种族随机名  种族设计界面以汉语命名的可选类型，随机汉语船、人名等。
 
 
@@ -36,6 +35,7 @@ https://github.com/inkitter/Stellaris_mod
 * Unique Resources 战略资源图标替换，战略资源图示更容易区别（比如原版两种蓝色的矿……）。
 * Chinese name **汉语随机命名** 星系、帝国等多个部分用汉语命名。
 * UI Overhaul 1080p UI重制，1080p版
+* Reduce/Remove Aura Graphics  **二选一** 减轻/移除单位光环的视觉效果，更容易看到船而不是光环。
 
 ### 功能增强(%)
 * Change Capital Planet 改变首都。 __morechn已汉化__。

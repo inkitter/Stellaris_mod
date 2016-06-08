@@ -1,0 +1,5 @@
+name="#-Reduce Aura Graphics"
+archive="mod/Reduce Aura Graphics"
+picture="281990_screenshots_20160512235612_1.jpg"
+remote_file_id="686768193"
+supported_version="1.1"
