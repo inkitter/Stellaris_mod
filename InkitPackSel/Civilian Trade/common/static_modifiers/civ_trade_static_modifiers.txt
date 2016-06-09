@@ -1,0 +1,41 @@
+
+##########################################################################
+# Trade Ship planet modifiers
+##########################################################################
+
+trade_network_minerals = {
+	tile_resource_minerals_mult = 0.05
+	pop_ethic_shift = 0.02
+	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_belt.dds"
+	icon_frame = 1
+}
+
+trade_network_energy = {
+	tile_resource_energy_mult = 0.05
+	pop_ethic_shift = 0.02
+	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_belt.dds"
+	icon_frame = 1
+}
+
+trade_network_food = {
+	tile_resource_food_mult = 0.05
+	pop_ethic_shift = 0.02
+	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_belt.dds"
+	icon_frame = 1
+}
+
+expanded_trade_network = {
+	tile_resource_minerals_mult = 0.05
+	tile_resource_energy_mult = 0.05
+	tile_resource_food_mult = 0.05
+	pop_ethic_shift = 0.01
+	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_belt.dds"
+	icon_frame = 1
+}
+
+trade_hub = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_belt.dds"
+	icon_frame = 1
+}
+
+expanded_trade_network

@@ -1,0 +1,145 @@
+# Do not remove or rename this
+
+# Possible Variables for Buildings:
+# strategic_resource: strategic resource, deprecated, strategic resource used by the building.
+# allow: trigger to check for allowing construction of building.
+# prerequisites: Tech requirements for building.
+# empire_unique: boolean, can only build one if set to true.
+# cost: resource table, cost of building.
+# is_orbital: boolean, can only be built in orbital station.
+# modifier: modifier, deprecated, applies a modifier to planet.
+# base_buildtime: int, number of days for construction.
+# requires_pop, boolean, building will require a pop for production.
+# required_resources, resource table, required resources for production.
+# produced_resources, resource table, produced resources in production.
+# upgrades, buildings list, buildings this building can upgrade into.
+# is_listed, boolean, toggles if this building is shown in the non-upgrade buildable list.
+# planet_unique, toggles if one can build multiple of this type on a single planet.
+
+#
+# BALANCE
+# can change the time and cost of all common buildings with these variables below
+
+@b0time = 120
+@b0cost = 30
+@b0effect = 1
+@b0upkeep = 1
+
+@b1time = 210
+@b1cost = 60
+@b1effect = 2
+@b1upkeep = 1
+
+@b2time = 180
+@b2cost = 90
+@b2effect = 3
+@b2upkeep = 1.5
+
+@b3time = 180
+@b3cost = 120
+@b3effect = 4
+@b3upkeep = 2
+
+@b4time = 180
+@b4cost = 150
+@b4effect = 5
+@b4upkeep = 2.5
+
+@b5time = 180
+@b5cost = 180
+@b5effect = 8
+@b5upkeep = 3
+
+@feupkeep = 4
+@feproduction = 12
+
+@science1 = 1
+@science2 = 2
+@science3 = 3
+@science4 = 4
+@science5 = 6
+
+
+###############################
+### Planet Unique buildings ###
+###############################
+
+the_belt_building_asteroid_life_support_system = {
+	base_buildtime = 90
+	planet_unique = yes
+	
+	cost = {
+		minerals = 50
+	}
+
+	potential = {
+		planet = {
+			is_planet_class = pc_asteroid
+		}
+	}
+	
+	allow = {
+		planet = {
+			is_planet_class = pc_asteroid
+		}		
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	produced_resources = {
+		food = 2
+	}
+	
+	planet_modifier = {
+		pop_environment_tolerance = 0.80
+	}
+	
+	prerequisites = {
+		"tech_colonization_0"
+	}
+}
+
+#the_belt_building_asteroid_research_station = {
+#	base_buildtime = 180
+#	planet_unique = yes
+#	
+#	cost = {
+#		minerals = 150
+#	}
+#
+#	potential = {
+#		planet = {
+#			is_planet_class = pc_asteroid
+#		}
+#	}
+#	
+#	allow = {
+#		planet = {
+#			is_planet_class = pc_asteroid
+#		}		
+#	}
+#	
+#	produced_resources = {
+#		engineering_research = @science1
+#		physics_research = @science1
+#		society_research = @science1
+#	}
+#	
+#	required_resources = {
+#		energy = 6
+#	}
+#		
+#	planet_modifier = {
+#		tile_resource_physics_research_mult = 0.20
+#		tile_resource_engineering_research_mult = 0.20
+#		tile_resource_society_research_mult = 0.20
+#		pop_growth_req_mult = 0.75		
+#	}
+#	
+#	prerequisites = {
+#		"tech_colonization_0"
+#	}
+#}
+

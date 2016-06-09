@@ -1,0 +1,324 @@
+@distance = 50
+@base_moon_distance = 6
+@moon_min_distance = 1.5
+@moon_max_distance = 3.5
+
+### Colony Fleet
+colony_fleet_system_initializer = {
+	name = "Duat"
+	class = "sc_f"
+	flags = { old_colony_system }
+	asteroids_distance = { min = 60 max = 100 }
+	
+	usage = custom_empire
+	
+	planet = {
+		class = "pc_m_star"
+		orbit_distance = 0
+		size = { min = 45 max = 45 }
+	}
+	
+	change_orbit = 35
+	
+	planet = {
+		count = 1
+		name = "Duat"
+		class = "pc_barren"
+		entity = "barren_planet_01_destroyed_entity"
+  		starting_planet = yes
+		size = 4
+		tile_blockers = none
+		modifiers = none
+
+		init_effect = {
+			set_planet_flag = duat_colony
+		}
+		
+		init_effect = {
+			prevent_anomaly = yes
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = minerals
+					amount = 1
+					replace = yes
+				}		
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				set_building = "building_power_plant_4"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				set_building = "building_power_plant_4"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}	
+			}
+			random_tile = {
+				limit = { has_building = no has_blocker = no }
+				set_building = "building_power_plant_4"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}	
+			}
+			create_pop = { 
+				species = owner_main_species
+				ethos = owner 
+			}
+			create_pop = { 
+				species = owner_main_species
+				ethos = owner 
+			}
+			create_pop = { 
+				species = owner_main_species
+				ethos = owner 
+			}
+			create_pop = { 
+				species = owner_main_species
+				ethos = owner 
+			}				
+			create_ambient_object = {
+				type = "large_debris_object"
+				location = this
+			}
+			create_ambient_object = {
+				type = "large_debris_object"
+				location = this	
+			}
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				location = this	
+			}
+			create_ambient_object = {
+				type = "medium_debris_01_object"
+				location = this	
+			}
+			create_ambient_object = {
+				type = "medium_debris_02_object"
+				location = this	
+			}
+			create_ambient_object = {
+				type = "medium_debris_02_object"
+				location = this	
+			}
+			create_ambient_object = {
+				type = "small_debris_object"
+				location = this	
+			}
+			create_ambient_object = {
+				type = "small_debris_object"
+				location = this	
+			}
+		}
+	}
+	
+	planet = {
+		count = { min = 0 max = 4 }
+		class = random_non_colonizable
+		orbit_distance = { min = 30 max = 70 }
+		orbit_angle = { min = 90 max = 250 }
+
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 4 }
+			class = random_non_colonizable
+			size = { min = 4 max = 12 }
+			orbit_angle = { min = 90 max = 250 }
+			orbit_distance = { min = @moon_min_distance max = @moon_max_distance }
+		}
+	}
+	
+	neighbor_system = {
+		distance = { min = 50 max = 150 }
+		initializer = "ilus_init"
+	}
+}
+
+# Ilus - Idea New Terra 
+ilus_init = {
+	name = "Ilus"
+	class = "sc_g"
+	flags = { new_colony_system }
+	
+
+	planet = {
+		class = "pc_f_star"
+		name = "Sollux"
+		orbit_distance = 0
+		size = { min = 80 max = 80 }
+	}
+	
+	change_orbit = { min = 45 max = 60 }
+	
+	planet = {
+		count = { min = 1 max = 2 }
+		orbit_distance = { min = 30 max = 70 }
+		orbit_angle = { min = 90 max = 250 }
+
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 2 }
+			size = { min = 4 max = 20 }
+			orbit_angle = { min = 90 max = 250 }
+			orbit_distance = { min = @moon_min_distance max = @moon_max_distance }
+		}
+	}
+	
+	planet = {
+		count = 1
+		home_planet = no
+		name = "Ilus Prime"
+		class = ideal_planet_class
+		tile_blockers = none
+		orbit_distance = { min = 20 max = 50 }
+		orbit_angle = { min = 90 max = 250 }
+		size = { min = 18 max = 25 }
+		
+		init_effect = {
+			set_planet_flag = ilus_prime_colony
+			add_modifier = {
+				modifier = "lush_planet"
+				days = -1
+			}
+			add_modifier = {
+				modifier = "atmospheric_aphrodisiac"
+				days = -1
+			}
+		}
+		
+		change_orbit = 15
+		
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}	
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}	
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}	
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}
+		moon = {
+			class = "pc_frozen"
+			orbit_distance = 0
+			orbit_angle = 15
+			size = 2
+			modifiers = none
+			has_ring = no
+		}		
+	}
+	
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = { min = 30 max = 70 }
+		orbit_angle = { min = 90 max = 250 }
+
+		change_orbit = @base_moon_distance
+		
+		moon = {
+			count = { min = 0 max = 3 }
+			size = { min = 4 max = 20 }
+			orbit_angle = { min = 90 max = 250 }
+			orbit_distance = { min = @moon_min_distance max = @moon_max_distance }
+		}
+	}
+}

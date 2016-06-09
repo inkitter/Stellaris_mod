@@ -1,0 +1,10 @@
+# A ship has been built
+# Root = Ship
+# From = Planet
+on_ship_built = {
+	events = {
+		planetary_rally_point.1
+		planetary_rally_point.2
+		planetary_rally_point.3
+	}
+}

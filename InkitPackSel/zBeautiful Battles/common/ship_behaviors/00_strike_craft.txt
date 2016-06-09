@@ -4,7 +4,7 @@
 
 ship_behavior = {
 	name = "fighters_behavior"
-	preferred_attack_range = 15.0
+	preferred_attack_range = 8.0
 	formation_distance = 150
 	return_to_formation_distance = 150
 
@@ -26,7 +26,7 @@ ship_behavior = {
 
 ship_behavior = {
 	name = "bombers_behavior"
-	preferred_attack_range = 15.0
+	preferred_attack_range = 8.0
 	formation_distance = 150
 	return_to_formation_distance = 150
 

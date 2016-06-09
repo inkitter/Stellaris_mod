@@ -1,0 +1,10 @@
+# Triggers when pressing begin in the intro window
+# This = country to press begin
+on_press_begin = {
+	events = {
+		tutorial.104
+		advisor.1
+		playablecolonists.2
+		playablecolonists.1
+	}
+}

@@ -1,0 +1,9 @@
+# Icons set here are the ones shown in compnent editor list.
+
+component_set = {
+	key = "ADV_ZERO_POINT_REACTOR"
+	
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1	
+}
+

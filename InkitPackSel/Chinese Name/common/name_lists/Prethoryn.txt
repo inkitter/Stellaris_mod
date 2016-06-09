@@ -1,0 +1,74 @@
+﻿### Prethoryn Scourge
+Prethoryn = {
+	selectable = no
+	randomized = no
+	
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"Prethoryn Swarmer"
+		}
+	
+		small_ship_swarm = {
+			"Prethoryn Swarmling"
+		}
+		
+		large_ship_swarm = {
+			"Prethoryn Warrior"
+		}
+		
+		large_ship_carrier_swarm = {
+			"Prethoryn Brood Mother"
+		}
+		
+		queen_swarm = {
+			Xarkiz Mugask "Dark One" Sikilo Saggraz Zazas Dimasos Zugal Terreak Xabil Xukaz Xukanna Zakul
+			Sugassa Simirk Xeldak Zazuk "Golden One" "Angry One"
+			
+		}
+		
+		colony_ship_swarm = {
+			"Prethoryn Infestor"
+		}
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { 
+			sequential_name = "第%CC%前哨站"
+			}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		sequential_name = "第%CC%新巢"
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			full_names = {
+			"完全体'猎人'" "完全体'死缠烂打'" "完全体'吞食者'" "完全体'杀手'"
+			"完全体'驱逐舰'" "完全体'刽子手'" "完全体'收割机'" "完全体'屠夫'"
+			"完全体'吼'" "完全体'徘徊'" "完全体'杀手'" "完全体'撕咬'"
+			"完全体'探索者'" "完全体'屠夫'" "完全体'腐败'" "完全体'大人物'"
+			"完全体'毒刺'" "完全体'脱粒机'" "完全体'苍蝇'" "完全体'歌手'"
+			"完全体'消声器'" "完全体'埋葬者''" "完全体'前锋'" "完全体'击打'"
+			"完全体'守望者'" "完全体'观察者'" "完全体'追逐者'" "完全体'征服者'"
+			"完全体'破碎机'" "完全体'食'" "完全体'入侵者'" "完全体'闯入者'"
+			"完全体'入侵者'" "完全体'入侵者'" "完全体'权'" "完全体'破坏者'"
+			"完全体'女神'" "完全体'清障'" "完全体'掠夺者'"
+			"完全体'掠夺者'" "完全体'弧形'" "完全体'金甲虫'"
+			"完全体'狂战士'" "完全体'惩罚者'" "完全体'球'" "完全体'清洁剂'"
+			"完全体'毁灭者'" "完全体'折磨'" "完全体'恐怖分子'"
+			}
+		}
+	}
+}

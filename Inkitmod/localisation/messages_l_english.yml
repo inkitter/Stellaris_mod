@@ -128,7 +128,7 @@
  ACTION_DEMAND_VASSALIZATION_NOTIFICATION:0 "§H [From.GetName]§!附庸了§H [Root.GetName]§!。"
  ACTION_ASK_TO_BECOME_VASSALIZED_NOTIFICATION:0 "§H [Root.GetName]§!附庸了§H [From.GetName]§!。"
  ACTION_DEMAND_PROTECTORATE_NOTIFICATION:0 "§H [From.GetName]§!纳§H [Root.GetName]§!为保护国了。"
- ACTION_ASK_TO_BECOME_PROTECTORATE_NOTIFICATION:0 "§H [From.GetName]§!纳§H [Root.GetName]§!为保护国了。"
+ ACTION_ASK_TO_BECOME_PROTECTORATE_NOTIFICATION:0 "§H[Root.GetName]§! 将 §H[From.GetName]§! 的一部分设为保护国。"
  ACTION_FORM_FEDERATION_NOTIFICATION:0 "§H [From.GetAllianceName]§!表决组建$FEDERATION$了。"
  ACTION_INVITE_TO_FEDERATION_NOTIFICATION:0 "§H [From.GetName]§!加入了§H [From.GetAllianceName]§!。"
  ACTION_ASK_TO_JOIN_FEDERATION_NOTIFICATION:0 "§H [Root.GetName]§!加入了§H [From.GetAllianceName]§!。"

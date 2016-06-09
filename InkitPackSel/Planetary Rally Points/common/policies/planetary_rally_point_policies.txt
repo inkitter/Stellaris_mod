@@ -1,0 +1,59 @@
+#rally_range = {
+#	potential = {
+#		always = yes
+#	}
+#
+#	option = {
+#		name = "rally_to_me_small_range"
+#		#valid = { always = yes }
+#
+#		policy_flags = {
+#			rally_to_me_small_range
+#		}
+#		on_enabled = {
+#			set_range_if_not_exists = yes
+#		}
+#	}
+#
+#	option = {
+#		name = "rally_to_me_medium_range"
+#		#valid = { always = yes }
+#		policy_flags = {
+#			rally_to_me_mediuam_range
+#		}
+#		on_enabled = {
+#			set_policy = {
+#				policy = rally_range
+#				option = rally_to_me_small_range
+#				cooldown = no
+#			}
+#			country_event = { id = planetary_rally_point.10 }
+#			set_range_if_not_exists = yes
+#			change_variable = { which = range_of_rally_to_me value = 1 }
+#		}
+#	}
+#
+#	option = {
+#		name = "rally_to_me_large_range"
+#		#valid = { always = yes }
+#		policy_flags = {
+#			rally_to_me_large_range
+#		}
+#		on_enabled = {
+#			set_policy = {
+#				policy = rally_range
+#				option = rally_to_me_small_range
+#				cooldown = no
+#			}
+#			country_event = { id = planetary_rally_point.10 }
+#			if = {
+#				limit = {
+#					check_variable = { which = range_of_rally_to_me value > 1 }
+#				}
+#				set_range_if_not_exists = yes
+#				change_variable = { which = range_of_rally_to_me value = -1 }
+#			}
+#			
+#		}
+#	}
+#}

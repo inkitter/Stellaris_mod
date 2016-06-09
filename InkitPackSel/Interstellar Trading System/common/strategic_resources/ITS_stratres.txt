@@ -1,0 +1,20 @@
+sr_foodconvoy = {
+	AI_category = strategic_resource
+	tradable = no
+	is_rare = yes
+	num_ai_wanted = 0
+}
+sr_energyconvoy = {
+	AI_category = strategic_resource
+	tradable = no
+	is_rare = yes
+	
+	num_ai_wanted = 0
+}
+sr_mineralconvoy = {
+	AI_category = strategic_resource
+	tradable = no
+	is_rare = yes
+	
+	num_ai_wanted = 0
+}

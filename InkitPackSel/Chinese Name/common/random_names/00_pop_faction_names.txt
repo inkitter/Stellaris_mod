@@ -1,0 +1,218 @@
+
+pop_faction_name_parts_list = {
+	key = "loyalist_names"
+	parts = {
+		"效忠派" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "slave_names"
+	parts = {
+		"平民" = 1
+		"奴隶" = 1
+		"农奴" = 1
+		"劳工" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "emancipation_names"
+	parts = {
+		"解放运动" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "peace_names"
+	parts = {
+		"和平运动" = 1
+		"反战联盟" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "purged_names"
+	parts = {
+		"净化抗议者" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "planet_separatist_names_1"
+	parts = {
+		"分离" = 1
+		"分裂" = 1
+		"独立" = 1
+		"解放" = 1
+		"自主" = 1
+		"民族独立" = 1
+		"自由" = 1
+		"自治" = 1
+		"圣战" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "planet_separatist_names_2"
+	parts = {
+		"运动" = 1
+		"阵线" = 1
+		"联盟" = 1
+		"同盟" = 1
+		"协会" = 1
+		"委员会" = 1
+		"军" = 1
+		"反抗组织" = 1
+		"党" = 1
+		"秘密组织" = 1
+		"先锋" = 1
+		"叛军" = 1
+		"集团" = 1
+		"反叛分子" = 1
+		"护卫军" = 1
+		"旅" = 1
+		"志愿军" = 1
+		"会议" = 1
+		"民兵" = 1
+		"战士" = 1
+		"游击队" = 1
+		"派" = 1
+		"突击队" = 1
+		"团" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "nationalist_names"
+	parts = {
+		"尊祖派" = 1
+		"Xenos联盟" = 1
+		"民族本位派" = 1
+	}
+}
+
+pop_faction_name_parts_list = {
+	key = "democratic_election_faction_names"
+	parts = {
+		"政府集团" = 1
+		"政府游说集团" = 1
+		"政府内部人士" = 1
+		"政府边缘人士" = 1
+		"温和政见者" = 1
+	}
+}
+
+# Loyalists
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "loyalist"
+		}
+	}
+	format = "<loyalist_names>"
+}
+
+# Slaves
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "slave"
+		}
+	}
+	format = "<slave_names>"
+}
+
+# Peace Movement
+#pop_faction_name_format = {
+#	random_weight = {
+#		factor = 0
+#		modifier = {
+#			add = 100
+#			is_pop_faction_type = "peace"
+#		}
+#	}
+#	format = "<peace_names>"
+#}
+
+# Purged
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "purged"
+		}
+	}
+	format = "<purged_names>"
+}
+
+# Separatists
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "planet_separatists"
+		}
+	}
+	format = "[parameter:planet.GetName] <planet_separatist_names_1> <planet_separatist_names_2>"
+}
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "sector_separatists"
+		}
+	}
+	format = "[parameter:sector.GetName] <planet_separatist_names_1> <planet_separatist_names_2>"
+}
+
+
+# Nationalist
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "nationalist"
+		}
+	}
+	format = "[parameter:country.GetAdj] <nationalist_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "pretender_names"
+	parts = {
+		"Pretender to the Throne" = 1
+	}
+}
+
+# Pretender
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "pretender"
+		}
+	}
+	format = "<pretender_names>"
+}
+
+# Democratic election
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100
+			is_pop_faction_type = "democratic_election_faction"
+		}
+	}
+	format = "<democratic_election_faction_names>"
+}

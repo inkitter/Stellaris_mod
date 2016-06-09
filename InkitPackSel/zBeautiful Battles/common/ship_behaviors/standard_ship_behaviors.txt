@@ -7,7 +7,7 @@ ship_behavior = {
 	formation_distance = 15				#when orbing/following ship will try to keep this distance to assigned position	
 	return_to_formation_distance = 15	#when attacking the ship will switch to passive mode if distance to assigned position is greater that this
 
-	collision_awareness = 0.75			#how much we try to avoid other ships
+	collision_awareness = 0.95			#how much we try to avoid other ships
 	attack_move_pattern = orbit
 	passive_move_pattern = orbit
 	
@@ -33,7 +33,7 @@ ship_behavior = {
 	return_to_formation_distance = 7
 	
 
-	collision_awareness = 0.50
+	collision_awareness = 0.95
 	attack_move_pattern = charge
 	passive_move_pattern = charge
 	
@@ -58,7 +58,7 @@ ship_behavior = {
 	formation_distance = 20
 	return_to_formation_distance = 20
 
-	collision_awareness = 0.75
+	collision_awareness = 0.95
 	attack_move_pattern = follow
 	passive_move_pattern = orbit
 	

@@ -1,0 +1,98 @@
+#Scripted Triggers
+
+is_not_sending_or_hiding = {
+	NOT = { has_modifier = "send_to_rally_point_1" } 
+	NOT = { has_modifier = "send_to_rally_point_2" }
+	NOT = { has_modifier = "send_to_rally_point_3" }
+	NOT = { has_planet_flag = hide_rally_point_edicts}
+}
+
+#### PLANET SCOPE ####
+exists_rally_point_1 = {
+	owner = {
+		any_owned_planet = {
+			has_modifier = "rally_point_1"
+		}
+	}
+}
+
+exists_rally_point_2 = {
+	owner = {
+		any_owned_planet = {
+			has_modifier = "rally_point_2"
+		}
+	}
+}
+exists_rally_point_3 = {
+	owner = {
+		any_owned_planet = {
+			has_modifier = "rally_point_3"
+		}
+	}
+}
+
+has_any_rally_point = {
+	OR =  {
+		has_modifier = "rally_point_1"
+		has_modifier = "rally_point_2"
+		has_modifier = "rally_point_3"
+	}
+}
+
+is_sending_to_rally_point = {
+	OR = {
+		has_modifier = "send_to_rally_point_1"
+		has_modifier = "send_to_rally_point_2"
+		has_modifier = "send_to_rally_point_3"
+	}
+}
+
+##### SHIP SCOPE ######
+#Rally point matches
+#Event fires if ship is built at planet with send_to_rally_point_1 and there is a planet with rally_point_1
+
+matches_rally_point_1 = {
+	exists_rally_point_1 = yes
+	from = {
+		has_modifier = "send_to_rally_point_1"
+	}
+	is_ship_class = shipclass_military	
+}
+
+matches_rally_point_2 = {
+	exists_rally_point_2 = yes
+	from = {
+		has_modifier = "send_to_rally_point_2"
+	}
+	is_ship_class = shipclass_military	
+}
+
+matches_rally_point_3 = {
+	exists_rally_point_3 = yes
+	from = {
+		has_modifier = "send_to_rally_point_3"
+	}
+	is_ship_class = shipclass_military
+}
+
+#If the planet this military ship was built on has a send_rally_point_x and there exists a rally_point_x
+#this returns true
+matches_rally_point = {
+	from = {
+		OR = {
+			AND = { 
+				exists_rally_point_1 = yes
+				has_modifier = "send_to_rally_point_1"
+			}
+			AND = {
+				exists_rally_point_2 = yes
+				has_modifier = "send_to_rally_point_2"
+			}
+			AND = {
+				exists_rally_point_3 = yes
+				has_modifier = "send_to_rally_point_3"
+			}
+		}
+	}
+	is_ship_class = shipclass_military
+}

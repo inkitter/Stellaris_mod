@@ -1,0 +1,5 @@
+name="%Auto improve buildings"
+archive="mod/Auto improve buildings"
+picture="build.jpg"
+remote_file_id="691008512"
+supported_version="1.1"

@@ -1,0 +1,1679 @@
+guiTypes = {
+	containerWindowType = {
+		name = "government_view"
+		position = { x=500 y=5 }
+		size = { width = 563 height = 1048 } #mod
+		moveable = no
+		orientation = upper_left
+
+		show_position = { x = -1 y = 34 }
+        hide_position = { x = -570 y = 40 }  
+        animation_time = 0
+        animation_type = decelerated
+
+		#iconType = { #mod 
+		#	name = "main_screen_bg"  #mod 
+		#	size = { width = 561 height = 1002 } #mod 
+		#	spriteType = "GFX_main_screen_bg" #mod 
+		#	position = { x = 5 y = 6 } #mod *10 #mod 
+		#} #mod 
+		
+		
+		containerWindowType = {
+			name = "main_screen_bg_box"
+			size = { width = 561 height = 945} #mod
+			position = { x = 5 y = 5 }
+	
+				background = {
+					name = "main_screen_bg"
+					spriteType = "GFX_tile_outliner_bg" #mod GFX_main_screen_bg_short
+					alwaystransparent = "yes"
+				}
+		}
+
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = -5 y = -10 }
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "empire_header_line"
+			quadTextureSprite = "GFX_line_long"
+			position = { x = 11 y = 27 }
+		}
+
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close_button"
+			position = { x= -41 y = 22  }
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			pdx_tooltip = "CLOSE_TITLE"
+			clicksound = "back_click"
+		}
+
+		########################
+		# THE TABS
+		########################
+
+		@tabheight = 945 #mod
+
+		buttonType = {
+			name = "tab_government"
+			quadTextureSprite = "GFX_tab_1_inactive"
+			position = { x= -15 y = @tabheight }
+			font = "cg_16b"
+			buttonText = "GOVERNMENT"
+			buttonFont = "cg_16b"
+			shortcut = "z"
+			clicksound = "tab_click"
+		}
+
+		buttonType = {
+			name = "tab_government_active"
+			quadTextureSprite = "GFX_tab_1_active"
+			position = { x= -15 y = @tabheight }
+			font = "cg_16b"
+			buttonText = "GOVERNMENT"
+			buttonFont = "cg_16b"
+			clicksound = "tab_click"
+			shortcut = "z"
+		}
+
+		buttonType = {
+			name = "tab_budget"
+			quadTextureSprite = "GFX_tab_2_inactive"
+			position = { x= 114 y = @tabheight }
+			font = "cg_16b"
+			buttonText = "BUDGET"
+			buttonFont = "cg_16b"
+			shortcut = "x"
+			clicksound = "tab_click"
+		}
+
+		buttonType = {
+			name = "tab_budget_active"
+			quadTextureSprite = "GFX_tab_2_active"
+			position = { x= 114 y = @tabheight }
+			font = "cg_16b"
+			buttonText = "BUDGET"
+			buttonFont = "cg_16b"
+			clicksound = "tab_click"
+			shortcut = "x"
+		}
+
+		buttonType = {
+			name = "tab_edicts"
+			quadTextureSprite = "GFX_tab_2_inactive"
+			position = { x= 250 y = @tabheight }
+			font = "cg_16b"
+			buttonText = "DECISIONS"
+			buttonFont = "cg_16b"
+			shortcut = "c"
+			clicksound = "tab_click"
+		}
+
+		buttonType = {
+			name = "tab_edicts_active"
+			quadTextureSprite = "GFX_tab_2_active"
+			position = { x= 250 y = @tabheight }
+			font = "cg_16b"
+			buttonText = "DECISIONS"
+			buttonFont = "cg_16b"
+			clicksound = "tab_click"
+			shortcut = "c"
+		}
+
+		buttonType = {
+			name = "tab_demographics"
+			quadTextureSprite = "GFX_tab_2_inactive"
+			position = { x= 386 y = @tabheight }
+			font = "cg_16b"
+			buttonText = "DEMOGRAPHICS"
+			buttonFont = "cg_16b"
+			shortcut = "v"
+			clicksound = "tab_click"
+		}
+
+		buttonType = {
+			name = "tab_demographics_active"
+			quadTextureSprite = "GFX_tab_2_active"
+			position = { x= 386 y = @tabheight }
+			font = "cg_16b"
+			buttonText = "DEMOGRAPHICS"
+			buttonFont = "cg_16b"
+			clicksound = "tab_click"
+			shortcut = "v"
+		}
+
+		###############################
+		# THE GOVERNMENT WINDOW
+		###############################
+
+		instantTextBoxType={
+			name = "heading"
+			font = "malgun_goth_24"
+			text = "GOVERNMENT_VIEW"
+			position = { x = 70 y = 10 }
+			maxWidth = 400
+			maxHeight = 20
+			fixedSize = yes
+			format = left
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "empire_rename_button"
+			spriteType = "GFX_invisible"
+			position = { x = 65 y = 10 }
+			size = { x = 300 y = 25 }
+			orientation = left
+		}	
+
+		containerWindowType = {
+			name = "government_window"
+			position = { x=11 y=45 }
+			size = { width = 550 height = 1000 } #mod 
+			moveable = no
+			dontRender = ""
+
+			# The Info sub window
+			containerWindowType = {
+				name = "info_window"
+				position = { x=0 y=0 }
+				size = { width = 563 height = 998 } #mod
+				moveable = no
+				dontRender = ""
+
+			containerWindowType = {
+				name = "portrait_window"
+				position = { x = 2 y = 26 }
+				size = { width = 546 height = 195 }
+				moveable = no
+				clipping = yes
+
+				iconType = {
+					name = "portrait"
+					position = { x = 4 y = 2 }
+					quadTextureSprite = "GFX_portrait_gamesetup_mask"
+					scale = 0.566
+				}
+
+				iconType = {
+					name = "black_frame"
+					spriteType = "GFX_diplomacy_portrait_shadow_frame"
+					position = { x = 0 y = 0}
+					alwaysTransparent = yes
+					scale = 0.566
+				}
+
+				iconType = {
+					name = "stripes_1"
+					spriteType = "GFX_diplomacy_stripes_2"
+					position = { x = 4 y = 2 }
+					orientation = upper_left
+					alwaysTransparent = yes
+					scale = 0.566
+				}
+
+				iconType = {
+					name = "city_frame"
+					spriteType = "GFX_diplomacy_portrait_frame"
+					position = { x = 0 y = 0}
+					alwaysTransparent = yes
+					scale = 0.566
+				}
+			}
+
+
+
+			###############################
+			#	LEADER PART
+			###############################
+
+			containerWindowType = {
+				name = "leader_window"
+				position = { x=15 y=0 }
+				size = { width = 100% height = 100% }
+				moveable = no
+
+				containerWindowType = {
+					name = "ethics_bg_box"
+					position = { x = -2 y = 156 }
+					size = { width = 110 height = 55 }
+
+
+					background = {
+						name = "ethics_bg"
+						spriteType = "GFX_tiles_dark_area_cut_8"
+					}
+				}
+
+				instantTextBoxType = {
+					name = "traits_label"
+					position = { x = 3 y = 158 }
+					font = "cg_16b"
+					maxWidth = 230
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+					#text_color_code = "E"
+					text = "RULER_TRAITS"
+					alwaysTransparent = yes
+				}
+
+				overlappingElementsBoxType = {
+					name = "leader_traits"
+					position = { x = 5 y = 177 }
+					size = { x = 105 y = 330 }
+					#format = centre
+				}
+
+				instantTextBoxType = {
+					name = "leader"
+					position = { x = 0 y = 40 }
+					font = "cg_16b"
+					maxWidth = 330
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+					text_color_code = "E"
+				}
+
+				instantTextBoxType = {
+					name = "species"
+					position = { x = 0 y = 55 }
+					font = "cg_16b"
+					maxWidth = 200
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+				}
+			}
+
+			containerWindowType = {
+				name = "election_bg"
+				position = { x = 140 y = 228 }
+				size = { width = 400 height = 60 }
+
+
+				background = {
+					name = "leader_frame"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+
+
+			containerWindowType = {
+				name = "election_window"
+				position = { x=0 y=0 }
+				size = { width = 100% height = 100% }
+				moveable = no
+
+				instantTextBoxType = {
+					name = "next_election_label"
+					position = { x = 202 y = 235 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "NEXT_ELECTION_LABEL"
+					maxWidth = 190
+					maxHeight = 22
+					fixedSize = yes
+					format = left
+				}
+
+				instantTextBoxType = {
+					name = "next_election"
+					position = { x = 202 y = 250 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "NEVER"
+					maxHeight = 22
+					fixedSize = yes
+					format = left
+					text_color_code = "H"
+				}
+
+				buttonType = {
+					name = "emergency_election_button"
+					quadTextureSprite = "GFX_standard_button_142_34_button"
+					position = { x = 375 y = 227 }
+					buttonFont = "cg_16b"
+					text = "EMERGENCY_ELECTION"
+					font = "cg_16b"
+				}
+			}
+
+			# Government
+			buttonType = {
+				name = "government"
+				quadTextureSprite = "GFX_government"
+				position = { x = 148 y = 235  }
+				orientation = "UPPER_LEFT"
+			}
+
+			buttonType = {
+				name = "government_reform"
+				quadTextureSprite = "GFX_edit"
+				position = { x = 195 y = 99230  }
+				orientation = "UPPER_LEFT"
+				scale = 1.0
+			}
+
+			containerWindowType = {
+				name = "heir_window"
+				position = { x = 200 y = 229 }
+				size = { width = 340 height = 60 }
+				moveable = no
+				clipping = no
+
+				background = {
+					name = "heir_window_hitbox"
+					spriteType = "GFX_invisible"
+				}
+
+				instantTextBoxType = {
+					name = "heir_label"
+					position = { x = 60 y = 2 }
+					font = "cg_16b"
+					text = "HEIR"
+					maxWidth = 80
+					maxHeight = 22
+					fixedSize = yes
+					format = left
+					alwaysTransparent = yes
+					text_color_code = "H"
+				}
+
+				iconType = {
+					name = "heir_portrait"
+					quadTextureSprite = "GFX_portrait_character"
+					position = { x = -20 y = -2 }
+					scale = 0.16
+					alwaysTransparent = yes
+				}
+
+				instantTextBoxType = {
+					name = "heir_name"
+					position = { x = 60 y = 20 }
+					font = "cg_16b"
+					text = ""
+					maxWidth = 180
+					maxHeight = 30
+					#fixedSize = yes
+					format = left
+					alwaysTransparent = yes
+					#text_color_code = "E"
+				}
+
+				overlappingElementsBoxType = {
+					name = "traits"
+					position = { x = 130 y = 23 }
+					size = { x = 200 y = 32 }
+					format = right
+				}
+			}
+
+			containerWindowType = {
+				name = "imperium_window"
+				position = { x = 14 y = 182 }
+				size = { width = 130 height = 80 }
+				moveable = no
+
+				containerWindowType = {
+					name = "election_bg"
+					size = { width = 120 height = 60 }
+					position = { x = -2 y = 46 }
+
+					background = {
+						name = "leader_frame"
+						spriteType = "GFX_tiles_dark_area_cut_8"
+					}
+				}
+
+				instantTextBoxType = {
+					name = "ethics_label"
+					position = { x = 3 y = 50 }
+					font = "cg_16b"
+					text = "ETHICS_LABEL"
+					maxWidth = 150
+					maxHeight = 22
+					fixedSize = yes
+					format = left
+				}
+
+				overlappingElementsBoxType = {
+					name = "ethics"
+					position = { x = 6 y = 70 }
+					size = { x = 120 y = 32 }
+					spacing = 2
+					format = left
+					orientation = "UPPER_LEFT"
+				}
+			}
+
+			instantTextBoxType={
+				name = "empire_effects_label"
+				font = "malgun_goth_24"
+				text = "EMPIRE_EFFECTS"
+				position = { x = 10 y = 292}
+				maxWidth = 260
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+			}
+
+			containerWindowType = {
+				name = "effects_background"
+				size = { width = 244 height = 566 } #mod
+				position = { x=16 y=320 }
+
+				background = {
+					name = "leader_frame"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+
+			containerWindowType = {
+				name = "effects_window"
+				position = { x=20 y=335 }
+				size = { width = 244 height = 200 }
+				verticalScrollbar = "right_vertical_slider"
+
+				background = {
+					name = "background"
+					quadTextureSprite = "gfx_transparency"
+					alwaystransparent = yes
+				}
+
+				gridBoxType = {
+					position = { x = 10 y = 0 }
+					name = "grid"
+					slotSize = { width = 200 height = 40 }
+					max_slots_horizontal = 1
+					format = "UPPER_LEFT"
+				}
+			}
+
+			instantTextBoxType = {
+				name = "modifiers_label"
+				position = { x = 308 y = 292 }
+				font = "malgun_goth_24"
+				text = "TEMP_MODIFIERS"
+				maxWidth = 230
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+			}
+
+			containerWindowType = {
+				name = "modifiers_window"
+				position = { x=301 y=320 }
+				size = { width = 240 height = 637 } #mod
+				moveable = no
+
+				containerWindowType = {
+					name = "empire_background2"
+					size = { width = 244 height = 563 } #mod
+					position = { x = 0 y = 0 }
+
+					background = {
+						name = "leader_frame"
+						spriteType = "GFX_tiles_dark_area_cut_8"
+					}
+				}
+
+				smoothListboxType = {
+					name = "modifiers_list"
+					position = { x = -10 y = 5 }
+					size = { x=235 y=220 }
+					scrollbartype = "standardlistbox_slider"
+					orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "empty_mods"
+					position = { x = 10 y = 20 }
+					font = "cg_16b"
+					text = "EMPTY_MODS"
+					maxWidth = 220
+					maxHeight = 40
+					fixedSize = yes
+					format = center
+				}
+			}
+		}
+
+		###############################
+		# THE BUDGET WINDOW
+		###############################
+		containerWindowType = {
+			name = "budget"
+			position = { x=0 y=0 }
+			size = { width = 563 height = 998 } #mod 
+			#moveable = 0
+			dontRender = ""
+			#horizontalBorder = ""
+
+			@b_summary_y = 245
+
+			buttonType = {
+				name = "black_box_income"
+				quadTextureSprite = "GFX_tiles_frame_light"
+				position = { x = 20 y = 40 }
+				size = { x = 255 y = 235 }
+			}
+
+			buttonType = {
+				name = "black_box_expences"
+				quadTextureSprite = "GFX_tiles_frame_light"
+				position = { x = 275 y = 40 }
+				size = { x = 255 y = 235 }
+			}
+
+			################
+			# INCOME COLUMN
+			################
+
+			@income_label_x = 30
+
+			# The Income sub window
+			containerWindowType = {
+				name = "income_window"
+				position = { x=5 y=0 }
+				size = { width = 265 height = 300 }
+				#moveable = 0
+				dontRender = ""
+				#horizontalBorder = ""
+
+				instantTextBoxType = {
+					name = "income_label"
+					position = { x = 30 y = 15 }
+					textureFile = ""
+					font = "malgun_goth_24"
+					borderSize = {x = 0 y = 0}
+					text = "INCOME"
+					maxWidth = 281
+					maxHeight = 20
+					fixedSize = yes
+				}
+
+				instantTextBoxType = {
+					name = "total_income_label"
+					position = { x = 30 y = @b_summary_y }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "MONTHLY_INCOME_COLON"
+					maxWidth = 200
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+					#text_color_code = "S"
+				}
+
+				instantTextBoxType = {
+					name = "total_income_value"
+					position = { x = 145 y = @b_summary_y }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = ""
+					maxWidth = 100
+					maxHeight = 20
+					fixedSize = yes
+					format = right
+				}
+			}
+
+			smoothListboxType = {
+				name = "incomes"
+				position = { x = 30 y = 55 }
+				size = { x=470 y=320 }
+				scrollbartype = "standardlistbox_slider"
+				orientation = "UPPER_LEFT"
+				alwaysTransparent = yes
+			}
+
+			################
+			# EXPENSE COLUMN
+			################
+
+			@expense_nr_x = 130
+			@expense_label_x = 15
+
+			# The Expense sub window
+			containerWindowType = {
+				name = "expenses_window"
+				position = { x=285 y=0 }
+				size = { width = 260 height = 633 } #mod
+				#moveable = 0
+				dontRender = ""
+				#horizontalBorder = ""
+
+				instantTextBoxType = {
+					name = "expense_label"
+					position = { x = 10 y = 15 }
+					textureFile = ""
+					font = "malgun_goth_24"
+					borderSize = {x = 0 y = 0}
+					text = "EXPENSES"
+					maxWidth = 281
+					maxHeight = 20
+					fixedSize = yes
+				}
+
+				instantTextBoxType = {
+					name = "total_expenses_label"
+					position = { x = @expense_label_x y = @b_summary_y }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "MONTHLY_EXPENSES_COLON"
+					maxWidth = 200
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+					#text_color_code = "S"
+				}
+
+				instantTextBoxType = {
+					name = "total_expenses_value"
+					position = { x = @expense_nr_x y = @b_summary_y }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = ""
+					maxWidth = 100
+					maxHeight = 20
+					fixedSize = yes
+					format = right
+				}
+			}
+
+			smoothListboxType = {
+				name = "expenses"
+				position = { x = 285 y = 55 }
+				size = { x=470 y=320 }
+				scrollbartype = "standardlistbox_slider"
+				orientation = "UPPER_LEFT"
+				alwaysTransparent = yes
+			}
+
+			buttonType = {
+				name = "black_box_balance"
+				quadTextureSprite = "GFX_tiles_frame_light"
+				position = { x = 285 y = 270 }
+				size = { x = 245 y = 50 }
+				alwaysTransparent = yes
+			}
+
+			#The balance window
+			containerWindowType = {
+				name = "balance_window"
+				position = { x=285 y=282 }
+				size = { width = 260 height = 45 }
+				#moveable = 0
+				dontRender = ""
+				#horizontalBorder = ""
+
+				instantTextBoxType = {
+					name = "balance_label"
+					position = { x = 15 y = 0 }
+					textureFile = ""
+					font = "malgun_goth_24"
+					borderSize = {x = 0 y = 0}
+					text = "BALANCE_COLON"
+					maxWidth = 200
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+					#text_color_code = "S"
+				}
+
+				instantTextBoxType = {
+					name = "balance_value"
+					position = { x = 130 y = 0 }
+					textureFile = ""
+					font = "malgun_goth_24"
+					borderSize = {x = 0 y = 0}
+					text = ""
+					maxWidth = 100
+					maxHeight = 20
+					fixedSize = yes
+					format = right
+				}
+			}
+
+			instantTextBoxType = {
+				name = "effects_label"
+				position = { x = 20 y = 336 }
+				textureFile = ""
+				font = "malgun_goth_24"
+				borderSize = {x = 0 y = 0}
+				text = "BUDGET_EFFECTS"
+				maxWidth = 510
+				maxHeight = 20
+				fixedSize = yes
+				format = centre
+				#text_color_code = "S"
+			}
+
+			buttonType = {
+				name = "black_box_effects"
+				quadTextureSprite = "GFX_tiles_frame_light"
+				position = { x = 20 y = 360 }
+				size = { x = 510 y = 190 }
+				alwaysTransparent = yes
+			}
+
+			containerWindowType = {
+				name = "effects_window"
+				position = { x=35 y=385 }
+				size = { width = 470 height = 160 }
+				verticalScrollbar = "right_vertical_slider"
+
+				background = {
+					name = "background"
+					quadTextureSprite = "gfx_transparency"
+					alwaystransparent = yes
+				}
+
+				gridBoxType = {
+					position = { x = 0 y = 0 }
+					name = "grid"
+					slotSize = { width = 240 height = 40 }
+					max_slots_horizontal = 2
+					format = "UPPER_LEFT"
+				}
+			}
+		}
+		###############################
+		# THE DECISIONS WINDOW
+		###############################
+
+		containerWindowType = {
+			name = "decisions_window"
+			position = { x=0 y=0 }
+			size = { width = 563 height = 598 }
+			#moveable = 0
+			dontRender = ""
+			#horizontalBorder = ""
+
+			instantTextBoxType={
+				name = "policies_label"
+				font = "malgun_goth_24"
+				text = "POLICIES"
+				position = { x = 0 y = 15}
+				maxWidth = 540
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+			}
+
+			containerWindowType = {
+				name = "policy_window"
+				position = { x=0 y=40 }
+				size = { width = 550 height = 477 } #mod +906
+				moveable = no
+
+				background = {
+					name = "empire_background"
+					spriteType = "GFX_tiles_frame_light"
+				}
+
+				smoothListboxType = {
+					name = "policy_list"
+					position = { x = 10 y = 10 }
+					backGround=""
+					size = { x=517 y=461 } #mod added 666
+					spacing = 1
+					scrollbartype = "standardlistbox_slider"
+					borderSize = { x = 0 y = 0 }
+					orientation = "UPPER_LEFT"
+				}
+			}
+
+
+			instantTextBoxType = {
+				name = "edicts_label"
+				font = "malgun_goth_24"
+				text = "EDICTS"
+				position = { x = 0 y = 512 } #mod +207
+				maxWidth = 540
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+			}
+
+			containerWindowType = {
+				name = "edicts_empire"
+				position = { x = 0 y = 534 } #mod from 325 to 800
+				size = { width = 550 height = 372 } #mod 
+				dontRender = ""
+
+				background = {
+					name = "empire_background"
+					spriteType = "GFX_tiles_frame_light"
+				}
+
+				smoothListboxType = {
+					name = "edicts_list"
+					position = { x = 10 y = 10 }  
+					backGround=""
+					size = { x = 517 y = 350 } #mod
+					spacing = 1
+					scrollbartype = "standardlistbox_slider"
+					borderSize = { x = 0 y = 0 }
+					orientation = "UPPER_LEFT"
+					autohide_scrollbar = yes
+				}
+			}
+		}
+
+		###############################
+		# THE DEMOGRAPHICS WINDOW
+		###############################
+
+		containerWindowType = {
+			name = "demographics_window"
+			position = { x=0 y=0 }
+			size = { width = 563 height = 598 }
+
+			instantTextBoxType={
+				name = "population_label"
+				font = "malgun_goth_24"
+				text = "POPULATION"
+				position = { x = 0 y = 15}
+				maxWidth = 550
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+			}
+
+			containerWindowType = {
+				name = "population_window"
+				position = { x=0 y=40 }
+				size = { width = 550 height = 210 }
+
+				background = {
+					name = "empire_background"
+					spriteType = "GFX_tiles_frame_light"
+				}
+
+				instantTextBoxType={
+					name = "species_name"
+					font = "cg_16b"
+					text = "PLANETTYPE"
+					position = { x = 350 y = 20}
+					maxWidth = 140
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+					text_color_code = "E"
+				}
+
+				instantTextBoxType={
+					name = "founder_species_class"
+					font = "cg_16b"
+					text = "SPECIES"
+					position = { x = 350 y = 40}
+					maxWidth = 140
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+				}
+
+				instantTextBoxType={
+					name = "ideal_planet_class"
+					font = "cg_16b"
+					text = "IDEAL_PLANET_CLASS"
+					position = { x = 350 y = 60}
+					maxWidth = 140
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+					text_color_code = "H"
+				}
+
+				instantTextBoxType={
+					name = "pops"
+					font = "cg_16b"
+					text = "POPS_IN_WORLD"
+					position = { x = 350 y = 80}
+					maxWidth = 200
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+				}
+
+				iconType = {
+					name = "species_leader_image"
+					quadTextureSprite = "GFX_portrait_character"
+					position = { x = 230 y = 10 }
+					scale = 0.24
+				}
+
+				containerWindowType = {
+					name = "setting_bg_box"
+					position = { x = 250 y = 106 }
+					size = { width = 270 height = 43 }
+
+						background = {
+							name = "setting_bg_frame"
+							spriteType = "GFX_tiles_dark_area_cut_8"
+						}
+				}
+
+				OverlappingElementsBoxType = {
+					name = "traits"
+					position = { x = 255 y = 110}
+					size = { x = 250 y = 33 }
+					format = left
+					orientation = "UPPER_LEFT"
+				}
+
+				smoothListboxType = {
+					name = "species_list"
+					position = { x = 20 y = 20 }
+					size = { x=50 y=50 }
+					scrollbartype = "standardlistbox_slider"
+					orientation = "UPPER_LEFT"
+				}
+			}
+
+			containerWindowType = {
+				name = "species_piechart"
+				position = { x = 120 y = 50 }
+				size = { width =0 height = 160 }
+				moveable = no
+
+				iconType = {
+					name ="species_piechart"
+					spriteType = "GFX_species_piechart_default"
+					position = { x= 70 y = 15 }
+				}
+
+				iconType = {
+					name ="species_piechart_overlay"
+					spriteType = "GFX_pie_chart_overlay"
+					position = { x= 18 y = 13 }
+				}
+
+				smoothListboxType = 	{
+					name ="species_list"
+					position = { x = -102 y = 0 }
+					size = { x=100 y = 185 }
+					scrollbartype = "standardlistbox_slider"
+					orientation = "UPPER_LEFT"
+				}
+			}
+
+			instantTextBoxType={
+				name = "pop_effects_label"
+				font = "malgun_goth_24"
+				text = "POP_EFFECTS"
+				position = { x = 0 y = 250}
+				maxWidth = 550
+				maxHeight = 20
+				fixedSize = yes
+				format = center
+			}
+
+			instantTextBoxType={
+				name = "pop_effects_desc"
+				font = "cg_16b"
+				text = "POP_EFFECTS_DESC"
+				position = { x = 0 y = 280}
+				maxWidth = 530
+				maxHeight = 60
+				fixedSize = yes
+				format = center
+				text_color_code = "E"
+			}
+
+			containerWindowType = {
+				name = "pop_effects_bg_window"
+				position = { x=0 y=330 }
+				size = { width = 550 height = 170 }
+
+				background = {
+					name = "empire_background"
+					spriteType = "GFX_tiles_frame_light"
+					alwaystransparent = yes
+				}
+			}
+
+			containerWindowType = {
+				name = "effects_window"
+				position = { x=15 y=343 }
+				size = { width = 544 height = 160 }
+				verticalScrollbar = "right_vertical_slider"
+
+				background = {
+					name = "background"
+					quadTextureSprite = "gfx_transparency"
+					alwaystransparent = yes
+				}
+
+				gridBoxType = {
+					position = { x = 10 y = 0 }
+					name = "grid"
+					slotSize = { width = 272 height = 30 }
+					max_slots_horizontal = 2
+					format = "UPPER_LEFT"
+				}
+			}
+
+			buttonType = {
+				name = "create_vassal_button"
+				quadTextureSprite = "GFX_button_animated_110_34"
+				position = { x = -7 y = 499  }
+				orientation = "UPPER_LEFT"
+				buttonFont = "cg_16b"
+				text = "CREATE_VASSAL"
+				font = "cg_16b"
+			}
+
+			
+
+			
+		}
+	}
+}
+	###############################
+	# Empire Faction Entry
+	###############################
+
+	containerWindowType = {
+		name = "faction_entry"
+		position = { x=0 y=0 }
+		size = { width = 400 height = 40 }
+		moveable = no
+
+		instantTextBoxType={
+			name = "species_name"
+			font = "cg_16b"
+			position = { x = 0 y = 0 }
+			fixedSize = yes
+			format = center
+			maxWidth = 270
+			maxHeight = 40
+			alwaysTransparent = yes
+		}
+
+		OverlappingElementsBoxType = {
+			name = "pops"
+			position = { x = 100 y = 48 }
+			size = { x = 200 y = 32 }
+			format = left
+			orientation = "UPPER_LEFT"
+		}
+
+		buttonType = {
+			name = "handle"
+			quadTextureSprite = "GFX_button_animated_110_34"
+			position = { x = 350 y = 0  }
+			orientation = "UPPER_LEFT"
+			buttonFont = "cg_16b"
+			text = "HANDLE"
+			font = "cg_16b"
+		}
+	}
+
+	###############################
+	# Empire Policy Entry
+	###############################
+
+	containerWindowType = {
+		name = "empire_policy_entry"
+		position = { x=10 y=10 }
+		size = { width = 380 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "background"
+			quadTextureSprite = "GFX_tiles_dark_area_cut_8_hover"
+			size = { x = 518 y = 27 }
+		}
+
+		iconType = {
+			name = "can_change"
+			alwaysTransparent = yes
+			position = { x = 6 y = 6 }
+			quadTextureSprite = "GFX_on_off_indicator"
+			frame = 1
+		}
+
+		instantTextBoxType={
+			name = "policy_name"
+			font = "cg_16b"
+			position = { x = 26 y = 5 }
+			fixedSize = yes
+			format = left
+			maxWidth = 260
+			alwaysTransparent = yes
+		}
+		instantTextBoxType={
+			name = "selected_option_name"
+			font = "cg_16b"
+			position = { x = 250 y = 5 }
+			fixedSize = yes
+			maxWidth = 260
+			format = right
+			alwaysTransparent = yes
+
+			text = "hej hej"
+			text_color_code = "H"
+		}
+
+		smoothListboxType = {
+			name = "options"
+			position = { x = 15 y = 30 }
+			size = { x=465 y=50 }
+			alwaysTransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "policy_option_entry"
+		position = { x=0 y=0 }
+		size = { width = 80 height = 30 }
+		moveable = no
+
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_tiles_dark_area_cut_8_hover"
+			position = { x = 10 y = 0 }
+			size = { x = 450 y = 27 }
+		}
+
+		instantTextBoxType={
+			name = "name"
+			font = "cg_16b"
+			position = { x = 42 y = 6 }
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+			text = "very long name here"
+			text_color_code = "E"
+		}
+
+		iconType = {
+			name = "is_selected"
+			alwaysTransparent = yes
+			position = { x = 14 y = 2 }
+			quadTextureSprite = "GFX_radio_button"
+			frame = 1
+			scale = 0.8
+		}
+	}
+
+	###############################
+	# Empire Edicts Entry
+	###############################
+
+	containerWindowType = {
+		name = "empire_edicts_entry"
+		position = { x=0 y=0 }
+		size = { width = 520 height = 36 }
+		moveable = no
+
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+		}
+
+		instantTextBoxType={
+			name = "edicts_name"
+			font = "cg_16b"
+			position = { x = 34 y = 9 }
+			maxWidth = 300
+			format = left
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType={
+			name = "cost"
+			font = "cg_16b"
+			position = { x = 448 y = 10 }
+			maxWidth = 60
+			fixedSize = yes
+			format = right
+		}
+
+		instantTextBoxType={
+			name = "active"
+			font = "cg_16b"
+			position = { x = 350 y = 10 }
+			maxWidth = 100
+			fixedSize = yes
+			format = left
+			text = "ACTIVE_GREEN"
+		}
+
+		buttonType = {
+			name = "select_button"
+			quadTextureSprite = "GFX_checkbox_20_20_01"
+			position = { x = 2 y = 2  }
+		}
+	}
+
+	# TIMED MODIFIER ENTRY
+	containerWindowType = {
+		name = "timed_modifier_entry"
+		position = { x=0 y=0 }
+		size = { width = 60 height = 30 }
+		moveable = no
+		orientation = upper_left
+
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_modifier_unknown"
+			position = { x = 22 y = 7 }
+			orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType={
+			name = "modifier"
+			font = "cg_16b"
+			position = { x = 55 y = -2 }
+			maxWidth = 190
+			maxHeight = 40
+			fixedSize = yes
+			format = left
+			vertical_alignment = center
+			text = "ACTIVE_GREEN"
+		}
+		
+	}
+
+	# SPECIES TRAITS ENTRY
+	containerWindowType = {
+		name = "species_traits_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 200 height = 40 }
+		moveable = no
+		orientation = upper_left
+
+		iconType = {
+			name = "trait_icon"
+			spriteType = "GFX_traits"
+			position = { x = 3 y = 3 }
+			orientation = "UPPER_LEFT"
+		}
+	}
+
+	# GOVERNMENT TYPE ENTRY
+	containerWindowType = {
+		name = "government_list_entry"
+		position = { x=0 y=0 }
+		size = { width = 288 height = 22 }
+		moveable = no
+
+	#	iconType = {
+	#		name = "background"
+	#		spriteType = "GFX_empire_entry_bg"
+	#		position = { x = 0 y = 0  }
+	#		orientation = "UPPER_LEFT"
+	#	}
+
+		instantTextBoxType={
+			name = "government_label"
+			font = "cg_16b"
+			position = { x = 0 y = 0 }
+			maxWidth = 288
+			maxHeight = 22
+			fixedSize = yes
+			format = centre
+			#alwaysTransparent = yes
+		}
+	}
+
+# CREATE VASSAL ENTRY
+	containerWindowType = {
+		name = "create_vassal_entry"
+		position = { x=0 y=0 }
+		size = { width = 440 height = 96 }
+		moveable = no
+
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_clean_frame_area"
+		}
+
+		instantTextBoxType={
+			name = "name_label"
+			font = "cg_16b"
+			position = { x = 85 y = 12 }
+			maxWidth = 288
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+			text = "SPECIES_NAME"
+		}
+
+		instantTextBoxType={
+			name = "name"
+			font = "cg_16b"
+			position = { x = 85 y = 28 }
+			maxWidth = 288
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+			text_color_code = "E"
+		}
+
+		instantTextBoxType={
+			name = "planet_label"
+			font = "cg_16b"
+			position = { x = 85 y = 52 }
+			maxWidth = 288
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+			text = "PLANET_CAP"
+		}
+
+		instantTextBoxType={
+			name = "planet"
+			font = "cg_16b"
+			position = { x = 85 y = 68 }
+			maxWidth = 288
+			maxHeight = 22
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+			text_color_code = "E"
+		}
+
+		containerWindowType = {
+			name = "portrait_window"
+			position = { x = 12 y = 5 }
+			size = { width = 70 height = 80 }
+			clipping = yes
+
+			buttonType = {
+				name = "species_portrait"
+				quadTextureSprite = "GFX_leader_bg_scientist"
+				position = { x = 0 y = 7 }
+				scale = 0.20
+				alwaystransparent = yes
+			}
+
+			buttonType = {
+				name = "portrait"
+				spriteType = "GFX_portrait_character"
+				position = { x = -35 y = 0 }
+				scale = 0.22
+				alwaystransparent = yes
+			}
+
+		}
+
+		buttonType = {
+			name = "create_button"
+			quadTextureSprite = "GFX_standard_button_142_34_button"
+			position = { x = -170 y = -60  }
+			orientation = "LOWER_RIGHT"
+			buttonFont = "cg_16b"
+			text = "CREATE_VASSAL"
+			font = "cg_16b"
+		}
+	}
+
+	containerWindowType = {
+		name = "government_view_ethic_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 32 height = 32 }
+
+		iconType = {
+			name = "icon"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_ethics"
+		}
+	}
+
+	containerWindowType = {
+		name = "species_piechart_entry"
+		position = { x=0 y=-0 }
+		size = { width =104 height=30 }
+		moveable = no
+
+		background = {
+			name = "piechart_background"
+			spriteType = "GFX_tiles_frame_light"
+		}
+
+		iconType = {
+			name ="species_plupp"
+			spriteType = "GFX_species_plupp"
+			position = { x= 10 y = 10 }
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "species_name"
+			position = { x = 20 y = 5 }
+			font = "cg_16b"
+			text = "SPECIES"
+			maxWidth = 105
+			maxHeight = 16
+			fixedsize = yes
+			orientation = right
+			alwaysTransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "government_view_budget_entry"
+		size = { width = 200 height = 20 }
+
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 10 y = 0 }
+			font = "cg_16b"
+			text = "SPECIES"
+			maxWidth = 200
+			maxHeight = 16
+			fixedsize = yes
+		}
+
+		instantTextBoxType = {
+			name = "value"
+			position = { x = -10 y = 0 }
+			font = "cg_16b"
+			text = "SPECIES"
+			maxWidth = 235
+			maxHeight = 16
+			fixedsize = yes
+			format = right
+		}
+	}
+
+	containerWindowType = {
+		name = "government_view_budget_effect_entry"
+		size = { width = 175 height = 40 }
+
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_modifier_unknown"
+			position = { x = 0 y = 0 }
+			orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType={
+			name = "name"
+			font = "cg_16b"
+			position = { x = 39 y = -3 }
+			maxWidth = 155
+			maxHeight = 30
+			#fixedSize = yes
+			format = left
+			text = ""
+			#fixedsize = yes
+			appendtext = ":"
+			vertical_alignment = center
+		}
+
+		instantTextBoxType={
+			name = "value"
+			font = "cg_16b"
+			position = { x = 5 y = 3 }
+			maxWidth = 50
+			maxHeight = 20
+			fixedSize = yes
+			format = right
+			text = ""
+			fixedsize = yes
+			Orientation = "UPPER_RIGHT"
+			text_color_code = "G"
+		}
+	}
+
+	containerWindowType = {
+		name = "government_view_pop_effect_entry"
+		size = { width = 175 height = 40 }
+
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_modifier_unknown"
+			position = { x = 0 y = 0 }
+			orientation = "UPPER_LEFT"
+		}
+
+		instantTextBoxType={
+			name = "name"
+			font = "cg_16b"
+			position = { x = 32 y = -2 }
+			maxWidth = 165
+			maxHeight = 30
+			#fixedSize = yes
+			format = left
+			text = ""
+			appendtext = ":"
+			vertical_alignment = center
+		}
+
+		instantTextBoxType={
+			name = "value"
+			font = "cg_16b"
+			position = { x = 10 y = 3 }
+			maxWidth = 50
+			maxHeight = 20
+			fixedSize = yes
+			format = right
+			text = ""
+			fixedsize = yes
+			Orientation = "UPPER_RIGHT"
+			text_color_code = "G"
+		}
+	}
+
+	containerWindowType = {
+		name = "government_view_empire_effect_entry"
+		size = { width = 235 height = 40 }
+
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_modifier_unknown"
+			position = { x = 10 y = 12 }
+			orientation = "UPPER_LEFT"
+			centerPosition = yes
+		}
+
+		instantTextBoxType={
+			name = "name"
+			font = "cg_16b"
+			position = { x = 32 y = -2 }
+			maxWidth = 150
+			maxHeight = 30
+			format = left
+			text = ""
+			#fixedsize = yes
+			appendtext = ":"
+			vertical_alignment = center
+		}
+
+		instantTextBoxType={
+			name = "value"
+			font = "cg_16b"
+			position = { x = -70 y = 3 }
+			maxWidth = 50
+			maxHeight = 20
+			fixedSize = yes
+			format = right
+			text = ""
+			fixedsize = yes
+			Orientation = "UPPER_RIGHT"
+			text_color_code = "G"
+		}
+	}
+
+	containerWindowType = {
+		name = "create_vassal_window"
+		origo = center
+		orientation = center
+		position = { x = 0 y = 0 }
+		size = { width = 510 height = 835 } #mod
+		moveable = yes
+
+		background = {
+			name = "create_vassal_window_background"
+			quadTextureSprite = "GFX_tile_outliner_bg"
+			position = { x = 0 y = 0 }
+		}
+
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x= -46 y = 16  }
+			orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+			pdx_tooltip = "CLOSE_TITLE"
+			clicksound = "back_click"
+		}
+
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = -10 y = -13 }
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line"
+			position = { x = 6 y = 21 }
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType={
+			name = "header_label"
+			font = "malgun_goth_24"
+			text = "CREATE_VASSAL"
+			position = { x = 16 y = 5 }
+			maxWidth = 563
+			maxHeight = 20
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+
+		smoothListboxType = {
+			name = "list"
+			position = { x = 15 y = 50 }
+			backGround=""
+			size = { x=470 y=775 } #mod
+			scrollbartype = "standardlistbox_slider"
+			borderSize = { x = 0 y = 0 }
+			orientation = "UPPER_LEFT"
+		}
+	}
+}

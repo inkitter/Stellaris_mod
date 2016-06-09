@@ -1,0 +1,30 @@
+# Icons set here are the ones show in the actual slot. The reason is so that we can support different icons for different sizes. 
+#############
+#	POWER	#
+#############
+
+@power_L6 = 200
+
+#############
+#	COST	#
+#############
+
+@cost_L6 = 200
+
+#############
+# UTILITIES #
+#############
+
+### REACTORS
+
+utility_component_template = {
+	key = "ADV_ZERO_POINT_REACTOR"
+	size = large
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @power_L6
+	cost = @cost_L6
+	
+	prerequisites = { "tech_zero_point_power"  }
+	component_set = "ADV_ZERO_POINT_REACTOR"
+}

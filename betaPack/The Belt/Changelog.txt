@@ -1,0 +1,24 @@
+Version 1.01
+
+- Increased ethics divergence from Mining Operations Hub (from 10% to 15% ethics divergence)
+- Added -50% border extrusion to the Asteroid modifier
+- Added Spaceport build construction cost reduction to the Asteroid modifier (25% cost reduction)	
+- Increased the bonus to mining tile yield from the metallic asteroid modifier (from 5% to 10%)
+- New event: Once pirates have spawned and if there is an asteroid colony, possibility to have them toil in the mines to serve their sentence.
+
+
+
+
+Version 1.0
+- Adds the possibility to colonize asteroids (but no way to raise their habitability, it stays at 0%).
+- Adds a new life support system building restricted to the asteroids that add habitability (80%).
+- Added a range for asteroid size (between 5 and 7).
+- Increased Ceres size in the pre-scripted solar system to 7.
+- Added a planet bonus specific to asteroids (+25% mine tile yield, -30% building cost, -5% spaceships building cost, -25% ship building time and -25% spaceport module cost
+
+- Added new events asteroid related
+	- Growth of independent asteroid mining that can improve mining yield in asteroid colonies.
+	- Possibility to focus on searching for certain types of asteroids, carbonaceous ones can be useful for further colonization effort (+15% colonization speed empire), while metallic ones are more attractive for the industry (+5% mineral tile yield on planet).
+	- Asteroid trajectory accident: accident can happen when you handle ten kilometers sized rocks, and it can have dire consequences.
+	- Possibility to creation an orbit guard to monitor asteroids and prevent world ending scenarios. (Decrease the chance of asteroid trajectory accident)
+	- Possible death of the population if the life support building is damaged.

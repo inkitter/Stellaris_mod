@@ -1,0 +1,1047 @@
+### Blue
+
+# Extradimensional Large Ship
+ship_design = {
+	name = "Revenant"
+	ship_size = large_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_large_warship_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_8"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Medium Ship
+ship_design = {
+	name = "Phantom"
+	ship_size = medium_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_medium_warship_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Small Ship
+ship_design = {
+	name = "Wraith"
+	ship_size = small_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_warship_small_key"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "C_MEDIUM_AUTO_REPAIR_5"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Large Station
+ship_design = {
+	name = "Phantasm Alpha"
+	ship_size = military_station_large_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_station_large_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_04"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_8"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_3"
+		}
+	}
+	required_component="STATION_LARGE_AURA_QUANTUM_DESTABILIZER"
+}
+
+# Extradimensional Small Station
+ship_design = {
+	name = "Whisper Alpha"
+	ship_size = military_station_small_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_station_small_key"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+	}
+	required_component="STATION_MEDIUM_AURA_MINEFIELD_1"
+}
+
+# Extradimensional Constructor
+ship_design = {
+	name = "Void Shaper"
+	ship_size = construction_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_constructor_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="JUMP_DRIVE_1"
+	required_component="SHIP_THRUSTER_3"
+}
+
+### Orange
+
+# Extradimensional Large Ship
+ship_design = {
+	name = "Huntress"
+	ship_size = large_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_large_orange_warship_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_8"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Medium Ship
+ship_design = {
+	name = "Assassin"
+	ship_size = medium_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_medium_orange_warship_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "C_MEDIUM_AUTO_REPAIR_5"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Small Ship
+ship_design = {
+	name = "Predator"
+	ship_size = small_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_warship_small_orange_key"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "C_MEDIUM_AUTO_REPAIR_5"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Large Station
+ship_design = {
+	name = "Phantasm Beta"
+	ship_size = military_station_large_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_station_large_orange_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_04"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_8"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_3"
+		}
+	}
+	required_component="STATION_LARGE_AURA_QUANTUM_DESTABILIZER"
+}
+
+# Extradimensional Small Station
+ship_design = {
+	name = "Whisper Beta"
+	ship_size = military_station_small_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_station_small_orange_key"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+	}
+	required_component="STATION_MEDIUM_AURA_MINEFIELD_1"
+}
+
+# Extradimensional Constructor
+ship_design = {
+	name = "Void Former"
+	ship_size = construction_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_constructor_orange_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="JUMP_DRIVE_1"
+	required_component="SHIP_THRUSTER_3"
+}
+
+### Green
+
+# Extradimensional Large Ship
+ship_design = {
+	name = "Eradicator"
+	ship_size = large_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_large_green_warship_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_8"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Medium Ship
+ship_design = {
+	name = "Annihilator"
+	ship_size = medium_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_medium_green_warship_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "C_MEDIUM_AUTO_REPAIR_5"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Small Ship
+ship_design = {
+	name = "Obliterator"
+	ship_size = small_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_warship_small_green_key"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "C_MEDIUM_AUTO_REPAIR_5"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFAULT"
+	required_component="SHIP_THRUSTER_3"
+}
+
+# Extradimensional Large Station
+ship_design = {
+	name = "Phantasm Gamma"
+	ship_size = military_station_large_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_station_large_green_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_04"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_8"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_3"
+		}
+	}
+	required_component="STATION_LARGE_AURA_QUANTUM_DESTABILIZER"
+}
+
+# Extradimensional Small Station
+ship_design = {
+	name = "Whisper Gamma"
+	ship_size = military_station_small_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_station_small_green_key"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_ED_WEAPON"
+		}
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "MEDIUM_PROBE_LIGHTNING"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+	}
+	required_component="STATION_MEDIUM_AURA_MINEFIELD_1"
+}
+
+# Extradimensional Constructor
+ship_design = {
+	name = "Void Weaver"
+	ship_size = construction_ship_ed
+	country_type = extradimensional
+	section = {
+		template = "ed_constructor_green_section"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+	}
+	
+	required_component="JUMP_DRIVE_1"
+	required_component="SHIP_THRUSTER_3"
+}
+
+
+### Other
+
+# Dimensional Portal
+ship_design = {
+	name = "Dimensional Portal"
+	ship_size = dimensional_portal_ed
+	section = {
+		template = "ed_dimensional_portal_key_blue"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_3"
+		}
+	}
+}
+
+# Dimensional Portal - Green
+ship_design = {
+	name = "Green Dimensional Portal"
+	ship_size = dimensional_portal_ed
+	section = {
+		template = "ed_dimensional_portal_key_green"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_3"
+		}
+	}
+}
+
+# Dimensional Portal - Orange
+ship_design = {
+	name = "Orange Dimensional Portal"
+	ship_size = dimensional_portal_ed
+	section = {
+		template = "ed_dimensional_portal_key_orange"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_3"
+		}
+	}
+}

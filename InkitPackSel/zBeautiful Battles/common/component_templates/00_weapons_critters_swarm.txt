@@ -143,16 +143,16 @@ strike_craft_component_template = {
 	cost = 40
 	power = -40
 
-	count = 10
+	count = 6
 	regeneration_per_day = 1.00
 	launch_time = 1.0
 	
 	damage = { min = 7 max = 19 }
 	cooldown = 10
-	range = 15
+	range = 8
 	accuracy = 1.0
 	
-	health = 35
+	health = 15
 	armor = 0
 	shield = 0
 	
@@ -162,8 +162,8 @@ strike_craft_component_template = {
 	
 	
 	shield_damage = 1.0
-	shield_penetration = 1
-	armor_penetration = 0.66
+	shield_penetration = 0
+	armor_penetration = 0
 	
 	ship_behavior = "bombers_behavior"
 	

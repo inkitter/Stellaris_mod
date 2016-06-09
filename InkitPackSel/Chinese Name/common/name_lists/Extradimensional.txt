@@ -1,0 +1,49 @@
+﻿### Extradimensional Invaders
+Extradimensional = {
+	selectable = no
+	randomized = no
+	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+			"异次元入侵" "异次元进攻" "异次元侵袭" "异次元侵扰" "异次元侵略"
+		}
+		
+		construction_ship_ed = {
+			"空"
+		}
+		
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "%O%边防哨所"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		sequential_name = "第%CC%异次元武装舰队"
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+		
+			full_names = {
+				XUGAN XIKAZ ULTAX PIRAX XATOR ZADISH ZOPAX XERATOR MITOZ ZEKAN RATEX ZIIR ZUBOL ZATAK
+				GIRAX TYROX BARAX IRAX XAKAN RIPLAX KAGARUX ZURPAK ZEKOL RAKUX PYXOK XUUR KABUX XIOR XAKAAN
+				XURUBAR ZAAX MIBUX MATIX GAAR ZOX REXOM LARUX LUUX LIZAX RALUB RAZIX MAPAX GOPAX OXAZ
+			}
+			
+		}
+	}
+}

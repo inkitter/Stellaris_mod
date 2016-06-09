@@ -1,0 +1,490 @@
+namespace = playablecolonists
+
+# Starting event spawns in the exodus fleet
+
+country_event = {
+	id = playablecolonists.2
+	title = playablecolonists.2.title
+	desc = playablecolonists.2.desc
+	picture = GFX_evt_ship_in_orbit
+	show_sound = event_ship_thrusters
+
+	is_triggered_only = yes
+	
+	trigger = {
+		#is_multiplayer = no
+		is_ai = no
+		any_owned_planet = {
+			has_planet_flag = duat_colony
+		}
+	}
+	
+	
+	# The next section creates a pop up event with 2 options
+
+	option = {
+		name = "I wish to take to the starts!"
+		custom_tooltip = playablecolonists.2.tooltip
+
+		capital_scope = {
+			save_event_target_as = spawn_planet
+		}
+		
+		give_technology = tech_spaceport_1
+		give_technology = tech_colonization_1
+		
+		create_fleet = { name = "Colony Escorts" }
+		last_created_fleet = {
+			set_fleet_flag = colony_fleet
+			set_owner = root
+			create_ship_design = {
+				design = "R44"
+				ftl = root
+			}		
+			create_ship = {
+				name = "Specter"
+				design = last_created_design
+				graphical_culture = "pirate_01"
+			}
+			create_ship = {
+				name = "Ghost"
+				design = last_created_design
+				graphical_culture = "pirate_01"
+			}
+			create_ship = {
+				name = "Wraith"
+				design = last_created_design
+				graphical_culture = "pirate_01"
+			}
+			create_ship = {
+				name = "Dark Soul"
+				design = last_created_design
+				graphical_culture = "pirate_01"
+			}
+			create_ship = {
+				name = "Vision"
+				design = last_created_design
+				graphical_culture = "pirate_01"
+			}
+			create_ship = {
+				name = "Devil"
+				design = last_created_design
+				graphical_culture = "pirate_01"
+			}
+			create_ship_design = {
+				design = "Marauder"
+				ftl = root
+			}
+			create_ship = {
+				name = "Last light"
+				design = last_created_design
+				graphical_culture = "pirate_01"
+			}	
+			set_location = event_target:spawn_planet
+		}
+		
+		create_fleet = { name = "Fuel Flotilla" }
+		last_created_fleet = {
+			set_fleet_flag = colony_fleet
+			set_owner = root
+			create_ship_design = {
+				design = "C2"
+				ftl = root
+			}
+			create_ship = {
+				name = "Colony Tanker I"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker II"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker III"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker IV"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker V"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker VI"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker VII"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker VIII"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker IX"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker X"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker XI"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Tanker XII"
+				design = last_created_design
+			}
+			set_location = event_target:spawn_planet
+		}
+		
+		create_fleet = { name = "Baggage Flotilla" }
+		last_created_fleet = {
+			set_fleet_flag = colony_fleet
+			set_owner = root
+			create_ship_design = {
+				design = "C1"
+				ftl = root
+			}
+			create_ship = {
+				name = "Colony Baggage I"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage II"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage III"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage IV"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage V"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage VI"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage VII"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage VIII"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage IX"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage X"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage XI"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony Baggage XII"
+				design = last_created_design
+			}
+			set_location = event_target:spawn_planet
+		}
+		
+		create_fleet = { name = "Passanger Flotilla" }
+		last_created_fleet = {
+			set_fleet_flag = colony_fleet
+			set_owner = root
+			create_ship_design = {
+				design = "Splendor"
+				ftl = root
+			}
+			create_ship = {
+				name = "Colony I"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony II"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony III"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony IV"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony V"
+				design = last_created_design
+			}
+			create_ship = {
+				name = "Colony VI"
+				design = last_created_design
+			}
+			set_location = event_target:spawn_planet
+		}
+		
+		add_monthly_resource_mult = {
+			resource = minerals
+			value = 5
+			min = 360
+			max = 360
+		}
+			
+		add_monthly_resource_mult = {
+			resource = energy
+			value = 5
+			min = 400
+			max = 400
+		}	
+		
+		leader = { add_experience = 200 }
+		
+		hidden_effect = {
+			set_country_flag = take_to_the_starts
+			
+			random_system = {
+				limit = {
+					has_star_flag = old_colony_system 
+					any_ship_in_system = {
+						is_ship_class = shipclass_military 
+					}
+				}
+				every_fleet_in_system = {
+					limit = {
+						is_ship_class = shipclass_military 
+					}
+				set_fleet_flag = colony_fleet
+				}
+			}
+		}	
+	}
+}
+
+
+# Spawn in first colony ship and probe at ideal system
+country_event = {
+    id = playablecolonists.1
+    title = playablecolonists.1.title
+    desc =     playablecolonists.1.desc
+    picture = GFX_evt_ship_in_orbit
+    show_sound = event_ship_thrusters
+
+    trigger = {
+        #is_multiplayer = no
+        is_ai = no
+		has_technology = tech_colonization_1
+        has_country_flag = take_to_the_starts
+    } 
+	
+	immediate = {
+        remove_country_flag = take_to_the_starts
+	}
+   
+	option = {
+		name = "The last ship is ready"
+		custom_tooltip = playablecolonists.1.tooltip
+		
+		capital_scope = {
+			save_event_target_as = spawn_planet
+		}
+		
+		create_fleet = { name = "Ark" }
+		last_created_fleet = {
+			set_owner = root
+			create_ship_design = {
+				design = "Colonizer"
+				ftl = root
+			}
+			create_ship = {
+				name = "Ark - Last Hope"
+				design = last_created_design
+			}	
+			set_location = {
+				target = event_target:spawn_planet
+				distance = 50
+				angle = 270
+			}	
+		}
+		random_system = {
+			limit = { has_star_flag = new_colony_system }
+			random_system_planet = {
+				limit = { is_star = yes }
+				save_event_target_as = probe_spawn
+				create_fleet = { name = "Probe" }
+				last_created_fleet = {
+					set_fleet_flag = colony_fleet
+					set_owner = root
+					create_ship_design = {
+						design = "DS47"
+						ftl = root
+					}
+					create_ship = {
+						name = "Curiosity"
+						design = last_created_design
+					}
+					set_location = event_target:probe_spawn
+				}
+			}
+		}
+	}
+}
+
+
+# After a new world is colonised we destory the old one.
+country_event = {
+    id = playablecolonists.3
+    title = playablecolonists.3.title
+    desc =     playablecolonists.3.desc
+    picture = GFX_evt_ship_in_orbit
+    show_sound = event_ship_thrusters
+
+    trigger = {
+        #is_multiplayer = no
+        is_ai = no
+		any_owned_planet = {
+			has_planet_flag = ilus_prime_colony
+		}
+		NOT = {
+			has_country_flag = ilus_colonized
+		}
+    } 
+	
+	immediate = {		
+		every_owned_planet = {
+			limit = { 
+				has_planet_flag = duat_colony 
+			}
+			every_owned_pop = { kill_pop = yes }
+			destroy_colony = yes
+			change_pc = pc_nuked
+			add_modifier = {
+				modifier = "nuclear_devastation"
+				days = -1
+			}
+		}
+		
+		random_system = {
+			limit = {
+				any_ship_in_system = {
+					fleet = {
+						has_fleet_flag = colony_fleet
+					}
+				}
+			}
+			every_fleet_in_system = {
+				limit = {
+					has_fleet_flag = colony_fleet
+				}
+			destroy_fleet = this # not sure how to ref the fleet here
+			}
+		}
+	}
+	
+	option = {
+		name = "Our homeworld is gone."
+		
+		add_monthly_resource_mult = {
+			resource = minerals
+			value = 5
+			min = 360
+			max = 360
+		}
+			
+		add_monthly_resource_mult = {
+			resource = energy
+			value = 5
+			min = 400
+			max = 400
+		}
+		set_country_flag = ilus_colonized		
+	}
+}
+
+#Player colonizes any planet but Ilus Prime
+country_event = {
+    id = playablecolonists.4
+    title = playablecolonists.4.title
+    desc =     playablecolonists.4.desc
+    picture = GFX_evt_ship_in_orbit
+    show_sound = event_ship_thrusters
+
+    trigger = {
+        #is_multiplayer = no
+        is_ai = no
+		any_owned_planet = {	
+			NOT = {
+				has_planet_flag = duat_colony
+			}
+			NOT = {
+				has_planet_flag = ilus_prime_colony
+			}
+		}		
+		NOT = {
+			has_country_flag = making_do
+		}
+    } 
+	
+	immediate = {		
+		every_owned_planet = {
+			limit = { 
+				has_planet_flag = duat_colony 
+			}
+			every_owned_pop = { kill_pop = yes }
+			destroy_colony = yes
+			change_pc = pc_nuked
+			add_modifier = {
+				modifier = "nuclear_devastation"
+				days = -1
+			}
+		}
+			
+		random_system = {
+			limit = {
+				any_ship_in_system = {
+					fleet = {
+						has_fleet_flag = colony_fleet
+					}
+				}
+			}
+			every_fleet_in_system = {
+				limit = {
+					has_fleet_flag = colony_fleet
+				}
+			destroy_fleet = this # not sure how to ref the fleet here
+			}
+		}
+	}
+	
+	option = {
+		name = "Well, it's not perfect... but it'll have to do."
+		
+		add_monthly_resource_mult = {
+			resource = minerals
+			value = 5
+			min = 360
+			max = 360
+		}
+			
+		add_monthly_resource_mult = {
+			resource = energy
+			value = 5
+			min = 400
+			max = 400
+		}
+		set_country_flag = making_do		
+	}
+}
+

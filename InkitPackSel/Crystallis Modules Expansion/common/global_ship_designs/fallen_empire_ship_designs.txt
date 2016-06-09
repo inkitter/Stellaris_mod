@@ -1,0 +1,276 @@
+# Fallen Empire Large Ship
+ship_design = {
+	name = "Avatar"
+	ship_size = large_ship_fallen_empire
+	section = {
+		template = "fallen_empire_large_warship_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_DISRUPTOR_3"
+		}		
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_DISRUPTOR_3"
+		}		
+		component = {
+			slot = "MEDIUM_GUN_03"
+			template = "MEDIUM_DISRUPTOR_3"
+		}		
+		component = {
+			slot = "MEDIUM_GUN_04"
+			template = "MEDIUM_DISRUPTOR_3"
+		}
+		component = {
+			slot = "MEDIUM_GUN_05"
+			template = "MEDIUM_PLASMA_3"
+		}
+		component = {
+			slot = "MEDIUM_GUN_06"
+			template = "MEDIUM_PLASMA_3"
+		}
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "SMALL_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "SMALL_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "SMALL_UTILITY_3"
+			template = "SMALL_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "SMALL_UTILITY_4"
+			template = "SMALL_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_RECHARGER"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_ARMOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_TARGETING_COMPUTER_5"
+		}
+	}
+	required_component="SHIP_SENSOR_4"
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFENSIVE_ADVANCED"
+	required_component="SHIP_THRUSTER_4"
+}
+
+# Fallen Empire Small Ship
+ship_design = {
+	name = "Eclipse"
+	ship_size = small_ship_fallen_empire
+	section = {
+		template = "fallen_empire_warship_small_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_DISRUPTOR_3"
+		}		
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_DISRUPTOR_3"
+		}	
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "POINT_DEFENCE_3"
+		}	
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "SMALL_ARMOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "C_MEDIUM_AUTO_REPAIR_5"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+	}
+	required_component="SHIP_SENSOR_4"
+	required_component="JUMP_DRIVE_1"
+	required_component="COMBAT_COMPUTER_DEFENSIVE_ADVANCED"
+	required_component="SHIP_THRUSTER_4"
+}
+
+# Fallen Empire Large Station
+ship_design = {
+	name = "Omega"
+	ship_size = military_station_large_fallen_empire
+	section = {
+		template = "fallen_empire_station_large_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_DISRUPTOR_3"
+		}	
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_DISRUPTOR_3"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "C_LARGE_AUTO_REPAIR_3"
+		}	
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_ARMOR_10"
+		}		
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_SHIELD_7"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_SHIELD_7"
+		}
+	}
+}
+
+# Fallen Empire Small Station
+ship_design = {
+	name = "Sigma"
+	ship_size = military_station_small_fallen_empire
+	section = {
+		template = "fallen_empire_station_small_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ENERGY_LANCE_2"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ZERO_POINT_REACTOR_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "C_MEDIUM_AUTO_REPAIR_5"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_ARMOR_10"
+		}		
+		component = {
+			slot = "MEDIUM_UTILITY_5"
+			template = "MEDIUM_SHIELD_10"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_6"
+			template = "MEDIUM_SHIELD_10"
+		}
+	}
+}
+
+# Fallen Empire Construction Ship
+ship_design = {
+	name = "Servitor"
+	ship_size = constructor
+	section = {
+		template = "DEFAULT_CONSTRUCTION_SECTION"
+		slot = "mid"
+	
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "SMALL_ZERO_POINT_REACTOR_10"
+		}	
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "SMALL_ZERO_POINT_REACTOR_10"
+		}
+	}
+	required_component="JUMP_DRIVE_1"
+	required_component="SHIP_THRUSTER_4"
+}

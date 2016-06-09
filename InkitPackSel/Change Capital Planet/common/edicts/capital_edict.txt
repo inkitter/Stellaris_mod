@@ -1,0 +1,30 @@
+planet_edict = {
+	name = "planet_capital"
+	influence_cost = 250
+	length = 0
+	potential = { 
+		NOT = { is_capital = yes }
+	}
+	length = 1
+	allow = { 
+	}
+	effect = {
+		owner = {
+				every_owned_planet = {
+					limit = {
+						is_capital = yes
+					}
+					hidden_effect = {
+						set_capital = no
+					}
+				}
+			}
+		custom_tooltip = edict_planet_capital.tooltip
+		hidden_effect = {
+							set_capital = yes
+					}
+	}
+	ai_weight = {
+		weight = 0
+	}
+}

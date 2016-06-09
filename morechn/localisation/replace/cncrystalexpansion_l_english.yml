@@ -6,6 +6,7 @@
  tech_ship_armor_d:0 "水晶强化装甲"
  tech_reactor_d:0 "水晶零点反应堆"
  tech_shields_d:0 "水晶纤维护盾阵列"
+ 
  # Crystal-Infused Tissue
 
  tech_regenerative_hull_tissue_1:0 "$tech_regenerative_hull_tissue_d$ Mk I"
@@ -304,3 +305,57 @@
  SMALL_SHIELD_10:1 "小型$tech_shields_d$ X"
  MEDIUM_SHIELD_10:1 "中型$tech_shields_d$ X"
  LARGE_SHIELD_10:1 "大型$tech_shields_d$ X"
+ 
+ 
+ # science Lab 1
+ tech_c_deep_space_lab_1:0 "Deep Space Science Lab I"
+ tech_c_deep_space_lab_1_desc:0 "Improving the science labs on our science vessels would allow us to go boldly where no man has gone before!\n\n"
+ c_science_labs_1:0 "Deep Space Science Lab I"
+ c_science_labs_1_DESC:0 "Improved Science Lab for deep space exploration."
+ science_labs:0 "Mobile Science Lab"
+ science_labs_DESC:0 "This highly advanced mobile lab is used on science vessels."
+ C_MEDIUM_SCIENCE_LAB_1:1 "Deep Space Science Lab I"
+ 
+ # science Lab 2
+ tech_c_deep_space_lab_2:0 "Deep Space Science Lab II"
+ tech_c_deep_space_lab_2_desc:0 "Improving the science labs on our science vessels would allow us to go boldly where no man has gone before!\n\n"
+ c_science_labs_2:0 "Deep Space Science Lab II"
+ c_science_labs_2_DESC:0 "Improved Science Lab for deep space exploration."
+ C_MEDIUM_SCIENCE_LAB_2:1 "Deep Space Science Lab II"
+ 
+ # science Lab 3
+ tech_c_deep_space_lab_3:0 "Deep Space Science Lab III"
+ tech_c_deep_space_lab_3_desc:0 "Improving the science labs on our science vessels would allow us to go boldly where no man has gone before!\n\n"
+ c_science_labs_3:0 "Deep Space Science Lab III"
+ c_science_labs_3_DESC:0 "Improved Science Lab for deep space exploration."  
+ C_MEDIUM_SCIENCE_LAB_3:1 "Deep Space Science Lab III"
+ 
+ # science Lab 4
+ tech_c_deep_space_lab_4:0 "Deep Space Science Lab IV"
+ tech_c_deep_space_lab_4_desc:0 "Improving the science labs on our science vessels would allow us to go boldly where no man has gone before!\n\n"
+ c_science_labs_4:0 "Deep Space Science Lab IV"
+ c_science_labs_4_DESC:0 "Improved Science Lab for deep space exploration."  
+ C_MEDIUM_SCIENCE_LAB_4:1 "Deep Space Science Lab IV"
+ 
+ # science Lab 5
+ tech_c_deep_space_lab_5:0 "Deep Space Science Lab V"
+ tech_c_deep_space_lab_5_desc:0 "Improving the science labs on our science vessels would allow us to go boldly where no man has gone before!\n\n"
+ c_science_labs_5:0 "Deep Space Science Lab V"
+ c_science_labs_5_DESC:0 "Improved Science Lab for deep space exploration."  
+ C_MEDIUM_SCIENCE_LAB_5:1 "Deep Space Science Lab V"
+ 
+ # SHIP CREW
+ C_CREW_1:0 "Robotic Crew"
+ C_CREW_1_DESC:0 "This robotic crew allows for ships to function a lot more efficiently, reducing the maintanance cost. They also do not suffer from extreme g-forces allowing ships to move more harshly."
+ 
+ C_CREW_2:0 "Droid Crew"
+ C_CREW_2_DESC:0 "This droid crew allows for ships to function a lot more efficiently, reducing the maintanance cost. They also do not suffer from extreme g-forces allowing ships to move more harshly. They are much more efficient than robotic crews"
+ 
+ C_CREW_3:0 "Synthetic Crew"
+ C_CREW_3_DESC:0 "This Synthetic crew allows for ships to function a lot more efficiently, reducing the maintanance cost. They also do not suffer from extreme g-forces allowing ships to move more harshly. They are much more efficient than droid crews"
+ 
+ LARGE_C_CREW_1:1 "Robotic Crew"
+ 
+ LARGE_C_CREW_2:1 "Droid Crew"
+ 
+ LARGE_C_CREW_3:1 "Synthetic Crew"

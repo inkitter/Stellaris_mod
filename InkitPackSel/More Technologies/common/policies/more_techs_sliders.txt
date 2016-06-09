@@ -522,7 +522,7 @@ centralization_extent = {
 
 ######################################################################################
 
-test_desc_policy = {
+test_desc_policy = { # Used to name things
 	potential = {
 		always = no
 	}

@@ -1,0 +1,29 @@
+#Designated
+rally_point_1 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_designated_rally_point_1.dds"
+	icon_frame = 1
+}
+rally_point_2 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_designated_rally_point_2.dds"
+	icon_frame = 1
+}
+rally_point_3 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_designated_rally_point_3.dds"
+	icon_frame = 1
+}
+
+
+
+#Sender
+send_to_rally_point_1 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_send_to_rally_1.dds"
+	icon_frame = 1
+}
+send_to_rally_point_2 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_send_to_rally_2.dds"
+	icon_frame = 1
+}
+send_to_rally_point_3 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_send_to_rally_3.dds"
+	icon_frame = 1
+}

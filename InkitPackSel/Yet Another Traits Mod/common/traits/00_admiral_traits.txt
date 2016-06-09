@@ -53,7 +53,7 @@ leader_trait_aggressive = {
 	modification = no
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_aggressive.dds"
 	modifier = {
-		ship_fire_rate_mult = 0.2
+		ship_fire_rate_mult = 0.1
 	}
 	leader_trait = yes
 	leader_class = { admiral }

@@ -1,0 +1,43 @@
+################################
+#
+# Extended Traits Gov Traits
+# by r-M
+#
+################################
+
+trait_governor_energetic_encourager = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/trait_rapid_breeders.dds"
+	modifier = {
+		pop_growth_req_mult = -0.15
+	}
+	leader_trait = yes
+	leader_class = { governor }
+}
+
+trait_governor_apathetic = {
+	cost = 1
+	modification = no
+	initial = no
+	icon = "gfx/interface/icons/traits/trait_content.dds"
+	modifier = {
+		pop_happiness = -0.05
+		tile_resource_energy_mult = -0.1
+	}
+	leader_trait = yes
+	leader_class = { governor }
+}
+
+trait_governor_inspiring_leader = {
+	cost = 1
+	modification = no
+	icon = "gfx/interface/icons/traits/trait_deliberators.dds"
+	modifier = {
+		pop_happiness = 0.05
+		pop_war_happiness = 0.05
+		pop_ethic_shift = -0.1
+	}
+	leader_trait = yes
+	leader_class = { governor }
+}

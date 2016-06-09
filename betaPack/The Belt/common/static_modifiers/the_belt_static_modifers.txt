@@ -1,0 +1,42 @@
+##########################################################################
+# The Belt Asteroid Modifiers
+##########################################################################
+
+# Planet Modifiers
+asteroid_environment = {
+	tile_resource_minerals_mult = 0.25
+	planet_building_cost_mult = -0.30
+	spaceport_ship_build_cost_mult = -0.05
+	spaceport_ship_build_time_mult = -0.25
+	spaceport_module_cost_mult = -0.25
+	shipsize_orbital_station_build_cost_mult = -0.25
+	planet_border_mult = -0.5
+	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_environment.dds"
+	icon_frame = 1
+}
+
+independent_belt_mining = {
+	tile_resource_minerals_mult = 0.20
+	pop_ethic_shift = 0.15
+	icon = "gfx/interface/icons/planet_modifiers/pm_independent_belt_mining.dds"
+	icon_frame = 1
+}
+
+stony_metal_asteroids_focus = {
+	tile_resource_minerals_mult = 0.1
+	icon = "gfx/interface/icons/planet_modifiers/pm_stony_metal_asteroids_focus.dds"
+	icon_frame = 1
+}
+
+# Country Modifiers
+carbonaceous_asteroids_focus = {
+	planet_colony_development_speed_mult = 0.15
+}
+
+orbital_guard = {
+	ship_sensor_range_mult = 0.1
+	influence_gain_add = -0.5
+}
+
+
+

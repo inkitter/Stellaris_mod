@@ -1,0 +1,86 @@
+@primary = 0.80
+@secondary = 0.60
+@tertiary = 0.20
+
+trait_pc_asteroid_preference_continental = {
+	icon = "gfx/interface/icons/traits/trait_pc_asteroid_preference.dds"
+	modifier = {
+		pc_asteroid_habitability = @tertiary
+		pc_continental_habitability = @secondary
+		pc_tropical_habitability = @tertiary
+		pc_ocean_habitability = @tertiary
+		pc_desert_habitability = @tertiary
+		pc_arctic_habitability = @tertiary
+	}
+}
+
+trait_pc_asteroid_preference_desert = {
+	icon = "gfx/interface/icons/traits/trait_pc_asteroid_preference.dds"
+	modifier = {
+		pc_asteroid_habitability = @tertiary
+		pc_desert_habitability = @secondary	
+		pc_arid_habitability = @tertiary
+		pc_tropical_habitability = @tertiary
+		pc_continental_habitability = @tertiary
+		pc_tundra_habitability = @tertiary
+	}
+}
+trait_pc_asteroid_preference_tropical = {
+	icon = "gfx/interface/icons/traits/trait_pc_asteroid_preference.dds"
+	modifier = {
+		pc_asteroid_habitability = @tertiary
+		pc_tropical_habitability = @secondary
+		pc_desert_habitability = @tertiary
+		pc_continental_habitability = @tertiary
+		pc_arid_habitability = @tertiary
+		pc_ocean_habitability = @tertiary
+	}
+}
+trait_pc_asteroid_preference_ocean = {
+	icon = "gfx/interface/icons/traits/trait_pc_asteroid_preference.dds"
+	modifier = {
+		pc_asteroid_habitability = @tertiary
+		pc_ocean_habitability = @secondary	
+		pc_continental_habitability = @tertiary
+		pc_arctic_habitability = @tertiary
+		pc_tropical_habitability = @tertiary
+		pc_tundra_habitability = @tertiary
+	}
+}
+trait_pc_asteroid_preference_artic = {
+	icon = "gfx/interface/icons/traits/trait_pc_asteroid_preference.dds"
+	modifier = {
+		pc_asteroid_habitability = @tertiary
+		pc_arctic_habitability = @secondary	
+		pc_ocean_habitability = @tertiary
+		pc_tundra_habitability = @tertiary
+		pc_continental_habitability = @tertiary
+		pc_arid_habitability = @tertiary
+	}
+}
+trait_pc_asteroid_preference_tundra = {
+	icon = "gfx/interface/icons/traits/trait_pc_asteroid_preference.dds"
+	modifier = {
+		pc_asteroid_habitability = @tertiary
+		pc_tundra_habitability = @secondary	
+		pc_arctic_habitability = @tertiary
+		pc_arid_habitability = @tertiary
+		pc_ocean_habitability = @tertiary
+		pc_desert_habitability = @tertiary
+	}
+}
+trait_pc_asteroid_preference_arid = {
+	icon = "gfx/interface/icons/traits/trait_pc_asteroid_preference.dds"
+	modifier = {
+		pc_asteroid_habitability = @tertiary
+		pc_arid_habitability = @secondary	
+		pc_tundra_habitability = @tertiary
+		pc_desert_habitability = @tertiary
+		pc_tropical_habitability = @tertiary
+		pc_arctic_habitability = @tertiary
+	}
+}
+
+
+
+

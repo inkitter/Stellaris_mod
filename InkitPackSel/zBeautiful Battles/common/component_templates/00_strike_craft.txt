@@ -1,4 +1,4 @@
-@fighters = 10
+@fighters = 6
 
 strike_craft_component_template = {
 	key = "LARGE_SCOUT_HANGAR_1"
@@ -16,10 +16,10 @@ strike_craft_component_template = {
 	
 	damage = { min = 2 max = 5 }
 	cooldown = 6
-	range = 15
+	range = 8
 	accuracy = 1.0
 	
-	health = 21
+	health = 7
 	armor = 0
 	shield = 0
 	
@@ -55,10 +55,10 @@ strike_craft_component_template = {
 	
 	damage = { min = 3 max = 6 }
 	cooldown = 6
-	range = 15
+	range = 8
 	accuracy = 1.0
 	
-	health = 24
+	health = 8
 	armor = 0
 	shield = 0
 	
@@ -95,10 +95,10 @@ strike_craft_component_template = {
 	
 	damage = { min = 5 max = 7 }
 	cooldown = 6
-	range = 15
+	range = 8
 	accuracy = 1.0
 	
-	health = 30
+	health = 10
 	armor = 0
 	shield = 0
 	
@@ -135,10 +135,10 @@ strike_craft_component_template = {
 	
 	damage = { min = 5 max = 8 }
 	cooldown = 6
-	range = 15
+	range = 8
 	accuracy = 1.0
 	
-	health = 36
+	health = 12
 	armor = 0
 	shield = 0
 	
@@ -172,10 +172,10 @@ strike_craft_component_template = {
 	
 	damage = { min = 7 max = 14 }
 	cooldown = 10
-	range = 15
+	range = 8
 	accuracy = 1.0
 	
-	health = 27
+	health = 9
 	armor = 0
 	shield = 0
 	
@@ -184,8 +184,8 @@ strike_craft_component_template = {
 	acceleration = 0.5
 	
 	shield_damage = 1.0
-	shield_penetration = 1
-	armor_penetration = 0.5
+	shield_penetration = 0
+	armor_penetration = 0
 	
 	ship_behavior = "bombers_behavior"
 	
@@ -212,10 +212,10 @@ strike_craft_component_template = {
 	
 	damage = { min = 9 max = 15 }
 	cooldown = 10
-	range = 15
+	range = 8
 	accuracy = 1.0
 	
-	health = 33
+	health = 11
 	armor = 0
 	shield = 0
 	
@@ -224,8 +224,8 @@ strike_craft_component_template = {
 	acceleration = 0.5
 	
 	shield_damage = 1.0
-	shield_penetration = 1
-	armor_penetration = 0.5
+	shield_penetration = 0
+	armor_penetration = 0
 	
 	ship_behavior = "bombers_behavior"
 	
@@ -252,10 +252,10 @@ strike_craft_component_template = {
 	
 	damage = { min = 10 max = 18 }
 	cooldown = 10
-	range = 15
+	range = 8
 	accuracy = 1.0
 	
-	health = 39
+	health = 13
 	armor = 0
 	shield = 0
 	
@@ -264,8 +264,8 @@ strike_craft_component_template = {
 	acceleration = 0.5
 	
 	shield_damage = 1.0
-	shield_penetration = 1
-	armor_penetration = 0.5
+	shield_penetration = 0
+	armor_penetration = 0
 	
 	ship_behavior = "bombers_behavior"
 	

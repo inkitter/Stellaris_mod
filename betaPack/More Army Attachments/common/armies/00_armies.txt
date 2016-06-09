@@ -1,0 +1,433 @@
+#Defensive armies can't transport of the planet
+#Garrison armies are created by pops
+#maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
+
+# Assault Armies
+assault_army = {
+	damage = 1.15
+	health = 1.15
+	morale = 1.15
+	assault = yes
+	time = 90
+	maintenance = 0.33
+	icon_frame = 2
+	cost = {
+		minerals = 60
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+}
+
+# Defense Armies
+defense_army = {
+	defensive = yes
+	time = 60
+	health = 1.0
+	damage = 1.0
+	icon_frame = 1
+	maintenance = 0.15
+	
+	cost = {
+		minerals = 30
+	}
+	
+	prerequisites = { "tech_defense_army" }
+}
+
+# Garrison Armies
+garrison_army = {
+	garrison = yes
+	damage = 0.50
+	health = 0.75
+	morale = 0.75
+	icon_frame = 5
+	
+	potential = {
+		always = no
+	}
+}
+
+# Rebel Armies
+rebel_army = {
+	rebel = yes
+	damage = 0.5
+	health = 0.5
+	morale = 1.0
+	icon_frame = 3
+	
+	potential = {
+		always = no
+	}
+}
+
+# Slave Armies
+slave_army = {
+	damage = 1.15
+	health = 1.15
+	morale = 1.00
+	time = 60
+	maintenance = 0.25
+	icon_frame = 10
+	
+	cost = {
+		minerals = 20
+	}
+	
+	prerequisites = { "tech_neural_implants" }
+	
+	allow = {
+		has_building = "building_slave_processing"
+	}
+}
+
+# Clone Armies
+clone_army = {
+	damage = 1.25
+	health = 1.25
+	morale = 1.25
+	time = 30
+	maintenance = 0.33
+	icon_frame = 7
+	
+	cost = {
+		minerals = 60
+	}
+	
+	prerequisites = { "tech_cloning" }
+	
+	allow = {
+		has_building = "building_clone_vats"
+	}
+}
+
+# Robotic Armies
+robotic_army = {
+	robotic = yes
+	damage = 1.10
+	health = 2.00
+	time = 90
+	maintenance = 0.50
+	icon_frame = 4
+	has_species = no
+	
+	cost = {
+		minerals = 100
+		energy = 15
+	}
+	
+	prerequisites = { "tech_droid_workers" }
+}
+
+# Synthetic Armies
+android_army = {
+	robotic = yes
+	damage = 2.00
+	health = 2.50
+	time = 120
+	maintenance = 1.00
+	icon_frame = 4
+	has_species = no
+	
+	cost = {
+		minerals = 150
+		energy = 20
+	}
+	
+	prerequisites = { "tech_synthetic_workers" }
+}
+
+# Psionic Armies
+psionic_army = {
+	damage = 1.75
+	morale_damage = 1.5
+	health = 1.25
+	morale = 3.0
+	time = 360
+	maintenance = 0.8
+	icon_frame = 9
+	
+	cost = {
+		minerals = 250
+		energy = 50
+	}
+	
+	prerequisites = { "tech_telepathy" }
+}
+
+# Xenomorph Armies
+xenomorph_army = {
+	damage = 2.5
+	morale_damage = 1.15
+	health = 2
+	morale = 1.0
+	time = 360
+	maintenance = 0.75
+	icon_frame = 8
+	
+	cost = {
+		minerals = 125
+		energy = 25
+	}
+	
+	prerequisites = { "tech_morphogenetic_field_mastery" }
+}
+
+# Gene Warrior Armies
+gene_warrior_army = {
+	damage = 3.0
+	health = 3.0
+	morale = 2.0
+	time = 360
+	maintenance = 1.0
+	icon_frame = 6
+	
+	cost = {
+		minerals = 350
+		energy = 50
+	}
+	
+	prerequisites = { "tech_gene_seed_purification" }
+}
+
+# Primitive Armies
+primitive_army = {
+	defensive = yes
+	damage = 0.1
+	health = 0.5
+	morale = 0.8
+	icon_frame = 5
+	
+	potential = {
+		always = no
+	}
+}
+
+# Industrial Armies
+industrial_army = {
+	defensive = yes
+	damage = 0.4
+	health = 0.5
+	morale = 0.8
+	icon_frame = 5
+	
+	potential = {
+		always = no
+	}
+}
+
+# Post-Atomic Armies
+postatomic_army = {
+	defensive = yes
+	damage = 0.6
+	health = 1
+	morale = 1
+	icon_frame = 5
+	
+	potential = {
+		always = no
+	}
+}
+
+# Mutant Horror Armies
+mutant_army = {
+	damage = 1.5
+	morale_damage = 1.5
+	health = 2
+	morale = 1.0
+	icon_frame = 8
+	has_species = no
+	
+	potential = {
+		always = no
+	}
+}
+
+# Swarm Armies
+swarm_army = {
+	damage = 2.0
+	morale_damage = 2.0
+	health = 2.0
+	morale = 2.0
+	time = 730
+	icon_frame = 8
+	has_species = no
+	
+	potential = {
+		owner = {
+			is_country_type = "swarm"
+		}
+	}
+}
+
+# Elite Guard Armies
+elite_guard_army = {
+	damage = 1.75
+	health = 1.75
+	morale = 1.75
+	assault = yes
+	time = 115
+	maintenance = 0.5
+	icon_frame = 2
+	cost = {
+		minerals = 115
+		energy = 15
+	}
+
+	built_for_ruler = yes
+
+	potential = {
+		owner = {
+			OR = {
+				has_government = despotic_hegemony
+				has_government = ai_overlordship
+			}
+			exists = ruler
+			ruler = {
+				NOT = { has_leader_flag = has_elite_guard }
+			}
+		}
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = elite_guard_army_trigger_tooltip
+			owner = {
+				exists = ruler
+				ruler = {
+					NOT = { has_leader_flag = has_elite_guard }
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			ruler = {
+				set_leader_flag = has_elite_guard
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			ruler = {
+				remove_leader_flag = has_elite_guard
+			}
+		}
+	}
+}
+
+# Titanic life troops
+# Can build on planets with titanic life if you get event + special project there
+# Should be very strong and quite expensive, but cannot get attachments and can be built only in limited numbers
+# Currently limited to 3. Ideally it would be X * Num of planets you have done the project one, but that is too complex for scripts
+titanic_assault_army = {
+	damage = 3.0
+	health = 5.0
+	morale = 2.0
+	time = 90
+	maintenance = 1.0
+	icon_frame = 8
+	assault = yes
+	
+	cost = {
+		minerals = 350
+		energy = 50
+	}
+	
+	potential = {
+		custom_tooltip = {
+			text = titanic_troop_limit_tooltip
+			planet = { has_planet_flag = titanic_life_can_build }
+			owner = {
+				has_country_flag = titanic_life_soldiers
+			}
+		}
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = titanic_troop_limit_tooltip
+			planet = { has_planet_flag = titanic_life_can_build }
+			owner = {
+				has_country_flag = titanic_life_soldiers
+				NOT = { 
+					 check_variable = {
+						which = "titanic_life_soldier_count" 
+						value = 3
+					}
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "titanic_life_soldier_count" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "titanic_life_soldier_count" 
+				value = -1
+			}
+		}
+	}
+}
+
+#Can't be built, is spawned on Titanic life planets after special project + event. Partly as reward, partly to ensure having this on multiple planets is always useful.
+titanic_guardian_army = {
+	damage = 2.0
+	health = 8.0
+	morale = 2.0
+	time = 5
+	maintenance = 1.0
+	icon_frame = 8
+
+	
+	potential = {
+		always = no
+	}
+}
+
+
+
+
+####MMA Armies####
+
+# ODST
+odst_army = {
+	damage = 2.10
+	health = 2.50
+	morale = 2.50
+	assault = yes
+	time = 90
+	maintenance = 0.75
+	icon_frame = 2
+	cost = {
+		minerals = 100
+	}
+	
+	prerequisites = { "tech_odst_training" }
+}
+
+# Elite ODST
+elite_odst_army = {
+	damage = 2.50
+	health = 2.70
+	morale = 2.70
+	assault = yes
+	time = 120
+	maintenance = 0.85
+	icon_frame = 2
+	cost = {
+		minerals = 120
+	}
+	
+	prerequisites = { "tech_elite_orbital_drop_ships" }
+}

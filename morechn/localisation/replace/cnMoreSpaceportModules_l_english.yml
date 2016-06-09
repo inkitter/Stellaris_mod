@@ -1,47 +1,72 @@
 ﻿l_english:
-####  By Inkit  ####
 
-####  More Spaceport Modules  ####
-####  http://steamcommunity.com/sharedfiles/filedetails/?id=682659220  ####
-
-#### DEFINE PART ####
  sm_solar_panel_networkd:0 "太阳能面板网络"
  sm_hydroponic_farmsd:0 "轨道水培农场"
-#### Translate ####
+ # Done by craftomega
+ # Added in R7
+
  sm_solar_panel_network2:0 "中型$sm_solar_panel_networkd$"
+
  sm_solar_panel_network3:0 "大型$sm_solar_panel_networkd$"
+
  sm_solar_panel_network4:0 "巨型$sm_solar_panel_networkd$"
+
  sm_hydroponic_farms2:0 "中型$sm_hydroponic_farmsd$"
+
  sm_hydroponic_farms3:0 "大型$sm_hydroponic_farmsd$"
+
  sm_hydroponic_farms4:0 "巨型$sm_hydroponic_farmsd$"
+
  sm_corvette_assembly_yards2:0 "高级护卫舰组装厂"
+
  sm_destroyer_assembly_yards2:0 "高级驱逐舰组装厂"
+
  sm_cruiser_assembly_yards2:0 "高级巡洋舰组装厂"
+
  sm_battleship_assembly_yards_2:0 "高级战列舰组装厂"
+
  sm_synchronized_defenses_2:0 "中级同步防御"
+
  sm_synchronized_defenses_3:0 "高级同步防御"
+
  sm_engineering_bay_2:0 "高级修理厂"
+
  sm_ship_assembly_yards:0 "小型舰船组装厂"
+
  sm_ship_assembly_yards_2:0 "中型舰船组装厂"
+
  sm_ship_assembly_yards_3:0 "大型舰船组装厂"
+
  sm_ship_assembly_yards_4:0 "巨型舰船组装厂"
+
  sm_crew_quarters_2:0 "高级船员宿舍" 
+
  sm_reinforced_hull_1:0 "强化船体"
+
  sm_reinforced_hull_2:0 "中级强化船体" 
+
  sm_reinforced_hull_3:0 "高级强化船体"
+
  tech_synchronized_defences_2:0 "高级同步防御"
+
  tech_synchronized_defences_2_desc:0 "协调攻防的人工智能技术使得战斗效率大大提高了。"
  
  tech_reinforced_hull_1:0 "强化船体"
+
  tech_reinforced_hull_1_desc:0 "§H强化的船体§!可以极大地提升对攻击的抵抗能力."
  
  tech_reinforced_hull_2:0 "高级强化船体"
+
  tech_reinforced_hull_2_desc:0 "$tech_reinforced_hull_1_desc$"
  
  tech_battleship_yard_2:0 "高级战列舰厂"
+
  tech_battleship_yard_2_desc:0 "高级战列舰厂技术让我们可以更快的制造战列舰。"
+
  tech_orbital_hydroponics_2:0 "高级轨道水培农场"
+
  tech_orbital_hydroponics_2_desc:0 "虽然在零重力种植庄稼的挑战很困难，但并不是不可完成的。"
+
  tech_solar_panel_network_2:0 "高级$sm_solar_panel_networkd$"
+
  tech_solar_panel_network_2_desc:0 "高级太阳能面板可以降低我们的星球能量消耗，但是它需要占用一个空间站模块的位置。"
-############################################

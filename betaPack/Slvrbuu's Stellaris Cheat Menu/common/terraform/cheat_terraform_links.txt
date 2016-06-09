@@ -1,0 +1,417 @@
+
+# ###########
+# Example Script #
+# ###########
+
+# terraform_link = {
+	# from = "pc_arctic"			#
+	# to = "pc_tundra"			# terraform from pc_arctic to pc_tundra
+
+	# duration = 10				# How long it will take in days. Leave this blank to use default value ( TERRAFORM_DEFAULT_DURATION_DAYS in defines )
+	
+	# # cost
+	# energy = 30
+	# resources = {
+		# sr_terraform_liquids = 2	#will cost 2 sr_terraform_liquids, you can use any strategic resource here
+	# }
+	
+	# # normal and-trigger
+	# # Scope is a country scope
+	# # from scope is a planet scope
+	# condition = {
+		# has_technology = "tech_atmospheric_manipulation"
+	# }
+# }
+
+# Arctic to Ocean
+terraform_link = {
+	from = "pc_arctic"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_ocean"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_arid"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_desert"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_tropical"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_continental"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_tundra"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_nuked"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_nuked"
+	to = "pc_gaia"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_arctic"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_ocean"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_arid"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_desert"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_tropical"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_continental"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_tundra"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
+terraform_link = {
+	from = "pc_gaia"
+	to = "pc_nuked"
+	
+	#cost
+	energy = 1500
+	resources = {
+		sr_terraform_gases = 2
+		sr_terraform_liquids = 2
+	}
+	
+	condition = {
+		if = {
+			limit = {
+				ai = no
+			}
+			has_technology = "tech_atmospheric_manipulation"
+			else = {
+				has_technology = "tech_terrestrial_sculpting"
+			}
+		}
+	}
+}
