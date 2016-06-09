@@ -90,14 +90,10 @@ https://github.com/inkitter/Stellaris_mod
 * Animaris
 * Monster Girls
 * Neptunia
-<<<<<<< HEAD
 * WarshipGirls
-*
-=======
-* WarshipGirls 
 
 --------
 
 ## 记录
 * 160519 初次发布
-* 160601 更新1.1版* 160601 更新1.1版
+* 160601 更新1.1版
