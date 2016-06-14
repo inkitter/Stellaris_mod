@@ -1,0 +1,34 @@
+#
+# can_colonize = allowed to colonize planets
+# potential = if possible to select in diplomatic interactions
+# become_vassal = trigger when it converts into a vassal
+# tech_cost_mult = tech cost multiplier if overlord has a tech
+# overlord_influence = extra influence given to overlord
+# joins_overlord_wars = Joins in if overlord goes to war (Defensive or Offensive)
+# calls_overlord_to_war Calls overlord to war (Defensive only)
+# can_do_diplomacy Can do some limited diplomacy
+# overlord_becomes_warleader, if overlord takes over as warleader. Default true
+# gets_sensors(yes): gets overlords sensors
+# gets_access(yes): gets overlords access
+
+@protectorate_tech_threshold = 0.4
+
+influence_sphere = {
+	can_colonize = yes
+	can_be_integrated = no
+
+	joins_overlord_wars = no
+	calls_overlord_to_war = no
+	can_do_diplomacy = yes
+	#gets_sensors = no #of overlord #do not seem to work
+	#gets_access = no  # to overlord
+
+	potential = {
+		always = yes
+	}
+}
+
+
+
+
+

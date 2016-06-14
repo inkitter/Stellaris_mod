@@ -70,6 +70,7 @@
 
 building_irrigation_system_1 = {
 	base_buildtime = @b1time
+	is_listed = no
 	
 	cost = {
 		minerals = @b1cost
@@ -213,7 +214,7 @@ building_irrigation_system_4 = {
 		food = 0
 	}	
 	adjacency_bonus = {
-		resource_food_add = 4
+		resource_food_add = 3.5
 	}	
 	required_resources = {
 		energy = @b4upkeep
@@ -250,7 +251,7 @@ building_irrigation_system_5 = {
 		food = 0
 	}
 	adjacency_bonus = {
-		resource_food_add = 5
+		resource_food_add = 4
 	}	
 	required_resources = {
 		energy = @b5upkeep

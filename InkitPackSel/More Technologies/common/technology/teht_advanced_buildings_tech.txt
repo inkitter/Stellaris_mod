@@ -88,6 +88,7 @@ tech_science_campus_phys_1 = {
 	area = physics
 	tier = 1
 	category = { computing }
+	prerequisites = { "tech_physics_lab_1" }
 	weight = @tier1weight1
 	
 	weight_modifier = {
@@ -275,6 +276,7 @@ tech_science_campus_soc_1 = {
 	area = society
 	tier = 1
 	category = { biology }
+	prerequisites = { "tech_biolab_1" }
 	weight = @tier1weight1
 	
 	weight_modifier = {
@@ -462,6 +464,7 @@ tech_science_campus_eng_1 = {
 	area = engineering
 	tier = 1
 	category = { industry }
+	prerequisites = { "tech_engineering_lab_1" }
 	weight = @tier1weight1
 	
 	weight_modifier = {
@@ -649,7 +652,7 @@ tech_power_relay_1 = {
 	area = physics
 	tier = 1
 	category = { industry }	
-	prerequisites = { "tech_power_plant_1" }
+	prerequisites = { "tech_power_plant_2" }
 	weight = @tier1weight1
 		
 	
@@ -804,7 +807,7 @@ tech_mining_barracks_1 = {
 	area = Engineering
 	tier = 1
 	category = { industry }	
-	prerequisites = { "tech_basic_industry" }
+	prerequisites = { "tech_mining_network_2" }
 	weight = @tier1weight1
 		
 	
@@ -957,7 +960,7 @@ tech_irrigation_system_1 = {
 	area = society
 	tier = 1
 	category = { biology }	
-	prerequisites = { "tech_eco_simulation" }
+	prerequisites = { "tech_hydroponics" }
 	weight = @tier1weight1
 	
 	weight_modifier = {
@@ -1187,7 +1190,7 @@ tech_combo_food_power_1 = {
 	area = engineering
 	tier = 1
 	category = { industry }	
-	prerequisites = { "tech_power_plant_1" "tech_eco_simulation" }
+	prerequisites = { "tech_power_plant_2" "tech_hydroponics" }
 	weight = @tier1weight4
 		
 	
@@ -1280,7 +1283,7 @@ tech_combo_mineral_power_1 = {
 	area = engineering
 	tier = 1
 	category = { industry }	
-	prerequisites = { "tech_power_plant_1" "tech_basic_industry" }
+	prerequisites = { "tech_power_plant_2" "tech_mining_network_2" }
 	weight = @tier1weight4
 		
 	
@@ -1373,7 +1376,7 @@ tech_combo_mineral_food_1 = {
 	area = engineering
 	tier = 1
 	category = { industry }	
-	prerequisites = { "tech_eco_simulation" "tech_basic_industry" }
+	prerequisites = { "tech_hydroponics" "tech_mining_network_2" }
 	weight = @tier1weight4
 		
 	

@@ -70,7 +70,7 @@ guiTypes = {
 		{
 			name = "options"
 			quadTextureSprite = "GFX_outliner_options_button"
-			position = { x= -180 y = 10  } #mod position = { x= -30 y = 17  }
+			position = { x= -90 y = 10  } #mod position = { x= -30 y = 17  }
 			pdx_tooltip = "OUTLINER_OPTIONS_TOOLTIP"
 			orientation = "UPPER_RIGHT"
 		}		

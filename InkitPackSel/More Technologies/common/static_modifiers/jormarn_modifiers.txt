@@ -1,0 +1,27 @@
+#icon_frame = 1 # green frame
+#icon_frame = 2 # yellow frame
+#icon_frame = 3 # red frame
+
+# used for kidnap wargoal
+pop_kidnapped = {
+	pop_happiness = -0.25
+}
+
+
+# used for rescue wargoal
+pop_rescued = {
+	pop_happiness = 0.25
+}
+
+# used for expel wargoal
+pop_expelled = {
+	pop_happiness = -0.05
+}
+
+
+# used for supremacy and xenoplague
+
+pop_scourge_of_the_galaxy = {
+	pop_happiness = -0.25
+}
+

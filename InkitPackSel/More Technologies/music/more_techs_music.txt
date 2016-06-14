@@ -1,0 +1,64 @@
+song = {
+	name = "AH_catarina"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_extragalactic_commwaves
+			}
+		}		
+	}
+}
+
+song = {
+	name = "ES_falling_night_stars"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_extragalactic_commwaves
+			}
+		}
+	}
+}
+
+song = {
+	name = "ES_flawless_theory"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_extragalactic_commwaves
+			}
+		}
+	}
+}
+song = {
+	name = "ME_galaxy_map_theme"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_extragalactic_commwaves
+			}
+		}
+	}
+}
+song = {
+	name = "SD_billions_and_billions"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = {
+				has_technology = tech_extragalactic_commwaves
+			}
+		}
+	}
+}
+
+

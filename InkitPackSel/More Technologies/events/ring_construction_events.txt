@@ -30,7 +30,7 @@ fleet_event = {
 		owner = { 
 			add_modifier = {
 				modifier = megaconstruction_cooldown_ringworld
-				days = 3650
+				days = 3600
 			}
 		}
 		this = {

@@ -1,0 +1,25 @@
+music = {
+	name = "AH_catarina"
+	file = "AH_catarina.ogg"
+	volume = 0.50
+}
+music = {
+	name = "ES_falling_night_stars"
+	file = "ES_falling_night_stars.ogg"
+	volume = 0.50
+}
+music = {
+	name = "ES_flawless_theory"
+	file = "ES_flawless_theory.ogg"
+	volume = 0.50
+}
+music = {
+	name = "ME_galaxy_map_theme"
+	file = "ME_galaxy_map_theme.ogg"
+	volume = 0.50
+}
+music = {
+	name = "SD_billions_and_billions"
+	file = "SD_billions_and_billions.ogg"
+	volume = 0.50
+}

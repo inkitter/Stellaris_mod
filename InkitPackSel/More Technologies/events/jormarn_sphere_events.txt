@@ -1,0 +1,55 @@
+#
+# Maintenance event for temporary sphere of influence
+#
+#
+
+
+namespace = jormarn_sphere
+
+
+# #on actions magic #fuck on_actions for now
+# event = {
+	# id = jormarn_sphere.2
+	# hide_window = yes
+	# is_triggered_only = yes
+	
+	# immediate = {
+		# every_country = {
+			# country_event = { id = jormarn_sphere.1 }
+		# }
+	# }
+# }
+
+#actual event
+country_event = {
+	id = jormarn_sphere.1
+	title = "jormarn_sphere.1.name"
+	desc = "jormarn_sphere.1.desc"
+	picture = GFX_evt_galactic_senate
+	show_sound = event_red_alert
+	#location = FROM #this sounds pointless here
+
+	#is_triggered_only = yes ##dear god, as soon as on_actions is fixed
+	
+	trigger = {
+		has_country_flag = forced_sphere 
+		NOT = { has_country_flag = forced_sphere_time }
+	}
+		
+	mean_time_to_happen = { days = 1 }
+		
+	
+	#immediate = {
+	#	this is weird 
+	#} set_subject_of = ROOT  } # this makes problems when placed here
+	
+	option = {
+		name = jormarn_sphere.1.a
+		remove_country_flag = forced_sphere
+		this = { set_subject_of = ROOT  }
+	}
+	
+	#derp
+	
+}
+

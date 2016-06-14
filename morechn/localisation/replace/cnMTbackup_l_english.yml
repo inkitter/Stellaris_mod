@@ -107,3 +107,9 @@
  tech_toxic_colonization_desc:0 "通过超高密度铀合金技术，使得我们可以在极度恶劣的毒气环境殖民."
  tech_frozen_colonization:0 "冰冻殖民"
  tech_frozen_colonization_desc:0 "使用先进的保温和加热技术，使得我们可以在极其寒冷的地区殖民."
+
+
+ ROBOT_POP_SPECIES_0:0 "外星机器人"
+ buildable_robot_pop_0:0 "$ROBOT_POP_SPECIES_0$"
+ buildable_robot_pop_0_desc:0 "$trait_robotic_1_desc$"
+ 

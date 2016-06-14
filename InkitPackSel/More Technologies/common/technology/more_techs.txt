@@ -128,6 +128,7 @@ tech_physics_development = {
 	
 	modifier = {
 		tile_resource_physics_research_mult = 0.10
+		num_tech_alternatives_add = 1
 	}
 	
 	weight_modifier = {
@@ -401,6 +402,7 @@ tech_great_society = {
 	
 	modifier = {
 		tile_resource_society_research_mult = 0.10
+		num_tech_alternatives_add = 1
 	}
 	
 	weight_modifier = {
@@ -871,11 +873,12 @@ tech_caste_system = {
 }
 
 tech_ideological_wars = {
-	cost = @tier1cost4
+	cost = @tier2cost2
 	area = society
 	category = { statecraft }
-	tier = 1	
-	weight = @tier1weight4
+	prerequisites = { "tech_stellar_raiding" }
+	tier = 2	
+	weight = @tier2weight2
 	
 	# unlocks other wargoals
 	prereqfor_desc = {
@@ -937,6 +940,7 @@ tech_private_engineering_contractors = {
 	
 	modifier = {
 		tile_resource_engineering_research_mult = 0.10
+		num_tech_alternatives_add = 1
 	}
 	
 	weight_modifier = {
@@ -1411,9 +1415,6 @@ tech_ringworld_construction_two = {
 	ai_weight = {
 		factor = 0
 	}
-	
-	modifier = {
-	}
 }
 
 tech_ringworld_construction_three = {
@@ -1427,15 +1428,19 @@ tech_ringworld_construction_three = {
 	
 	# Third of four techs to be able to construct ringworlds
 
+	prereqfor_desc = {
+		diplo_action = {
+			title = "TECH_UNLOCK_RINGWORLD_REPAIR"
+			desc = "TECH_UNLOCK_RINGWORLD_REPAIR_DESC"
+		}
+	}
+
 	weight_modifier = {
 		factor = 3.0
 	}
 	
 	ai_weight = {
 		factor = 0
-	}
-	
-	modifier = {
 	}
 }
 
@@ -1461,9 +1466,6 @@ tech_ringworld_construction_four = {
 	
 	ai_weight = {
 		factor = 0
-	}
-	
-	modifier = {
 	}
 }
 
@@ -1750,5 +1752,142 @@ tech_indomitable_fortresses = {
 	}
 	
 	modifier = {
+	}
+}
+
+tech_extragalactic_commwaves = {
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_sensors_3" }
+	weight = @tier2weight2
+
+	modifier = {
+		all_technology_research_speed = 0.025
+	}
+
+	# Unlocks music pack 1
+
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_MUSIC_PACK_ONE"
+			desc = "TECH_UNLOCK_MUSIC_PACK_ONE_DESC"
+		}
+	}
+
+
+	weight_modifier = {
+		factor = 1.0
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+}
+
+tech_stellar_raiding = {
+	cost = @tier1cost4
+	area = society
+	category = { statecraft }
+	tier = 1	
+	weight = @tier1weight4
+	
+	# unlocks other wargoals
+	prereqfor_desc = {
+		diplo_action = {
+			title = "TECH_UNLOCK_RAIDING_WARGOAL_TYPES_TITLE"
+			desc = "TECH_UNLOCK_RAIDING_WARGOAL_TYPES_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 0
+			num_communications < 1
+		}
+		modifier = {
+			factor = 3
+			num_communications > 3
+		}		
+	}
+	
+	weight_groups = {
+		diplomacy
+	}
+	mod_weight_if_group_picked = {
+		diplomacy = 0.25
+	}
+	
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+tech_federation_disestablishment = {
+	cost = @tier3cost1
+	area = society
+	category = { statecraft }
+	prerequisites = { "tech_ideological_wars" }
+	tier = 3	
+	weight = @tier3weight1
+	
+	# unlocks other wargoals
+	prereqfor_desc = {
+		diplo_action = {
+			title = "TECH_UNLOCK_FEDERATION_WARGOAL_TYPES_TITLE"
+			desc = "TECH_UNLOCK_FEDERATION_WARGOAL_TYPES_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 0
+			num_communications < 1
+		}
+		modifier = {
+			factor = 1
+			num_communications > 3
+		}		
+	}
+	
+	weight_groups = {
+		diplomacy
+	}
+	mod_weight_if_group_picked = {
+		diplomacy = 0.25
+	}
+	
+	ai_weight = {
+		factor = 3
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
 	}
 }

@@ -1,0 +1,2196 @@
+xenoplague = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 100 #no compromises
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_xenoplague
+			}
+		}
+		
+		#custom_tooltip_fail = {
+		#	text = "war_demand_policies_ethics_lock"
+		#	ROOT = {
+		#		OR = {
+		#			has_ethic = ethic_fanatic_xenophobe
+		#		}
+		#	}
+		#}
+		
+		
+		
+		
+		custom_tooltip_fail = {
+			text = "war_demand_xenoplague_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+
+	}
+	
+	possible = {	
+		hidden:parameter:country = {
+			custom_tooltip_fail = {
+				text = "war_demand_xenoplague_vassalize"
+				war_demand_counter = {
+					type = liberated_or_vassalized
+					value < 1
+				}
+			}
+			custom_tooltip_fail = {
+				text = "war_demand_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes  ##maybe some more sophistication would be nice
+	}
+	
+	
+	effect = {
+		add_threat = {
+			who = ROOT # root is planning this
+			amount = 500 # scales to pops
+		}		
+		
+		
+		parameter:country = {
+			every_owned_planet = {
+				every_owned_pop = {
+					limit = {
+						NOT = {
+							OR = {
+								is_same_species = ROOT
+								is_subspecies = ROOT
+								#pop_has_trait = trait_resilient
+								is_robot_pop = yes
+							}
+						}
+					}
+					fn_novelwardemand_kill_pop = yes
+				}	
+			}
+		}
+		
+		ROOT = {
+			every_owned_planet = {
+				every_owned_pop = {
+					limit = { 
+						NOT = {
+							OR = { 
+								has_ethic = ethic_fanatic_xenophobe
+								has_ethic = ethic_xenophobe
+							}
+						}
+					}
+					add_modifier = { #they're not too happy about it   
+						modifier = pop_scourge_of_the_galaxy
+						days = 9000  # one generation in some sense
+						clear_on_owner_change = yes
+					}
+				}
+			}
+		}
+		
+		every_country = {  
+			limit = {
+				has_communications = ROOT 
+				NOT = { is_country = ROOT }
+				NOT = { 
+					is_country_type = fallen_empire 
+					has_ai_personality = fallen_empire_xenophile
+				}
+			}
+			add_opinion_modifier = { who = ROOT modifier = opinion_scourge_of_the_galaxy }
+		}
+	
+	}
+	
+	counters = {
+		liberated_or_vassalized = {
+			context = parameter:country
+			value = { base = 1 }
+		}
+	}
+	
+	
+	ai_weight = {
+		base = 1
+		
+		modifier = {
+			factor = 100
+			this = { has_ai_personality = fanatic_purifiers } # HACTAR SENDS HIS REGARDS
+		}
+
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		## add military interventionists when they are ingame
+
+	}
+	
+	
+	## end of file
+	
+}
+ 
+
+supremacy = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 100 #no compromises
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_military_supremacy
+			}
+		}
+		
+		#custom_tooltip_fail = {
+		#	text = "war_demand_policies_ethics_lock"
+		#	ROOT = {
+		#		OR = {
+		#			has_ethic = ethic_militarist
+		#			has_ethic = ethic_fanatic_militarist
+		#		}
+		#	}
+		#}
+		
+		
+		
+		
+		custom_tooltip_fail = {
+			text = "war_demand_supremacy_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+
+	}
+	
+	possible = {	
+		hidden:parameter:country = {
+			custom_tooltip_fail = {
+				text = "war_demand_supremacy_vassalize"
+				war_demand_counter = {
+					type = liberated_or_vassalized
+					value < 1
+				}
+			}
+			custom_tooltip_fail = {
+				text = "war_demand_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes  ##maybe some more sophistication would be nice
+	}
+	
+	
+	effect = {
+		add_threat = {
+			who = ROOT # root is planning this
+			amount = 100 # scales to pops
+		}		
+
+		
+		# parameter:country = {    ####they form an appropriate faction anyway
+			# owner_species = { save_event_target_as = own_species }
+		# }
+		# fromfromfrom = {
+			# if = {
+				# limit = {
+					# count_pop_factions = {
+						# limit = {
+							# is_pop_faction_type = nationalist
+							# check_pop_faction_parameter = {
+								# which = country
+								# value = parameter:country
+							# }
+						# }
+						# count > 0
+					# }
+				# }
+				# random_pop_faction = {
+					# limit = {
+						# is_pop_faction_type = nationalist
+					# check_pop_faction_parameter = {
+							# which = country
+							# value = parameter:country
+						# }
+					# }
+					# parameter:country = {
+						# every_owned_planet = {
+							# every_owned_pop = {
+								# set_pop_faction = PREVPREVPREV
+							# }
+						# }
+					# }
+				# }
+				# else = {
+					# create_pop_faction = {
+						# type = nationalist
+						# pop = event_target:own_species
+						# parameter:country = parameter:country
+					# }
+					# parameter:country = {
+						# every_owned_planet = {
+							# every_owned_pop = {
+								# set_pop_faction = last_created_pop_faction
+							# }
+						# }
+					# }	
+				# }
+			# }	
+		# }
+			
+			
+		parameter:country = {
+			every_owned_planet = {
+				set_owner = fromfromfrom
+			}
+		}
+		
+		every_country = {  
+			limit = {
+				has_communications = ROOT 
+				NOT = { is_country = ROOT }
+				NOT = { is_country_type = fallen_empire }
+			}
+			add_opinion_modifier = { who = ROOT modifier = opinion_scourge_of_the_galaxy }
+		}
+		
+		ROOT = {
+			every_owned_planet = {
+				every_owned_pop = {
+					limit = { 
+						NOT = {
+							OR = { 
+								has_ethic = ethic_fanatic_militarist
+								has_ethic = ethic_militarist
+								has_ethic = ethic_fanatic_xenophobe
+								has_ethic = ethic_xenophobe
+							}
+						}
+					}
+					add_modifier = { #they're not too happy about it   
+						modifier = pop_scourge_of_the_galaxy
+						days = 9000  # one generation in some sense
+						clear_on_owner_change = yes
+					}
+				}
+			}
+		}		
+	
+	}
+	
+	counters = {
+		liberated_or_vassalized = {
+			context = parameter:country
+			value = { base = 1 }
+		}
+	}
+	
+	
+	ai_weight = {
+		base = 10
+		
+		modifier = {
+			factor = 25
+			this = { has_ai_personality = hegemonic_imperialists } 
+		}
+
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		## add military interventionists when they are ingame
+
+	}
+	
+	
+	## end of file
+	
+}
+ 
+policy_limit_war_economy = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 25
+
+		scaled_modifier = {
+			scope = parameter:country
+			add = 0.5
+			calc = pop_count
+		}		
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Ruler Trait - Expansionist
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_trait_expansionist"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_expansionist }
+			}
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.8
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+		
+		
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_already_has_policy"
+			parameter:country = {
+				NOT =  { 
+					has_policy_flag = versatile_we
+				}
+			}
+		}
+
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_ideological_wars
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_ethics_lock"
+			ROOT = {
+				OR = {
+					has_ethic = ethic_pacifist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+		
+		
+		
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+
+	}
+	
+	possible = {			
+		hidden:parameter:country = {
+
+			custom_tooltip_fail = {
+				text = "war_demand_policies_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {
+		add_threat = {
+			who = ROOT # root is planning this
+			amount = 1 # scales to pops
+		}		
+
+		
+		parameter:country = {
+		
+			hidden_effect = {  #no idea why this is here, but the FE wargoals also work like this
+				set_policy = {
+					policy = war_economy
+					option = versatile_we
+					cooldown = yes
+				}
+			}
+			add_opinion_modifier = { 
+				who = ROOT
+				modifier = opinion_interfered_with_our_politics
+			}
+		}
+		
+		every_country = {  #mimic on_actions -> people with this policy like the change 
+			limit = {
+				has_communications = ROOT 
+				NOT = { is_country = ROOT }
+				NOT = { has_policy_flag = versatile_we }
+			}
+			add_opinion_modifier = { who = ROOT modifier = opinion_policy_good }
+		}
+	
+	}
+	
+	#counters = { #none
+	#	always = yes
+	#}
+	
+	ai_weight = {
+		base = 10
+		
+		modifier = {
+			factor = 10
+			this = { has_ai_personality = peaceful_traders } 
+		}
+		modifier = {
+			factor = 10
+			this = { has_ai_personality = federation_builders } 
+		}
+		modifier = {
+			factor = 10
+			this = { has_ai_personality = spiritual_seekers }  
+		}
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		## add military interventionists when they are ingame
+
+	}
+	
+	
+	## end of file
+	
+}
+ 
+#War demand that steal percentage of sciences 
+
+fitz_hack_technology = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 50
+
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Country - Ethic materialist
+		modifier = {
+			factor = 0.70
+			has_ethic = ethic_materialist
+		}
+
+		# Country - Ethic Fanatic materialist
+		modifier = {
+			factor = 0.50
+			has_ethic = ethic_fanatic_materialist
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}	
+		
+	}
+
+	potential = {
+		has_technology = tech_databank_uplinks #The tech that also allow Sciences ship boosting planet
+
+		custom_tooltip_fail = {
+			text = "war_demand_force_sphere_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		
+		custom_tooltip_fail = {
+			text = "war_demand_fitz_free_thoughts_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_stellar_raiding
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_cede_planet_no_vassals" #generic text
+			NOT = { exists = overlord }
+		}
+	}
+	
+	possible = {			
+		custom_tooltip_fail = {
+			text = "war_demand_humiliate_jormarn_no_planets"
+			war_demand_counter = {
+				type = num_owned_planets
+				value > 0
+			}
+		}
+	}
+	
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {
+		add_threat = {
+			who = fromfromfrom
+			amount = 0.1 # scales to pops
+		}
+		
+		fromfromfrom = {
+			add_modifier = { modifier = fitz_hacking days = 3600 }	
+		}
+	}
+	
+	counters = {
+		liberated_or_vassalized = {
+			context = parameter:country
+			value = { base = 1 }
+		}
+	}
+	
+	ai_weight = {
+		base = 80
+		
+		modifier = {
+			factor = 2
+			this = { has_ai_personality = erudite_explorers }
+		}
+
+		modifier = {
+			factor = 2
+			this = { has_ai_personality = metalhead }
+		}
+
+		modifier = {
+			factor = 2
+			this = { has_ai_personality = peaceful_traders }
+		}
+
+		modifier = {
+			factor = 4
+			this = { has_ethic = ethic_materialist }
+		}
+
+		modifier = {
+			factor = 6
+			this = { has_ethic = ethic_fanatic_materialist }
+		}
+
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		
+	}
+	
+	## end of file
+	
+}
+
+#War demand that forces a worse version of free thoughts 
+
+fitz_force_free_thoughts = {
+	execution_order = 0
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 25
+
+		scaled_modifier = {
+			scope = parameter:country
+			add = 0.1
+			calc = pop_count
+		}		
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Country - Ethic Fanatic individualist
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_fanatic_individualist
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+		
+		
+	}
+
+	potential = {
+		
+		custom_tooltip_fail = {
+			text = "war_demand_force_free_thought_not_individualist"
+			parameter:country = {
+				NOT = {	has_edict = encourage_free_thought	}
+			}
+			OR = {
+				has_ethic = ethic_fanatic_individualist
+				has_ethic = ethic_individualist
+			}
+		}
+
+		custom_tooltip_fail = {
+			text = "war_demand_force_sphere_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		
+		custom_tooltip_fail = {
+			text = "war_demand_fitz_free_thoughts_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_ideological_wars
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_cede_planet_no_vassals" #generic text
+			NOT = { exists = overlord }
+		}
+	}
+	
+	possible = {			
+		custom_tooltip_fail = {
+			text = "war_demand_humiliate_jormarn_no_planets"
+			war_demand_counter = {
+				type = num_owned_planets
+				value > 0
+			}
+		}
+	}
+	
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {
+		add_threat = {
+			who = fromfromfrom
+			amount = 0.1 # scales to pops
+		}		
+		parameter:country = {		
+			add_modifier = { modifier = fitz_forced_free_thoughts days = 7200 }	
+			add_influence = -250
+			
+			add_opinion_modifier = { #they hate being humiliated ...
+				who = fromfromfrom
+				modifier = opinion_fitz_free_thoughts_country
+			}
+				
+		}
+		
+		fromfromfrom = {
+			add_influence = 250
+		}
+	}
+	
+	counters = {
+		liberated_or_vassalized = {
+			context = parameter:country
+			value = { base = 1 }
+		}
+	}
+	
+	ai_weight = {
+		base = 80
+		
+		modifier = {
+			factor = 2
+			this = { has_ai_personality = erudite_explorers }
+		}	
+		modifier = {
+			factor = 2
+			this = { has_ai_personality = democratic_crusaders }
+		}
+		modifier = {
+			factor = 3
+			this = { has_ai_personality = fallen_empire_materialist }
+		}
+		modifier = {
+			factor = 0
+			AND = {
+				is_country_type = fallen_empire
+				NOT = {	this = { has_ai_personality = fallen_empire_materialist }	}
+			}
+		}
+		
+	}
+	
+	## end of file
+	
+}
+
+policy_limit_migration = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 25
+
+		scaled_modifier = {
+			scope = parameter:country
+			add = 0.5
+			calc = pop_count
+		}		
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Ruler Trait - Expansionist
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_trait_expansionist"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_expansionist }
+			}
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.8
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+		
+		
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_already_has_policy"
+			parameter:country = {
+				NOT =  { 
+					has_policy_flag = migration_not_allowed
+				}
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_ideological_wars
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_ethics_lock"
+			ROOT = {
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+			parameter:country = {
+				NOT = { is_same_species = ROOT }
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_hypocrites"
+			ROOT = {
+				has_policy_flag = migration_not_allowed
+			}
+		}
+		
+		
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+
+	}
+	
+	possible = {			
+		hidden:parameter:country = {
+
+			custom_tooltip_fail = {
+				text = "war_demand_policies_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {
+		add_threat = {
+			who = ROOT # root is planning this
+			amount = 1 # scales to pops
+		}		
+
+		
+		parameter:country = {
+		
+			hidden_effect = {  #no idea why this is here, but the FE wargoals also work like this
+				set_policy = {
+					policy = migration
+					option = migration_not_allowed
+					cooldown = yes
+				}
+			}
+			add_opinion_modifier = { 
+				who = ROOT
+				modifier = opinion_interfered_with_our_politics
+			}
+		}
+		
+		every_country = {  #mimic on_actions -> people with this policy like the change 
+			limit = {
+				has_communications = ROOT 
+				NOT = { is_country = ROOT }
+				has_policy_flag = migration_not_allowed
+			}
+			add_opinion_modifier = { who = ROOT modifier = opinion_policy_good }
+		}
+		
+		every_country = {  #mimic on_actions -> people with with the opposite policy hate this
+			limit = {
+				has_communications = ROOT 
+				NOT = { is_country = ROOT }
+				NOT = { has_policy_flag = migration_not_allowed }
+			}
+			add_opinion_modifier = { who = ROOT modifier = opinion_policy_bad }
+		}
+	
+	}
+	
+	#counters = { #none
+	#	always = yes
+	#}
+	
+	ai_weight = {
+		base = 10
+		
+		modifier = {
+			factor = 10
+			OR = { 
+				this = { has_ai_personality = xenophobic_isolationists }
+			}
+		}
+	
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+
+		
+		## add military interventionists when they are ingame
+	}
+	
+	
+	## end of file
+	
+}
+ 
+
+policy_limit_bombardment = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 25
+
+		scaled_modifier = {
+			scope = parameter:country
+			add = 0.5
+			calc = pop_count
+		}		
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Ruler Trait - Expansionist
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_trait_expansionist"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_expansionist }
+			}
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.8
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+		
+		
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_already_has_policy"
+			parameter:country = {
+				OR = { 
+					has_policy_flag = allow_orbital_bombardment_limited
+					has_policy_flag = allow_orbital_bombardment_full 
+				}
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_ideological_wars
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_ethics_lock"
+			ROOT = {
+				OR = {
+					has_ethic = ethic_pacifist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_hypocrites"
+			ROOT = {
+				NOT =  { 
+					OR = { 
+						has_policy_flag = allow_orbital_bombardment_limited
+						has_policy_flag = allow_orbital_bombardment_full 
+					}
+				}
+			}
+		}
+		
+		
+		
+		custom_tooltip_fail = {
+			text = "war_demand_policies_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+
+	}
+	
+	possible = {			
+		hidden:parameter:country = {
+
+			custom_tooltip_fail = {
+				text = "war_demand_policies_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {
+		add_threat = {
+			who = ROOT # root is planning this
+			amount = 1 # scales to pops
+		}		
+
+		
+		parameter:country = {
+		
+			hidden_effect = {  #no idea why this is here, but the FE wargoals also work like this
+				set_policy = {
+					policy = orbital_bombardment
+					option = orbital_bombardment_light
+					cooldown = yes
+				}
+			}
+			add_opinion_modifier = { 
+				who = ROOT
+				modifier = opinion_interfered_with_our_politics
+			}
+		}
+		
+		every_country = {  #mimic on_actions -> people with this policy like the change 
+			limit = {
+				has_communications = ROOT 
+				NOT = { is_country = ROOT }
+				NOT = { has_policy_flag = orbital_bombardment_full }
+				NOT = { has_policy_flag = orbital_bombardment_limited }
+			}
+			add_opinion_modifier = { who = ROOT modifier = opinion_policy_good }
+		}
+		
+		every_country = {  #mimic on_actions -> people with with the opposite policy hate this
+			limit = {
+				has_communications = ROOT 
+				NOT = { is_country = ROOT }
+				has_policy_flag = orbital_bombardment_limited
+			}
+			add_opinion_modifier = { who = ROOT modifier = opinion_policy_bad }
+		}
+	
+	}
+	
+	#counters = { #none
+	#	always = yes
+	#}
+	
+	ai_weight = {
+		base = 10
+		
+		modifier = {
+			factor = 10
+			this = { has_ai_personality = peaceful_traders } 
+		}
+		modifier = {
+			factor = 10
+			this = { has_ai_personality = federation_builders } 
+		}
+		modifier = {
+			factor = 10
+			this = { has_ai_personality = spiritual_seekers }  
+		}
+		
+		modifier = {
+			factor = 0
+			is_country_type = fallen_empire
+		}
+		## add military interventionists when they are ingame
+
+	}
+	
+	
+	## end of file
+	
+}
+ 
+
+make_democracy = {
+	execution_order = 1
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 60
+
+		scaled_modifier = {
+			scope = parameter:country
+			add = 0.5
+			calc = pop_count
+		}		
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Ruler Trait - Expansionist
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_trait_expansionist"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_expansionist }
+			}
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.8
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+		
+		
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_force_sphere_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		custom_tooltip_fail = {
+			text = "war_demand_make_democracy_already_democracy"
+			parameter:country = {
+				NOT =  { has_election_type = democratic }
+				}
+		}
+		custom_tooltip_fail = {
+			text = "war_make_democracy_we_no_democracy"
+			ROOT = {
+				 has_election_type = democratic 
+				}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_ideological_wars
+			}
+		}
+		
+		
+		custom_tooltip_fail = {
+			text = "war_make_democracy_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+
+	}
+	
+	possible = {			
+		hidden:parameter:country = {
+
+			custom_tooltip_fail = {
+				text = "war_demand_make_democracy_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {
+		add_threat = {
+			who = fromfromfrom
+			amount = 2.5 # scales to pops
+		}		
+
+		
+		parameter:country = {
+		
+			change_government = "indirect_democracy" 
+			kill_leader = {
+				type = ruler
+				show_notification = yes
+			}
+			
+			####
+		}
+		
+		
+	}
+	
+	#counters = { #none
+	#	always = yes
+	#}
+	
+	ai_weight = {
+		base = 120
+		
+		modifier = {
+			factor = 0.01
+			this = { NOT = { has_ai_personality = democratic_crusaders } } 
+		}
+		modifier = {
+			factor = 5
+			this = { has_ai_personality = federation_builders } 
+		}
+
+	}
+	
+	## end of file
+	
+}
+ 
+
+raid_credits = {
+	execution_order = 10
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 25
+
+	#	scaled_modifier = {
+	#		scope = parameter:country
+	#		add = 0.5
+	#		calc = pop_count
+	#	}		
+		
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Ruler Trait - Expansionist
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_trait_expansionist"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_expansionist }
+			}
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.8
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+		
+		
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_force_sphere_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		
+		custom_tooltip_fail = {
+			text = "war_raid_credits_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_stellar_raiding
+			}
+		}
+
+	}
+	
+	possible = {			
+		hidden:parameter:country = {
+
+			custom_tooltip_fail = {
+				text = "war_demand_raid_credits_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {
+		add_threat = {
+			who = fromfromfrom
+			amount = 1 # scales to pops
+		}		
+
+		#What Stellaris Modding make us do. The nightmare. Not sure if you think that's better than your way but would be easier for future implementation I guess
+		#Switched to a scripted_effect that steal a max of 1000 credits and then repeat 5 times. If any fail, the following will fail as well.
+		#Plus the smaller amount are in else statement, making it not trigger if the 1000 is succesful (or any higher)		
+		# ty :)
+		
+		parameter:country = {
+			fn_wardemand_steal_energy = yes		
+			fn_wardemand_steal_energy = yes		
+			fn_wardemand_steal_energy = yes		
+			fn_wardemand_steal_energy = yes		
+			fn_wardemand_steal_energy = yes #5
+		}
+		
+		
+	}
+	
+	#counters = { #none
+	#	always = yes
+	#}
+	
+	ai_weight = {
+		base = 45
+		
+		modifier = {
+			factor = 2
+			this = { has_ai_personality = ruthless_capitalists } 
+		}
+		
+		
+		modifier = {
+			factor = 0
+			this = { has_ai_personality = peaceful_traders }
+		}		
+		modifier = {
+			factor = 0
+			this = { has_ai_personality = honorbound_warriors }
+		}	
+		modifier = {
+			factor = 2
+			this = { has_ai_personality_behaviour =  opportunist }
+		}	
+	}
+	
+	## end of file
+	
+}
+ 
+
+raid_minerals = {
+	execution_order = 10
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 15
+
+	#	scaled_modifier = {
+	#		scope = parameter:country
+	#		add = 0.5
+	#		calc = pop_count
+	#	}		
+		
+		# Ruler Trait - Warlike
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_trait_warlike"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_warlike }
+			}
+		}
+
+		# Ruler Trait - Expansionist
+		modifier = {
+			factor = 0.9
+			custom_tooltip = {
+				text = "war_demand_trait_expansionist"
+				exists = ruler
+				ruler = { has_trait = trait_ruler_expansionist }
+			}
+		}
+
+		# Tech - Galactic Ambitions
+		modifier = {
+			factor = 0.95
+			custom_tooltip = {
+				text = "war_demand_tech_galactic_ambitions"
+				has_technology = tech_galactic_ambitions
+			}
+		}
+
+		# Tech - Manifest Destiny
+		modifier = {
+			factor = 0.8
+			custom_tooltip = {
+				text = "war_demand_tech_manifest_destiny"
+				has_technology = tech_manifest_destiny
+			}
+		}
+		
+		
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_force_sphere_not_opponent" #this is generic, no reloc ness
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		
+		
+		custom_tooltip_fail = {
+			text = "war_raid_minerals_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_stellar_raiding
+			}
+		}
+
+	}
+	
+	possible = {			
+		hidden:parameter:country = {
+
+			custom_tooltip_fail = {
+				text = "war_demand_raid_minerals_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+	
+	proposable = {
+		always = yes
+	}
+	
+	effect = {
+		add_threat = {
+			who = fromfromfrom
+			amount = 1 # scales to pops
+		}		
+
+		#What Stellaris Modding make us do. The nightmare. Not sure if you think that's better than your way but would be easier for future implementation I guess
+		#Switched to a scripted_effect that steal a max of 1000 mineral and then repeat 5 times. If any fail, the following will fail as well.
+		#Plus the smaller amount are in else statement, making it not trigger if the 1000 is succesful (or any higher)
+		
+		#thanks :) 
+		parameter:country = {
+			fn_wardemand_steal_mineral = yes
+			fn_wardemand_steal_mineral = yes
+			fn_wardemand_steal_mineral = yes
+			fn_wardemand_steal_mineral = yes
+			fn_wardemand_steal_mineral = yes #5	
+			
+			
+			
+		}
+		
+		
+	}
+	
+	#counters = { #none
+	#	always = yes
+	#}
+	
+	ai_weight = {
+		base = 45
+		
+		modifier = {
+			factor = 2
+			this = { has_ai_personality = ruthless_capitalists } 
+		}
+		
+		
+		modifier = {
+			factor = 0
+			this = { has_ai_personality = peaceful_traders }
+		}		
+		modifier = {
+			factor = 0
+			this = { has_ai_personality = honorbound_warriors }
+		}	
+		modifier = {
+			factor = 2
+			this = { has_ai_personality_behaviour =  opportunist }
+		}	
+	}
+	
+	## end of file
+	
+}
+ 
+
+## Force a country to give be in your sphere of influence (Mostly give civ/mil access)
+
+force_sphere = {
+	execution_order = 4
+	
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+	
+	warscore_cost = {
+		base = 20	
+	}
+
+	potential = {
+		custom_tooltip_fail = {
+			text = "war_demand_force_sphere_not_opponent"
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+					
+				}
+			}
+		}
+		# custom_tooltip_fail = {   #hope blocking this does not break anything
+			# text = "war_demand_force_sphere_no_overlords"
+			# parameter:country = {
+				# OR = {
+					# AND = {
+						# exists = fromfrom
+						# from = {
+							# from = {
+								# count_war_participants = {
+									# side = root
+									# limit = {
+										# parameter:country = {
+											# OR = {
+												# can_be_subject = {
+													# overlord = prev
+													# subject_type = influence_sphere
+												# }
+												# AND = {
+													# is_proposing_war_demands = no
+													# can_be_subject = {
+														# overlord = prev
+														# subject_type = influence_sphere
+													# }
+												# }
+											# }
+										# }
+									# }
+									# count > 0
+								# }
+							# }
+						# }
+					# }
+					# AND = {
+						# NOT = { exists = fromfrom }
+						# count_potential_war_participants = {
+							# attacker = root
+							# defender = from
+							# side = from
+
+							# limit = {
+								# parameter:country = {
+									# can_be_subject = {
+										# overlord = root
+										# subject_type = vassal
+									# }
+								# }
+							# }
+
+							# count > 0
+						# }
+					# }
+				# }
+			# }
+		# }
+		custom_tooltip_fail = {
+			text = "war_demand_force_sphere_missing_tech_all"
+			any_country = {
+				has_technology = tech_galactic_ambitions #disable for debug
+				OR = {
+					AND = {
+						exists = fromfrom
+						fromfrom = {
+							is_war_participant = {
+								who = prev
+								side = root
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = root
+						}
+					}
+				}
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_force_sphere_wrong_type"
+			parameter:country = {
+				is_country_type = default 
+			}
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_cede_planet_no_vassals"
+			NOT = { exists = overlord }
+		}
+		custom_tooltip_fail = {
+			text = "war_demand_tech_missing"
+			ROOT = {
+				has_technology = tech_federation_disestablishment
+			}
+		}
+	}
+	
+	possible = {			
+		hidden:parameter:country = {
+			custom_tooltip_fail = {
+				text = "war_demand_force_sphere_liberated"
+				war_demand_counter = {
+					type = liberated_or_vassalized
+					value < 1
+				}
+			}
+			custom_tooltip_fail = {
+				text = "war_demand_force_sphere_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+		hidden:fromfromfrom = {
+			custom_tooltip_fail = {
+				text = "war_demand_force_sphere_no_vassals_of_vassals"
+				NOT = { exists = overlord }
+			}
+			custom_tooltip_fail = {
+				text = "war_demand_force_sphere_missing_tech"
+				has_technology = tech_xeno_supremacy
+			}
+		}
+	}
+	
+	proposable = {
+		parameter:country = {
+			can_be_subject = {
+				overlord = fromfromfrom
+				subject_type = influence_sphere
+			}
+		}
+	}
+	
+	effect = {
+		add_threat = {
+			who = fromfromfrom
+			amount = 0.5 # scales to pops
+		}		
+		parameter:country = {		
+			set_subject_of = {
+				who = fromfromfrom
+				subject_type = influence_sphere
+			}
+		}
+		#FROM = { country_event = { id = jormarn_sphere.1 days = 3600} }#end of influence obligation #no events in war_demand:effect :( :( 
+		#ROOT = { country_event = { id = jormarn_sphere.1 days = 3600} }#end of influence obligation
+		#FROMFROM = { country_event = { id = jormarn_sphere.1 days = 3600} }#end of influence obligation
+		parameter:country = {	
+			set_timed_country_flag = { flag = forced_sphere_time days = 3600 } #flags work
+			set_country_flag = forced_sphere 
+		}
+	}
+	
+	counters = {
+		liberated_or_vassalized = {
+			context = parameter:country
+			value = { base = 1 }
+		}
+	}
+	
+	ai_weight = {
+		base = 50
+		
+		modifier = {
+			factor = 2
+			this =  { is_neighbor_of = parameter:country }
+		}
+		modifier = {
+			factor = 0
+			this = { is_domineering_to = parameter:country } 
+		}
+		
+		
+		modifier = {
+			factor = 1.5
+			this =  { is_patronizing_to = parameter:country }
+		}		
+		
+	}
+	
+	## end of file
+	
+}

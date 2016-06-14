@@ -42,15 +42,15 @@ ring_mil_con = {
 	section_slots = { "mid" = { locator = "part1" } }
 	is_designable = yes
 	num_target_locators = 0
-	is_space_station = yes
+	is_space_station = no # Hopefully this fixes the bug with sector AI building these
 	cost = 20000
 	base_buildtime = 6000
 	components_add_to_cost = no
+	#gfx_culture = { "fallen_empire_01" }
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 	prerequisites = { "tech_ringworld_construction_four" }
 	class = shipclass_military_station
 	required_component_set = "station_sensor_components"
 	required_component_set = "station_small_aura_components"
-	class = shipclass_military_station
 	build_block_radius = @build_block_radius_tiny
 }

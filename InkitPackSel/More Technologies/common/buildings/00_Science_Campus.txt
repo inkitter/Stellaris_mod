@@ -60,6 +60,7 @@
 
 building_science_campus_phys_1 = {
 	base_buildtime = @b1time
+	is_listed = no
 	
 	cost = {
 		minerals = @b1cost
@@ -106,7 +107,7 @@ building_science_campus_phys_2 = {
 	}
 
 	adjacency_bonus = {
-		resource_physics_research_add = 2
+		resource_physics_research_add = 1.5
 	}
 	upgrades = {
 		building_science_campus_phys_3
@@ -142,7 +143,7 @@ building_science_campus_phys_3 = {
 	}
 
 	adjacency_bonus = {
-		resource_physics_research_add = 3
+		resource_physics_research_add = 2
 	}
 	upgrades = {
 		building_science_campus_phys_4
@@ -178,7 +179,7 @@ building_science_campus_phys_4 = {
 	}
 
 	adjacency_bonus = {
-		resource_physics_research_add = 4
+		resource_physics_research_add = 3
 	}
 
 	prerequisites = {
@@ -207,6 +208,7 @@ building_science_campus_phys_4 = {
 building_science_campus_soc_1 = {
 
 	base_buildtime = @b1time
+	is_listed = no
 	
 	cost = {
 		minerals = @b1cost
@@ -254,7 +256,7 @@ building_science_campus_soc_2 = {
 	}
 
 	adjacency_bonus = {
-		resource_society_research_add = 2
+		resource_society_research_add = 1.5
 	}
 	upgrades = {
 		building_science_campus_soc_3
@@ -291,7 +293,7 @@ building_science_campus_soc_3 = {
 	}
 
 	adjacency_bonus = {
-		resource_society_research_add = 3
+		resource_society_research_add = 2
 	}
 	upgrades = {
 		building_science_campus_soc_4
@@ -328,7 +330,7 @@ building_science_campus_soc_4 = {
 	}
 
 	adjacency_bonus = {
-		resource_society_research_add = 4
+		resource_society_research_add = 3
 	}
 
 	prerequisites = {
@@ -355,6 +357,7 @@ building_science_campus_soc_4 = {
 
 building_science_campus_eng_1 = {
 	base_buildtime = @b1time
+	is_listed = no
 	
 	cost = {
 		minerals = @b1cost
@@ -402,7 +405,7 @@ building_science_campus_eng_2 = {
 	}
 
 	adjacency_bonus = {
-		resource_engineering_research_add = 2
+		resource_engineering_research_add = 1.5
 	}
 	
 	prerequisites = {
@@ -438,7 +441,7 @@ building_science_campus_eng_3 = {
 	}
 
 	adjacency_bonus = {
-		resource_engineering_research_add = 3
+		resource_engineering_research_add = 2
 	}
 	
 	prerequisites = {
@@ -474,7 +477,7 @@ building_science_campus_eng_4 = {
 	}
 
 	adjacency_bonus = {
-		resource_engineering_research_add = 4
+		resource_engineering_research_add = 3
 	}
 	
 	prerequisites = {

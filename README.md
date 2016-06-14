@@ -85,6 +85,8 @@ https://github.com/inkitter/Stellaris_mod
 * 动物徽章EmblemsFauna 超多动物徽章
 * New Ships & Realistics Ships 更多的船 __未汉化__
 * Music Pack 音乐包
+* Beautiful Universe 更美丽的宇宙 一些贴图替换
+* More Planet Types 更多种类的行星
 
 ### 动漫人物
 * Animaris
