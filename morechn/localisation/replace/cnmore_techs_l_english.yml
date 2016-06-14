@@ -1,6 +1,6 @@
 ﻿l_english:
  
-  # A few notes for translators. First off, thanks a bunch for your effort in translating this mod; it really makes a huge difference in how wide a range of people can experience my work.
+ # A few notes for translators. First off, thanks a bunch for your effort in translating this mod; it really makes a huge difference in how wide a range of people can experience my work.
  # To start, change the l_english on line 1 to your language e.g. l_german, l_russian, l_braz_por, etc. (you can check the localisation files in the base game to see what yours is)
  # To translate, simply replace the stuff in quotes from English to your language. 
  # For example, the first line here should go from tech_galactic_ambassadors:0 "Galactic Ambassadors" to  tech_galactic_ambassadors:0 "Embajadores Galácticos" if you were translating to Spanish.
@@ -632,27 +632,24 @@
  tech_indomitable_fortresses:0 "顽强的堡垒"
  tech_indomitable_fortresses_desc:0 "$tech_station_defenses_desc$"
 
- sm_solar_panel_network2:0 "Medium Solar Panel Network"
- sm_solar_panel_network3:0 "Large Solar Panel Network"
- sm_solar_panel_network4:0 "Huge Solar Panel Network"
- sm_hydroponic_farms2:0 "Medium Hydroponic Farms"
- sm_hydroponic_farms3:0 "Large Hydroponic Farms"
- sm_hydroponic_farms4:0 "Huge Hydroponic Farms"
- sm_corvette_assembly_yards2:0 "Advanced Corvette Assembly Yards"
- sm_destroyer_assembly_yards2:0 "Advanced Destroyer Assembly Yards"
- sm_cruiser_assembly_yards2:0 "Advanced Cruiser Assembly Yards"
- sm_battleship_assembly_yards_2:0 "Advanced Battleship Assembly Yards"
- sm_synchronized_defenses_2:0 "Upgraded Synchronized Defenses"
- sm_synchronized_defenses_3:0 "Advanced Synchronized Defenses"
- sm_engineering_bay_2:0 "Advanced Engineering Bay"
- sm_ship_assembly_yards:0 "Small Ship Assembly Yards"
- sm_ship_assembly_yards_2:0 "Medium Ship Assembly Yards"
- sm_ship_assembly_yards_3:0 "Large Ship Assembly Yards"
- sm_ship_assembly_yards_4:0 "Huge Ship Assembly Yards"
- sm_crew_quarters_2:0 "Advanced Crew Quarters" 
- sm_reinforced_hull_1:0 "Station Hull Reinforcement" 
- sm_reinforced_hull_2:0 "Upgraded Station Hull Reinforcement" 
- sm_reinforced_hull_3:0 "Advanced Station Hull Reinforcement" 
+ sm_solar_panel_network2:0 "中型$sm_solar_panel_networkd$"
+ sm_solar_panel_network3:0 "大型$sm_solar_panel_networkd$"
+ sm_solar_panel_network4:0 "巨型$sm_solar_panel_networkd$"
+ sm_corvette_assembly_yards2:0 "高级护卫舰组装厂"
+ sm_destroyer_assembly_yards2:0 "高级驱逐舰组装厂"
+ sm_cruiser_assembly_yards2:0 "高级巡洋舰组装厂"
+ sm_battleship_assembly_yards_2:0 "高级战列舰组装厂"
+ sm_synchronized_defenses_2:0 "中级同步防御"
+ sm_synchronized_defenses_3:0 "高级同步防御"
+ sm_engineering_bay_2:0 "高级修理厂"
+ sm_ship_assembly_yards:0 "小型舰船组装厂"
+ sm_ship_assembly_yards_2:0 "中型舰船组装厂"
+ sm_ship_assembly_yards_3:0 "大型舰船组装厂"
+ sm_ship_assembly_yards_4:0 "巨型舰船组装厂"
+ sm_crew_quarters_2:0 "高级船员宿舍" 
+ sm_reinforced_hull_1:0 "强化船体"
+ sm_reinforced_hull_2:0 "中级强化船体" 
+ sm_reinforced_hull_3:0 "高级强化船体"
 
  #####################################################################################
  #
