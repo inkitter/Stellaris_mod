@@ -61,7 +61,7 @@ https://github.com/inkitter/Stellaris_mod
 * Civilian Trade __morechn已汉化__
 * Interstellar Trading System __morechn已汉化__
 
-###作弊
+### 作弊
 * Easybuff 自制的政策界面作弊。前缀为“作弊”的一系列政策。已分离成单独mod。 http://steamcommunity.com/sharedfiles/filedetails/?id=696221722
 * Grow Borders  边界增长速度加快的星球政策，需要影响力。  __morechn已汉化__
 
