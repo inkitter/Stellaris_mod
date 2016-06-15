@@ -11,18 +11,18 @@ It's a mod collection for Chinese. 这是中文整合包
 * **会影响steam铁人成就**。
 
 
-##推广使用Github协作制作mod
+## 推广使用Github协作制作mod
 https://github.com/inkitter/Stellaris_mod 
 
 --------
 
 ## 主包 Inkit MOD (!)
-###汉化
+### 汉化
 * Chinese font  简体中文字库v4.6  http://steamcommunity.com/sharedfiles/filedetails/?id=682681372
 * 3DM汉化包3.0  1.1版全汉化  \localisation\*.yml http://steamcommunity.com/sharedfiles/filedetails/?id=683978765
 * morechn   自制的一些工坊英文mod汉化包。 http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
-###改进
+### 改进
 * Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 common\solar_system_initializers\ringworld_st_systems.txt
 * Complete Colors  种族设计界面有更多（RGB）可选颜色，注意这个多颜色选择会与其他的冲突，请不要再加载其他增加可选颜色的mod，这个已经是颜色最全的 flags\colors.txt及interface\zCompleteColors.gui
 * Galaxies Unlimited  新建游戏时，星系大小有等多选择，从很少到很多的更多选项。且根据大小标记成不同的颜色。
