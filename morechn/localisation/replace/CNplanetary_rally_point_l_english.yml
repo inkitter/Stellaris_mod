@@ -1,26 +1,27 @@
 ﻿l_english:
 ####MODIFIERS#########
-
+ rally_point_capitalised:0 "集结点"
+ rally_point:0 "集结点"
 ###### DESIGNATE RALLY POINT ########
- rally_point_1:0 "1号集结点"
- rally_point_1_desc:0 "这个星球已被指定为“1号集结点”，可被我国其他星球作为集结地点。"
+ rally_point_1:0 "1号$rally_point_capitalised$"
+ rally_point_1_desc:0 "这个星球已被指定为“$rally_point_1$”，可被我国其他星球作为集结地点。"
 
- rally_point_2:0 "2号集结点"
- rally_point_2_desc:0 "这个星球已被指定为“2号集结点”，可被我国其他星球作为集结地点。"
+ rally_point_2:0 "2号$rally_point_capitalised$"
+ rally_point_2_desc:0 "这个星球已被指定为“$rally_point_2$”，可被我国其他星球作为集结地点。"
 
- rally_point_3:0 "3号集结点"
- rally_point_3_desc:0 "这个星球已被指定为“3号集结点”，可被我国其他星球作为集结地点。"
+ rally_point_3:0 "3号$rally_point_capitalised$"
+ rally_point_3_desc:0 "这个星球已被指定为“$rally_point_3$”，可被我国其他星球作为集结地点。"
 
 
 ##### SEND TO RALLY POINTS ##############
- send_to_rally_point_1:0 "运送到1号集结点"
- send_to_rally_point_1_desc:0 "正在命令本星球所有建造的舰船自动前往1号集结点。"
+ send_to_rally_point_1:0 "运送到$rally_point_1$"
+ send_to_rally_point_1_desc:0 "正在命令本星球所有建造的舰船自动前往$rally_point_1$。"
 
- send_to_rally_point_2:0 "运送到2号集结点"
- send_to_rally_point_2_desc:0 "正在命令本星球所有建造的舰船自动前往2号集结点。"
+ send_to_rally_point_2:0 "运送到$rally_point_2$"
+ send_to_rally_point_2_desc:0 "正在命令本星球所有建造的舰船自动前往$rally_point_2$。"
 
- send_to_rally_point_3:0 "运送到3号集结点"
- send_to_rally_point_3_desc:0 "正在命令本星球所有建造的舰船自动前往3号集结点。"
+ send_to_rally_point_3:0 "运送到$rally_point_3$"
+ send_to_rally_point_3_desc:0 "正在命令本星球所有建造的舰船自动前往$rally_point_3$。"
 
 
 #################### EDICTS ##########################
@@ -29,23 +30,23 @@
  sending_to_rally_point.tooltip:0 "我们将命令舰船集中到这个星球。"
 
 
- edict_set_rally_point_1:0 "指定为1号集结点"
- edict_set_rally_point_1_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为1号集结点，那么将被自动取消集结点。"
+ edict_set_rally_point_1:0 "指定为$rally_point_1$"
+ edict_set_rally_point_1_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为$rally_point_1$，那么将被自动取消集结点。"
 
- edict_set_rally_point_2:0 "指定为2号集结点"
- edict_set_rally_point_2_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为2号集结点，那么将被自动取消集结点。"
+ edict_set_rally_point_2:0 "指定为$rally_point_2$"
+ edict_set_rally_point_2_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为$rally_point_2$，那么将被自动取消集结点。"
  
- edict_set_rally_point_3:0 "指定为3号集结点"
- edict_set_rally_point_3_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为3号集结点，那么将被自动取消集结点。"
+ edict_set_rally_point_3:0 "指定为$rally_point_3$"
+ edict_set_rally_point_3_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为$rally_point_3$，那么将被自动取消集结点。"
   
- edict_send_to_rally_point_1:0 "运送到1号集结点" 
- edict_send_to_rally_point_1_desc:0 "本星球所有建造的舰船将自动前往1号集结点。"
+ edict_send_to_rally_point_1:0 "运送到$rally_point_1$" 
+ edict_send_to_rally_point_1_desc:0 "本星球所有建造的舰船将自动前往$rally_point_1$。"
 
- edict_send_to_rally_point_2:0 "运送到2号集结点"
- edict_send_to_rally_point_2_desc:0 "本星球所有建造的舰船将自动前往2号集结点。"
+ edict_send_to_rally_point_2:0 "运送到$rally_point_2$"
+ edict_send_to_rally_point_2_desc:0 "本星球所有建造的舰船将自动前往$rally_point_2$。"
 
- edict_send_to_rally_point_3:0 "运送到3号集结点"
- edict_send_to_rally_point_3_desc:0 "本星球所有建造的舰船将自动前往3号集结点。"
+ edict_send_to_rally_point_3:0 "运送到$rally_point_3$"
+ edict_send_to_rally_point_3_desc:0 "本星球所有建造的舰船将自动前往$rally_point_3$。"
 
  edict_clear_rally_point:0 "清除所有集结点"
  edict_clear_rally_point_desc:0 "这条法令将清除现有的所有集结点。"
