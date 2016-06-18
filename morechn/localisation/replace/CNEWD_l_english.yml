@@ -29,8 +29,8 @@
  war_demand_humiliate_default_tooltip_proper_content:1 "$war_demand_humiliate_default_tooltip_content$"
  
 #Payment Demands
- war_demand_not_enough_energy:0 "这个国家没有足够的£energy能源。"
- war_demand_not_enough_minerals:0 "这个国家没有足够的£minerals矿物。"
+ war_demand_not_enough_energy:0 "这个国家没有足够的£energy 能源。"
+ war_demand_not_enough_minerals:0 "这个国家没有足够的£minerals 矿物。"
  
  DEMAND_GIVE_ENERGY_1:0 "强迫能源1"
  DEMAND_GIVE_ENERGY_1_TITLE:0 "§Y强迫 $COUNTRY|H$ 支付能源§!"
@@ -39,9 +39,9 @@
  war_demand_give_energy_1_header:0 "§Y支付能源1§!"
  war_demand_give_energy_1_subtext:0 "[parameter:country.GetName]"
  war_demand_give_energy_1_tooltip_header:0 "$war_demand_give_energy_1_header$"
- war_demand_give_energy_1_tooltip_content:0 "强迫 [parameter:country.GetName] 支付£energy能源。"
+ war_demand_give_energy_1_tooltip_content:0 "强迫 [parameter:country.GetName] 支付£energy 能源。"
  war_demand_give_energy_1_tooltip_proper_header:0 "$war_demand_give_energy_1_header$"
- war_demand_give_energy_1_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付£energy能源给 [GetCountry.GetName]。"
+ war_demand_give_energy_1_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付£energy 能源给 [GetCountry.GetName]。"
  
  DEMAND_GIVE_ENERGY_2:0 "强迫能源2"
  DEMAND_GIVE_ENERGY_2_TITLE:0 "§Y强迫 $COUNTRY|H$ 支付大量的能源§!"
@@ -50,9 +50,9 @@
  war_demand_give_energy_2_header:0 "§Y支付能源2§!"
  war_demand_give_energy_2_subtext:0 "[parameter:country.GetName]"
  war_demand_give_energy_2_tooltip_header:0 "$war_demand_give_energy_2_header$"
- war_demand_give_energy_2_tooltip_content:0 "强迫 [parameter:country.GetName] 支付大量的£energy能源"
+ war_demand_give_energy_2_tooltip_content:0 "强迫 [parameter:country.GetName] 支付大量的£energy 能源"
  war_demand_give_energy_2_tooltip_proper_header:0 "$war_demand_give_energy_2_header$"
- war_demand_give_energy_2_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付大量的£energy能源给 [GetCountry.GetName]。"
+ war_demand_give_energy_2_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付大量的£energy 能源给 [GetCountry.GetName]。"
  
  DEMAND_GIVE_ENERGY_3:0 "强迫能源3"
  DEMAND_GIVE_ENERGY_3_TITLE:0 "§Y强迫 $COUNTRY|H$ 支付巨额的能源§!"
@@ -61,9 +61,9 @@
  war_demand_give_energy_3_header:0 "§Y支付能源3§!"
  war_demand_give_energy_3_subtext:0 "[parameter:country.GetName]"
  war_demand_give_energy_3_tooltip_header:0 "$war_demand_give_energy_3_header$"
- war_demand_give_energy_3_tooltip_content:0 "强迫 [parameter:country.GetName] 支付巨额的£energy能源"
+ war_demand_give_energy_3_tooltip_content:0 "强迫 [parameter:country.GetName] 支付巨额的£energy 能源"
  war_demand_give_energy_3_tooltip_proper_header:0 "$war_demand_give_energy_3_header$"
- war_demand_give_energy_3_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付巨额的£energy能源给 [GetCountry.GetName]。"
+ war_demand_give_energy_3_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付巨额的£energy 能源给 [GetCountry.GetName]。"
  
  DEMAND_GIVE_MINERALS_1:0 "强迫矿物1"
  DEMAND_GIVE_MINERALS_1_TITLE:0 "§Y强迫 $COUNTRY|H$ 支付矿物§!"
@@ -72,9 +72,9 @@
  war_demand_give_minerals_1_header:0 "§Y支付矿物1§!"
  war_demand_give_minerals_1_subtext:0 "[parameter:country.GetName]"
  war_demand_give_minerals_1_tooltip_header:0 "$war_demand_give_minerals_1_header$"
- war_demand_give_minerals_1_tooltip_content:0 "强迫 [parameter:country.GetName] 支付£minerals矿物。"
+ war_demand_give_minerals_1_tooltip_content:0 "强迫 [parameter:country.GetName] 支付£minerals 矿物。"
  war_demand_give_minerals_1_tooltip_proper_header:0 "$war_demand_give_minerals_1_header$"
- war_demand_give_minerals_1_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付£minerals矿物给 [GetCountry.GetName]。"
+ war_demand_give_minerals_1_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付£minerals 矿物给 [GetCountry.GetName]。"
  
  DEMAND_GIVE_MINERALS_2:0 "强迫矿物2"
  DEMAND_GIVE_MINERALS_2_TITLE:0 "§Y强迫 $COUNTRY|H$ 支付大量的矿物§!"
@@ -83,9 +83,9 @@
  war_demand_give_minerals_2_header:0 "§Y支付矿物2§!"
  war_demand_give_minerals_2_subtext:0 "[parameter:country.GetName]"
  war_demand_give_minerals_2_tooltip_header:0 "$war_demand_give_minerals_2_header$"
- war_demand_give_minerals_2_tooltip_content:0 "强迫 [parameter:country.GetName] 支付大量的£minerals矿物。"
+ war_demand_give_minerals_2_tooltip_content:0 "强迫 [parameter:country.GetName] 支付大量的£minerals 矿物。"
  war_demand_give_minerals_2_tooltip_proper_header:0 "$war_demand_give_minerals_2_header$"
- war_demand_give_minerals_2_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付大量的£minerals矿物给 [GetCountry.GetName]。"
+ war_demand_give_minerals_2_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付大量的£minerals 矿物给 [GetCountry.GetName]。"
  
  DEMAND_GIVE_MINERALS_3:0 "强迫矿物3"
  DEMAND_GIVE_MINERALS_3_TITLE:0 "§Y强迫 $COUNTRY|H$ 支付巨额的矿物§!"
@@ -94,9 +94,9 @@
  war_demand_give_minerals_3_header:0 "§Y支付矿物3§!"
  war_demand_give_minerals_3_subtext:0 "[parameter:country.GetName]"
  war_demand_give_minerals_3_tooltip_header:0 "$war_demand_give_minerals_3_header$"
- war_demand_give_minerals_3_tooltip_content:0 "强迫 [parameter:country.GetName] 支付巨额的£minerals矿物。"
+ war_demand_give_minerals_3_tooltip_content:0 "强迫 [parameter:country.GetName] 支付巨额的£minerals 矿物。"
  war_demand_give_minerals_3_tooltip_proper_header:0 "$war_demand_give_minerals_3_header$"
- war_demand_give_minerals_3_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付巨额的£minerals矿物给 [GetCountry.GetName]。"
+ war_demand_give_minerals_3_tooltip_proper_content:0 "强迫 [parameter:country.GetName] 支付巨额的£minerals 矿物给 [GetCountry.GetName]。"
  
 #Forced Policy Demands
 
