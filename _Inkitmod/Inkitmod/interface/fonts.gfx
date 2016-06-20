@@ -1,0 +1,185 @@
+#H = { 253 169 38 }	Tooltip orange
+#color = 0xffffffff	#format is 0xaarrggbb
+#G = { 41 225 38 255 } #format is red green blue alpha
+#textcolors = {} is global for all fonts. changing this in one font will also change it for all others
+
+		# L = Lore text, not relevant game info, just fun to know backstory info
+		# G = Green, used for numbers that are positiv modifiers		
+		# R = Red, used for negative modifier 
+		# Y = Yellow, to be used for stuff that is sub optimal or for certain highlights
+		# H = Highlight, Orange in Game
+		# T = Text, standard for all text, to be used if ALL text needs tweaking
+		# E = Standard green, used with large chunks of texts, such as events and advisor
+		# S = Subtitle highlight (light green in this case)
+		# M = Magenta. Indicator for "Rare Techs".
+
+
+
+
+bitmapfonts = {
+
+	# Global colors
+	textcolors = {
+		M = { 163 53 238 }
+		L = { 195 176 145 }
+		G = { 41 225 38 }
+		R = { 242 86 70 }
+		B = { 51 167 255 }
+		Y = { 247 252 52 }
+		H = { 251 170 41 }
+		T = { 255 255 255 }
+		E = { 135 255 207 }
+		S = { 228 156 42 }
+		W = { 255 255 255 }
+		g = { 128 128 128 }
+		l = { 51 167 255 }
+	}
+
+	bitmapfont = {
+		name = "standard_font"
+		path = "gfx/fonts/cn/common"
+		color = 0xffffffff
+	}
+
+	
+	bitmapfont = {
+		name = "large_title_font"
+		path = "gfx/fonts/cn/orbitron"
+		color = 0xffffffff
+	}
+	
+	bitmapfont_override = {
+		name = "large_title_font"
+		fontfiles = { 
+			"gfx/fonts/cg_34"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+	
+	bitmapfont = {
+		name = "large_title_font_28"
+		path = "gfx/fonts/cn/orbitron_28"
+		color = 0xffffffff
+	}
+	
+	bitmapfont_override = {
+		name = "large_title_font_28"
+		fontfiles = { 
+			"gfx/fonts/cg_22"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+		
+	bitmapfont = {
+		name = "cg_16b"
+		color = 0xffffffff
+		fontfiles = {  
+			"gfx/fonts/cn/cg_16b"
+		}  
+		color = 0xffffffff
+		cursor_offset = { -3 -5 }
+		selection_offset = { 0 3 }
+	}
+		
+	 bitmapfont_override = {
+		name = "cg_16b"
+		fontfiles = { 
+			"gfx/fonts/stellaris_main"
+		}
+		languages = { "l_russian" "l_polish" } 
+	 }
+	
+	
+#	bitmapfont = {
+#		name = "hoi4_typewriter16"
+#		fontfiles = {  
+#			"gfx/fonts/hoi4_typewriter16"
+#		}  
+#		color = 0xffffffff
+#
+#		textcolors = {
+#			G = { 86 172 91 }
+#			R = { 222 86 70 }
+#			Y = { 238 201 35 }
+#			H = { 238 201 35 }
+#			T = { 255 255 255 }
+#		}
+#	}
+#
+#	 bitmapfont_override = {
+#		name = "hoi4_typewriter16"
+#		fontfiles = { 
+#			"gfx/fonts/hoi_16typewriter"
+#			"gfx/fonts/hoi_16typewriter_cryllic"
+#		}
+#		languages = { "l_russian" "l_polish" } 
+#	 }
+		
+	bitmapfont = {
+		name = "hoi_16mbs"
+		path = "gfx/fonts/cn/hoi_16mbs"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "malgun_goth_24"
+		path = "gfx/fonts/cn/malgun_goth_24"
+		color = 0xffffffff
+		cursor_offset = { -4 -3 }
+		selection_offset = { 0 1 }
+	}	
+
+	bitmapfont_override = {
+		name = "malgun_goth_24"
+		fontfiles = { 
+			"gfx/fonts/cg_22"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+	
+	### MAP NAME FONTS ###
+	bitmapfont = {
+		name = "map_name_border"
+		path = "gfx/fonts/cn/orbitron"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "map_name_nebula"
+		path = "gfx/fonts/cn/orbitron"
+		color = 0xffffffff
+	}		
+	
+	bitmapfont = {
+		name = "map_name_sector"
+		path = "gfx/fonts/cn/orbitron"
+		color = 0xffffffff
+	}	
+
+	
+	
+	bitmapfont_override = {
+		name = "map_name_border"
+		fontfiles = { 
+			"gfx/fonts/cg_34"
+		}
+		languages = { "l_russian" "l_polish" } 
+	 }
+	
+	bitmapfont_override = {
+		name = "map_name_nebula"
+		fontfiles = { 
+			"gfx/fonts/cg_34"
+		}
+		languages = { "l_russian" "l_polish" } 
+	 }	
+	
+	bitmapfont_override = {
+		name = "map_name_sector"
+		fontfiles = { 
+			"gfx/fonts/cg_34"
+		}
+		languages = { "l_russian" "l_polish" } 
+	}
+}
+

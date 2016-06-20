@@ -1,0 +1,106 @@
+﻿l_english:
+
+ building_power_relay_d:0 "继电站"
+ building_irrigation_system_d:0 "灌溉系统"
+ building_mining_barracks_d:0 "采矿营地"
+ building_combo_food_power_d:0 "太阳能收割机"
+ building_combo_mineral_power_d:0 "多功能热电站"
+ building_combo_mineral_food_d:0 "生化采石场"
+ building_science_campus_phys_d:0 "物理学院"
+ building_science_campus_soc_d:0 "生物学院"
+ building_science_campus_eng_d:0 "工程学院"
+ tech_genetic_restructuring_d:0 "基因重组"
+  
+ ##################################################
+# Other FTL types
+# Coded by Remanemporor
+# Last updated 5/18/16
+##################################################
+ WARP_DRIVE_SPOOF_1:0 "$WARP_DRIVE_SPOOF_d$ I"
+ WARP_DRIVE_SPOOF_1_DESC:0 "扭曲引擎必须在星系边缘才能启动FTL，但星系之间的路线可以自由规划."
+ WARP_DRIVE_SPOOF_2:0 "$WARP_DRIVE_SPOOF_d$ II"
+ WARP_DRIVE_SPOOF_2_DESC:0 "$WARP_DRIVE_1_DESC$"
+ WARP_DRIVE_SPOOF_3:0 "$WARP_DRIVE_SPOOF_d$ III"
+ WARP_DRIVE_SPOOF_3_DESC:0 "$WARP_DRIVE_1_DESC$"
+ HYPER_DRIVE_SPOOF_1:0 "$HYPER_DRIVE_SPOOF_d$ I"
+ HYPER_DRIVE_SPOOF_1_DESC:0 "$HYPER_DRIVE_SPOOF_d$只能沿着星系之间的超光速通道跳跃，但可以在星系中的任何地方开始FTL."
+ HYPER_DRIVE_SPOOF_2:0 "$HYPER_DRIVE_SPOOF_d$ II"
+ HYPER_DRIVE_SPOOF_2_DESC:0 "$HYPER_DRIVE_1_DESC$"
+ HYPER_DRIVE_SPOOF_3:0 "$HYPER_DRIVE_SPOOF_d$ III"
+ HYPER_DRIVE_SPOOF_3_DESC:0 "$HYPER_DRIVE_1_DESC$"
+ WORMHOLE_SPOOF:0 "虫洞引擎"
+ WORMHOLE_SPOOF_DESC:0 "有着虫洞调制器的船可以快速的通过由虫洞连接的两星系，但虫洞发生器是有成本的."
+ 
+ tech_wormhole_spoof_generation_1:0 "$WORMHOLE_SPOOF$ I"
+ tech_wormhole_spoof_generation_1_desc:0 "$WORMHOLE_SPOOF_DESC$"
+ tech_wormhole_spoof_generation_2:0 "$WORMHOLE_SPOOF$ II"
+ tech_wormhole_spoof_generation_2_desc:0 "$tech_wormhole_spoof_generation_1_desc$"
+ tech_wormhole_spoof_generation_3:0 "$WORMHOLE_SPOOF$ III"
+ tech_wormhole_spoof_generation_3_desc:0 "$tech_wormhole_spoof_generation_1_desc$"
+ tech_hyper_drive_spoof_1:0 "$HYPER_DRIVE_SPOOF_1$"
+ tech_hyper_drive_spoof_1_desc:0 "$HYPER_DRIVE_1_DESC$"
+ tech_hyper_drive_spoof_2:0 "$HYPER_DRIVE_SPOOF_2$"
+ tech_hyper_drive_spoof_2_desc:0 "$HYPER_DRIVE_1_DESC$"
+ tech_hyper_drive_spoof_3:0 "$HYPER_DRIVE_SPOOF_3$"
+ tech_hyper_drive_spoof_3_desc:0 "$HYPER_DRIVE_1_DESC$"
+ tech_warp_drive_spoof_1:0 "$WARP_DRIVE_SPOOF_1$"
+ tech_warp_drive_spoof_1_desc:0 "$WARP_DRIVE_1_DESC$"
+ tech_warp_drive_spoof_2:0 "$WARP_DRIVE_SPOOF_2$"
+ tech_warp_drive_spoof_2_desc:0 "$WARP_DRIVE_1_DESC$"
+ tech_warp_drive_spoof_3:0 "$WARP_DRIVE_SPOOF_3$"
+ tech_warp_drive_spoof_3_desc:0 "$WARP_DRIVE_1_DESC$"
+ 
+ TECH_UNLOCK_HYPERDRIVE_1_SPOOF_TITLE:0 "$HYPER_DRIVE_SPOOF_d$ I"
+ TECH_UNLOCK_HYPERDRIVE_1_SPOOF_DESC:0 "§H$HYPER_DRIVE_SPOOF_d$ I§!\n$tech_hyper_drive_1_desc$"
+ TECH_UNLOCK_HYPERDRIVE_2_SPOOF_TITLE:0 "$HYPER_DRIVE_SPOOF_d$ II"
+ TECH_UNLOCK_HYPERDRIVE_2_SPOOF_DESC:0 "§H$HYPER_DRIVE_SPOOF_d$ II§!\n$tech_hyper_drive_2_desc$"
+ TECH_UNLOCK_HYPERDRIVE_3_SPOOF_TITLE:0 "$HYPER_DRIVE_SPOOF_d$ III"
+ TECH_UNLOCK_HYPERDRIVE_3_SPOOF_DESC:0 "§H$HYPER_DRIVE_SPOOF_d$ III§!\n$tech_hyper_drive_3_desc$"
+ TECH_UNLOCK_WARPDRIVE_1_SPOOF_TITLE:0 "$WARP_DRIVE_SPOOF_d$ I"
+ TECH_UNLOCK_WARPDRIVE_1_SPOOF_DESC:0 "§H$WARP_DRIVE_SPOOF_d$ I§!\n$tech_warp_drive_1_desc$"
+ TECH_UNLOCK_WARPDRIVE_2_SPOOF_TITLE:0 "$WARP_DRIVE_SPOOF_d$ II"
+ TECH_UNLOCK_WARPDRIVE_2_SPOOF_DESC:0 "§H$WARP_DRIVE_SPOOF_d$ II§!\n$tech_warp_drive_2_desc$"
+ TECH_UNLOCK_WARPDRIVE_3_SPOOF_TITLE:0 "$WARP_DRIVE_SPOOF_d$ III"
+ TECH_UNLOCK_WARPDRIVE_3_SPOOF_DESC:0 "§H$WARP_DRIVE_SPOOF_d$ III§!\n$tech_warp_drive_3_desc$"
+ TECH_UNLOCK_WORMHOLE_1_SPOOF_TITLE:0 "§H解锁点站:§! 虫洞"
+ TECH_UNLOCK_WORMHOLE_1_SPOOF_DESC:0 "§H虫洞§!\n$tech_wormhole_generation_1_desc$"
+ 
+  
+ WARP_DRIVE_SPOOF_d:0 "扭曲引擎"
+ HYPER_DRIVE_SPOOF_d:0 "超空间引擎"
+ TECH_UNLOCK_HYPERDRIVE_1_SPOOF_TITLEd:0 "§H解锁零件:§! $HYPER_DRIVE_SPOOF_d$"
+ TECH_UNLOCK_WARPDRIVE_1_SPOOF_TITLEd:0 "§H解锁零件:§! $WARP_DRIVE_SPOOF_d$"
+  
+ tech_mineral_processing_3_new:"行星地幔开发"
+ tech_mineral_processing_2_desc:0 "更先进的精炼技术和更多的能量可以用于创造材料，这在以前是梦一样的."
+ 
+ tech_orbital_foundry:"轨道铸造厂"
+ tech_orbital_foundry_desc:"许多高科技零件可以在零重力环境高效的制造了."
+ building_forum_1:0 "星球论坛"
+ building_forum_2:0 "恒星论坛"
+ building_forum_3:0 "星系论坛"
+ building_forum_1_desc:0 "论坛是讨论星系事件的地方，可以稍微提高你的影响力."
+ building_forum_2_desc:0 "$building_forum_1_desc$"
+ building_forum_3_desc:0 "$building_forum_1_desc$"
+
+ tech_power_hub_3_new:"恒星电网平衡"
+ tech_power_hub_2_desc:0 "利用最先进的能量中继技术，我们可以将能量传输的更远、损失的更少."
+
+ 
+ 
+ tech_molten_colonization:0 "熔岩殖民"
+ tech_molten_colonization_desc:0 "通过伟大的工程学，我们可以在熔岩世界创建独立的机器人前哨."
+ tech_barren_colonization:0 "荒芜殖民"
+ tech_barren_colonization_desc:0 "通过开发新的阳光防护技术，我们可以在贫瘠世界建立前哨."
+ tech_barren_cold_colonization:0 "寒冷殖民"
+ tech_barren_cold_colonization_desc:0 "建立超坚固避难所使得我们可以在寒冷世界殖民."
+ tech_toxic_colonization:0 "毒气殖民"
+ tech_toxic_colonization_desc:0 "通过超高密度铀合金技术，使得我们可以在极度恶劣的毒气环境殖民."
+ tech_frozen_colonization:0 "冰冻殖民"
+ tech_frozen_colonization_desc:0 "使用先进的保温和加热技术，使得我们可以在极其寒冷的地区殖民."
+
+
+ ROBOT_POP_SPECIES_0:0 "外星机器人"
+ buildable_robot_pop_0:0 "$ROBOT_POP_SPECIES_0$"
+ buildable_robot_pop_0_desc:0 "$trait_robotic_1_desc$"
+ 

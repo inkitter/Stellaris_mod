@@ -1,5 +1,0 @@
-name="%Better Sector Mod"
-archive="mod/Better Sector Mod"
-picture="thumbnail.jpg"
-remote_file_id="682730778"
-supported_version="1.1"

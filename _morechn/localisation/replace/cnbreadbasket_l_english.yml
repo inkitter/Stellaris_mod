@@ -1,0 +1,49 @@
+﻿l_english:
+
+ ############################
+ # Bread Basket Mod!      
+ # Translated by Garfeineko 3DM@春天的园草
+ # http://steamcommunity.com/sharedfiles/filedetails/?id=690067609
+ ############################
+ 
+ #Resource
+ stored_food:0 "储存的食物"
+ stored_food_desc:0 "§E§H储存的食物§! (£stored_food )是一种为了便于长期储存和运输而进行脱水处理后的§E§H食物§! (£food )，并常以营养块的方式存在。虽然频繁的将食物脱水和水化会消耗大量的能源，但在大宗食物的星际运输中却是最廉价和最可靠的方式。"
+ 
+ #Buildings
+ building_dehydrator:0 "食物脱水作坊（脱水I级）"
+ building_dehydrator_desc:0 "这个作坊可以将水果、蔬菜、谷物、肉类、鱼类、藻类和鲜活的小动物们（额..）身上的水分通过高效的方式脱出，然后压成便于运输的高能营养块。营养块有"天然”和"合成”两种类型，不过大部分消费者会选择"合成”的，毕竟可以同时补充多种营养成分。"
+ 
+ building_dehydrator_2:0 "流水线脱水装置（脱水II级）"
+ building_dehydrator_2_desc:0 "流水线模式使得将大量食物进行脱水处理成为可能。通过工业脱水，成为木乃伊再也不是法老的专利！"
+ 
+ building_dehydrator_3:0 "出口枢纽（脱水III级）"
+ building_dehydrator_3_desc:0 "出口枢纽收购这个星球的农产品并将其脱水、压成规定的形式储存在地下冷库中。这些产品将由货运飞船送往需要食物的星球。"
+ 
+ building_dehydrator_4:0 "营养合成厂（脱水IV级）"
+ building_dehydrator_4_desc:0 "这个广袤土地上的各类食物都将被带到这碾碎、均质化处理、脱水，然后打包成一个个充满有机物的货柜，通过工厂自己的质量加速器直接投射到轨道上等待的货运飞船上。"
+ 
+ building_rehydrator:0 "营养块水化作坊（水化I级）"
+ building_rehydrator_desc:0 "被打包成营养块的脱水食物在这里能够被再水化成可食用的食物。消费者们如果能说服自己相信摆在自己面前充满物质的小灰块是真正的食物而不是什么藻类原料的话，兴许会在这数百种口味里面找到自己喜欢的哦~"
+ 
+ building_rehydrator_2:0 "营养直营店（水化II级）"
+ building_rehydrator_2_desc:0 "营养块在中央工厂重新水化后，被运到星球各地的直营店。有预先设定好的口味，也有大量附加的调料包。这么做的目的就是为了填饱这个星球上工作在新兴产业里的人们。"
+ 
+ building_rehydrator_3:0 "营养特许经销商（水化III级）"
+ building_rehydrator_3_desc:0 "现在在这个星球上，不仅仅只有一家大超市，特许经营的网点遍布全球。他们售卖各类的营养块。许多预设的营养块拥有多种人气的口味、形状，甚至RP好的时候还可以选择口感哦亲。"
+ 
+ building_rehydrator_4:0 "环球广场（水化IV级）"
+ building_rehydrator_4_desc:0 "这是一个餐饮巨头的心脏，是一个吸引各类餐厅和本土购物中心入驻的综合性商业广场，可以满足哪怕是最伟大的特大城市。有传言说这些食品复制器能够使用营养块生产出宇宙中的各类食物……除了中国菜。"
+
+ #Tech
+ tech_food_preservation:0 "食物保鲜"
+ tech_food_preservation_desc:0 "先进的保鲜技术如脱水处理使得星际间的食物供应成为可能。这同样说明了"农业大球”的可行性。"
+ 
+ tech_food_preservation_2:0 "食品分销网络"
+ tech_food_preservation_2_desc:0 "从上百万的农场或者种植园里收集作物并非易事，把这些加工过的食品分配到全球平民的手中亦是如此。严谨的"金字塔”构造配合民营企业能够确保不管多远星球上的饥民都能饱腹。"
+ 
+ tech_food_preservation_3:0 "食品供应链"
+ tech_food_preservation_3_desc:0 "可以让食品进行长途运输是一回事，运抵后是不是完好的又是另一回事。大量的民营货船能够确保即使有个别货物因为海盗或者政府部门马大哈而半路失踪，也不至于让数百万人等不到下一批食品而饿死。"
+ 
+ tech_food_preservation_4:0 "食品复制器"
+ tech_food_preservation_4_desc:0 "高级工程学的成果，使得食物得以复制。"

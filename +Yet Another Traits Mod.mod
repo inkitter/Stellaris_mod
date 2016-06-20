@@ -1,0 +1,5 @@
+name="+Yet Another Traits Mod"
+archive="mod/_Inkitmod/Yet Another Traits Mod.zip"
+picture="Traits.png"
+remote_file_id="682239360"
+supported_version="1.1"

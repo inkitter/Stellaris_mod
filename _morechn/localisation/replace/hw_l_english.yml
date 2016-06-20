@@ -1,0 +1,49 @@
+﻿l_english:
+ 
+ ############################
+ # Hungry World Mod!        #
+ # Made by Garfeineko       #
+ ############################
+ 
+#Resource
+jinkela: "金坷垃"
+jinkela_desc: "掺了§E§H金坷垃§!(£jinkela )，不流失，不蒸发，零浪费！我们国家的§E§H食物§!(£food )再也不用向外星人进口啦！"
+ 
+#spacebase module
+sm_jinkela_out1: "§W坷垃作坊§!"
+sm_jinkela_out2: "§B坷垃工厂§!"
+sm_jinkela_out3: "§M坷垃招商局§!"
+sm_jinkela_out4: "§R坷垃原子研究所§!"
+sm_jinkela_out5: "§S圣地亚哥出口集团§!"
+
+sm_jinkela_in1: "§W坷垃小卖部§!"
+sm_jinkela_in2: "§B坷垃商城§!"
+sm_jinkela_in3: "§M坷垃广场§!"
+sm_jinkela_in4: "§R坷垃氮磷钾商圈§!"
+sm_jinkela_in5: "§S圣地亚哥核武中心§!"
+
+
+#Tech
+jinkela1: "抢坷垃要跑得快"
+jinkela1_desc: "§E§H金坷垃§!(£jinkela )！金坷垃！我们的！我们的！"
+ 
+jinkela2: "钦点坷垃"
+jinkela2_desc: "我要§E§H金坷垃§!(£jinkela )！非洲农业不发达，必须要有金坷垃！日本资源太缺乏，必须要有金坷垃！"
+
+jinkela3: "掺坷垃也要按照基本法"
+jinkela3_desc: "掺了§E§H金坷垃§!(£jinkela )，不流失，不蒸发，零浪费！能吸收两米下的氮磷钾！"
+
+jinkela4: "谈笑风生"
+jinkela4_desc: "世界肥料都涨价，肥料掺了§E§H金坷垃§!(£jinkela )，一袋能顶两袋撒！日本的粮食再也不向爸爸进口啦~"
+
+jinkela5: "大新闻"
+jinkela5_desc: "§E§H金坷垃§!(£jinkela )在我国最高机密中与核武器并列第一！"
+
+#Building
+aijinkela: "四维坷垃传送器"
+aijinkela_desc: "置放在外星文明首都的四维传送器，专门给当地人民提供金坷垃。然而传送的对面似乎是高维生物，或许听从当年的消息拆毁这幢建筑、避免现在与他们打交道是最明智的选择。"
+
+#Event
+hwstart.1.title: "欢迎来到饥饿的世界"
+hwstart.1.desc: "传感器传来的消息证实这是一个缺乏食物的宇宙，但却不能阻挡人们探索外太空的好奇心。\n\n你可以在你的空间站中修建§E§H金坷垃§!(£jinkela )生产模块来维持高级建筑的运转和跨星球食物运输。高级的金坷垃生产模块则需要进一步研究生物科技。\n\n此外，我们收到了宇宙的某些星球上存在不明的四维金坷垃传送装置的消息。但为了你人民的安全，请在占领后立即拆毁、以防止高维生物的降维打击。\n\n祝你好运！"
+hwstart.1.a: "真是个操蛋的消息。"

@@ -1,0 +1,5 @@
+name="0Civilian Trade"
+archive="mod/_Inkitmod/civ_trade.zip"
+picture="civtrade icon.jpg"
+remote_file_id="693402022"
+supported_version="1.1"

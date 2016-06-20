@@ -1,5 +1,0 @@
-name="%Planetary Rally Points"
-archive="mod/Planetary Rally Points"
-picture="thumbnail.jpg"
-remote_file_id="693310104"
-supported_version="1.1"

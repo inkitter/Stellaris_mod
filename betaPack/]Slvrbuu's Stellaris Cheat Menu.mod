@@ -1,5 +1,0 @@
-name="]Slvrbuu's Stellaris Cheat Menu"
-archive="mod/Slvrbuu's Stellaris Cheat Menu"
-picture="thumb.jpg"
-remote_file_id="681947845"
-supported_version="1.1"

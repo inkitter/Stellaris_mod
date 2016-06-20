@@ -1,5 +1,0 @@
-name="Research All FTL"
-archive="mod/Research All FTL"
-picture="AllFTLthumb.png"
-remote_file_id="682207869"
-supported_version="1.1"

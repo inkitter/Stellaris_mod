@@ -1,5 +1,0 @@
-name="%Change Capital Planet"
-archive="mod/Change Capital Planet"
-picture="image.png"
-remote_file_id="695883812"
-supported_version="1.1"
