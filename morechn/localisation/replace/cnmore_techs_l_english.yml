@@ -657,35 +657,35 @@
  #
  #####################################################################################
  
- building_advanced_infrastructure:0 "Advanced Infrastructure"
- building_advanced_infrastructure_desc:0 "A significant planet buildup suitable to be upgraded to adjacency buildings."
+ building_advanced_infrastructure:0 "高级基础建设"
+ building_advanced_infrastructure_desc:0 "使行星更适合建造高等级建筑。"
  
- TECH_UNLOCK_RINGWORLD_REPAIR: "§HUnlocks Feature:§! Ringworld Repair"
- TECH_UNLOCK_RINGWORLD_REPAIR_DESC: "§HRingworld Repair§!\nAllows us to repair damaged ringworlds."
+ TECH_UNLOCK_RINGWORLD_REPAIR: "§H解锁特性:§! 圆环修理"
+ TECH_UNLOCK_RINGWORLD_REPAIR_DESC: "§H圆环修理§!\n允许你修理损坏的圆环。"
  
- tech_extragalactic_commwaves:0 "Extragalactic Commwaves"
- tech_extragalactic_commwaves_desc:0 "Our more powerful sensors have started picking up stray radio waves from nearby galaxies. Examining these transmissions may give us new perspectives.\n\n"
- TECH_UNLOCK_MUSIC_PACK_ONE:0 "§HUnlocks Feature:§! Music Pack 1"
- TECH_UNLOCK_MUSIC_PACK_ONE_DESC:0 "§HMusic Pack 1§!\nContains sounds from Endless Space, Mass Effect, Stellar Drone, and Alien Hand."
+ tech_extragalactic_commwaves:0 "外星系通讯"
+ tech_extragalactic_commwaves_desc:0 "我们更强大的传感器可以从临近星系检测无线电波，可能使我们获得新的信息。\n\n"
+ TECH_UNLOCK_MUSIC_PACK_ONE:0 "§H解锁特性:§! 音乐包 1"
+ TECH_UNLOCK_MUSIC_PACK_ONE_DESC:0 "§H音乐包 1§!\nEndless Space, Mass Effect, Stellar Drone, and Alien Hand游戏中的音乐。"
  
- tech_stellar_raiding:0 "Stellar Raiding"
- tech_stellar_raiding_desc:0 "Our enemies are ripe for plundering. We should exploit them for our benefit.\n\n"
- TECH_UNLOCK_RAIDING_WARGOAL_TYPES_TITLE:0 "§HUnlocks Feature:§! Raiding Wargoals"
- TECH_UNLOCK_RAIDING_WARGOAL_TYPES_DESC:0 "§HRaiding Wargoal Types§!\nAllows us to use wargoals to take energy, minerals, or research from our enemies."
+ tech_stellar_raiding:0 "恒星突袭"
+ tech_stellar_raiding_desc:0 "是时候收割敌人了，我们应该利用他们获取利益。\n\n"
+ TECH_UNLOCK_RAIDING_WARGOAL_TYPES_TITLE:0 "§H解锁特性:§! 突袭目的"
+ TECH_UNLOCK_RAIDING_WARGOAL_TYPES_DESC:0 "§H战争目标：突袭目的§!\n允许我们从战争目标的恒星获取能源、矿产、研究。"
  
  tech_federation_disestablishment:0 "Federation Disestablishment"
  tech_federation_disestablishment_desc:0 "The proliferation of alliances across the galaxy is threatening our interests. It's time to eliminate them.\n\n"
- TECH_UNLOCK_FEDERATION_WARGOAL_TYPES_TITLE:0 "§HUnlocks Feature:§! Force Sphere Wargoal"
+ TECH_UNLOCK_FEDERATION_WARGOAL_TYPES_TITLE:0 "§H解锁特性:§! Force Sphere Wargoal"
  TECH_UNLOCK_FEDERATION_WARGOAL_TYPES_DESC:0 "§HForce Sphere Wargoal§!\nAllows us to use the Force Sphere Wargoal, removing a nation from any federations or alliances and preventing them from entering any others for 10 years. Also gives us sensor and military access for the duration."
  
  SEPARATOR:0 "---"
  tech_xenoplague:0 "The Xenoplague"
  tech_xenoplague_desc:1 "Our advancements in the fields of morphogenesis and gene tailoring have opened Pandora's box. The atmospheric dispensation of these newly created neuro-infectious agents would be lethal to all higher forms of life we know, excluding our own species. This technology unlocks the 'Xenoplague' war goal. \n\n"
- TECH_XENOPLAGUE_WARGOAL_TYPES_TITLE:0 "§HUnlocks Feature:§! Xenoplague Wargoal"
+ TECH_XENOPLAGUE_WARGOAL_TYPES_TITLE:0 "§H解锁特性:§! Xenoplague Wargoal"
  TECH_XENOPLAGUE_WARGOAL_TYPES_DESC:0 "§HXenoplague Wargoal§!\nThis wargoal will completely eliminate all organic life in the enemy empire. This is an extremely infamous thing to do, and will lead to a permanent breakdown with all other nations."
  tech_military_supremacy:0 "Total Military Supremacy"   
  tech_military_supremacy_desc:1 "Our superior administration and devotion to military thought has produced a society of grandious warriors and rulers. With our improved infrastructure, galaxy-wide propaganda and unquestioned unity we can now wage wars of utter destruction and can annex whole empires with just a few salvos of our terrible warships. This technology unlocks the 'Supremacy' wargoal. \n\n "
- TECH_SUPREMACY_WARGOAL_TYPES_TITLE:0 "§HUnlocks Feature:§! Supremacy Wargoal"
+ TECH_SUPREMACY_WARGOAL_TYPES_TITLE:0 "§H解锁特性:§! Supremacy Wargoal"
  TECH_SUPREMACY_WARGOAL_TYPES_DESC:0 "§HSupremacy Wargoal§!\nThis wargoal will allow us to completely annex an entire nation in one war, regardless of size. However, it is very infamous to do so, and will permanently lead to a breakdown of diplomacy with all other nations."
  
  DEMAND_FITZ_FORCE_FREE_THOUGHTS:0 "§GForce Free Thoughts§!"
