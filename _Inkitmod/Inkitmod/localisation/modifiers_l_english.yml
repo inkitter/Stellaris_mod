@@ -9,6 +9,7 @@
  MOD_COUNTRY_BORDER_MULT:0 "边界范围"
  MOD_COUNTRY_INFLUENCE_GAIN_ADD:0 "每月影响"
  MOD_COUNTRY_INFLUENCE_GAIN_MULT:0 "每月影响"
+ MOD_COUNTRY_TRUST_GROWTH:0 "信任增长"
  MOD_COUNTRY_EDICT_INFLUENCE_COST:0 "法令花费"
  MOD_COUNTRY_EDICT_INFLUENCE_COST_DESC:0 "影响到帝国内部法令实施的代价，增加或减少实施的代价。"
  MOD_COUNTRY_LEADER_CAP:0 "帝国领导者能力"
@@ -31,7 +32,7 @@
  MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD:0 "研究方案"
  MOD_COUNTRY_PREVIOUS_DEALS:0 "过往交易"
  MOD_COUNTRY_INSULT_EFFICIENCY:0 "侵略效率"
- MOD_COUNTRY_ALLIANCE_INFLUENCE_COST:0 "同盟影响价格"
+ MOD_COUNTRY_DIPLOMACY_INFLUENCE_COST:1 "外交影响力花费"
  MOD_COUNTRY_RIVALRY_INFLUENCE_GAIN:0 "竞争影响收入"
  MOD_COUNTRY_MAX_RIVALRIES:0 "最大化竞争"
  MOD_COUNTRY_MAX_EMBASSIES:0 "最大化外交"
@@ -44,11 +45,14 @@
  MOD_POP_FERTILITY:0 "繁衍韧性"
  MOD_POP_HAPPINESS:0 "幸福度"
  MOD_POP_HAPPINESS_DESC:0 "在这种价值的调整下，帝国的所有人口都会拥有幸福。"
+ MOD_POP_RADIATION_HAPPINESS:0 "辐射带来的幸福"
+ MOD_POP_RADIATION_HAPPINESS_DESC:0 "帝国内所有的机械类生物的幸福与快乐度会受此值影响。"
  MOD_POP_ENVIRONMENT_TOLERANCE:1 "适居性"
  MOD_POP_SLAVERY_TOLERANCE:0 "奴役耐受性"
  MOD_POP_ALIEN_SLAVERY_TOLERANCE:0 "外星奴役耐受性"
  MOD_POP_WAR_TOLERANCE:0 "战争耐受性"
  MOD_POP_WAR_HAPPINESS:0 "战争愉快感"
+ MOD_POP_PEACE_HAPPINESS:0 "和平愉悦感"
  MOD_POP_XENOPHOBIA:0 "排外"
  MOD_POP_ETHIC_SHIFT:0 "道德分歧"
  MOD_POP_ETHIC_SHIFT_DESC:0 "这种价值使得帝国内部人口大跨度改变道德标准的可能性增加或减少。"
@@ -424,6 +428,20 @@
  sponsored_rebels:0 "受赞助的反叛"
  puppet_government:1 "傀儡政府"
  
+ swarm_strength:0 "Swarm力量"
+ swarm_strength_hard:0 "$prethoryn_strength$"
+ swarm_strength_insane:0 "$prethoryn_strength$"
+ 
+ exd_strength:0 "额外维度力量"
+ exd_strength_hard:0 "$exd_strength$"
+ exd_strength_insane:0 "$exd_strength$"
+
+ ai_strength:0 "空闲周期"
+ ai_strength_hard:0 "$ai_strength$"
+ ai_strength_insane:0 "$ai_strength$"
+
+ nomad_strength: "银河游牧民族"
+
  ####################################
  # Pop Modifiers
  ####################################
@@ -448,6 +466,7 @@
  occupation:0 "占领"
  fanatics_vs_wrong:0 "社会思潮错误的邻国"
  pop_war_happiness:0 "战争中"
+ pop_peace_happiness:0 "和平"
  pop_war_exhaustion:0 "战争耗竭"
  pop_xenophobia:0 "排外"
  pop_xenophilia:0 "媚外"
@@ -471,13 +490,8 @@
  pop_did_not_kill_stalker:0 "没能杀死变种人"
  pop_liberation_fever:0 "解放热潮"
  pop_synth_paranoia:0 "人造偏执狂"
- pop_happiness_level_90_x:0 "愉悦"
- pop_happiness_level_80_89:0 "快乐"
- pop_happiness_level_50_79:0 "满足"
- pop_happiness_level_35_49:0 "沮丧"
- pop_happiness_level_20_34:0 "愤怒"
- pop_happiness_level_x_19:0 "愤怒"
-
+ pop_happiness_positive:0 "$HAPPINESS$"
+ pop_happiness_negative:0 "$HAPPINESS$"
  pc_desert_habitability:1 "沙漠适居性"
  pc_tropical_habitability:1 "热带适居性"
  pc_arid_habitability:1 "旱地适居性"
@@ -568,9 +582,17 @@
 
  ## DIPLOMACY
  opinion_alliance:0 "同盟国"
+ opinion_defensive_pact:0 "防御条约"
  opinion_broke_alliance:0 "终止联盟"
+ opinion_broke_defensive_pact:0 "终止防御条约"
+ opinion_broke_non_aggression_pact:0 "终止互不侵犯条约"
+ opinion_broke_migration_pact:0 "终止移民条约"
+ opinion_broke_guarantee:0 "终止保障"
  opinion_demanded_subjectization:0 "要求征服"
  opinion_changed_alliance:0 "改变联盟"
+ opinion_kicked_from_alliance:0 "将我们踢出了联盟"
+ opinion_tried_to_kick:0 "试图将我们踢出联盟"
+ opinion_voted_down_proposal:0 "否决了我们的建议"
  opinion_federation:0 "联盟"
  opinion_changed_federation:0 "改变联邦"
  opinion_broke_federation:0 "终止联邦"
@@ -578,6 +600,7 @@
  opinion_new_contact:0 "新的交流"
  opinion_embassy:0 "大使馆"
  opinion_threat:0 "威胁"
+ opinion_trust:0 "信任"
  opinion_relative_power:1 "附属国的相对力量"
  opinion_friction:0 "边境冲突"
  opinion_rivalry:0 "我方的敌人"
@@ -586,9 +609,10 @@
  opinion_mutual_rival:0 "共同敌人"
  opinion_allied_to_rival:0 "与敌人结盟"
  opinion_rivals_with_ally:0 "与盟友为敌"
- opinion_insult:0 "受到侵略"
+ opinion_insult:0 "受到侮辱"
  opinion_subject_released:0 "被霸主释放"
  opinion_non_agg_pact:0 "互不侵犯条约"
+ opinion_closed_borders:0 "封闭边境"
  opinion_supports_independence:0 "支持独立"
  opinion_guarantees_independence:0 "担保独立"
  opinion_military_access:0 "授权军事"
@@ -598,6 +622,7 @@
  opinion_research_treaty:0 "研究条款"
 
  ## SUBJECT
+ opinion_subject_relation:0 "主要关系"
  opinion_subject:0 "同一霸主"
  opinion_is_subject:0 "附属国"
  opinion_subject_protection:0 "接受保护的请求"
@@ -615,6 +640,8 @@
  
  opinion_swarm:0 "外星侵略者"
  opinion_prey:0 "猎物"
+
+ opinion_merciful:0 "仁慈的"
  
  opinion_took_station:0 "已掌握的资源站"
  opinion_liberated_us:0 "解放者"
@@ -627,6 +654,9 @@
  opinion_put_in_their_place:0 "放在他们的位置"
  opinion_accepted_fallen_empire_demand:0 "接受要求"
  opinion_refused_fallen_empire_demand:0 "拒绝要求"
+
+ opinion_heretical_research: "邪教研究"
+ encroaching_colony: "侵占殖民地"
 
  ####################################
  # Planet Modifiers
