@@ -69,7 +69,8 @@
  star_power_chain_desc:0 "寻找异常辐射读数。"
  hunting_hyacinth_title:0 "追捕风信子号"
  hunting_hyacinth_desc:0 "我们的祖先乘坐方舟来到 [Root.Capital.GetName]，而其姊妹船风信子号本该在一个世纪之前就随我们从地球赶来。我们必须弄清她现在的状况。"
- 
+ nomads_observation_chain_title:0 "不同寻常的航天员"
+ nomads_observation_chain_desc:0 "我们发现了无法与其交流的外星人。我们完全无法翻译他们的语言，目前唯一能做的就是观察与等待。"
  
  ####################################
  # Points of Interest
@@ -117,3 +118,6 @@
  irassian_1_poi_desc:0 "依瑞斯星系是远古伊瑞森同盟的核心。"
  cybrex_1_poi:0 "赛博雷克斯·阿尔法"
  cybrex_1_poi_desc:0 "赛博雷克斯最后似乎撤离到了这个星系。"
+ nomad_poi_1:0 "跟踪位置"
+ nomad_poi_1_desc:0 "此处发现了不同寻常的航天员。"
+ 
