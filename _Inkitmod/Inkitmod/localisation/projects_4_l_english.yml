@@ -14,3 +14,7 @@
  titanic_life_study_mean_DESC:1 "通过回收 [Root.GetName]的巨大生命体，我们可以得到利用他们的最佳方式！"
  titanic_life_study_nice:0 "巨大生命体观测"
  titanic_life_study_nice_DESC:1 "通过仔细观测 [Root.GetName]的巨大生命体，我们希望能和他们和平共处。"
+ retaliatory_genome_mapping: "报复性基因图谱"
+ retaliatory_genome_mapping_DESC: "向外形人家园发送船只，使得我们能够收集到他们所有的关于我们的数据"
+ woodwind_instrument_investigation: "木管乐器调查"
+ woodwind_instrument_investigation_DESC: "我们能够研究出来一种能够使生物放松的神秘乐器。"
