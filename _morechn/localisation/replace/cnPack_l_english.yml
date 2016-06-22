@@ -7,6 +7,17 @@
  MON:1 "魔物娘"
 #############################
 
+#### Patch 1.1 ####
+ slave_attraction_desc:1 "除机械人口外所有奴役人口都归入奴隶派系。\n\n其他人口不会加入该派系。"
+ MOD_COUNTRY_ALLIANCE_INFLUENCE_COST:0 "同盟影响价格"
+ pop_happiness_level_90_x:0 "愉悦"
+ pop_happiness_level_80_89:0 "快乐"
+ pop_happiness_level_50_79:0 "满足"
+ pop_happiness_level_35_49:0 "沮丧"
+ pop_happiness_level_20_34:0 "愤怒"
+ pop_happiness_level_x_19:0 "愤怒"
+#############################
+
 #### Emblems 徽章文件夹 ####
  FLAG_CATEGORY_divers:0 "+§L金§!"
  FLAG_CATEGORY_divers2:0 "+银"

@@ -36,6 +36,7 @@
  streamlined_ship_design:0 "蒸汽管线算法"
  immigrants_protection:0 "保护少数族群"
  fear_as_control_militarist_p2:0 "担忧的行政机构"
+ alien_genome_research: "外星人基因研究"
  
  ####################################
  # Edicts 
@@ -121,6 +122,7 @@
  alien_racing_ship_plural:0 "科研船"
  protege_onboard:0 "前途无量的船员"
  ship_master_cruiser:0 "先进飞船设计"
+ ship_excess_power:0 "过量能量"
  
  ####################################
  # Pop Modifiers
@@ -130,6 +132,7 @@
  pop_angered:0 "暴怒"
  pop_pleased:0 "愉悦"
  alien_infection:0 "外星感染"
+ alien_music: "外星音乐"
 
  ####################################
  # DEBUG STUFF

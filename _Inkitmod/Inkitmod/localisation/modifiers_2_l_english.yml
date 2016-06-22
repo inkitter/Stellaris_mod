@@ -162,3 +162,8 @@
  opinion_literary_savior:0 "自由救星"
  opinion_book_burner:0 "烧书者"
  opinion_faction_insult:0 "派系斗争"
+
+ ####################################
+ # Pop Faction Modifiers
+ ####################################
+ docile_slaves_unrest_modifier:0 "奴隶动乱"
