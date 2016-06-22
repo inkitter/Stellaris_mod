@@ -10,10 +10,10 @@ Github: https://github.com/inkitter/Stellaris_mod
 
 创意工坊(仅Inkitmod)： http://steamcommunity.com/sharedfiles/filedetails/?id=696221547
 
-** 更新时请删除原文件夹内容 **
+**更新时请删除原文件夹内容**
 
 ## 手动安装法
-1. 放在 ** 文档\Paradox Interactive\Stellaris\mod\ **文件夹内。
+1. 解压所有的.mod文件与_Inkitmod、 _InkitSEL、 _morechn 文件夹 放在  文档\Paradox Interactive\Stellaris\mod\ 内。
 2. 需要可选包就运行一下 $2可选包.bat 。
 
 **以下的方法安装与更新较方便，但有个要求：解压到的文件夹和“我的文档”文件夹在同一块物理硬盘上（分区可以不一样）。（双硬盘需注意）**
@@ -35,11 +35,11 @@ Github: https://github.com/inkitter/Stellaris_mod
 ## 主包 Inkitmod
 ### 汉化
 * Chinese font  （悦黑）简体中文字库v4.6  http://steamcommunity.com/sharedfiles/filedetails/?id=682681372
-* 3DM汉化包3.0  1.1版全汉化  \localisation\*.yml http://steamcommunity.com/sharedfiles/filedetails/?id=683978765
+* 3DM汉化包3.0  1.1版全汉化  ``\localisation\*.yml`` http://steamcommunity.com/sharedfiles/filedetails/?id=683978765
 * morechn   自制的一些工坊英文mod汉化包。 http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 
 ### 改进
-* Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 common\solar_system_initializers\ringworld_st_systems.txt
+* Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 ``common\solar_system_initializers\ringworld_st_systems.txt``
 * Complete Colors  种族设计界面有更多（RGB）可选颜色，注意这个多颜色选择会与其他的冲突，请不要再加载其他增加可选颜色的mod，这个已经是颜色最全的 flags\colors.txt及interface\zCompleteColors.gui
 * Galaxies Unlimited  新建游戏时，星系大小有等多选择，从很少到很多的更多选项。且根据大小标记成不同的颜色。
 * 汉语种族随机名  种族设计界面以汉语命名的可选类型，随机汉语船、人名等。 
@@ -85,13 +85,11 @@ Github: https://github.com/inkitter/Stellaris_mod
 
 ## 可选包 _InkitSEL
 * Grow Borders  边界增长速度加快的星球政策，需要影响力。  __morechn已汉化__
-
 * More Spaceport Modules  更多的空间站模块。 __morechn已汉化__。
 * Auto improve buildings 自动升级建筑 __morechn已汉化__
 * New Ship Classes & More 更多的舰船类型 __morechn已汉化__
 * Colony Ship Start 殖民船开局 __morechn已汉化__
 * Expanded Spaceport 24格空间站 
-
 * More Army Attachments  更多的军队模块。  __morechn已汉化__
 * Sector Defense Navy  会自动制造舰队的星区（星区选择第一种AI）
 * Slvrbuu's Stellaris Cheat Menu 作弊菜单 __morechn已汉化__
