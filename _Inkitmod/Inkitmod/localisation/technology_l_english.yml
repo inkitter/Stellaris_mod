@@ -663,6 +663,10 @@
  tech_purity_campaigns_desc:1 "庆祝精神或身体或自己目标的纯洁 - 这取决于我们的目标。"
  tech_galactic_markets:0 "银河市场"
  tech_galactic_markets_desc:1 "$building_galactic_stock_exchange_desc$"
+ tech_symbol_unity:0 "团结的象征"
+ tech_symbol_unity_desc:0 "当我们更多的探索星系和遗迹之后，为坚定我们的信念和维持帝国同一，我们必须有一个象征团结的标记。"
+ tech_visitor_center:0 "外来游客中心"
+ tech_visitor_center_desc:0 "我们知道宇宙有其他种族，我们应该准备欢迎我们的新朋友。"
 
  # Social Engineering
  tech_artificial_moral_codes:0 "人工道德代码"
