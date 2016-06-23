@@ -5,6 +5,7 @@ cd /d %~dp0
 echo ----将在 %mydoc%\Paradox Interactive\Stellaris\mod 安装mod----
 pause
 @echo on
+md "%mydoc%\Paradox Interactive\Stellaris\mod\"
 mklink /j "%mydoc%\Paradox Interactive\Stellaris\mod\_Inkitmod" _Inkitmod
 mklink /j "%mydoc%\Paradox Interactive\Stellaris\mod\_InkitSEL" _InkitSEL
 mklink /j "%mydoc%\Paradox Interactive\Stellaris\mod\_morechn" _morechn
