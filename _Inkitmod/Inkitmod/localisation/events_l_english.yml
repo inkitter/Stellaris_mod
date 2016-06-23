@@ -221,7 +221,8 @@
  action.11.a:0 "不错"
  action.13.name:1 "来自§H[From.Owner.GetName]§!的通讯"
  action.13.desc:1 "我们收到了来自§Y[From.Owner.GetName]§!的通讯！他们似乎已成功翻译了我们的语言。目前已建立了外交渠道，我们与他们之间一切的敌对行动都已暂停。"
- action.13.abandoned.desc:1 "We are receiving a transmission from the §H[From.Owner.GetName]§!! They appear to have successfully translated our language. As they open channels, we can §Yrecognize§! them as the refugees we once abandoned. Hostilities between us have ceased for the moment."
+ action.13.abandoned.desc:1 "我们接收到了来自§H[From.Owner.GetName]§!的消息！他们已经成功翻译了我们的语言。当他们打开通道时，我们§Y发现§!他们是被我们遗弃的难民，这使我们暂停敌对。"
+ action.13.nomad.desc:0 "我们接收到了来自§Y[From.Owner.GetName]§!的消息！他们有我们无法理解的先进内部沟通系统，它能自动翻译我们的语言。"
  action.13.a:0 "真是有趣。"
  action.13.c:0 "又是他们啊……"
  action.14.name:0 "征讨原始势力"
@@ -317,6 +318,13 @@
  action.39.desc.mi:1 "你们应该得到毁灭，但你们不值得我们浪费宝贵的时间。无条件的和平似乎不可避免。"
  action.39.desc.eo:1 "我们陷得太深了。就让我们当做什么都没发生过吧，同样也希望以后也永远不会发生。"
  action.39.desc.mh:1 "不真实。"
+
+ action.41.name:0 "重组"
+ action.41.desc.a:0 "你将飞机停在了新敌人的领土时，[From.GetName]就开始了。"
+ action.41.desc.b:0 "[From.GetNumPlayerFleetsGoneMIA]舰队失踪了，它们将在友善的边境内重组。"
+ action.41.desc.b.1:0 "舰队失踪了，它们将在友善的边境内重组。"
+ action.41.desc.c:0 "[From.GetNumPlayerWormholeStationsDestroyed]虫洞被摧毁。"
+ action.41.desc.c.1:0 "一个虫洞被摧毁了。"
 
  ####################################
  # Anomaly Categories
@@ -2202,3 +2210,4 @@
  leader.25.desc.explorer:0 "$leader.25.desc.base$§G$trait_ruler_explorer$§!"
  leader.25.desc.fleet_organizer:0 "$leader.25.desc.base$§G$leader_trait_fleet_organizer$§!"
  leader.25.desc.nervous:0 "$leader.25.desc.base$§R$leader_trait_nervous$§!"
+
