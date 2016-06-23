@@ -16,6 +16,11 @@
  pop_happiness_level_35_49:0 "沮丧"
  pop_happiness_level_20_34:0 "愤怒"
  pop_happiness_level_x_19:0 "愤怒"
+ PLANET_CAP_TITLE:0 "直属行星"
+ PLANET_CAP_TOOLTIP:0 "我们能够最多控制 $MAX|Y$ 颗行星。"
+ PLANET_OVER_CAP_TOOLTIP:0 "§R超过限制！§!\n$MODIFIER$"
+ PLANET_CAP_DESC:0 "§E我们的官僚系统限制了我们能够掌控的行星的数量，可以通过升级科技、建造建筑或政府行为来增加数量。§!"
+
 #############################
 
 #### Emblems 徽章文件夹 ####
