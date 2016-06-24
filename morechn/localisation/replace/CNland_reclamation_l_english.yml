@@ -1,0 +1,8 @@
+﻿l_english:
+  #Events
+ edict_land_reclamation:0 "地块开垦"
+ edict_land_reclamation_desc:0 "选择以增加本星球地块数量" 
+ edict_land_reclamation.tooltip:0 "增加本星球地块数量"
+ 
+ tech_land_reclamation:0 "地块开垦"
+ tech_land_reclamation_desc:1 "使用先进的工程技术来开垦地表上无法使用的土地。\n\n"
