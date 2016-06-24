@@ -1,4 +1,4 @@
-name="+Extended Traits"
+name="1Extended Traits"
 archive="mod/_Inkitmod/Extended Traits.zip"
 picture="preview.jpg"
 remote_file_id="681816257"

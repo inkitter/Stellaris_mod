@@ -32,37 +32,37 @@ Github: https://github.com/inkitter/Stellaris_mod
 
 --------
 
-## 主包 Inkitmod
-### 汉化
+## 主包内容（不影响联机） !Inkitmod 与 !morechn
+* !morechn   自制的一些工坊英文mod汉化包。 
 * Chinese font  （悦黑）简体中文字库v4.6  http://steamcommunity.com/sharedfiles/filedetails/?id=682681372
 * 3DM汉化包3.0  1.1版全汉化  ``\localisation\*.yml`` http://steamcommunity.com/sharedfiles/filedetails/?id=683978765
-* morechn   自制的一些工坊英文mod汉化包。 http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
-
-### 改进
-* Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 ``common\solar_system_initializers\ringworld_st_systems.txt``
+http://steamcommunity.com/sharedfiles/filedetails/?id=687203571
 * Complete Colors  种族设计界面有更多（RGB）可选颜色，注意这个多颜色选择会与其他的冲突，请不要再加载其他增加可选颜色的mod，这个已经是颜色最全的 flags\colors.txt及interface\zCompleteColors.gui
-* Galaxies Unlimited  新建游戏时，星系大小有等多选择，从很少到很多的更多选项。且根据大小标记成不同的颜色。
+
 * 汉语种族随机名  种族设计界面以汉语命名的可选类型，随机汉语船、人名等。 
 * Color coded pop status icons 彩色的人口状态图标
 
-## _Inkitmod   都是做的比较有趣的、热门的mod，兼容性比较有保证。
-### 图案、文本替换增强类
-* %%-Reduce Aura Graphics  **二选一** 减轻/移除单位光环的视觉效果，更容易看到船而不是光环。
-* %%Better Sector Mod 星区不再消耗影响、星区视觉效果改善。
-* %%Chinese name **汉语随机命名** 星系、帝国等多个部分用汉语命名。
+## _Inkitmod
+### 图案、界面替换 (不影响联机)
+* %%-Reduce/Remove Aura Graphics  **二选一** 减轻/移除单位光环的视觉效果，更容易看到船而不是光环。
 * %%More Flags 多个种族设计界面的纹章和背景整合：光环、日式、Flags:Emblems & Backgrounds、IT、星际之门、现实国家风格、刺客信条等。
 * %%UI Overhaul 1080p UI重制，1080p版
 * %%Unique Resources 战略资源图标替换，战略资源图示更容易区别（比如原版两种蓝色的矿……）。
 
+## 以下会影响联机
 ### 功能增强
-* %Change Capital Planet 改变首都。 __morechn已汉化__。
-* %DZ Unique Starting Systems 创建种族时有更多的起始星系选择。 __morechn已汉化__。
-* %Planetary Rally Points 设置舰队集结点。 __morechn已汉化__。
+* +Chinese name **汉语随机命名** 星系、帝国等多个部分用汉语命名。
+* +More Map Size  新建游戏时，星系大小有等多选择，从很少到很多的更多选项。且根据大小标记成不同的颜色。
+* +Ring World   种族设计界面：添加“圆环世界”，会有起始25格的行星，有三种圆环可选。 ``common\solar_system_initializers\ringworld_st_systems.txt``
+* +Change Capital Planet 改变首都。 __morechn已汉化__。
+* +Better Sector Mod 星区不再消耗影响、星区视觉效果改善。
+* +DZ Unique Starting Systems 创建种族时有更多的起始星系选择。 __morechn已汉化__。
+* +Planetary Rally Points 设置舰队集结点。 __morechn已汉化__。
 
 ### 领袖增强
-* +Fox Leader Mod 领袖等级上限调整等领袖强化。
-* +Yet Another Traits Mod 更多领袖特性 __morechn已汉化__
-* +Extended Traits  更多的领袖特长。  __morechn已汉化__。
+* 1Fox Leader Mod 领袖等级上限调整等领袖强化。
+* 1Yet Another Traits Mod 更多领袖特性 __morechn已汉化__
+* 1Extended Traits  更多的领袖特长。  __morechn已汉化__。
 
 ### 综合类
 * -AI Rebalance AI平衡性调整。
@@ -72,7 +72,8 @@ Github: https://github.com/inkitter/Stellaris_mod
 * -Expanded War Demands 更多的战争要求 __morechn已汉化__
 * -More Technologies  更多的科技。 __morechn已汉化__。   这个包是多个增量mod的整合包，修改较多较复杂，不过挺好玩的。
 * -Research All FTL  可以研究所有FTL迁跃理论。 
-* ZBeautiful Battles  漂亮的战斗。 提高了战斗的美观度，有不少战斗平衡性调整，例如舰船战斗阵形优化等。但此mod改变的数据较多，想体验原始战斗设计还是不开启较好。
+* yBeautiful Battles 有平衡性调整，配合Z使用。
+* ZBeautiful Battles 漂亮的战斗。 提高了战斗的美观度，有不少战斗平衡性调整，例如舰船战斗阵形优化等。但此mod改变的数据较多，想体验原始战斗设计还是不开启较好。
 
 ### 贸易增强
 * 0Bread Baskets 可以在行星间运输的食物 __morechn已汉化__

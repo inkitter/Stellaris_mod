@@ -1,4 +1,4 @@
-name="%DZ Unique Starting Systems"
+name="+DZ Unique Starting Systems"
 archive="mod/_Inkitmod/DZ Unique Starting Systems.zip"
 picture="dzuniquestart.jpg"
 remote_file_id="683580268"

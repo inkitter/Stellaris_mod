@@ -1,4 +1,4 @@
-name="+Fox Leader Mod"
+name="1Fox Leader Mod"
 archive="mod/_Inkitmod/Fox Leader Mod.zip"
 picture="Leaders.jpg"
 remote_file_id="683096962"
