@@ -24,7 +24,7 @@
  war_demand_humiliate_default_header:1 "§H羞辱§!"
  war_demand_humiliate_default_subtext:0 "[parameter:country.GetName]"
  war_demand_humiliate_default_tooltip_header:0 "$war_demand_humiliate_default_header$"
- war_demand_humiliate_default_tooltip_content:1 "[parameter:country.GetName] 将被羞辱, 这将在减少他们的£influence 影响力获取速度和快乐度的同时,也将增加我们的£influence影响力获取速度。"
+ war_demand_humiliate_default_tooltip_content:1 "[parameter:country.GetName] 将被羞辱, 这将在减少他们的£influence 影响力获取速度和快乐度的同时,也将增加我们的£influence 影响力获取速度。"
  war_demand_humiliate_default_tooltip_proper_header:0 "$war_demand_humiliate_default_header$"
  war_demand_humiliate_default_tooltip_proper_content:1 "$war_demand_humiliate_default_tooltip_content$"
  
