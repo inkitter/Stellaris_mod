@@ -22,8 +22,15 @@
  # Options 
  civ.1.a:0 "让演出开始吧!"
  
+ civmenu.1.name:0 "[ROOT.GetName] 贸易焦点"
+ civmenu.1.desc:0 "指示我们的管理者购买： \n\n     矿产  \n\n     能源 \n\n     食物"
+ 
+ # Options 
+ civmenu.1.a:0 "去干吧。" 
+ 
+ 
  #############################
- # Civilian Trade effects
+ # Civilian Trade modifiers
  #############################
   
   
@@ -47,6 +54,13 @@
  reduced_trade_network_food:0 "被削弱的贸易网络"
  reduced_trade_network_food_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。但这个效果因为近期的贸易制裁而有所削弱。"
  
+ trade_minerals_focus:0 "矿产焦点"
+ trade_minerals_focus_desc:0 "指示管理者从商人处购入矿产。"
+ trade_energy_focus:0 "能源焦点"
+ trade_energy_focus_desc:0 "指示管理者从商人处购入能源。"
+ trade_food_focus:0 "食物焦点"
+ trade_food_focus_desc:0 "指示管理者从商人处购入食物。"
+ 
  circus_in_town:0 "马戏飞船停留在本星系"
  circus_in_town_desc: "万人空巷！伟大的克伦佩勒马戏团正停留在这个星系。快来看看这迷人、梦幻般、超脱尘世，且恐怖生物和绝美景致并存的“花环号”吧！"
  
@@ -58,22 +72,16 @@
  personality_civilian_traders_desc:0 "民间商人会在你的国家内徘徊以寻求贸易机会。"
  
  ####################################
- # Edicts
+ trades
  #################################### 
 
  # Planet Edicts
  
  edict_trade_hub:0 "贸易中心"
- edict_trade_hub_desc:0 "这个星球提供了这样一个设施和空间用以吸引更多的商人来发挥他们的特长。"
+ edict_trade_hub_desc:0 "这个星球提供了这样一个设施和空间用以吸引更多的商人来发挥他们的特长。" 
  
- edict_mineral_focus:0 "矿产焦点"
- edict_mineral_focus_desc:0 "指示管理者从商人处购入矿产。"
- 
- edict_energy_focus:0 "能源焦点"
- edict_energy_focus_desc:0 "指示管理者从商人处购入能源。"
- 
- edict_food_focus:0 "食物焦点"
- edict_food_focus_desc:0 "指示管理者从商人处购入食物。"
+ edict_change_trade_focus:0 "改变星球贸易焦点"
+ edict_change_trade_focus:0 "指示管理者从商人处购入特定的资源。"
  
  # Country Edicts
  
@@ -100,9 +108,9 @@
  ####################################  
  
  civilian_trade_freighter:0 "民间货舰"
- civilian_trade_freighter_plural:0 "民间货舰们"
+ civilian_trade_freighter_plural:0 "民间货舰"
  civilian_trade_tanker:0 "民间油轮"
- civilian_trade_tanker_plural:0 "民间油轮们"
+ civilian_trade_tanker_plural:0 "民间油轮"
  
  ####################################
  # Technologies
@@ -144,4 +152,9 @@
  war_demand_trade_sanctions_tooltip_proper_header:0 "$war_demand_trade_sanctions_header$"
  war_demand_trade_sanctions_tooltip_proper_content:1 "$war_demand_trade_sanctions_tooltip_content$"
  
+  ####################################
+ # Buttons
+ ####################################  
+ 
+ PLANETVIEW_TRADE_FOCUS:0 "贸易焦点" 
  
