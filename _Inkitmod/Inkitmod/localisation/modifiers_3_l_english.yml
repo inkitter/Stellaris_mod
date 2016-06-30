@@ -1,7 +1,7 @@
 ﻿l_english:
- ####################################
- # Opinion Modifiers
- ####################################
+####################################
+# Opinion Modifiers
+####################################
  opinion_graverobber_1:0 "亵渎之坟"
  opinion_graverobber_2:0 "$opinion_graverobber_1$"
  opinion_graverobber_3:0 "$opinion_graverobber_1$"
@@ -10,10 +10,10 @@
  opinion_abandoned_apology:0 "$opinion_abandoned$"
  opinion_abandoned_insult:0 "$opinion_abandoned$"
  assassination_forgiven:0 "宽恕敌人"
- 
- ####################################
- # Empire Modifiers 
- ####################################
+
+####################################
+# Empire Modifiers
+####################################
  media_coverage_positive_high:0 "极度正面的媒体报道"
  media_coverage_positive_medium:0 "相当正面的媒体报道"
  media_coverage_positive_low:0 "正面的媒体报道"
@@ -25,7 +25,7 @@
  solar_harvesting_bacteria:0 "增强的太阳能"
  army_speed_boost:0 "提高的船速"
  zero_gravity_revelation:0 "Zero-G 创新"
- youthful_elite:0 "不包括长生药"
+ youthful_elite:0 "精英阶层独享"
  youthful_people:0 "共享长生药"
  slavery_bad_juju:0 "奴役的脸面"
  slavery_very_bad_juju:0 "显露出一名奴隶的未来"
@@ -36,11 +36,11 @@
  streamlined_ship_design:0 "蒸汽管线算法"
  immigrants_protection:0 "保护少数族群"
  fear_as_control_militarist_p2:0 "担忧的行政机构"
- alien_genome_research: "外星人基因研究"
- 
- ####################################
- # Edicts 
- ####################################
+ alien_genome_research:0 "外星人基因研究"
+
+####################################
+# Edicts
+####################################
  edict_masters_writings_politics:0 "大师的教育：更伟大的利益"
  edict_masters_writings_politics_desc:0 "一位外星哲学家教育的翻译。遵从她关于通过自我牺牲来统一人民的建议，我们能在基础设施方面取得极大进展。\n\n“强大的国际是建立在牺牲舒适的基础上的，只要所有人都一起背负责任。”——说书人特丽莎"
  edict_masters_writings_philosophy:0 "大师的教育：哲学态度"
@@ -55,10 +55,10 @@
  edict_renewable_energy_desc:0 "可以进一步限制有毒燃料和不可再生资源的使用，以推进新能源生产的研究。这能使得我们更接近完美的能源循环，并改善人民的生活环境。"
  edict_super_sensors:0 "广泛传感器搜寻"
  edict_super_sensors_desc:0 "研究过先进传感器技术之后，我们获得了足够的信息，能够将额外的组员用到增强搜寻扫描上。我们的技师使用这种技术的系统，找到目标物体会更加容易。"
- 
- ####################################
- # Planet Modifiers 
- ####################################
+
+####################################
+# Planet Modifiers
+####################################
  acid_jungles:0 "酸性丛林"
  acid_jungles_desc:0 "进化产生了能够流出酸液的植物，使人很难横穿丛林或在此定居。"
  ex_planet:0 "曾为行星"
@@ -114,27 +114,27 @@
  pyramid_wars:0 "天际战争"
  pyramid_wars_desc:0 "由于“天际之神”的真正神性的不同理解造成的宗教冲突，人们爆发了全面战争。"
 
- ####################################
- # Ship/Fleet Modifiers 
- ####################################
+####################################
+# Ship/Fleet Modifiers
+####################################
  ship_survey_boost:0 "增强的调研扫描仪"
  alien_racing_ship:0 "科研船"
  alien_racing_ship_plural:0 "科研船"
  protege_onboard:0 "前途无量的船员"
  ship_master_cruiser:0 "先进飞船设计"
- ship_excess_power:0 "过量能量"
- 
- ####################################
- # Pop Modifiers
- ####################################
+ ship_excess_power:0 "能源溢出"
+
+####################################
+# Pop Modifiers
+####################################
  opinion_respected:0 "受重视的意见"
  opinion_disrespected:0 "不受重视的意见"
  pop_angered:0 "暴怒"
  pop_pleased:0 "愉悦"
  alien_infection:0 "外星感染"
- alien_music: "外星音乐"
+ alien_music:0 "外星音乐"
 
- ####################################
- # DEBUG STUFF
- ####################################
- 
+####################################
+# DEBUG STUFF
+####################################
+

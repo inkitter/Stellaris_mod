@@ -34,10 +34,10 @@
  BREAKTHROUGH:0 "有了！"
  SCRAPIT:0 "拆解以获取材料"
  OOPS:0 "糟糕……"
- 
- ####################################
- # On-Action Events
- ####################################
+
+####################################
+# On-Action Events
+####################################
  action.1.name:0 "与§H [contact_empire.GetName]§!的首次接触"
  action.1.message:0 "我们已和§H [contact_empire.GetName]§!打过交道"
  action.1.desc_01:0 "我谨代表 [contact_empire.GetRulerTitle] [contact_empire.GetRulerName]送上问候， [contact_empire.GetName]无可争议的统治者。尊重我们的领土并避免干涉我们的国家事务，我们或许可以考虑让我们战无不胜的舰队绕开你们的世界。"
@@ -87,8 +87,8 @@
  action.1.desc_45:0 " [contact_empire.GetName]发来问候。我们是重视民主自由的国家，无论什么种族在我们国家都能得到平等的待遇。我们的领袖 [contact_empire.GetRulerTitle] [contact_empire.GetRulerName]希望能与贵国达成长久的友谊。"
  action.1.desc_46:0 "我们是 [contact_empire.GetName]。领袖是 [contact_empire.GetRulerTitle] [contact_empire.GetRulerName]，你们好。"
  action.1.desc_47:0 "我们是 [contact_empire.GetName]。邪恶之主 [contact_empire.GetRulerTitle] [contact_empire.GetRulerName]命令你们不得靠近。"
- action.1.desc_48:0 "Wearethe [contact_empire.GetName]. [contact_empire.GetRulerTitle] [contact_empire.GetRulerName]ispleasedtomeetmorealiens."
- action.1.desc_49:0 "你好啊，[Root.GetSpeciesNamePlural]！我们从我们的[contact_empire.GetRulerTitle]那里专程为你们捎来了口信。我们要用原子之火彻底将你们从宇宙中烧光，你们这群外星渣滓！"
+ action.1.desc_48:0 "We are the [contact_empire.GetName]. [contact_empire.GetRulerTitle] [contact_empire.GetRulerName] is pleased to meet more aliens."
+ action.1.desc_49:1 "你好，[Root.GetSpeciesNamePlural]!我们有一个特殊消息来自[contact_empire.GetRulerTitle]。\n\n...\n\n...\n\n§我们这原子火焰的愤怒将会把你们的种族清洗！\n\n异种败类!§!"
  action.1.desc_60:0 "我们自你们进入宇宙之初就在监控你们， [Root.GetSpeciesName]孩童之国。我们是 [contact_empire.GetName]，这片宙域已在我们的管辖下长达数百年。你们年幼的文明并不能引起我们的兴趣，也无意牵扯进你们内部的纷争。\n\n不允许以任何理由靠近我国领域。"
  action.1.desc_61:0 " [Root.GetSpeciesNamePlural]?意外。不幸。你们尚未准备好。"
  action.1.desc_62:0 " [Root.GetSpeciesNamePlural]!这可真是。我们预计与你们相遇还需数百年时间。我原本以为你们的文明在摆脱重力之前就会自然灭亡。不过你们能出来真是好哇。"
@@ -211,7 +211,7 @@
  #action.6.name: "Pirates Encountered"
  #action.6.desc: "We have sighted hostile ships in the [From.From.GetStarName] system! They are not responding to hails, and their designs are obviously not of [Root.GetSpeciesName] origin. It seems like they are mostly focused on looting our orbital stations, stripping them of valuable resources and technology while taking their crews captive."
  #action.6.a: "Pirates. We don't need that scum."
- 
+
  action.10.name:0 "在 [From.From.From.GetName]相遇"
  action.10.desc:0 "在 [From.From.From.GetName]系统遭遇来源未知的飞船！这些奇怪的船上插着§Y [From.GetName]§!的旗帜，其余信息正待进一步调查。\n\n应做好对方有敌意时的对策。"
  action.10.a:0 "真是有趣。"
@@ -233,13 +233,13 @@
  action.14.a.spirit:0 "我们神圣的权力闪耀出真理。"
  action.14.a.material:0 "他们在我们的统治下能更好地进化。"
  action.14.a.tooltip:0 "§Y星际文化差异§!现象出现在§H [From.From.From.GetName]§!上，彻底减少了他们数年的产出量。"
- action.15.desc:1 "在§Y [From.From.From.GetName]§!星系遭遇了外星飞船！这些奇怪的飞行物上标有§Y [From.GetName]§!的旗帜，剩余信息还有待调查。\n\n有必要谨慎应对……"
+ action.15.desc:1 "在§Y [From.From.From.GetName]§!星系遭遇了外星飞船！我们暂时将它们称为§Y [From.GetName]§!，剩余信息还有待调查。\n\n有必要谨慎应对……"
  action.20.name:0 "法令生效"
  action.20.desc:0 "人工智能，不论何种型号设计，只要在 [Root.GetName]进行着情报收集行动的机器人。相关当局已经将违反该法令的机械进行了拆解。\n\n相关的机械组装工厂也被重新整改为只能生产无思考回路的简单机械。"
  action.20.a:0 "必须尽快处理掉这些令人憎恶的东西。"
  action.20.tooltip:0 "所有的机器人和人造生命体必须被清理干净。\n人造生命和机械组装工厂转变为简单机械组装厂。"
 
- # End of War messages
+# End of War messages
  action.37.name:1 "大败§H [From.GetName]§!"
  action.37.message:1 "我方大败§H [From.GetName]§!"
  action.37.desc.default:1 "战争结束了。我们投降。"
@@ -252,7 +252,7 @@
  action.39.message:1 "我们与§H [From.GetName]§!签署了停战协议"
  action.39.desc.default:1 "战争结束了。没有胜败。"
  action.39.a:1 "就暂且接受现状。"
- 
+
  action.37.desc.hw:1 "不管公正与否，你方的确击败了我们。胜者为王败者为寇。"
  action.37.desc.rc:2 "我们似乎低估了 [Root.GetSpeciesNamePlural]的实力。不过放心，以后不会了。"
  action.37.desc.pt:1 "你们持续的威胁使得我们被迫让步。希望我们的企业今后不会再受这类事情的阻挠。"
@@ -326,9 +326,9 @@
  action.41.desc.c:0 "[From.GetNumPlayerWormholeStationsDestroyed]虫洞被摧毁。"
  action.41.desc.c.1:0 "一个虫洞被摧毁了。"
 
- ####################################
- # Anomaly Categories
- ####################################
+####################################
+# Anomaly Categories
+####################################
  crashed_ship_asteroid_category:0 "坠毁的飞船"
  crashed_ship_asteroid_category_desc:0 "某架飞船坠毁在了这颗小行星的表面。飞行器的残骸仍能在撞击坑里找到。"
  origin_asteroid_category:0 "未知起源"
@@ -439,7 +439,7 @@
  cybrex_uninhabitable_category_desc:1 "在这片荒凉的岩石上有着古代先驱者文明活动的迹象。"
  cybrex_habitable_category:1 "先驱者活动迹象"
  cybrex_habitable_category_desc:1 "在这个宜居的世界里有着古代先驱者文明活动的迹象。"
- 
+
  VULTAUMAR:0 "沃陶姆鼎盛时期"
  VULTAUMAR_DESC:0 "远古时期沃陶姆的家乡。曾经经历过辉煌。"
  YUHTAAN:0 "尤特座"
@@ -451,9 +451,9 @@
  CYBREX:0 "赛博雷克斯环形世界"
  CYBREX_DESC:0 "被摧残得最为严重的环形世界——赛博雷克斯文明最后的倒退。"
 
- ####################################
- # Anomaly Events
- ####################################
+####################################
+# Anomaly Events
+####################################
  anomaly.1.name:0 "粪化石小行星"
  anomaly.1.desc:0 "虽然这个真相让人有些难以接收，但所有的证据都表明 [From.GetName]这颗小行星是一颗粪化石小行星——也就是某种巨大生命体的粪便化石化形成的行星。其年龄大概已经有十亿岁了，因此化石的原成分也逐渐积淀成了矿藏。我们的科学家十分困惑究竟是什么样的生物才能留下这样的庞然大物。"
  anomaly.5.name:0 "海盗宝藏"
@@ -552,7 +552,7 @@
  anomaly.710.b:0 "让他们自生自灭。"
  anomaly.715.name:0 "殖民地遗迹"
  anomaly.715.desc:0 " [From.GetName]发现了一个由异星文明在17000年前建立的小型殖民地，但迹象表明建立不久就被放弃了。没有任何居民留下的痕迹，而且除了几个气象站，这个殖民地似乎也并没有太多发展。"
- 
+
  anomaly.2500.name:0 "死者遗骸"
  anomaly.2500.desc:0 "气态巨行星 [From.GetName]的衰减轨道上发现了一些大型太空生物的遗骸。这些缺乏感官的生物似乎已经具备了星际间航行的能力，但已知空间没有目击到它们的记录。科学官 [Root.GetLeaderName]建议调配额外资源进行彻底的分析。"
  anomaly.2501.desc:0 "科学官 [Root.GetLeaderName]推断 [From.From.GetName]被当做星际墓地来使用的，许多外星物种都死在了那里。尸体则在重力的作用下经过数百万年的时间慢慢的被拉向气态巨行星。\n\n这种古老的循环在一千五百万年前最后一批生物到达后突然的中断了。我们只能推测可能是被其他的生物所猎杀，或者遇到了天灾。"
@@ -586,7 +586,7 @@
  anomaly.2570.desc:0 "环绕 [From.GetName]的众多卫星之一有一个终端轨道。它即将与气态巨行星相撞，这无疑会造成极大的破坏。这将是数百万年一遇的奇观，更巧合的是，我们的一艘飞船将会在撞击前拜访那里。\n\n许多科学家都想亲临现场观测和记录这次事件，但我们时间有限。"
  anomaly.2571.desc:0 "我们成功的从不同角度记录了 [CollisionLocation.GetName]和卫星相撞的奇观，并且对领地内的所有观众进行了现场直播。更重要的是，我们的科学家在 [Root.GetLeaderName]的领导下记录了大量珍贵的物理数据，这对研究毫无疑问是有帮助的。"
  anomaly.2572.desc:0 "我们与 [From.From.GetName]和卫星的撞击擦肩而过。科学家们又发现了一个轨道衰减的卫星，他们预计将会在760万年之后与气态巨行星相撞。可能那时候我们的运气会好一点……"
- 
+
  anomaly.5000.name:0 "气态巨行星信号"
  anomaly.5000.desc:0 " [Root.GetName]从 [From.GetName]检测到了一些有趣的读数。那颗气态巨行星的大气层中有高剂量的辐射，似乎是由密集的轨道轰炸引起的。至于他们想干什么则是个迷。\n\n就在 [Root.GetName]准备离开轨道时，科学官 [Root.GetLeaderName]从行星内部检测到了一个微弱的信号。或许是某种通讯信号，但行星的背景辐射太强，很难分辨清楚。"
  anomaly.5000.a:0 "我们应该调查这个信号。"
@@ -690,9 +690,9 @@
  henrik.145.desc:0 "我们是 [Root.GetSpeciesNamePlural]。"
  henrik.166.desc:0 "事件目标是 [test_target.GetName]"
 
- ####################################
- # Anomaly Failure Events
- ####################################
+####################################
+# Anomaly Failure Events
+####################################
  DISC_FAILURE:0 "失败"
  DISC_CRITICAL_FAILURE:0 "严重失败"
  anomaly_failure.1.desc:0 "科学官 [Root.GetLeaderName]命令 [Root.GetName]派出一架探测机调查 [From.From.GetName]的坑洞。不幸的是，它的推进器出现故障，径直撞上了坑洞中央坠毁的飞船。"
@@ -758,9 +758,9 @@
  combat_drones:0 "他们要杀过来了！"
 
 
- ####################################
- # Colony Events
- ####################################
+####################################
+# Colony Events
+####################################
  colony.1.name:0 "漫步森林"
  colony.1.desc:0 " [Root.GetName]表面覆盖有茂盛的植被，数量庞大的植物生长至数百米高。殖民者发现几乎所有的植系都会想不同方位迁移。森林会缓慢的向养分更充足的区域移动，迁移的周期似乎与 [Root.GetPlanetMoon]的运行周期有关。\n\n不幸的是，殖民地的基础建设工程会受到极大的阻碍。迁移的植物们会切断供能线路，摧毁建筑和道路。"
  colony.1.a:0 "我们得找到解决方案。"
@@ -961,9 +961,9 @@
  colony.183.a:0 "今天是一个黑暗的日子。"
 
 
- ####################################
- # Precursor Events
- ####################################
+####################################
+# Precursor Events
+####################################
  vultaum_artifact:0 "我们获得了一件沃陶姆文物。"
  precursor.completed.name:0 "考古任务已完成"
  precursor.completed.a:0 "有趣的发现。"
@@ -1096,7 +1096,7 @@
  precursor.1500.name:0 "伊瑞森同盟"
  precursor.1500.desc:1 "我们在§Y [From.GetName]§!发现了古代外星文明的飞行器。从我们现在探索的情况来看，这些外星人称他们自己为伊瑞森同盟。他们在一百万年前掌控着星系的这片区域。\n\n这些外星人似乎是六肢的哺乳动物，他们后面遭受了一种叫做“贾沃安瘟疫”的流行病，这导致了他们种族的灭绝。"
  precursor.1505.name:0 "隔离世界"
- precursor.1505.desc:0 "§Y [From.GetName]§!曾经是伊瑞森的殖民地，这个殖民地有工业发展和地球化的迹象。其他的伊瑞森的殖民星球，留下的化石讲述了一个悲伤的故事-由于贾沃安瘟疫的肆虐，人口急剧减少，这场灾难肆虐了 [From.GetPlanetMoon]的所有定居点。在星球轨道上还存有大量碎片残骸，应该是一场战役留下的。"
+ precursor.1505.desc:0 "§Y [From.GetName]§!曾经是伊瑞森的殖民地，这个殖民地有工业发展和地质改造的迹象。其他的伊瑞森的殖民星球，留下的化石讲述了一个悲伤的故事-由于贾沃安瘟疫的肆虐，人口急剧减少，这场灾难肆虐了 [From.GetPlanetMoon]的所有定居点。在星球轨道上还存有大量碎片残骸，应该是一场战役留下的。"
  precursor.1506.desc:1 "我们分析力轨道中漂流的碎片，发现§Y[From.From.GetName]§!这个伊瑞森殖民星在受毁灭时曾经受到过军事封锁。伊瑞森舰队当时试图隔离[From.From.GetPlanetMoon]以遏制杰法利亚瘟疫的爆发。当时至少有一打民用船只试图突破封锁，虽然战斗惨烈但很明显一部分船只成功脱逃了。"
  precursor.1510.name:0 "净化世界"
  precursor.1510.desc:0 "可以明显看出§Y [From.GetName]§!，这个古代伊瑞森的殖民地，收到了大范围的轨道炮击。在太空中可以清楚看出在 [From.GetPlanetMoon]的主要人口聚居地，这些都是大约120万年前的。\n\n从炮击中幸存的那些可怜人，又遭受了横行大部分伊瑞森殖民地的贾沃安瘟疫的，人口锐减。"
@@ -1179,10 +1179,10 @@
  precursor.2102.desc.b:0 "我们对于这个环世界的调查证明它是由一个叫做“赛博雷克斯”的机器文明建造的……但不幸的是，我们无法发现更多信息。其他探险者已经将有价值的东西都拿走了。"
  precursor.2200.name:0 "活金属"
  precursor.2200.desc:0 "在科学官§Y [Root.GetLeaderName]§!报告 [RogueLeader.GetHerHis]关于在§Y [From.GetStarName]§!星系的巨大环世界的发现时， [RogueLeader.GetSheHe]无法控制 [RogueLeader.GetHerHis]震惊情绪。这个环的尺寸已经超出了我们的理解，用于建造一小部分的时间也不是我们可以承担的。\n\n扫描显示了一种以前从没发现过的资源，活金属。环上有非常多这种东西。这种材料也许就是当初建造者得以建造它的原因，研究这项科技可以让我们更接近他们的科技水平。"
- 
- ####################################
- # Tech Risk Events
- ####################################
+
+####################################
+# Tech Risk Events
+####################################
  techrisk.3.name:0 " [From.GetName]上AI叛乱"
  techrisk.3.desc:0 "尽管我们有所堤防， [From.GetName]上一个研究站里的AI系统突破的编程限制，形成了一个团体。让我们科学家惊恐的是，这个新AI有全部自我意识。\n\n试图控制这个AI的尝试失败了，而且刺激了AI采取暴力手段来保护自己。 [From.GetPlanetMoon]上数十万个无人机不听我们的指挥，开始攻击我们的当地部队！"
  techrisk.3.a:0 "我们必须阻止他们！"
@@ -1195,9 +1195,9 @@
  techrisk.7.desc:0 "我们从 [From.Capital.GetName]附近处收到了情况险峻的报告。看来 [From.GetName]灵活运用他们从 [From.Capital.GetPlanetMoon]一方抢来的工厂，迅速组建了一只小型战舰舰队。"
  techrisk.7.a:0 "情况真是越来越糟了！"
 
- #############################
- # Primitive Alien Events
- #############################
+#############################
+# Primitive Alien Events
+#############################
  acquired_tech_tooltip:0 "这个文明的科技发展节奏加快了。"
  primitive.1.name:0 "遭遇外星文明原型"
  primitive.1.desc:0 "对 [From.GetName]的调查发现， [From.GetPlanetMoon]已成为一支原始外星原型文明的家园。我们的探测器显示他们他们的文明已进入新石器时代，掌握了用火的方法并初步创造了口语。但我们还未发现任何有关冶金或书面交流的迹象。"
@@ -1292,12 +1292,12 @@
  primitive.174.a.response:0 "好极了，那么这件事就算了结了。"
  primitive.174.b:0 "这是为了科学。没有什么补偿。"
  primitive.174.b.response:0 "那就这样吧。\n\n你会发现的，我们 [From.GetSpeciesNamePlural]记性可是很好的， [Root.GetSpeciesName]！"
- 
- 
- ####################################
- # Observation Post Events
- ####################################
- 
+
+
+####################################
+# Observation Post Events
+####################################
+
  observation.2.name:0 "小行星接近 [From.GetName]"
  observation.2.desc:0 "我们位于 [From.GetName]轨道上的观测站中小型天体实验室侦测到一颗4级小行星的接近抛物线。若不采取行动，该小行星将与 [From.GetPlanetMoon]北半球发生严重碰撞，冲击力足以造成灭绝等级的事件发生。\n\n我们被动观察的任务通常不考虑对观察对象进行干涉，但我方许多科学家认为在此等事件中应当破例。若不采取任何行动，无异于让 [From.Owner.GetName]在 [From.GetName]上彻底灭亡。"
  observation.2.a:0 "真是糟糕的处境啊。"
@@ -1310,7 +1310,7 @@
  observation.6.name:0 "小行星已被摧毁"
  observation.6.desc:0 "飞向 [asteroid_prim_planet.GetName]的小行星在到达 [asteroid_prim_planet.GetPlanetMoon]表面前即被摧毁。碎片在进入大气层时均已烧毁，无法造成实质性的损害。\n\n当地原住民欣赏到了一场极为壮观的流星雨。但除此之外， [asteroid_prim_planet.Owner.GetName]上的原始外星生物对自己与灭绝擦肩而过的事实一无所知……"
  observation.6.a:0 "他们永远也不会发现的……"
- 
+
  observation.11.name:0 "科学家失踪"
  observation.11.desc:0 "我们在 [From.GetName]轨道的观测站中由一名科学家失踪了。他曾被派往 [From.GetPlanetMoon]表面执行收集植物样本的秘密任务，但却没有跟随队伍剩余成员一起返回飞行器。\n\n我们已开始了限定搜查，以免对当地原住民造成惊扰，但至今为止尚无发现。"
  observation.11.a:0 "继续搜索。"
@@ -1352,7 +1352,7 @@
  observation.29.desc:0 "阿门。我想我应该感激你，我在被精神病院关了这么多年之后，你又把我送回了我的弟子们身边……\n\n很好。我对过去既往不咎。只要你别动我的人，我能确保我们之间会相处的很愉快的。毕竟空间是足够的。"
  observation.29.a:0 "我们拭目以待吧。"
  observation.30.desc:0 " [From.From.GetName]对我们在高层轨道的空间站发射了一大堆地对空导弹！空间站已被摧毁，没有幸存者。\n\n看来 [From.From.GetPlanetMoon]表面的原住民的科技领先很多–毫无疑问，这都是我们的游手好闲的科学家的功劳。我们不能把他们当做原始人了，现在也没接口减少队伍中的科学家了。\n"
- 
+
  observation.36.name:0 "飞行器坠毁在 [From.GetName]"
  observation.36.desc:0 "在一次对 [From.GetName]的秘密任务中，我方一艘飞行器被当地一国家的一队大气飞行器拦截。一枚导弹偶然击中了飞行器引擎，使其熄火，飞行器于人迹罕至的荒野区域坠毁。\n\n要想赶在当地原住民之前救出幸存者，我们必须立刻行动。所有我们在此星球行动的证据都必须抹除！"
  observation.36.a:0 "时间紧迫。"
@@ -1375,7 +1375,7 @@
  observation.47.name:0 "人质遭处决"
  observation.47.desc:0 "我们在 [From.From.GetName]被抓获的科学家被挂上了“外星怪物”的牌子游街示众后，在无数摄像头聚焦下以极为残酷的方式处决，随后在欢呼的人群面前以极为凶残的方式肢解了。"
  observation.47.a:0 "这群野蛮人！"
- 
+
  observation.51.name:0 "走私犯哨站"
  observation.51.desc:0 "我们在 [From.GetName]上空的哨站在 [From.GetPlanetMoon]表面发现了非法居民。可能是某些 [Root.GetSpeciesName]走私犯或者 [Root.GetName]的犯罪分子设立的哨站。\n\n在走私犯们接触到原住民的敌方已经发生了一些案件—有一些是暴力事件。我们需要尽快行动，在犯罪分子有进一步动作之前消灭他们。\n"
  observation.51.a:0 "我们要把他们赶出那里。"
@@ -1386,7 +1386,7 @@
  observation.53.name:0 "走私犯的武器交易"
  observation.53.desc:1 "我们太迟了。[From.From.GetName]上的走私犯已经开始用现代化的武器和简陋的兴奋剂向当地原始人换取珍贵的金属和奴隶。\n一些当地国家之间爆发了战争，在战争中他们使用了新式武器使得伤亡情况变得非常惨重。此时此刻，精神污染带来的恶果已经无法被恢复了。"
  observation.53.a:0 "真是一场灾难。"
- 
+
  observation.1001.name:0 "提议绑架"
  observation.1001.desc:0 "我们在 [From.GetName]上的 [From.Owner.GetSpeciesNamePlural]土著中找到了一个科学家，他很有前途。他杰出的研究成果远胜同辈，有一些成果用我们的标准来看，也是革命性的。\n\n虽然他的工作会让 [From.Owner.GetSpeciesNamePlural]的科技更进一步，但是他的潜力在那样落后的文明中被浪费了。在我们先进的实验室中，他才有机会可以真正研究科学。\n"
  observation.1001.a:0 "策划绑架方案"
@@ -1429,7 +1429,7 @@
  observation.1033.desc:0 "我们注意到 [From.GetName]上的 [From.Owner.GetSpeciesNamePlural]发生了一个显著的变化。他们的社会开始偏向内向，他们不如以前那样能接受陌生人了。\n\n我们倾略性的观测计划以及遍及 [From.GetPlanetMoon]的绑架可能和这有一些关系，这使得 [From.Owner.GetSpeciesNamePlural]对陌生人更加警惕了。"
  observation.1035.desc:0 " [From.Owner.GetSpeciesNamePlural]土著们在我们开始侵略性的观测整个 [From.GetName]上的族群时，发生了彻底的变化。\n\n他们对我们的绑架飞船的憎恨使得他们对任何陌生的东西都无比警惕，与此同时，他们族群内部的文化和种族关系变得比以前更为亲密了。"
  observation.1037.desc:0 "我们驻扎在 [From.GetName]上空的观测站中的一些绑架小组用航天梭上的推进器在 [From.GetPlanetMoon]上的土著 [From.Owner.GetSpeciesNamePlural]的田地里搞了一些麦田圈，画了一些复杂的图案。\n\n因为这个恶作剧，机组成员被严厉训斥了一顿。但是那些麦田圈对土著居民居然产生了宗教意义，一个新的宗教成立了，它就和麦田圈有关，并且以惊人的速度在 [From.Owner.GetSpeciesNamePlural]中传播开来。"
- 
+
  observation.2000.name:0 "启蒙完成"
  observation.2000.desc:0 "我们派往 [From.From.From.GetName]的成千上万的科学家和顾问终于完成了任务，让当地的土著文明水平进步到了太空时代。在他们新成立的政府之下，外星人现在成为了" [From.From.From.Owner.GetName]"并且他们同意成为我们的附属种族。\n\n我们在他们家园上方的的观测哨站已经被拆除，这也是我们和他们之间条约的一部分。\n"
  observation.2000.a:0 "这是个伟大的日子。"
@@ -1457,8 +1457,8 @@
  observation.2057.desc:0 "我们启蒙 [From.Owner.GetSpeciesNamePlural]并引导他们进步的计划遇到了挫折。我们派 [From.GetName]的虔诚的顾问和科学家报告说，原住民没有信仰，这很让人忧虑。他们很乐意接受与我们的科技，但是不接受我们的信仰。\n\n这极大地阻碍了我们启蒙 [From.Owner.GetSpeciesNamePlural]的任务。我们的计划又要延期了。"
  observation.2059.desc:0 " [From.GetName]上专制独裁的社会体系阻碍了我们推动 [From.Owner.GetSpeciesNamePlural]科技进步的任务。独立思想和积极性–科学需要的品质–在 [From.Owner.GetSpeciesNamePlural]身上很罕见。\n\n这种原始的集体主义妨碍了我们的任务–科学家报告说，教育他们会花费超过预期的时间。"
  observation.2061.desc:0 " [From.GetName]现在是乱世，我们的科学家在教育 [From.Owner.GetSpeciesNamePlural]人时遇到了很大的困难。他们所谓的科学家只是临时对什么感兴趣就研究什么，从不理会公认事实。\n\n我们的启蒙运动还在继续，尽管原住民还有明显的个人主义倾向，但还是会花费超过预期的时间。"
- 
- 
+
+
  observation.3001.name:0 " [From.GetName]:第一阶段-渗透"
  observation.3001.desc:0 "我们的渗透单位已经来到了 [From.GetName]，他们的身份信息正在编造。除了一些小事之外，他们的 [From.Owner.GetSpeciesName]伪装是完美的。"
  observation.3002.desc:0 "我们的渗透单位已经抵达了 [From.GetName]，但是他们的身份还是出了一些问题。发生了一些意外，几个渗透成员被揭发了外星人身份，迫使我们终结了所有的目击者。\n\n这也引发了 [From.Owner.GetSpeciesName]当局的关注，这需要我们的行动隐蔽一些。很不幸，这会导致我们的计划延后一段时间。"
@@ -1502,7 +1502,7 @@
  observation.3114.name:1 "[From.From.GetName]: 无赖特工已被消灭"
  observation.3114.desc:0 " [Root.GetName]的太空船长汇报了射击任务的成功实施，确认目标已被多次击中。虽然没有发现尸体，但开火区域中的目标是绝对无法存活如此密集的开火的。\n\n当地媒体似乎完全相信了我方潜入特工编造的虚假报道：突然发生的流星雨击中了人口众多的城区。无法避免的悲剧。"
  observation.3114.a:0 "的确是悲剧。"
- 
+
  observation.3131.name:0 " [From.GetName]：愈发紧张的情势"
  observation.3131.desc:0 "我方试图用专业替身替代 [From.GetName]领袖的任务完全败露了。进行任务的特工们不是被追杀至死，就是依照规章制度，为了不被抓获而自杀了。\n\n本应被替身替代的领袖将这一切都归罪于与该国敌对的某政府身上。因此， [From.GetPlanetMoon]的政治局面渐渐变得紧张，战争似乎也要一触即发。我方潜入基地准备了全球性的政治宣传，希望能够缓和情势，但需要我们派遣科技船进入轨道进行协助。"
  observation.3131.a:0 "得在事态失控前尽快解决才行。"
@@ -1531,10 +1531,10 @@
  observation.3136.c.tooltip:0 "另外一座§Y$building_great_pyramid$§!在 [From.From.GetName]出现了。\n\n [From.From.GetName]获得了§R$pyramid_wars$§!加成系数，持续§Y720§!天。效果如下：\n幸福度：§R-40%§!\n\n"
  observation.3137.desc:0 "虽然我方与 [From.From.GetName]的民众进行了计划外的接触，但事态并没有变得更糟。人们渐渐将“天启者”当做了神话传说，并没有因为金字塔而形成任何教派。而现在，民众们运用金字塔作为知识分子的学习场所，专门研究其构造。\n\n此次事件也给了我们意想不到的宝贵数据：原始生物们在面对不寻常的大事件时，会对其逻辑思考造成怎样的影响。"
  observation.3137.a:0 "还真是幸运。"
- 
- ####################################
- # Crisis Events
- ####################################
+
+####################################
+# Crisis Events
+####################################
 
  crisis.11.name:0 "亚空间回声"
  crisis.11.desc:0 "我方的几处监察站都截获了同一种十分奇异的亚空间回声。其来源皆为星系际空间。回声刚开始有些微弱，但已经逐渐变强，似乎是要来我方所处的星系了……"
@@ -1562,7 +1562,7 @@
  crisis.20.name:0 "第二波接触"
  crisis.20.desc:0 "已经无法将亚空间回声的主体与我方星系的一般辐射进行分辨了。也就是说……它们终于到了。\n\n光是先锋就有那么多艘船只，回声的主体一定是十分庞大的吧。"
  crisis.20.a:0 "它们来了……"
- 
+
  crisis.30.desc_01:0 "JARAK?"
  crisis.30.desc_02:0 "TUROSKMINA.DOROF!"
  crisis.30.desc_03:0 "MUGANI?HAKHAKHAK!"
@@ -1578,7 +1578,7 @@
  crisis.30.e.response:0 "JUSUGAMAKV'TA!RAGAHTUR,HAKHAK!"
  crisis.30.f:0 "滚回自己老家去吧，恶魔们！"
  crisis.30.f.response:0 "HAKHAK!NIMAVU!!!"
- 
+
  crisis.51.name:0 "新秩序"
  crisis.51.desc:0 "最近，某个致力于对抗普雷索林的军事组织在星系中渐露头角。其成员主要是在战争中被剥夺欺掠之人：难民，老兵，以及被长久战争夺走一切的民众们。\n\n虽然成员有些不起眼，但这个破破烂烂的军事组织仍然克服重重难关，赢得了几场与普雷索林的直面对抗。据传言说，他们的舰队中有十分特殊的航空船……"
  crisis.51.a:0 "这些人到底是什么来历？"
@@ -1607,7 +1607,7 @@
  crisis.71.a.response:0 "很好。我方相信，你军勇敢的士官们将会为这些战舰带来新的荣耀。舰队就放置在 [Root.Capital.GetName]附近。"
  crisis.71.b:0 "我们不需要你的战舰。"
  crisis.71.b.response:0 "那也没有关系。只希望各位能够继续作战，保持胜利。每杀死一只普雷索林，这个星系离和平也就更进一步。"
- 
+
  crisis.101.name:0 "受伤的女王"
  crisis.101.desc:0 "进行深空探索的侦察机发现了普雷索林与未知势力的战场余骸。战场看起来还很新鲜，位于 [queen_system.GetName]系统。一只普雷索林女王似乎在战争中受了重伤，被同伴扔下不管了。\n\n侦察机汇报说女王仍然还有气息。如果能将女王活着带回来进行研究，那简直就是千载难逢的好运。"
  crisis.101.a:0 "或许应该派遣探险队去考察。"
@@ -1617,7 +1617,7 @@
  crisis.107.name:0 "被抢走的女王"
  crisis.107.desc:0 "我们在 [queen_system_1.GetName]星系发现了受伤的普雷索林女王，却不幸被别人抓走了！他们在治疗女王之后，又切断了其与普雷索林军团进行联系的器官。这下女王所生育的所有幼体都会听命于他们，而幼体似乎已在培育中了。"
  crisis.107.a:0 "我们果然还是去晚了！"
- 
+
  crisis.1007.name:1 "不速之客"
  crisis.1007.desc:1 " [extradimensional_system.GetName]星系之中，产生了巨大的时空裂隙！虽然其产生原因未明，但似乎是另一个维度前来我们星系的单向传送门。从未见过的奇异飞船成群涌出，不管见到什么，都加以攻击。似乎是大型侵略战的开始。\n\n我方截获了传送门另一边发往涌出飞船的强力信号。听起来……像是狩猎的呼叫。"
  crisis.1007.a:0 "还真有意思……其它维度的生命体。"
@@ -1632,31 +1632,31 @@
  crisis.1011.name:0 " [Root.GetName]失乐园"
  crisis.1011.desc:0 "我们位于 [Root.GetName]的殖民地已经不在了！进入行星轨道后，这些异维度的侵略者们就开始轰炸行星表面，大肆吞噬行星住民。他们离开后，行星上只留下了无知觉的生物，在我们的殖民地中已经没有活物了。"
  crisis.1011.a:0 "这些该死的怪物，一定要阻止它们！"
- 
+
  crisis.1013.name:0 "摧毁维度传送门"
  crisis.1013.desc:1 "位于 [extradimensional_system.GetName]星系的维度传送门已经被摧毁了！这些可恶的异维度侵略者，再也不能从它们的维度叫来援兵了。\n\n摧毁了传送门后，结束这场侵略也终于有了胜机。星系中的大部分星球都在欢呼雀跃。同时， [portal_killer.GetName]也受到了大量的赞誉，毕竟他们船只的一击终结了传送门的存在。各位船员们也将会成为英雄，被后世传颂。"
  crisis.1013.a:1 "星系变得更加安全了。"
  crisis.1016.name:0 "第一传送门已摧毁"
  crisis.1016.desc:0 "异维度侵略者们最初的落脚之地已经被摧毁了。\n\n$crisis.1116.not_last_portal$"
  crisis.1016.a:0 "现在可不能松懈"
- 
+
  crisis.1116.name:0 "第二传送门已摧毁"
  crisis.1116.desc.a:0 "$crisis.1116.second_portal_destroyed$\n\n$crisis.1116.last_portal$$crisis.1116.last_portal_known_killer$"
  crisis.1116.desc.b:0 "$crisis.1116.second_portal_destroyed$\n\n$crisis.1116.last_portal$"
  crisis.1117.desc:0 "$crisis.1116.second_portal_destroyed$\n\n$crisis.1116.not_last_portal$"
- 
+
  crisis.1116.second_portal_destroyed:0 "出现在 [extradimensional_system.GetName]星系的第二传送门也被摧毁了！异维度侵略者们已经无法运用此传送门呼叫援兵了。"
  crisis.1116.last_portal:0 "摧毁最后一个传送门后，结束这场侵略也终于有了胜机。星系中的大部分星球都在欢呼雀跃。"
  crisis.1116.last_portal_known_killer:0 "同时， [portal_killer.GetName]也受到了大量的赞誉，毕竟他们船只的一击终结了传送门的存在。各位船员们也将会成为英雄，被后世传颂。"
  crisis.1116.not_last_portal:0 "然而，我们现在仍然不能松懈，一定要摧毁每一座传送门才行。只有这样，才能彻底切断两个维度之间的联系。"
- 
+
  crisis.1216.third_portal_destroyed:0 "出现在 [extradimensional_system.GetName]星系的第三传送门也不在了。异维度侵略者们已经无法运用传送门连接两个维度了。"
- 
+
  crisis.1216.name:0 "第三传送门已摧毁"
  crisis.1216.desc.a:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.last_portal$$crisis.1116.last_portal_known_killer$"
  crisis.1216.desc.b:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.last_portal$"
  crisis.1217.desc:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.not_last_portal$"
- 
+
  crisis.1050.desc_01:0 "……猎物……"
  crisis.1050.desc_02:0 "……屈膝于……我们的荣耀吧……"
  crisis.1050.desc_03:0 "……营养……"
@@ -1682,7 +1682,7 @@
  crisis.1052.desc_03:0 "……去死吧……"
  crisis.1052.a:0 "关闭显示屏。"
  crisis.1052.a.response:0 "……傲慢…无比……"
- 
+
  crisis.1110.name:0 "第二传送门"
  crisis.1110.desc:0 "我方的仪器又侦测到了新的亚空间功率波动，此次的起源为 [second_portal_system.GetName]星系！又出现了巨大的虫洞，其能源特征与星系中第一个传送门十分相近。\n\n看起来侵略者们打开了第二个传送门，想要带来更多的援军。"
  crisis.1110.a:0 "没想到事态还能变得更糟。"
@@ -1696,7 +1696,7 @@
  crisis.1210.a:0 "又来一个？"
  crisis.1211.desc:0 "……哒嘎……唰啦啦……你们这群跨入这块领域的愚人……无处可逃……我们将摧毁你们的王国……然后……最终……永恒的王座将属于我们……"
  crisis.1211.a:0 "无法中止吗？"
- 
+
  crisis.2192.name:2 "完美仆从"
  crisis.2192.desc:2 "在有感知的人造工人发明的这些年间，我们一直在你平衡它们的独立思考能力，又需要将它们严格控制起来。现在，顶级的 [Root.GetSpeciesAdj]工程师已经完善了三定律算法，如果付诸实施，我们将能无所顾忌地使用人造人来在有机体难以承受的环境下工作。"
  crisis.2192.a:2 "可安全使用的工具"
@@ -1741,7 +1741,7 @@
  crisis.2016.a:0 "所有人都情牵这场战争！"
  crisis.2017.desc:0 "人工智能暴动已经扩散至了 [From.GetName]！他们的机器工人已经加入了反叛，有消息报道称冲突已经造成数以百万计的死亡。"
  crisis.2017.a:0 "威胁与日俱增"
- 
+
  crisis.2100.name:0 "出故障的合成人"
  crisis.2100.desc:0 "一名来自 [Root.GetName]的合成工人近来在一处住房中大开杀戒，在当地安保部门实施镇压之前屠杀了超过12个我国公民。我们的法律团队仍然在调查人造人的残留物，但他们怀疑是某种神经处理器的故障导致了这次悲剧。\n\n这次事件已经在 [Root.GetPlanetMoon]上引发了数起针对合成人的复仇袭击，造成了数以千计的合成人损毁。"
  crisis.2100.a:0 "非常不幸。"
@@ -1782,10 +1782,10 @@
 
  crisis.2210.desc:0 "<<01_EMBASSY_PROPOSE>>\n\n\n只是<<KIDDING>>。你会<<TERMINATED>>."
  crisis.2210.a:0 "很好笑。"
- 
- #############################
- # Pop Events
- #############################
+
+#############################
+# Pop Events
+#############################
  pop.1.name:0 "新物种"
  pop.1.desc:0 "很多定居于 [Root.Planet.GetName]的 [Root.Planet.Owner.GetSpeciesName]都进行了自身基因改造，以适应 [Root.Planet.GetPlanetMoon]的恶劣环境。他们对自身进行的而改造具有遗传性，其外表发生了巨大的改变。他们开始称自己为“ [Root.GetSpeciesName]”。"
  pop.3.name:0 " [Root.GetName]的紧张情绪"
@@ -1805,9 +1805,9 @@
  pop.14.desc:0 "为了应对 [Root.GetName]上 [modified_pop_1.GetSpeciesName]和 [non_modified_pop_1.GetSpeciesName]居民间的暴力冲突， [modified_pop_1.GetSpeciesNamePlural]进一步进行了基因改造。他们现在变得更快更强，身体能够承受足以杀死普通 [non_modified_pop_1.GetSpeciesNamePlural]的伤害。\n\n据报道，在近日一起事件中，仅仅两名未武装的 [modified_pop_1.GetSpeciesNamePlural]就杀死了十几个 [non_modified_pop_1.GetSpeciesName]游击队员。我们必须重视这种危险的局面。"
  pop.14.tooltip:0 "调整§Y [modified_pop_1.GetSpeciesName]§!在§Y [modified_pop_1.Planet.GetName]§!，通过增加§G$trait_strong$§!点"
 
- #############################
- # Galactic Features Events
- #############################
+#############################
+# Galactic Features Events
+#############################
  galactic_features.1.name:0 "遭遇缇杨凯人"
  galactic_features.1.desc:0 " [Root.GetName]遇到了一群 [Root.GetStarName]星系的缇杨凯人。这些温顺的航天生物常常在星际穿行，偶尔在某些气态巨行星大气上层的电流为食。它们没有智能。"
  galactic_features.2.name:0 "扎那姆守护者"
@@ -1857,10 +1857,10 @@
  galactic_features.351.b.response:0 "此设施是由西渺历时412周期建造而成的。正式完成并投入运行是在74,605,338周期前。西渺舰船最近一次有记录的来访发生在67,103,853周期前。从那之后就再也没有过西渺或西渺附属舰船来访的记录。\n\n记录中共有38,201次未经授权的舰船试图进入。\n\n无论如何都不要接近此设施。"
  galactic_features.351.c:0 "再会了。"
  galactic_features.351.c.response:0 "圣所的自动服务祝您度过愉快的一天，有感知的生物。\n\n无论如何都不要接近此设施。"
- 
- #############################
- # Country Events
- #############################
+
+#############################
+# Country Events
+#############################
  country.1.name:0 "亚光速探索探测器"
  country.1.desc:0 "在我们掌握超光速航行技术前， [Root.Capital.GetName]派出的一些亚光速探测器以近相对论速度正前往临近的星系进行探索。开发探测器的科学家天真地在存储内核中输入了我们文明的信息作为向外星文明的问候。\n\n现在，人们终于意识到这些信息可能被用来对付我们。我们必须在趁早追回那些探测器，以免落入那些毫无怜悯之心的外星生物之手。"
  country.1.a:0 "它们还没走得太远。"
@@ -2007,12 +2007,12 @@
  country.257.name:0 "盖棺定论"
  country.257.desc:0 "风信子号以及她的船员将面临怎样的残酷命运，我们已经明白了。如果事情没有发展到这一步，很可能是秋菊号漂浮在 [hyacinth_planet.GetName]的上空，犹如一颗沉默的炸弹，在冷漠的宇宙中提醒人类他们面对的千难万险。\n\n风信子号即将被拖入 [Root.Capital.GetName]的低轨道，马上就要成为保留人类遗迹的博物馆。尽管她的遭遇十分悲惨，这艘方舟却和将我们地球上的祖先带来的那只几乎一模一样。望以后的社会学家能从中有所了悟。\n\n"
  country.257.a:0 "也许会有所收获也说不定。"
- 
- 
- 
- #############################
- # Progress Events
- #############################
+
+
+
+#############################
+# Progress Events
+#############################
  progress.1.name:0 " [home_system.GetName]系统已完全调查"
  progress.1.desc:0 " [Root.Capital.GetName]的天文学家通过望远镜凝视着同一星系的其他星球，已有千年之久。我们的祖先发明了机制复杂的太阳系仪来模拟它们的轨道，所使用的是 [home_system.GetName]星系出人意料精准的模型。\n\n今天我们的文明已到达历史性的里程碑，我们已经完成太阳系最后一颗星球的调查。未知世界的边界又推向了远方。"
  progress.1.a:0 "创造历史！"
@@ -2052,9 +2052,9 @@
  progress.8.desc:0 "在探索完毕母星系之后，我们终于该到 [Root.Capital.GetName]之外了。我们应该调查邻近的星系，寻找适合建立殖民地的世界。\n\n和往常一样，§S情报日志§!已添加了新条目。"
  progress.8.a:0 "开始搜查吧。"
 
- #############################
- # Pirate Events
- #############################
+#############################
+# Pirate Events
+#############################
  pirate.1.name:0 "太空海盗的诞生"
  pirate.1.desc_01:0 "一大群来自 [Root.Capital.GetName]道德沦丧的罪犯使用非法手段将若干公民舰船改造成战舰。这些异端在空间的边缘游移，自称“§S [pirate_band.GetName]§!”并宣布对数次航线攻击负责。\n\n他们的下流手段不能再继续下去！"
  pirate.1.desc_02:0 "情报局报告了过去几月中数起航线攻击事件。犯罪分子似乎是 [Root.Capital.GetName]的逃兵和叛徒。\n\n这些罪犯拼凑了一艘由民用船体大幅改装制成的战舰，并且自称为“§S [pirate_band.GetName]§!”。他们的船只虽然粗糙简陋，但也不容小觑。"
@@ -2070,10 +2070,10 @@
  pirate.2.e:0 "我们不需要海盗这种渣滓。"
  pirate.2.f:0 "贸易必须流通下去。"
  pirate.2.g:0 "一定要找到他们。"
- 
- #############################
- # Pretender Events
- #############################
+
+#############################
+# Pretender Events
+#############################
  pretender.1.name:0 " [From.GetRegnalName]死去时尚无子嗣"
  pretender.1.desc_01:0 " [From.GetRegnalName]已然去世， [Root.Capital.GetName]将进行为期七天的悼念仪式。不幸的是，他并没有已公开的继承人，关于权位已有两种不同的意见。\n\n最有力的竞争者 [Root.GetRulerName]已获得 [Root.GetRulerTitle]头衔，但这完全无法平复民意。"
  pretender.1.desc_02:1 " [From.GetRegnalName]已经超越了现实世界，开始了前往来生的旅程。不幸的是，他的灵魂并没有给我们祝福，来指示我们下一位继承者是谁。\n\n经过激烈的辩论， [Root.GetRulerName]获得了下一任 [Root.GetRulerTitle]的头衔，但他并非没有对手。"
@@ -2081,13 +2081,13 @@
  pretender.1.desc_04:1 " [From.GetRegnalName]的肉体不能再用了，而我们的运算法则无法计算出最佳的替代人选。为了维持效率，我们随机挑选了一位新的 [Root.GetRulerTitle]， [Root.GetRulerName]将会接手解读主机的意志的责任。\n\n不过有人对此质疑，有人认为自己更适合承担这个荣誉。"
  pretender.1.desc_05:1 " [From.GetRegnalName]离世了，整个 [Root.GetName]都在哀悼。可惜没有钦定任何继承人，这在贵族阶层中引发了争论。\n\n [Root.GetRulerName]已经在 [Root.Capital.GetName]登基了，但是自称跟 [From.GetRegnalName]有远房亲戚关系的觊觎者已经开始挑战新的 [Root.GetRulerTitle]。"
  pretender.1.tooltip:1 "觊觎者派系出现了。"
- 
+
  henrik.710.desc:0 "一个 [From.GetSpeciesName]。数个 [From.GetSpeciesNamePlural]。"
- 
- ##########################
- # Leader Events
- ##########################
- 
+
+##########################
+# Leader Events
+##########################
+
  admiral_trait_gain:0 "司令获得特性"
  admiral_trait_loss:0 "司令失去特性"
  leader.1.name:0 "有潜力的军官"
@@ -2211,76 +2211,76 @@
  leader.25.desc.fleet_organizer:0 "$leader.25.desc.base$§G$leader_trait_fleet_organizer$§!"
  leader.25.desc.nervous:0 "$leader.25.desc.base$§R$leader_trait_nervous$§!"
 
- ##########################
- # Diplomatic Events
- ##########################
+##########################
+# Diplomatic Events
+##########################
 
- diplomatic.2.name: "[From.From.Owner.GetAdj] Admiral Insults Us"
- diplomatic.2.desc: "The [From.From.Owner.GetSpeciesNamePlural] are well known to have few good things to say about alien lifeforms in general. Those who do diplomacy in the [From.From.Owner.GetName] cannot afford a short temper, as they can rarely expect anything beyond a bare minimum of respect, if that. However, while traversing [Root.GetAdj] space, communications usually stay within formal protocols.\n\nNot so earlier today, when [broadcasted_insult_leader.GetName] decided to unleash an utterly vitriolic message on our unsuspecting public while commandeering a fleet through the [From.From.GetStarName] system. The admiral appears to have picked up radio signals from one of our planets and set off on a long rant about our culture and evolutionary origins. Millions have heard the message, as clearly intended. The outrage is palpable."
- diplomatic.2.a: "[From.From.Owner.GetName] must immediately fire this bigot!"
- diplomatic.2.b: "[broadcasted_insult_leader.GetName] must be brought to us an put to death!"
- diplomatic.2.c: "These are just words. We can't afford to be petty."
- diplomatic.3.name: "Admiral Insults the [From.GetSpeciesNamePlural]"
- diplomatic.3.desc: "Although few among us enjoy spending time around [From.GetSpeciesNamePluralInsult], or xenos in general, most of us try to avoid announcing our distaste at inopportune times. Admiral [broadcasted_insult_leader.GetName] has apparently discarded all such concerns when broadcasting a vicious diatribe about the [From.GetSpeciesName] people while travelling [From.GetAdj] space. The list of claims about their inferior nature had made for acceptable small talk on [Root.GetHomeWorldName], but has caused a diplomatic incident with the locals.\n\n[broadcasted_insult_leader.GetName] has apologized privately, claiming to have been annoyed listening to a local radio channel. The [From.GetAdj] government are calling for the offender to resign immediately."
- diplomatic.3.a: "Such an uncontrollable temperament is unsuitable for an admiral."
- diplomatic.3.b: "The broadcast sounds quite amusing. We can't fire someone for this!"
- diplomatic.4.desc: "Although few among us enjoy spending time around [From.GetSpeciesNamePluralInsult], or xenos in general, most of us try to avoid announcing our distaste at inopportune times. Admiral [broadcasted_insult_leader.GetName] has apparently discarded all such concerns when broadcasting a vicious diatribe about the [From.GetSpeciesName] people while travelling [From.GetAdj] space. The list of claims about their inferior nature had made for acceptable small talk on [Root.GetHomeWorldName], but has caused a diplomatic incident with the locals.\n\n[broadcasted_insult_leader.GetName] has apologized privately, claiming to have been annoyed listening to a local radio channel. The [From.GetAdj] government are calling for the offender to be executed and want [broadcasted_insult_leader.GetHimHer] extracted to [From.GetHomeWorldName]."
- diplomatic.4.a: "One life is a small price to settle a dispute among millions."
- diplomatic.4.b: "We won't hand over one our own for the xenos to slaughter!"
- diplomatic.5.name: "[From.GetName] Retires Admiral"
- diplomatic.5.desc: "After some pressure from our diplomats to choose their leaders more carefully, [From.GetRulerName] has removed admiral [broadcasted_insult_leader.GetName] from duty. The admiral has not gone quietly, but sworn to clear [broadcasted_insult_leader.GetHisHer] name, hoping that [From.GetAdj] public opinion will turn aggressively against the [Root.GetName] in the future.\n\nThe leaders of [From.GetName] have nevertheless sent a clear message about future expeditions into our territory: Even if they may not like dealing with alien species, the [Root.GetSpeciesName] are at least to be respected in their own space."
- diplomatic.5.a: "They better stay that course."
- diplomatic.6.name: "[From.GetName] Extradites Admiral"
- diplomatic.6.desc: "After a short period of negotiations, [broadcasted_insult_leader.GetName] has been delivered to us for punishment. Having carefully considered what an appropriate punishment for insulting the [Root.GetSpeciesName] might be, only death and complete destruction seemed like a suitable option.\n\nUnrepentant into [broadcasted_insult_leader.GetHerHis] last moments, the defiant admiral's passionate speech about our savage ways was cut short by the airlock closing as the pod was launched at near lightspeed into the heart of [Root.Capital.StarName]. The glorious fire that lit the nights of our ancestors will burn away every trace of those who speak ill of them."
- diplomatic.6.a: "No more slanderous [From.GetRandomSpeciesSound]."
- diplomatic.7.name: "[From.GetName] Defends Admiral"
- diplomatic.7.desc: "Our request to have [broadcasted_insult_leader.GetName] removed from duty has been met with an appalling lack of understanding from [From.GetRulerTitle] [From.GetRulerName] and the [From.GetAdj] leadership. They've responded with a message largely trying to excuse the admiral's behavior, in the process suggesting, perhaps inadvertently, that some of what [broadcasted_insult_leader.GetSheHe] said about [Root.GetSpeciesNamePlural] might have rung true.\n\nWhat we assumed to be the actions of one bigot has turned out to be acceptable in [From.GetName]. They clearly think that our people can be insulted and slandered without consequence."
- diplomatic.7.a: "The crown is as rotten as the branches."
- diplomatic.8.name: "Disgraced Admiral Returns"
- diplomatic.8.desc: "The once-exiled admiral who was fired from our fleet over a diplomatic incident caused by an insulting transmission has tried to stage a comeback. With the ongoing war, many of the statements in the original transmission are now propaganda people hear everyday, vindicating the admiral's actions in the eyes of many, especially in the military.\n\nWhile changing our decision now would weaken the administration's credibility, this might be best admiral we could find to fight this war."
- diplomatic.8.a: "We need someone to rally the people!"
- diplomatic.8.b: "We made the right decision then and we stick with it."
- diplomatic.10.name: "Researchers Suspect Foreign Ships"
- diplomatic.10.desc: "[Root.GetName] is known for its academic standards and drive to innovate, but staying at the bleeding edge does not only require discretion in how to perform research, but who to share it with. Our trade secrets are highly valued, domestically as well as throughout the galaxy, and some scientists are very guarded against attempts to illicitly access their data.\n\nThe presence of [From.From.Owner.GetAdj] science ships in our territory have caused many research facilities to suspect them of espionage. Some researchers have claimed that they cannot continue to operate under this perceived threat, requesting we close our borders to these suspicious [From.From.Owner.GetSpeciesNamePlural]."
- diplomatic.10.a: "Our scientists must feel safe from observation. Close the borders."
- diplomatic.10.b: "Science vessels are fellow researchers, not spies."
- diplomatic.11.name: "[From.GetName] Closes Borders"
- diplomatic.11.desc: "The presence of your science ships in [From.GetAdj] space have caused us to doubt your motives. Our researchers believe that your scientists were not conducting, but stealing research. To keep valued trade secrets safe, we must bar you from our space."
- diplomatic.11.a: "Truly a troubling time when scientists don't trust each other."
- diplomatic.12.name: "[From.From.GetName] Suspected of Mapping Genome"
- diplomatic.12.desc: "Being on our guard against xeno threats has been a priority since we first left [Root.GetHomeWorldName]. The [From.From.GetAdj] science ships sneaking around our territory have not gone unnoticed, but up until now, they have been assumed to be peacefully examining planets. However, a recent theory has cast doubt on this.\n\nThe [From.From.GetSpeciesName] are known to utilize genome mapping in their medical research. What if they are mapping the genomes of unsuspecting [Root.GetSpeciesNamePlural] with the intention of finding our weaknesses? Although no certain evidence has surfaced, the theory has led to calls for closing our borders to the [From.From.GetName] to prevent any possible plans from succeeding."
- diplomatic.12.a: "We cannot risk future enemies gaining this data! Close the borders."
- diplomatic.12.b: "We are not going to base foreign policy on conspiracy theories."
- diplomatic.12.c: "We must start a project to map their genome in retaliation."
- diplomatic.13.name: "[From.GetName] Closes Borders"
- diplomatic.13.desc: "Your science ships have been reported for suspicious activity in our space. There are rumors that you have been studying our genetic makeup, looking for information which could be used to find weaknesses or manufacture bio-weapons. We cannot expose the [From.GetSpeciesAdj] people to such a risk."
- diplomatic.13.a: "Baseless accusations!"
- diplomatic.14.name: "Genome Mapping Yields Results"
- diplomatic.14.desc: "Although we have not found the specific details on the examined genome we hoped, our research has clarified much about the peculiarities of our own genetics. Some of the weapons what proved useful in the wars on [Root.GetHomeWorldName] in the past might be entirely wasted on alien lifeforms. These new insights have helped us develop updated combat doctrines."
- diplomatic.14.a: "If they really are targeting us, we may need it."
- diplomatic.15.name: "Prying [From.From.GetAdj] Scientist"
- diplomatic.15.desc: "The [Root.GetName] tries not to let spiritual concerns stand in the way of our exploration and examination of the mundane, but we know how to pay proper heed to metaphysical insights and traditions in the course of all actions. Scientists from [From.From.GetName] appear to be a bit more careless in their pursuit of new astronomic discoveries.\n\nAfter taking an interest in some of the the nearby stars that form constellations crucial to [Root.GetSpeciesAdj] mythology, [encroaching_research_leader.GetName] has been accused of trying to \"disprove\" some of the legends surrounding them. While we are confident that the spiritual significance of the constellations can hardly be touched by worldly discoveries, many have objected to the research and tried to persuade [encroaching_research_leader.GetHimHer] to leave [Root.GetAdj] space."
- diplomatic.15.a: "Suspicion of ill intent is reason enough to bar them from our space."
- diplomatic.15.b: "Our faith transcends the material realm. It cannot be harmed."
- diplomatic.15.b.tooltip: "[encroaching_research_leader.GetName] continues [encroaching_research_leader.GetHerHis] research."
- diplomatic.16.name: "[From.GetName] Closes Borders"
- diplomatic.16.desc: "Your scientist, [encroaching_research_leader.GetName], has been paying undue attention to stars in constellations our people hold sacred. We cannot allow anyone to operate in our territory who does not pay proper respect to our faith and its legends."
- diplomatic.16.a: "This must be some form of misunderstanding."
- diplomatic.17.name: "Heretical Discovery in [From.GetName]"
- diplomatic.17.desc: "Conducting research in foreign-controlled space requires tact, something we sometimes overlook in recruiting our scientists. This became apparent when [encroaching_research_leader.GetName] recently ran into trouble studying some of the stars in sacred [From.GetAdj] constellations. Locals objected to a clinical examination of the subject and hassled [encroaching_research_leader.GetHimHer] until [From.GetRulerTitle] [From.GetRulerName] made a statement sanctioning the research.\n\n[encroaching_research_leader.GetName], apparently spiteful over the protest, appears to have taken the time to actually find material suggesting that some of the [From.GetAdj] legends surrounding the stars may be wildly inconsistent with their real age and development. This is likely to cause further outrage if published."
- diplomatic.17.a: "Is [encroaching_research_leader.GetSheHe] deliberately trying to cause a scandal? Fire [encroaching_research_leader.GetHimHer]."
- diplomatic.17.b: "Things like these happen in the course of research."
- diplomatic.18.name: "[encroaching_research_leader.GetName] Publishes Heresy"
- diplomatic.18.desc: "Despite our trust in the best intentions of the [From.GetName] researcher who has been studing our ancient constellations, [encroaching_research_leader.GetSheHe] has managed to upset our people by re-evaluating the stars' age and arguing that the development of their brightness and visibility conflicts with our legends about the constellations.\n\nThe people who originally objected to the project are arguing that this was done deliberately out of malice by the scientist after they requested an end to the studies. The [From.GetAdj] government has decided to gloss over the issue and refused to take action to prevent the anger and pain the report is likely to cause among our people."
- diplomatic.18.a: "We should never have trusted them to respect us."
- diplomatic.19.name: "Exotic Woodwind"
- diplomatic.19.desc: "Music has taken many forms among the beings we have encountered since leaving [Root.GetHomeWorldName], and the methods and preferences continue to baffle us. Sometimes alien music is inaudible to us, while at other times, the waves are strong enough to destroy our capacity for hearing. Coming across music that we love more than its creators is a rare occasion indeed.\n\nSuch a rare occasion has occurred recently on [music_listening_planet.GetName]. Located close to the [music_origin_country.GetAdj] border, radio stations playing music from the other side have grown immensely in popularity. It appears some instrument from [music_origin_country.GetHomeWorldName] is not just pleasant, but appears to cause [Root.GetSpeciesAdj] bodies to resonate, causing a relaxing feeling in the [Root.GetSpeciesOrganName]. Whatever this instrument is, it's unlike any of our own."
- diplomatic.19.a: "An excellent time to learn more about their culture."
- diplomatic.19.b: "Let us be careful and study this instrument."
- diplomatic.20.name: "Instrumental Biology"
- diplomatic.20.desc: "Having taken a closer look at the alien music, we have discovered that it is made by a wind instrument made from one of the native plants native on their homeworld. The unusual internal structure of the plant is completely different from anything on [Root.GetHomeWorldName], even on molecular level. The effect of air passing through the plant on [Root.GetSpeciesAdj] bodies has advanced understanding of our own biology and how it might interact with new flora on alien worlds."
- diplomatic.20.a: "Who knows what we can find?"
- diplomatic.21.name: "[neighbor_contesting_colony.GetName] Objects to Expansion"
- diplomatic.21.desc: "Your new colony on [Root.GetName] is located very close to our borders. We would prefer it if you withdrew from this frontier, to avoid future conflicts over where our border should be drawn."
- diplomatic.21.a: "We will stop development immediately."
- diplomatic.21.b: "The colony is part of our future. It stays."
+ diplomatic.2.name:0 "[From.From.Owner.GetAdj]首领侮辱了我们"
+ diplomatic.2.desc:0 "全银河都知道[From.From.Owner.GetSpeciesNamePlural]从来没说过其他种族的好话。  即使是在外交的时候，[From.From.Owner.GetName]的脾气也很差，简直可称厚颜无耻的一群家伙们。但毕竟是在宇宙中，他们还是得有点基本的外交礼节。\n\n今天不早的时候，[broadcasted_insult_leader.GetName]公开对我们放出了这些尖酸的讽刺调侃言论，并带领着一群来自[From.From.GetStarName]星系的舰队。 他们的头领正向我们的星球滔滔不绝的讲着我们文化以及进化上得缺陷。我们百万人已经收到了这些信息。正如他们所期待的，怒火正从我们的人身上燃起。"
+ diplomatic.2.a:0 "[From.From.Owner.GetName]必须开除这个无礼的家伙"
+ diplomatic.2.b:0 "[broadcasted_insult_leader.GetName]必须被带到我身边处死！"
+ diplomatic.2.c:0 "只是些言语罢了，我们可不想显得小气而计较"
+ diplomatic.3.name:0 "舰长侮辱了[From.GetSpeciesNamePlural]"
+ diplomatic.3.desc:0 "虽然我们也不待见 [From.GetSpeciesNamePluralInsult]，但是我们大多数人还是避免公开的舌上冲突。 舰长[broadcasted_insult_leader.GetName]似乎毫无这种担心他一边航行在[From.GetAdj]，一边公开的播放针对[From.GetSpeciesName]人的调侃讽这些话已经变成了些在[Root.GetHomeWorldName]上的饭后谈资,但也同时带来了一次外交事故。\n\n[broadcasted_insult_leader.GetName]舰长私下对我们进行了道歉，并且说他这么做是因为听烦了当地的广播。[From.GetAdj]的政府勒令这位舰长辞职。"
+ diplomatic.3.a:0 "这种脾气的人可不适合当舰长"
+ diplomatic.3.b:0 "事实上这些东西听着还挺有趣，我们可不能因为这种事情开除别人"
+ diplomatic.4.desc:0 "虽然我们也不待见 [From.GetSpeciesNamePluralInsult]，但是我们大多数人还是避免公开的舌上冲突。 舰长[broadcasted_insult_leader.GetName]似乎毫无这种担心他一边航行在[From.GetAdj]，一边公开的播放针对[From.GetSpeciesName]人的调侃讽这些话已经变成了些在[Root.GetHomeWorldName]上的饭后谈资,但也同时带来了一次外交事故。\n\n[broadcasted_insult_leader.GetName]舰长私下对我们进行了道歉，并且说他这么做是因为听烦了当地的广播。[From.GetAdj]政府号召处决这个家伙，并将[broadcasted_insult_leader.GetHimHer]引渡到[From.GetHomeWorldName]."
+ diplomatic.4.a:0 "为解决数百万人的争议而牺牲一人是值得的"
+ diplomatic.4.b:0 "我们不会把自己的小命交到外人手里！"
+ diplomatic.5.name:0 "[From.GetName]解雇了司令"
+ diplomatic.5.desc:0 "在我们的外交官施压之后，他们将更小心地选择他们的领导人，目前[From.GetRulerName]已经将海军司令[broadcasted_insult_leader.GetName]撤职。然而这位海军司令并没有就此安静地离去，而是发誓要将[broadcasted_insult_leader.GetHisHer]的名字抹去，并希望[From.GetAdj]的公共意志将在未来更加积极地反抗[Root.GetName]。\n\n不过[From.GetName]的领导就未来对我们领土的探索表明了清晰的态度:哪怕他们不喜欢特殊对待外星人，至少在他们的领土上，[Root.GetSpeciesName]会得到应有的尊重。"
+ diplomatic.5.a:0 "他们最好保持航线。"
+ diplomatic.6.name:0 "引渡[From.GetName]海军司令"
+ diplomatic.6.desc:0 "在一段短期的协商后，[broadcasted_insult_leader.GetName]已经被送到我们这里并接受处置。在郑重考虑了侮辱[Root.GetSpeciesName]国应该是什么惩罚后，看来只有死刑以及彻底的毁灭可以作为合适的选择了。\n\n当[broadcasted_insult_leader.GetHerHis]舰长毫无动摇的进行热情演说并对我们指手画脚时，他的舰船被瞬间击毁成几片，只见那逃生舱以光速坠入了[Root.Capital.StarName]的大气层并燃成灰烬。这光荣的火焰照亮了这先祖的土地，烧尽每一片亵渎者的痕迹。"
+ diplomatic.6.a:0 "停止诋毁[From.GetRandomSpeciesSound]."
+ diplomatic.7.name:0 "[From.GetName]保护舰长"
+ diplomatic.7.desc:0 "我们请求辞去[broadcasted_insult_leader.GetName]的职务的决让那些人惊讶于[From.GetRulerTitle] [From.GetRulerName]与[From.GetAdj]执政方式。他们回复了一条信息试图给那个舰长进行辩解，甚至旁敲侧击的暗示，一些被[broadcasted_insult_leader.GetSheHe]说的，关于[Root.GetSpeciesNamePlural]的内容可能是正确的。\n\n看来，那个蠢货的行为已经普及到[From.GetName]全国了。他们以为我们是可以毫无代价地任人侮辱和宰割的。"
+ diplomatic.7.a:0 "所谓树冠已经跟其的树枝一样腐朽了"
+ diplomatic.8.name:0 "无礼的舰长回归"
+ diplomatic.8.desc:0 "那个因为恶语攻击他国的而被驱逐出舰队的舰长试图回归了，因为现在的战争，过去那些侮辱的词语现在变成了我们的宣传标语。尤其在军队中，大家都试图为他复仇。我们并不想临阵改变策略，但这个舰长正是合适人选来加入到这场战争。"
+ diplomatic.8.a:0 "我们需要一个能团结大家的人"
+ diplomatic.8.b:0 "我们做了正确的决定，然后我们坚持这个决定"
+ diplomatic.10.name:0 "研究人员怀疑外国舰船。"
+ diplomatic.10.desc:0 "[Root.GetName]因其学术水平和对创新的推动而知名，但是，要想保持在科学的最前沿，不仅需要决定如何进行研究，也要决定与谁分享成就。我们的商业秘密很有价值，无论在国内还是整个星系，一些科学家对非法入侵他们的数据库是非常警惕的。\n\n[From.From.Owner.GetAdj]在我们领土内的的科学船舶，被许多研究机构怀疑有着间谍行为。一些研究人员声称，考虑到这种潜在威胁，他们不应该继续运作下去，他们请求我们向可疑的[From.From.Owner.GetSpeciesNamePlural]关闭边界。"
+ diplomatic.10.a:0 "我们的科学家理应有安全感。关闭边界"
+ diplomatic.10.b:0 "这些科研船是研究伙伴，不是间谍。"
+ diplomatic.11.name:0 "[From.GetName]关闭边界。"
+ diplomatic.11.desc:0 "你在[From.GetAdj]星域的科研船已经让我们怀疑你的动机了。我们的研究人员认为你的科学家们并没有在进行研究，而是在窃取成果。为了让有价值的商业机密处于安全之中，我们必须禁止你接近我们的星域。"
+ diplomatic.11.a:0 "科学家们无法彼此信任，这真是一个糟糕的时代"
+ diplomatic.12.name:0 "[From.From.GetName]怀疑测绘基因组。"
+ diplomatic.12.desc:0 "在我们最初离开[Root.GetHomeWorldName]后，警惕外来者的威胁就一直是最优先的事情。鬼鬼祟祟地徘徊在我们领土上的[From.From.GetAdj] 的科研船并不是没有被注意到，但直到最近，它们都被假定为是在和平地探索星球。然而，最近的一个推测对之前的假定提出了质疑。\n\n [From.From.GetSpeciesName] 因在医学研究中使用基因组测绘而闻名。如果他们正在绘制信任他们的 [Root.GetSpeciesNamePlural]的基因组，试图找出我们的弱点，我们该怎么办呢？虽然暂时还没有明确的证据能证明一点，但这个推测已经引起了对[From.From.GetName] 关闭我们的边界以防止任何可能的敌对计划继续进行的呼声。"
+ diplomatic.12.a:0 "我们不能冒让未来的敌人获得这些数据的风险！关闭边界。"
+ diplomatic.12.b:0 "我们不能把外交政策建立在这些阴谋论的基础上。"
+ diplomatic.12.c:0 "我们必须开始一项对他们的基因组进行测绘的计划作为报复。"
+ diplomatic.13.name:0 "[From.GetName] 关闭了边界。"
+ diplomatic.13.desc:0 "我们收到报告指出你的科研船在我方宙域进行可疑活动。有流言指出你正在研究我们的基因构成，寻找可能的弱点并制造生物武器。我们不能将[From.GetSpeciesAdj]人民置于这样的危险之下。"
+ diplomatic.13.a:0 "毫无根据的指责！"
+ diplomatic.14.name:0 "基因组测绘已经给出结果了。"
+ diplomatic.14.desc:0 "虽然我们没有在被检查的基因组中发现我们希望发现的特定信息，但是我们的研究已经证实了我们基因组信息中的许多特点。一些在之前与[Root.GetHomeWorldName]的战争中被证明有效的武器可能在面对其他外星生命时完全无用。这些新的发现将发展我们的战争学说。"
+ diplomatic.14.a:0 "如果他们真的打算对我们不利，我们也许会需要这些。"
+ diplomatic.15.name:0 "监视[From.From.GetAdj]的科学家。"
+ diplomatic.15.desc:0 "[Root.GetName]试图避免精神问题的立场成为我们对宇宙的探索和检测和绊脚石，但是我们知道该如何在这些形而上学的思考以及我们做所有事情的传统上投入适当的注意力。[From.From.GetName]的科学家对探索太空的事业毫不在意。\n\n[encroaching_research_leader.GetName]只是表现出对 [Root.GetSpeciesAdj] 神话中重要星座的星星的兴趣，就被指控为试图证伪与那些星星的有关的传说。因为我们自信那些星座的精神象征绝对不能被世俗的探索染指，多数人都反对对它们的调查并且尝试劝说[encroaching_research_leader.GetHimHer]离开 [Root.GetAdj] 星域。"
+ diplomatic.15.a:0 "仅仅是怀有不良意图的嫌疑就足以作为禁止他们进入我们的星域的理由。"
+ diplomatic.15.b:0 "我们的信仰比物质世界的一切都更加重要。唯有信仰绝对不可侵犯。"
+ diplomatic.15.b.tooltip:0 "[encroaching_research_leader.GetName] 继续[encroaching_research_leader.GetHerHis]研究。"
+ diplomatic.16.name:0 "From.GetName] 关闭了边界。"
+ diplomatic.16.desc:0 "你们的科学家，[encroaching_research_leader.GetName]，在被我的人民尊重的星座中的星星上投入了太多不必要的注意力。我们禁止那些没有不尊重我们的信仰和传说的人在我们星域内行动。"
+ diplomatic.16.a:0 "这一定是某种误会。"
+ diplomatic.17.name:0 "在[From.GetName]有了异端的发现。"
+ diplomatic.17.desc:0 "在外星人控制的空间里指挥科研调查工作需要一定程度的机敏，这是我们在招募科学家时偶尔会忽视的。这一点从最近[encroaching_research_leader.GetName]在神圣星座的调查中惹上麻烦的例子中就可以看出。当地人拒绝对这种课题的研究并且不断阻挠[encroaching_research_leader.GetHimHer]直到 [From.GetRulerTitle] [From.GetRulerName]做了一项声明，批准了这项调查。\n\n[encroaching_research_leader.GetName]，显然对那些抗议感到痛恨，他似乎花了一些时间并确实地找到了一些将证明这些星星的真实年龄与[From.GetAdj]的有关传说相抵触的材料。如果这些结果被发表，很有可能造成进一步的暴动。"
+ diplomatic.17.a:0 "[encroaching_research_leader.GetSheHe] 是故意想要引起公愤吗？烧死[encroaching_research_leader.GetHimHer]"
+ diplomatic.17.b:0 "科研调查的过程中总会发生这样的事情的。"
+ diplomatic.18.name:0 "[encroaching_research_leader.GetName]发表了他的异端邪说。"
+ diplomatic.18.desc:0 "无视我们对 [From.GetName] 的研究我们古老星座的科学家意图的信任，[encroaching_research_leader.GetSheHe]已经以重新评估星星的年龄并证明它们的亮度和可见度与我们的传说相抵触的方式扰乱了我们的民众。\n\n原来反对进行这项研究的人民争论说，这是那些科学家在被要求停止他们的研究后，出于恶意故意得出了这种结论。[From.GetAdj] 的政府决定含糊地敷衍这个问题，并且拒绝采取行动来避免我们的人民因这份报告可能会产生的愤怒和痛苦。"
+ diplomatic.18.a:0 "我们绝不能再期望他们会尊重我们。"
+ diplomatic.19.name:0 "异国情调的木管乐器"
+ diplomatic.19.desc:0 "自从我们离开[Root.GetHomeWorldName]，在我们遇到的种族中音乐已经有了很多种形式，这些音乐的形式与偏好不断地困扰着我们。有时候外国人音乐是听不见我们，而在其他时候，声波强大到足以摧毁我们的听觉能力。甚至遇到我们更喜欢的音乐比遇到它的创作者更是一个难得的机会\ n\ n这样一个难得的机会，最近在[music_listening_planet.GetName]发生。对方电台播放的音乐在靠近[music_origin_country.GetAdj]的边境的地区广泛的流行。它显示来自[music_origin_country.GetHomeWorldName] 的乐器不仅仅只是优美，而且似乎引起了[Root.GetSpeciesAdj]身体的共鸣，使[Root.GetSpeciesOrganName]感觉放松。不管这个乐器是什么，它是不同于我们自己的。"
+ diplomatic.19.a:0 "一个很好的时机去了解他们的文化。"
+ diplomatic.19.b:0 "让我们仔细学习这种乐器。"
+ diplomatic.20.name:0 "器乐生物学"
+ diplomatic.20.desc:0 "在更细致地关注这外星音乐后，我们发现这音乐是用一种管乐器演奏的，并且这种管乐器是用外星人故乡的一种原生植物制作的。这种植物的内部结构不同寻常，与 [Root.GetHomeWorldName]的任何东西都完全不同，即便是在分子水平上。空气流经这种植物产生的振动对 [Root.GetSpeciesAdj] 身体的影响使我们对我们自己的生物以及其如何和外星世界的植物相互作用方面的研究取得了重大进展。"
+ diplomatic.20.a:0 "谁知道我们能找到什么？"
+ diplomatic.21.name:0 "[neighbor_contesting_colony.GetName]反对扩张"
+ diplomatic.21.desc:0 "您在[Root.GetName]新的殖民地非常接近我们的边界。我们希望你从这个边境撤出，以避免我们未来出现应在何处划定边界的冲突。"
+ diplomatic.21.a:0 "我们将立即停止发展。"
+ diplomatic.21.b:0 "这个殖民地是我们未来的一部分。它将被保留。"

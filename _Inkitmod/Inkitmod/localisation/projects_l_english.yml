@@ -1,9 +1,9 @@
 ﻿l_english:
 
- ####################################
- # Special Research Projects
- ####################################
- 
+####################################
+# Special Research Projects
+####################################
+
  MIGRATING_FORESTS_1_PROJECT:0 "研究迁移丛林"
  MIGRATING_FORESTS_1_PROJECT_DESC:0 "我们的许多科学家希望通过研究此类外星植物来解决丛林的破坏问题。"
  MIGRATING_FORESTS_2_PROJECT:0 "消灭迁移丛林"
@@ -55,9 +55,9 @@
  GAS_GIANT_LOST_CHABKY:0 "带查比克回家"
  GAS_GIANT_LOST_CHABKY_DESC:0 "达斯纳克殖民者查比克·莱迪想家了，希望回到伯达拉克。我们同意把他送回去。"
  ABANDONED_TERRAFORMING_1_PROJECT:0 "进程继续"
- ABANDONED_TERRAFORMING_1_PROJECT_DESC:0 " [From.GetName]数千年前被一个未知机构进行了部分的地球化。如今设备还可以在 [From.GetPlanetMoon]上找到，我们的科学家在想办法重启前人的工作。"
+ ABANDONED_TERRAFORMING_1_PROJECT_DESC:0 " [From.GetName]数千年前被一个未知机构进行了部分的地质改造。如今设备还可以在 [From.GetPlanetMoon]上找到，我们的科学家在想办法重启前人的工作。"
  ABANDONED_TERRAFORMING_2_PROJECT:0 "拆卸设备"
- ABANDONED_TERRAFORMING_2_PROJECT_DESC:0 "尽管年岁已长，  [From.GetName]上的地球化设备还是很先进的。我们的工程师要求允许他们拆除并研究它们，看看我们能从中获得那些科技。"
+ ABANDONED_TERRAFORMING_2_PROJECT_DESC:0 "尽管年岁已长，  [From.GetName]上的地质改造设备还是很先进的。我们的工程师要求允许他们拆除并研究它们，看看我们能从中获得那些科技。"
  MUTANT_STALKER_PROJECT:0 "杀死作恶的野兽"
  MUTANT_STALKER_PROJECT_DESC:0 "一个变种生物正在大闹 [From.GetName]上的殖民地。许多人因此丧生，殖民地希望我们帮助他们猎杀掉它。"
  ORBITAL_DEBRIS_PROJECT:0 "移除轨道残骸"
@@ -182,8 +182,8 @@
  CYBREX_ARCHEOLOGY_10_DESC:0 " [From.GetName]上空的轨道上发现了上千外星生物的尸体。他们几乎同时死在赛博雷克斯控制这片区域的时候。"
  CYBREX_ARCHEOLOGY_11:0 "赛博雷克斯研究站"
  CYBREX_ARCHEOLOGY_11_DESC:0 " [From.GetName]的轨道上发现了赛博雷克斯研究工作站组件，其中包含了赛博雷克斯型生物的遗迹。"
- 
- 
+
+
  TARBLAC_PROCUREMENT:0 "幻影般的塔布拉克"
  TARBLAC_PROCUREMENT_DESC:0 "在 [This.GetName]的深海世界中，发现了塔布拉克。"
  TASSARGOID_PROCUREMENT:0 "强势的塔萨古德"
@@ -224,7 +224,7 @@
  SYNTH_INFILTRATION_PROJECT_DESC:0 "人造潜入者伪装成 [Root.GetSpeciesNamePlural]在 [Root.GetName]上进行活动。我们需要找到可靠有效的方法辨认他们。"
  CAPTURE_QUEEN:0 "捕获女王"
  CAPTURE_QUEEN_DESC:0 " [queen_system.GetName]星系最近发生了一场太空战，普雷索林女王受重伤，受到折磨，无药可救。这生物仍活着，捕获它会是情报工作的重大成功。"
- 
+
  ESTABLISH_COMMUNICATIONS:0 "调查 [Prev.From.GetName]"
  ESTABLISH_COMMUNICATIONS_DESC:0 "我们需要了解神秘的外星文明，代号为§Y [Prev.From.GetName]§!。如果他们有语言，我们需要解密，与其建立沟通。"
  INVESTIGATE_SPACE_AMOEBA:0 "调查 [Prev.From.GetName]"
