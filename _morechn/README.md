@@ -37,3 +37,6 @@
  * Design Everything / Station BUFF http://steamcommunity.com/sharedfiles/filedetails/?id=691660541 可以设计各类宇宙空间站（采矿站、观测站等）以增加攻击防御；可以近距离修建固定式防御空间站。 by Garfeineko@steam 春天的园草@3DM
  * Expanded War Demands http://steamcommunity.com/sharedfiles/filedetails/?id=684037552 可以在战争中提出包括羞辱、弃星、改变政策、给能源矿物等一系列要求。AI同样适用。
  * New Ship Classes & More http://steamcommunity.com/sharedfiles/filedetails/?id=684861648 by 往事随行@3dm
+ * Land Reclamation http://steamcommunity.com/sharedfiles/filedetails/?id=705125253 by Garfeineko@steam 春天的园草@3DM 在星球政策中通过消耗影响力来增加地块数量。（有前置科技）
+ * FTL Scout Probe http://steamcommunity.com/sharedfiles/filedetails/?id=699496957 by Garfeineko@steam 春天的园草@3DM 增加了一个急速但很脆的探测器用于探索。（舰船设计后才能制造）
+ * More Planet Types by jianghanxia@github
