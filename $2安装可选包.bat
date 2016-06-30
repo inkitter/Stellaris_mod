@@ -5,6 +5,7 @@ cd /d %~dp0
 @echo on
 @echo ----将在 %mydoc%\Paradox Interactive\Stellaris\mod\ 安装mod----
 @pause
+mklink /j "%mydoc%\Paradox Interactive\Stellaris\mod\_InkitSEL" _InkitSEL
 copy "_InkitSEL\*.mod" "%mydoc%\Paradox Interactive\Stellaris\mod" /y
 @echo off
 echo ----安装完成----

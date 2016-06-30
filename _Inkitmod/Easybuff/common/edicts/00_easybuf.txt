@@ -211,7 +211,7 @@ country_edict = {
      country_border_mult = 2
      PLANET_BORDER_MULT = 5
      
-     country_core_sector_planet_cap	= 15
+     # country_core_sector_planet_cap	= 15
      country_sector_cap_add = 18
      
      shipsize_colonizer_build_cost_mult = -1

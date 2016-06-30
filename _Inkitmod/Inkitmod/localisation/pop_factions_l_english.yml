@@ -1,7 +1,7 @@
 ﻿l_english:
-####################################
+############
 #	Pop factions
-####################################
+############
 # Demand TITLES are run straight from a pop faction with no
 # assembled event scope, [Owner.GetName] to get country name.
 # Tooltips, DESCS and events use the usual [Root.Owner.GetName]
@@ -47,11 +47,11 @@
  POP_FACTION_NO_CURRENT_EFFECTS:0 "无当前影响"
  POP_FACTION_NO_CURRENT_EFFECTS_DESC:0 "$FACTION$现在没有造成任何影响。"
 
-### LOYALISTS
+## LOYALISTS
  pft_loyalist:1 "拥护者"
  pft_loyalist_desc:1 "忠诚派系的成员由那些拥护你的民众组成。他们无欲无求，安于现状。"
 
-### SEPARATIST
+## SEPARATIST
 
 # Separatist Demands
  POP_FACTION_SEPARATIST_DEMAND_TITLE_1:0 "§H [parameter:planet.GetName]§!自治"
@@ -59,7 +59,7 @@
  POP_FACTION_SEPARATIST_DEMAND_TITLE_2:0 "§H [parameter:planet.GetName]§!独立"
  POP_FACTION_SEPARATIST_DEMAND_DESC_2:0 "解放§H [parameter:planet.GetName]§!使其成为新的独立帝国首府。"
 
-### PLANET SEPARATISTS
+## PLANET SEPARATISTS
  POP_FACTION_PLANET_SEPARATIST_DEMAND_TITLE:1 "独立的 [parameter:Planet.GetName]"
  POP_FACTION_PLANET_SEPARATIST_DEMAND_DESC:0 "分裂主义者要求实现§Y [parameter:Planet.GetName]§!独立。"
  POP_FACTION_PLANET_SEPARATIST_STRIKES_TITLE:0 "罢工"
@@ -82,7 +82,7 @@
  POP_FACTION_PLANET_SEPARATIST_SABOTAGE_DESC:0 "暴动§R摧毁§!了星球上的一座建筑。"
  POP_FACTION_PLANET_SEPARATIST_NOTHING_TO_RUIN:0 "没有任何尚未摧毁的建筑"
 
-### Sector separatists
+## Sector separatists
  pft_sector_separatists:0 "星域分裂主义者"
  pft_sector_separatists_desc:0 "星域分裂主义者可能会出现在不同星域的各个星球里，意在让邻近的星球脱离帝国统治。如果有了足够的民众支持，他们就有可能发起武装革命。\n\n§H星域分裂主义者绝不会出现在我们的核心星域里§!"
  POP_FACTION_SECTOR_SEPARATIST_DEMAND_TITLE:1 "独立的 [parameter:sector.GetName]星域"
@@ -94,7 +94,7 @@
 
 
 
-### NATIONALISTS
+## NATIONALISTS
 
  pft_nationalist:0 "回归派系"
  pft_nationalist_desc:0 "回归派系的民众希望从我们的帝国中独立出来，好让他们能回归到原本附属的帝国。如果其他派系的民众觉得另一个帝国更吸引人的话，他们也有可能加入到回归派系当中。"
@@ -122,7 +122,7 @@
  POP_FACTION_NATIONALIST_RELEASE_PLANETS_OCCUPIED:0 "没有被占领的行星"
  POP_FACTION_NATIONALIST_RELEASE_PLANETS_COMBAT:0 "没有发生地面战争的行星"
 
-### SLAVES
+## SLAVES
 
  slave_attraction_title:0 "§R---§!"
  docile_slaves_attraction_desc:0 "除了非智能机器人人口之外，被奴役的人口将被归入一个奴隶派系之中，而其他人口则不会被归入这个阵营。\n\n§H这个值显示的是被奴役人口倒向不满奴隶制派系的程度。§!"
@@ -213,7 +213,7 @@
  SUPPORT_EFFECT_HUNGER_STRIKE:0 "绝食示威风险"
  SUPPORT_EFFECT_HUNGER_STRIKE_DESC:0 "奴隶以饿死自己的方式来抗议掌权者，生产力大幅削减。"
 
-### EMANCIPATION MOVEMENT
+## EMANCIPATION MOVEMENT
 
 # Emancipation Movement Demands
  POP_FACTION_EMANCIPATION_DEMAND_TITLE_1:0 "六小时奴隶工作制度"
@@ -234,7 +234,7 @@
  SUPPORT_EFFECT_EMANCIPATION_SMUGGLE_OFF_WORLD:0 "星际铁路"
  SUPPORT_EFFECT_EMANCIPATION_SMUGGLE_OFF_WORLD_DESC:0 "一个奴隶被偷运出了这个星球，从此销声匿迹。"
 
-### PEACE MOVEMENT
+## PEACE MOVEMENT
 
 # Demands
  POP_FACTION_PEACE_DEMAND_TITLE_1:0 "结束战争"
@@ -248,7 +248,7 @@
  SUPPORT_EFFECT_PEACE_SABOTAGE:0 "蓄意破坏"
  SUPPORT_EFFECT_PEACE_SABOTAGE_DESC:0 "你们听好了，这是一场蓄意破坏行动。"
 
-### PURGED
+## PURGED
 
  pft_purged:0 "反净化派系"
  pft_purged_desc:1 "反净化派系由要被帝国施行种族净化以及同情其遭遇的人口组成。他们的主要诉求是获得生存的权利。\n\n§H所有被净化的人都会自动归入该派系。§!"
@@ -268,7 +268,7 @@
  SUPPORT_EFFECT_PURGED_DEATH_REBELLION:0 "被净化者起义"
  SUPPORT_EFFECT_PURGED_DEATH_REBELLION_DESC:0 "被净化者在夜里密谋着建立一支反抗军。"
 
-### LIBERATE
+## LIBERATE
 
 # Demands
  POP_FACTION_LIBERATE_DEMAND_TITLE_1:0 "解放 §H [parameter:planet.GetName]§!"
@@ -280,7 +280,7 @@
  SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS:0 "强硬派叛变风险"
  SUPPORT_EFFECT_LIBERATE_HAWKISH_REBELS_DESC:0 " [Root.GetName]对懦弱的 [Root.Owner.GetSpeciesAdj]政府发起政变。"
 
-### XENOSLAVER
+## XENOSLAVER
 
 # Demands
  POP_FACTION_XENOSLAVER_DEMAND_TITLE_1:0 "奴役外星种族"
@@ -294,7 +294,7 @@
  SUPPORT_EFFECT_XENOSLAVER_SLAVER_CONFEDERACY:0 "与奴隶结盟"
  SUPPORT_EFFECT_XENOSLAVER_SLAVER_CONFEDERACY_DESC:0 "该派系调动所有奴隶，密谋武装革命。"
 
-### CRUSADER
+## CRUSADER
 
 # Demands
  POP_FACTION_CRUSADE_DEMAND_TITLE_1:0 "改革运动"
@@ -308,13 +308,13 @@
  SUPPORT_EFFECT_CRUSADE_INSURRECTION:0 "宗教暴动"
  SUPPORT_EFFECT_CRUSADE_INSURRECTION_DESC:0 " [Root.GetName]在殖民地发起政变。"
 
-### CONQUEROR
+## CONQUEROR
 
 # Support Effects
  SUPPORT_EFFECT_CONQUER_INSULT:0 "公开侮辱"
  SUPPORT_EFFECT_CONQUER_INSULT_DESC:0 " [Root.GetName]发表侮辱性的公开声明，导致我们与§H [parameter:foreign_power.GetName]§!的关系进一步恶化。"
 
-### PRETENDER
+## PRETENDER
 
  pft_pretender:0 "觊觎者派系"
  pft_pretender_desc:0 "这个派系由觊觎当前政权的支持者组成，他们的目的就是要取缔当前的政府成为统治者。"
@@ -326,15 +326,15 @@
  POP_FACTION_PRETENDER_INSTALL_TITLE:0 "委任权位继承人"
  POP_FACTION_PRETENDER_INSTALL_DESC:0 "委任§Y [parameter:pretender.GetName]§!成为新的统治者"
 
-########################################
+###############
 # FACTION EVENTS
-########################################
+###############
 
-### Loyalists
+## Loyalists
  faction.4.title:0 "拥护者的诉求"
  faction.4.desc:0 "拥护者对 [Root.Owner.GetName]的 [Root.Owner.GetRulerTitle]  [Root.Owner.GetRulerName]忠心耿耿，没有任何要求。"
 
-### Slaves
+## Slaves
  faction.6.title:0 "绝食示威！"
  faction.6.desc:0 " [Root.Owner.GetName]的奴隶用绝食的方式来破坏我们的生产手段——他们的身体。 [Root.GetName]派系的成员实际上是要将自己§Y净化§!，以挣脱 [Root.Owner.GetName]的枷锁。\n\n如果长期不制止这种情况，我们就有可能会损失大量的奴役人口。要么眼睁睁地看着这群可怜的家伙死掉，要么另寻方法对付这个恶劣的派系。"
 
@@ -350,7 +350,7 @@
  faction.10.a.tooltip:0 "§HEnslaved Pops§!位于§H[unrest_planet.GetName]§!，获得了§RSlave Unrest§!加成系数，持续§Y4年§!。"
 
  faction.15.title:0 "奴隶暴力！"
- faction.15.desc:0 " 一群流浪的暴徒——由被遗弃的奴隶们组成——已经与[roving_gangs_planet.GetName]上的居民们陷入流血冲突，导致一个人英年早逝。\n\死者的亲朋好友们对这一事件将会如何反应现在还无从知晓。"
+ faction.15.desc:0 " 一群流浪的暴徒——由被遗弃的奴隶们组成——已经与[roving_gangs_planet.GetName]上的居民们陷入流血冲突，导致一个人英年早逝。\n\n死者的亲朋好友们对这一事件将会如何反应现在还无从知晓。"
  faction.15.a.tooltip:0 "[roving_gangs_planet]:\n§Y1 人口§! §R死亡§!。"
 
  faction.50.title:0 "星际铁路！"
@@ -376,7 +376,7 @@
  faction.80.title:0 "奴隶变得激进！"
  faction.80.desc:0 "[Root.GetName] 的当地分会成员看起来已经成功地让[Root.Owner.GetAdj] 的几个奴隶变得激进，使他们加入到不满奴隶的行列之中。"
 
-### Separatists
+## Separatists
 # From = pop faction
 # Parameters = planet
 
@@ -402,7 +402,7 @@
  faction.104.title:0 "脱离帝国！"
  faction.104.desc:0 "为了平息分裂行动并肃清分裂者， [parameter:planet.GetName]的殖民地已脱离 [Root.Owner.GetName]的统治。\n\n随后 [Root.GetName]成立里新的国家。"
 
-### Crusaders
+## Crusaders
 
 # Crusaders want to a crusade to against the heathens, conquer their capital
  faction.200.title:0 " [Root.GetName] Brand the Heathen  [parameter:heathens.GetName]!"
@@ -431,7 +431,7 @@
  faction.204.a:0 "很好。"
  faction.204.a.tooltip:0 " [planet.GetName]：\n叛乱！"
 
-### Nationalists
+## Nationalists
  faction.301.title:2 "民族主义者的破坏活动！"
  faction.301.desc:2 " [Root.GetName] 的激进成员已经摧毁了在[planet.GetName]的[planet.GetPlanetMoon] 上的一座建筑物"
  faction.301.desc.phobe:0 "[Root.GetName]的外星畜生已经摧毁了[planet.GetName] 上的一座建筑物，很明显，他们蓄意用破坏人民生活的方式来损害[Root.Owner.GetAdj] 的利益。"
@@ -442,7 +442,7 @@
  faction.302.desc.phobe:0 "[Root.GetName]的外星叛乱种族企图通过公开叛乱来推翻[Root.Owner.GetAdj]的统治！"
  faction.302.desc.phile:0 "意识到我们仍然不答应他们的请求， [Root.GetName] 已经揭竿而起！"
 
-### Peace Movement
+## Peace Movement
 
  faction.400.title:0 "战舰遭到破坏！"
  faction.400.desc:0 " [From.GetName]的激进分子潜入了至少一艘 [Root.Owner.GetSpeciesAdj]军事飞船并埋下炸药。现在炸药已经引爆，导致 [Root.GetName]严重受创。\n\n [From.GetName]的领袖 [From.Leader.GetName]发表声明表示这是一场纯粹的恶劣暴行，同时也谴责了 [Root.Owner.GetName]与 [From.parameter:enemy.GetName]之间的武装冲突。"
@@ -457,7 +457,7 @@
  faction.402.desc:0 "我们向 [From.parameter:enemy.GetName]提出了和解，希望能借此结束战争。"
  faction.402.a:0 "这样做有什么好处？"
 
-### Liberation Faction
+## Liberation Faction
 
  faction.501.title:0 "侮辱 [parameter:enemy.GetName]"
  faction.501.desc:0 "一个安保工作的小失误让 [Root.GetName]侥幸接入了我们的外交通讯频道，他们借此机会大肆侮辱了 [parameter:enemy.GetName]，并要求立即归还 [parameter:planet.GetName]。\n\n [parameter:enemy.GetSpeciesPlural]并没有太在意这次事件。"
@@ -471,7 +471,7 @@
  faction.503.a:0 "很好。"
  faction.503.a.tooltip:0 " [planet.GetName]:\n§R叛变！§!"
 
-### Emancipation Faction
+## Emancipation Faction
  faction.600.title:0 "进击的奴隶"
  faction.600.desc:0 "据说 [Root.GetName]的成员对奴隶散布各种逆反言论。根据部分谣言的说法，他们为 [parameter:slave_faction.GetName]的边缘分子提供训练，甚至给他们配备武器，不过这些谣言看起来都假得比较离谱。"
  faction.600.a:0 "尽管如此，还是让人有点担心。"
@@ -481,7 +481,7 @@
  faction.601.a:0 "我们要看紧他们。"
  faction.601.a.tooltip:0 " [railroad_planet.GetName]：\n奴役人口： §R-1§!"
 
-### Xenoslaver Faction
+## Xenoslaver Faction
  faction.700.title:0 "强制奴役！"
  faction.700.desc:0 "据说 [Root.GetName]的激进分子强制奴役了部分 [Root.Owner.GetName]的非 [Root.Owner.GetSpeciesAdj]人口。"
  faction.700.a:0 "这是一场恶劣的暴行。"
@@ -491,7 +491,7 @@
  faction.701.desc:0 " [parameter:planet.GetName]上那群自称是奴隶主的人似乎是受够了 [Root.Owner.GetName]的软弱外交手段，决定建立同盟，并宣布独立。"
  faction.701.a:0 "真是好大的胆子。"
 
-### Purged Faction
+## Purged Faction
  faction.801.title:0 "垂死挣扎"
  faction.801.desc:0 "一些因为净化而陷入绝望的人在 [riot_planet.GetName]发起暴动，并将一座设施摧毁了。"
 

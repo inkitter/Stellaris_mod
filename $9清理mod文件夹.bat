@@ -8,10 +8,12 @@ pause
 @echo on
 del "%mydoc%\Paradox Interactive\Stellaris\mod\!*.mod"
 del "%mydoc%\Paradox Interactive\Stellaris\mod\%*.mod"
+del "%mydoc%\Paradox Interactive\Stellaris\mod\%%*.mod"
 del "%mydoc%\Paradox Interactive\Stellaris\mod\+*.mod"
 del "%mydoc%\Paradox Interactive\Stellaris\mod\-*.mod"
 del "%mydoc%\Paradox Interactive\Stellaris\mod\]*.mod"
 del "%mydoc%\Paradox Interactive\Stellaris\mod\0*.mod"
+del "%mydoc%\Paradox Interactive\Stellaris\mod\1*.mod"
 del "%mydoc%\Paradox Interactive\Stellaris\mod\_*.mod"
 rmdir "%mydoc%\Paradox Interactive\Stellaris\mod\_Inkitmod"
 rmdir "%mydoc%\Paradox Interactive\Stellaris\mod\_InkitSEL"

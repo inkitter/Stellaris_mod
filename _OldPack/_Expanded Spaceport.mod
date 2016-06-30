@@ -1,0 +1,5 @@
+name="_Expanded Spaceport"
+archive="mod/_InkitSEL/Expanded Spaceport.zip"
+picture="expspaceport.png"
+remote_file_id="690868046"
+supported_version="1.2"

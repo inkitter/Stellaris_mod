@@ -2274,7 +2274,7 @@
  diplomatic.18.desc:0 "无视我们对 [From.GetName] 的研究我们古老星座的科学家意图的信任，[encroaching_research_leader.GetSheHe]已经以重新评估星星的年龄并证明它们的亮度和可见度与我们的传说相抵触的方式扰乱了我们的民众。\n\n原来反对进行这项研究的人民争论说，这是那些科学家在被要求停止他们的研究后，出于恶意故意得出了这种结论。[From.GetAdj] 的政府决定含糊地敷衍这个问题，并且拒绝采取行动来避免我们的人民因这份报告可能会产生的愤怒和痛苦。"
  diplomatic.18.a:0 "我们绝不能再期望他们会尊重我们。"
  diplomatic.19.name:0 "异国情调的木管乐器"
- diplomatic.19.desc:0 "自从我们离开[Root.GetHomeWorldName]，在我们遇到的种族中音乐已经有了很多种形式，这些音乐的形式与偏好不断地困扰着我们。有时候外国人音乐是听不见我们，而在其他时候，声波强大到足以摧毁我们的听觉能力。甚至遇到我们更喜欢的音乐比遇到它的创作者更是一个难得的机会\ n\ n这样一个难得的机会，最近在[music_listening_planet.GetName]发生。对方电台播放的音乐在靠近[music_origin_country.GetAdj]的边境的地区广泛的流行。它显示来自[music_origin_country.GetHomeWorldName] 的乐器不仅仅只是优美，而且似乎引起了[Root.GetSpeciesAdj]身体的共鸣，使[Root.GetSpeciesOrganName]感觉放松。不管这个乐器是什么，它是不同于我们自己的。"
+ diplomatic.19.desc:0 "自从我们离开[Root.GetHomeWorldName]，在我们遇到的种族中音乐已经有了很多种形式，这些音乐的形式与偏好不断地困扰着我们。有时候外国人音乐是听不见我们，而在其他时候，声波强大到足以摧毁我们的听觉能力。甚至遇到我们更喜欢的音乐比遇到它的创作者更是一个难得的机会\n\n这样一个难得的机会，最近在[music_listening_planet.GetName]发生。对方电台播放的音乐在靠近[music_origin_country.GetAdj]的边境的地区广泛的流行。它显示来自[music_origin_country.GetHomeWorldName] 的乐器不仅仅只是优美，而且似乎引起了[Root.GetSpeciesAdj]身体的共鸣，使[Root.GetSpeciesOrganName]感觉放松。不管这个乐器是什么，它是不同于我们自己的。"
  diplomatic.19.a:0 "一个很好的时机去了解他们的文化。"
  diplomatic.19.b:0 "让我们仔细学习这种乐器。"
  diplomatic.20.name:0 "器乐生物学"

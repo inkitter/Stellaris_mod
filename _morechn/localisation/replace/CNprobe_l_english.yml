@@ -1,7 +1,7 @@
 ﻿l_english:
 
  SCOUT_PROBE:0 "探测器"
- scout_probe:0 "探测器
+ scout_probe:0 "探测器"
  scout_probe_plural:0 "探测器"
  scout_probe_section:0 "探测器核心"
  PROBE_SENSOR_1:0 "探测器用 $OBSERVATORY_1$"
