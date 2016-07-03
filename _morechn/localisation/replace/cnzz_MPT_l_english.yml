@@ -1,6 +1,4 @@
 ﻿l_english:
- fallen_earth_NAME:0"失落的世界"
- fallen_earth_DESC:0"从远古就消失不见的世界。\n\n$system_initializer_DESC$"
  pc_greenhouse_hot:0 "炎热温室世界"
  pc_greenhouse_hot_desc:0 "一颗带有厚，高压大气的岩石行星。大气中的气体导致温室效应失控，创造了非常高的表面温度。"
  pc_greenhouse_hot_habitability:0 "炎热温室适居性"
