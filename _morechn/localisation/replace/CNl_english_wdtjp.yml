@@ -50,6 +50,7 @@
  war_demand_beat_ruler_tooltip_proper_content:1 "$war_demand_beat_ruler_tooltip_content$"
 
 ########
+# 補正 修正#
 ########
 
  wdtmod_limit_navysize:0 "限制 (军力:小)"
