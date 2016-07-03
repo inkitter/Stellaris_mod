@@ -1,0 +1,8 @@
+﻿l_english:
+  #Events
+ edict_planet_AbandonOurPlant:0 "行星清洗（切勿轻易点击）！"
+ edict_planet_AbandonOurPlant_desc:0 "清除星球上所有殖民者，保留原有建筑，变成中立星球。再重复两遍：切勿轻易点击！切勿轻易点击！！" 
+ edict_planet_AbandonOurPlant.tooltip:0 " §Y[Root.GetName]§!星球殖民者全部消失！"
+ edict_planet_AbandonOurPlantAllBuilding:0 "付之一炬（切勿轻易点击）！"
+ edict_planet_AbandonOurPlantAllBuilding_desc:0 "清除星球上所有殖民者痕迹，变成中立星球。再重复两遍：切勿轻易点击！切勿轻易点击！！" 
+ edict_planet_AbandonOurPlantAllBuilding.tooltip:0 " §Y[Root.GetName]§!星球殖民者和建筑全部消失！"
