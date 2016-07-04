@@ -1,0 +1,369 @@
+country_edict = {
+  name = "easy_buff_default"
+
+  modifier = {
+    pop_happiness = 0.1
+    pop_ethic_shift = -0.2
+    pop_environment_tolerance = 0.3
+    pop_growth_req_mult = -0.2
+    country_border_mult = 1
+    planet_sensor_range_mult = 3
+    
+    building_time_mult = -0.3
+    
+    country_leader_cap = 2
+    country_leader_pool_size = 1
+    leader_age = 200
+    
+    pop_food_req_mult = -0.2
+    
+    SPACEPORT_SHIP_BUILD_TIME_MULT = -0.3
+    SPACEPORT_SHIP_BUILD_COST_MULT = -0.3
+    ship_upkeep_mult = -0.3
+    army_upkeep_mult = -0.5
+    ship_reparation_speed_mult = 1
+    ship_speed_mult = 0.5
+    ship_evasion_mult = 1
+
+    country_ship_upgrade_cost_mult = -0.3
+
+    all_technology_research_speed = 4
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_superresearch"
+  
+  modifier = {
+    all_technology_research_speed = 500
+    science_ship_survey_speed = 5
+    ship_anomaly_research_speed_mult = 5
+    ship_anomaly_fail_risk = -1
+    
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_leader"
+  
+  modifier = {
+    leader_age = 300
+    leader_skill_levels = 5
+    country_leader_cap = 5
+    country_leader_pool_size = 2
+    leader_influence_cost = -0.5
+    species_leader_exp_gain = 5
+    
+    pop_happiness = 0.2
+    pop_ethic_shift = -0.2
+    pop_other_species_happiness = 0.4
+    pop_environment_tolerance = 0.70
+    
+    influence_gain_add = 7
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_mil"
+  
+  modifier = {
+    PLANET_ARMY_BUILD_SPEED_MULT = 3
+    planet_army_build_cost_mult = -0.8
+    army_upkeep_mult = -0.5
+    army_health = 1
+    army_damage_mult = 1
+    army_morale = 1
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_godfleet"
+  
+  modifier = {
+    ship_fire_rate_mult = 1
+    ship_weapon_damage = 2
+    SHIP_ACCURACY_ADD = 40
+    
+    ship_armor_add = 70
+    ship_hitpoints_add = 200
+    ship_hitpoints_mult = 1
+    ship_shield_hp_add = 100
+    ship_shield_hp_mult = 9
+    ship_evasion_mult = 1
+    SHIP_SHIELD_REGEN_ADD = 100
+    ship_auto_repair_add = 1
+    
+    ship_combat_speed_mult = 5
+    ship_speed_mult = 1
+    
+    ship_sensor_range_mult = 5
+    
+    SHIP_FTL_WARP_RANGE_MULT = 10
+    SHIP_FTL_HYPER_RANGE_MULT = 10
+    SHIP_FTL_WORMHOLE_RANGE_MULT = 10
+    SHIP_WINDDOWN_MULT = -1
+    SHIP_WINDUP_MULT = -1
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_massfleet"
+  
+  modifier = {
+    navy_size_add = 50
+    navy_size_mult = 1
+    
+    ship_upkeep_mult = -0.5
+    country_ship_upgrade_cost_mult = -0.5
+    SPACEPORT_SHIP_BUILD_COST_MULT = -0.5
+    SPACEPORT_SHIP_BUILD_TIME_MULT = -0.5
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_boarder"
+  
+  modifier = {
+     country_border_mult = 2
+     PLANET_BORDER_MULT = 5
+     
+     # country_core_sector_planet_cap	= 15
+     country_sector_cap_add = 18
+     
+     shipsize_colonizer_build_cost_mult = -1
+     shipsize_colonizer_construction_speed_mult = 1
+     planet_colony_development_speed_mult = 5
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_pop"
+  
+  modifier = {
+     pop_growth_req_mult = -0.5
+     pop_food_req_mult = -0.6
+     
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_build"
+  
+  modifier = {
+     shipsize_mining_station_build_cost_mult = -0.5
+     shipsize_research_station_build_cost_mult = -0.5
+     shipsize_wormhole_station_build_cost_mult = -0.5
+     
+     spaceport_module_cost_mult = -0.5
+     
+     building_time_mult = -0.5
+     planet_building_cost_mult = -0.8
+     
+     planet_clear_blocker_time_mult = -0.5
+     planet_clear_blocker_cost_mult = -0.5
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_def"
+  
+  modifier = {
+     shipclass_military_station_hit_points_mult = 2
+     shipclass_military_station_damage_mult = 1
+     shipsize_military_station_large_build_cost_mult = -0.8
+     shipsize_military_station_large_upkeep_mult = -0.8
+     COUNTRY_SENSOR_RANGE_MULT = 17
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_makegold"
+  
+  modifier = {
+    resource_food_add = 25
+    country_resource_energy_add = 95
+    country_resource_minerals_add = 95
+    
+    country_resource_physics_research_add = 45
+    country_resource_society_research_add = 45
+    country_resource_engineering_research_add = 45
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}
+
+country_edict = {
+  name = "easy_buff_stock"
+  
+  modifier = {
+    max_minerals = 50000
+    max_energy = 20000
+    max_influence = 9000
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+  
+  allow = {
+  
+  }
+  
+  ai_weight = {
+    weight = 0
+  }
+}

@@ -1,0 +1,5 @@
+name="_More Spaceport Modules"
+archive="mod/_InkitSEL/More Spaceport Modules.zip"
+picture="ineedmore.png"
+remote_file_id="682659220"
+supported_version="1.2"

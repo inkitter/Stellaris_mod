@@ -1,0 +1,160 @@
+﻿l_english:
+
+ #############################
+ # Civilian Trade Events
+ #############################
+
+
+ civtrade.1.name:0 "民间贸易"
+ civtrade.1.desc:0 "在成功建立第一个殖民地 [Root.Owner.GetSpeciesName] 后， [Root.Capital.GetName] 上一些勇敢却被人认为是SB的实业家们开始踏上了第一次星际贸易的征程。\n\n这对于 [Root.Owner.GetName] 来说是值得纪念的一天，并将永远成为未来民间深空贸易的基石。"
+ # Options 
+ civtrade.1.a:0 "星星点灯照亮我的前程。"
+ civtrade.1.b:0 "你的许可已签发。一路顺风。" 
+ civtrade.1.c:0 "独立的行为造就独立的思考。抛弃你的傲慢把。" 
+ civtrade.1.d:0 "自力更生是个了不起的进步。"  
+ civtrade.1.e:0 "我们将不会容忍你建立独立企业的图谋。"  
+ civtrade.1.f:0 "按时纳税，一切OK。"  
+ civtrade.1.g:0 "自由迁徙和自由贸易一直是我们这个社会的优点，不是吗？"
+ civtrade.1.h:0 "你的许可已签发。一路顺风。"
+
+ civ.1.name:0 "一场无与伦比的演出！"
+ civ.1.desc:0 "在探索了此前所有已知的和部分未知的空间后，伟大的克伦佩勒刚刚公开了他豪华的马戏飞船“花环号”。 \n\n“花环号”众多的通道放置了为全年龄和任意物种所接受的数不尽且从未见过的景色与无法解释的神奇。\n\n只要是克伦佩勒和他的“花环号”存在的星系，必将迎来一次全宇宙最隆重的节日！"
+ # Options 
+ civ.1.a:0 "让演出开始吧!"
+ 
+ civmenu.1.name:0 "[ROOT.GetName] 贸易焦点"
+ civmenu.1.desc:0 "指示我们的管理者购买： \n\n     矿产  \n\n     能源 \n\n     食物"
+ 
+ # Options 
+ civmenu.1.a:0 "去干吧。" 
+ 
+ 
+ #############################
+ # Civilian Trade modifiers
+ #############################
+  
+  
+ expanded_trade_network:0 "繁荣的贸易网络"
+ expanded_trade_network_desc:0 "随着产能的增加和基建的完善，这个星球能够有效地利用贸易带来的福祉。"
+ trade_network:0 "已接入贸易网络"
+ trade_network_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
+ trade_network_minerals:0 "已接入贸易网络"
+ trade_network_minerals_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
+ trade_network_energy:0 "已接入贸易网络"
+ trade_network_energy_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"  
+ trade_network_food:0 "已接入贸易网络"
+ trade_network_food_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
+ 
+ reduced_trade_network:0 "被削弱的贸易网络"
+ reduced_trade_network_desc:0 "随着产能的增加和基建的完善，这个星球能够有效地利用贸易带来的福祉。但这个效果因为近期的贸易制裁而有所削弱。"
+ reduced_trade_network_minerals:0 "被削弱的贸易网络"
+ reduced_trade_network_minerals_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。但这个效果因为近期的贸易制裁而有所削弱。"
+ reduced_trade_network_energy:0 "被削弱的贸易网络"
+ reduced_trade_network_energy_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。但这个效果因为近期的贸易制裁而有所削弱。"  
+ reduced_trade_network_food:0 "被削弱的贸易网络"
+ reduced_trade_network_food_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。但这个效果因为近期的贸易制裁而有所削弱。"
+ 
+ trade_minerals_focus:0 "矿产焦点"
+ trade_minerals_focus_desc:0 "指示管理者从商人处购入矿产。"
+ trade_energy_focus:0 "能源焦点"
+ trade_energy_focus_desc:0 "指示管理者从商人处购入能源。"
+ trade_food_focus:0 "食物焦点"
+ trade_food_focus_desc:0 "指示管理者从商人处购入食物。"
+ 
+ circus_in_town:0 "马戏飞船停留在本星系"
+ circus_in_town_desc: "万人空巷！伟大的克伦佩勒马戏团正停留在这个星系。快来看看这迷人、梦幻般、超脱尘世，且恐怖生物和绝美景致并存的“花环号”吧！"
+ 
+ #############################
+ # Civilian Trade personality
+ #############################
+ 
+ personality_civilian_traders:0 "民间商人"
+ personality_civilian_traders_desc:0 "民间商人会在你的国家内徘徊以寻求贸易机会。"
+ 
+ ####################################
+ # Edicts
+ #################################### 
+
+ # Planet Edicts
+ 
+ edict_trade_hub:0 "贸易中心"
+ edict_trade_hub_desc:0 "这个星球提供了这样一个设施和空间用以吸引更多的商人来发挥他们的特长。" 
+ 
+ edict_change_trade_focus:0 "改变星球贸易焦点"
+ edict_change_trade_focus:0 "指示管理者从商人处购入特定的资源。"
+ 
+ # Country Edicts
+ 
+ edict_trade_subsidies:0 "贸易补贴"
+ edict_trade_subsidies_desc:0 "基于需求，你给予了你的商人们一点援助来帮助他们创业。这将使商人出现得更加频繁。"
+ 
+ ####################################
+ # Policies
+ #################################### 
+ 
+ policy_civilian_trade:0 "民间贸易"
+ policy_civilian_trade_desc:0 "你的国家产生的商人数量取决于你掌握的贸易范围的大小。"
+ 
+ unrestricted_trade:0 "自由的"
+ unrestricted_trade_name: "自由贸易" 
+ unrestricted_trade_desc:0 "倾向采用自由贸易，让市场起决定作用。"
+
+ restricted_trade:0 "限制的"
+ restricted_trade_name:0 "限制贸易"
+ restricted_trade_desc:0 "太自由的迁徙和贸易不利于我国的发展。将不在核准新的商人入市。"
+
+ ####################################
+ # Hull Sizes
+ ####################################  
+ 
+ civilian_trade_freighter:0 "民间货舰"
+ civilian_trade_freighter_plural:0 "民间货舰"
+ civilian_trade_tanker:0 "民间油轮"
+ civilian_trade_tanker_plural:0 "民间油轮"
+ 
+ ####################################
+ # Technologies
+ ####################################  
+ 
+ tech_trade_facilities_one:0 "交易设施I"
+ tech_trade_facilities_one_desc:0 "向公用设施和行政开支投入一些额外的资源，以便增加我们民间可提供的贸易者数量。"
+ tech_trade_facilities_two:0 "交易设施II"
+ tech_trade_facilities_two_desc:0 "向公用设施和行政开支投入一些额外的资源，以便增加我们民间可提供的贸易者数量。"
+ tech_trade_facilities_three:0 "交易设施III"
+ tech_trade_facilities_three_desc:0 "向公用设施和行政开支投入一些额外的资源，以便增加我们民间可提供的贸易者数量。"
+ 
+ TECH_UNLOCK_TRADE_FACILITIES_ONE_TITLE:0 "§H解锁最大贸易商数量:§! 10人"
+ TECH_UNLOCK_TRADE_FACILITIES_ONE_DESC:0 "§H更多的贸易商§!\n允许我们增加民间贸易船只的数量。"
+ TECH_UNLOCK_TRADE_FACILITIES_TWO_TITLE:0 "§H解锁最大贸易商数量:§! 20人"
+ TECH_UNLOCK_TRADE_FACILITIES_TWO_DESC:0 "§H更多的贸易商§!\n允许我们增加民间贸易船只的数量。"
+ TECH_UNLOCK_TRADE_FACILITIES_THREE_TITLE:0 "§H解锁最大贸易商数量:§! 30人"
+ TECH_UNLOCK_TRADE_FACILITIES_THREE_DESC:0 "§H更多的贸易商§!\n允许我们增加民间贸易船只的数量。"
+ 
+ TECH_UNLOCK_TRADE_HUB_TITLE:0 "§H解锁行星法令:§! 贸易中心"
+ TECH_UNLOCK_TRADE_HUB_DESC:0 "§H贸易中心§!\n这个星球提供了这样一个设施和空间用以吸引更多的商人来发挥他们的特长。"
+ 
+ ####################################
+ # Subjects
+ #################################### 
+ 
+ SUBJECT_traders:0 "民间商人"
+ SUBJECT_DESC_traders:0 "这是你人口中从事星际贸易的人们。"
+ 
+ ####################################
+ # War Demands
+ ####################################  
+  
+  
+ war_demand_trade_sanctions_header:1 "§H贸易制裁§!"
+ war_demand_trade_sanctions_subtext:0 "[parameter:country.GetName]"
+ war_demand_trade_sanctions_tooltip_header:0 "$war_demand_trade_sanctions_header$"
+ war_demand_trade_sanctions_tooltip_content:1 "[parameter:country.GetName] 将宣布对其贸易网络的制裁计划。强制限制贸易政策10年，并造成贸易效果降低20。"
+ war_demand_trade_sanctions_tooltip_proper_header:0 "$war_demand_trade_sanctions_header$"
+ war_demand_trade_sanctions_tooltip_proper_content:1 "$war_demand_trade_sanctions_tooltip_content$"
+ 
+  ####################################
+ # Buttons
+ ####################################  
+ 
+ PLANETVIEW_TRADE_FOCUS:0 "贸易焦点" 
+ 

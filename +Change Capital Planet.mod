@@ -1,0 +1,5 @@
+name="+Change Capital Planet"
+archive="mod/_Inkitmod/Change Capital Planet.zip"
+picture="image.png"
+remote_file_id="695883812"
+supported_version="1.2"

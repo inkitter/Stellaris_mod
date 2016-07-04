@@ -1,0 +1,5 @@
+name="_Sector Defense Navy"
+archive="mod/_InkitSEL/Sector Defense Navy.zip"
+picture="defenseFleet.png"
+remote_file_id="686083401"
+supported_version="1.2"

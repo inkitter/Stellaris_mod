@@ -1,0 +1,5 @@
+name="-Research All FTL"
+archive="mod/_Inkitmod/Research All FTL.zip"
+picture="AllFTLthumb.png"
+remote_file_id="682207869"
+supported_version="1.2"

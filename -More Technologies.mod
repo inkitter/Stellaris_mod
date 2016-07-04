@@ -1,0 +1,5 @@
+name="-More Technologies"
+archive="mod/_Inkitmod/More Technologies.zip"
+picture="newtechs.png"
+remote_file_id="683851819"
+supported_version="1.2"

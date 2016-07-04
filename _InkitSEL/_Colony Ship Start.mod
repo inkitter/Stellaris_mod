@@ -1,0 +1,5 @@
+name="_Colony Ship Start"
+archive="mod/_InkitSEL/Colony Ship Start.zip"
+picture="System Variety - Dead world Colony Ship Start.jpg"
+remote_file_id="691851232"
+supported_version="1.2"

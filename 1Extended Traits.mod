@@ -1,0 +1,5 @@
+name="1Extended Traits"
+archive="mod/_Inkitmod/Extended Traits.zip"
+picture="preview.jpg"
+remote_file_id="681816257"
+supported_version="1.2"

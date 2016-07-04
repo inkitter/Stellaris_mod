@@ -1,0 +1,395 @@
+﻿l_english:
+####################################
+# Constructions
+####################################
+ MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "建筑完成"
+ MESSAGE_BUILDING_CONSTRUCTION:1 "$PLANET|Y$已完成其地表建筑队列。"
+ MESSAGE_BUILDING_CONSTRUCTION_MESSAGE_TYPE_TITLE:2 "建筑完毕"
+ MESSAGE_CONSTRUCTION_FINISH:0 "$PLANET|Y$行星已完成其建筑队列。"
+ MESSAGE_CONSTRUCTION_FINISH_SPACEPORT:0 "$PLANET|Y$的空间站已完成其建筑队列。"
+ MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 "我们已在$SYSTEM|Y$星系建立了$COLONY|Y$殖民地。"
+ MESSAGE_ARMY_RECRUITMENT_TITLE:0 "军队招募完成"
+ MESSAGE_ARMY_RECRUITMENT:0 "军队招募已在$PLANET|Y$上完成了。"
+
+####################################
+# Fleet Orders
+####################################
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION:0 "§H$FLEET$§!已在$PLANET|Y$的轨道上完成建造一艘$SHIPCLASS|Y$。"
+ MESSAGE_FLEET_ORDER_ANOMALY:0 "§H$FLEET$§!在$PLANET|Y$上发现了一个§H异常点§!。 "
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION:0 "§H$FLEET$§!在$STAR|Y$上完成了一艘$SHIPCLASS|Y$。"
+ MESSAGE_FLEET_ORDER_ANALYZE_FAIL:0 "§H$FLEET$§!分析超光速轨迹失败。"
+ MESSAGE_FLEET_ORDER_ANALYZE_FINISH:0 "§H$FLEET$§!已分析超光速轨迹。"
+ MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED:0 "$SYSTEM|Y$星系已被勘测完毕。"
+ MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "舰队命令已完成"
+ MESSAGE_SYSTEM_SURVEYED_TITLE:0 "星系勘测完毕"
+
+####################################
+# Misc Fleet
+####################################
+ MESSAGE_FLEET_REPARATIONS_DONE_MESSAGE_TYPE_TITLE:0 "修理完成"
+ MESSAGE_REPARATIONS_DONE:0 "$FLEET|Y$舰队已完全修理好。"
+ MESSAGE_FLEET_UPGRADE_DONE_MESSAGE_TYPE_TITLE:0 "舰队升级完毕"
+ MESSAGE_UPGRADE_DONE:0 "$FLEET|Y$舰队已完全升级。"
+
+####################################
+# Diplomacy
+####################################
+ MESSAGE_MADE_FIRST_CONTACT_WE:0 "我们在§H$STAR$§!遭遇了§H$WHO$§!！"
+ MESSAGE_MADE_FIRST_CONTACT_THEM:0 "已在§H$STAR$§!星系跟§H$WHO$§!取得了联系！"
+ ACTION_DECLARE_WAR_VOTE_PASSED:0 "§H [Actor.GetAllianceName]§!宣战投票已被通过，我么现在跟§H [Recipient.GetName]§!§Y开战§!了！"
+ ACTION_DECLARE_WAR_VOTE_FAILED:0 "对§H [Recipient.GetName]§!宣战的投票被否决了。"
+ ACTION_INVITE_TO_ALLIANCE_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! 投票邀请 §H[Recipient.GetName]§! 加入联盟。"
+ ACTION_INVITE_TO_ALLIANCE_VOTE_FAILED:0 "邀请§H [Recipient.GetName]§!加入§H [Actor.GetAllianceName]§!的投票被否决了。"
+ ACTION_KICK_FROM_ALLIANCE_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! 投票将 §H[Recipient.GetName]§! 逐出联盟。"
+ ACTION_KICK_FROM_ALLIANCE_VOTE_FAILED:0 "将§H[Recipient.GetName]§!从§H[Actor.GetAllianceName]§!中逐出的表决未能通过了。"
+ ACTION_KICK_FROM_FEDERATION_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! 已通过了将§H[Recipient.GetName]§!从联邦中逐出的表决。"
+ ACTION_KICK_FROM_FEDERATION_VOTE_FAILED:0 "将§H[Recipient.GetName]§!从§H[Actor.GetAllianceName]§!中逐出的表决未能通过。"
+ ACTION_INVITE_TO_FEDERATION_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§! 投票邀请§H[Recipient.GetName]§!加入联邦。"
+ ACTION_INVITE_TO_FEDERATION_VOTE_FAILED:0 " §H[Actor.GetAllianceName]§!邀请§H[Recipient.GetName]§! 进入联邦的表决未能通过。"
+ ACTION_ASK_TO_JOIN_ALLIANCE_VOTE_PASSED:0 " §H[Recipient.GetAllianceName]§! 投票邀请§H[Actor.GetName]§! 加入联盟。"
+ ACTION_ASK_TO_JOIN_ALLIANCE_VOTE_FAILED:0 "邀请§H [Actor.GetName]§!加入§H [Recipient.GetAllianceName]§!的投票被否决了。"
+ ACTION_FORM_FEDERATION_VOTE_PASSED:0 "§H [Actor.GetAllianceName]§!表决组成联邦。"
+ ACTION_FORM_FEDERATION_VOTE_FAILED:0 "组成联邦的投票被否决了。"
+ ACTION_RELEASE_SUBJECT_PASSED:0 "§H [Actor.GetName]§!释放了我们，我们不再是附属。"
+
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_TITLE:0 "贸易交易结束，我方缺乏资源"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM_TITLE:0 "贸易交易结束，对方缺乏资源"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_TITLE:0 "贸易协定结束，我们关闭了我们的边"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM_TITLE:0 "贸易协定结束，他们关闭了他们的边界。"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_TITLE:0 "贸易交易结束，我方加入了同盟"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM_TITLE:0 "贸易交易结束，对方加入了同盟"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_TITLE:0 "我方停止支持对方的独立主权"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_THEM_TITLE:0 "对方停止支持我方的独立主权"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_TITLE:0 "贸易协定结束，我们成为了附庸国。"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM_TITLE:0 "贸易协定结束，他们成为了附庸国。"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_TITLE:0 "贸易交易取消了"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT_TITLE:1 "贸易交易期限到期了"
+ MESSAGE_CANCEL_SUBJECT_INTEGRATION_TITLE:0 "整合取消了"
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_ACTOR:0 "我们对§H [Third_party.GetName]§!的战争提案被拒绝了。"
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_ALLIANCE:0 "§H [Actor.GetName]§!对§H [Third_party.GetName]§!的战争提案被拒绝了。"
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_RECIPIENT:0 "§H [Actor.GetName]§!对§H [Third_party.GetName]§!的战争提案被自动拒绝了。"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ACTOR:0 "我们对§H [Third_party.GetName]§!的邀请提案被拒绝了。"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ALLIANCE:0 "§H [Actor.GetName]§!对§H [Third_party.GetName]§!的邀请提案被拒绝了。"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_RECIPIENT:0 "§H [Actor.GetName]§!对§H [Third_party.GetName]§!的邀请提案被自动拒绝了。"
+ ACTION_OFFER_PEACE_PROPOSAL_FAILED_ACTOR:0 "我们对§H [Recipient.GetName]§!的停战提案被自动拒绝了。"
+ ACTION_OFFER_PEACE_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的停战提案被自动拒绝了。"
+ ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_ACTOR:0 "与§H[Recipient.GetName]§!提议的防御条约已被自动回绝。"
+ ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_RECIPIENT:0 "与§H[Actor.GetName]§!提议的防御条约已被自动回绝。"
+ ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_ACTOR:0 "我们提议与§H[Recipient.GetName]§! 签订互不侵犯条约的要求被自动拒绝了。"
+ ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_RECIPIENT:0 "与§H[Actor.GetName]§!签订互不侵犯条约的提议被自动拒绝了。"
+ ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_ACTOR:0 "我们提议与§H[Recipient.GetName]§! 签订移民条约的要求被自动拒绝了。"
+ ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_RECIPIENT:0 " §H[Actor.GetName]§!提出的签订移民条约被自动拒绝了。"
+ ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "我们对§H [Recipient.GetName]§!的同盟邀请被拒绝了。"
+ ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的同盟邀请被自动拒绝了。"
+ ACTION_KICK_FROM_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "我们将§H[Recipient.GetName]§! 从联盟中逐出的提议被拒绝了。"
+ ACTION_KICK_FROM_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:0 " §H[Actor.GetName]§! 将我们从联盟中逐出的提议被自动拒绝了。"
+ ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "我们将§H[Recipient.GetName]§! 从联邦中逐出的提议被拒绝了。"
+ ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "§H[Actor.GetName]§! 将我们从联邦中逐出的提议被自动拒绝了。"
+ ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "我们邀请§H [Recipient.GetName]§!加入同盟被拒绝了。"
+ ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的加入同盟邀请被自动拒绝了。"
+ ACTION_DEMAND_VASSALIZATION_PROPOSAL_FAILED_ACTOR:0 "我们附庸§H [Recipient.GetName]§!的要求被拒绝了。"
+ ACTION_DEMAND_VASSALIZATION_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的附庸要求被自动拒绝了。"
+ ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_ACTOR:0 "我们给予§H [Recipient.GetName]§!保护国待遇的提案被拒绝了。"
+ ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的保护国待遇的提案被自动拒绝了。"
+ ACTION_ASK_TO_BECOME_VASSALIZED_PROPOSAL_FAILED_ACTOR:0 "我们请求被§H [Recipient.GetName]§!附庸的要求被拒绝了。"
+ ACTION_ASK_TO_BECOME_VASSALIZED_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的请求被附庸的要求被自动拒绝了。"
+ ACTION_ASK_TO_BECOME_PROTECTORATE_PROPOSAL_FAILED_ACTOR:0 "我们请求成为§H [Recipient.GetName]§!的保护国的要求被拒绝了。"
+ ACTION_ASK_TO_BECOME_PROTECTORATE_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的请求成为保护国的要求被自动拒绝了。"
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_PROPOSAL_FAILED_ACTOR:0 "我们要求脱离附属于§H [Recipient.GetName]§!的请求被拒绝了。"
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_PROPOSAL_FAILED_RECIPIENT:0 "要求脱离附属于§H [Actor.GetName]§!得请求被自动拒绝了。"
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "我们要加入§H [Recipient.GetAllianceName]§!的请求被拒绝了。"
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_ALLIANCE:0 "§H [Actor.GetName]§!要加入§H [Recipient.GetAllianceName]§!的请求被拒绝了。"
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的加入§H [Recipient.GetAllianceName]§!的请求被自动拒绝了。"
+ ACTION_ASK_TO_JOIN_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 "我们要加入§H [Recipient.GetAllianceName]§!的请求被拒绝了。"
+ ACTION_ASK_TO_JOIN_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的加入§H [Recipient.GetAllianceName]§!的请求被自动拒绝了。"
+ ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_ACTOR:0 "我们要求脱离§H [Recipient.GetName]§!的请求被拒绝了。"
+ ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_RECIPIENT:0 "要求脱离§H [Actor.GetName]§!的请求被拒绝了。"
+ ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_ACTOR:0 "我们对§H [Recipient.GetName]§!的贸易交易提案被拒绝了。"
+ ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_RECIPIENT:0 "来自§H [Actor.GetName]§!的贸易交易提案被自动拒绝了。"
+
+ MESSAGE_MAKE_RIVAL_TITLE:0 "$RIVALRY$"
+ MESSAGE_RECALL_EMBASSY_TITLE:0 "撤销大使馆"
+ MESSAGE_END_RIVALRY_TITLE:0 "$RIVALRY$结束了"
+ MESSAGE_EMBASSY_TITLE:0 "建立了大使馆"
+ MESSAGE_DECLARE_WAR_TITLE:0 "宣战"
+ MESSAGE_OFFER_PEACE_TITLE:0 "讲和"
+ MESSAGE_INVITE_TO_ALLIANCE_TITLE:0 "同盟邀请"
+ MESSAGE_KICK_FROM_ALLIANCE_TITLE:0 "联盟成员被逐出。"
+ MESSAGE_KICK_FROM_FEDERATION_TITLE:0 "联邦成员被逐出。"
+ MESSAGE_ASK_TO_JOIN_ALLIANCE_TITLE:0 "加入同盟请求"
+ MESSAGE_LEAVE_ALLIANCE_TITLE:0 "同盟成员离开了"
+ DIPLO_ACTION_LEAVE_ALLIANCE_DESC:0 "$COUNTRY|Y$离开了$ALLIANCE|Y$"
+ MESSAGE_DEMAND_VASSALIZATION_TITLE:0 "要求封臣"
+ MESSAGE_DEMAND_PROTECTORATE_TITLE:0 "提供保护状态"
+ MESSAGE_ASK_TO_BECOME_VASSALIZED_TITLE:0 "附庸请求"
+ MESSAGE_ASK_TO_BECOME_PROTECTORATE_TITLE:0 "保护国请求"
+ MESSAGE_ASK_TO_BE_RELEASED_SUBJECT_TITLE:0 "附属释放请求"
+ MESSAGE_FORM_FEDERATION_TITLE:0 "组建联邦提案"
+ MESSAGE_INVITE_TO_FEDERATION_TITLE:0 "联邦邀请"
+ MESSAGE_ASK_TO_JOIN_FEDERATION_TITLE:0 "加入联邦请求"
+ MESSAGE_LEAVE_FEDERATION_TITLE:0 "离开联邦"
+ MESSAGE_OFFER_TRADE_DEAL_TITLE:0 "贸易交易提案"
+ MESSAGE_REQUEST_WAR_TITLE:0 "战争请求"
+ MESSAGE_PROPOSE_INVITE_TITLE:0 "邀请提案"
+ MESSAGE_ASK_TO_BECOME_RELEASED_SUBJECT_TITLE:0 "释放附属请求"
+ MESSAGE_RELEASE_SUBJECT_TITLE:0 "解除势力"
+ MESSAGE_WARNING_NOT_ACTIVE_IN_WAR_TITLE:0 "不处于战争状态警告！"
+ MESSAGE_NOT_ACTIVE_IN_WAR_TITLE:0 "不处于战争状态"
+ MESSAGE_DIPLOMATIC_INSULT_TITLE:0 "外交侮辱"
+ MESSAGE_INTEGRATE_SUBJECT_TITLE:0 "整合附属开始了"
+ MESSAGE_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:0 "整合附属开始了"
+ MESSAGE_FORM_DEFENSIVE_PACT_TITLE:0 "邀请建立防御性条约"
+ MESSAGE_BREAK_DEFENSIVE_PACT_TITLE:0 "防御性条约终止。"
+ MESSAGE_FORM_NON_AGGRESSION_PACT_TITLE:0 "邀请缔结互不侵犯条约"
+ MESSAGE_BREAK_NON_AGGRESSION_PACT_TITLE:0 "互不侵犯条约被撕毁"
+ MESSAGE_FORM_MIGRATION_PACT_TITLE:0 "提议缔结移民条约"
+ MESSAGE_BREAK_MIGRATION_PACT_TITLE:0 "移民条约被撕毁"
+ MESSAGE_GUARANTEE_INDEPENDENCE_TITLE:0 "保障独立"
+ MESSAGE_BREAK_GUARANTEE_TITLE:0 "撤销保障"
+ MESSAGE_SUPPORT_INDEPENDENCE_TITLE:0 "支持独立"
+ MESSAGE_BREAK_SUPPORT_TITLE:0 "取消支持"
+ MESSAGE_OPEN_BORDERS_TITLE:0 "边界开放"
+ MESSAGE_CLOSE_BORDERS_TITLE:0 "边界关闭"
+
+ ACTION_MAKE_RIVAL_NOTIFICATION:1 "§H[From.GetName]§! 宣布与§H[Root.GetName]§!开展§H$RIVAL$§!竞争，这会显著破坏他们之间的外交关系。"
+ ACTION_END_RIVALRY_NOTIFICATION:2 "§H[From.GetName]§! 已经结束了与 §H[Root.GetName]§!的$竞争$ 。他们也许正走向和解。"
+ ACTION_EMBASSY_NOTIFICATION:1 "§H[From.GetName]§! 已经将一名外交官送往§H[Root.GetName]§!。\n\n随着时间流逝，这将增进他们之间的关系。"
+ ACTION_RECALL_EMBASSY_NOTIFICATION:2 "§H[From.GetName]§! 已经从§H[Root.GetName]§!召回了他们的外交官。\n\n这是战争来临的迹象吗？"
+ ACTION_DECLARE_WAR_NOTIFICATION:3 "§H[From.GetName]§! 宣布向§H[Root.GetName]§开战！！\n\n现在我们可以看看哪一个帝国更强大了。"
+ ACTION_OFFER_PEACE_NOTIFICATION:1 "§H[From.GetName]§! 与§H[Root.GetName]§停战了。"
+ ACTION_INVITE_TO_ALLIANCE_NOTIFICATION:2 "§H[Root.GetName]§! 加入了§H[From.GetAllianceName]§!。\n\n现在他们将团结一致对抗敌人。"
+ ACTION_LEAVE_ALLIANCE_NOTIFICATION:2 " §H[From.GetName]§!离开了§H[From.GetAllianceName]§!。\n\n这或许意味着我们的机会……"
+ ACTION_DEMAND_VASSALIZATION_NOTIFICATION:2 "§H[From.GetName]§!使§H[Root.GetName]§成为了附庸。\n\n他们为安全而放弃了自由"
+ ACTION_ASK_TO_BECOME_VASSALIZED_NOTIFICATION:2 "§H[Root.GetName]§! 使vassalized §H[From.GetName]§!成为了附庸。\n\n他们为安全而放弃了自由。"
+ ACTION_DEMAND_PROTECTORATE_NOTIFICATION:2 "§H[From.GetName]§!将§H[Root.GetName]§变成了受保护国。\n\n他们为安全而放弃了自由。"
+ ACTION_ASK_TO_BECOME_PROTECTORATE_NOTIFICATION:2 "§H[Root.GetName]§! 将§H[From.GetName]§变成了受保护国。\n\n他们为安全而放弃了自由。"
+ ACTION_FORM_FEDERATION_NOTIFICATION:2 "§H[From.GetAllianceName]§!投票成立一个$联邦$。\n\n他们已经选择作为一个整体而走向银河。"
+ ACTION_INVITE_TO_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§!加入了§H[From.GetAllianceName]§！。\n\n他们现在将并肩对抗他们的敌人。"
+ ACTION_ASK_TO_JOIN_FEDERATION_NOTIFICATION:2 "§H[Root.GetName]§!加入了§H[From.GetAllianceName]§！。\n\n他们现在将并肩对抗他们的敌人。"
+ ACTION_LEAVE_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§! 离开了§H[Root.GetAllianceName]§！。\n\n这或许意味着我们的机会……"
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_NOTIFICATION:2 "§H[Root.GetName]§! 使§H[From.GetName]§独立！。\n\n看起来他们是如此的弱小，以至于连自己的附庸国都无法控制。"
+ ACTION_RELEASE_SUBJECT_NOTIFICATION:2 "§H[From.GetName]§! 使§H[Root.GetName]§获得独立！\n\n看起来他们是如此的弱小，以至于连自己的附庸国都无法控制。"
+ ACTION_INSULT_NOTIFICATION:2 "§H[From.GetName]§!侮辱了§H[Root.GetName]§!。\n\n看起来冲突正在酝酿之中……"
+ ACTION_INTEGRATE_SUBJECT_NOTIFICATION:2 "§H[From.GetName]§! 开始吞并§H[Root.GetName]§!。\n\n不久之后，[Root.GetAdjective] 最后存在过的痕迹也将被抹去。"
+ ACTION_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:2 "§H[From.GetName]§! 停止吞并§H[Root.GetName]§!。\n\n看起来[Root.GetSpeciesNamePlural] 可能会造成的麻烦比他们拥有的价值更多。"
+ ACTION_FORM_DEFENSIVE_PACT_NOTIFICATION:1 "§H[From.GetName]§!加入了与§H[Root.GetName]§!的防御性条约。\n\n现在他们将会协同防御彼此的敌人。"
+ ACTION_BREAK_DEFENSIVE_PACT_NOTIFICATION:1 "§H[From.GetName]§! 中断了与§H[Root.GetName]§!的防御性条约。\n\n看起来他们觉得孤立会是个更好的选择。"
+ ACTION_FORM_NON_AGGRESSION_PACT_NOTIFICATION:1 "§H[From.GetName]§! 加入了与§H[Root.GetName]§!的互不侵犯条约。\n\n我们倒要看看这个和平能不能经受住考验。"
+ ACTION_BREAK_NON_AGGRESSION_PACT_NOTIFICATION:1 "§H[From.GetName]§! 终止了与§H[Root.GetName]§!的互不侵犯条约。\n\n看起来他们已经对和平感到厌倦了……"
+ ACTION_FORM_MIGRATION_PACT_NOTIFICATION:1 "§H[From.GetName]§! 加入了与§H[Root.GetName]§!的移民条约。\n\n他们的人口现在可以自由地在两个国家之间流动了。"
+ ACTION_BREAK_MIGRATION_PACT_NOTIFICATION:1 "§H[From.GetName]§!终止了与§H[Root.GetName]§!的移民条约。\n\n看起来他们已经对开放边界感到后悔了"
+ ACTION_GUARANTEE_INDEPENDENCE_NOTIFICATION:1 "§H[From.GetName]§!现在保障§H[Root.GetName]§!的独立。\n\n他们现在将抵御任何形式的攻击。"
+ ACTION_BREAK_GUARANTEE_NOTIFICATION:1 "§H[From.GetName]§!不再保障§H[Root.GetName]§!的独立。\n\n这或许意味着我们的机会……"
+ ACTION_SUPPORT_INDEPENDENCE_NOTIFICATION:1 "§H[From.GetName]§! 现在支持§H[Root.GetName]§!的独立。\n\n他们的宗主国一定不太高兴……"
+ ACTION_BREAK_SUPPORT_NOTIFICATION:1 "§H[From.GetName]§!不再支持§H[Root.GetName]§!的独立。\n\n看起来[Root.GetName]命中注定要继续做一个附庸国了。"
+ ACTION_OPEN_BORDERS_NOTIFICATION:1 "§H[From.GetName]§! 向§H[Root.GetName]§!的海军开放边界。\n\n这将改善他们之间的外交关系。"
+ ACTION_CLOSE_BORDERS_NOTIFICATION:1 "§H[From.GetName]§! 向§H[Root.GetName]§!的舰队关闭边界。\n\n这将恶化他们之间的外交关系。"
+
+ MESSAGE_DIPLOMACY_TITLE:0 "外交"
+
+####################################
+# War
+####################################
+ SURRENDER_OUR_SIDE:0 "我们的战争领导无条件投降，停战已达成。敌人有六个月时限递出他们的要求。"
+ SURRENDER_THEIR_SIDE:0 "他们的战争领导无条件投降，停战已达成。我们有六个月时限决定我们的要求。"
+ WAR_END_VICTORY:0 "我们战胜了"
+ WAR_END_DEFEAT:0 "我们战败了"
+ WAR_DEMANDS:0 "有以下的要求：\n"
+ WAR_DEMANDS_NONE:0 ". 没有附带任何要求。"
+ WAR_END_WHITEPEACE:0 "战争以无条件和平结束"
+ MESSAGE_OUR_SURRENDER_TITLE:0 "我们投降了"
+ MESSAGE_THEIR_SURRENDER_TITLE:0 "他们投降了"
+ MESSAGE_VICTORY_TITLE:0 "胜利"
+ MESSAGE_DEFEAT_TITLE:0 "战败"
+ MESSAGE_ALLIED_ENTERED_WAR:1 "$ATTACKER|Y$向我们的盟友$CALLER|Y$宣战了。\n\n因此，我们现在跟$ATTACKER|Y$!进入了§Y战争状态§!"
+ MESSAGE_GUARANTEED_ENTERED_WAR:0 "受保护者受到攻击"
+ MESSAGE_GUARANTEER_ENTERED_WAR_DESC:1 "$ATTACKER|Y$向$CALLER|Y$宣战了，后者的独立主权受我们的保护。\n\n因此，我们现在跟$ATTACKER|Y$!进入了§Y战争状态§!"
+ MESSAGE_GUARANTEER_ENTERED_WAR_TITLE:0 "保证人加入了战争"
+ MESSAGE_ALLIED_ENTERED_WAR_TITLE:0 "盟友加入了战争"
+ MESSAGE_OVERLORD_ENTERED_WAR_TITLE:0 "霸主加入了战争"
+ MESSAGE_OVERLORD_ENTERED_WAR_DESC:1 "$ATTACKER|Y$向我们的霸主$CALLER|Y$宣战了。\n\n因此，我们现在跟$ATTACKER|Y$!进入了§Y战争状态§!"
+ MESSAGE_SUBJECT_ENTERED_WAR_TITLE:0 "附属国加入了战争"
+ MESSAGE_SUBJECT_ENTERED_WAR_DESC:1 "$ATTACKER|Y$向我们的$SUBJECT_TYPE$，$CALLER|Y$宣战了。\n\n因此，我们现在跟$ATTACKER|Y$!进入了§Y战争状态§!"
+ MESSAGE_OVERLORD_DECLARED_WAR:0 "霸主宣战"
+ MESSAGE_OVERLORD_DECLARED_WAR_DESC:1 "我们的霸主，$CALLER|Y$，向$DEFENDER|Y$宣战了。\n\n因此，我们现在跟$DEFENDER|Y$!进入了§Y战争状态§!"
+ MESSAGE_FEDERATION_DECLARED_WAR:0 "联邦总统宣战"
+ MESSAGE_FEDERATION_DECLARED_WAR_DESC:1 "我们的联邦总统，$CALLER|Y$，向$DEFENDER|Y$宣战了。\n\n因此，我们现在跟$DEFENDER|Y$!进入了§Y战争状态§!"
+ MESSAGE_SUPPORTED_DECLARED_WAR:1 "附庸国宣战"
+ MESSAGE_SUPPORTED_DECLARED_WAR_DESC:1 " 我们支持独立的$CALLER|Y$，已经向$DEFENDER|Y$宣战了"
+ MESSAGE_OFFENSIVE_PACT_DECLARED_WAR:0 "加入侵略战争"
+ MESSAGE_OFFENSIVE_PACT_DECLARED_WAR_DESC:1 "同意支持他们侵略性战争的$CALLER|Y$，已经向$DEFENDER|Y$宣战了！"
+ MESSAGE_WAR_ENDED:0 "战争结束"
+ MESSAGE_WAR_ENDED_DESC_1:1 "$ATTACKER|Y$跟$DEFENDER|Y$之间的战争因为$DEFENDER|Y$被第三方附庸或吞并了而宣告结束。"
+ MESSAGE_WAR_ENDED_DESC_2:1 "我们跟$ENEMY|Y$的战争因为对方被$OVERLORD|Y$附庸或吞并了而宣告结束。我们尚未进入停战。"
+ MESSAGE_WAR_ENDED_DESC_3:1 "我们退出了跟$ENEMY|Y$的战争，因为我方被$OVERLORD|Y$附庸了。"
+ MESSAGE_VASSAL_ENTER_WAR:0 "附属国加入了战争"
+ MESSAGE_VASSAL_ENTER_WAR_DESC_1:1 "我们其中一位盟友的附庸，$VASSAL|Y$，加入了对抗$ENEMY|Y$的战争。"
+ MESSAGE_VASSAL_ENTER_WAR_DESC_2:1 "我们的附庸，$VASSAL|Y$，加入了对抗$ENEMY|Y$的战争。"
+ MESSAGE_ENEMY_VASSAL_ENTER_WAR:0 "敌人的附属国加入了战争"
+ MESSAGE_ENEMY_VASSAL_ENTER_WAR_DESC:1 "我们敌人的某个附属国，$ENEMY|Y$，加入了对抗我们的战争。"
+ MESSAGE_ENEMY_LEAVES_WAR:0 "敌人退出了战争"
+ MESSAGE_ENEMY_LEAVES_WAR_DESC:1 "$ENEMY|Y$因为被$OVERLORD|Y$附庸或吞并而退出了战争。"
+
+####################################
+# Fleet Detected
+####################################
+ MESSAGE_FLEET_DETECTED_WE:0 "发现$WHO|Y$的§H$FLEET$§!正在向§Y$TARGET$星系§!直线行进！"
+ MESSAGE_FLEET_DETECTED_MESSAGE_TYPE_TITLE:0 "发现舰队"
+ MESSAGE_OBJECT_DETECTED_WE:0 "发现不明物体正在向§Y$TARGET$星系§!直线行进！"
+ MESSAGE_OBJECT_DETECTED_MESSAGE_TYPE_TITLE:0 "发现不明物体"
+
+####################################
+# Fleet Evade
+####################################
+ MESSAGE_FLEET_EVADE_HOSTILE:0 "$FLEET$在$SYSTEM|H$遭遇了一支敌对$HOSTILE|R$舰队，正在试图规避对方！"
+ MESSAGE_FLEET_EVADE_HOSTILE_FLEET_TYPE:0 "$TYPE$ $NAME|H$"
+ MESSAGE_FLEET_EVADE_HOSTILE_MESSAGE_TYPE_TITLE:0 "规避敌对舰队"
+
+####################################
+# Leaders
+####################################
+ FLEET_LEADER_DEATH:0 "$CLASS|Y$ $LEADER|Y$跟$SHIP|Y$舰毁人亡。"
+ ARMY_LEADER_DEATH:0 "我们的$CLASS|Y$，$LEADER|Y$在指挥$ARMY|Y$时阵亡了。"
+ PLANET_LEADER_DEATH:0 "我们的$CLASS|Y$，$LEADER|Y$在$PLANET|Y$行星上逝世了。"
+ COUNTRY_LEADER_DEATH:0 "我们的$CLASS|Y$，$LEADER|Y$与世长辞了！"
+ HEIR_DEATH:0 "我们的$HEIR$§!，$HEIRNAME|Y$已经死了！"
+ RULER_ELECTED:0 "新的统治者当选了！$TITLE$ $LEADER|Y$会执政到下一届大选，也就是$TIME|Y$。"
+ RULER_ELECTED_UNTIL_DEATH:0 "$TITLE$ $LEADER|Y$!当选为新的统治者了，他会执政到与世长辞为止。"
+ RULER_ELECTED_HEIR:0 "按照继承顺序，$TITLE$ $LEADER|Y$!是新的统治者。"
+ MESSAGE_LEADER_DEATH_TITLE:0 "领导死亡"
+ MESSAGE_RULER_ELECTED_TITLE:0 "统治者当选"
+ MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE:0 "统治者当选"
+ MESSAGE_RULER_ELECTED_HEIR_TITLE:0 "统治被继承"
+ MESSAGE_ELECTION_MESSAGE_TYPE_TITLE:0 "选举"
+ MESSAGE_DEMOCRATIC_ELECTION_DESC:0 "挑选新的$TITLE$的选举正在如火如荼地举行中。\n选举结果将会在$DATE|Y$宣布。"
+ MESSAGE_OLIGARCHIC_ELECTION_DESC:0 "钦定新的$TITLE$的会谈正在如火如荼地举行中。\n选举结果将会在$DATE|Y$宣布。"
+ ELECTION_CLICK_FOR_MORE_INFO:0 "点击查看更多信息"
+ LEADER_DEATH_AGE:0 "$CLASS|Y$ $LEADER|Y$死于$AGE|Y$岁。"
+ TOOLTIP_KILL_LEADER:0 "$CLASS|Y$ $LEADER|Y$ §R死了§!"
+ MESSAGE_LEADER_EXPERIENCE_TITLE:0 "一位领导获得了经验"
+ LEADER_EXPERIENCE_NOTIFICATION_DESC:0 "§T$CLASS|Y$ $LEADER|Y$从战斗中获得了经验\n\n$STATS$§!"
+ MESSAGE_LEADER_LEVEL_UP_TITLE:0 "一位领导提升了等级"
+ LEADER_LEVEL_UP_DESC:0 "$CLASS|Y$ $LEADER|Y$升级了\n\n技能：$LEVEL|Y$\n"
+ LEADER_LEVEL_UP_NEXT_LEVEL_DESC:0 "$CLASS|Y$ $LEADER|Y$升级了\n\n技能：$LEVEL|Y$\n下一级所需经验值：$EXP|Y0$"
+
+ LEADER_ADMIRAL_BASE_EXPERIENCE:0 "§T舰队接敌：$VAL|0H$经验§!"
+ LEADER_ADMIRAL_HOSTILE_KILLED_EXPERIENCE:0 "§T摧毁敌对部队：$VAL|0H$经验§!"
+ LEADER_ADMIRAL_FRIENDLY_LOST_EXPERIENCE:0 "§T损失友军部队：$VAL|0H$经验§!"
+
+ LEADER_GENERAL_BASE_EXPERIENCE:0 "§T地面接敌：$VAL|0H$经验§!"
+ LEADER_GENERAL_HOSTILE_KILLED_EXPERIENCE:0 "§T摧毁敌对部队：$VAL|0H$经验§!"
+ LEADER_GENERAL_FRIENDLY_LOST_EXPERIENCE:0 "§T损失友军部队：$VAL|0H$经验§!"
+ MESSAGE_NEW_HEIR_TITLE:0 "§H新的继承人§!"
+ NEW_HEIR_TEXT:0 "§Y$HEIR$§!是我们帝国的新继承人，当我们现在的统治者归西后，他就会继承王座。"
+
+####################################
+# Technology
+####################################
+ MESSAGE_TECHNOLOGY_RESEARCH_FINISH:0 "我们完成了$TECHNOLOGY|H$的研究。"
+ MESSAGE_TECHNOLOGY_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "科技研究完毕"
+
+####################################
+# Debris
+####################################
+ MESSAGE_DEBRIS_ANALYZED_FINISH:0 "我们分析了$SYSTEM|Y$的瓦砾。"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_BONUS:1 "£$AREA_KEY$  §Y$AREA$研究§!：§G+$VAL|0$§!点"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_TECH_PROGRESS:1 "$TECH|Y$：§G+$VAL|%0$§!进度"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "瓦砾分析完毕"
+
+####################################
+# Anomaly
+####################################
+ MESSAGE_ANOMALY_DETECTED_TYPE_TITLE:0 "异常"
+
+####################################
+# No Access
+####################################
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS:0 "$FROM|Y$的虫洞正在向$TARGET|Y$打开时被关闭了，因为处于$WHO|Y$的领土内。"
+ MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS:0 "$FLEET|Y$被迫从$FROM|Y$回返到$RETURN|Y$，因为处于$WHO|Y$的领土内。"
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS_TITLE:0 "虫洞已关闭"
+ MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS_TITLE:0 "无法进入"
+
+####################################
+# Revolt
+####################################
+ MESSAGE_REVOLT:0 "$PLANET|Y$!行星上的人民正在反叛！"
+ MESSAGE_PLANET_REVOLT_TITLE:0 "反叛！"
+
+####################################
+# Terraforming
+####################################
+ MESSAGE_TERRAFORMATION_FINISH:1 "$PLANET|Y$已被地质改造为$PLANET_CLASS|Y$。"
+ MESSAGE_TERRAFORMATION_CANCELED:0 "$PLANET|Y$的地质改造过程被干扰了！"
+ MESSAGE_TERRAFORM_MESSAGE_TYPE_TITLE:0 "正在地质改造"
+
+####################################
+# Trade
+####################################
+ MESSAGE_TRADE_DEAL_END_NO_ENERGY:0 "我们跟$WITH|Y$的贸易条约结束了，因为我方缺乏足够的能量点数来维持。"
+ MESSAGE_TRADE_DEAL_END_NO_ENERGY_THEM:0 "$WITH|Y$结束了我们之间的贸易条约，因为对方缺乏足够的能量点数来维持。"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE:0 "我们跟$WITH|Y$的贸易条约结束了，因为我方缺乏足够的$RESOURCE|Y$来维持。"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM:0 "$WITH|Y$结束了我们的贸易条约，因为对方缺乏足够的$RESOURCE|Y$来维持。"
+ MESSAGE_TRADE_DEAL_TITLE:0 "贸易交易"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT:2 "我们与$WITH|Y$签订的贸易协定已经达到了时限。\n\n我们交易：\n$OUR_OFFER$\n\n他们交易:\n$THEIR_OFFER$"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS:0 "因为我们已经对他们关闭边界，与$WITH|Y$ 签订的贸易协定结束了。"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM:0 "因为他们已经对我们关闭边界，与$WITH|Y$ 签订的贸易协定结束了。"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS:0 "因为我们已经成为了无法控制自己边界的附庸国，我们与$WITH|Y$签订的贸易协定结束了。"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM:0 "因为他们已经成为了无法控制自己边界的附庸国，我们与$WITH|Y$签订的贸易协定结束了。"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE:0 "我们的受保护者跟$WITH|Y$之间的贸易条约结束了，因为我们加入了某个同盟。"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM:0 "$WITH|Y$终止了跟我们的被保护者之间的贸易条约，因为对方加入了某个同盟。"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE:1 "我们跟$WITH|Y$的贸易条约结束了，因为我们成为了附属国，无法再支持对方的独立主权。"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE_THEM:1 "$WITH|Y$终止了我们之间的贸易条约，因为对方成为了附属国，无法再支持我们的独立主权。"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE:0 "我们跟$WITH|Y$的贸易条约结束了，因为我们加入了某个同盟，无法再支持对方的独立主权。"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE_THEM:0 "$WITH|Y$终止了我们之间的贸易条约，因为对方加入了某个联盟，无法再保证我们的独立主权。"
+
+####################################
+# Special Project
+####################################
+ MESSAGE_UPLIFTING_FAILED_TITLE:0 "升变特殊计划失败"
+ MESSAGE_UPLIFTING_FAILED:1 "我们升变$PLANET|Y$上的$SPECIES|Y$的计划失败了。"
+ MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "更变种族特殊计划失败"
+ MESSAGE_SPECIES_MODIFICATION_FAILED:0 "我们更改$SPECIES|Y$的特性的计划失败了。"
+ MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "有新的特殊计划"
+ SPECIAL_PROJECT_AVAILABLE:0 "有新的特殊计划可研发。"
+
+
+####################################
+# Event
+####################################
+ MESSAGE_EVENT_MESSAGE_TYPE_TITLE:0 "事件"
+
+####################################
+# Invasion
+####################################
+ MESSAGE_INVASION_TITLE:0 "入侵结束"
+ MESSAGE_INVASION_ATTACKER_WIN:0 "我们成功入侵了$PLANET|H$！"
+ MESSAGE_INVASION_ATTACKER_LOSE:0 "我们对$PLANET|H$的入侵失败了。"
+ MESSAGE_INVASION_DEFENDER_WIN:0 "我们成功在$PLANET|H$击退了入侵者！"
+ MESSAGE_INVASION_DEFENDER_LOSE:0 "我们在$PLANET|H$抵抗入侵者失败。"
+
+####################################
+# Subject changes
+####################################
+ MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "附属国状态更变了"
+ MESSAGE_SUBJECT_CHANGED_DESC:0 "$REASON$$SUBJECT|Y$现在是$OVERLORD|Y$麾下的$NEW_TYPE|Y$"
+ MESSAGE_SUBJECT_CHANGE_REASON_protectorate_me:0 "因为我方的科技进展，"
+ MESSAGE_SUBJECT_CHANGE_REASON_protectorate:0 "因为对方的科技进展，"
+
+####################################
+# Triggered Modifiers
+####################################
+ MESSAGE_TRIGG_MOD_LOST_TITLE:0 "失去了条件性效果"
+ TRIGG_MOD_LOST:1 "条件性效果'$NAME|H$'不再生效。"
+ MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "获得了条件性效果"
+ TRIGG_MOD_GAINED:1 "$NAME|H$\n\n$DESC$"
+
+####################################
+# Combat Stats
+####################################
+ MESSAGE_COMBAT_STATS_TITLE:0 "舰队战斗数据"
+
+####################################
+# Edicts
+####################################
+ MESSAGE_INVALIDATED_EDICT_TITLE:0 "法令取消"
+ COUNTRY_EDICT_BECAME_INVALID:0 "由于未满足所需条件，$EDICT|Y$法令已经失效。"

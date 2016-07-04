@@ -1,0 +1,5 @@
+name="+More Map Size"
+archive="mod/_Inkitmod/MoreMapSize.zip"
+picture="Inkitcat.jpg"
+remote_file_id="696221547"
+supported_version="1.2"
