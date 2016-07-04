@@ -6,6 +6,33 @@
 ############
 # 宣戦画面 #
 ############
+ war_demand_superiority_header:1 "§H秀优越§!"
+ war_demand_superiority_subtext:0 "[parameter:country.GetName]"
+ war_demand_superiority_tooltip_header:0 "$war_demand_superiority_header$"
+ war_demand_superiority_tooltip_content:2 "向国内展示我们相较[parameter:country.GetName]的优越性。 在接下来的§Y5§!年内、 增加[GetCountry.GetName]的影响力获取量和幸福度。 "
+ war_demand_superiority_tooltip_proper_header:0 "$war_demand_superiority_headder$"
+ war_demand_superiority_tooltip_proper_content:1 "向国内展示[GetCountry.GetName]相较[parameter:country.GetName]的优越性。 在接下来的§Y5§!年内、 增加[GetCountry.GetName]的影响力获取量和幸福度。 "
+
+ war_demand_get_energy_header:1 "§Y赔付能源 (小)§!"
+ war_demand_get_energy_subtext:0 "[parameter:country.GetName]"
+ war_demand_get_energy_tooltip_header:0 "$war_demand_get_energy_header$"
+ war_demand_get_energy_tooltip_content:2 "从[parameter:country.GetName]获取§G1000§!の£energy 能源作为赔偿。 若[parameter:country.GetName]的国库没有足够的能源赔付，则会强制赔付并给[parameter:country.GetName]的国民带来屈辱感。"
+ war_demand_get_energy_tooltip_proper_header:0 "$war_demand_get_energy_tooltip_header$"
+ war_demand_get_energy_tooltip_proper_content:1 "[GetCountry.GetName]从[parameter:country.GetName]获得§G1000§!の£energy 能源的赔偿。若[parameter:country.GetName]的国库没有足够的能源赔付，则会强制赔付并给[parameter:country.GetName]的国民带来屈辱感。"
+
+ war_demand_get_energy_lv2_header:1 "§Y赔付能源 (大)§!"
+ war_demand_get_energy_lv2_subtext:0 "[parameter:country.GetName]"
+ war_demand_get_energy_lv2_tooltip_header:0 "$war_demand_get_energy_lv2_header$"
+ war_demand_get_energy_lv2_tooltip_content:2 "从[parameter:country.GetName]获取§G2000§!の£energy 能源作为赔偿。 若[parameter:country.GetName]的国库没有足够的能源赔付，则会强制赔付并给[parameter:country.GetName]的国民带来屈辱感。"
+ war_demand_get_energy_lv2_tooltip_proper_header:0 "$war_demand_get_energy_lv2_tooltip_header$"
+ war_demand_get_energy_lv2_tooltip_proper_content:1 "[GetCountry.GetName]从[parameter:country.GetName]获得§G2000§!の£energy 能源的赔偿。若[parameter:country.GetName]的国库没有足够的能源赔付，则会强制赔付并给[parameter:country.GetName]的国民带来屈辱感。"
+
+ war_demand_make_tributary_sci_header:1 "§Y租借研究设施§!"
+ war_demand_make_tributary_sci_subtext:0 "[parameter:country.GetName]"
+ war_demand_make_tributary_sci_tooltip_header:0 "$war_demand_make_tributary_sci_header$"
+ war_demand_make_tributary_sci_tooltip_content:2 "要求租借[parameter:country.GetName]的研究设施。 $SUBJECT_DESC_tributary_sci$"
+ war_demand_make_tributary_sci_tooltip_proper_header:0 "$war_demand_make_tributary_sci_tooltip_header$"
+ war_demand_make_tributary_sci_tooltip_proper_content:1 "要求[parameter:country.GetName]的研究设施租借给[GetCountry.GetName]。 $SUBJECT_DESC_tributary_sci$"
 
  war_demand_limit_navysize_header:1 "§H限制军力 (小)§!"
  war_demand_limit_navysize_subtext:0 "[parameter:country.GetName]"
@@ -50,8 +77,11 @@
  war_demand_beat_ruler_tooltip_proper_content:1 "$war_demand_beat_ruler_tooltip_content$"
 
 ########
-# 補正 修正#
+# 補正 #
 ########
+
+ wdtmod_superiority:0 "秀优越"
+ wdtmod_superiority_desc:0 "无论如何，我们战胜了敌国。这让我们的国民得到了不小的幸福感。"
 
  wdtmod_limit_navysize:0 "限制 (军力:小)"
  wdtmod_limit_navysize_desc:0 "由于我们的战败，海军规模上限被小幅地减少了。"
@@ -67,4 +97,11 @@
 
  wdtmod_ruler_beated:0 "动摇"
  wdtmod_ruler_beated_desc:0 "由于我们的战败和元首的下台，民众心理产生了极大的动摇。"
+
+##########
+# その他 #
+##########
+
+ SUBJECT_tributary_sci:0 "技术进贡国"
+ SUBJECT_DESC_tributary_sci:0 "技术进贡国虽然算是独立的国家，但他们每月的研究点数有§Y25%§!需要交给宗主国。"
 
