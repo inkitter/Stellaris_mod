@@ -1,4 +1,4 @@
-name="+Easy Buffs"
+name="Easy Buffs"
 path="mod/_Inkitmod/Easybuff"
 picture="Inkitcat.jpg"
 remote_file_id="696221722"
