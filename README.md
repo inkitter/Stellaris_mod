@@ -1,10 +1,5 @@
 Stellaris mods for [1.5.1]
 
-## 使用方法 （选择下列方式之一）
-
-百度云： http://pan.baidu.com/s/1pLxjUbT 
-Github: https://github.com/inkitter/Stellaris_mod
-
 ## 内容
 
 * !Chinese Font CuYuan 粗圆简体字库 http://steamcommunity.com/sharedfiles/filedetails/?id=826928128
