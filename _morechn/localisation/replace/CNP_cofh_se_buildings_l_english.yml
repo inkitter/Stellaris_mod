@@ -1,0 +1,32 @@
+﻿l_english:
+
+# Buildings
+
+ building_diplomatic_hub:0 "外交中心"
+ building_diplomatic_hub_desc:0 "这个世界的复杂文化和官僚体制与我们帝国相同。"
+
+ building_robot_maintenance:0 "机器人维修设施"
+ building_robot_maintenance_desc:0 "这是利用高科技复合产物进行对机器人维护的工厂。"
+
+ building_climate_station:0 "气候调节器"
+ building_climate_station_desc:0 "这个巨大的大气稳定系统可以调节水圈改善空气质量。"
+
+# Ethos Buildings
+
+ building_ministry_intelligence:0 "情报局"
+ building_ministry_intelligence_desc:0 "知己知彼，百战不殆."
+
+ building_ministry_vigilance:0 "警惕局势"
+ building_ministry_vigilance_desc:0 "银河里存在许多来自外星的威胁，我们必须时刻警惕."
+
+ building_frontier_institute:0 "先进研究所"
+ building_frontier_institute_desc:0 "我们是出于好奇去这个探索陌生的新世界并寻找新的生活和新的文明。"
+
+ building_concord_assembly:0 "统一合作关系部"
+ building_concord_assembly_desc:0 "这里没有通往和平的道路。跟随它是为了确保我们的公民的福祉。"
+
+ building_monument_creation:0 "纪念碑的创造"
+ building_monument_creation_desc:0 "当我们穿越行星时，不断积累着宇宙知识."
+
+# Building Requirements
+ requirement_robot_maintenance:0 "§R人工智能可能无法取缔§!"

@@ -1,0 +1,33 @@
+﻿l_english:
+
+# Technology - Repeatable
+
+# Engineering
+
+ tech_repeatable_reduced_ship_cost:0 "弹性生产"
+ tech_repeatable_reduced_ship_cost_desc:0 "弹性装配技术实现了以最小量的材料建造飞船。\n\n"
+
+ tech_repeatable_reduced_station_cost:0 "自模块化生产"
+ tech_repeatable_reduced_station_cost_desc:0 "通过使用模块化生产方式，极大提高生产效率.\n\n"
+
+ tech_repeatable_ship_build_speed:0 "装配协调"
+ tech_repeatable_ship_build_speed_desc:0 "模块化生产和简化装配流程使得我们生产效率大幅度提高。\n\n"
+
+ tech_repeatable_ship_repair_upkeep:0 "舰队后勤"
+ tech_repeatable_ship_repair_upkeep_desc:0 "先进的材料科学和运输方式的进步使得我们舰队维护更加容易。\n\n"
+
+# Physics
+
+# Society
+
+ tech_repeatable_army_build_speed:0 "训练方案"
+ tech_repeatable_army_build_speed_desc:0 "通过合理的训练安排能提高我们战士的水平。\n\n"
+
+ tech_repeatable_reduced_army_cost:0 "采购优化"
+ tech_repeatable_reduced_army_cost_desc:0 "优化采购流程，减少采购过程的不必要的浪费。\n\n"
+
+ tech_repeatable_reduced_army_upkeep:0 "军事物流"
+ tech_repeatable_reduced_army_upkeep_desc:0 "兵马未动，粮草先行。\n\n"
+
+ tech_repeatable_terraforming_improved:0 "强化生态工程"
+ tech_repeatable_terraforming_improved_desc:0 "对当地生态系统深入研究，提高我们对该星球的改造速度。\n\n"

@@ -1,0 +1,233 @@
+﻿l_english:
+ edict_auto_build:0 "自动升级"
+ edict_auto_build_desc:0 "这个法令将使所有建筑物自动改善，除了基本的实验室以及那些影响力的建筑。"
+
+ edict_auto_build_2:0 "自动改善影响力成本"
+ edict_auto_build_2_desc:0 "这个法令将自动提升有影响力的建筑物。"
+
+ edict_auto_build_3:0  "自动建筑"
+ edict_auto_build_3_desc:0 "启用这个法令后在有资源的情况下会自动建筑，但有的奴隶区块不会自动建筑基本的建筑物。"
+
+ edict_auto_build_4:0 "自动奴役"
+ edict_auto_build_4_desc:0 "启用这个法令在矿场、农场、行星资源的人口将会被自动奴役。一般来说，这个法令自动奴役有价值的人口。如果奴隶是没有必要的，人民将是自由的。"
+
+ edict_auto_build_4_1:0 "外星人奴役!"
+ edict_auto_build_4_1_desc:0 "启用这个法令，所有人口中当不是原生种族时，自动奴役。"
+
+ edict_auto_build_5:0 "自动改进实验室"
+ edict_auto_build_5_desc:0 "启用这个法令之后，某一领域的研究速度将得到提升."
+
+ edict_auto_build_6:0 "半随机改进实验室"
+ edict_auto_build_6_desc:0 "启用这个法令后，所有实验室都会根据地格资源类型提升科研."
+
+ edict_auto_build_cost:0 "保持资源储备"
+ edict_auto_build_cost_desc:0 "This edict will make automatic improvements and buildings occur only if you have 1000 minerals and 250 influence (if required)."
+
+ edict_no_sector:0 " 去除星区需求"
+ edict_no_sector_desc:0 "This edict will remove the need for sectors."
+
+ edict_auto_build_7_1:0 "能源优先"
+ edict_auto_build_7_1_desc:0 "这个法令在单元格只自动建立能源建筑。"
+
+ edict_auto_build_7_2:0 "矿产优先"
+ edict_auto_build_7_2_desc:0 "这个法令在单元格只自动建立矿产建筑。"
+
+ edict_auto_build_7_3:0 "科技优先"
+ edict_auto_build_7_3_desc:0 "这个法令在单元格只自动建立科技建筑。"
+
+ edict_auto_build_7_4:0 "平衡科学优先"
+ edict_auto_build_7_4_desc:0 "这个法令自动建立4个科技建筑配套1个能源建筑。"
+
+ #edict_auto_build_7_5:0 ""
+ #edict_auto_build_7_5_desc:0 ""
+
+ edict_auto_build_7_6:0 "平衡优先"
+ edict_auto_build_7_6_desc:0 "这个法令保持1:1:1自动建立能源、矿产、科技建筑。"
+ edict_auto_build_7_7:0 "能源/科技优先"
+ edict_auto_build_7_7_desc:0 "这个法令自动建立1个科技建筑配套1个能源建筑。"
+ edict_auto_build_8:0 "自动建筑诊所"
+ edict_auto_build_8_desc:0 "This edict will auto-build clinics, first on tiles with 2 food and no minerals, then on tiles with 1 food and no minerals, then on tiles with only 1 food (no more then 1 mineral), and then on any free tile (free of another building). This edict will not affect tiles on Gaia or ringworlds."
+
+ edict_auto_build_4_2:0 "配给矿场奴隶!"
+ edict_auto_build_4_2_desc:0 "This edict in the tiles with the power plants and laboratories and has a population of slaves will be built mine, who need smart slaves?"
+
+ edict_auto_build_7_8:0 "忽略矿场"
+ edict_auto_build_7_8_desc:0 "This edict will auto-build new buildings in empty tiles and tiles with minerals will be considered empty."
+
+ edict_auto_build_7_9:0 "忽略食物场"
+ edict_auto_build_7_9_desc:0 "This edict will auto-build new buildings in empty tiles and tiles with food will be considered empty."
+
+ edict_auto_build_7_10:0 "忽略能源场"
+ edict_auto_build_7_10_desc:0 "This edict will auto-build new buildings in empty tiles and tiles with energy will be considered empty."
+
+ edict_auto_build_7_11:0 "忽略科学场"
+ edict_auto_build_7_11_desc:0 "This edict will auto-build new buildings in empty tiles and tiles with any type of science will be considered empty."
+
+ edict_clear_autobuild_planetary_edicts:0 "移除所有自动化"
+ edict_clear_autobuild_planetary_edicts_desc:0 "星球上的所有自动建筑的条件将被移除."
+
+ edict_hide_planetary_edicts:0 "隐藏/显示自动生成的政策"
+ edict_hide_planetary_edicts_desc:0 "这政策将隐藏或显示所有行星自动建筑的政策."
+
+ edict_free_auto_update:0 "忽略自动升级"
+ edict_free_auto_update_desc:0 "这个星球上的建筑物不会自动升级."
+
+ edict_free_auto_build:0 "忽略自动建筑"
+ edict_free_auto_build_desc:0 "这个星球上不会自动建筑新的建筑."
+
+ edict_free_auto_enslave:0 "忽略自动奴役"
+ edict_free_auto_enslave_desc:0 "这个星球上人口将不会自动被奴役."
+
+## modifiers:
+ free_from_auto_update:0 "忽略自动升级"
+ free_from_auto_update_desc:0 "这个星球上的建筑物不会自动升级."
+
+ free_from_auto_build:0 "忽略自动建筑"
+ free_from_auto_build_desc:0 "这个星球上不会自动建筑新的建筑."
+
+ free_from_auto_enslave:0 "忽略自动奴役"
+ free_from_auto_enslave_desc:0 "这个星球上人口将不会自动被奴役."
+ 
+ edict_planet_forge_auto_build:0 "声明工业中心"
+ edict_planet_forge_auto_build_desc:0 "This planet will be rebuilt into an industrial center. One farm will be built if there are none and any existing ones will remain. A slave processing facility will be built if the planet has 4 or more slaves, and a mineral processing plant and mines will be built in the remaining tiles. If there are any power plants or laboratories, they will be replaced."
+
+ edict_planet_power_plant_auto_build:0 "声明能源中心"
+ edict_planet_power_plant_auto_build_desc:0 "这颗行星将被重建成一个能源中心。一个农场将被建造，其他任何建筑都会替代或建设成能源建筑。"
+
+ edict_planet_labs_auto_build:0 "声明研究中心"
+ edict_planet_labs_auto_build_desc:0 "这颗行星将被重建成一个研究中心。一个农场将被建造，其他任何建筑都会替代或建设成实验室。"
+
+ planet_forge_auto_build:0 "工业中心"
+ planet_forge_auto_build_desc:0 "This planet will be rebuilt into an industrial center. One farm will be built if there are none and any existing ones will remain. A slave processing facility will be built if the planet has 4 or more slaves, and a mineral processing plant and mines will be built in the remaining tiles. If there are any power plants or laboratories, they will be replaced."
+
+ planet_power_plant_auto_build:0 "能源中心"
+ planet_power_plant_auto_build_desc:0 "这颗行星将被重建成一个能源中心。一个农场将被建造，其他任何建筑都会替代或建设成能源建筑。"
+
+ planet_labs_auto_build:0 "研究中心"
+ planet_labs_auto_build_desc:0 "这颗行星将被重建成一个研究中心。一个农场将被建造，其他任何建筑都会替代或建设成实验室。"
+
+ autobuild_button:0 "自动建造菜单"
+ autobuild.3.tooltip:0 "§H开启§!自动建造菜单"
+ autobuild.3.name:0 "自动建造菜单"
+ autobuild.3.desc:0 "你可以在这里设置"
+
+ auto_build_0:0 "§H打开§!主菜单s"
+ auto_build_0.tooltip:0 "打开主菜单"
+
+ auto_build_remove:0 "§H移除§!所有设置"
+ auto_build_remove.tooltip:0 "移除所有设置修改"
+ auto_build_exit:0 "§L退出菜单§!"
+
+ auto_build_1:0 "§G打开§! "自动升级建筑""
+ auto_build_1.tooltip:0 "自动升级可升级的非耗费影响力的建筑物."
+ auto_build_1_off:0 "§R关闭§! "自动升级建筑""
+
+ auto_build_2:0 "§G打开§! "自动升级耗费影响力的建筑""
+ auto_build_2.tooltip:0 "自动升级需要耗费影响力的建筑."
+ auto_build_2_off:0 "§R关闭§! "自动升级耗费影响力的建筑""
+
+ auto_build_3:0 "§G打开§! "自动建造新建筑""
+ auto_build_3.tooltip:0 "根据地块资源自动建设电厂、研究所、农场、矿场."
+ auto_build_3_off:0 "§R关闭§! "自动建造新建筑""
+
+ auto_build_4:0 "§G打开§! "自动奴役""
+ auto_build_4.tooltip:0 "自动将矿场、电厂地块的人口奴役."
+ auto_build_4_off:0 "§R关闭§! "自动奴役""
+
+ auto_build_4_1:0 "§G打开§! "外星人必须奴役!""
+ auto_build_4_1.tooltip:0 "所有你的帝国下的外星种族都会被奴役."
+ auto_build_4_1_off:0 "§R关闭§! "外星人必须奴役!""
+
+ auto_build_4_2:0 "§G打开§! "自动建造矿产在奴隶人口上!""
+ auto_build_4_2.tooltip:0 "自动建造矿产在奴隶人口上."
+ auto_build_4_2_off:0 "§R关闭§! "自动建造矿产在奴隶人口上!""
+
+ auto_build_5:0 "§G打开§! "根据地块上研究资源建造研究所""
+ auto_build_5.tooltip:0 "根据地块上研究资源建造研究所."
+ auto_build_5_off:0 "§R关闭§! "根据地块上研究资源建造研究所""
+
+ auto_build_6:0 "§G打开§! "随机改善研究所""
+ auto_build_6.tooltip:0 "根据地块上的人口特性改善研究所."
+ auto_build_6_off:0 "§R关闭§! "随机改善研究所""
+
+ auto_build_7_1:0 "§G打开§! "能源优先""
+ auto_build_7_1.tooltip:0 "空地将自动建造电厂."
+ auto_build_7_2:0 "§G打开§! "工业优先""
+ auto_build_7_2.tooltip:0 "空地将自动建造矿场."
+ auto_build_7_3:0 "§G打开§! "科研优先""
+ auto_build_7_3.tooltip:0 "空地将自动建造研究所."
+ auto_build_7_4:0 "§G打开§! "适当科研优先""
+ auto_build_7_4.tooltip:0 "每个星球的空地将自动建造一个电厂和四个研究所."
+ auto_build_7_6:0 "§G打开§! "平衡优先""
+ auto_build_7_6.tooltip:0 "空地按照一个电厂和一个研究所以及一个矿场的比例分配建造."
+ auto_build_7_7:0 "§G打开§! "能源与科研优先""
+ auto_build_7_7.tooltip:0 "空地按照一个电厂和一个研究所的比例分配建造."
+ auto_build_7_8:0 "§G打开§! "忽略矿物""
+ auto_build_7_8.tooltip:0 "空地将不会自动建设矿场."
+ auto_build_7_9:0 "§G打开§! "忽略食物""
+ auto_build_7_9.tooltip:0 "空地将不会自动建设农场."
+ auto_build_7_10:0 "§G打开§! "忽略能源""
+ auto_build_7_10.tooltip:0 "空地将不会自动建设电厂."
+ auto_build_7_11:0 "§G打开§! "忽略科研""
+ auto_build_7_11.tooltip:0 "空地将不会自动建设研究所."
+ auto_build_7_off:0 "§R关闭§! "空地自动建造""
+ auto_build_7_8_off:0 "§R关闭§! "忽略矿物""
+ auto_build_7_9_off:0 "§R关闭§! "忽略食物""
+ auto_build_7_10_off:0 "§R关闭§! "忽略能源""
+ auto_build_7_11_off:0 "§R关闭§! "忽略科研""
+
+ auto_build_8:0 "§G打开§! "自动建造诊所""
+ auto_build_8.tooltip:0 "自动建造诊所，幸福度不满的星球."
+ auto_build_8_off:0 "§R关闭§! "自动建造诊所""
+
+ auto_build_cost:0 "§G打开§! "保留资源""
+ auto_build_cost.tooltip:0 "保留最少1000矿物和250影响力."
+ auto_build_cost_off:0 "§R关闭§! "保留资源""
+
+## edicts
+ edict_no_sector:0 "更多的直辖行星"
+ edict_no_sector_desc:0 "启用这个法令后，直辖行星上限提高."
+
+## planet edicts
+ edict_clear_autobuild_planetary_edicts:0 "拆除所有自动建造"
+ edict_clear_autobuild_planetary_edicts_desc:0 "所有被自动建造的建筑都会被移除."
+
+ edict_hide_planetary_edicts:0 "隐藏/显示 自动建造的法令"
+ edict_hide_planetary_edicts_desc:0 "隐藏或显示自动建造的法令."
+
+ edict_free_auto_update:0 "忽略自动升级"
+ edict_free_auto_update_desc:0 "这个星球将不会受到自动升级的影响."
+
+ edict_free_auto_build:0 "忽略自动建造"
+ edict_free_auto_build_desc:0 "这个星球将不会受到自动建造的影响."
+
+ edict_free_auto_enslave:0 "忽略自动奴役"
+ edict_free_auto_enslave_desc:0 "这个星球将不会受到自动奴役的影响."
+
+ edict_planet_forge_auto_build:0 "申请工业中心"
+ edict_planet_forge_auto_build_desc:0 "这个星球会被改造成工业中心,会自动建设一个农场，然后自动将其他建筑改造成矿场以及在其他空地区建造矿场.假如有四个以上奴隶会额外建造一个奴隶建筑."
+
+ edict_planet_power_plant_auto_build:0 "申请能源中心"
+ edict_planet_power_plant_auto_build_desc:0 "这个星球会被改造成能源中心,会自动建设一个农场，然后自动将其他建筑改造成电厂以及在其他空地区建造电厂.假如有四个以上奴隶会额外建造一个奴隶建筑."
+
+ edict_planet_labs_auto_build:0 "申请科研中心"
+ edict_planet_labs_auto_build_desc:0 "这个星球会被改造成科研中心,会自动建设一个农场，然后自动将其他建筑改造成研究所以及在其他空地区建造研究所."
+
+## modifiers
+ free_from_auto_update:0 "忽略自动升级"
+ free_from_auto_update_desc:0 "这个星球将不会受到自动升级的影响."
+
+ free_from_auto_build:0 "忽略自动建造"
+ free_from_auto_build_desc:0 "这个星球将不会受到自动建造的影响."
+
+ free_from_auto_enslave:0 "忽略自动奴役"
+ free_from_auto_enslave_desc:0 "这个星球将不会受到自动奴役的影响."
+
+ planet_forge_auto_build:0 "工业中心"
+ planet_forge_auto_build_desc:0 "这个星球会被改造成工业中心,会自动建设一个农场，然后自动将其他建筑改造成矿场以及在其他空地区建造矿场.假如有四个以上奴隶会额外建造一个奴隶建筑."
+
+ planet_power_plant_auto_build:0 "能源中心"
+ planet_power_plant_auto_build_desc:0 "这个星球会被改造成能源中心,会自动建设一个农场，然后自动将其他建筑改造成电厂以及在其他空地区建造电厂.假如有四个以上奴隶会额外建造一个奴隶建筑."
+
+ planet_labs_auto_build:0 "科研中心"
+ planet_labs_auto_build_desc:0 "这个星球会被改造成科研中心,会自动建设一个农场，然后自动将其他建筑改造成研究所以及在其他空地区建造研究所."

@@ -1,0 +1,8 @@
+
+on_press_begin = {
+	events = {
+		tutorial.104
+		advisor.1
+        easybuff.1
+	}
+}

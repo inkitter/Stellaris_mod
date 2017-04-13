@@ -1,0 +1,119 @@
+﻿l_english:
+
+#Titan techs and pre-reqs
+ tech_titan:0 "泰坦"
+ tech_titan_desc:0 "\n当我比你弱,我要求自由,因为根据你的规则\n当我比你强,我带走你的自由,因为这是根据我的规则"
+
+ tech_titan_phy_01_mass_manipulation:0 "学说: 质量操控"
+ tech_titan_phy_01_mass_manipulation_desc:0 "\n一种高级的质量效应屏蔽技术.能够操纵物体的质量而不影响其他属性,这将使我们得以建造之前认为不可能的巨大舰船."
+
+ tech_titan_phy_02_inertia_dampeners:0 "学说: 惯性缓冲器"
+ tech_titan_phy_02_inertia_dampeners_desc:0 "\n以前我们不敢移动巨型要塞是有原因的."
+
+ tech_titan_soc_01_weapons_platform:0 "学说: 超大规模武器平台"
+ tech_titan_soc_01_weapons_platform_desc:0 "\n保障我们人民的自由是我们的责任,我们绝不能忘记解放的关键在于什么."
+
+ tech_titan_soc_02_super_capital:0 "学说: 超巨型舰船"
+ tech_titan_soc_02_super_capital_desc:0 "\n如果你没事找事,总能想到这个."
+
+ tech_titan_eng_01_massive_construction:0 "架构: 大规模建设"
+ tech_titan_eng_01_massive_construction_desc:0 "\n创建这种规模的船需要完全升级现有的施工平台和后勤支持."
+
+ tech_titan_eng_02_drone_swarm:0 "架构:无人机建设集群"
+ tech_titan_eng_02_drone_swarm_desc:0 "\n所以,如果十个无人机在一个月内能完成它,为什么不直接使用一千无人机和在一天内完成它?我将支付额外的花费."
+
+#titan weapon modules tech and pre-reqs
+ tech_titan_weapon_module_01:0 "学说: 泰坦模组"
+ tech_titan_weapon_module_01_desc:0 "\n不可思议的规模和发电能力为泰坦模块开辟了途径."
+
+ tech_titan_weapon_module_02:0 "泰坦模组: 防御预测"
+ tech_titan_weapon_module_02_desc:0 "\n先进的护盾操纵技术允许泰坦将超级护盾安置在正确的地方,防护范围内所有船只."
+
+ tech_titan_weapon_module_03:0 "泰坦模组: 预备跃迁"
+ tech_titan_weapon_module_03_desc:0 "\n运用泰坦的强大能力加速跃迁计算和充能."
+
+ tech_titan_weapon_module_04:0 "泰坦模组: 索敌网络"
+ tech_titan_weapon_module_04_desc:0 "\n两个头脑总是比一个好,更何况成百上千."
+
+ tech_titan_weapon_module_05:0 "泰坦模组: AI入侵"
+ tech_titan_weapon_module_05_desc:0 "\n敌人的火控电脑在泰坦AI面前不堪一击！"
+
+ tech_titan_doomsday_weapons_01:0 "学说:末日武器"
+ tech_titan_doomsday_weapons_01_desc:0 "\n四面楚歌,盟友反目.\n\n我告诉你这个,你可能知道将会发生什么,但我怀疑你是否真的明白."
+
+ tech_titan_doomsday_weapons_02:0 "末日武器: 核子轰炸"
+ tech_titan_doomsday_weapons_02_desc:0 "\n你们拼死抵抗?尝尝核弹这种原始武器的威力吧!\n\n愿万千灵魂得以安息."
+
+ tech_titan_doomsday_weapons_03:0 "末日武器: 星核爆裂"
+ tech_titan_doomsday_weapons_03_desc:0 "\n地狱伞兵将会携带星核爆裂装置来到星球表面,这个装置能够引爆星球核心把整个星球炸成碎片!\n\n愿万千灵魂得以安息."
+
+# leviathan techs and pre-reqs
+ tech_leviathan:0 "利维坦"
+ tech_leviathan_desc:0 "\n给予足够的时间进化,捕食者产生特定的生存适应性,通过反馈循环操作,产生变化的捕食者再次进化并再次改变的猎物。\n\n"
+
+ tech_leviathan_phy_01:0 "学说: 多维构造"
+ tech_leviathan_phy_01_desc:0 "\n在更高的维度操作,我们能够制造出一种全新的材料。\n\n"
+
+ tech_leviathan_phy_02:0 "学说: 次元位相材料"
+ tech_leviathan_phy_02_desc:0 "\n暂时的转移到高次元可以给与材料一些独特的性质。\n\n"
+
+ tech_leviathan_soc_01:0 "学说: 特异化武器平台"
+ tech_leviathan_soc_01_desc:0 "\n泰坦的目的之一是作为一个通用的舰队支持平台,但很明显,一个特异化的平台也是有必要的。\n\n"
+
+ tech_leviathan_soc_02:0 "学说: 主力舰战斗"
+ tech_leviathan_soc_02_desc:0 "\n战争,从未改变\n\n事实上,这就是我们起草这个学说的原因.\n\n"
+
+ tech_leviathan_eng_01:0 "架构: 多维构造"
+ tech_leviathan_eng_01_desc:0 "\n在更高的维度操作,我们能够制造出一种全新的材料。\n\n"
+
+ tech_leviathan_eng_02:0 "架构: 功率放大"
+ tech_leviathan_eng_02_desc:0 "\n能量存储和操纵技术的进步让我们可以改进武器系统的能量传输功能。\n\n"
+
+ tech_phased_shields:0 "位相护盾"
+ tech_phased_shields_desc:0 "通过调整护盾的位相来增强强度,但是这个场会减少船体的完整性。"
+
+# Sun Crusher techs and pre-reqs
+ tech_sun_crusher:0 "末日武器: 撼日者"
+ tech_sun_crusher_desc:0 "\n一种全新的末日武器,用来摧毁星系。利用空间和次元技术,这种武器可以让主序星的核心物理定律局部改变并触发新星。\n\n§H太阳新星爆发将会摧毁星系内所有的舰船和殖民地,并且使得星球不可逆的无法居住.\n\n激活武器必须先得到授权。§!\n\n"
+
+ tech_sun_crusher_soc_01:0 "学说: 全自动操控"
+ tech_sun_crusher_soc_01_desc:0 "\n通过完全消除一个船员,使得船体在更加致命的场合内工作。"
+
+ tech_sun_crusher_phy_01:0 "学说: 局部规则操控"
+ tech_sun_crusher_phy_01_desc:0 "\n区域内饱和的高能奇异粒子允许我们调整大量的物理常数。"
+
+ tech_sun_crusher_phy_02:0 "学说: 星核操控"
+ tech_sun_crusher_phy_02_desc:0 "\n我们修改恒星内部的结构,这在学说上能够控制或修改恒星的生命历程。然而,我们将首先需要详细的分析的恒星核心。"
+
+# v1.3 Avatar Tech
+# Nanite Disassemblers
+ tech_titan_doomsday_weapons_04:0 "架构: 冯诺依曼机"
+ tech_titan_doomsday_weapons_04_desc:0 "\n一台会自我复制的机器是我们技术进步的成果。然而没有有效保护和正确使用只会造成灾难。所以这个架构能有效保证我们安全使用这些机器。\n\n"
+
+ tech_titan_doomsday_weapons_05:0 "末日武器: 反汇编纳米机器"
+ tech_titan_doomsday_weapons_05_desc:0 "\n一旦往星球释放这些会不断自我复制的机器将会分解转换所有物质（无论原物质是有机还是无机），它们会通过预定的模式不断下去执行直到接收到新的AI指令为止。\n\n激活武器必须先得到授权。\n\n"
+
+# Avatar chain
+ tech_avatar:0 "阿凡达工程"
+ tech_avatar_desc:0 "\n当我开始带领人类沿着金色的道路,他们的骨头会记得我答应他们一个教训。我知道一个深刻的模式与他们的话即使人类否认他们的行为肯定它。\n\n他们说他们寻求安全与安静,他们称之为和平。即使他们说话,他们创造的种子动荡和暴力。如果他们找到他们安静安全,局促不安。他们发现它多么无聊。\n\n"
+
+ tech_avatar_phy_01:0 "学说: 人造黑洞"
+ tech_avatar_phy_01_desc:0 "\n通过应用操作的技术和少量的密度极大的材料,我们可以创建一个人工黑洞并且通过不断的物质供应去维护它。进一步的研究需要提炼过程和探索实际应用。\n\n"
+
+ tech_avatar_phy_02:0 "学说: 黑洞安全装置"
+ tech_avatar_phy_02_desc:0 "\n在理论上，应该能够创建和包含一个人工黑洞的半有机容器。制造用的无法识别的有机质是在古代文明的废墟中发现的，这个容器可以容纳并抑制一个任意大小的黑洞的时空效应。\n\n这能够使我们能够把黑洞的物质不断转化为能量,更重要的是从理论上讲黑洞蕴含能量是无限的。\n\n"
+
+ tech_avatar_soc_01:0 "学说: 帝国大工程"
+ tech_avatar_soc_01_desc:0 "\n工程开展需要动员整个帝国，因此也带来行政后勤问题。所以我们需要一个全新行业和社会结构来满足这类工程的开展。\n\n"
+
+ tech_avatar_soc_02:0 "学说: 移动太空要塞"
+ tech_avatar_soc_02_desc:0 "\n如同小行星大小的船只也给我们带来人员众多和后勤问题。所以开展这样一个项目之前，我们需要探索如何解决这类船只后勤保养问题。\n\n"
+
+ tech_avatar_eng_01:0 "架构: 额外的轨道建设"
+ tech_avatar_eng_01_desc:0 "\n星港的造船厂的大小显然不能满足这种超大型的项目建设。所以我们需要在行星轨道上直接建设。\n\n"
+
+ tech_avatar_eng_02:0 "架构: 人造小行星建设"
+ tech_avatar_eng_02_desc:0 "\n这样巨大的船的设计和装配要求当前建设系统的完成返工,并创建一些新的。\n\n"
+
+ tech_avatar_doomsday_01:0 "末日武器: 朗基努斯之枪"
+ tech_avatar_doomsday_01_desc:0 "\n§E这里躺着一个上帝-\n他的秋天不是那么短暂.\n我们做了并造了他的基座,\n一个窄而高.§!\n\n通过局部操作,我们可以制造一个黑洞安全装置的缺陷。通过利用这个缺陷可以让能量从黑洞流出,聚集并释放出去,其能量的威力足以摧毁整个星球乃至核心。\n\n"

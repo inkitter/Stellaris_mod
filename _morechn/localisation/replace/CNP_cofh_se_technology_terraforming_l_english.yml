@@ -1,0 +1,21 @@
+﻿l_english:
+
+# Technology - Terraforming
+
+ tech_terraforming_purification:0 "大气净化"
+ tech_terraforming_purification_desc:0 "先进的过滤净化系统，可以去除在星球大气层中的几乎所有的有毒和放射性废物。\n\n"
+
+ tech_terraforming_habitable:0 "可居住世界改造"
+ tech_terraforming_habitable_desc:0 "给我足够的时间，资源和轨道激光，即便是最荒凉的世界也能成为天堂。\n\n"
+
+ tech_terraforming_gaia:0 "亚世界的改造"
+ tech_terraforming_gaia_desc:0 "重塑世界，创造生命，让我们跟上帝一样。\n\n"
+
+ TECH_UNLOCK_TERRAFORMING_PURIFICATION_TITLE:0 "§H解锁功能:§! 大气净化"
+ TECH_UNLOCK_TERRAFORMING_PURIFICATION_DESC:0 "§H大气净化§!\n允许我们通过大气净化消除存在大气中的有毒和放射性废物。\n\n需要额外的资源和时间，比较典型的改造。"
+
+ TECH_UNLOCK_TERRAFORMING_HABITABLE_TITLE:0 "§H解锁功能:§! 可居住世界改造"
+ TECH_UNLOCK_TERRAFORMING_HABITABLE_DESC:0 "§H可居住世界改造§!\n允许我们通过改造陆地变为可居住的世界。\n\n需要额外的资源和时间，比较典型的改造。"
+
+ TECH_UNLOCK_TERRAFORMING_GAIA_TITLE:0 "§H解锁功能:§! 亚世界的改造"
+ TECH_UNLOCK_TERRAFORMING_GAIA_DESC:0 "§H亚世界的改造§!\n允许我们通过改造亚世界.\n\n需要额外的资源和时间，比较典型的改造。"

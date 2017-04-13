@@ -1,0 +1,85 @@
+﻿l_english:
+####  By Inkit  ####
+
+ ####################################
+ # Species Traits
+ ####################################
+ trait_fussy:0 "完美主义"
+ trait_fussy_desc:0 "§L这个物种的成员对自己的工作特别挑剔，他们做的更好，但有时是一种痛苦.§!"
+ trait_careless:0 "粗心"
+ trait_careless_desc:0 "§L这个物种的成员根本不关心他们的工作是否做的完美，但事实上，他们很快乐.§!"
+ trait_natural_leaders:0 "天生领袖"
+ trait_natural_leaders_desc:0 "§L这个种族天生有领导能力，他们不用花费很多去寻找领袖.§!"
+ trait_dynamic_leaders:0 "动态领袖"
+ trait_dynamic_leaders_desc:0 "§L每个人都是领导者，领导很容易更换.§!"
+ trait_inept_leaders:0 "无能领袖"
+ trait_inept_leaders_desc:0 "§L这个物种天生没有领导能力，他们需要花费更多力气去寻找领袖.§!"
+ trait_sloth:0 "懒惰"
+ trait_sloth_desc:0 "§L懒惰程度很高，这个物种什么都不愿意做（除了进食与繁殖）.§!"
+ trait_minor_teleportation:0 "传送术"
+ trait_minor_teleportation_desc:0 "§L在非战斗状态，这个物种可以传送，因此很容易迁移.§!"
+ trait_die_young:0 "短命"
+ trait_die_young_desc:0 "§L这个物种生命短暂，往往没有足够的时间积累经验.§!"
+ trait_slave_traders:0 "奴隶贩子"
+ trait_slave_traders_desc:0 "§L经演变与扭曲，这个品种的发展已经无法离开奴隶.§!"
+ trait_unethical_tactics:0 "缺德战术"
+ trait_unethical_tactics_desc:0 "§L他们任何时间都不择手段获取利益，这一物种的人怀疑是否有更好的方法.§!"
+
+ ####################################
+ # Mixed Traits
+ ####################################
+
+ trait_mixed_money_on_the_mind:0 "财迷"
+ trait_mixed_money_on_the_mind_desc:0 "这个领导者希望所有知识分子专注于一件事：钱."
+ trait_mixed_front_lines:0 "前线"
+ trait_mixed_front_lines_desc:0 "这个领导喜欢亲历亲为，然而，这种态度常常导致短命."
+ trait_mixed_progressive:0 "进步"
+ trait_mixed_progressive_desc:0 "排旧迎新，这个领导希望给世界创造更好的东西."
+ trait_mixed_young_flame:0 "小时了了"
+ trait_mixed_young_flame_desc:0 "大未必佳"
+ trait_mixed_meditations:0 "沉思"
+ trait_mixed_meditations_desc:0 "这个领导喜欢集中精力于能量和冥想."
+
+ ####################################
+ # Governor Traits
+ ####################################
+ trait_governor_immigration_focused:0 "移民重视"
+ trait_governor_immigration_focused_desc:0 "这个领导喜欢任何移民."
+ trait_governor_spy_network:0 "间谍网络"
+ trait_governor_spy_network_desc:0 "这个领导扩展间谍网络，可以感知得更远."
+ trait_governor_greedy:0 "贪婪"
+ trait_governor_greedy_desc:0 "这个领导特别贪婪，他使人们工作的更努力."
+ trait_governor_machinist:0 "机械师"
+ trait_governor_machinist_desc:0 "这个领导喜欢用机器来完成体力劳动，特别讨厌奴隶."
+ trait_governor_fair_treatment:0 "公平待遇"
+ trait_governor_fair_treatment_desc:0 "这个领导喜欢建立大多数人认同的法律."
+
+ ####################################
+ # Ruler Traits
+ ####################################
+ trait_ruler_secret_society:0 "帮会"
+ trait_ruler_secret_society_desc:0 "这个领导来自帮会，据说该帮会控制了许多机构."
+ trait_ruler_inspirational:0 "励志"
+ trait_ruler_inspirational_desc:0 "这个领导喜欢有创造性的开箱即用式的解决方案."
+ trait_ruler_diplomancer:0 "外交家"
+ trait_ruler_diplomancer_desc:0 "这个领导善于管理外交关系."
+ trait_ruler_leader_of_leaders:0 "领导的领导"
+ trait_ruler_leader_of_leaders_desc:0 "随着管理更复杂的层次，这个领导者能给我们提供灵活的领导力."
+ trait_ruler_swagger:0 "雄心"
+ trait_ruler_swagger_desc:0 "这个领导者信心十足，能够夸大帝国边界."
+
+ ####################################
+ # Scientist Traits
+ ####################################
+
+ trait_scientist_interstellar_investigator:0 "星际调查"
+ trait_scientist_interstellar_investigator_desc:0 "拥有多项外星世界调查的经历，这位科学家已经学会一系列特有技能."
+ trait_scientist_interstellar_surveyor:0 "星际测量师"
+ trait_scientist_interstellar_surveyor_desc:0 "这个领导者对导航图特别有经验，掌握了快速调查技术."
+ trait_scientist_rocket_scientist:0 "火箭专家"
+ trait_scientist_rocket_scientist_desc:0 "这个科学家掌握了有关火箭的所有知识."
+ trait_scientist_wizard:0 "巫师"
+ trait_scientist_wizard_desc:0 "这个科学家研究一些奇特的事情."
+ trait_scientist_futurist:0 "预言家"
+ trait_scientist_futurist_desc:0 "这个科学家擅于研究未来科技."
+

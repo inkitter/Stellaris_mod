@@ -1,0 +1,301 @@
+﻿l_english:
+
+ titan:0 "泰坦"
+ titan_plural:0 "泰坦"
+ TITAN_BOW:0 "星辰"
+ TITAN_MID:0 "信仰"
+ TITAN_STERN:0 "曙光"
+
+ leviathan:0 "利维坦"
+ leviathan_plural:0 "利维坦"
+ LEVIATHAN_BOW:0 "地狱双齿"
+ LEVIATHAN_MID:0 "丰裕之角"
+ LEVIATHAN_STERN:0 "埃癸斯"
+
+ titan_ship_fallen_empire:0 "泰坦"
+ titan_ship_fallen_empire_plural:0 "泰坦"
+
+ ai_ship_upkeep:0 "AI 泰坦修正"
+ tech_isb_base:0 "太空战斗改进"
+ tech_isb_base_desc:0 "平衡改善太空战斗"
+
+ SWARM_STRIKE_CRAFT_PREONLY:0 "虫群突击舰"
+ CORE_SWARM_AGGRESSIVE:0 "攻击型蜂群"
+ CORE_SWARM_DEFEND:0 "防御型蜂群"
+ leader_trait_hive_regeneration:0 "蜂群类型: 代谢"
+ leader_trait_hive_regeneration_desc:0 "虫族的完全意识控制提高了他们的康复速度。"
+ leader_trait_hive_hp:0 "蜂群类型: 韧性"
+ leader_trait_hive_hp_desc:0 "虫族的完全意识控制提高了其韧性。"
+ leader_trait_hive_speed:0 "集体意识"
+ leader_trait_hive_speed_desc:0 "虫族的完全意识控制有效地提高了战斗能力。"
+
+ CORE_ED_AGGRO:0 "攻击型核心"
+ CORE_ED_DEFEND:0 "防御型核心"
+
+ CORE_SENTINEL:0 "哨戒核心"
+
+ opinion_crisis_threat:0 "诸神黄昏"
+
+#Titan techs and pre-reqs
+
+ TECH_UNLOCK_TITAN_CONSTRUCTION_TITLE:0 "§H解锁舰船类型:§!泰坦"
+ TECH_UNLOCK_TITAN_CONSTRUCTION_DESC:0 "§H泰坦§!\n经过几十年的研究,我们获得了突破性的进展.泰坦是一种超级主力舰,他代表了一种战术上的转变."
+
+ TECH_UNLOCK_TITAN_WEAPON_MODULES_TITLE:0 "§E解锁泰坦模组研究链§!"
+ TECH_UNLOCK_TITAN_WEAPON_MODULES_DESC:0 "泰坦模组是泰坦专用的部件"
+
+ TECH_UNLOCK_TITAN_CHAIN_TITLE:0 "§E泰坦研究链§!"
+ TECH_UNLOCK_TITAN_CHAIN_DESC:0 "研究接下来的一系列科技来解锁泰坦"
+
+#titan weapon modules tech and pre-reqs
+ TECH_UNLOCK_TITAN_MODULE_CHAIN_TITLE:0 "§E泰坦模组研究链§!"
+ TECH_UNLOCK_TITAN_MODULE_CHAIN_DESC:0 "研究接下来的一系列科技解锁不同的泰坦模组"
+
+ titan_weapon_components:0 "泰坦模组"
+ titan_weapon_components_DESC:0 "好吧,我们这就去造你想要的那个大家伙,给他加点什么?"
+
+ TITAN_NO_WEAPON:0 "无组件"
+
+ TITAN_PROJECTED_DEFENSES:0 "防御预测"
+ TITAN_PROJECTED_DEFENSES_DESC:0 "先进的护盾操纵技术允许泰坦将超级护盾安置在正确的地方,防护范围内所有船只."
+ aura_projected_defenses:0 "$aura_category_defensive$ - $aura_type_support$"
+
+ TITAN_INERTIA_DAMPENERS:0 "惯性缓冲器"
+ TITAN_INERTIA_DAMPENERS_DESC:0 "通过部署额外的惯性缓冲场,泰坦让我们舰队的亚光速速度大大增加."
+
+ TITAN_CENTRALISED_COMMAND:0 "预备跃迁"
+ TITAN_CENTRALISED_COMMAND_DESC:0 "运用泰坦的强大能力加速跃迁计算和充能."
+ aura_centralised_command:0 "$aura_category_defensive$ - $aura_type_support$"
+
+ TITAN_NETWORKED_TARGET:0 "索敌网络"
+ TITAN_NETWORKED_TARGET_DESC:0 "通过分析舰队的传感器数据,泰坦能够增加范围的所有舰船的有效武器范围."
+ aura_networked_target:0 "$aura_category_defensive$ - $aura_type_support$"
+
+ TITAN_VIRUS:0 "AI入侵"
+ TITAN_VIRUS_DESC:0 "泰坦的AI攻击敌人船只的计算机系统,降低对方的准确度和速度."
+ aura_titan_virus:0 "$aura_category_offensive$ - $aura_type_debuff$"
+
+ TITAN_CORE_01:0 "复仇核心"
+ TITAN_CORE_02:0 "壁垒核心"
+ TITAN_CORE_03:0 "哨戒核心"
+
+ TITAN_CORE_FALLEN:0 "圣殿核心"
+
+ LEVIATHAN_CORE_01:0 "阿瑞斯"
+ LEVIATHAN_CORE_02:0 "阿耳特弥斯"
+
+#Doomsday weapons
+ TECH_UNLOCK_TITAN_DOOMSDAY_TITLE:0 "§E解锁泰坦末日武器研究链§!"
+ TECH_UNLOCK_TITAN_DOOMSDAY_DESC:0 "末日武器是被设计用来摧毁整个殖民地的.\n\n你需要在帝国政策界面授权使用末日武器."
+
+#Titan Doomsday Device
+ edict_doomsday_authorisation:0 "末日武器授权"
+ edict_doomsday_authorisation_desc:0 "\n使用末日武器需要授权,同时需要很强的舆论掌控能力.\n\n授权使用的末日武器,你将可以从帝国政策菜单选择一种末日武器。\n\n"
+
+ policy_isb_doomsday_policy:0 "末日武器"
+ policy_isb_doomsday_policy_desc:0 "我们真的应该使用它吗？我认为这是可怕的,但我还是想问这个问题."
+
+ doomsday_outlawed:0 "取缔"
+ doomsday_outlawed_name:0 "禁止使用末日武器"
+ doomsday_outlawed_desc:1 "我注视着深渊,但我不会动摇.\n\n§E你的泰坦不会使用末日武器§!"
+
+ doomsday_kinetic:0 "核平"
+ doomsday_kinetic_name:0 "允许泰坦使用核弹洗地"
+ doomsday_kinetic_desc:1 "§E每个月,若是行星防御力低于50%,将会有一些土地被轰成废土,持续到行星所有人口死亡.\n\n每月有几率直接熔岩化§!"
+
+ doomsday_virus:0 "碎星"
+ doomsday_virus_name:0 "允许泰坦使用星核爆裂"
+ doomsday_virus_desc:1 "§E若行星防御力低于25%,将会派遣地狱伞兵尝试引爆星核.\n\n每月有较大概率把行星毁灭§!"
+
+ opinion_doomsday_low:0 "使用末日武器"
+
+# Doomsday Weapon - Sun Crusher
+ TECH_UNLOCK_SUN_CRUSHER_CHAIN_TITLE:0 "§E撼日者研究链§!"
+ TECH_UNLOCK_SUN_CRUSHER_CHAIN_DESC:0 "研究接下来的一系列技术解锁撼日者"
+
+ TECH_UNLOCK_SUN_CRUSHER_CONSTRUCTION_TITLE:0 "§H解锁末日武器:§! 撼日者"
+ TECH_UNLOCK_SUN_CRUSHER_CONSTRUCTION_DESC:0 "§H撼日者§!\n$tech_sun_crusher_desc$"
+
+ sun_crusher:0 "撼日者"
+ sun_crusher_plural:0 "撼日者"
+
+ SUN_CRUSHER_SECTION:0 "救赎"
+ SUN_CRUSHER_CORE:0 "星云核心"
+
+ exploding_bunny:0 "爆裂女郎"
+ exploding_bunny_plural:0 "爆裂女郎"
+
+ pc_destroyed:0 "破碎星球"
+ pc_destroyed_desc:0 "这个死亡星球的地壳已经被不可思议的力量撕开了,熔火之心暴露在太空中"
+
+ pc_nova:0 "琉化星球"
+ pc_nova_desc:0 "这颗行星被太阳新星摧毁,大部分的大气已经被一扫而光,其表面变成了玻璃。"
+
+ pc_nova_gas:0 "燃烧巨行星"
+ pc_nova_gas_desc:0 "气态巨行星被太阳新星点燃,大气层将会持续燃烧直到消失。"
+
+ pc_ringworld_habitable_nova:0 "毁坏的环世界"
+ pc_ringworld_habitable_nova_desc:0 "一个环绕恒星的巨大环状天梯\n\n但是这个伟大建筑已经不可修复的毁坏了"
+ pc_ringworld_tech_nova:0 "毁坏的环世界"
+ pc_ringworld_tech_nova_desc:0 "一个环绕恒星的巨大环状天梯\n\n但是这个伟大建筑已经不可修复的毁坏了"
+ pc_ringworld_seam_nova:0 "毁坏的环世界"
+ pc_ringworld_seam_nova_desc:0 "一个环绕恒星的巨大环状天梯\n\n但是这个伟大建筑已经不可修复的毁坏了"
+
+ edict_doomsday_nova_authorisation:0 "授权使用撼日者"
+ edict_doomsday_nova_authorisation_desc:0 "\n末日武器的使用需要授权!\n\n首先你需要激活法令,然后令撼日者进入主序星轨道,到达预定位置后解除撼日者的控制即可.\n\n你只能在国界外使用末日武器.\n\n§H警告: 使用撼日者是各国明令禁止的行为,不到万不得已不建议使用这一终极手段.§!\n\n"
+
+#Sun Crusher opinion modifiers
+ opinion_doomsday_outlawed:0 "禁止末日武器"
+ opinion_doomsday_allowed:0 "允许末日武器"
+ opinion_doomsday_low:0 "只使用对行星末日武器"
+ opinion_doomsday_destroy_planet:0 "摧毁行星"
+ opinion_doomsday_destroy_planet_owner:0 "摧毁我的行星"
+ opinion_doomsday_destroy_star:0 "摧毁星系"
+ opinion_doomsday_destroy_star_empty:0 "撼日者测试管制"
+ opinion_doomsday_destroy_star_owner:0 "摧毁我的星系"
+ opinion_doomsday_has_nova_small:0 "拥有撼日者"
+ opinion_doomsday_has_nova_large:0 "拥有大量撼日者后备"
+
+ error_nova_01.name:0 "激活失败"
+ error_nova_01.desc:0 "警告:武器激活失败.\n\n这个武器不能作用于黑洞,中子星以及超新星.他对行星也是无效的.请找一颗主序星."
+ error_nova_01.a:0 "知道了"
+
+ error_nova_02.name:0 "激活失败"
+ error_nova_02.desc:0 "警告:武器激活失败.\n\n这个武器只允许在无主和敌对星域使用\n\n你真是丧心病狂."
+ error_nova_02.a:0 "知道了"
+
+ error_nova_03.name:0 "激活失败"
+ error_nova_03.desc:0 "警告:武器激活失败.\n\n只有舰船在恒星轨道上时该武器才能启动.右击移动到恒星轨道并重试一次."
+ error_nova_03.a:0 "知道了"
+
+ error_nova_04.name:0 "激活失败"
+ error_nova_04.desc:0 "警告:武器激活失败.\n\n你不能同时摧毁两颗恒星.请等待前一颗恒星编程超新星再摧毁下一颗."
+ error_nova_04.a:0 "知道了"
+
+ titan_doomsday.105.title:0 "确认"
+ titan_doomsday.105.desc:0 "你确认解除撼日者的控制?\n\n如果你想要该操作有效,请先在帝国法令中给予授权."
+ titan_doomsday.105.a:0 "解除控制"
+ titan_doomsday.105.b:0 "取消命令"
+
+ nova_success.name:0 " "
+ nova_success.desc:0 "随着所有系统自检完成,最终授权代码发送给了机载AI.末日武器开始加载,准备跳跃进恒星核心改变物理法则.接着它消失了,默默燃烧的恒星似乎没有任何变化.\n\n数小时后恒星的颜色改变了,内部的异常融合过程使得恒星表面塌陷,亚空间波动摧毁了所有舰船的引擎系统. 这个星系以及星系里的一切将会毁灭.\n\n这颗恒星已经开始变成超新星! "
+ nova_success.a:0 "..."
+
+#Leviathan Tech
+
+ TECH_UNLOCK_LEVIATHAN_CONSTRUCTION_TITLE:0 "§H解锁舰船类型:§! 利维坦"
+ TECH_UNLOCK_LEVIATHAN_CONSTRUCTION_DESC:0 "§H利维坦§!\n利维坦是一种纯粹的进攻型主力舰杀手,利用位相科技的船体具有难以置信的速度和机动性。"
+
+ TECH_UNLOCK_LEVIATHAN_CHAIN_TITLE:0 "§E利维坦研究链§!"
+ TECH_UNLOCK_LEVIATHAN_CHAIN_DESC:0 "研究接下来的一系列科技来解锁利维坦"
+
+ SHIELD_ISB_01:0 "位相护盾"
+ SHIELD_ISB_01_DESC:0 "$tech_phased_shields_desc$"
+ SMALL_SHIELD_ISB_01:0 "小型位相护盾"
+ MEDIUM_SHIELD_ISB_01:0 "中型位相护盾"
+ LARGE_SHIELD_ISB_01:0 "大型位相护盾"
+
+ CRYSTAL_ARMOR_ISB_01:0 "位相装甲"
+ CRYSTAL_ARMOR_ISB_01_DESC:0 "物质操作允许我们增加船体的结构稳定性。"
+ SMALL_CRYSTAL_ARMOR_ISB_01:0 "小型位相装甲"
+ MEDIUM_CRYSTAL_ARMOR_ISB_01:0 "中型位相装甲"
+ LARGE_CRYSTAL_ARMOR_ISB_01:0 "大型位相装甲"
+
+# v1.3 - Avatar and Doomsday Weapons
+
+ avatar:0 "阿凡达"
+ avatar_plural:0 "阿凡达们"
+
+ exploding_bunny_avatar:0 "爆炸阿凡达兔子"
+ exploding_bunny_avatar_plural:0 "爆炸阿凡达兔子"
+
+ avatar_frame:0 "阿凡达建造框架"
+ avatar_frame_plural:0 "阿凡达建造框架"
+
+ avatar_constructor:0 "阿凡达建造船"
+ avatar_constructor_plural:0 "阿凡达建造船"
+
+ AVATAR_CONSTRUCTOR_SECTION:0 "平台建造者"
+ AVATAR_FRAME_SECTION:0 " 阿凡达平台"
+
+ mod_avatar_raider:0 "阿凡达掠夺者Buffs"
+ mod_avatar_frame_active:0 "阿凡达建设进展"
+
+ TECH_UNLOCK_AVATAR_CHAIN_TITLE:0 "§E阿凡达研究链§!"
+ TECH_UNLOCK_AVATAR_CHAIN_DESC:0 "研究解锁所有有关阿凡达工程的技术。"
+
+ TECH_UNLOCK_AVATAR_CONSTRUCTION_TITLE:0 "§H解锁船只类型:§! 阿凡达的建设"
+ TECH_UNLOCK_AVATAR_CONSTRUCTION_DESC:0 "阿凡达工程是帝国大范围的建设项目，是我们最具有破坏性的大型武器平台。通过人造黑洞来获得能量，还可以聚集能量并再释放出去，其威力可以瞬间摧毁整个星球。强大的阿凡达使弱国还怕我们，并臣服于我们。它也是强大的帝国的象征。§!\n\n§E允许你建设阿凡达平台。\n\n警告: 那些还害怕我们的帝国是不会允许我们完成这个强大的末日武器的建设的，他们会发动强大的舰队在我们完工前摧毁它。§!\n\n§H移动平台并保卫直到完成为止。"
+
+ edict_doomsday_longinus_authorisation:0 "授权朗基努斯之枪"
+ edict_doomsday_longinus_authorisation_desc:0 "\n需要末日武器许可。\n\n激活武器并通过阿凡达平台部署在行星的轨道上。通过法令下达攻击指令，你可以摧毁任何行星，也包括自己的。\n\n"
+
+ doomsday_nanite:0 "反汇编纳米机器"
+ doomsday_nanite_name:0 "只有反汇编纳米机器可以使用"
+ doomsday_nanite_desc:1 "\n§E每个月被投放的星球都会有一个人口被消灭和一个建筑被摧毁，直到下达停止命令或者所有建筑和人口都被清理得一干二净。\n\n每个建筑被摧毁会产生350矿物和50能源。每个人口被消灭会产生350能源和50矿物。\n\n这个武器需要你法令授权方可激活。\n\n警告: 反汇编纳米机器被认作为是一个十分残酷的末日武器。§!\n"
+
+# Avatar construction projects
+ PROJ_AVATAR_CONSTRUCT_01:0 "阿凡达平台的建设 (停用)"
+ PROJ_AVATAR_CONSTRUCT_01_DESC:0 "这是阿凡达平台的自动建设。研究这个工程会激活并开始建造。\n\n建造阿凡达需要花费10年时间，期间每月要消耗700能源和矿物。\n\n§H警告: 其他帝国不会让我们轻易完成这个末日武器的，必须保卫它直到建造完成为止。§!"
+
+ PROJ_AVATAR_CONSTRUCT_02:0 "阿凡达平台的建设 (激活)"
+ PROJ_AVATAR_CONSTRUCT_02_DESC:0 "阿凡达的建设正在进行中。这个特殊工程不能被研究。建设这个工程会直到完成为止。"
+
+ PROJ_AVATAR_ERROR_02:0 "阿凡达失效"
+ PROJ_AVATAR_ERROR_02_DESC:0 "警告: 阿凡达不能放置在其他舰队中，请确保阿凡达是唯一的舰队并重新激活它。"
+
+# Avatar construction events
+ avatar_constructor_01.name:0 "确认"
+ avatar_constructor_01.desc:0 "请确认你的订单.\n\n§H警告: 阿凡达平台开始建造部署中。在建设部署期间无法移动且会受到其他帝国的攻击。§!"
+ avatar_constructor_01.a:0 "阿凡达已开始建设部署"
+ avatar_constructor_01.b:0 "停止阿凡达的建设"
+ avatar_constructor_01.c:0 "取消"
+
+ avatar_construction_start.name:0 "阿凡达平台激活"
+ avatar_construction_start.desc:0 "阿凡达已开始建造。这个特殊工程会显示距离完工还剩有多久。\n\n我们的平台建设已经被人发现。虽然某些帝国已经向我们提出抗议，然而，还没有人敢正式公开反对我们。\n\n最近边境传来被不明舰队入侵的消息，看来我们的敌人选择让他们舰队进行秘密行动。来自人工智能预测在未来的12个月会有不断有不明舰队来袭。"
+ avatar_construction_start.a:0 "舰队进入高度戒备状态。"
+
+ avatar_construction_complete.name:0 "建设完成"
+ avatar_construction_complete.desc:0 "武器系统已激活, 阿凡达已经进入轨道."
+ avatar_construction_complete.a:0 "优秀的."
+
+ avatar_raid_01.name:0 "发现敌人舰队"
+ avatar_raid_01.desc:0 "发现一支无名舰队正向阿凡达的建设地驶去。\n\n该舰队似乎很大程度上是由轻巡洋舰和驱逐舰组成。我们无法确定是这支无名舰队是来自哪个帝国。有可能是掠夺者，但是这可能性很低。\n\n这是一支用来测试我们的防线的侦查舰队。"
+ avatar_raid_01.a:0 "战斗准备信号已发布."
+
+ avatar_raid_02.name:0 "发现敌人舰队"
+ avatar_raid_02.desc:0 "发现一支无名舰队正向阿凡达的建设地驶去。\n\n该舰队组成主要是轻巡洋舰和驱逐舰、巡洋舰或者其他更大的船只。"
+ avatar_raid_02.a:0 "还来? 他们不知道什么时候该放弃。"
+
+ avatar_raid_03.name:0 "发现敌人舰队"
+ avatar_raid_03.desc:0 "发现一支无名舰队正向阿凡达的建设地驶去。\n\n舰队组成范围越来越广。他们依旧冒充掠夺者身份，但是这个组成规模是掠夺者根本不可能达到的。\n\n这是我们的敌人的主力舰队。"
+ avatar_raid_03.a:0 "他们将会被打败."
+
+ avatar_raid_04.name:0 "发现敌人舰队"
+ avatar_raid_04.desc:0 "我们的敌人已经放弃了掠夺者的身份开始正面向我们大举进攻。\n\n发现一支庞大的联盟舰队正向阿凡达的建设地驶来。这是他们最后的放手一搏。"
+ avatar_raid_04.a:0 "这是一个陷阱!"
+
+ avatar_raid_break.name:0 "舰队活动迹象"
+ avatar_raid_break.desc:0 "我们检测到最近被大量不明身份的船只进入我们边境。然而这些不明身份的船只试图避开我们的传感器检测。\n\n看来我们的敌人正在组织进攻力量。他们不可能那么快发起进攻，但他们发起时候肯定比现在拥有更庞大的力量。"
+ avatar_raid_break.a:0 "我们准备就绪。"
+
+ avatar_error_01.name:0 "无法启动阿凡达工程"
+ avatar_error_01.desc:0 "我们的帝国无法支撑起超过一个阿凡达。"
+ avatar_error_01.a:0 "了解"
+
+ avatar_error_02.name:0 "阿凡达失效"
+ avatar_error_02.desc:0 "警告: 阿凡达不能放置在其他舰队中，请确保阿凡达是唯一的舰队并重新激活它。"
+ avatar_error_02.a:0 "了解"
+
+ avatar_error_03.name:0 "错误"
+ avatar_error_03.desc:0 "§H警告: 朗基努斯之枪已经得到授权。§!\n\n你正在试图摧毁当前目标。请注意你可以摧毁任何行星，也包括自己的。\n\n该武器可以摧毁其他末日武器也无法摧毁的小行星或行星。\n\n请选择另一个目标或者下达停止命令来忽略这个警告。"
+ avatar_error_03.a:0 "了解"
+
+#Avatar Components
+
+ AVATAR_ENERGY_GUN_01:0 "A.T.立场"
+ AVATAR_CORE:0 "S²核心"
+
+# Avatar Opinions
+ opinion_has_avatar:0 "恐惧会使他们保持一致"
+ opinion_doomsday_med:0 "残酷的末日武器使用者"

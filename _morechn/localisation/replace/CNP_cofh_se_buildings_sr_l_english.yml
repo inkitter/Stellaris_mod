@@ -1,0 +1,12 @@
+﻿l_english:
+
+# Buildings - Strategic Resource
+
+ building_neutronium_factory:0 "零号元素工厂"
+ building_neutronium_factory_desc:0 "零号元素工厂能提高电厂的发电量."
+
+ building_satramene_plant:0 "Satramene灌输装置"
+ building_satramene_plant_desc:0 "Satramene灌输装置通过灌输微量Satramene气体进入环境，用以缓解紧张局势促进信任."
+
+ building_zro_diffuser:0 "Zro扩散站"
+ building_zro_diffuser_desc:0 "Zro扩散站通过把微量的Zro分散到环境中，用以提高或觉醒公民的潜在灵能."

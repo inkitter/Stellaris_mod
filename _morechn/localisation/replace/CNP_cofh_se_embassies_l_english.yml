@@ -1,0 +1,13 @@
+﻿l_english:
+
+ tech_diplomacy_diplomatic_missions:0 "使馆区"
+ tech_diplomacy_diplomatic_missions_desc:0 "星际关系越发紧张，但是好的外交能使我们避免战争。\n\n"
+
+ tech_diplomacy_diplomatic_coordination:0 "外交协调"
+ tech_diplomacy_diplomatic_coordination_desc:0 "没有什么问题是谈判桌上搞不定的。\n\n"
+
+ tech_diplomacy_diplomatic_corps:0 "外交使团"
+ tech_diplomacy_diplomatic_corps_desc:0 "一个优秀外交使团能以够兵不见刃的轻松赢得这场战斗胜利。\n\n"
+
+ TECH_UNLOCK_DIPLOMATIC_ACTION_ESTABLISH_EMBASSY_TITLE:0 "§H解锁外交:§! 建立大使馆"
+ TECH_UNLOCK_DIPLOMATIC_ACTION_ESTABLISH_EMBASSY_DESC:0 "§H建立大使馆§!\n允许我们和另一个帝国建立大使馆，共同促进良好关系。"

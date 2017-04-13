@@ -1,0 +1,28 @@
+﻿l_english:
+####################################
+ # Diplomacy text
+ ####################################
+ 
+ # General Greetings
+ playablecolonists.2.title: "§R死星-殖民船开局§!"
+ playablecolonists.2.desc: "感谢你选择使用这个mod！为了激活这个mod你应该选择第一个选项~"
+ playablecolonists.2.tooltip: "自己动手，丰衣足食~"
+ playablecolonists.2.tooltip2: "我要看剧情！"
+ 
+ playablecolonists.1.title: "新的开始"
+ playablecolonists.1.desc: "我们收到了从外太空传来的微弱信号，探测器已经找到了一个新的世界。我们残存的人民已经准备好离开。殖民船正在待命。"
+  playablecolonists.1.tooltip: "准备好了吗？拿下这个星球！"
+ 
+ playablecolonists.1.choice.1: "选择一"
+ playablecolonists.1.choice.2: "选择二"
+ 
+ playablecolonists.3.title: "悲剧: [Root.GetSpeciesName] 失去母星"
+ playablecolonists.3.desc: "我们在原来的星球上没有留下任何东西。幸运的是，我们及时殖民了新的星球，一个可以称之为家的地方。"
+ playablecolonists.4.title: "$playablecolonists.3.title$"
+ playablecolonists.4.desc: "$playablecolonists.3.desc$"
+ 
+ TO_THE_STARS_PROJECT:0 "是时候出发了！"
+TO_THE_STARS_PROJECT_DESC:0 "我们的母星已经被摧毁。我们已经准备好离开。"
+
+colony_fleet_system_initializer_NAME: "§R死星-殖民船开局§!"
+colony_fleet_system_initializer_DESC: "开局没有母星，只有殖民船."

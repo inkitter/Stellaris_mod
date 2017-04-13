@@ -1,0 +1,75 @@
+namespace = easybuff
+
+country_event = {
+    id = easybuff.1
+    title = "Easybuff"
+	desc = "easybuff.1.desc"
+	picture = GFX_evt_society_research
+   # hide_window = yes
+
+    is_triggered_only = yes
+
+    trigger = {
+        is_ai = no
+    }
+
+    immediate = {
+        
+    }
+
+    option = {
+        name = OK
+        add_research_option = tech_psi_jump_drive_1
+        add_tech_progress = {
+			tech = tech_psi_jump_drive_1
+			progress = 1
+		}
+
+        add_research_option = tech_automated_exploration
+        add_tech_progress = {
+			tech = tech_automated_exploration
+			progress = 1
+		}
+
+        add_research_option = tech_enigmatic_power_core
+        add_tech_progress = {
+			tech = tech_enigmatic_power_core
+			progress = 1
+		}
+
+        add_research_option = tech_extradimensional_weapon_1
+        add_tech_progress = {
+			tech = tech_extradimensional_weapon_1
+			progress = 1
+		}
+
+        add_research_option = tech_energy_torpedoes_2
+        add_tech_progress = {
+			tech = tech_energy_torpedoes_2
+			progress = 1
+		}
+
+        add_research_option = tech_psionic_shield
+        add_tech_progress = {
+			tech = tech_psionic_shield
+			progress = 1
+		}
+
+        add_research_option = tech_gene_seed_purification
+        add_tech_progress = {
+			tech = tech_gene_seed_purification
+			progress = 1
+		}
+
+        add_research_option = tech_mega_engineering
+        add_tech_progress = {
+			tech = tech_mega_engineering
+			progress = 1
+		}    
+    }
+
+    option = {
+        name = NO
+    }
+
+}

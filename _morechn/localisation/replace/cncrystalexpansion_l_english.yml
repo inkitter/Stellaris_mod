@@ -1,0 +1,470 @@
+﻿l_english:
+
+ # 水晶灌注组织
+
+ tech_c_regenerative_hull_tissue_1:0 "水晶灌注组织 Mk I"
+ tech_c_regenerative_hull_tissue_1_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性.\n\n"
+
+ tech_c_regenerative_hull_tissue_2:0 "水晶灌注组织 Mk II"
+ tech_c_regenerative_hull_tissue_2_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性.\n\n"
+
+ tech_c_regenerative_hull_tissue_3:0 "水晶灌注组织 Mk III"
+ tech_c_regenerative_hull_tissue_3_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性.\n\n"
+ 
+ tech_c_regenerative_hull_tissue_4:0 "水晶灌注组织 Mk IV"
+ tech_c_regenerative_hull_tissue_4_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性.\n\n"
+ 
+ tech_c_regenerative_hull_tissue_5:0 "水晶灌注组织 Mk V"
+ tech_c_regenerative_hull_tissue_5_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性.\n\n"
+ 
+ C_AUTO_REPAIR_1:0 "水晶灌注组织 I"
+ C_AUTO_REPAIR_1_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高."
+ 
+ C_AUTO_REPAIR_2:0 "水晶灌注组织 II"
+ C_AUTO_REPAIR_2_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高."
+ 
+ C_AUTO_REPAIR_3:0 "水晶灌注组织 III"
+ C_AUTO_REPAIR_3_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高."
+ 
+ C_AUTO_REPAIR_4:0 "水晶灌注组织 IV"
+ C_AUTO_REPAIR_4_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高."
+ 
+ C_AUTO_REPAIR_5:0 "水晶灌注组织 V"
+ C_AUTO_REPAIR_5_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高."
+ 
+ C_SMALL_AUTO_REPAIR_1:1 "小型水晶灌注组织 I"
+ C_MEDIUM_AUTO_REPAIR_1:1 "中型水晶灌注组织 I"
+ C_LARGE_AUTO_REPAIR_1:1 "大型水晶灌注组织 I"
+ 
+ C_SMALL_AUTO_REPAIR_2:1 "小型水晶灌注组织 II"
+ C_MEDIUM_AUTO_REPAIR_2:1 "中型水晶灌注组织 II"
+ C_LARGE_AUTO_REPAIR_2:1 "大型水晶灌注组织 II"
+ 
+ C_SMALL_AUTO_REPAIR_3:1 "小型水晶灌注组织 III"
+ C_MEDIUM_AUTO_REPAIR_3:1 "中型水晶灌注组织 III"
+ C_LARGE_AUTO_REPAIR_3:1 "大型水晶灌注组织 III"
+ 
+ C_SMALL_AUTO_REPAIR_4:1 "小型水晶灌注组织 IV"
+ C_MEDIUM_AUTO_REPAIR_4:1 "中型水晶灌注组织 IV"
+ C_LARGE_AUTO_REPAIR_4:1 "大型水晶灌注组织 IV"
+ 
+ C_SMALL_AUTO_REPAIR_5:1 "小型水晶灌注组织 V"
+ C_MEDIUM_AUTO_REPAIR_5:1 "中型水晶灌注组织 V"
+ C_LARGE_AUTO_REPAIR_5:1 "大型水晶灌注组织 V"
+ 
+# Crystallis-Laced Targeting Matrix
+ 
+ tech_c_crystalis_targeting_matrix_1:0 "水晶镶嵌目标阵列 I"
+ tech_c_crystalis_targeting_matrix_1_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率.\n\n"
+ 
+ tech_c_crystalis_targeting_matrix_2:0 "水晶镶嵌目标阵列 II"
+ tech_c_crystalis_targeting_matrix_2_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率.\n\n"
+ 
+ tech_c_crystalis_targeting_matrix_3:0 "水晶镶嵌目标阵列 III"
+ tech_c_crystalis_targeting_matrix_3_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率.\n\n"
+ 
+ tech_c_crystalis_targeting_matrix_4:0 "水晶镶嵌目标阵列 IV"
+ tech_c_crystalis_targeting_matrix_4_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率.\n\n"
+ 
+ tech_c_crystalis_targeting_matrix_5:0 "水晶镶嵌目标阵列 V"
+ tech_c_crystalis_targeting_matrix_5_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率.\n\n"
+ 
+ C_TARGETTING_COMPUTER_1:0 "水晶镶嵌目标阵列 I"
+ C_TARGETTING_COMPUTER_1_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升.."
+ 
+ C_TARGETTING_COMPUTER_2:0 "水晶镶嵌目标阵列 II"
+ C_TARGETTING_COMPUTER_2_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升.."
+ 
+ C_TARGETTING_COMPUTER_3:0 "水晶镶嵌目标阵列 III"
+ C_TARGETTING_COMPUTER_3_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升.."
+ 
+ C_TARGETTING_COMPUTER_4:0 "水晶镶嵌目标阵列 IV"
+ C_TARGETTING_COMPUTER_4_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升.."
+ 
+ C_TARGETTING_COMPUTER_5:0 "水晶镶嵌目标阵列 V"
+ C_TARGETTING_COMPUTER_5_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升.."
+
+ C_SMALL_TARGETING_COMPUTER_1:1 "小型水晶镶嵌目标阵列 I"
+ C_MEDIUM_TARGETING_COMPUTER_1:1 "中型水晶镶嵌目标阵列 I"
+ C_LARGE_TARGETING_COMPUTER_1:1 "大型水晶镶嵌目标阵列 I"
+ 
+ C_SMALL_TARGETING_COMPUTER_2:1 "小型水晶镶嵌目标阵列 II"
+ C_MEDIUM_TARGETING_COMPUTER_2:1 "中型水晶镶嵌目标阵列 II"
+ C_LARGE_TARGETING_COMPUTER_2:1 "大型水晶镶嵌目标阵列 II"
+ 
+ C_SMALL_TARGETING_COMPUTER_3:1 "小型水晶镶嵌目标阵列 III"
+ C_MEDIUM_TARGETING_COMPUTER_3:1 "中型水晶镶嵌目标阵列 III"
+ C_LARGE_TARGETING_COMPUTER_3:1 "大型水晶镶嵌目标阵列 III"
+ 
+ C_SMALL_TARGETING_COMPUTER_4:1 "小型水晶镶嵌目标阵列 IV"
+ C_MEDIUM_TARGETING_COMPUTER_4:1 "中型水晶镶嵌目标阵列 IV"
+ C_LARGE_TARGETING_COMPUTER_4:1 "大型水晶镶嵌目标阵列 IV"
+ 
+ C_SMALL_TARGETING_COMPUTER_5:1 "小型水晶镶嵌目标阵列 V"
+ C_MEDIUM_TARGETING_COMPUTER_5:1 "中型水晶镶嵌目标阵列 V"
+ C_LARGE_TARGETING_COMPUTER_5:1 "大型水晶镶嵌目标阵列 V"
+ 
+# Crystallis-Forged Plating
+ 
+ tech_c_crystal_armor_3:0 "水晶装甲 II"
+ tech_c_crystal_armor_3_desc:0 "在锻造过程中引入更多结晶物质，金属变得更硬.\n\n"
+ 
+ tech_c_crystal_armor_4:0 "水晶装甲 III"
+ tech_c_crystal_armor_4_desc:0 "在锻造过程中引入更多结晶物质，金属变得更硬.\n\n"
+ 
+ tech_c_crystal_armor_5:0 "水晶装甲 IV"
+ tech_c_crystal_armor_5_desc:0 "在锻造过程中引入更多结晶物质，金属变得更硬.\n\n"
+ 
+ tech_c_crystal_armor_6:0 "水晶装甲 V"
+ tech_c_crystal_armor_6_desc:0 "在锻造过程中引入更多结晶物质，金属变得更硬.\n\n"
+ 
+ C_CRYSTAL_ARMOR_3:0 "水晶装甲 II"
+ C_CRYSTAL_ARMOR_3_DESC:0 "进一步修改锻造结晶合金的过程，提高合金耐久性."
+ 
+ C_CRYSTAL_ARMOR_4:0 "水晶装甲 III"
+ C_CRYSTAL_ARMOR_4_DESC:0 "进一步修改锻造结晶合金的过程，提高合金耐久性."
+ 
+ C_CRYSTAL_ARMOR_5:0 "水晶装甲 IV"
+ C_CRYSTAL_ARMOR_5_DESC:0 "进一步修改锻造结晶合金的过程，提高合金耐久性."
+ 
+ C_CRYSTAL_ARMOR_6:0 "水晶装甲 V"
+ C_CRYSTAL_ARMOR_6_DESC:0 "进一步修改锻造结晶合金的过程，提高合金耐久性."
+ 
+ C_SMALL_CRYSTAL_ARMOR_3:1 "小型水晶装甲 II"
+ C_MEDIUM_CRYSTAL_ARMOR_3:1 "中型水晶装甲 II"
+ C_LARGE_CRYSTAL_ARMOR_3:1 "大型水晶装甲 II"
+ 
+ C_SMALL_CRYSTAL_ARMOR_4:1 "小型水晶装甲 III"
+ C_MEDIUM_CRYSTAL_ARMOR_4:1 "中型水晶装甲 III"
+ C_LARGE_CRYSTAL_ARMOR_4:1 "大型水晶装甲 III"
+ 
+ C_SMALL_CRYSTAL_ARMOR_5:1 "小型水晶装甲 IV"
+ C_MEDIUM_CRYSTAL_ARMOR_5:1 "中型水晶装甲 IV"
+ C_LARGE_CRYSTAL_ARMOR_5:1 "大型水晶装甲 IV"
+ 
+ C_SMALL_CRYSTAL_ARMOR_6:1 "小型水晶装甲 V"
+ C_MEDIUM_CRYSTAL_ARMOR_6:1 "中型水晶装甲 V"
+ C_LARGE_CRYSTAL_ARMOR_6:1 "大型水晶装甲 V"
+ 
+# 水晶强化装甲
+ tech_c_ship_armor_6:0 "水晶强化装甲 VI"
+ tech_c_ship_armor_6_desc:0 "将水晶注入分子中能够使材料更耐用.\n\n"
+ 
+ tech_c_ship_armor_7:0 "水晶强化装甲 VII"
+ tech_c_ship_armor_7_desc:0 "将水晶注入分子中能够使材料更耐用.\n\n"
+ 
+ tech_c_ship_armor_8:0 "水晶强化装甲 VIII"
+ tech_c_ship_armor_8_desc:0 "将水晶注入分子中能够使材料更耐用.\n\n"
+ 
+ tech_c_ship_armor_9:0 "水晶强化装甲 IX"
+ tech_c_ship_armor_9_desc:0 "将水晶注入分子中能够使材料更耐用.\n\n"
+ 
+ tech_c_ship_armor_10:0 "水晶强化装甲 X"
+ tech_c_ship_armor_10_desc:0 "将水晶注入分子中能够使材料更耐用.\n\n"
+ 
+ C_ARMOR_6:0 "水晶强化装甲 VI"
+ C_ARMOR_6_DESC:0 "将水晶注入分子中能够使材料更耐用."
+ 
+ C_ARMOR_7:0 "水晶强化装甲 VII"
+ C_ARMOR_7_DESC:0 "将水晶注入分子中能够使材料更耐用."
+ 
+ C_ARMOR_8:0 "水晶强化装甲 VIII"
+ C_ARMOR_8_DESC:0 "将水晶注入分子中能够使材料更耐用."
+ 
+ C_ARMOR_9:0 "水晶强化装甲 IX"
+ C_ARMOR_9_DESC:0 "将水晶注入分子中能够使材料更耐用."
+ 
+ C_ARMOR_10:0 "水晶强化装甲 X"
+ C_ARMOR_10_DESC:0 "将水晶注入分子中能够使材料更耐用."
+ 
+ C_SMALL_ARMOR_6:1 "小型水晶强化装甲 VI"
+ C_MEDIUM_ARMOR_6:1 "中型水晶强化装甲 VI"
+ C_LARGE_ARMOR_6:1 "大型水晶强化装甲 VI"
+
+ C_SMALL_ARMOR_7:1 "小型水晶强化装甲 VII"
+ C_MEDIUM_ARMOR_7:1 "中型水晶强化装甲 VII"
+ C_LARGE_ARMOR_7:1 "大型水晶强化装甲 VII"
+
+ C_SMALL_ARMOR_8:1 "小型水晶强化装甲 VIII"
+ C_MEDIUM_ARMOR_8:1 "中型水晶强化装甲 VIII"
+ C_LARGE_ARMOR_8:1 "大型水晶强化装甲 VIII"
+
+ C_SMALL_ARMOR_9:1 "小型水晶强化装甲 IX"
+ C_MEDIUM_ARMOR_9:1 "中型水晶强化装甲 IX"
+ C_LARGE_ARMOR_9:1 "大型水晶强化装甲 IX"
+
+ C_SMALL_ARMOR_10:1 "小型水晶强化装甲 X"
+ C_MEDIUM_ARMOR_10:1 "中型水晶强化装甲 X"
+ C_LARGE_ARMOR_10:1 "大型水晶强化装甲 X"
+ 
+# 水晶零点反应堆
+ tech_c_reactor_6:0 "水晶零点反应堆 VI"
+ tech_c_reactor_6_desc:0 "使用量子技术以水晶为燃料的零点反应堆能够获得更大的驱动力以及近乎无限的电力.\n\n"
+ 
+ tech_c_reactor_7:0 "水晶维度反应堆 VII"
+ tech_c_reactor_7_desc:0 "使用量子技术以水晶为燃料的维度反应堆能够获得更大的驱动力以及近乎无限的电力. \n\n"
+ 
+ tech_c_reactor_8:0 "水晶硅岩金属反应堆 VIII"
+ tech_c_reactor_8_desc:0 "使用量子技术以水晶为燃料的硅岩金属反应堆能够获得更大的驱动力以及近乎无限的电力.\n\n"
+ 
+ tech_c_reactor_9:0 "水晶重力波反应堆 IX"
+ tech_c_reactor_9_desc:0 "使用量子技术以水晶为燃料的重力波反应堆能够获得更大的驱动力以及近乎无限的电力.\n\n"
+ 
+ tech_c_reactor_10:0 "水晶奇点反应堆 X"
+ tech_c_reactor_10_desc:0 "使用量子技术以水晶为燃料的奇点反应堆能够获得更大的驱动力以及近乎无限的电力!\n\n"
+ 
+ C_ZERO_POINT_REACTOR_6:0 "水晶零点反应堆 VI"
+ C_ZERO_POINT_REACTOR_6_DESC:0 "使用量子技术以水晶为燃料的零点反应堆能够获得更大的驱动力以及近乎无限的电力."
+ 
+ C_ZERO_POINT_REACTOR_7:0 "水晶维度反应堆 VII"
+ C_ZERO_POINT_REACTOR_7_DESC:0 "使用量子技术以水晶为燃料的维度反应堆能够获得更大的驱动力以及近乎无限的电力."
+ 
+ C_ZERO_POINT_REACTOR_8:0 "水晶硅岩金属反应堆 VIII"
+ C_ZERO_POINT_REACTOR_8_DESC:0 "使用量子技术以水晶为燃料的硅岩金属反应堆能够获得更大的驱动力以及近乎无限的电力."
+ 
+ C_ZERO_POINT_REACTOR_9:0 "水晶重力波反应堆 IX"
+ C_ZERO_POINT_REACTOR_9_DESC:0 "使用量子技术以水晶为燃料的重力波反应堆能够获得更大的驱动力以及近乎无限的电力."
+ 
+ C_ZERO_POINT_REACTOR_10:0 "水晶奇点反应堆 X"
+ C_ZERO_POINT_REACTOR_10_DESC:0 "使用量子技术以水晶为燃料的奇点反应堆能够获得更大的驱动力以及近乎无限的电力!"
+ 
+ C_SMALL_ZERO_POINT_REACTOR_6:1 "小型水晶零点反应堆 VI"
+ C_MEDIUM_ZERO_POINT_REACTOR_6:1 "中型水晶零点反应堆 VI"
+ C_LARGE_ZERO_POINT_REACTOR_6:1 "大型水晶零点反应堆 VI"
+
+ C_SMALL_ZERO_POINT_REACTOR_7:1 "小型水晶维度反应堆 VII"
+ C_MEDIUM_ZERO_POINT_REACTOR_7:1 "中型水晶维度反应堆 VII"
+ C_LARGE_ZERO_POINT_REACTOR_7:1 "大型水晶维度反应堆 VII"
+
+ C_SMALL_ZERO_POINT_REACTOR_8:1 "小型水晶硅岩金属反应堆 VIII"
+ C_MEDIUM_ZERO_POINT_REACTOR_8:1 "中型水晶硅岩金属反应堆 VIII"
+ C_LARGE_ZERO_POINT_REACTOR_8:1 "大型水晶硅岩金属反应堆 VIII"
+
+ C_SMALL_ZERO_POINT_REACTOR_9:1 "小型水晶重力波反应堆 IX"
+ C_MEDIUM_ZERO_POINT_REACTOR_9:1 "中型水晶重力波反应堆 IX"
+ C_LARGE_ZERO_POINT_REACTOR_9:1 "大型水晶重力波反应堆 IX"
+
+ C_SMALL_ZERO_POINT_REACTOR_10:1 "小型水晶奇点反应堆 X"
+ C_MEDIUM_ZERO_POINT_REACTOR_10:1 "中型水晶奇点反应堆 X"
+ C_LARGE_ZERO_POINT_REACTOR_10:1 "大型水晶奇点反应堆 X"
+ 
+# 水晶纤维护盾阵列 VI
+ tech_c_shields_6:0 "水晶纤维护盾阵列 VI"
+ tech_c_shields_6_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了.\n\n"
+ 
+ tech_c_shields_7:0 "水晶纤维护盾阵列 VII"
+ tech_c_shields_7_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了.\n\n"
+ 
+ tech_c_shields_8:0 "水晶纤维护盾阵列 VIII"
+ tech_c_shields_8_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了.\n\n"
+ 
+ tech_c_shields_9:0 "水晶纤维护盾阵列 IX"
+ tech_c_shields_9_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了.\n\n"
+ 
+ tech_c_shields_10:0 "水晶纤维护盾阵列 X"
+ tech_c_shields_10_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了.\n\n"
+ 
+ C_SHIELD_6:0 "水晶纤维护盾阵列 VI"
+ C_SHIELD_6_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了."
+ 
+ C_SHIELD_7:0 "水晶纤维护盾阵列 VII"
+ C_SHIELD_7_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了."
+ 
+ C_SHIELD_8:0 "水晶纤维护盾阵列 VIII"
+ C_SHIELD_8_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了."
+ 
+ C_SHIELD_9:0 "水晶纤维护盾阵列 IX"
+ C_SHIELD_9_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了."
+ 
+ C_SHIELD_10:0 "水晶纤维护盾阵列 X"
+ C_SHIELD_10_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了."
+ 
+ C_SMALL_SHIELD_6:1 "小型水晶纤维护盾阵列 VI"
+ C_MEDIUM_SHIELD_6:1 "中型水晶纤维护盾阵列 VI"
+ C_LARGE_SHIELD_6:1 "大型水晶纤维护盾阵列 VI"
+
+ C_SMALL_SHIELD_7:1 "小型水晶纤维护盾阵列 VII"
+ C_MEDIUM_SHIELD_7:1 "中型水晶纤维护盾阵列 VII"
+ C_LARGE_SHIELD_7:1 "大型水晶纤维护盾阵列 VII"
+
+ C_SMALL_SHIELD_8:1 "小型水晶纤维护盾阵列 VIII"
+ C_MEDIUM_SHIELD_8:1 "中型水晶纤维护盾阵列 VIII"
+ C_LARGE_SHIELD_8:1 "大型水晶纤维护盾阵列 VIII"
+
+ C_SMALL_SHIELD_9:1 "小型水晶纤维护盾阵列 IX"
+ C_MEDIUM_SHIELD_9:1 "中型水晶纤维护盾阵列 IX"
+ C_LARGE_SHIELD_9:1 "大型水晶纤维护盾阵列 IX"
+
+ C_SMALL_SHIELD_10:1 "小型水晶纤维护盾阵列 X"
+ C_MEDIUM_SHIELD_10:1 "中型水晶纤维护盾阵列 X"
+ C_LARGE_SHIELD_10:1 "大型水晶纤维护盾阵列 X"
+ 
+ # science Lab
+ tech_c_deep_space_lab_1:0 "深空科学研究所 I"
+ tech_c_deep_space_lab_1_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+ 
+ tech_c_deep_space_lab_2:0 "深空科学研究所 II"
+ tech_c_deep_space_lab_2_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+ 
+ tech_c_deep_space_lab_3:0 "深空科学研究所 III"
+ tech_c_deep_space_lab_3_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+ 
+ tech_c_deep_space_lab_4:0 "深空科学研究所 IV"
+ tech_c_deep_space_lab_4_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+ 
+ tech_c_deep_space_lab_5:0 "深空科学研究所 V"
+ tech_c_deep_space_lab_5_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+ 
+ science_labs:0 "深空科学研究所s"
+ science_labs_DESC:0 "改进深空科学研究所."
+ 
+ c_science_labs_1:0 "深空科学研究所 I"
+ c_science_labs_1_DESC:0 "改进深空科学研究所."
+  
+ c_science_labs_2:0 "深空科学研究所 II"
+ c_science_labs_2_DESC:0 "改进深空科学研究所."
+ 
+ c_science_labs_3:0 "深空科学研究所 III"
+ c_science_labs_3_DESC:0 "改进深空科学研究所."  
+  
+ c_science_labs_4:0 "深空科学研究所 IV"
+ c_science_labs_4_DESC:0 "改进深空科学研究所."  
+ 
+ c_science_labs_5:0 "深空科学研究所 V"
+ c_science_labs_5_DESC:0 "改进深空科学研究所."  
+ 
+ C_MEDIUM_SCIENCE_LAB_1:1 "深空科学研究所 I"
+ C_MEDIUM_SCIENCE_LAB_2:1 "深空科学研究所 II"
+ C_MEDIUM_SCIENCE_LAB_3:1 "深空科学研究所 III"
+ C_MEDIUM_SCIENCE_LAB_4:1 "深空科学研究所 IV"
+ C_MEDIUM_SCIENCE_LAB_5:1 "深空科学研究所 V"
+ 
+  
+ # SHIP CREW
+ tech_c_robot_crew:0 "机器人宇航员"
+ tech_c_robot_crew_desc:0 "这个机器人宇航员能使战舰更有效率并减少维护成本."
+ 
+ tech_c_droid_crew:0 "机器人II 宇航员"
+ tech_c_droid_crew_desc:0 "这个机器人II 宇航员能使战舰更有效率并减少维护成本."
+ 
+ tech_c_synth_crew:0 "人造宇航员"
+ tech_c_synth_crew_desc:0 "这个人造宇航员能使战舰更有效率并减少维护成本."
+ 
+ tech_c_psionic_crew_1:0 "初学灵能宇航员"
+ tech_c_psionic_crew_1_desc:0 "这个初学者灵能宇航员能使战舰更有效率并减少维护成本."
+ 
+ tech_c_psionic_crew_2:0 "熟练灵能宇航员"
+ tech_c_psionic_crew_2_desc:0 "这个熟练灵能宇航员能使战舰更有效率并减少维护成本."
+ 
+ tech_c_psionic_crew_3:0 "大师灵能宇航员"
+ tech_c_psionic_crew_3_desc:0 "这个大师灵能宇航员能使战舰更有效率并减少维护成本."
+ 
+ tech_c_clone_crew_1:0 "第一代克隆宇航员"
+ tech_c_clone_crew_1_desc:0 "这个第一代克隆宇航员能使战舰更有效率并减少维护成本."
+ 
+ tech_c_clone_crew_1:0 "第二代克隆宇航员"
+ tech_c_clone_crew_1_desc:0 "这个第二代克隆宇航员能使战舰更有效率并减少维护成本."
+ 
+ tech_c_clone_crew_1:0 "第三代克隆宇航员"
+ tech_c_clone_crew_1_desc:0 "这个第三代克隆宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_CREW_1:0 "机器人宇航员"
+ C_CREW_1_DESC:0 "这个机器人宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_CREW_2:0 "机器人II 宇航员"
+ C_CREW_2_DESC:0 "这个机器人II 宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_CREW_3:0 "人造宇航员"
+ C_CREW_3_DESC:0 "这个人造宇航员能使战舰更有效率并减少维护成本."
+
+ C_CREW_4:0 "初学灵能宇航员"
+ C_CREW_4_DESC:0 "这个初学者灵能宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_CREW_5:0 "熟练灵能宇航员"
+ C_CREW_5_DESC:0 "这个熟练灵能宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_CREW_6:0 "大师灵能宇航员"
+ C_CREW_6_DESC:0 "这个大师灵能宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_CREW_7:0 "第一代克隆宇航员"
+ C_CREW_7_DESC:0 "这个第一代克隆宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_CREW_8:0 "第二代克隆宇航员"
+ C_CREW_8_DESC:0 "这个第二代克隆宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_CREW_9:0 "第三代克隆宇航员"
+ C_CREW_9_DESC:0 "这个第三代克隆宇航员能使战舰更有效率并减少维护成本."
+ 
+ C_LARGE_CREW_1:1 "机器人宇航员"
+ C_LARGE_CREW_2:1 "机器人II 宇航员"
+ C_LARGE_CREW_3:1 "人造宇航员"
+ C_LARGE_CREW_4:1 "初学者灵能宇航员"
+ C_LARGE_CREW_5:1 "熟练者灵能宇航员"
+ C_LARGE_CREW_6:1 "大师灵能宇航员"
+ C_LARGE_CREW_7:1 "第一代克隆宇航员"
+ C_LARGE_CREW_8:1 "第二代克隆宇航员"
+ C_LARGE_CREW_9:1 "第三代克隆宇航员"
+ 
+ #Armored Thrusters
+ tech_c_thrusters_armor_1:0 "装甲推进器 I"
+ tech_c_thrusters_armor_1_desc:0 "通过给推进器安装重甲的方式牺牲速度来获得更强保护." 
+ 
+ tech_c_thrusters_armor_2:0 "装甲推进器 II"
+ tech_c_thrusters_armor_2_desc:0 "通过给推进器安装重甲的方式牺牲速度来获得更强保护." 
+ 
+ tech_c_thrusters_armor_3:0 "装甲推进器 III"
+ tech_c_thrusters_armor_3_desc:0 "通过给推进器安装重甲的方式牺牲速度来获得更强保护." 
+ 
+ tech_c_thrusters_armor_4:0 "装甲推进器 IV"
+ tech_c_thrusters_armor_4_desc:0 "通过给推进器安装重甲的方式牺牲速度来获得更强保护." 
+ 
+ C_SHIP_THRUSTER_ARMOR_1:1 "装甲推进器 I"
+ C_SHIP_THRUSTER_ARMOR_2:1 "装甲推进器 II"
+ C_SHIP_THRUSTER_ARMOR_3:1 "装甲推进器 III"
+ C_SHIP_THRUSTER_ARMOR_4:1 "装甲推进器 IV"
+ 
+ #Psionic Thrusters
+ tech_c_thrusters_psi_1:0 "灵能推进器 I"
+ tech_c_thrusters_psi_1_desc:0 "通过用灵能方式改进推进器，以获得更快的速度和更容易规避一些伤害." 
+ 
+ tech_c_thrusters_psi_2:0 "灵能推进器 II"
+ tech_c_thrusters_psi_2_desc:0 "通过用灵能方式改进推进器，以获得更快的速度和更容易规避一些伤害."  
+ 
+ tech_c_thrusters_psi_3:0 "灵能推进器 III"
+ tech_c_thrusters_psi_3_desc:0 "通过用灵能方式改进推进器，以获得更快的速度和更容易规避一些伤害."  
+ 
+ tech_c_thrusters_psi_4:0 "灵能推进器 IV"
+ tech_c_thrusters_psi_4_desc:0 "通过用灵能方式改进推进器，以获得更快的速度和更容易规避一些伤害."  
+ 
+ C_SHIP_THRUSTER_PSI_1:1 "灵能推进器 I"
+ C_SHIP_THRUSTER_PSI_2:1 "灵能推进器 II"
+ C_SHIP_THRUSTER_PSI_3:1 "灵能推进器 III"
+ C_SHIP_THRUSTER_PSI_4:1 "灵能推进器 IV"
+ 
+ 
+ #Crystalline-x Sensors
+ tech_c_sensors_5:0 "水晶棱镜传感器 V"
+ tech_c_sensors_5_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围!" 
+ 
+ tech_c_sensors_6:0 "水晶双锥传感器 VI"
+ tech_c_sensors_6_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围!" 
+
+ tech_c_sensors_7:0 "水晶四面体传感器 VII"
+ tech_c_sensors_7_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围!" 
+
+ tech_c_sensors_8:0 "水晶双孔传感器 VIII"
+ tech_c_sensors_8_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围!" 
+
+ tech_c_sensors_9:0 "水晶螺旋传感器 IX"
+ tech_c_sensors_9_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围!" 
+
+ tech_c_sensors_10:0 "水晶多面体传感器 X"
+ tech_c_sensors_10_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围!"  
+ 
+ C_SHIP_SENSOR_5:1 "水晶棱镜传感器 V"
+ C_SHIP_SENSOR_6:1 "水晶双锥传感器 VI"
+ C_SHIP_SENSOR_7:1 "水晶四面体传感器 VII"
+ C_SHIP_SENSOR_8:1 "水晶双孔传感器 VIII"
+ C_SHIP_SENSOR_9:1 "水晶螺旋传感器 IX"
+ C_SHIP_SENSOR_10:1 "水晶多面体传感器 X"
+ 

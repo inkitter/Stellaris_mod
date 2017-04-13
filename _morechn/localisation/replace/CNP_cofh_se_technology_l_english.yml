@@ -1,0 +1,39 @@
+﻿l_english:
+
+# Technology - Non-Repeatable
+
+# Engineering
+
+ tech_robotics_protocol_droids:0 "外交机器人"
+ tech_robotics_protocol_droids_desc:0 "流利的沟通才是良好的外交第一步.\n\n"
+
+# Physics
+
+ tech_survey_deep_scan:0 "深度扫描算法"
+ tech_survey_deep_scan_desc:0 "大数据分析能使我们更了解更详细的内容.\n\n"
+
+# Society
+
+ tech_ethos_central_intelligence:0 "中央情报"
+ tech_ethos_central_intelligence_desc:0 "$building_ministry_intelligence_desc$\n\n"
+
+ tech_ethos_eternal_vigilance:0 "永久警戒"
+ tech_ethos_eternal_vigilance_desc:0 "$building_ministry_vigilance_desc$\n\n"
+
+ tech_ethos_cosmic_reflection:0 "宇宙的思考"
+ tech_ethos_cosmic_reflection_desc:0 "$building_monument_creation_desc$\n\n"
+
+ tech_diplomacy_galactic_prominence:0 "银河突出"
+ tech_diplomacy_galactic_prominence_desc:0 "这个宇宙将会是我们的舞台。\n\n"
+
+ tech_diplomacy_psi_diplomatic_corps:0 "Psi外交使团"
+ tech_diplomacy_psi_diplomatic_corps_desc:0 "利用灵能作弊的外交使团。\n\n"
+
+ tech_diplomacy_xeno_confidence:0 "外星人的信心"
+ tech_diplomacy_xeno_confidence_desc:0 "用一种简单的方式表达我们的意图，更有助于建立深入关系。\n\n"
+
+ tech_diplomacy_xeno_negotiation:0 "外星人的谈判"
+ tech_diplomacy_xeno_negotiation_desc:0 "每个物种都能得到应有的价码。\n\n"
+
+ tech_military_battlefield_leadership:0 "战场指挥官"
+ tech_military_battlefield_leadership_desc:0 "睿智的将军将会带往我们的士兵走向胜利。\n\n"

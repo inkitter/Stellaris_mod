@@ -1,0 +1,68 @@
+﻿l_english:
+####MODIFIERS#########
+ rally_point_capitalised:0 "集结点"
+ rally_point:0 "集结点"
+###### DESIGNATE RALLY POINT ########
+ rally_point_1:0 "1号$rally_point_capitalised$"
+ rally_point_1_desc:0 "这个星球已被指定为“$rally_point_1$”，可被我国其他星球作为集结地点。"
+
+ rally_point_2:0 "2号$rally_point_capitalised$"
+ rally_point_2_desc:0 "这个星球已被指定为“$rally_point_2$”，可被我国其他星球作为集结地点。"
+
+ rally_point_3:0 "3号$rally_point_capitalised$"
+ rally_point_3_desc:0 "这个星球已被指定为“$rally_point_3$”，可被我国其他星球作为集结地点。"
+
+
+##### SEND TO RALLY POINTS ##############
+ send_to_rally_point_1:0 "运送到$rally_point_1$"
+ send_to_rally_point_1_desc:0 "正在命令本星球所有建造的舰船自动前往$rally_point_1$。"
+
+ send_to_rally_point_2:0 "运送到$rally_point_2$"
+ send_to_rally_point_2_desc:0 "正在命令本星球所有建造的舰船自动前往$rally_point_2$。"
+
+ send_to_rally_point_3:0 "运送到$rally_point_3$"
+ send_to_rally_point_3_desc:0 "正在命令本星球所有建造的舰船自动前往$rally_point_3$。"
+
+
+#################### EDICTS ##########################
+ edict_set_rally_point_removed.tooltip:0 "这个星球将不再作为集结点。"
+ edict_set_rally_point.tooltip:0 "§Y[Root.GetName]§! 将成为一个集结点。"
+ sending_to_rally_point.tooltip:0 "我们将命令舰船集中到这个星球。"
+
+
+ edict_set_rally_point_1:0 "指定为$rally_point_1$"
+ edict_set_rally_point_1_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为$rally_point_1$，那么将被自动取消集结点。"
+
+ edict_set_rally_point_2:0 "指定为$rally_point_2$"
+ edict_set_rally_point_2_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为$rally_point_2$，那么将被自动取消集结点。"
+ 
+ edict_set_rally_point_3:0 "指定为$rally_point_3$"
+ edict_set_rally_point_3_desc:0 "这条法令指定这个星球作为一个集结点。\n如果之前已经有其他星球被指定为$rally_point_3$，那么将被自动取消集结点。"
+  
+ edict_send_to_rally_point_1:0 "运送到$rally_point_1$" 
+ edict_send_to_rally_point_1_desc:0 "本星球所有建造的舰船将自动前往$rally_point_1$。"
+
+ edict_send_to_rally_point_2:0 "运送到$rally_point_2$"
+ edict_send_to_rally_point_2_desc:0 "本星球所有建造的舰船将自动前往$rally_point_2$。"
+
+ edict_send_to_rally_point_3:0 "运送到$rally_point_3$"
+ edict_send_to_rally_point_3_desc:0 "本星球所有建造的舰船将自动前往$rally_point_3$。"
+
+ edict_clear_rally_point:0 "清除所有集结点"
+ edict_clear_rally_point_desc:0 "这条法令将清除现有的所有集结点。"
+
+
+ edict_clear_send_to_rally_point:0 "清除所有“运送到集结点”指令"
+ edict_clear_send_to_rally_point_desc:0 "这条法令将终止所有舰船自动前往集结点。"
+ 
+ edict_toggle_rally_point_visibility:0 "切换集结法令可见与否"
+ edict_toggle_rally_point_visibility_desc:0 "这条法令将切换集结点的相关法令在这个星球上可见或不可见。"
+
+ edict_rally_to_me:0 "给我滚过来！"
+ edict_rally_to_me_desc:0 "这条法令将使附近星球上的舰船集合于此。"
+
+
+ ### POLICIES  ###
+ range_holder_desc:0 "位置"
+ rally_to_me_custom.tooltip:0 "这个星球将集结到我们这。\n"
+ ##Note to self: It's important that 'Root' and 'From' are spelled exactly like that, FROM won't work.

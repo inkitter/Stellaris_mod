@@ -1,0 +1,298 @@
+﻿l_english:
+
+####################################
+# Event
+####################################
+
+ captainx3.1.name:0 "已开始建造旗舰"
+ captainx3.1.desc:0 "经过多年的不懈努力，你的人民终于完成了旗舰建造，它将是帝国的骄傲。但是，这需要花费大量的资源和时间来维护它，对你的帝国来说是一个沉重的代价。如果你试图建造和维护多艘旗舰，你的人民将会非常愤怒."
+
+ captainx3.2.name:0 "旗舰毁坏"
+ captainx3.2.desc:0 "随着你的旗舰的毁坏，你的人民决定取消你的自由裁量权。"
+
+ captainx3.3.name:0 "旗舰数量过多"
+ captainx3.3.desc:0 "我们的人民对浪费大量时间与资源用于建造和维护多艘旗舰的行为十分愤怒，要求我们立即退役多余的旗舰。"
+
+ captainx3.4.name:0 "采矿基地建造完成"
+ captainx3.4.desc:0 "经过数月的危险工作，我们终于建立起一个采矿基地.。一个基地能提高10%矿石的产出,并增加矿石储存容量5000.由于昂贵的建造费和维护费，我们只能建造5个这样的采矿基地."
+
+ captainx3.5.name:0 "采矿基地数量达到极限"
+ captainx3.5.desc:0 "我们已经建造了5个采矿基地，达到我们所能承受的最大数量。建造额外的采矿基地不能增加我们的矿石产出，而且还会消耗额外的能源."
+
+ captainx3.6.name:0 "能源基地建造完成"
+ captainx3.6.desc:0 "经过数月的危险工作，我们终于建立起一个能源基地.。一个基地能提高10%能量采集量,并增加能量储存容量5000.由于昂贵的建造费和维护费，我们只能建造5个这样的能源基地."
+
+ captainx3.7.name:0 "能源基地数量达到极限"
+ captainx3.7.desc:0 "我们已经建造了5个能源基地，达到我们所能承受的最大数量。建造额外的能源基地不能增加我们的能量采集量，而且还会产额外的花费."
+
+ flagship_over_limit:0 "愤怒的人民（旗舰数量过多）"
+ flagship_bonus:0 "受旗舰鼓舞的舰队"
+ miningbase_bonus1:0 "采矿基地 Level 1"
+ miningbase_bonus2:0 "采矿基地 Level 2"
+ miningbase_bonus3:0 "采矿基地 Level 3"
+ miningbase_bonus4:0 "采矿基地 Level 4"
+ miningbase_bonus5:0 "采矿基地 Level 5"
+ powerstation_bonus1:0 "能源基地 Level 1"
+ powerstation_bonus2:0 "能源基地 Level 2"
+ powerstation_bonus3:0 "能源基地 Level 3"
+ powerstation_bonus4:0 "能源基地 Level 4"
+ powerstation_bonus5:0 "能源基地 Level 5"
+
+####################################
+# Dynamic Modifiers
+####################################
+ shipsize_escort_construction_speed_mult:0 "护航舰建造速度"
+ shipsize_facruiser_construction_speed_mult:0 "速攻巡洋舰建造速度"
+ shipsize_Light_Carrier_construction_speed_mult:0 "轻型航母建造速度"
+ shipsize_Battlecruiser_construction_speed_mult:0 "战列巡洋舰建造速度"
+ shipsize_Carrier_construction_speed_mult:0 "航母建造速度"
+ shipsize_Dreadnought_construction_speed_mult:0 "无畏舰建造速度"
+ shipsize_Flagship_construction_speed_mult:0 "旗舰建造速度"
+ shipsize_sciencecruiser_construction_speed_mult:0 "深空科研船建造速度"
+
+ shipsize_escort_build_cost_mult:0 "护航舰建造成本"
+ shipsize_facruiser_build_cost_mult:0 "速攻巡洋舰建造成本"
+ shipsize_Light_Carrier_build_cost_mult:0 "轻型航母建造成本"
+ shipsize_Battlecruiser_build_cost_mult:0 "战列巡洋舰建造成本"
+ shipsize_Carrier_build_cost_mult:0 "航母建造成本"
+ shipsize_Dreadnought_build_cost_mult:0 "无畏舰建造成本"
+ shipsize_Flagship_build_cost_mult:0 "旗舰建造成本"
+ shipsize_sciencecruiser_build_cost_mult:0 "深空科研船建造成本"
+
+####################################
+# Hull Sizes
+####################################
+
+ SCIENCECRUISER:0 "深空科研船"
+ ESCORT:0 "护航舰"
+ FACRUISER:0 "速攻巡洋舰"
+ LIGHT_CARRIER:0 "轻型航母"
+ BATTLECRUISER:0 "战列巡洋舰"
+ CARRIER:0 "航母"
+ DREADNOUGHT:0 "无畏舰"
+ FLAGSHIP:0 "旗舰"
+ sciencecruiser:0 "深空科研船"
+ sciencecruiser_plural:0 "深空科研船"
+ Escort:0 "护航舰"
+ Escort_plural:0 "护航舰"
+ facruiser:0 "速攻巡洋舰"
+ facruiser_plural:0 "速攻巡洋舰"
+ Light_Carrier:0 "轻型航母"
+ Light_Carrier_plural:0 "轻型航母"
+ Battlecruiser:0 "战列巡洋舰"
+ Battlecruiser_plural:0 "战列巡洋舰"
+ Carrier:0 "航母"
+ Carrier_plural:0 "航母"
+ Dreadnought:0 "无畏舰"
+ Dreadnought_plural:0 "无畏舰"
+ Flagship:0 "旗舰"
+ Flagship_plural:0 "旗舰"
+ military_station_xlarge:0 "战争要塞"
+ military_station_xlarge_plural:0 "战争要塞"
+ sensor_station:0 "预警站"
+ sensor_station_plural:0 "预警站"
+ miningbase:0 "采矿基地"
+ miningbase_plural:0 "采矿基地"
+ powerstation:0 "能源基地"
+ powerstation_plural:0 "能源基地"
+
+####################################
+# Escort
+####################################
+ Escort_BOW_M1S2:0 "财富破坏者"
+ Escort_BOW_S3:0 "希望破坏者"
+ Escort_BOW_L1:0 "信仰破坏者"
+ Escort_STERN_S2:0 "闪光壁垒"
+ Escort_STERN_M1:0 "闪耀壁垒"
+
+####################################
+# Light Carrier
+####################################
+ Light_Carrier_BOW_L1:0 "守护破坏者"
+ Light_Carrier_BOW_M1S2:0 "隐秘破坏者"
+ Light_Carrier_BOW_M2:0 "链式破坏者"
+ Light_Carrier_MID_S2HB:0 "幽灵核心"
+ Light_Carrier_MID_L1M1:0 "惩罚者核心"
+ Light_Carrier_MID_M3:0 "收割者核心"
+ Light_Carrier_MID_M2S2:0 "愤怒者核心"
+ Light_Carrier_STERN_M1:0 "保护者壁垒"
+ Light_Carrier_STERN_S2:0 "守护者壁垒"
+
+####################################
+# Strike Cruiser
+####################################
+ facruiser_BOW_L1:0 "守护破坏者"
+ facruiser_BOW_M1S2:0 "隐秘破坏者"
+ facruiser_BOW_M2:0 "链式破坏者"
+ facruiser_MID_S2HB:0 "幽灵核心"
+ facruiser_MID_L1M1:0 "惩罚者核心"
+ facruiser_MID_M3:0 "收割者核心"
+ facruiser_MID_M2S2:0 "愤怒者核心"
+ facruiser_STERN_M1:0 "保护者壁垒"
+ facruiser_STERN_S2:0 "守护者壁垒"
+
+####################################
+# Battlecruiser
+####################################
+ Battlecruiser_BOW_L1:0 "守护破坏者"
+ Battlecruiser_BOW_M1S2:0 "隐秘破坏者"
+ Battlecruiser_BOW_M2:0 "链式破坏者"
+ Battlecruiser_MID_S2HB:0 "幽灵核心"
+ Battlecruiser_MID_L1M1:0 "惩罚者核心"
+ Battlecruiser_MID_M3:0 "收割者核心"
+ Battlecruiser_MID_M2S2:0 "愤怒者核心"
+ Battlecruiser_STERN_M1:0 "保护者壁垒"
+ Battlecruiser_STERN_S2:0 "守护者壁垒"
+
+####################################
+# Carrier
+####################################
+ Carrier_BOW_L1M1S2:0 "行星破坏者"
+ Carrier_BOW_L1S4:0 "泰坦破坏者"
+ Carrier_BOW_L2:0 "脉冲破坏者"
+ Carrier_BOW_M1S2SHB:0 "质量破坏者"
+ Carrier_BOW_M2S4:0 "生命破坏者"
+ Carrier_BOW_M3S2:0 "灵魂破坏者"
+ Carrier_MID_L2S4:0 "诺瓦核心"
+ Carrier_MID_L1M4:0 "风暴使者核心"
+ Carrier_MID_L2M2:0 "斯拉舍核心"
+ Carrier_MID_L3:0 "奇点核心"
+ Carrier_MID_M4SHB:0 "复仇者核心"
+ Carrier_MID_S4LHB:0 "贾格坦核心"
+ Carrier_STERN_M1S2:0 "永恒壁垒"
+ Carrier_STERN_L1:0 "无限壁垒"
+ Carrier_STERN_M2:0 "纪元壁垒"
+ Carrier_STERN_S4:0 "苍穹壁垒"
+
+####################################
+# Dreadnought
+####################################
+ Dreadnought_BOW_L1M1S2:0 "行星破坏者"
+ Dreadnought_BOW_L1S4:0 "泰坦破坏者"
+ Dreadnought_BOW_L2:0 "脉冲破坏者"
+ Dreadnought_BOW_M1S2SHB:0 "质量破坏者"
+ Dreadnought_BOW_M2S4:0 "生命破坏者"
+ Dreadnought_BOW_M3S2:0 "灵魂破坏者"
+ Dreadnought_MID_L2S4:0 "诺瓦核心"
+ Dreadnought_MID_L1M4:0 "风暴使者核心"
+ Dreadnought_MID_L2M2:0 "斯拉舍核心"
+ Dreadnought_MID_L3:0 "奇点核心"
+ Dreadnought_MID_M4SHB:0 "复仇者核心"
+ Dreadnought_MID_S4LHB:0 "贾格坦核心"
+ Dreadnought_STERN_M1S2:0 "永恒壁垒"
+ Dreadnought_STERN_L1:0 "无限壁垒"
+ Dreadnought_STERN_M2:0 "纪元壁垒"
+ Dreadnought_STERN_S4:0 "苍穹壁垒"
+
+####################################
+# Flagship
+####################################
+ Flagship_BOW_L1M1S2:0 "行星破坏者"
+ Flagship_BOW_L1S4:0 "泰坦破坏者"
+ Flagship_BOW_L2:0 "脉冲破坏者"
+ Flagship_BOW_M1S2SHB:0 "质量破坏者"
+ Flagship_BOW_M2S4:0 "生命破坏者"
+ Flagship_BOW_M3S2:0 "灵魂破坏者"
+ Flagship_MID_L2S4:0 "诺瓦核心"
+ Flagship_MID_L1M4:0 "风暴使者核心"
+ Flagship_MID_L2M2:0 "斯拉舍核心"
+ Flagship_MID_L3:0 "奇点核心"
+ Flagship_MID_M4SHB:0 "复仇者核心"
+ Flagship_MID_S4LHB:0 "贾格坦核心"
+ Flagship_STERN_M1S2:0 "永恒壁垒"
+ Flagship_STERN_L1:0 "无限壁垒"
+ Flagship_STERN_M2:0 "纪元壁垒"
+ Flagship_STERN_S4:0 "苍穹壁垒"
+
+####################################
+# Stations
+####################################
+ LIGHT_MILITARY_STATION_XLARGE_SECTION:0 "轻型空间站部件"
+ MEDIUM_MILITARY_STATION_XLARGE_SECTION:0 "中型空间站部件"
+ HEAVY_MILITARY_STATION_XLARGE_SECTION:0 "重型空间站部件"
+ HANGAR_MILITARY_STATION_XLARGE_SECTION:0 "巨型空间站部件"
+ SENSOR_STATION_SECTION:0 "传感器部件"
+ MININGBASE_SECTION:0 "采矿部件"
+ POWERSTATION_SECTION:0 "能源部件"
+
+####################################
+#TECH STUFF
+####################################
+ TECH_UNLOCK_ESCORT_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 护航舰"
+ TECH_UNLOCK_ESCORT_CONSTRUCTION_DESC:0 "§H护航舰§!\n改进型的驱逐舰级战舰，用于护送大型船只或护卫舰队运输。"
+ TECH_UNLOCK_FACRUISER_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 速攻巡洋舰"
+ TECH_UNLOCK_FACRUISER_CONSTRUCTION_DESC:0 "§H速攻巡洋舰§!\n速攻巡洋舰目的是追捕敌人的舰队，拖住它们，直到更大的舰队到达。"
+ TECH_UNLOCK_BATTLECRUISER_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 战列巡洋舰"
+ TECH_UNLOCK_BATTLECRUISER_CONSTRUCTION_DESC:0 "§H战列巡洋舰§!\n这个更大，更强版本的巡洋舰具有更重的盾牌和更多的武器。"
+ TECH_UNLOCK_LIGHT_CARRIER_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 轻型航母"
+ TECH_UNLOCK_LIGHT_CARRIER_CONSTRUCTION_DESC:0 "§H轻型航母§!\n轻型航母可以携带战机中队快速投入战斗。"
+ TECH_UNLOCK_CARRIER_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 航母"
+ TECH_UNLOCK_CARRIER_CONSTRUCTION_DESC:0 "§H航母§!\n拥有巨大的船体结构，能够装载多个中队的战斗机，但是机动性极低是其致命的弱点。"
+ TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 无畏舰"
+ TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_DESC:0 "§H无畏舰§!\n拥有巨大的船体结构，无畏舰需要巨量的生产成本，但其恐怖的火力与极低的机动性也令人乍舌。"
+ TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 旗舰"
+ TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_DESC:0 "§H旗舰§!\n最为巨大的船体结构，旗舰舰拥有强大的火力和装甲并能为舰队提供大量的额外能力，它需要整个帝国的资源来建造和维护。"
+ TECH_UNLOCK_SCIENCECRUISER_CONSTRUCTION_TITLE:0 "§H解锁战舰类型:§! 深空科研船"
+ TECH_UNLOCK_SCIENCECRUISER_CONSTRUCTION_DESC:0 "§H深空科研船§!\n通过科学家们的不懈努力，最研制出这种更好的科研船，它具有更快的飞行速度和更加厚重的装甲，配备更完善的设施，它也能装备EWAR传感器阵列."
+ TECH_UNLOCK_SENSORSTATION_CONSTRUCTION_TITLE:0 "§H解锁空间站类型:§! 预警站"
+ TECH_UNLOCK_SENSORSTATION_CONSTRUCTION_DESC:0 "§H预警站§!\n一个小而独特的空间站，它主要装备EWAR传感器阵列，从而监控周边星系."
+ TECH_UNLOCK_MININGBASE_CONSTRUCTION_TITLE:0 "§H解锁空间站类型:§! 采矿基地"
+ TECH_UNLOCK_MININGBASE_CONSTRUCTION_DESC:0 "§采矿基地§!\n一个昂贵的大型采矿基地，它和矿石含量丰富的小行星结合起来，从而提供大量的矿石和储存."
+ TECH_UNLOCK_POWERSTATION_CONSTRUCTION_TITLE:0 "§H解锁空间站类型:§! 能源基地"
+ TECH_UNLOCK_POWERSTATION_CONSTRUCTION_DESC:0 "§能源基地§!\n一个庞大而昂贵的基地，旨在收集太阳能，从而提供大量能量和存储."
+
+ tech_escort_1:0 "护航舰"
+ tech_escort_1_desc:0 "扩大船坞以允许护航舰级军用船只的建造。"
+ tech_facruiser_1:0 "速攻巡洋舰"
+ tech_facruiser_1_desc:0 "扩大船坞以允许速攻巡洋舰级军用船只的建造。"
+ tech_ewar_1:0 "EWAR (预警侦察) 传感器阵列"
+ tech_ewar_1_desc:0 "一个非常强大的传感器阵列，能在很远的距离发现敌人。"
+ tech_battlecruiser_1:0 "战列巡洋舰"
+ tech_battlecruiser_1_desc:0 "扩大船坞以允许战列巡洋舰级军用船只的建造。"
+ tech_light_carrier_1:0 "轻型航母"
+ tech_light_carrier_1_desc:0 "扩大船坞以允许轻型航母级军用船只的建造。"
+ tech_carrier_1:0 "航母"
+ tech_carrier_1_desc:0 "扩大船坞以允许航母级军用船只的建造"
+ tech_dreadnought_1:0 "无畏舰"
+ tech_dreadnought_1_desc:0 "扩大船坞以允许无畏舰级军用船只的建造。"
+ tech_flagship_1:0 "旗舰"
+ tech_flagship_1_desc:0 "扩大船坞以允许旗舰级军用船只的建造。"
+ tech_sciencecruiser_1:0 "深空科研船"
+ tech_sciencecruiser_1_desc:0 "扩大船坞以允许深空科研船船只的建造."
+ tech_sensorstation_1:0 "预警站"
+ tech_sensorstation_1_desc:0 "允许预警站的建设，监测我们的边界。"
+ tech_miningbase_1:0 "采矿基地"
+ tech_miningbase_1_desc:0 "允许采矿基地的建设，以提高矿石生产和储存."
+ tech_powerstation_1:0 "能源基地"
+ tech_powerstation_1_desc:0 "允许能源基地的建设，以提高能源的生产和储存。"
+
+ tech_adv_zero_point_power:0 "高级零点反应堆"
+ tech_adv_zero_point_power_desc:0 "这些反应堆提取虚空能量，提供几乎无限的能源供应。没有比这更有效的方法来产生能量了。\n\n"
+ ADV_ZERO_POINT_REACTOR:0 "高级零点反应堆"
+ ADV_ZERO_POINT_REACTOR_DESC:0 "这些反应堆提取虚空能量，提供几乎无限的能源供应。没有比这更有效的方法来产生能量了。"
+ tech_advanced_assembly_yards:0 "先进的装配船坞"
+ tech_advanced_assembly_yards_desc:1 "建立新的工业标准，改进生产设计，大大提高了舰船建造速度。\n\n"
+
+####################################
+#MISCELLANEOUS
+####################################
+
+ UNDERSTOOD:0 "理解."
+
+ sm_advanced_assembly_yards:0 "先进的装配船坞"
+
+ SHIP_AURA_SHIELDS:0 "护盾回充能量场"
+ SHIP_AURA_FIRING:0 "舰队综合网络"
+ SHIP_AURA_DAMAGE:0 "强化力场"
+
+ SHIP_SENSOR_5:0 "EWAR传感器阵列"
+ SHIP_SENSOR_EMPTY:0 "空槽"
+
+ EWAR_sensor_components:0 "EWAR(预警侦察)传感器阵列"
+ EWAR_sensor_components_desc:0 "一个非常强大的传感器阵列，能在很远的距离发现敌人。"
+
+ FALLEN1:0 "失落帝国类型 01"
+ FALLEN2:0 "失落帝国类型 02"
+ FALLEN3:0 "失落帝国类型 03"
+
+ SCIENCECRUISER_SECTION:0 "科研部件"

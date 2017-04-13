@@ -1,0 +1,613 @@
+﻿l_english:
+#### 汉语命名组 ####
+ name_list_CHN:0 "人族:§S中国风§!"
+ name_list_ASG1: "舰娘"
+ MON:1 "魔物娘"
+#############################
+
+#### Patch 1.1 ####
+ slave_attraction_desc:1 "除机械人口外所有奴役人口都归入奴隶派系。\n\n其他人口不会加入该派系。"
+ MOD_COUNTRY_ALLIANCE_INFLUENCE_COST:0 "同盟影响价格"
+ pop_happiness_level_90_x:0 "愉悦"
+ pop_happiness_level_80_89:0 "快乐"
+ pop_happiness_level_50_79:0 "满足"
+ pop_happiness_level_35_49:0 "沮丧"
+ pop_happiness_level_20_34:0 "愤怒"
+ pop_happiness_level_x_19:0 "愤怒"
+ PLANET_CAP_TITLE:0 "直属行星"
+ PLANET_CAP_TOOLTIP:0 "我们能够最多控制 $MAX|Y$ 颗行星。"
+ PLANET_OVER_CAP_TOOLTIP:0 "§R超过限制！§!\n$MODIFIER$"
+ PLANET_CAP_DESC:0 "§E我们的官僚系统限制了我们能够掌控的行星的数量，可以通过升级科技、建造建筑或政府行为来增加数量。§!"
+
+#############################
+
+#### Emblems 徽章文件夹 ####
+ FLAG_CATEGORY_divers:0 "+§L金§!"
+ FLAG_CATEGORY_divers2:0 "+银"
+ FLAG_CATEGORY_domination:0 "+统治"
+ FLAG_CATEGORY_extendedemblems:0 "+§G徽章扩展§!"
+ FLAG_CATEGORY_special:0 "特别"
+
+ FLAG_CATEGORY_jpricons:0 "+§H日式§!"
+ 
+ FLAG_CATEGORY_halo:0 "+§Y光环§"
+ FLAG_CATEGORY_stargate:0 "+§Y星门§"
+ 
+ FLAG_CATEGORY_IT:0 "+§BIT§!"
+ FLAG_CATEGORY_assassins_creed:0 "+§R刺客信条§!"
+ 
+ FLAG_CATEGORY_real_world:0 "+§R现实世界§!"
+ FLAG_CATEGORY_nationalism:0 "+现实历史国家"
+ 
+ FLAG_CATEGORY_BT:0 "+§BBT系列§!"
+ FLAG_CATEGORY_clancrest:0 "+BT 家族"
+ FLAG_CATEGORY_ispolitical:0 "+BT 政治"
+ FLAG_CATEGORY_mercenary:0 "+BT 雇佣兵"
+#############################
+ 
+#### Other ####
+ trait_ruler_faith:1 "美德"
+ trait_ruler_faith_desc: "好棒好棒的"
+#############################
+
+#### setcap ####
+ edict_planet_capital:0 "设定为我国首都"
+ edict_planet_capital_desc:0 "点击后将设定此星球为我国新的首都。" 
+ edict_planet_capital.tooltip:0 "将 §Y[Root.GetName]§! 设为你的首都。"
+#############################
+ 
+#### Ringworld Start ####
+#### http://steamcommunity.com/sharedfiles/filedetails/?id=681864454 ####
+ ringworld_st_system_NAME:0 "§G环形世界§!"
+ ringworld_st_system_DESC:0 "有4个可居住地区的环形世界.\n\n$system_initializer_DESC$"
+ ringworld_dmg_st_system_NAME:0 "§E损坏的环形世界§!"
+ ringworld_dmg_st_system_DESC:0 "有4个可居住地区的圆环世界，有一个损坏的裂缝.\n\n$system_initializer_DESC$"
+ ringworld_des_st_system_NAME:0 "§R毁灭的圆环世界§!"
+ ringworld_des_st_system_DESC:0 "只有1个可居住地区的环形世界.\n\n$system_initializer_DESC$"
+ ringworld_sup_st_system_NAME:0 "§L超级圆环世界§!"
+ ringworld_sup_st_system_DESC:0 "有一打可居住地区的环形世界.\n\n$system_initializer_DESC$"
+#############################
+
+#### bordergrow_l_english ####
+ edict_border_growth_d:0 "边界增长"
+ #border growth edicts
+ edict_border_growth_I:0 "$edict_border_growth_d$ I"
+ edict_border_growth_I_desc:0 "我们可以使用影响力来提高全国的边界增长速度。\n通过建设更高级的城市首府来解锁更快速的边界增长政策."
+ edict_border_growth_II:0 "$edict_border_growth_d$ II"
+ edict_border_growth_II_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_III:0 "$edict_border_growth_d$ III"
+ edict_border_growth_III_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_IV:0 "$edict_border_growth_d$ IV"
+ edict_border_growth_IV_desc:0 "$edict_border_growth_I_desc$."
+ edict_border_growth_V:0 "$edict_border_growth_d$ V"
+ edict_border_growth_V_desc:0 "$edict_border_growth_I_desc$."
+#############################
+
+#### GalaxyUnlimited_l_english ####
+#### Galaxies Unlimited ####
+#### http://steamcommunity.com/sharedfiles/filedetails/?id=682835797  ####
+Microscopic:0 "§g最小§!"
+Minuscule:0 "§g更小§!"
+Small:0 "§W小型§!"
+Tiny:0 "§W稍小§!"
+Average:0 "§E一般§!"
+Medium:0 "§E中等§!"
+Big:0 "§B稍大§!"
+Huge:0 "§B大型§!"
+large:0 "§Y更大§!"
+Gigantic:0 "§Y特大§!"
+Enormous:0 "§H超大§!"
+Massive:0 "§G巨型§!"
+Colossal:0 "§L超巨型§!"
+Epic:0 "§M史诗§!"
+Insane:0 "§R疯狂§!"
+
+#############################
+
+
+ lc_1:0 "微小"
+ lc_2:0 "小"
+ lc_3:0 "中"
+ lc_4:0 "大"
+ lc_5:0 "巨大"
+
+ fln_event.3.name:0 "联邦通知"
+ fln_event.3.desc:0 "轮到你决定联邦的议题了。"
+ fln_event.4.desc:0 " 你当联邦总统时期结束了."
+ fln_event.4.a.desc:0 "你离开了联邦."
+
+ NRGA:1 "新共和国"
+
+ EMPIRE_DESIGN_UNSC:0 "联合国太空指挥部"
+ EMPIRE_DESIGN_UNSC_desc:0 "联合国太空指挥部，简称UNSC，是集科学研究、 宇宙探索以及军事防卫力量于一身的最高殖民权利机构，受地球联合政府的直接管辖。最初是为殖民星球提供保护和镇压叛乱。\n\n但随着人类对宇宙探索深入，不可避免遇到其他物种。现在面对潜在的危险，联合国太空指挥部已经成为了人类赖以生存的重要政府和最大希望。"
+
+
+ unsc_infinity:0 "无限"
+ unsc_frigate:0 "护卫舰"
+ unsc_cruiser:0 "大巡洋舰"
+ unsc_colonizer:0 "大殖民者"
+ tech_unsc:0 "UNSC的技术"
+
+ MEDIUM_MINING_STATION_SECTION:0 "中型核心"
+ MEDIUM_OUTPOST_STATION_SECTION:0 "中型核心"
+ MEDIUM_RESEARCH_STATION_SECTION:0 "中型核心"
+
+ edict_planet_capital:0 "设定为我国首都"
+ edict_planet_capital_desc:0 "点击后将设定此星球为我国新的首都。" 
+ edict_planet_capital.tooltip:0 "将 §Y[Root.GetName]§! 设为你的首都。"
+
+ CRUISER_BOW_M2HB:0 "守护破坏者"
+ CRUISER_BOW_S2HB:0 "银幕破坏者"
+ CRUISER_BOW_S1HB:0 "链式破坏者"
+ CRUISER_BOW_L2:0 "恶习破坏者"
+ CRUISER_BOW_M3:0 "憎恶破坏者"
+ CRUISER_BOW_M2S1:0 "枷锁破坏者"
+
+
+ CRUISER_MID_S2HB_A:0 "爆炸核心"
+ CRUISER_MID_S2HB_B:0 "愤怒核心"
+ CRUISER_MID_S3:0 "哨兵核心"
+ CRUISER_MID_L1M1_A:0 "幽灵核心"
+ CRUISER_MID_M3_A:0 "惩罚者核心"
+ CRUISER_MID_M1S1:0 "收割者核心"
+
+
+ CRUISER_STERN_HB:0 "保护堡垒"
+ CRUISER_STERN_S2_A:0 "守护堡垒"
+ CRUISER_STERN_L1:0 "热枕堡垒"
+ CRUISER_STERN_M1_A:0 "荣誉堡垒"
+
+ ethos_map_mode:0 "统治地图"
+ government_ideology_map_mode:0 "政府地图"
+ democracy_rating_map_mode:0 "民主地图"
+ ai_rights_map_mode:0 "AI地图"
+ slavery_policy_map_mode:0 "奴隶地图"
+ purge_policy_map_mode:0 "净化地图"
+ war_philosophy_map_mode:0 "战争地图" 
+ ethos_map_mode_desc:0 "他们的帝国边境颜色-§Y民族精神§!.\n\n§Y崇外主义§!是§Y黄色§!\n§Y排外主义§!是§Y紫红色§!\n§Y唯物主义§!是§Y橙色§!\n§Y唯心主义§!是§Y紫色§!\n§Y个人主义§!是§Y粉色§!\n§Y集体主义§!是§Y蓝色§!\n§Y和平§!是§Y绿色§!\n§Y军国主义§!是§Y红色§!"
+ government_ideology_map_mode_desc:0 "他们的帝国边境颜色-§Y制度§!.\n\n§Y唯物主义§!是§Y橙色§!\n§Y唯心主义§!是§Y紫色§!\n§Y和平主义§!是§Y绿色§!\n§Y军国主义§!是§Y红色§!"
+ democracy_rating_map_mode_desc:0 "他们的帝国边境颜色-§Y选举§!.\n\n§Y独裁§!是§Y蓝色§!\n§Y精英§!是§Y黄色§!\n§Y民主§!是§Y粉色§!"
+ ai_rights_map_mode_desc:0 "他们的帝国边境颜色-§YAI政策§!.\n\n§Y消灭§!是§Y红色§!\n§Y奴役§!是§Y黄色§!\n§Y公民权§!是§Y绿色§!\n§Y公民权§!和§YAI领导§!是§Y蓝色§!"
+ slavery_policy_map_mode_desc:0 "他们的帝国边境颜色-§Y奴隶§!.\n\n§Y禁止§!是§Y红色§!\n§Y只限外星人§!是§Y黄色§!\n§Y管理§!是§Y绿色§!\n§Y允许§!是§Y蓝色§!"
+ purge_policy_map_mode_desc:0 "他们的帝国边境颜色-§Y净化§!.\n\n§Y禁止§!是§Y红色§!\n§Y只限外星人§!是§Y黄色§!\n§Y允许§!是§Y绿色§!"
+ war_philosophy_map_mode_desc:0 "他们的帝国边境颜色-§Y战争§!.\n\n§Y防御战争§!是§Y红色§!\n§Y解放战争§!是§Y黄色§!\n§Y无限制战争§!是§Y绿色§!"
+ SUPER_BORING:0 "§Y[This.GetName]§!是§超级无聊§!!"
+ HAS_MILITARIST_GOVERNMENT:0 "§Y[This.GetName]§!有个§Y军国主义§!政府."
+ HAS_SPIRITUALIST_GOVERNMENT:0 "§Y[This.GetName]§!有个§Y唯心主义§!政府."
+ HAS_MATERIALIST_GOVERNMENT:0 "§Y[This.GetName]§!有个§Y唯物主义§!政府."
+ HAS_PACIFIST_GOVERNMENT:0 "§Y[This.GetName]§!有个§Y和平主义§!政府."
+ IS_DEMOCRACY:0 "§Y[This.GetName]§!是§Y民主§!."
+ IS_OLIGARCHY:0 "§Y[This.GetName]§!是§Y寡头§!."
+ IS_AUTOCRACY:0 "§Y[This.GetName]§!是§Y独裁§!."
+
+ tech_repeatable_hyper_drive_improved:0 "超空间优化"
+ tech_repeatable_hyper_drive_improved_desc:0 "通过对超空间不断探索改进，使我们的飞船能够更快进入超空间。\n\n"
+
+ tech_repeatable_warp_drive_improved:0 "曲速优化"
+ tech_repeatable_warp_drive_improved_desc:0 "通过对曲速理论的不断完善，我们能够更好利用曲速飞行。\n\n"
+
+ sm_solar_panel_networkd:0 "太阳能面板网络"
+ sm_hydroponic_farmsd:0 "轨道水培农场"
+
+ tech_synchronized_defences_2:0 "高级同步防御"
+
+ tech_synchronized_defences_2_desc:0 "协调攻防的人工智能技术使得战斗效率大大提高了。"
+ 
+ tech_reinforced_hull_1:0 "强化船体"
+
+ tech_reinforced_hull_1_desc:0 "§H强化的船体§!可以极大地提升对攻击的抵抗能力."
+ 
+ tech_reinforced_hull_2:0 "高级强化船体"
+
+ tech_reinforced_hull_2_desc:0 "$tech_reinforced_hull_1_desc$"
+ 
+ tech_battleship_yard_2:0 "高级战列舰厂"
+
+ tech_battleship_yard_2_desc:0 "高级战列舰厂技术让我们可以更快的制造战列舰。"
+
+ tech_orbital_hydroponics_2:0 "高级轨道水培农场"
+
+ tech_orbital_hydroponics_2_desc:0 "虽然在零重力种植庄稼的挑战很困难，但并不是不可完成的。"
+
+ tech_solar_panel_network_2:0 "高级$sm_solar_panel_networkd$"
+
+ tech_solar_panel_network_2_desc:0 "高级太阳能面板可以降低我们的星球能量消耗，但是它需要占用一个空间站模块的位置。"
+
+ building_power_relay_d:0 "继电站"
+ building_irrigation_system_d:0 "灌溉系统"
+ building_mining_barracks_d:0 "采矿营地"
+ building_combo_food_power_d:0 "太阳能收割机"
+ building_combo_mineral_power_d:0 "多功能热电站"
+ building_combo_mineral_food_d:0 "生化采石场"
+ building_science_campus_phys_d:0 "物理学院"
+ building_science_campus_soc_d:0 "生物学院"
+ building_science_campus_eng_d:0 "工程学院"
+ tech_genetic_restructuring_d:0 "基因重组"
+  
+ ##################################################
+# Other FTL types
+# Coded by Remanemporor
+# Last updated 5/18/16
+##################################################
+ WARP_DRIVE_SPOOF_1:0 "$WARP_DRIVE_SPOOF_d$ I"
+ WARP_DRIVE_SPOOF_1_DESC:0 "扭曲引擎必须在星系边缘才能启动FTL，但星系之间的路线可以自由规划."
+ WARP_DRIVE_SPOOF_2:0 "$WARP_DRIVE_SPOOF_d$ II"
+ WARP_DRIVE_SPOOF_2_DESC:0 "$WARP_DRIVE_1_DESC$"
+ WARP_DRIVE_SPOOF_3:0 "$WARP_DRIVE_SPOOF_d$ III"
+ WARP_DRIVE_SPOOF_3_DESC:0 "$WARP_DRIVE_1_DESC$"
+ HYPER_DRIVE_SPOOF_1:0 "$HYPER_DRIVE_SPOOF_d$ I"
+ HYPER_DRIVE_SPOOF_1_DESC:0 "$HYPER_DRIVE_SPOOF_d$只能沿着星系之间的超光速通道跳跃，但可以在星系中的任何地方开始FTL."
+ HYPER_DRIVE_SPOOF_2:0 "$HYPER_DRIVE_SPOOF_d$ II"
+ HYPER_DRIVE_SPOOF_2_DESC:0 "$HYPER_DRIVE_1_DESC$"
+ HYPER_DRIVE_SPOOF_3:0 "$HYPER_DRIVE_SPOOF_d$ III"
+ HYPER_DRIVE_SPOOF_3_DESC:0 "$HYPER_DRIVE_1_DESC$"
+ WORMHOLE_SPOOF:0 "虫洞引擎"
+ WORMHOLE_SPOOF_DESC:0 "有着虫洞调制器的船可以快速的通过由虫洞连接的两星系，但虫洞发生器是有成本的."
+ 
+ tech_wormhole_spoof_generation_1:0 "$WORMHOLE_SPOOF$ I"
+ tech_wormhole_spoof_generation_1_desc:0 "$WORMHOLE_SPOOF_DESC$"
+ tech_wormhole_spoof_generation_2:0 "$WORMHOLE_SPOOF$ II"
+ tech_wormhole_spoof_generation_2_desc:0 "$tech_wormhole_spoof_generation_1_desc$"
+ tech_wormhole_spoof_generation_3:0 "$WORMHOLE_SPOOF$ III"
+ tech_wormhole_spoof_generation_3_desc:0 "$tech_wormhole_spoof_generation_1_desc$"
+ tech_hyper_drive_spoof_1:0 "$HYPER_DRIVE_SPOOF_1$"
+ tech_hyper_drive_spoof_1_desc:0 "$HYPER_DRIVE_1_DESC$"
+ tech_hyper_drive_spoof_2:0 "$HYPER_DRIVE_SPOOF_2$"
+ tech_hyper_drive_spoof_2_desc:0 "$HYPER_DRIVE_1_DESC$"
+ tech_hyper_drive_spoof_3:0 "$HYPER_DRIVE_SPOOF_3$"
+ tech_hyper_drive_spoof_3_desc:0 "$HYPER_DRIVE_1_DESC$"
+ tech_warp_drive_spoof_1:0 "$WARP_DRIVE_SPOOF_1$"
+ tech_warp_drive_spoof_1_desc:0 "$WARP_DRIVE_1_DESC$"
+ tech_warp_drive_spoof_2:0 "$WARP_DRIVE_SPOOF_2$"
+ tech_warp_drive_spoof_2_desc:0 "$WARP_DRIVE_1_DESC$"
+ tech_warp_drive_spoof_3:0 "$WARP_DRIVE_SPOOF_3$"
+ tech_warp_drive_spoof_3_desc:0 "$WARP_DRIVE_1_DESC$"
+ 
+ TECH_UNLOCK_HYPERDRIVE_1_SPOOF_TITLE:0 "$HYPER_DRIVE_SPOOF_d$ I"
+ TECH_UNLOCK_HYPERDRIVE_1_SPOOF_DESC:0 "§H$HYPER_DRIVE_SPOOF_d$ I§!\n$tech_hyper_drive_1_desc$"
+ TECH_UNLOCK_HYPERDRIVE_2_SPOOF_TITLE:0 "$HYPER_DRIVE_SPOOF_d$ II"
+ TECH_UNLOCK_HYPERDRIVE_2_SPOOF_DESC:0 "§H$HYPER_DRIVE_SPOOF_d$ II§!\n$tech_hyper_drive_2_desc$"
+ TECH_UNLOCK_HYPERDRIVE_3_SPOOF_TITLE:0 "$HYPER_DRIVE_SPOOF_d$ III"
+ TECH_UNLOCK_HYPERDRIVE_3_SPOOF_DESC:0 "§H$HYPER_DRIVE_SPOOF_d$ III§!\n$tech_hyper_drive_3_desc$"
+ TECH_UNLOCK_WARPDRIVE_1_SPOOF_TITLE:0 "$WARP_DRIVE_SPOOF_d$ I"
+ TECH_UNLOCK_WARPDRIVE_1_SPOOF_DESC:0 "§H$WARP_DRIVE_SPOOF_d$ I§!\n$tech_warp_drive_1_desc$"
+ TECH_UNLOCK_WARPDRIVE_2_SPOOF_TITLE:0 "$WARP_DRIVE_SPOOF_d$ II"
+ TECH_UNLOCK_WARPDRIVE_2_SPOOF_DESC:0 "§H$WARP_DRIVE_SPOOF_d$ II§!\n$tech_warp_drive_2_desc$"
+ TECH_UNLOCK_WARPDRIVE_3_SPOOF_TITLE:0 "$WARP_DRIVE_SPOOF_d$ III"
+ TECH_UNLOCK_WARPDRIVE_3_SPOOF_DESC:0 "§H$WARP_DRIVE_SPOOF_d$ III§!\n$tech_warp_drive_3_desc$"
+ TECH_UNLOCK_WORMHOLE_1_SPOOF_TITLE:0 "§H解锁点站:§! 虫洞"
+ TECH_UNLOCK_WORMHOLE_1_SPOOF_DESC:0 "§H虫洞§!\n$tech_wormhole_generation_1_desc$"
+ 
+  
+ WARP_DRIVE_SPOOF_d:0 "扭曲引擎"
+ HYPER_DRIVE_SPOOF_d:0 "超空间引擎"
+ TECH_UNLOCK_HYPERDRIVE_1_SPOOF_TITLEd:0 "§H解锁零件:§! $HYPER_DRIVE_SPOOF_d$"
+ TECH_UNLOCK_WARPDRIVE_1_SPOOF_TITLEd:0 "§H解锁零件:§! $WARP_DRIVE_SPOOF_d$"
+  
+ tech_mineral_processing_3_new:"行星地幔开发"
+ tech_mineral_processing_2_desc:0 "更先进的精炼技术和更多的能量可以用于创造材料，这在以前是梦一样的."
+ 
+ tech_orbital_foundry:"轨道铸造厂"
+ tech_orbital_foundry_desc:"许多高科技零件可以在零重力环境高效的制造了."
+ building_forum_1:0 "星球论坛"
+ building_forum_2:0 "恒星论坛"
+ building_forum_3:0 "星系论坛"
+ building_forum_1_desc:0 "论坛是讨论星系事件的地方，可以稍微提高你的影响力."
+ building_forum_2_desc:0 "$building_forum_1_desc$"
+ building_forum_3_desc:0 "$building_forum_1_desc$"
+
+ tech_power_hub_3_new:"恒星电网平衡"
+ tech_power_hub_2_desc:0 "利用最先进的能量中继技术，我们可以将能量传输的更远、损失的更少."
+
+ 
+ 
+ tech_molten_colonization:0 "熔岩殖民"
+ tech_molten_colonization_desc:0 "通过伟大的工程学，我们可以在熔岩世界创建独立的机器人前哨."
+ tech_barren_colonization:0 "荒芜殖民"
+ tech_barren_colonization_desc:0 "通过开发新的阳光防护技术，我们可以在贫瘠世界建立前哨."
+ tech_barren_cold_colonization:0 "寒冷殖民"
+ tech_barren_cold_colonization_desc:0 "建立超坚固避难所使得我们可以在寒冷世界殖民."
+ tech_toxic_colonization:0 "毒气殖民"
+ tech_toxic_colonization_desc:0 "通过超高密度铀合金技术，使得我们可以在极度恶劣的毒气环境殖民."
+ tech_frozen_colonization:0 "冰冻殖民"
+ tech_frozen_colonization_desc:0 "使用先进的保温和加热技术，使得我们可以在极其寒冷的地区殖民."
+
+
+ ROBOT_POP_SPECIES_0:0 "外星机器人"
+ buildable_robot_pop_0:0 "$ROBOT_POP_SPECIES_0$"
+ buildable_robot_pop_0_desc:0 "$trait_robotic_1_desc$"
+
+ SCOUT_PROBE:0 "探测器"
+ scout_probe:0 "探测器"
+ scout_probe_plural:0 "探测器"
+ scout_probe_section:0 "探测器核心"
+ PROBE_SENSOR_1:0 "探测器用 $OBSERVATORY_1$"
+ PROBE_SENSOR_1_DESC:0 "$OBSERVATORY_1_DESC$"
+ PROBE_SENSOR_2:0 "探测器用 $OBSERVATORY_2$"
+ PROBE_SENSOR_2_DESC:0 "$OBSERVATORY_2_DESC$"
+ PROBE_SENSOR_3:0 "探测器用 $OBSERVATORY_3$"
+ PROBE_SENSOR_3_DESC:0 "$OBSERVATORY_3_DESC$"
+ PROBE_SENSOR_4:0 "探测器用 $OBSERVATORY_4$"
+ PROBE_SENSOR_4_DESC:0 "$OBSERVATORY_4_DESC$"
+
+ ASW_MAMMRD:0 "哺乳类 - 红色的战斗准备"
+ ASW_MAMMRD_desc:1 "被代替的颜色 - 哺乳类的飞船."
+ ASW_AVIADP:0 "鸟类 - 暗紫色的战斗准备"
+ ASW_AVIADP_desc:1 "被代替的颜色 - 鸟类的船只."
+ ASW_AVIAGD:0 "鸟类 - 金黄色的战斗准备"
+ ASW_AVIAGD_desc:1 "被代替的颜色 - 鸟类的船只."
+ ASW_REPTWT:0 "爬虫类 - 白色的战斗准备"
+ ASW_REPTWT_desc:1 "被代替的颜色 - 爬虫类的船只."
+ ASW_REPTLB:0 "爬虫类 - 浅蓝色的战斗准备"
+ ASW_REPTLB_desc:1 "被代替的颜色 - 爬虫类的船只."
+ ASW_REPTBB:0 "爬虫类 - Blue 战斗准备"
+ ASW_REPTBB_desc:1 "被代替的颜色 - 爬虫类的船只."
+ ASW_REPTDR:0 "爬虫类 - 红色的战斗准备"
+ ASW_REPTDR_desc:1 "被代替的颜色 - 爬虫类的船只."
+ ASW_REPTGN:0 "爬虫类 - 绿色的战斗准备"
+ ASW_REPTGN_desc:1 "被代替的颜色 - 爬虫类的船只."
+ ASW_REPTPU:0 "爬虫类 - 紫色的战斗准备"
+ ASW_REPTPU_desc:1 "被代替的颜色 - 爬虫类的船只."
+ ASW_REPTOR:0 "爬虫类 - 橙色的战斗准备"
+ ASW_REPTOR_desc:1 "被代替的颜色 - 爬虫类的船只."
+ ASW_MOLLRE:0 "软体类 - 红色的战斗准备"
+ ASW_MOLLRE_desc:1 "被代替的颜色 - 软体类的船只."
+ ASW_MOLLDP:0 "软体类 - 暗紫色的战斗准备"
+ ASW_MOLLDP_desc:1 "被代替的颜色 - 软体类的船只."
+ ASW_MOLLGD:0 "软体类 - 金黄色的战斗准备"
+ ASW_MOLLGD_desc:1 "被代替的颜色 - 软体类的船只."
+ ASW_FUNGRE:0 "菌类 - 红色的战斗准备"
+ ASW_FUNGRE_desc:1 "被代替的颜色 - 菌类的船只."
+ ASW_FUNGDP:0 "菌类 - 暗紫色的战斗准备"
+ ASW_FUNGDP_desc:1 "被代替的颜色 - 菌类的船只."
+ ASW_FUNGWT:0 "菌类 - 银色的战斗准备"
+ ASW_FUNGWT_desc:1 "被代替的颜色 - 菌类的船只."
+ ASW_FUNGGD:0 "菌类 - 金黄色的战斗准备"
+ ASW_FUNGGD_desc:1 "被代替的颜色 - 菌类的船只."
+ ASW_ARTHRD:0 "节肢类 - 红色的战斗准备"
+ ASW_ARTHRD_desc:1 "被代替的颜色 - 节肢类的船只."
+ ASW_ARTHGN:0 "节肢类 - Emerald 战斗准备"
+ ASW_ARTHGN_desc:1 "被代替的颜色 - 节肢类的船只."
+ ASW_ARTHDP:0 "节肢类 - 暗紫色的战斗准备"
+ ASW_ARTHDP_desc:1 "被代替的颜色 - 节肢类的船只."
+ ASW_ARTHGD:0 "节肢类 - 金黄色的战斗准备"
+ ASW_ARTHGD_desc:1 "被代替的颜色 - 节肢类的船只."
+
+ ####  By Inkit  ####
+
+####  Slvrbuu's Stellaris Cheat Menu  ####
+####  http://steamcommunity.com/sharedfiles/filedetails/?id=681947845  ####
+ c_country.1.name:0 "选择 [Root.GetName]"
+ c_country.1.desc:0 "选择你的路"
+ c_country.1.a:0 "创建殖民船"
+ c_country.1.b:0 "增加领袖经验值"
+ c_country.1.c:0 "在随机的星球安装地形转换器"
+ c_country.1.d:0 "退出"
+ c_country.1.e:0 "获得殖民科技"
+ c_buff.1.name:0 "获得增益： [Root.GetName]"
+ c_buff.1.desc:0 "获得许多增益 [Root.GetName]"
+ c_buff.1.a:0 "获得全局增益"
+ c_buff.1.a.b:0 "移除全局增益"
+ c_buff.1.b:0 "获得军队增益"
+ c_buff.1.b.b:0 "移除军队增益"
+ c_buff.1.c:0 "获得建筑增益"
+ c_buff.1.c.b:0 "移除建筑增益"
+ c_buff.1.d:0 "退出"
+ c_buff.1.e:0 "获得领袖增益"
+ c_buff.1.e.b:0 "移除领袖增益"
+ c_buff.1.f:0 "获得科技增益"
+ c_buff.1.f.b:0 "移除科技增益"
+ cheat_country_one:0 "全局增益"
+ cheat_country_one_desc:0 "你的国度变得比以前任何时候都好."
+ cheat_leader_one:0 "领导增益"
+ cheat_leader_one_desc:0 "你的领袖近乎神."
+ cheat_build_one:0 "建筑增益"
+ cheat_build_one_desc:0 "你擅长建筑."
+ cheat_military_one:0 "军队增益"
+ cheat_military_one_desc:0 "你的军队成为了星系的法律."
+ cheat_research_one:0 "科技增益"
+ cheat_research_one_desc:0 "你的科研人员是神圣的."
+ cheat_planet_one:0 "(无效)星球增益"
+ cheat_planet_one_desc:0 "A poor unused buff. One day little buddy!"
+ d_c_terraforming_resource_deposit:0 "发现地形转换用资源\n"
+############################################
+
+####  By Inkit  ####
+
+# Species traits
+ trait_dim:0 "朦胧"
+ trait_dim_desc:0 "§L这个种族有轻微的精神缺陷，减少他们的科研能力.§!\n"
+ trait_inept:0 "无能"
+ trait_inept_desc:0 "§L这个种族几乎完全不会科技研发.§!\n"
+ trait_urban:0 "城市化"
+ trait_urban_desc:0 "§L这个种族会发展大量市区，将农业用地转为高人口密度的城市.§!\n"
+ trait_indulgent:0 "放纵"
+ trait_indulgent_desc:0 "§L这个物种的成员天生拥有享乐主义，浪费资源.§!\n"
+ trait_transient:0 "短暂"
+ trait_transient_desc:0 "§L这个种族寿命比其他种族短.§!\n"
+ trait_content:0 "满足"
+ trait_content_desc:0 "§L这个种族的成员很容易知足，因此他们不会做必要以外的事情.§!\n"
+ trait_valiant:0 "英勇"
+ trait_valiant_desc:0 "§L有着勇敢与英雄的悠久历史，这个种族的成员在战斗中享受收益.§!\n"
+ trait_craven:0 "怯懦"
+ trait_craven_desc:0 "§L这个物种的成员极度缺乏勇气.§!\n"
+ trait_conservationists:0 "保护主义者"
+ trait_conservationists_desc:0 "§L这个物种崇尚顺其自然.§!\n"
+ trait_deliberators:0 "统治者"
+ trait_deliberators_desc:0 "§L这个物种喜好政治游戏，他们所选择的领导人达到了其他物种无法比拟的水平.§!\n"
+ trait_resourceful:0 "富于想象"
+ trait_resourceful_desc:0 "§L这个物种已经发现了自己的人生道路.§!\n"
+ trait_virtualists:0 "虚拟现实"
+ trait_virtualists_desc:0 "§L这个物种拥抱VR技术，以致于他们很难激发民众关心现实世界，或者是谁在领导现实世界.§!\n"
+ trait_delicate:0 "纤弱"
+ trait_delicate_desc:0 "§L这个物种的成员生理性的纤弱，以至于轻轻的一碰都会摔倒.§!\n"
+ trait_very_weak:0 "非常虚弱"
+ trait_very_weak_desc:0 "§L这个物种的成员极其虚弱，轻微的伤害对他们来说都是致命的.§!\n"
+ trait_individualistic:0 "个人主义"
+ trait_individualistic_desc:0 "§L这个物种的成员设法使自己与众不同并脱颖而出，因此他们不太可能遵守政府政策.§!\n"
+ trait_incompetent_engineers:0 "不称职的工程师"
+ trait_incompetent_engineers_desc:0 "§L这个物种的成员难以掌握工程方面的基本概念.§!\n"
+ trait_incompetent_physicists:0 "不称职的物理学家"
+ trait_incompetent_physicists_desc:0 "§L这个物种的成员难以掌握物理学方面的基本概念.§!\n"
+ trait_incompetent_sociologists:0 "不称职的社会学家"
+ trait_incompetent_sociologists_desc:0 "§L这个物种的成员难以掌握社会学方面的基本概念.§!\n"
+ trait_politically_adept:0 "政治娴熟"
+ trait_politically_adept_desc:0 "§L这个物种的成员专门从事政治科学，致力于有针对性的宣传和政治活动.§!\n"
+ trait_natural_architects:0 "天才建筑师"
+ trait_natural_architects_desc:0 "§L这个物种的成员是天才建筑师，他们擅长使用华丽的技能建造奇妙的建筑.§!\n"
+ trait_incompetent_architects:0 "不称职的建筑师"
+ trait_incompetent_architects_desc:0 "§L这个物种的成员极其不擅长建筑设计与建造.§!\n"
+ 
+ # Ruler Traits
+ trait_ruler_veteran_politician:0 "政治老将"
+ trait_ruler_veteran_politician_desc:0 "§L这个统治者积累了多年的经验，成为了政治家.§!\n"
+ trait_ruler_scientific_mind:0 "科学思维"
+ trait_ruler_scientific_mind_desc:0 "§L这个统治者有科学头脑.§!\n"
+ trait_ruler_visionary:0 "梦想家"
+ trait_ruler_visionary_desc:0 "§这个统治者对帝国的未来有强大而清晰的愿景.§!\n"
+
+  # Governor Traits
+ trait_governor_energetic_encourager:0 "精力充沛的鼓舞者"
+ trait_governor_energetic_encourager_desc:0 "§这个总督鼓励人们花一些私人时间在一起.§!\n"
+ trait_governor_apathetic:0 "冷漠"
+ trait_governor_apathetic_desc:0 "§这位总督一点都不关心底下生活的民众.§!\n"
+ trait_governor_inspiring_leader:0 "鼓舞人心的领导者"
+ trait_governor_inspiring_leader_desc:0 "§这位领导与他的个人魅力激发出民众坚强的意志.§!\n"
+ 
+ 
+  # Some strings 
+
+ CANNOT_PICK_SLAVERY_TRAIT:3 "不能选择 $trait_decadent$ 或 $trait_resourceful$，除非你已经选择了一个可以增加 $MOD_POP_SLAVERY_TOLERANCE$ 的特性、思潮或政府 ."
+ CANNOT_PICK_SLAVERY_TRAIT_2:2 "不能选择 $trait_decadent$ 或 $trait_resourceful$，因为你已经选择了一个减少 $MOD_POP_SLAVERY_TOLERANCE$ 的特性、思潮或政府."
+ 
+# Empire modifiers
+
+ extraits_conservationists:0 "$trait_conservationists$"
+ extraits_conservationists_desc:0 "$trait_conservationists_desc$"
+ extraits_deliberators:0 "$trait_deliberators$"
+ extraits_deliberators_desc:0 "$trait_deliberators_desc$"
+ extraits_virtualists:0 "$trait_virtualists$"
+ extraits_virtualists_desc:0 "$trait_virtualists_desc$"
+ extraits_pol_adept:0 "$trait_politically_adept$"
+ extraits_pol_adept_desc:0 "$trait_politically_adept_desc$"
+ extraits_very_weak:0 "$trait_very_weak$"
+ extraits_very_weak_desc:0 "$trait_very_weak_desc$"
+ extraits_natural_architects:0 "$trait_natural_architects$"
+ extraits_natural_architects_desc:0 "$trait_natural_architects_desc$"
+ extraits_incompetent_architects:0 "$trait_incompetent_architects$"
+ extraits_incompetent_architects_desc:0 "$trait_incompetent_architects_desc$"
+
+ ####  By Inkit  ####
+
+ edict_offensive_protocols:0 "协议: 进攻"
+ edict_offensive_protocols_desc:0 "简而言之就是重定向舰队的武器和目标选择，授予更多的进攻能力，但是消耗会提高.\n\n"
+ 
+ edict_defensive_protocols:0 "协议: 防御"
+ edict_defensive_protocols_desc:0 "将资源分配给护盾、船体维护和闪避路径处理系统，花费更多的钱来用于防御.\n\n"
+ 
+ edict_barrage_protocols:0 "协议: 弹幕"
+ edict_barrage_protocols_desc:0 "变更发动机功率火控系统，极大地提高了射击频率，威力减弱，但是可以拦截跟多的目标.\n\n"
+ 
+ edict_swarm_protocols:0 "协议: 一群"
+ edict_swarm_protocols_desc:0 "如果你看到这里... 我不知道... 我不知道能走多远.\n\n"
+ 
+ edict_unshackled_AI:0 "协议: 不受束缚的AI"
+ edict_unshackled_AI_desc:0 "肮脏的作弊.\n\n"
+ 
+ edict_rapid_response_protocols:0 "协议: 快速感知"
+ edict_rapid_response_protocols_desc:0 "网络化传感器使得舰船感知范围大幅提升，但是过载的引擎和使得舰船机动力降低.\n\n"
+
+ edict_destructive_testing_protocols:0 "协议: 毁灭测试"
+ edict_destructive_testing_protocols_desc:0 "指导我们的科学家开始毁灭性测试程序，利用矿产和能源来提高研究速度.\n\n"
+ 
+ edict_premeditation:0 "学说: 预谋"
+ edict_premeditation_desc:0 "迅速转移帝国资源，为即将发生的冲突做好准备，提高工业和军事效益，但农业与科学效率降低.\n\n"
+
+ edict_specialized_crafts:0 "学说: 特种飞船"
+ edict_specialized_crafts_desc:0 "使船厂开始制造实验性飞船，但因使用实验性零件导致生产效率降低.\n\n"
+ 
+ edict_fortress:0 "学说: 要塞"
+ edict_fortress_desc:0 "使帝国进入防御姿态，割让领土来缩减防御范围. 消耗工业与经济，但是会使入侵更加艰难.\n\n"
+ 
+ edict_expansionist:0 "学说: 扩张"
+ edict_expansionist_desc:0 "追求帝国主义雄心，将重点从工业转移到快速殖民与外国资产整合.\n\n"
+ 
+ edict_isolationist:0 "学说: 孤立"
+ edict_isolationist_desc:0 "重新调整，在自己的边界内整合资源. 获得更高效的全国性边际效益，但缺乏外交能力，并且丧失影响力.\n\n"
+
+ edict_cloak_and_dagger:0 "学说: 斗篷与匕首"
+ edict_cloak_and_dagger_desc:0 "放弃传统的政治手段来获得影响力，这有着微妙的意义...\n\n"
+ 
+ edict_stockpile:0 "学说: 储存"
+ edict_stockpile_desc:0 "增加储备量以备不时之需，提高矿产和能量的生产和储存能力，但是会影响人口增长及幸福度.\n\n"
+ 
+ shipsize_interceptor_construction_speed_mult:0 "拦截器建造速度"
+ shipsize_fleet_carrier_construction_speed_mult:0 "航空母舰建造速度"
+ 
+ shipsize_interceptor_build_cost_mult:0 "拦截器建造花费"
+ shipsize_fleet_carrier_build_cost_mult:0 "航空母舰建造花费"
+ 
+ shipclass_military_damage_mult:0 "舰船武器伤害"
+ shipclass_military_hit_points_mult:0 "舰船生命"
+ shipclass_military_build_cost_mult:0 "舰船建造花费"
+
+ ####  By Inkit  ####
+
+#### More Army Attachments ####
+#### http://steamcommunity.com/sharedfiles/filedetails/?id=  ####
+
+####################################
+ # Armies
+####################################
+ exoskeleton_suit_army:0 "动力装甲"
+ exoskeleton_suit_army_plural:0 "动力装甲"
+ exoskeleton_suit_army_desc:0 "由电机、气动、杠杆和液压系统提供动力的可穿戴式移动设备，它能提高力量和耐力."
+ battle_mechs:0 "战争机器"
+ battle_mechs_plural:0 "战争机器"
+ battle_mechs_desc:0 "由驾驶员操控的大型可行走战争机器."
+
+ # MAA Branch
+ 
+ tech_body_armour_1:0 "液态装甲"
+ tech_body_armour_1_desc:0 "当被告诉的子弹击中时，液体会在瞬间变得极其坚硬."
+ tech_body_armour_2:0 "外装甲"
+ tech_body_armour_2_desc:0 "一个便于肢体运动的可穿戴外装甲，增加力量和耐力."
+ tech_body_armour_3:0 "$battle_mechs$"
+ tech_body_armour_3_desc:0 "$battle_mechs_desc$"
+ tech_ground_ordnance:0 "地面支援"
+ tech_ground_ordnance_desc:0 "JTAC 训练与更好的弹药将改变我们的作战方式."
+ 
+ # MMA Tech
+ tech_logistics_1:0 "逻辑智能"
+ tech_logistics_1_desc:"在外国训练将使部队在战斗中获得优势."
+ tech_logistics_2:0 "星球后勤"
+ tech_logistics_2_desc:"在外星的生存训练过程中，一些人建立了补给站."
+ tech_slave_tech_1:0 "奴隶娱乐"
+ tech_slave_tech_1_desc:"领导者给战士们安排了后宫."
+ tech_slave_tech_2:0 "奴隶战争"
+ tech_slave_tech_2_desc:"我们有许多奴隶什么事情也没有，为什么不给他们找些事情做."
+ 
+ 
+ ####################################
+ # Army Attachments
+ ####################################
+ army_attachment_chaplain:0 "牧师"
+ army_attachment_chaplain_desc:0 "神力将使我们在战争中获胜."
+ army_attachment_suicide_bombers:0 "自杀炸弹"
+ army_attachment_suicide_bombers_desc:0 "我们有许多奴隶什么事情也没有，为什么不给他们找些事情做."
+ army_attachment_rulers_harem:0 "统治者的后宫"
+ army_attachment_rulers_harem_desc:0 "领导者给战士们安排了后宫."
+ army_attachment_supply_company:0 "后勤公司"
+ army_attachment_supply_company_desc:0 "赢得战争需要充足的补给，后勤公司提供补给支持"
+ army_attachment_liquid_body_armor:0 "液态装甲"
+ army_attachment_liquid_body_armor_desc:0 "$tech_body_armour_1_desc$"
+ army_attachment_other_world_survival_trainnig:0 "异世界生存训练"
+ army_attachment_other_world_survival_trainnig_desc:0 "在外国训练部队将使他们更善战."
+ army_attachment_JTAC:0 "JTAC 训练"
+ army_attachment_JTAC_desc:0 "JTAC 训练使军队学会寻找更有效的轨道轰炸目标."
+ army_attachment_EXACTO:0 "超精准射击"
+ army_attachment_EXACTO_desc:0 "子弹会跟踪敌人，这确保能杀死敌人."
+ army_attachment_battle_mech:0 "$battle_mechs$"
+ army_attachment_battle_mech_desc:0 "$battle_mechs_desc$"
+ army_attachment_exoskeleton_suit:0 "$exoskeleton_suit_army$"
+ army_attachment_exoskeleton_suit_desc:0 "$exoskeleton_suit_army_desc$"
