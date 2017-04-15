@@ -45,7 +45,7 @@ easybuff_system_initializer = {
 		class = "pc_gaia"
 		orbit_distance = 20
 		orbit_angle = 120
-		size = 25
+		size = 16
 		starting_planet = yes
 		has_ring = no
 		entity = "continental_planet_earth_entity"
@@ -56,120 +56,107 @@ easybuff_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_1"
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
-					add_resource = {
-						resource = energy
-						amount = 7
-						replace = yes
-					}
-					add_resource = {
-						resource = sr_terraform_gases
-						amount = 1
-					}
-					add_resource = {
-						resource = sr_terraform_liquids
-						amount = 1
-					}
-					add_resource = {
-						resource = sr_dark_matter
-						amount = 1
-					}
-					add_resource = {
-						resource = sr_neutronium
-						amount = 1
-					}
+				add_resource = {
+					resource = energy
+					amount = 50
+					replace = yes
+				}
+				add_resource = {
+					resource = sr_terraform_gases
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_terraform_liquids
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_dark_matter
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_neutronium
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_orillium
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_pitharan
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_satramene
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_living_metal
+					amount = 1
+				}	
+				add_resource = {
+					resource = sr_garanthium
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_lythuric
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_teldar
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_zro
+					amount = 1
+				}
+				add_resource = {
+					resource = sr_engos
+					amount = 1
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
 					add_resource = {
+						resource = minerals
+						amount = 5
+						replace = yes
+					}
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
 						resource = energy
-						amount = 7
+						amount = 5
 						replace = yes
-					}
-					add_resource = {
-						resource = sr_garanthium
-						amount = 1
-					}
-					add_resource = {
-						resource = sr_lythuric
-						amount = 1
-					}
-					add_resource = {
-						resource = sr_teldar
-						amount = 1
-					}
-					add_resource = {
-						resource = sr_zro
-						amount = 1
 					}
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
+					set_building = "building_basic_science_lab_1"
 					add_resource = {
-						resource = minerals
-						amount = 7
+						resource = physics_research
+						amount = 120
 						replace = yes
 					}
 					add_resource = {
-						resource = sr_orillium
-						amount = 1
+						resource = society_research
+						amount = 120
 					}
 					add_resource = {
-						resource = sr_pitharan
-						amount = 1
-					}
-					add_resource = {
-						resource = sr_satramene
-						amount = 1
-					}
-					add_resource = {
-						resource = sr_living_metal
-						amount = 1
-					}	
+						resource = engineering_research
+						amount = 120
+					}		
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
+					set_building = "building_hydroponics_farm_1"
 					add_resource = {
-						resource = minerals
-						amount = 7
+						resource = food
+						amount = 80
 						replace = yes
-					}
-					add_resource = {
-						resource = sr_engos
-						amount = 1
 					}
 				}				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				add_resource = {
-					resource = physics_research
-					amount = 100
-					replace = yes
-				}
-				add_resource = {
-					resource = society_research
-					amount = 100
-				}
-				add_resource = {
-					resource = engineering_research
-					amount = 100
-				}			
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_hydroponics_farm_1"
-				add_resource = {
-					resource = food
-					amount = 70
-					replace = yes
-				}
 			}
 		}
 		moon = {
