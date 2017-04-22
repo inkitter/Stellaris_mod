@@ -58,7 +58,7 @@ easybuff_system_initializer = {
 				set_building = "building_capital_1"
 				add_resource = {
 					resource = energy
-					amount = 150
+					amount = 120
 					replace = yes
 				}
 				add_resource = {
@@ -115,10 +115,10 @@ easybuff_system_initializer = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
+					set_building = "building_mining_network_1"
 					add_resource = {
 						resource = minerals
-						amount = 200
+						amount = 100
 						replace = yes
 					}
 				}
@@ -146,7 +146,7 @@ easybuff_system_initializer = {
 					add_resource = {
 						resource = engineering_research
 						amount = 150
-					}		
+					}
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -169,6 +169,33 @@ easybuff_system_initializer = {
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
 			modifiers = none
+			init_effect = {
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_basic_science_lab_1"
+					add_resource = {
+						resource = physics_research
+						amount = 200
+						replace = yes
+					}
+					add_resource = {
+						resource = society_research
+						amount = 200
+					}
+					add_resource = {
+						resource = engineering_research
+						amount = 200
+					}
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					add_resource = {
+						resource = energy
+						amount = 120
+						replace = yes
+					}
+				}
+			}
 		}
 	}
 
@@ -182,6 +209,33 @@ easybuff_system_initializer = {
 		entity = "barren_planet_mars_entity"
 		tile_blockers = none
 		modifiers = none
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_basic_science_lab_1"
+				add_resource = {
+					resource = physics_research
+					amount = 200
+					replace = yes
+				}
+				add_resource = {
+					resource = society_research
+					amount = 200
+				}
+				add_resource = {
+					resource = engineering_research
+					amount = 200
+				}
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = energy
+					amount = 120
+					replace = yes
+				}
+			}
+		}
 	}
 	
 	planet = {
