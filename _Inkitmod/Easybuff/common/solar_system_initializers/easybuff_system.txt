@@ -45,7 +45,7 @@ easybuff_system_initializer = {
 		class = "pc_gaia"
 		orbit_distance = 20
 		orbit_angle = 120
-		size = 16
+		size = 25
 		starting_planet = yes
 		has_ring = no
 		entity = "continental_planet_earth_entity"
@@ -136,16 +136,16 @@ easybuff_system_initializer = {
 					set_building = "building_basic_science_lab_1"
 					add_resource = {
 						resource = physics_research
-						amount = 150
+						amount = 200
 						replace = yes
 					}
 					add_resource = {
 						resource = society_research
-						amount = 150
+						amount = 200
 					}
 					add_resource = {
 						resource = engineering_research
-						amount = 150
+						amount = 200
 					}
 				}
 				random_neighboring_tile = {
@@ -162,7 +162,7 @@ easybuff_system_initializer = {
 		moon = {
 			name = "Luna"
 			class = "pc_gaia"
-			size = 25
+			size = 16
 			orbit_distance = 12
 			orbit_angle = 40
 			has_ring = no
@@ -240,11 +240,40 @@ easybuff_system_initializer = {
 	
 	planet = {
 		name = "1 Ceres"
-		class = "pc_asteroid"
+		class = "pc_gaia"
 		orbit_distance = 20
 		orbit_angle = -210
-		size = 5
+		size = 25
 		has_ring = no
+		tile_blockers = none
+		modifiers = none
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_basic_science_lab_1"
+				add_resource = {
+					resource = physics_research
+					amount = 200
+					replace = yes
+				}
+				add_resource = {
+					resource = society_research
+					amount = 200
+				}
+				add_resource = {
+					resource = engineering_research
+					amount = 200
+				}
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = energy
+					amount = 120
+					replace = yes
+				}
+			}
+		}
 	}
 	
 	planet = {
