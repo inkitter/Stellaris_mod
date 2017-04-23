@@ -7,10 +7,8 @@ country_edict = {
     # planet_border_mult = 1
     # country_leader_cap = 5
     # country_leader_pool_size = 2
-    leader_age = 500
     country_resource_unity_mult = 2
     ascension_perks_add = 3
-
     ship_anomaly_fail_risk = -1
     ship_anomaly_research_speed_mult = 1
     science_ship_survey_speed = 1
@@ -23,13 +21,11 @@ country_edict = {
     # army_damage_mult = 5
     # army_morale_damage_mult = 5
     # ship_emergency_ftl_mult = -1
-    ship_interstellar_speed_mult = 5
-    ship_windup_mult = -1
-    ship_winddown_mult = -1
+    
     ship_speed_mult = 3
-    ship_sensor_range_mult = 4
+    ship_sensor_range_mult = 5
     ship_armor_add = 888
-    ship_shield_hp_add = 3000
+    ship_shield_hp_add = 5000
     ship_hitpoints_add = 5000
     ship_auto_repair_add = 0.2
     # ship_weapon_range_mult = 1
@@ -46,7 +42,7 @@ country_edict = {
 }
 
 country_edict = {
-  name = "edict_easy_buff_superresearch"
+  name = "easy_buff_superresearch"
 
   modifier = {
     all_technology_research_speed = 10
@@ -64,11 +60,41 @@ country_edict = {
 }
 
 country_edict = {
-  name = "edict_easy_buff_stock"
+  name = "easy_buff_stock"
 
   modifier = {
     country_resource_minerals_add = 100
 	  country_resource_energy_add = 100
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+}
+
+country_edict = {
+  name = "easy_buff_leader"
+
+  modifier = {
+    leader_age = 500
+  }
+
+  influence_cost = 0
+  
+  potential = {
+    is_ai = no
+  }
+}
+
+country_edict = {
+  name = "easy_buff_godfleet"
+
+  modifier = {
+    ship_interstellar_speed_mult = 5
+    ship_windup_mult = -1
+    ship_winddown_mult = -1
   }
 
   influence_cost = 0
