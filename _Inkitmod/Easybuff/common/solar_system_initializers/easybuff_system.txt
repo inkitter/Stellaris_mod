@@ -115,7 +115,7 @@ easybuff_system_initializer = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_mineral_processing_2"
+					set_building = "building_mineral_processing_plant_2"
 					add_resource = {
 						resource = minerals
 						amount = 100
