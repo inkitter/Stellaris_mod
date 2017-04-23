@@ -55,7 +55,7 @@ easybuff_system_initializer = {
 		init_effect = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_1"
+				set_building = "building_capital_3"
 				add_resource = {
 					resource = energy
 					amount = 120
@@ -115,7 +115,7 @@ easybuff_system_initializer = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_mining_network_1"
+					set_building = "tech_mineral_processing_2"
 					add_resource = {
 						resource = minerals
 						amount = 100
@@ -124,7 +124,7 @@ easybuff_system_initializer = {
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_plant_1"
+					set_building = "tech_power_hub_2"
 					add_resource = {
 						resource = energy
 						amount = 5
@@ -191,7 +191,7 @@ easybuff_system_initializer = {
 					limit = { has_blocker = no has_building = no }
 					add_resource = {
 						resource = energy
-						amount = 120
+						amount = 60
 						replace = yes
 					}
 				}
@@ -231,7 +231,7 @@ easybuff_system_initializer = {
 				limit = { has_blocker = no has_building = no }
 				add_resource = {
 					resource = energy
-					amount = 120
+					amount = 60
 					replace = yes
 				}
 			}
@@ -269,7 +269,7 @@ easybuff_system_initializer = {
 				limit = { has_blocker = no has_building = no }
 				add_resource = {
 					resource = energy
-					amount = 120
+					amount = 60
 					replace = yes
 				}
 			}
