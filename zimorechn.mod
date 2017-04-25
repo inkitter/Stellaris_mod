@@ -1,5 +1,5 @@
 name="!More Chinese"
-path="mod/_morechn"
+path="mod/_Inkitmod/morechn"
 picture="morechn.png"
 remote_file_id="687203571"
 supported_version="1.5"
