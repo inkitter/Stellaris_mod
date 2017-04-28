@@ -5322,7 +5322,7 @@
  DEMOCRATIC_ELECTION_TITLE:0 "§H选举总览§!"
  DEMOCRATIC_ELECTION_DESC:0 "选举总览将显示所有候选人的信息，以及各自所属的派别、当选承诺和当前支持率。\n§G点击以打开选举总览界面§!"
  ELECTION:0 "选举"
- REFORM_GOV_DESC:0 "改变政府的道德观、公民性及权利制度以对之改革。这些改变将需要一笔影响力费用。"
+ REFORM_GOV_DESC:0 "改变政府的道德观、公民性及权力制度以对之改革。这些改变将需要一笔影响力费用。"
 
  ####################################
  # Democratic Election View
@@ -6053,17 +6053,17 @@
  building_hypercomms_forum_desc:0 "这座拥有前卫的人际沟通设备的庞大设施，让人们可以在休闲讨论中交换多感官的想法，可以在辩论中快速达成共识。"
  building_autocurating_vault:0 "自展穹窟"
  building_autocurating_vault_desc:0 "一坐高度专业化的计算机网络，其从那些我们现在看来是家常便饭的东西中自动获取、分析、评估和展示那些它认为将来会有历史意义的文物。这创造出一个活着的现代博物馆，打开了前往时代精神的窗口。"
- building_temple:0 "寺庙"
- building_temple_desc:0 "虽然是自古以来就有的简单建筑物，寺庙是我们可以安静地沉思和交流的地方，凝聚我们所有人。"
- building_holotemple:0 "全息寺庙"
- building_holotemple_desc:0 "粗糙的传统寺庙的升级形式。最新的精神主义科技在全息寺庙中创造出了可以被改变的现实——所有这些都是为了更深入的冥想和更强烈的奉献精神。"
+ building_temple:0 "神庙"
+ building_temple_desc:0 "虽然是自古以来就有的简单建筑物，神庙是我们可以安静地沉思和交流的地方，凝聚我们所有人。"
+ building_holotemple:0 "全息神庙"
+ building_holotemple_desc:0 "粗糙的传统神庙的升级形式。最新的精神主义科技在全息神庙中创造出了可以被改变的现实——所有这些都是为了更深入的冥想和更强烈的奉献精神。"
  building_citadel_of_faith:0 "真信之垒"
  building_citadel_of_faith_desc:0 "一个为所有前来的人提供从物质世界中逃避、隔离的巨大复杂设施。"
 
  ####################################
  # Wonders
  ####################################
- building_xeno_zoo:0 "异形动物园"
+ building_xeno_zoo:0 "异星动物园"
  building_xeno_zoo_desc:0 "我们从宇宙各处收集到了各异的外星生物，象征着对未知的征服。"
  building_fe_xeno_zoo:0 "外星保护区"
  building_hab_capital:0 "轨道栖所行政部"
@@ -6124,11 +6124,11 @@
  ####################################
  # Building requirement custom descs
  ####################################
- requires_building_capital_1_or_hab:0 "§R需要行星上有 §Y$building_capital_1$§! 或 §Y$building_hab_capital$§!。§!"
+ requires_building_capital_1_or_hab:0 "§R行星必须拥有§Y$building_capital_1$§!或者§Y$building_hab_capital$§!。§!"
  requires_building_capital_1:0 "§R行星必须拥有§Y$building_capital_1$§!。§!"
  requires_building_capital_2:0 "§R行星必须拥有§Y$building_capital_2$§!。§!"
  requires_building_capital_3:0 "§R行星必须拥有§Y$building_capital_3$§!。§!"
- requires_any_empire_capital:0 "§R需要行星上有 §Y$building_capital_3$§! 或 §Y$building_hab_capital$§!。§!"
+ requires_any_empire_capital:0 "§R行星必须拥有§Y$building_capital_3$§!或者§Y$building_hab_capital$§!。§!"
  requirement_robotics_2:0 "§R行星必须拥有§Y$building_capital_2$§!。人工智能不能设为违法。§!"
  requirement_robotics_3:0 "§R行星必须拥有§Y$building_capital_3$§!。人工智能不能设为违法。§!"
  requirement_slave_facility:0 "§R奴隶制是违法的。§!"
@@ -6484,7 +6484,7 @@
  civic_meritocracy:0 "唯才是举"
  civic_meritocracy_desc:0 "个人的社会地位或者社会关系不应当影响其职业。在此社会中攀上高楼的唯一基础是能力与才干。"
  civic_citizen_service:0 "全民皆兵"
- civic_citizen_service_desc:0 "你履行了你的义务吗？完整的公民权以及与之相关的政治责任只限于在军队履行过义务的人。服务保障公民权。"
+ civic_citizen_service_desc:0 "你履行了你的义务吗？完整的公民权以及与之相关的政治责任只限于在军队履行过义务的人。服军役保障公民权。"
  civic_technocracy:0 "技官统治"
  civic_technocracy_desc:0 "为了最大化效率，此社会按照科学和理性的原则来管理。其绝不会容许一个无知而危险的不合格政治精英的个人想法干预社会。"
  civic_police_state:0 "警察国家"
@@ -6543,7 +6543,7 @@
  civic_the_wheel_desc:0 ""
  civic_landed_nobility:0 "地主贵族"
  civic_landed_nobility_desc:0 ""
- civic_flat_world_theory:0 "平面世界理论"
+ civic_flat_world_theory:0 "平面世界论"
  civic_flat_world_theory_desc:0 ""
  civic_increasing_urbanization:0 "日增的城市化"
  civic_increasing_urbanization_desc:0 ""
@@ -8102,7 +8102,7 @@
  army_attachment_infestation_brood:0 "感染育种"
  army_attachment_infestation_brood_desc:0 "§L一旦被释放，这些凶残的寄生生物就会迅速寻找宿主来繁殖后代。它们将以指数级的疯狂速度增长，可以在几天之内消灭一个城市。对敌人士气的打击也是毁灭性的。§!"
  army_attachment_brood_coordinator:0 "协调之母"
- army_attachment_brood_coordinator_desc:0 "§L这个巨大的如鼻涕虫一样的生物被养在前线后方来对异形军队内各种贪婪生物进行协调。它使用低级的灵能信号来和异形军队进行交流。它除了气味难闻之外，还经常让使用者感到严重的头痛。§!"
+ army_attachment_brood_coordinator_desc:0 "§L这个巨大的如鼻涕虫一样的生物被养在前线后方来对异星军队内各种贪婪生物进行协调。它使用低级的灵能信号来和异形军队进行交流。它除了气味难闻之外，还经常让使用者感到严重的头痛。§!"
  army_attachment_battle_worms:0 "战争蠕虫"
  army_attachment_battle_worms_desc:0 "§L这些经过基因改造的巨大的无脊椎动物能够钻入地面，绕过敌人的防线并且可以让更小的生物使用它们挖好的隧道。它们挖出的隧道同时也能用来防御轨道轰炸。§!"
  army_attachment_raptor_flocks:0 "猛禽战队"
