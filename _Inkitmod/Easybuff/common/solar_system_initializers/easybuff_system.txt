@@ -61,58 +61,6 @@ easybuff_system_initializer = {
 					amount = 120
 					replace = yes
 				}
-				add_resource = {
-					resource = sr_terraform_gases
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_terraform_liquids
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_dark_matter
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_neutronium
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_orillium
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_pitharan
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_satramene
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_living_metal
-					amount = 1
-				}	
-				add_resource = {
-					resource = sr_garanthium
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_lythuric
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_teldar
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_zro
-					amount = 1
-				}
-				add_resource = {
-					resource = sr_engos
-					amount = 1
-				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mineral_processing_plant_2"
@@ -136,16 +84,16 @@ easybuff_system_initializer = {
 					set_building = "building_basic_science_lab_1"
 					add_resource = {
 						resource = physics_research
-						amount = 200
+						amount = 50
 						replace = yes
 					}
 					add_resource = {
 						resource = society_research
-						amount = 200
+						amount = 50
 					}
 					add_resource = {
 						resource = engineering_research
-						amount = 200
+						amount = 50
 					}
 				}
 				random_neighboring_tile = {
@@ -153,7 +101,7 @@ easybuff_system_initializer = {
 					set_building = "building_hydroponics_farm_1"
 					add_resource = {
 						resource = food
-						amount = 20
+						amount = 15
 						replace = yes
 					}
 				}				
@@ -175,20 +123,20 @@ easybuff_system_initializer = {
 					set_building = "building_basic_science_lab_1"
 					add_resource = {
 						resource = physics_research
-						amount = 200
+						amount = 50
 						replace = yes
 					}
 					add_resource = {
 						resource = society_research
-						amount = 200
+						amount = 50
 					}
 					add_resource = {
 						resource = engineering_research
-						amount = 200
+						amount = 50
 					}
 				}
 				random_tile = {
-					limit = { has_blocker = no has_building = no }
+					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 					add_resource = {
 						resource = energy
 						amount = 60
@@ -215,20 +163,20 @@ easybuff_system_initializer = {
 				set_building = "building_basic_science_lab_1"
 				add_resource = {
 					resource = physics_research
-					amount = 200
+					amount = 50
 					replace = yes
 				}
 				add_resource = {
 					resource = society_research
-					amount = 200
+					amount = 50
 				}
 				add_resource = {
 					resource = engineering_research
-					amount = 200
+					amount = 50
 				}
 			}
 			random_tile = {
-				limit = { has_blocker = no has_building = no }
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 				add_resource = {
 					resource = energy
 					amount = 60
@@ -253,20 +201,20 @@ easybuff_system_initializer = {
 				set_building = "building_basic_science_lab_1"
 				add_resource = {
 					resource = physics_research
-					amount = 200
+					amount = 50
 					replace = yes
 				}
 				add_resource = {
 					resource = society_research
-					amount = 200
+					amount = 50
 				}
 				add_resource = {
 					resource = engineering_research
-					amount = 200
+					amount = 50
 				}
 			}
 			random_tile = {
-				limit = { has_blocker = no has_building = no }
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 				add_resource = {
 					resource = energy
 					amount = 60
