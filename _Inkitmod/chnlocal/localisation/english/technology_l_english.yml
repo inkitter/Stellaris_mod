@@ -526,7 +526,7 @@
  tech_biolab_3_desc:1 "我们有幸知道了所有生物的一些共同点。也就是生命的基础。"
  tech_alien_life_studies:1 "异星生物学"
  tech_alien_life_studies_desc:1 "研究其他世界的动物群外星人的行为提供了一些见解，这使得我们可以识别和驯养温顺的个体。"
- tech_xeno_zoo:0 "异形动物园"
+ tech_xeno_zoo:0 "异星动物园"
  tech_xeno_zoo_desc:1 "在研究了各种外星生命形式并有了一个对固有的潜在风险的认识，我们能够收集鲜活的标本展出了。"
  tech_colonization_1:0 "新世界协议"
  tech_colonization_1_desc:1 "计算建立一个行星殖民地所需的资源和设备，让我们勇敢的先驱者开着“方舟”，相信他们会在远方的行星有一个新家。"
@@ -595,7 +595,7 @@
  tech_tb_massive_glacier:0 "气候控制网络"
  tech_tb_massive_glacier_desc:1 "经适当的管理，轨道系统的镜子和遮板可以戏剧性地改造行星气候。"
  tech_tb_toxic_kelp:0 "海洋生态管理"
- tech_tb_toxic_kelp_desc:1 "只要有足够的电力，网络传感器和分布式点站, 可以控制洋流。"
+ tech_tb_toxic_kelp_desc:1 "只要有足够的电力，网络传感器和分布式站点, 可以控制洋流。"
  tech_tb_deep_sinkhole:0 "地下殖民"
  tech_tb_deep_sinkhole_desc:1 "许多行星有出广袤的地下空隙。通过地下勘探、开发和建设技术可以大大提高一些行星的适居面积。"
 
