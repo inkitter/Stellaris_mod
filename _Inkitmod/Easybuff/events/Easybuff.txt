@@ -19,7 +19,8 @@ country_event = {
 
     option = {
         name = OK
-        give_technology = { tech = tech_energy_torpedoes_2 }
+        give_technology = { tech = tech_missiles_5 }
+        give_technology = { tech = tech_torpedoes_3 }
         give_technology = { tech = tech_enigmatic_power_core }
         give_technology = { tech = tech_psi_jump_drive_1 }
         give_technology = { tech = tech_afterburners_2 }
@@ -28,7 +29,6 @@ country_event = {
         give_technology = { tech = tech_space_defense_station_3 }
         give_technology = { tech = tech_mega_engineering }
         
-        give_technology = { tech = tech_telepathy }
 #        give_technology = { tech = tech_telepathy }
 #        give_technology = { tech = tech_telepathy }
 #        give_technology = { tech = tech_gene_seed_purification }
