@@ -58,7 +58,7 @@ easybuff_system_initializer = {
 				set_building = "building_capital_3"
 				add_resource = {
 					resource = energy
-					amount = 50
+					amount = 20
 					replace = yes
 				}
 				random_neighboring_tile = {
@@ -66,7 +66,7 @@ easybuff_system_initializer = {
 					set_building = "building_mineral_processing_plant_2"
 					add_resource = {
 						resource = minerals
-						amount = 100
+						amount = 50
 						replace = yes
 					}
 				}
@@ -75,7 +75,7 @@ easybuff_system_initializer = {
 					set_building = "building_power_hub_2"
 					add_resource = {
 						resource = energy
-						amount = 50
+						amount = 20
 						replace = yes
 					}
 				}
@@ -84,16 +84,16 @@ easybuff_system_initializer = {
 					set_building = "building_institute"
 					add_resource = {
 						resource = physics_research
-						amount = 50
+						amount = 40
 						replace = yes
 					}
 					add_resource = {
 						resource = society_research
-						amount = 50
+						amount = 40
 					}
 					add_resource = {
 						resource = engineering_research
-						amount = 50
+						amount = 40
 					}
 				}
 				random_neighboring_tile = {
@@ -101,7 +101,7 @@ easybuff_system_initializer = {
 					set_building = "building_hydroponics_farm_1"
 					add_resource = {
 						resource = food
-						amount = 30
+						amount = 40
 						replace = yes
 					}
 				}				
@@ -123,23 +123,23 @@ easybuff_system_initializer = {
 					set_building = "building_basic_science_lab_1"
 					add_resource = {
 						resource = physics_research
-						amount = 50
+						amount = 30
 						replace = yes
 					}
 					add_resource = {
 						resource = society_research
-						amount = 50
+						amount = 30
 					}
 					add_resource = {
 						resource = engineering_research
-						amount = 50
+						amount = 30
 					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 					add_resource = {
 						resource = energy
-						amount = 50
+						amount = 30
 						replace = yes
 					}
 				}
@@ -161,23 +161,23 @@ easybuff_system_initializer = {
 					set_building = "building_basic_science_lab_1"
 					add_resource = {
 						resource = physics_research
-						amount = 50
+						amount = 30
 						replace = yes
 					}
 					add_resource = {
 						resource = society_research
-						amount = 50
+						amount = 30
 					}
 					add_resource = {
 						resource = engineering_research
-						amount = 50
+						amount = 30
 					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 					add_resource = {
 						resource = energy
-						amount = 50
+						amount = 20
 						replace = yes
 					}
 				}
@@ -199,23 +199,23 @@ easybuff_system_initializer = {
 					set_building = "building_basic_science_lab_1"
 					add_resource = {
 						resource = physics_research
-						amount = 50
+						amount = 30
 						replace = yes
 					}
 					add_resource = {
 						resource = society_research
-						amount = 50
+						amount = 30
 					}
 					add_resource = {
 						resource = engineering_research
-						amount = 50
+						amount = 30
 					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 					add_resource = {
 						resource = energy
-						amount = 50
+						amount = 20
 						replace = yes
 					}
 				}
@@ -232,30 +232,30 @@ easybuff_system_initializer = {
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 		tile_blockers = none
-		modifiers = food_rich_planet
+		modifiers = none
 		init_effect = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_basic_science_lab_1"
 				add_resource = {
 					resource = physics_research
-					amount = 50
+					amount = 30
 					replace = yes
 				}
 				add_resource = {
 					resource = society_research
-					amount = 50
+					amount = 30
 				}
 				add_resource = {
 					resource = engineering_research
-					amount = 50
+					amount = 30
 				}
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 				add_resource = {
 					resource = energy
-					amount = 50
+					amount = 20
 					replace = yes
 				}
 			}

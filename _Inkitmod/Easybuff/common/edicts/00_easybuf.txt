@@ -13,7 +13,7 @@ country_edict = {
     ship_anomaly_research_speed_mult = 1
     science_ship_survey_speed = 1
 
-    MEGASTRUCTURE_BUILD_SPEED_MULT = 3.67
+#    MEGASTRUCTURE_BUILD_SPEED_MULT = 3.67
 
     # num_tech_alternatives_add = 3
     # country_resource_sr_riggan_add = 1
