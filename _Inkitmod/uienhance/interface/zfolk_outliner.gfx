@@ -1,0 +1,42 @@
+spriteTypes = {
+	progressbarType = {
+		name = "GFX_outliner_planet_colonize_small_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colorTwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/progressbars/outliner_shiptask_small_full.dds"
+		textureFile2 = "gfx/interface/progressbars/outliner_shiptask_small_empty.dds"
+		size = { x = 119 y = 8 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	spriteType = {
+		name = "GFX_zfolk_fleet_status_icon"
+		texturefile = "gfx/interface/zfolk_ship_status_icons.dds"
+		noOfFrames = 21
+	}
+	corneredTileSpriteType = {
+		name = "GFX_zfolk_glow_green"
+		#textureFile = "gfx/interface/zfolkglowgreen.dds"
+		textureFile = "gfx/interface/zfolkglowdarkgreen.dds"
+		borderSize = { x=12 y=12 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	spriteType = {
+		name = "GFX_outliner_member_small_bg"
+		textureFile = "gfx/interface/buttons/outliner_small_entry.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	spriteType = {
+		name = "GFX_outliner_faction_bg"
+		textureFile = "gfx/interface/buttons/outliner_faction_entry.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	spriteType = {
+		name = "GFX_outliner_member_small_bg_selected"
+		textureFile = "gfx/interface/buttons/outliner_small_selected_entry.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+}

@@ -1,0 +1,57 @@
+# ripped directly from 1080p UI mod by drmaple
+# with permission
+
+guiTypes = {
+	### TOPBAR FOR MUSICPLAYER
+	containerWindowType = {
+		name = "maingui_lower_topbar"
+		position = { x=-119 y=-69 }
+		size = { width=120 height=36 }
+		orientation = lower_right
+
+		background = {
+			name ="background"
+			quadTextureSprite = "GFX_topbar_background_cutoff"
+			position = { x= 0 y = 0 }
+		}
+
+		####################
+		# Music
+		####################
+		containerWindowType = {
+			name = "music_commands_win"
+			size = { width=96 height=32 }
+			orientation = upper_right
+			position = { x= -96 y = 5 }
+			clipping = no
+
+			#background = {
+			#	name = "Background"
+			#	quadTextureSprite ="GFX_tiles_frame_light"
+			#}
+
+			buttonType = {
+				name = "music_pause_button"
+				quadTextureSprite ="GFX_music_pause_button"
+				position = { x= 0 y = 0 }
+				clicksound = confirmation
+
+			}
+
+			buttonType = {
+				name = "music_next_button"
+				quadTextureSprite ="GFX_music_next_button"
+				position = { x= 30 y = 0 }
+				pdx_tooltip = "MUSICPLAYER_NEXT"
+			}
+
+			buttonType = {
+				name = "musicplayer_button"
+				quadTextureSprite ="GFX_musicplayer_button"
+				position = { x= 60 y = 0 }
+				pdx_tooltip = "MUSICPLAYER_OPEN_PLAYER"
+				clicksound = interface
+			}
+		}
+	}
+}

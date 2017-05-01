@@ -1,0 +1,137 @@
+guiTypes = {
+	# Left side armies already recruited on planet
+	containerWindowType = {
+		name = "planet_view_module_armies_current_entry"
+		size = { width = 220 height = 32 }
+
+		background = {
+			name = "armies_current_entry_background"
+			quadTextureSprite = "GFX_interface_list_light"
+			clicksound = click_army_select
+		}
+
+		iconType = {
+			name = "army_icon"
+			spriteType = "GFX_army_icons"
+			position = { x = 0 y = 0 }
+			frame = 2
+			scale = 0.9
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "leader"
+			spriteType = "GFX_army_info_leader"
+			position = { x = 202 y = 3 }
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			font = "cg_16b"
+			position = { x = 30 y = 1 }
+			maxWidth = 170
+			maxHeight = 16
+			fixedSize = yes
+			format = LEFT
+			alwaysTransparent = yes
+			text_color_code = "H"
+		}
+
+		instantTextBoxType = {
+			name = "type"
+			font = "cg_16b"
+			position = { x = 30 y = 14 }
+			maxWidth = 390
+			maxHeight = 20
+			fixedSize = yes
+			format = left
+			orientation = upper_left
+			alwaysTransparent = yes
+			text_color_code = "E"
+		}
+
+		instantTextBoxType = {
+			name = "species"
+			font = "cg_16b"
+			text = "Species"
+			position = { x = -188 y = 14 }
+			maxWidth = 180
+			maxHeight = 20
+			fixedSize = yes
+			format = right
+			orientation = upper_right
+			alwaysTransparent = yes
+			text_color_code = "E"
+		}
+	}
+
+	# Recruitment area list items
+	containerWindowType = {
+		name = "planet_view_recruitment_panel_entry"
+		size = { width = 335 height = 32 }
+
+		background = {
+			name = "recruitment_panel_entry_background"
+			quadTextureSprite = "GFX_interface_list_light"
+		}
+
+		iconType = {
+			name = "army_icon"
+			spriteType = "GFX_army_icons"
+			position = { x = 0 y = 0 }
+			frame = 2
+			scale = 0.9
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "type"
+			font = "cg_16b"
+			position = { x = 30 y = 1 }
+			maxWidth = 390
+			maxHeight = 20
+			fixedSize = yes
+			format = left
+			orientation = upper_left
+			alwaysTransparent = yes
+			text_color_code = "H"
+		}
+
+		instantTextBoxType = {
+			name = "species"
+			font = "cg_16b"
+			position = { x = 30 y = 14 }
+			maxWidth = 390
+			maxHeight = 20
+			fixedSize = yes
+			format = left
+			orientation = upper_left
+			alwaysTransparent = yes
+			text_color_code = "E"
+		}
+
+		instantTextBoxType = {
+			name = "time"
+			font = "cg_16b"
+			position = { x = -70 y = 14 }
+			maxWidth = 60
+			maxHeight = 20
+			fixedSize = yes
+			format = right
+			orientation = upper_right
+		}
+
+		instantTextBoxType = {
+			name = "cost"
+			font = "cg_16b"
+			text = "COST"
+			position = { x = -110 y = 1 }
+			maxWidth = 100
+			maxHeight = 20
+			fixedSize = yes
+			format = right
+			orientation = upper_right
+		}
+	}
+
+}

@@ -1,0 +1,50 @@
+guiTypes = {
+	# Button in the lower right of the main view, opening the Alliance View.
+	containerWindowType = {
+		name = "alliance_button_window"
+		position = { x=24 y=110 }
+		size = { width= 70 height= 40 }
+		orientation = upper_left
+		moveable = no
+
+		buttonType = {
+			name = "federation_button"
+			spriteType = "GFX_at_federation_with_bg"
+			position = { x= -24 y = -43 }
+			scale = 0.8
+		}
+	}
+
+	# Box which holds all small icons, one for each war
+	containerWindowType = {
+		name = "waricon_box"
+		position = { x = 75 y = 75 }
+		size = { width = 1000 height = 100 }
+		moveable = no
+		orientation = upper_left
+
+		OverlappingElementsBoxType = {
+			name = "box"
+			position = { x = 0 y = 0 }
+			size = { x=1000 y=100 }
+			format = left
+			spacing = -5
+		}
+	}
+
+	# # Box which holds all small icons, one for each war
+	# containerWindowType = {
+	# 	name = "waricon_box"
+	# 	position = { x = -580 y = -110 }
+	# 	size = { width = 200 height = 100 }
+	# 	moveable = no
+	# 	orientation = lower_right
+
+	# 	OverlappingElementsBoxType = {
+	# 		name = "box"
+	# 		position = { x = 0 y = 0 }
+	# 		size = { x=340 y=100 }
+	# 		format = right
+	# 	}
+	# }
+}
