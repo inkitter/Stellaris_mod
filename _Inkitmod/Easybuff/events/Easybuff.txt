@@ -19,68 +19,29 @@ country_event = {
 
     option = {
         name = OK
-        #add_research_option = tech_psi_jump_drive_1
+        give_technology = { tech = tech_missiles_5 }
+        give_technology = { tech = tech_torpedoes_3 }
+        give_technology = { tech = tech_enigmatic_power_core }
+        give_technology = { tech = tech_psi_jump_drive_1 }
+        give_technology = { tech = tech_afterburners_2 }
+
+        give_technology = { tech = tech_spaceport_6 }
+        give_technology = { tech = tech_space_defense_station_3 }
+        give_technology = { tech = tech_mega_engineering }
+        
+#        give_technology = { tech = tech_telepathy }
+#        give_technology = { tech = tech_telepathy }
+#        give_technology = { tech = tech_gene_seed_purification }
+#        give_technology = { tech = tech_automated_exploration }
+#        give_technology = { tech = tech_psionic_shield }
+#        give_technology = { tech = tech_extradimensional_weapon_1 }
+    }
+
+    option = {
+        name = Other
+        add_research_option = tech_psi_jump_drive_1
         add_tech_progress = {
 			tech = tech_psi_jump_drive_1
-			progress = 1
-		}
-
-        #add_research_option = tech_automated_exploration
-        add_tech_progress = {
-			tech = tech_automated_exploration
-			progress = 1
-		}
-
-        #add_research_option = tech_enigmatic_power_core
-        add_tech_progress = {
-			tech = tech_enigmatic_power_core
-			progress = 1
-		}
-
-        #add_research_option = tech_extradimensional_weapon_1
-        add_tech_progress = {
-			tech = tech_extradimensional_weapon_1
-			progress = 1
-		}
-
-        #add_research_option = tech_energy_torpedoes_2
-        add_tech_progress = {
-			tech = tech_energy_torpedoes_2
-			progress = 1
-		}
-
-        #add_research_option = tech_psionic_shield
-        add_tech_progress = {
-			tech = tech_psionic_shield
-			progress = 1
-		}
-
-        #add_research_option = tech_gene_seed_purification
-        add_tech_progress = {
-			tech = tech_gene_seed_purification
-			progress = 1
-		}
-
-        #add_research_option = tech_mega_engineering
-        add_tech_progress = {
-			tech = tech_mega_engineering
-			progress = 1
-		}
-
-        add_tech_progress = {
-			tech = tech_space_defense_station_3
-			progress = 1
-		}
-        add_tech_progress = {
-			tech = tech_spaceport_6
-			progress = 1
-		}
-        add_tech_progress = {
-			tech = tech_afterburners_2
-			progress = 1
-		}
-        add_tech_progress = {
-			tech = tech_akx_worm_3
 			progress = 1
 		}
     }

@@ -10,7 +10,7 @@
  easybuff_system_initializer_DESC:0 "Cheat Earth"
 
  edict_easy_buff_default:0 "$edict_easy_buff_d$ £society §R简单模式增益§!"
- edict_easy_buff_default_desc:0 "§E让游戏变得更简单的整体参数调整。§Y一般来说只开启这个就简单许多了。§!"
+ edict_easy_buff_default_desc:0 "§E让游戏变得更简单的整体参数调整。§Y一般来说只开启这个就简单许多了。§!§!"
 
  edict_easy_buff_superresearch:0 "$edict_easy_buff_d$ £physics §R火星科研§!"
  edict_easy_buff_superresearch_desc:0 "§E科研速度变得难以想象§!"

@@ -1,0 +1,96 @@
+ship_section_template = {
+	key = "SCI_MID_S3"
+	ship_size = science
+	fits_on_slot = mid
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	cost = 80
+
+    ai_weight = {
+		factor = 30
+	}
+
+    component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	
+	
+	small_utility_slots = 3
+    medium_utility_slots = 2
+	aux_utility_slots = 1
+}
+
+ship_section_template = {
+	key = "CONS_MID_S3"
+	ship_size = constructor
+	fits_on_slot = mid
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	cost = 80
+	
+    ai_weight = {
+		factor = 30
+	}
+
+    component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	
+	
+	small_utility_slots = 3
+    medium_utility_slots = 2
+	aux_utility_slots = 1
+}
+
+ship_section_template = {
+	key = "TRANS_MID_S3"
+	ship_size = transport
+	fits_on_slot = mid
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+    ai_weight = {
+		factor = 30
+	}
+
+    component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	
+	
+	small_utility_slots = 3
+    medium_utility_slots = 2
+	aux_utility_slots = 1
+}
