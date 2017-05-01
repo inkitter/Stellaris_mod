@@ -31,6 +31,7 @@ bitmapfonts = {
 		E = { 135 255 207 }
 		S = { 228 156 42 }
 		W = { 255 255 255 }
+		P = { 225 110 110 }
 		g = { 128 128 128 }
 		l = { 51 167 255 }
 	}
@@ -48,26 +49,10 @@ bitmapfonts = {
 		color = 0xffffffff
 	}
 	
-	bitmapfont_override = {
-		name = "large_title_font"
-		fontfiles = { 
-			"gfx/fonts/32"
-		}
-		languages = { "l_russian" "l_polish" } 
-	}
-	
 	bitmapfont = {
 		name = "large_title_font_28"
 		path = "gfx/fonts/22"
 		color = 0xffffffff
-	}
-	
-	bitmapfont_override = {
-		name = "large_title_font_28"
-		fontfiles = { 
-			"gfx/fonts/cg_22"
-		}
-		languages = { "l_russian" "l_polish" } 
 	}
 		
 	bitmapfont = {
@@ -80,14 +65,6 @@ bitmapfonts = {
 		cursor_offset = { -3 -5 }
 		selection_offset = { 0 3 }
 	}
-		
-	 bitmapfont_override = {
-		name = "cg_16b"
-		fontfiles = { 
-			"gfx/fonts/stellaris_main"
-		}
-		languages = { "l_russian" "l_polish" } 
-	 }
 	
 	bitmapfont = {
 		name = "hoi_16mbs"
@@ -103,13 +80,6 @@ bitmapfonts = {
 		selection_offset = { 0 1 }
 	}	
 
-	bitmapfont_override = {
-		name = "malgun_goth_24"
-		fontfiles = { 
-			"gfx/fonts/cg_22"
-		}
-		languages = { "l_russian" "l_polish" } 
-	}
 	
 	### MAP NAME FONTS ###
 	bitmapfont = {
@@ -128,32 +98,12 @@ bitmapfonts = {
 		name = "map_name_sector"
 		path = "gfx/fonts/32"
 		color = 0xffffffff
-	}	
+	}
 
-	
-	
-	bitmapfont_override = {
-		name = "map_name_border"
-		fontfiles = { 
-			"gfx/fonts/cg_34"
-		}
-		languages = { "l_russian" "l_polish" } 
-	 }
-	
-	bitmapfont_override = {
-		name = "map_name_nebula"
-		fontfiles = { 
-			"gfx/fonts/cg_34"
-		}
-		languages = { "l_russian" "l_polish" } 
-	 }	
-	
-	bitmapfont_override = {
-		name = "map_name_sector"
-		fontfiles = { 
-			"gfx/fonts/cg_34"
-		}
-		languages = { "l_russian" "l_polish" } 
+	bitmapfont = {
+		name = "load_screen"
+		path = "gfx/fonts/22"
+		color = 0xffffffff
 	}
 }
 
