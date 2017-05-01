@@ -58,7 +58,7 @@ easybuff_system_initializer = {
 				set_building = "building_capital_3"
 				add_resource = {
 					resource = energy
-					amount = 120
+					amount = 50
 					replace = yes
 				}
 				random_neighboring_tile = {
@@ -75,13 +75,13 @@ easybuff_system_initializer = {
 					set_building = "building_power_hub_2"
 					add_resource = {
 						resource = energy
-						amount = 5
+						amount = 50
 						replace = yes
 					}
 				}
 				random_neighboring_tile = {
 					limit = { has_blocker = no has_building = no }
-					set_building = "building_basic_science_lab_1"
+					set_building = "building_institute"
 					add_resource = {
 						resource = physics_research
 						amount = 50
@@ -101,7 +101,7 @@ easybuff_system_initializer = {
 					set_building = "building_hydroponics_farm_1"
 					add_resource = {
 						resource = food
-						amount = 15
+						amount = 30
 						replace = yes
 					}
 				}				
@@ -110,9 +110,9 @@ easybuff_system_initializer = {
 		moon = {
 			name = "Luna"
 			class = "pc_gaia"
-			size = 16
-			orbit_distance = 12
-			orbit_angle = 40
+			size = 25
+			orbit_distance = 20
+			orbit_angle = 0
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
@@ -139,7 +139,83 @@ easybuff_system_initializer = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 					add_resource = {
 						resource = energy
-						amount = 60
+						amount = 50
+						replace = yes
+					}
+				}
+			}
+		}
+		moon = {
+			name = "Moon"
+			class = "pc_gaia"
+			size = 25
+			orbit_distance = 20
+			orbit_angle = 120
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+			tile_blockers = none
+			modifiers = none
+			init_effect = {
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_basic_science_lab_1"
+					add_resource = {
+						resource = physics_research
+						amount = 50
+						replace = yes
+					}
+					add_resource = {
+						resource = society_research
+						amount = 50
+					}
+					add_resource = {
+						resource = engineering_research
+						amount = 50
+					}
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
+					add_resource = {
+						resource = energy
+						amount = 50
+						replace = yes
+					}
+				}
+			}
+		}
+		moon = {
+			name = "Rabit"
+			class = "pc_gaia"
+			size = 25
+			orbit_distance = 20
+			orbit_angle = 90
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+			tile_blockers = none
+			modifiers = none
+			init_effect = {
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_basic_science_lab_1"
+					add_resource = {
+						resource = physics_research
+						amount = 50
+						replace = yes
+					}
+					add_resource = {
+						resource = society_research
+						amount = 50
+					}
+					add_resource = {
+						resource = engineering_research
+						amount = 50
+					}
+				}
+				random_tile = {
+					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
+					add_resource = {
+						resource = energy
+						amount = 50
 						replace = yes
 					}
 				}
@@ -156,7 +232,7 @@ easybuff_system_initializer = {
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 		tile_blockers = none
-		modifiers = none
+		modifiers = food_rich_planet
 		init_effect = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
@@ -179,76 +255,11 @@ easybuff_system_initializer = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
 				add_resource = {
 					resource = energy
-					amount = 60
+					amount = 50
 					replace = yes
 				}
 			}
 		}
-	}
-	
-	planet = {
-		name = "1 Ceres"
-		class = "pc_gaia"
-		orbit_distance = 20
-		orbit_angle = -210
-		size = 25
-		has_ring = no
-		tile_blockers = none
-		modifiers = none
-		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_building = "building_basic_science_lab_1"
-				add_resource = {
-					resource = physics_research
-					amount = 50
-					replace = yes
-				}
-				add_resource = {
-					resource = society_research
-					amount = 50
-				}
-				add_resource = {
-					resource = engineering_research
-					amount = 50
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3}
-				add_resource = {
-					resource = energy
-					amount = 60
-					replace = yes
-				}
-			}
-		}
-	}
-	
-	planet = {
-		name = "2 Pallas"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = -95
-		size = 5
-		has_ring = no
-	}
-	
-	planet = {
-		name = "3 Juno"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = 285
-		size = 5
-		has_ring = no
-	}
-	
-	planet = {
-		name = "4 Vesta"
-		class = "pc_asteroid"
-		orbit_distance = 0
-		orbit_angle = -80
-		size = 5
-		has_ring = no
 	}
 	
 	planet = {
@@ -259,40 +270,6 @@ easybuff_system_initializer = {
 		size = 35
 		has_ring = no
 		entity = "gas_giant_jupiter_entity"
-		change_orbit = 6
-		
-		moon = {
-			name = "Io"
-			class = "pc_molten"
-			size = 6
-			orbit_distance = 10
-			orbit_angle = 110
-			has_ring = no
-		}
-		moon = {
-			name = "Europa"
-			class = "pc_frozen"
-			size = 6
-			orbit_distance = 2.5
-			orbit_angle = 10
-			has_ring = no
-		}
-		moon = {
-			name = "Ganymede"
-			class = "pc_frozen"
-			size = 9
-			orbit_distance = 2.5
-			orbit_angle = 80
-			has_ring = no
-		}
-		moon = {
-			name = "Callisto"
-			class = "pc_frozen"
-			size = 7
-			orbit_distance = 2.5
-			orbit_angle = -155
-			has_ring = no
-		}
 	}
 	
 	planet = {
@@ -304,15 +281,6 @@ easybuff_system_initializer = {
 		has_ring = yes
 		entity = "gas_giant_05_entity"
 		change_orbit = 7
-		
-		moon = {
-			name = "Titan"
-			class = "pc_frozen"
-			size = 8
-			orbit_distance = 12
-			orbit_angle = 320
-			has_ring = no
-		}
 	}
 	
 	planet = {
@@ -334,23 +302,5 @@ easybuff_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_02_entity"
 		change_orbit = 4
-		
-		moon = {
-			name = "Triton"
-			class = "pc_frozen"
-			size = 6
-			orbit_distance = 7
-			orbit_angle = 115
-			has_ring = no
-		}
-	}
-	
-	neighbor_system = {
-		distance = { min = 10 max = @distance }	
-		initializer = "sol_neighbor_t1"
-	}
-	neighbor_system = {
-		distance = { min = 10 max = @distance }	
-		initializer = "sol_neighbor_t1_first_colony"
 	}
 }
