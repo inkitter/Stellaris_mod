@@ -1,0 +1,160 @@
+﻿l_english:
+
+ cofh_se_corvette_hvy:0 "重型护卫舰"
+ cofh_se_corvette_hvy_plural:0 "重型护卫舰"
+ cofh_se_corvette_sup:0 "后勤护卫舰"
+ cofh_se_corvette_sup_plural:0 "后勤护卫舰"
+
+ cofh_se_destroyer_hvy:0 "重型驱逐舰"
+ cofh_se_destroyer_hvy_plural:0 "重型驱逐舰"
+ cofh_se_destroyer_sup:0 "战术驱逐舰"
+ cofh_se_destroyer_sup_plural:0 "战术驱逐舰"
+
+ cofh_se_cruiser_hvy:0 "重型巡洋舰"
+ cofh_se_cruiser_hvy_plural:0 "重型巡洋舰"
+ cofh_se_cruiser_sup:0 "指挥巡洋舰"
+ cofh_se_cruiser_sup_plural:0 "指挥巡洋舰"
+
+ cofh_se_battleship_hvy:0 "重型战列舰"
+ cofh_se_battleship_hvy_plural:0 "重型战列舰"
+ cofh_se_battleship_sup:0 "仲裁战列舰"
+ cofh_se_battleship_sup_plural:0 "仲裁战列舰"
+
+ cofh_se_auxiliary_tender:0 "补给船"
+ cofh_se_auxiliary_tender_plural:0 "补给船"
+
+ cofh_se_aura_category_offensive:0 "进攻光环"
+ cofh_se_aura_category_defensive:0 "防御光环"
+
+ cofh_se_ship_small_aura_components:0 "小型立场发射器"
+ cofh_se_ship_small_aura_components_DESC:0 "立场发射器将立场投射在一定区域并造成对敌人或友好的船只产生各种影响。"
+ cofh_se_ship_medium_aura_components:0 "中型立场发射器"
+ cofh_se_ship_medium_aura_components_DESC:0 "立场发射器将立场投射在一定区域并造成对敌人或友好的船只产生各种影响。"
+ cofh_se_ship_large_aura_components:0 "大型立场发射器"
+ cofh_se_ship_large_aura_components_DESC:0 "立场发射器将立场投射在一定区域并造成对敌人或友好的船只产生各种影响。"
+ cofh_se_ship_xlarge_aura_components:0 "特大型立场发射器"
+ cofh_se_ship_xlarge_aura_components_DESC:0 "立场发射器将立场投射在一定区域并造成对敌人或友好的船只产生各种影响。"
+
+ cofh_se_aura_ftl_dec:0 "$cofh_se_aura_category_offensive$ - FTL封锁"
+
+ cofh_se_aura_hull_inc:0 "$cofh_se_aura_category_defensive$ - 船体强度"
+ cofh_se_aura_hull_regen:0 "$cofh_se_aura_category_defensive$ - 船体修复"
+
+ cofh_se_aura_minefield:0 "$cofh_se_aura_category_offensive$ - 布雷"
+
+ cofh_se_aura_sensor_dec:0 "$cofh_se_aura_category_offensive$ - 传感器抑制"
+ cofh_se_aura_sensor_inc:0 "$cofh_se_aura_category_defensive$ - 传感器放大"
+
+ cofh_se_aura_shield_inc:0 "$cofh_se_aura_category_defensive$ - 护盾完整"
+ cofh_se_aura_shield_regen:0 "$cofh_se_aura_category_defensive$ - 护盾恢复"
+
+ cofh_se_aura_speed_dec:0 "$cofh_se_aura_category_offensive$ - 亚光速陷阱"
+ cofh_se_aura_speed_inc:0 "$cofh_se_aura_category_defensive$ - 亚光速提速"
+
+ cofh_se_aura_upkeep:0 "$cofh_se_aura_category_defensive$ - 舰队维护"
+
+ cofh_se_aura_weapon_rof_dec:0 "$cofh_se_aura_category_offensive$ - 武器损毁"
+ cofh_se_aura_weapon_rof_inc:0 "$cofh_se_aura_category_defensive$ - 武器精准"
+
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1:0 "基本战斗计算机(重型驱逐舰)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2:0 "中级战斗计算机(重型驱逐舰)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_3:0 "先进战斗计算机(重型驱逐舰)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_4:0 "战斗感觉计算机(重型驱逐舰)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_PRECOG:0 "预知接口(重型驱逐舰)"
+
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_1:0 "基本战斗计算机(后勤护卫舰)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_2:0 "中级战斗计算机(后勤护卫舰)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_3:0 "先进战斗计算机(后勤护卫舰)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_4:0 "战斗感觉计算机(后勤护卫舰)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_PRECOG:0 "预知接口(后勤护卫舰)"
+
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_1:0 "基本战斗计算机(重型驱逐舰)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_2:0 "中级战斗计算机(重型驱逐舰)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_3:0 "先进战斗计算机(重型驱逐舰)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_4:0 "战斗感觉计算机(重型驱逐舰)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_PRECOG:0 "预知接口(重型驱逐舰)"
+
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_1:0 "基本战斗计算机(战术驱逐舰)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_2:0 "中级战斗计算机(战术驱逐舰)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_3:0 "先进战斗计算机(战术驱逐舰)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_4:0 "战斗感觉计算机(战术驱逐舰)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_PRECOG:0 "预知接口(战术驱逐舰)"
+
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_1:0 "基本战斗计算机(重型巡洋舰)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_2:0 "中级战斗计算机(重型巡洋舰)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_3:0 "先进战斗计算机(重型巡洋舰)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_4:0 "战斗感觉计算机(重型巡洋舰)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_PRECOG:0 "预知接口(重型巡洋舰)"
+
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_1:0 "基本战斗计算机(指挥巡洋舰)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_2:0 "中级战斗计算机(指挥巡洋舰)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_3:0 "先进战斗计算机(指挥巡洋舰)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_4:0 "战斗感觉计算机(指挥巡洋舰)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_PRECOG:0 "预知接口(指挥巡洋舰)"
+
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_1:0 "基本战斗计算机(重型战列舰)"
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_2:0 "中级战斗计算机(重型战列舰)"
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_3:0 "先进战斗计算机(重型战列舰)"
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_4:0 "战斗感觉计算机(重型战列舰)"
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_PRECOG:0 "预知接口(重型战列舰)"
+
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_1:0 "基本战斗计算机(仲裁战列舰)"
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_2:0 "中级战斗计算机(仲裁战列舰)"
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_3:0 "先进战斗计算机(仲裁战列舰)"
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_4:0 "战斗感觉计算机(仲裁战列舰)"
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_PRECOG:0 "预知接口(仲裁战列舰)"
+
+ COFH_SE_AURA_EMPTY:0 "空槽"
+
+ COFH_SE_AURA_FTL_DEC:0 "封锁的泡沫"
+
+ COFH_SE_AURA_HULL_INC:0 "船体完整性矩阵"
+ COFH_SE_AURA_HULL_REGEN:0 "纳米机器云"
+
+ COFH_SE_AURA_MINEFIELD_0:0 "电子雷区"
+ COFH_SE_AURA_MINEFIELD_1:0 "质子雷区"
+ COFH_SE_AURA_MINEFIELD_2:0 "中子雷区"
+
+ COFH_SE_AURA_SENSOR_DEC:0 "传感器衰减"
+ COFH_SE_AURA_SENSOR_INC:0 "传感器轨迹"
+
+ COFH_SE_AURA_SHIELD_INC:0 "护盾完整性矩阵"
+ COFH_SE_AURA_SHIELD_REGEN:0 "电容立场"
+
+ COFH_SE_AURA_SPEED_DEC:0 "停滞泡"
+ COFH_SE_AURA_SPEED_INC:0 "曲速泡"
+
+ COFH_SE_AURA_WEAPON_ROF_DEC:0 "量子去稳定剂"
+ COFH_SE_AURA_WEAPON_ROF_INC:0 "量子场对齐"
+
+ COFH_SE_SHIP_MOUNTED:0 "船只模块"
+ COFH_SE_AURA_SMALL:0 "支援"
+ COFH_SE_AURA_MEDIUM:0 "战术"
+ COFH_SE_AURA_LARGE:0 "指挥"
+ COFH_SE_AURA_XLARGE:0 "仲裁"
+ COFH_SE_AURA_TENDER:0 "辅助"
+
+ COFH_SE_SHIP_AURA_SMALL_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_AURA_MEDIUM_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_AURA_LARGE_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_AURA_XLARGE_EMPTY:0 "$AURA_EMPTY$"
+
+ COFH_SE_SHIP_SMALL_AURA_HULL_REGEN:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_HULL_REGEN$"
+ COFH_SE_SHIP_SMALL_AURA_SENSOR_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_SENSOR_DEC$"
+ COFH_SE_SHIP_SMALL_AURA_WEAPON_ROF_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_WEAPON_ROF_DEC$"
+
+ COFH_SE_SHIP_MEDIUM_AURA_FTL_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_FTL_DEC$"
+ COFH_SE_SHIP_MEDIUM_AURA_SPEED_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_SPEED_DEC$"
+
+ COFH_SE_SHIP_LARGE_AURA_HULL_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_HULL_INC$"
+ COFH_SE_SHIP_LARGE_AURA_SENSOR_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SENSOR_INC$"
+ COFH_SE_SHIP_LARGE_AURA_SHIELD_REGEN:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_REGEN$"
+
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_0:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_0$"
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_1:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_1$"
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_2:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_2$"
+ COFH_SE_SHIP_XLARGE_AURA_SPEED_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_SPEED_INC$"
+ COFH_SE_SHIP_XLARGE_AURA_WEAPON_ROF_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_WEAPON_ROF_INC$"
+
+ COFH_SE_SHIP_TENDER_AURA_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_TENDER_AURA_HULL_REGEN:0 "$COFH_SE_AURA_TENDER$ $COFH_SE_AURA_HULL_REGEN$"

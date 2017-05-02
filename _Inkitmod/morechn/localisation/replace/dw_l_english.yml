@@ -1,0 +1,109 @@
+﻿l_english:
+
+
+ #####################################
+ # Planet Modifiers
+ #####################################
+ ecumenopolis: "普世城"
+ ecumenopolis_desc: "普世城是类型行星，或在某些情况下，将其整个地表用一座世界都市所覆盖。也有某些情况下，行星还存在海洋，其意义上只是用城市覆盖所有大陆。"
+ ecumenopolis_empire: "普世城管理"
+ ecumenopolis_under_construction:0 "普世城建设"
+ ecumenopolis_under_construction_desc:0 "这个世界将进行一个全球范围的城市建设。"
+ 
+ mining_world:0 "矿业世界"
+ mining_world_desc:0 "这颗星球专门用于进行地下采矿作业的场所。对整个大陆进行彻底性挖掘开采，为的是找到深埋在地底的财富。"
+ research_world:0 "科研世界"
+ research_world_desc:0 "这个世界拥有最丰富的的实验器材和大量的实验室，绝大部分行星的生产和资金用于投入科研之中。"
+ trade_world:0 "贸易世界"
+ trade_world_desc:0 "多年来的投资发展建设使得这个世界成为了贸易中心地带。"
+ fortress_world:0 "堡垒世界"
+ fortress_world_desc:0 "多年以来，这个世界得到极大的强化。为的是给它提供一个重要的战略物资地位。"
+ prison_world:0 "监狱世界"
+ prison_world_desc:0 "这个世界被指定为监狱星球，专门将那些不受欢迎之人禁闭于此。"
+ agri_world:0 "农业世界"
+ agri_world_desc:0 "这个世界覆盖大量的农业生产基地，可养活上万亿人口。"
+ agri_world_empire:0 "农业世界管理"
+ outpost_world:0 "行星前哨"
+ outpost_world_desc:0 "一个小型殖民地已建成，已为其提供一座前哨站。"
+ recruiting_world:0 "新兵世界"
+ recruiting_world_desc:0 "这个世界以为帝国提供训练有素的新兵供应而闻名。"
+ cultural_world:0 "文化世界"
+ cultural_world_desc:0 "无论是从风景，还是建筑或者是艺术，这个世界已经成为该地区的文化中心。"
+ cultural_world_empire:0 "文化世界管理"
+ forge_world:0 "铸造世界"
+ forge_world_desc:0 "这个世界坚定不移制造各种机械设备。星球许多地方就像一座巨大的工厂，各种工业建筑在其天空中翱翔。"
+ forge_world_empire:0 "铸造世界管理"
+ diplomatic_world:0 "政府首都"
+ diplomatic_world_desc:0 "无论是帝国首都还是其他地方，在这里是帝国各个部门中心。帝国所有决策都从这里发出，并其影响力覆盖整个帝国。"
+ diplomatic_world_empire:0 "政府首都管理"
+ focus_world:0 "专注世界"
+ focus_world_desc:0 "星球政府正试图将所有经济集中在一个方向上。因此整体生产会受到影响，直到完成为止。"
+ refocus_world:0 "归化世界"
+ refocus_world_desc:0 "星球政府正试图化解多年发展过程对星球的影响并降低当地居民的厌恶程度。"
+ strip_mined:0 "剥削世界"
+ strip_mined_desc:0 "长期对地底的大规模开采活动导致生活条件不那么宜人，甚至还破坏某些地表环境。"
+ 
+ #####################################
+ # Edicts
+ #####################################
+ 
+ edict_mining_world:0 "发展矿业世界"
+ edict_mining_world_desc:0 "该法令将使得该世界专注于对星球的大规模开采作业。\n\n§L选择该方向将会使得这个世界的食物生产不足，用于防止它在未来会变成一个农业世界。§!\n\n"
+ edict_research_world:0 "发展科研世界"
+ edict_research_world_desc:0 "该法令将使得该星球集中科学家以便更好的进行科学研究工作。\n\n"
+ edict_trade_world:0 "发展贸易世界"
+ edict_trade_world_desc:0 "该法令将促使当地政府企业为经济商业的发展进行大规模的投资活动。\n\n"
+ edict_fortress_world:0 "发展堡垒世界"
+ edict_fortress_world_desc:0 "该法令将使得该星球致力于建设并维护该星球的大规模的防御工事系统。\n\n"
+ edict_prison_world:0 "发展监狱世界"
+ edict_prison_world_desc:0 "该法令将使得该星球成为不受欢迎之人的所呆之地。\n\n"
+ edict_agri_world:0 "发展农业世界"
+ edict_agri_world_desc:0 "该法令为农业发展提供大量资金，使得该星球能养活很多人。\n\n"
+ edict_outpost_world:0 "发展前哨世界"
+ edict_outpost_world_desc:0 "该法令将允许该星球建设小规模的军事哨所和专注发展传感器。\n\n"
+ edict_recruiting_world:0 "发展新兵世界"
+ edict_recruiting_world_desc:0 "该法令致力于发展该星球的军事基地，大力提高士兵作战素质，为帝国提供最好的战士。\n\n"
+ edict_cultural_world:0 "发展文化世界"
+ edict_cultural_world_desc:0 "该法令将对该星球的文化进行贴补，让帝国文化源远流长。\n\n"
+ edict_forge_world:0 "发展铸造世界"
+ edict_forge_world_desc:0 "该法令将致力于该星球的工业发展。\n\n"
+ edict_diplomatic_world:0 "发展政府首都"
+ edict_diplomatic_world_desc:0 "该法令将把该星球建设为帝国的政治中心。\n\n"
+ edict_refocus_world:0 "重设星球发展"
+ edict_refocus_world_desc:0 "重置该星球的之前的所有努力。\n\n"
+ edict_build_ecumenopolis:0 "建造普世城"
+ edict_build_ecumenopolis_desc:0 "集中全国最好的工程师以便开始计划将该星球打造成一座巨大无比的全球城市。\n\n"
+ 
+ #####################################
+ # Planets
+ #####################################  
+ 
+ pc_ecunemopolis:0 "普世城"
+ pc_ecunemopolis_desc:0 "高耸入云的城市覆盖整片大陆。"
+ pc_ecunemopolis_tile:0 "普世城建造平台"
+ pc_ecunemopolis_tile_desc:0 "一个空闲的平台在更高的城市上面。" 
+ 
+ #####################################
+ # Projects
+ #####################################  
+ 
+ ECUMENOPOLIS_1_PROJECT:0 "规划一个普世城"
+ ECUMENOPOLIS_1_PROJECT_DESC:0 "你开始聚集帝国最优秀的工程师和科学家。在你的许可和资金赞助下，他们开始着手设计这个伟大的工程。"
+ ECUMENOPOLIS_2_PROJECT:0 "建造在[From.GetName]的城市"
+ ECUMENOPOLIS_2_PROJECT_DESC:0 "工程师对[From.GetName]仔细考察研究下向你提出了详细的星球如何变为一座巨大无比的城市的建设计划。剩下的只需要你的批准实施这项计划。"
+ 
+ #####################################
+ # Miscellaneous
+ #####################################
+
+ dw.7.name:0 "普世城项目"
+ dw.7.desc:0 "一座城市星球的想法，曾经是科学小说的梦想，如今我们科技可以将其实现。这个工程不同于我们其他的壮举，是时候该我们这个时代最伟大的梦想将于[Root.GetName]之中实现。"
+ dw.7.a:0 "全力开工。"
+ dw.7.b:0 "取消该项目。"
+
+ dw.9.name:0 "普世城"
+ dw.9.desc:0 "[Root.GetName]已经完成对普世城的建设。整个地面被一座巨大无比的城市所覆盖，它已经成为该地区的权力中心，数以亿计的人口正在向这里涌入。"
+ dw.9.a:0 "[Root.GetName]的新篇章被开启了。"
+
+ trait_pc_ecumenopolis_preference:0 "城市世界的偏好"
+ trait_pc_ecumenopolis_preference_desc:1 "§L这个物种对城市有特别偏爱。§!"

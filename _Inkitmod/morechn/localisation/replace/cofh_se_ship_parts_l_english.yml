@@ -1,0 +1,74 @@
+﻿l_english:
+
+# Vanilla
+
+ aura_category_offensive:0 "进攻光环"
+ aura_category_defensive:0 "防御光环"
+ aura_type_support:0 "支援"
+ aura_type_debuff:0 "抑制剂"
+
+ ship_mounted:0 "航载"
+ military_station_small:0 "防御平台"
+ military_station_medium:0 "防御站"
+ military_station_large:0 "堡垒"
+
+ WORMHOLE_DRIVE_DESC:0 "通过给船只配备虫洞发生器允许虫洞旅行."
+
+# Sub-Descriptions
+
+ AURA_HYPERSPACE:0 "超敏感位点"
+ AURA_WARP:0 "微变形场"
+ AURA_WORMHOLE:0 "船体完整性矩阵"
+
+ OBSERVATORY_HYPERSPACE:0 "超链接的传感器"
+ OBSERVATORY_HYPERSPACE_DESC:0 "先进的传感器，利用超光速粒子分散场与超空间波动探测船的动作组合"
+
+ WORMHOLE_DRIVE_ADV_DESC:0 "这种先进的调制器采用调谐共振项目结构完整性领域全船."
+
+# Ship Parts
+
+ cofh_se_aura_ship_hyperspace:0 "$aura_category_defensive$"
+ cofh_se_aura_ship_warp:0 "$aura_category_defensive$"
+ cofh_se_aura_ship_wormhole:0 "$aura_category_defensive$"
+
+ COFH_SE_SHIP_AURA_HYPERSPACE:0 "$ship_mounted$ $AURA_HYPERSPACE$"
+ COFH_SE_STATION_SMALL_AURA_HYPERSPACE:0 "$AURA_HYPERSPACE$ - $military_station_small$"
+ COFH_SE_STATION_MEDIUM_AURA_HYPERSPACE:0 "$AURA_HYPERSPACE$ - $military_station_medium$"
+ COFH_SE_STATION_LARGE_AURA_HYPERSPACE:0 "$AURA_HYPERSPACE$ - $military_station_large$"
+
+ COFH_SE_SHIP_AURA_WARP:0 "$ship_mounted$ $AURA_WARP$"
+ COFH_SE_STATION_SMALL_AURA_WARP:0 "$AURA_WARP$ - $military_station_small$"
+ COFH_SE_STATION_MEDIUM_AURA_WARP:0 "$AURA_WARP$ - $military_station_medium$"
+ COFH_SE_STATION_LARGE_AURA_WARP:0 "$AURA_WARP$ - $military_station_large$"
+
+ COFH_SE_SHIP_AURA_WORMHOLE:0 "$ship_mounted$ $AURA_WORMHOLE$"
+ COFH_SE_STATION_SMALL_AURA_WORMHOLE:0 "$AURA_WORMHOLE$ - $military_station_small$"
+ COFH_SE_STATION_MEDIUM_AURA_WORMHOLE:0 "$AURA_WORMHOLE$ - $military_station_medium$"
+ COFH_SE_STATION_LARGE_AURA_WORMHOLE:0 "$AURA_WORMHOLE$ - $military_station_large$"
+
+ COFH_SE_SCIENCE_LAB_1:0 "加强科学实验室"
+ COFH_SE_SCIENCE_LAB_1_DESC:0 "加强科学实验室利用人工智能以提高研究能力."
+
+ COFH_SE_SCIENCE_LAB_2:0 "增强科学实验室"
+ COFH_SE_SCIENCE_LAB_2_DESC:0 "增强科学实验室利用人工智能以提高研究能力."
+
+ COFH_SE_SCIENCE_LAB_3:0 "先进科学实验室"
+ COFH_SE_SCIENCE_LAB_3_DESC:0 "先进科学实验室利用人工智能以提高研究能力."
+
+ COFH_SE_SCIENCE_LAB_4:0 "智能科学实验室"
+ COFH_SE_SCIENCE_LAB_4_DESC:0 "智能科学实验室利用人工智能以提高研究能力."
+
+ COFH_SE_SHIP_SENSOR_HYPERSPACE:0 "船载$OBSERVATORY_HYPERSPACE$"
+ COFH_SE_SHIP_SENSOR_HYPERSPACE_DESC:0 "$OBSERVATORY_HYPERSPACE_DESC$"
+
+ COFH_SE_STATION_SENSOR_HYPERSPACE:0 "站载$OBSERVATORY_HYPERSPACE$"
+ COFH_SE_STATION_SENSOR_HYPERSPACE_DESC:0 "$OBSERVATORY_HYPERSPACE_DESC$"
+
+ COFH_SE_SHIP_THRUSTER_WARP:0 "微型曲速推进器"
+ COFH_SE_SHIP_THRUSTER_WARP_DESC:0 "先进推进器能提高在曲速的速度."
+
+ COFH_SE_WORMHOLE_DRIVE_2:0 "虫洞发生器"
+ COFH_SE_WORMHOLE_DRIVE_2_DESC:0 "$WORMHOLE_DRIVE_DESC$\n\n$WORMHOLE_DRIVE_ADV_DESC$"
+
+ COFH_SE_WORMHOLE_DRIVE_3:0 "稳定抑制器"
+ COFH_SE_WORMHOLE_DRIVE_3_DESC:0 "$WORMHOLE_DRIVE_DESC$\n\n$WORMHOLE_DRIVE_ADV_DESC$"

@@ -1,0 +1,12 @@
+﻿l_english:
+ ####################################
+ # Ringowrld starts
+ ####################################
+ ringworld_st_system_NAME:0 "环形世界"
+ ringworld_st_system_DESC:0 "四段可居住的环形世界。\n\n$system_initializer_DESC$"
+ ringworld_dmg_st_system_NAME:0 "受损环形世界"
+ ringworld_dmg_st_system_DESC:0 "四段可居住的环形世界。有一个损坏的连接处。\n\n$system_initializer_DESC$"
+ ringworld_des_st_system_NAME:0 "摧毁环形世界"
+ ringworld_des_st_system_DESC:0 "唯一一段可居住的环形世界。\n\n$system_initializer_DESC$"
+ ringworld_sup_st_system_NAME:0 "超级环形世界"
+ ringworld_sup_st_system_DESC:0 "有着十二段可居住的环形世界。\n\n$system_initializer_DESC$"

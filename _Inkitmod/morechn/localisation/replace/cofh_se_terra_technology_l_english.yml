@@ -1,0 +1,21 @@
+﻿l_english:
+
+# Technology - Non-Repeatable
+
+# Society
+
+ tech_cofh_se_atmospheric_purification:0 "大气净化"
+ tech_cofh_se_atmospheric_purification_desc:0 "先进的过滤和净化系统，能让一个星球的大气中去除几乎所有的有毒废物。"
+
+ tech_cofh_se_atmosphere_creation:0 "大气制造"
+ tech_cofh_se_atmosphere_creation_desc:0 "给予足够的时间和资源，即使是最荒凉的世界也能创造一种大气。"
+
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE:0 "§H解锁功能:§! 大气净化"
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§H大气净化§!\n允许我们把剧毒的世界转化为可居住星球。"
+
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§H解锁功能:§! 大气制造"
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§H大气制造§!\n允许我们把贫瘠的世界转化为可居住星球。"
+
+# Requirements
+
+ requirement_cofh_se_planet_size:0 "§R星球必须在允许尺寸范围内。§!"

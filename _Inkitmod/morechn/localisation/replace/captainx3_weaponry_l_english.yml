@@ -1,0 +1,47 @@
+﻿l_english:
+
+###################################
+# New Weapons
+###################################
+
+
+ LARGE_ENERGY_LANCE_HQ: "重力长矛"
+ LARGE_ENERGY_LANCE_HQ_DESC: "强大无比的粒子束武器，能发射巨大力量的粒子，例如引力子。"
+
+ LARGE_ARC_EMITTER_HQ: "脉冲电弧发射器"
+ LARGE_ARC_EMITTER_HQ_DESC: "这些电弧发射器配备了最先进的聚焦镜头，可产生强大的电能威力。"
+
+ LARGE_MASS_ACCELERATOR_HQ: "终极炮"
+ LARGE_MASS_ACCELERATOR_HQ_DESC: "动能火炮的最终形态。"
+
+ ENERGY_LANCE_HQ: "重力长矛"
+ ENERGY_LANCE_HQ_DESC: "强大无比的粒子束武器，能发射巨大力量的粒子，例如引力子。"
+
+ ARC_EMITTER_HQ: "脉冲电弧发射器"
+ ARC_EMITTER_HQ_DESC: "这些电弧发射器配备了最先进的聚焦镜头，可产生强大的电能威力。"
+
+ MASS_ACCELERATOR_HQ: "终极炮"
+ MASS_ACCELERATOR_HQ_DESC: "动能火炮的最终形态。"
+
+ KINETIC_ARTILLERY_NSC: "运动弹幕"
+ KINETIC_ARTILLERY_NSC_DESC: "最新的动能武器技术，配以高性能计算机，使其以最强大的弹幕形式覆盖敌人。"
+
+ LARGE_KINETIC_ARTILLERY_NSC: "运动弹幕"
+ LARGE_KINETIC_ARTILLERY_NSC_DESC: "最新的动能武器技术，配以高性能计算机，使其以最强大的弹幕形式覆盖敌人。"
+
+
+ FRIGATE_FLAK_BATTERY_1: "护卫舰防空电池"
+ FRIGATE_FLAK_BATTERY_1_DESC: "一个专用于护卫舰的点防御的防空电池。"
+
+ FRIGATE_FLAK_BATTERY_2: "护卫舰防空炮"
+ FRIGATE_FLAK_BATTERY_2_DESC: "一个专用于护卫舰的点防御的防空炮。"
+
+ FRIGATE_FLAK_BATTERY_3: "护卫舰防空高射炮"
+ FRIGATE_FLAK_BATTERY_3_DESC: "一个专用于护卫舰的点防御的防空高射炮。"
+
+ CRUISE_MISSILES: "巡航导弹"
+ CRUISE_MISSILES_DESC: "远程的打击性武器，能够造成巨大的伤害，但容易遭受到点防御拦截。"
+
+ NSC_LARGE_CRUISE_MISSILE_1: "巡航导弹"
+ NSC_LARGE_CRUISE_MISSILE_1_DESC: "远程的打击性武器，能够造成巨大的伤害，但容易遭受到点防御拦截。"
+

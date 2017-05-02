@@ -1,0 +1,177 @@
+﻿l_english:
+ trait_cyborg:0 "电子人"
+ trait_cyborg_desc:0 "§L没有比全身机器化更美好的事情了。§!"
+ 
+ trait_robot:0 "机器人"
+ trait_robot_desc:0 "§L硅基生命和碳基生命没什么区别，请尊重我们。§!"
+ 
+ trait_naturalist:0 "自然主义"
+ trait_naturalist_desc:0 "§L万物之母会保佑我们。§!"
+ 
+ trait_genius:0 "天才"
+ trait_genius_desc:0 "§L天才只不过是在百分九十九的汗水之上多了百分一的灵感。§!"
+ 
+ trait_swarm:0 "群体"
+ trait_swarm_desc:0 "§L我们是一个群体。§!"
+ 
+ trait_mutant:0 "突变"
+ trait_mutant_desc:0 "§L进化本质就是突变。§!"
+ 
+ trait_ghoul:0 "食尸鬼"
+ trait_ghoul_desc:0 "§L丧尸看到你都害怕...§!"
+ 
+ trait_abomination:0 "憎恶"
+ trait_abomination_desc:0 "§L这个邪恶的生物。§!"
+ 
+ trait_immortal:0 "不朽"
+ trait_immortal_desc:0 "§L当你永生时候，你就会思考为什么你还活着？§!"
+ 
+ trait_sloth:0 "懒惰"
+ trait_sloth_desc:0 "§L能第三天做的事，绝不会放到第二天做。§!"
+ 
+ trait_opportunist:0 "机会主义"
+ trait_opportunist_desc:0 "§L机会总是留给时刻准备的人。§!"
+ 
+ trait_psycho:0 "神经病"
+ trait_psycho_desc:0 "§L我不是神经病...我只是喜欢精神病的东西。§!"
+
+ trait_isolationist:0 "孤立主义"
+ trait_isolationist_desc:0 "§L生来就是为了孤独。§!"
+
+ trait_addict:0 "瘾君子"
+ trait_addict_desc:0 "§L毒品只不过是躲避现实的角落。§!"
+
+ trait_hunter:0 "猎人"
+ trait_hunter_desc:0 "§L你错过了百分百的镜头。§!"
+
+ trait_collector:0 "收藏家"
+ trait_collector_desc:0 "§L采矿也是种艺术。§!"
+
+ trait_harvester:0 "收割机"
+ trait_harvester_desc:0 "§L在繁荣的果实到来之前，生活需要一次风暴进行测试，方能与智慧的种子结合成真正的果实。§!"
+
+ trait_efficient:0 "高效"
+ trait_efficient_desc:0 "§L效率就是做正确的事。§!"
+
+ trait_attractive:0 "迷人"
+ trait_attractive_desc:0 "§L她虽然不是真的美丽，但是关于她的总是吸引眼球。§!"
+
+ trait_brutal:0 "残酷"
+ trait_brutal_desc:0 "§L今天就要拿你他妈的眼球和鞋子般脸当做我的午餐。§!"
+
+ trait_smuggler:0 "走私犯"
+ trait_smuggler_desc:0 "§L有证据指出，关税提高会导致走私变多。§!"
+
+ trait_pirate:0 "海盗"
+ trait_pirate_desc:0 "§L尽你所能，不求任何回报。§!"
+
+ trait_golddigger:0 "淘金"
+ trait_golddigger_desc:0 "§L金钱带给你想要的女人，奋斗带给你需要的女人。§!"
+
+ trait_repulsive:0 "丑恶"
+ trait_repulsive_desc:0 "§L即使你发现那些坏家伙很讨厌，但你也要把你自己放在他鞋下。...§!"
+
+ trait_unpredictable:0 "不可预测"
+ trait_unpredictable_desc:0 "§L世界如此变幻莫测。事情总是出乎意料。我们总是想掌控一切。但是在某些地方总有神秘力量控制我们。§!"
+
+ trait_slaver:0 "奴隶"
+ trait_slaver_desc:0 "§L剥夺他人自由的人不配有自由。§!"
+
+ trait_grunt:0 "咕噜"
+ trait_grunt_desc:0 "§L让我们找一些来杀。§!"
+
+ trait_loyalist:0 "忠诚"
+ trait_loyalist_desc:0 "§L爱国者愿为国家奉献一切。§!"
+
+ trait_rebel:0 "叛军"
+ trait_rebel_desc:0 "§L枪杆子里出政权！§!"
+
+ trait_hive:0 "蜂群"
+ trait_hive_desc:0 "§L蜂群思想与性格，完全是个失去自我的身体。§!"
+
+ trait_scavanger:0 "食腐动物"
+ trait_scavanger_desc:0 "§L你可以成为冒险家也能成为牺牲品，这取决于你对待生活的态度。§!"
+
+ trait_clone:0 "克隆"
+ trait_clone_desc:0 "§L怎么知道我是我？§!"
+
+ trait_advancedengineer:0 "高级工程师"
+ trait_advancedengineer_desc:0 "§L数学是我的兴趣，工程是我的专业。§!"
+
+ trait_advancedsociologist:0 "高级社会学家"
+ trait_advancedsociologist_desc:0 "§L知道别人的秘密总是非常有趣的。§!"
+
+ trait_advancedphysicist:0 "高级物理学家"
+ trait_advancedphysicist_desc:0 "§L探索世界本质。§!"
+
+ trait_small_creature:0 "小动物"
+ trait_small_creature_desc:0 "§L任何生命在黑暗之中只不过是一瞬间的烟火而已。§!"
+
+ trait_big_creature:0 "大动物"
+ trait_big_creature_desc:0 "§L如果你不挑战比你强大多的力量，你就永不会成为巨人！§!"
+
+ trait_wanderer:0 "流浪者"
+ trait_wanderer_desc:0 "§L流浪是为了活着。§!"
+
+ trait_hedonist:0 "享乐主义"
+ trait_hedonist_desc:0 "§L活着的唯一意义就是享受一切。§!"
+
+ trait_extreme_harvester:0 "极端的收割机"
+ trait_extreme_harvester_desc:0 "§L不听话的收割者。§!"
+
+ trait_super_efficient:0 "超有效"
+ trait_super_efficient_desc:0 "§L进步并不是早起者做的，它只是由懒惰者在试图找到更容易的方法做事而产生的。§!"
+
+ trait_survivalist:0 "生存主义"
+ trait_survivalist_desc:0 "§L唯有坚强的意志存在，弱者只会被火焰吞噬。§!"
+
+ trait_obnoxious:0 "讨厌"
+ trait_obnoxious_desc:0 "§L在物理学最本质的特征就是总能听到最响亮的嘴。§!"
+
+ trait_replicator:0 "复制"
+ trait_replicator_desc:0 "§L一变二，二变四...§!"
+
+ trait_prey:0 "猎物"
+ trait_prey_desc:0 "§L猎物总是需要猎手来与之匹配。§!"
+
+ trait_unreliable:0 "不可靠"
+ trait_unreliable_desc:0 "§L优秀的敌人胜过千万个朋友§!"
+
+ trait_ancient:0 "古老"
+ trait_ancient_desc:0 "§L年龄不在于你有多大，而是你有多老。§!"
+
+ trait_parasite_host:0 "寄生宿主"
+ trait_parasite_host_desc:0 "§L我们是...一体的。§!"
+
+ trait_criminal:0 "罪犯"
+ trait_criminal_desc:0 "§L我需要双倍贿赂。§!"
+
+ trait_lawful:0 "合法"
+ trait_lawful_desc:0 "§L正义只存在胜者的历史里。§!"
+
+ trait_exterminator:0 "灭虫"
+ trait_exterminator_desc:0 "§L消灭....§!"
+
+ trait_invasive:0 "侵略性"
+ trait_invasive_desc:0 "§L这就是他们为什么要远赴上万光年来打我们的原因。§!"
+
+ trait_fanatical:0 "狂信者"
+ trait_fanatical_desc:0 "§L信仰便是生命中的一切。§!"
+
+ trait_self_sufficient:0 "自给自足"
+ trait_self_sufficient_desc:0 "§L自爱，自信，自主。§!" 
+
+ trait_mercenary:0 "佣兵"
+ trait_mercenary_desc:0 "§L只为有钱人办事。§!"
+
+ trait_servant:0 "仆人"
+ trait_servant_desc:0 "§L你好，我的主人。§!"
+
+ trait_mineral_consumer:0 "矿产消费"
+ trait_mineral_consumer_desc:0 "§L我们对矿物有着极大的渴求。§!"
+
+ trait_food_consumer:0 "食物消费"
+ trait_food_consumer_desc:0 "§L我们对食物有着极大的渴求。§!"
+
+ trait_energy_consumer:0 "能源消费"
+ trait_energy_consumer_desc:0 "§L我们对能源有着极大的渴求。§!"

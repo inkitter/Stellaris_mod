@@ -1,0 +1,12 @@
+﻿l_english:
+ #Command System Anomaly
+ #Writing and idea by ForeMole
+ #Code by LamilLerran
+ mem_command_system_category:0 "地震数据"
+ mem_command_system_category_desc:0 "这个世界的地震读数显示出现不寻常的地壳运动。虽然不会引发地震，但定期的不间断的移动的活动迹象一直困扰着我们的科学家。"
+ mem_command_system.1.name:0 "地下指挥系统"
+ mem_command_system.1.desc:0 "§Y[From.From.GetName]§!根据大气中的辐射扫描，大约在三万年前这里曾是个死寂世界。在这个世界曾经是最大的国家的城市废墟和军事基地废墟之下，可以发现无数的通向地底网络的电梯竖井。\n\n§Y[This.GetLeaderName]§!报告称，该隧道网络是某种大规模的铁路系统。看来，它的创造者打算为其铁路称之为\"指挥系统\"，用作于一种抵御辐射的防护罩。通过不断的移动，指挥系统可以避免钻地武器攻击或\"EPWs\"。然而这套系统创造者似乎大大低估了核冬天的长度以及长期居住所需；大约每经过八十年的时间，就会有有一列火车用完车上物资，使得在其上的成员无法支撑下去。\n\n现在，废弃的火车在§Y[From.From.GetName]§!的水下嘎嘎作响，虽然还在运作，但是已经超出难以想象的时间。虽然对于我们来说，这技术早已过时，但我们可以再度让其重新焕发活力继续运转千年，为我们提供大量有价值的研究信息。"
+ mem_command_system.100.name:0 "奇幻读数"
+ mem_command_system.100.desc:0 "想来想去，§Y[This.GetLeaderName]§!和船员§Y[This.GetName]§!得出的结论是地震读数是从§Y[From.From.GetName]§!的故障地震检测器发出的。从好的方面来说，这个教会§Y[This.GetLeaderName]§!在今后研究异常工作中要更加小心；否则下次这种疏忽可能会导致某人的死亡。"
+ #Note for translators: The next line is the beginning of an expression "fool me once, shame on you; fool me twice, shame on me" which means "If someone tricks you it's their fault for being a jerk, but if someone tricks you more than once, you should have noticed that they were disposed to trickery and therefore not have fallen for it again."
+ mem_command_system.100.a:0 "骗我一次..."

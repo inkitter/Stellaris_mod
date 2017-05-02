@@ -1,0 +1,73 @@
+﻿l_english:  
+
+ ev_worldtypes.1.title:0 "研究中心"
+ ev_worldtypes.1.desc:0 "[Root.GetName]已成为一个尖端研究的地方。这里的顶尖科学家收到银河系所有机构的尊敬。"
+ ev_worldtypes.1.a:0 "好的。"
+
+ ev_worldtypes.2.title:0 "专业提纯"
+ ev_worldtypes.2.desc:0 "[Root.GetName]已成为著名的矿物提炼厂。他们开发出来技术能够最大限度地提高矿物产量并尽可能减少浪费。其他国家都希望能够复制这样的技术。"
+ ev_worldtypes.2.a:0 "壮观的。"
+
+ ev_worldtypes.3.title:0 "星球交易"
+ ev_worldtypes.3.desc:0 "[Root.GetName]已获得贸易中心的美誉。这里就像华尔街一样繁忙。"
+ ev_worldtypes.3.a:0 "壮观的。"
+
+ ev_worldtypes.4.title:0 "人间美味"
+ ev_worldtypes.4.desc:0 "[Root.GetName]完善并高产这种特殊的动物。全银河的美食家都等着它们出炉。"
+ ev_worldtypes.4.a:0 "给我订一间房。"
+
+ ev_worldtypes.5.title:0 "天文台"
+ ev_worldtypes.5.desc:0 "[Root.GetName]因他们的天文台而出名。它有着最先进的传感器阵列和训练有素的员工，可以看到更遥远的距离。"
+ ev_worldtypes.5.a:0 "好消息。"
+
+ ev_worldtypes.6.title:0 "物理中心"
+ ev_worldtypes.6.desc:0 "[Root.GetName]已成为一个尖端研究的地方。这里的顶尖科学家收到银河系所有机构的尊敬。"
+ ev_worldtypes.6.a:0 "好的。"
+
+ ev_worldtypes.7.title:0 "社会中心"
+ ev_worldtypes.7.desc:0 "[Root.GetName]已成为一个尖端研究的地方。这里的顶尖科学家收到银河系所有机构的尊敬。"
+ ev_worldtypes.7.a:0 "好的。"
+
+ ev_worldtypes.8.title:0 "工程中心"
+ ev_worldtypes.8.desc:0 "[Root.GetName]已成为一个尖端研究的地方。这里的顶尖科学家收到银河系所有机构的尊敬。"
+ ev_worldtypes.8.a:0 "好的。"
+
+ ev_worldtypes.9.title:0 "高等院校"
+ ev_worldtypes.9.desc:0 "[Root.GetName]有着一个诞生伟人的最佳学府的地方。甚至有其他帝国的公民也来这里求学。"
+ ev_worldtypes.9.a:0 "壮观的。"
+
+ ev_worldtypes.10.title:0 "外交强国"
+ ev_worldtypes.10.desc:0 "[Root.GetName]已被称为外交强国。这星球的政府在银河系中有无法动摇的发言权。"
+ ev_worldtypes.10.a:0 "希望他们和我们一样。"
+
+ ev_worldtypes.11.title:0 "文化地标"
+ ev_worldtypes.11.desc:0 "[Root.GetName]已建成文化地标。它已成为你帝国的象征，也是公民的骄傲。"
+ ev_worldtypes.11.a:0 "不出所料。"
+
+ ev_worldtypes.12.title:0 "高级造船厂"
+ ev_worldtypes.12.desc:0 "[Root.GetName]被称为具有高效率的造船厂。这里使用无人机装配技术，比以往有着无可媲美的效率。"
+ ev_worldtypes.12.a:0 "我们需要它们的帮助。"
+
+ ev_worldtypes.13.title:0 "行星堡垒"
+ ev_worldtypes.13.desc:0 "[Root.GetName]被称为一个固若金汤的地方。在[Root.GetName]使用最先进的防御设备和高度军事化的防御训练。"
+ ev_worldtypes.13.a:0 "壮观的。"
+# UNFINISHED Reserve, Fabrication, Pharmaceuticals, Voidfarer's Archives, Black Markets
+ ev_worldtypes.14.title:0 "自然保护区"
+ ev_worldtypes.14.desc:0 "[Root.GetName]被称为最美丽迷人的自然保护区。许多游客和科学家蜂拥而至[Root.GetName]看下这里独特的自然景观。/n/n (注意:你需要至少4个未开发的地块来维持帝国加成) "
+ ev_worldtypes.14.a:0 "极好的。"
+
+ ev_worldtypes.15.title:0 "建造部件"
+ ev_worldtypes.15.desc:0 "[Root.GetName]因其独特的建造技术被人知道。工程师在其他星球上制造生产关于[Root.GetName]的建筑部件。"
+ ev_worldtypes.15.a:0 "极好的。"
+
+ ev_worldtypes.16.title:0 "药物"
+ ev_worldtypes.16.desc:0 "[Root.GetName]已成为稀有药品的首要来源。科学家在这里解决所有物种的疑难杂症，减少痛苦和延长寿命。"
+ ev_worldtypes.16.a:0 "尽快订购一批货。"
+
+ ev_worldtypes.17.title:0 "Voidfarer的档案"
+ ev_worldtypes.17.desc:0 "[Root.GetName]因其长期研究记录银河异常现象而闻名。Voidfarers参考了[Root.GetName]的整个数据库并总结一份所有最新技术和异常现象的结果。"
+ ev_worldtypes.17.a:0 "极好的。"
+
+ ev_worldtypes.18.title:0 "黑市"
+ ev_worldtypes.18.desc:0 "[Root.GetName]已成为著名的黑市中心。尽管当地不满意，但整个银河几乎所有东西都能在[Root.GetName]找到，只要你能给够钱。"
+ ev_worldtypes.18.a:0 "密切关注。"

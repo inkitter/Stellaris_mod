@@ -1,0 +1,24 @@
+﻿l_english:
+ ####################################
+ # Hull Sizes
+ ####################################
+ RS_SUPPORT_CRUISER:0 "支援巡洋舰"
+ rs_support_cruiser:0 "支援巡洋舰"
+ rs_support_cruiser_plural:0 "支援巡洋舰"
+ ####################################
+ # section slots
+ ####################################
+ bow:0 "舰首"
+ mid:0 "核心"
+ stern:0 "舰尾"
+ ####################################
+ # Technology View
+ ####################################
+ TECH_UNLOCK_RS_SUPPORT_CRUISER_TITLE:0 "§H解锁战舰类型:§! 支援巡洋舰"
+ TECH_UNLOCK_RS_SUPPORT_CRUISER_DESC:0 "§H支援巡洋舰§!\n基于轻装巡洋舰进行大量改造的船体，用于为舰队提供后勤保障的支援类战舰。"
+ ####################################
+ # Dynamic Modifiers
+ ####################################
+ shipsize_rs_support_cruiser_construction_speed_mult:0 "支援巡洋舰建造速度"
+ shipsize_rs_support_cruiser_build_cost_mult:0 "支援巡洋舰建造成本"
+ 

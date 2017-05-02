@@ -1,0 +1,59 @@
+﻿l_english:
+ 
+ ##############################
+ ### Event Planet Modifiers ###
+ ##############################
+ 
+ small_extraction:0 "安全开采"
+ small_extraction_desc:0 "安全至上的合理的开采需求。\n\n"
+ 
+ medium_extraction:0 "自动安全开采"
+ medium_extraction_desc:0 "利用自动化技术实现安全至上的开采需求。\n\n"
+ 
+ big_extraction:0 "全部采出"
+ big_extraction_desc:0 "我的还是我的，全部拿走。\n\n"
+ 
+ pirate_lair:0 "海盗巢穴"
+ pirate_lair_desc:0 "这里频繁出现打劫现象，可能附近存在海盗巢穴。\n\n" 
+ 
+ pirate_trade:0 "与海盗交易"
+ pirate_trade_desc:0 "为何不和当地海盗做朋友。\n\n"
+ 
+ flooded_planet:0 "被淹的星球"
+ flooded_planet_desc:0 "两极冰川融化造成这个星球被洪水淹没，损失无法估计。\n\n"
+ 
+ flooded_planet_helped:0 "帮助被淹的星球"
+ flooded_planet_helped_desc:0 "虽然这个星球被洪水淹没，但是帝国正在帮助公民重建。\n\n"
+ 
+ precursor_ship_bombed:0 "炸船"
+ precursor_ship_bombed_desc:0 "我们炸毁了远古飞船并对外宣称它的归属。\n\n"
+ 
+ worried_population:0 "人口担忧"
+ worried_population_desc:0 "我们的人民担心该星球失踪的人民。\n\n"
+ 
+ great_landscapes:0 "风景秀丽"
+ great_landscapes_desc:0 "该星球风景秀丽适合旅游移民。\n\n"
+ 
+ radiation:0 "远古武器设施"
+ radiation_desc:0 "该星球的先驱设施造成大量辐射，影响了我们的殖民地。\n\n"
+ 
+ animal_taming_prohibited:0 "禁止动物驯养"
+ animal_taming_prohibited_desc:0 "我们禁止驯养本地动物，因为它们会干扰我们的生产效率。\n\n"
+ 
+ animal_taming:0 "允许动物驯养"
+ animal_taming_desc:0 "我们允许驯养本地动物，因为它们会提高我们的生产效率。\n\n"
+ 
+ booming_economy:0 "经济繁荣"
+ booming_economy_desc:0 "这个星球上的经济增长十分迅速。\n\n"
+ 
+ crashing_economy:0 "经济萧条"
+ crashing_economy_desc:0 "这个星球的经济正在崩溃。\n\n"
+ 
+ giant_worms:0 "巨虫"
+ giant_worms_desc:0 "这个星球有巨大的蠕虫，我们可以用它来定位矿脉\n\n"
+ 
+ adapted_buildings: "建筑改造"
+ adapted_buildings_desc:0 "这个星球上的建筑被改造，以适应不稳定的地形。\n\n"
+ 
+ old_mines: "老矿山"
+ old_mines_desc:0 "我们已经修复了一个巨大的旧采矿隧道。\n\n"

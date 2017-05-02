@@ -1,0 +1,13 @@
+﻿l_english:
+ mem_imperialist_intimidation.7.name:0 "[hegimp.GetName]的舰队在威胁我们的殖民地"
+ mem_imperialist_intimidation.7.desc_01:0 "[hegimp.GetName]已宣称在我们的附近星域。[hegimp.GetAdj] 加强军队实力并派遣一支舰队进入边境区域。官方称，这些战舰只不过执行常规任务，但他们的对外宣称的是：[hegimp.GetName]将在此驻守。因此[intimplanet.GetName]的人口已经开始聚集起来宣誓要保卫领土完整。"
+ mem_imperialist_intimidation.7.holyorder:0 "信仰正义的武器绝不会动摇。"
+ mem_imperialist_intimidation.7.desc_02:0 "[hegimp.GetName]已宣称在我们的附近星域。[hegimp.GetAdj]加强军队实力并派遣一支舰队进入边境区域。官方称，这些战舰只不过执行常规任务，但他们的对外宣称的是：[hegimp.GetName]将在此驻守。因此[intimplanet.GetName]的民兵志愿者的数量激增到空前的数字。"
+ mem_imperialist_intimidation.7.letthemcome:0 "来自[intimplanet.GetName]！"
+ mem_imperialist_intimidation.7.desc_03:0 "[hegimp.GetName]已宣称在我们的附近星域。[hegimp.GetAdj]加强军队实力并派遣一支舰队进入边境区域。官方称，这些战舰只不过执行常规任务，但他们的对外宣称的是：[hegimp.GetName]将在此驻守。因此我们帝国的人们正在动员起来保护我们的同胞。"
+ mem_imperialist_intimidation.7.unitedfront:0 "我们的国家不会让[intimplanet.GetName]沉沦。"
+ mem_imperialist_intimidation.7.desc_04:0 "[hegimp.GetName]已宣称在我们的附近星域。[hegimp.GetAdj]加强军队实力并派遣一支舰队进入边境区域。官方称，这些战舰只不过执行常规任务，但他们的对外宣称的是：[hegimp.GetName]将在此驻守。因此[intimplanet.GetName]的人口在这个艰难的时刻联合祈祷。"
+ mem_imperialist_intimidation.7.prayer:0 "我们不会屈服于绝望。"
+ mem_imperialist_intimidation.7.desc_05:0 "[hegimp.GetName]已宣称在我们的附近星域。[hegimp.GetAdj]加强军队实力并派遣一支舰队进入边境区域。官方称，这些战舰只不过执行常规任务，但他们的对外宣称的是：[hegimp.GetName]将在此驻守。然而[intimplanet.GetName]的人口应对这些挑衅，并将他们的注意力转向国内。"
+ mem_imperialist_intimidation.7.default:0 "他们不屈服于恐惧是明智的。"
+ 

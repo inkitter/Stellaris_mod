@@ -1,0 +1,30 @@
+﻿l_english:
+
+
+# ###################################
+# Species Specific Engineering
+# ###################################
+
+ tech_arthropoid_engineering:0 "节肢类工程"
+ tech_arthropoid_engineering_desc:0 ""不可避免地，无论是由于心理，生理，或两者，工程设计遵循特定的美学，形式和功能，既独特又普遍的物种。" - 未知"
+ tech_mammalian_engineering:0 "哺乳类工程"
+ tech_mammalian_engineering_desc:0 ""不可避免地，无论是由于心理，生理，或两者，工程设计遵循特定的美学，形式和功能，既独特又普遍的物种。" - 未知"
+ tech_molluscoid_engineering:0 "软体类工程"
+ tech_molluscoid_engineering_desc:0 ""不可避免地，无论是由于心理，生理，或两者，工程设计遵循特定的美学，形式和功能，既独特又普遍的物种。" - 未知"
+ tech_avian_engineering:0 "鸟类工程"
+ tech_avian_engineering_desc:0 ""不可避免地，无论是由于心理，生理，或两者，工程设计遵循特定的美学，形式和功能，既独特又普遍的物种。" - 未知"
+ tech_reptilian_engineering:0 "爬虫类工程"
+ tech_reptilian_engineering_desc:0 ""不可避免地，无论是由于心理，生理，或两者，工程设计遵循特定的美学，形式和功能，既独特又普遍的物种。" - 未知"
+ tech_fungoid_engineering:0 "真菌类工程"
+ tech_fungoid_engineering_desc:0 ""不可避免地，无论是由于心理，生理，或两者，工程设计遵循特定的美学，形式和功能，既独特又普遍的物种。" - 未知"
+ tech_plantoid_engineering:0 "植物类工程"
+ tech_plantoid_engineering_desc:0 ""不可避免地，无论是由于心理，生理，或两者，工程设计遵循特定的美学，形式和功能，既独特又普遍的物种。" - 未知"
+
+ TECH_UNLOCK_ARTHROPOID_ENGINEERING_TITLE:0 "允许节肢类-特定的战舰/工程设计"
+ TECH_UNLOCK_MAMMALIAN_ENGINEERING_TITLE:0 "允许哺乳类-特定的战舰/工程设计"
+ TECH_UNLOCK_MOLLUSCOID_ENGINEERING_TITLE:0 "允许软体类-特定的战舰/工程设计"
+ TECH_UNLOCK_AVIAN_ENGINEERING_TITLE:0 "允许鸟类-特定的战舰/工程设计"
+ TECH_UNLOCK_REPTILIAN_ENGINEERING_TITLE:0 "允许爬虫类-特定的战舰/工程设计"
+ TECH_UNLOCK_FUNGOID_ENGINEERING_TITLE:0 "允许真菌类-特定的战舰/工程设计"
+ TECH_UNLOCK_PLANTOID_ENGINEERING_TITLE:0 "允许植物类-特定的战舰/工程设计"
+

@@ -1,0 +1,16 @@
+﻿l_english:
+
+ ####################################
+ # Army.Types
+ ####################################
+ colonial_watch:0 "民兵"
+ colonial_watch_desc:0 "我们可以训练民兵，满足殖民地的防备最低要求。\n\n"
+ strike_force:0 "攻击部队"
+ strike_force_desc:0 "只有经过严格标准训练方能派上第一线。\n\n"
+ mercenarie_troops:0 "雇佣兵"
+ mercenarie_troops_desc:0 "花点钱请外来军团也能达到专业部队的效果。\n\n"
+ armored_division:0 "装甲师"
+ armored_division_desc:0 "装甲师是具有良好的防御和攻击能力的车辆。\n\n"
+ mech_squad:0 "机甲小队"
+ mech_squad_desc:0 "机甲是具有灵活性和易于使用，非常适合城市战。\n\n"
+ 

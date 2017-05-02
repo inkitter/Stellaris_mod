@@ -400,7 +400,7 @@ guiTypes = {
 				position = { x = 15 y = 23 }
 				font = "cg_16b"
 				text = "FLEETVIEW_NO_LEADER_ASSIGN"
-				maxWidth = 60
+				maxWidth = 70
 				maxHeight = 80
 				fixedSize = yes
 				format = center

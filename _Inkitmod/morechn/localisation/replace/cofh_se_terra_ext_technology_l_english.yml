@@ -1,0 +1,21 @@
+﻿l_english:
+
+# Technology - Non-Repeatable
+
+# Society
+
+ tech_cofh_se_dynamo_manipulation:0 "发电机操控"
+ tech_cofh_se_dynamo_manipulation_desc:0 "基本操控知识能让即使是最遥远的冰冻世界也有生存下去。"
+
+ tech_cofh_se_tectonic_restriction:0 "地壳约束"
+ tech_cofh_se_tectonic_restriction_desc:0 "基本操控知识能让即使是最凶狠的熔岩世界也能被驯服。"
+
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_TITLE:0 "§H解锁功能:§! 发电机操控"
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§H发电机操控§!\n允许我们改造冰冻世界为可居住的星球。"
+
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§H解锁功能:§! 地壳约束"
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§H地壳约束§!\n允许我们改造熔岩世界为可居住的星球。"
+
+# Requirements
+
+ requirement_cofh_se_planet_size:0 "§R星球必须在允许尺寸范围内。§!"

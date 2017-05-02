@@ -1,0 +1,98 @@
+﻿l_english:
+
+#--
+#--		--------------------------- --------------------------- --------------------------- ---------------------------
+#--		Fallen Empire Expanded - Localisation for Fallen Empires Expanded
+#--		--------------------------- --------------------------- --------------------------- ---------------------------
+#--
+#--		PREFACE
+#--		•	This file provides the localisation for names and descriptions for Fallen Empires Expanded
+#--		•	Without this file, names and description will be missing and unavailable.
+#--
+#--		--------------------------- --------------------------- --------------------------- ---------------------------
+#--
+
+#	--------------------------- --------------------------- ---------------------------
+#	Fallen Empire Personalities
+#	common/personalities/FEE_fallen_empire_personalities.txt
+#	--------------------------- --------------------------- ---------------------------
+
+ personality_fallen_empire_militarist:0 "军事至上主义"
+ personality_fallen_empire_militarist_desc:0 "这个失落帝国专注于保持与其他帝国之间的军事优势。如果当有帝国的舰队力量超过他们可能会引发他们的怒火。"
+ personality_awakened_fallen_empire_militarist:0 "沙文帝国主义"
+ personality_awakened_fallen_empire_militarist_desc:0 "这个觉醒帝国试图用他们的军事优势吞并周边弱小的种种。他们可能会试图攻击任何比他们弱的帝国。"
+
+
+#	--------------------------- --------------------------- ---------------------------
+#	Puppet States
+#	common/subjects/FEE_fallen_empire_subjects.txt
+#	--------------------------- --------------------------- ---------------------------
+
+ SUBJECT_puppet:0 "傀儡政权"
+ SUBJECT_DESC_puppet:0 "傀儡是被其控制的霸主允许有独立的外交和军事的国家。他们必须贡献§Y35%§!能源和矿物给他们的霸主以赞扬霸主的伟绩。他们被霸主允许有殖民权和对外战争权。"
+ DIPLOMACY_IS_SUBJECT:1 "§T$TYPE$在$EMPIRE|H$§!下面"
+
+#	--------------------------- --------------------------- ---------------------------
+#	Opinion Modifiers
+#	common/opinion_modifiers/FEE_opinion_modifiers.txt
+#	--------------------------- --------------------------- ---------------------------
+
+ FEE_opinion_militarist_fleet_power_dangerous:0 "危险舰队实力"
+ FEE_opinion_militarist_fleet_power_threatening:0 "威胁舰队实力"
+ FEE_opinion_militarist_fleet_power_formidable:0 "可怕舰队实力"
+ FEE_opinion_militarist_fleet_power_major:0 "强大舰队实力"
+ FEE_opinion_militarist_fleet_power_moderate:0 "普通舰队实力"
+ FEE_opinion_militarist_fleet_power_minor:0 "弱小舰队实力"
+ FEE_opinion_militarist_fleet_power_trival:0 "零散舰队实力"
+ FEE_opinion_militarist_fleet_power_none:0 "无军事实力"
+
+ FEE_opinion_militarist_awakened_equivalent:0 "银河镜像"
+ FEE_opinion_militarist_awakened_powerful:0 "强大帝国"
+ FEE_opinion_militarist_awakened_noteworthy:0 "强帝国"
+ FEE_opinion_militarist_awakened_potent:0 "稍强帝国"
+ FEE_opinion_militarist_awakened_capable:0 "普通帝国"
+ FEE_opinion_militarist_awakened_mediocre:0 "弱小帝国"
+ FEE_opinion_militarist_awakened_weak:0 "无能帝国"
+ FEE_opinion_militarist_awakened_powerless:0 "手无寸铁"
+
+ FEE_opinion_militarist_vassal_relations:0 "傀儡国家关系"
+
+ FEE_opinion_militarist_vassal_belligerent:0 "交战国"
+
+#	--------------------------- --------------------------- ---------------------------
+#	Player Homeworlds
+#	common/solar_system_initializers/FEE_player_starting_homeworld_initializer.txt
+#	--------------------------- --------------------------- ---------------------------
+
+ FEE_fallen_1_1_player_NAME:0 "§H无限灯塔\n"
+ FEE_fallen_1_1_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L有四个居住区的完整的环形世界。\n§G   - 4x 环形世界居住区 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_1_3_player_NAME:0 "§H恒心灯塔\n"
+ FEE_fallen_1_3_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L被破坏的环形世界只剩下一个完整的居住区。\n§G   - 1x 环形世界居住区 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_2_player_NAME:0 "§H天体王座\n"
+ FEE_fallen_2_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L巫师帝国的王座。两个盖亚世界。\n§G   - 1x 盖亚行星 (25)\n§G   - 1x 盖亚行星 (15)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_3_player_NAME:0 "§H天父\n"
+ FEE_fallen_3_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L领域的融合。三个盖亚星球环绕着一个巨型气态星球。\n§G   - 1x 盖亚月亮 (20)\n§G   - 1x 盖亚月球 (12)\n§G   - 1x 盖亚月亮 (10)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_4_player_NAME:0 "§H核心\n"
+ FEE_fallen_4_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L一个隐居帝国，两个盖亚世界。一个轨道。\n§G   - 1x 盖亚行星 (25)\n§G   - 1x 盖亚月亮 (12)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_5_player_NAME:0 "§H天体发电机\n"
+ FEE_fallen_5_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L古老又失效的机器。部分环形世界和盖亚世界。\n§G   - 1x 环形世界居住区 (25)\n§G   - 1x 盖亚行星 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_6_player_NAME:0 "§H太空避难所\n"
+ FEE_fallen_6_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L一个被共有恒星环绕着神秘空间。三个分开在轨道上的盖亚世界。\n§G   - 1x 盖亚行星 (25)\n§G   - 2x 盖亚月球 (20)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_7_player_NAME:0 "§H空灵堡垒\n"
+ FEE_fallen_7_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L生命的摇篮。有四个居住区的完整的环形世界。\n§G   - 4x 环形世界居住区 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_8_player_NAME:0 "§H永恒城堡\n"
+ FEE_fallen_8_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L一个腐朽的帝国的最后的根据地，一个类地星球和一个理想世界。\n§G   - 1x 盖亚行星 (25)\n§G   - 1x 理想的宜居行星 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_earth_player_NAME:0 "§H地球\n"
+ FEE_fallen_earth_player_DESC:0 "§H失落帝国扩展\n--------------------------------\n§L停滞不前的圣所有着大量不同行星。\n§G     Venus - 热带世界 (16)\n§G     Earth - 盖亚世界 (25)\n§G     Mars - 草原世界 (16)\n§G     Europa - 海洋月球 (16)\n§G     Titan - 北极月 (12)\n\n§H家园: §R人族联盟\n\n$system_initializer_DESC$"
+
+ FEE_fallen_terran_wasteland_player_NAME:0 "§H人族荒地\n"
+ FEE_fallen_terran_wasteland_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L一个有着大量不同行星的外星入侵以及种族灭绝的墓地宝座。\n§G     Venus - 荒野世界 (16)\n§G     Earth - 死寂世界 (25)\n§G     Mars - 盖亚世界 (25)\n§G     Europa - 死寂月球 (25)\n§G     Titan - 苔原月 (16)\n§G     Titania - 北极月 (16)\n\n§H家园: §R索尔帝国\n\n$system_initializer_DESC$"

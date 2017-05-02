@@ -1,0 +1,44 @@
+﻿l_english:
+ mem_asteroid_derelict_structure_category:0 "废弃建筑"
+ mem_asteroid_derelict_structure_category.materials_bias:0 "废弃建筑"
+ mem_asteroid_derelict_structure_category.industry_bias:0 "废弃建筑"
+ mem_asteroid_derelict_structure_category.voidcraft_bias:0 "废弃建筑"
+ mem_asteroid_derelict_structure_category.field_manipulation_bias:0 "废弃建筑"
+ mem_asteroid_derelict_structure_category.particles_bias:0 "废弃建筑"
+ mem_asteroid_derelict_structure_category.biology_bias:0 "废弃建筑"
+ mem_asteroid_derelict_structure_category_desc:0 "在调查中，我们的科学家团队发现了一座位于小行星表面的建筑物。"
+
+ # Failure
+ mem_asteroid_derelict_structure.1.name:0 "危险状况"
+ mem_asteroid_derelict_structure.1.desc:0 "无论这个建筑物曾经是什么，经过了如此漫长的时光,它几乎失去了存在过的痕迹。我们的探测器无法寻找到任何进入这栋神秘建筑的完好通路，让打捞出有价值物品的希望变得越来越渺茫。[Root.GetLeaderName]无奈地中止了这次探险。"
+ mem_asteroid_derelict_structure.1.a:0 "太糟糕了。"
+
+ # Salvage
+ mem_asteroid_derelict_structure.2.name:0 "什么都没有！"
+ mem_asteroid_derelict_structure.2.desc:0 "看样子，无论是谁建造的这栋建筑,它已经被弃置很长时间了，无人能告诉我们建造它的目的是什么。尽管十分失望，至少建造这栋建筑物的材料能够被我们回收并且用到别处。"
+ mem_asteroid_derelict_structure.2.a:0 "很遗憾。"
+
+ # Power source
+ mem_asteroid_derelict_structure.3.name:0 "奇怪的能量源"
+ mem_asteroid_derelict_structure.3.desc:0 "通过我们对整个基地的探查,我们发现了一个非同寻常的能量源。它似乎是用了某种未知科技所制造的微型奇点来维持其能量的平衡，我们的研究人员小心翼翼地尝试去接触这个能量源并研究其构造。似乎，这个科技尚且还在我们的可理解范围之内，这些建筑经过改良能够被我们所用。"
+ mem_asteroid_derelict_structure.3.a:0 "还行。"
+
+ # Interesting composition
+ mem_asteroid_derelict_structure.4.name:0 "宇宙中的神奇"
+ mem_asteroid_derelict_structure.4.desc:0 "我们的研究人员目前依然无法得知这座设施原先的作用。然而，这栋建筑本身的设计十分令人吃惊，以至于被我们的研究人员描述成 '令人作呕的'，'让人恐惧的'，和 '令人五味杂陈的，完全无法想象。' 无论是谁曾经在这栋设施里居住,他们完全无视了传统意义上的设计思维，以至于人们得出一些关于他们如何完成这栋如此愚蠢的建筑的猜想。\n\n在这个小行星的轨道里建立一个科研机构也许能在未来帮你深入理解其中的科技奥秘。"
+ mem_asteroid_derelict_structure.4.a:0 "真有趣。"
+
+ # Small warp loop
+ mem_asteroid_derelict_structure.5.name:0 "钟摆现象" 
+ mem_asteroid_derelict_structure.5.desc:0 "看样子这座基地是一个研究设施。\n\n靠近小行星带的位置似乎形成了一个稳定的亚空间通道，许多大型的小行星似乎都被其捕获。这个原型通道的引力场使得它们在小行星带附近环绕，每隔一小时就能环绕一周。\n\n尽管有迹象表面这种现象正在消退，但是根据预测这种环绕现象还将持续至少26亿年，给予我们充分的时间去观测这种现象。在这里建一个研究中心能加快我们未来对于这种现象的研究。"
+ mem_asteroid_derelict_structure.5.a:0 "棒极了。"
+
+ # Strange warp technology
+ mem_asteroid_derelict_structure.6.name:0 "错误"
+ mem_asteroid_derelict_structure.6.desc:0 "无论是谁建造的这座基地,他们都是为了研究一种未知的超光速推进器科技。这使得这栋建筑附近布满了各种弹坑，似乎他们进行了许多次不成功的尝试。在研究设施里堆满了各种用来测试的推进器原型,在未来的时光中,我们的研究人员可以更加小心的进行实验来决定这些推进器如何,或者说能否实现超光速旅行。重建这座基地能让我们继续这些实验。"
+ mem_asteroid_derelict_structure.6.a:0 "那就这样做吧。"
+
+ # Interesting biology
+ mem_asteroid_derelict_structure.7.name:0 "失落的研究所"
+ mem_asteroid_derelict_structure.7.desc:0 "在这座基地里我们发现了许多有意思的东西，尽管其中的大部分都毁灭了。\n\n在一个部分暴露在宇宙中的建筑物中，我们发现了一个用来贮藏生物样本的大型贮藏室，其中的一些拥有十分优秀的可再生能力。根据对这些生物标本的分析结果碎片的调查我们发现，这座研究基地似乎是用来帮助抵抗一种从数百年前开始就一直困扰他们物种的病毒型瘟疫。在对这座研究所的最后调查中，我们发现他们的努力似乎是失败了。\n\n虽然这种病毒似乎是不会感染我们的物种，[Root.GetLeaderName] 建议在轨道里建立一座研究机构来更深入研究这些生物样本，并且隔离所有进入这栋研究所的研究人员一段时间。"
+ mem_asteroid_derelict_structure.7.a:0 "还是小心为妙。"

@@ -1,0 +1,22 @@
+﻿l_english:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+ 
+ 
+ ####################################
+ # RS Battleruiser
+ #################################### 
+ 
+ RS_SHIP_AURA_NANOBOT_CLOUD:1 "$ship_mounted$ $AURA_NANOBOT_CLOUD$"
+ RS_SHIP_AURA_SHIELD_RECHARGER:1 "$ship_mounted$ $AURA_SHIELD_RECHARGER$"
+ RS_SHIP_AURA_SHIELD_DAMPENER:1 "$ship_mounted$ $AURA_SHIELD_DAMPENER$"
+ RS_SHIP_AURA_QUANTUM_DESTABILIZER:1 "$ship_mounted$ $AURA_QUANTUM_DESTABILIZER$"
+ RS_DEFENSIVE_SHIP_AURA_EMPTY:1 "空槽"
+ RS_OFFENSIVE_SHIP_AURA_EMPTY:1 "空槽"
+ 

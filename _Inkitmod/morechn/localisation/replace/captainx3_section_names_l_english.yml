@@ -1,0 +1,401 @@
+﻿l_english:
+
+####################################
+# Corvette
+####################################
+ CORVETTE_MID_M1S1_1: "鱼雷艇"
+ CORVETTE_MID_M1S1_2: "巡逻艇 1"
+ CORVETTE_MID_M1S1_3: "巡逻艇 2"
+
+####################################
+# Frigate
+####################################
+ Frigate_BOW_M1S2: "哨兵舰首"
+ Frigate_BOW_M1S2_1: "鱼雷舰首"
+ Frigate_BOW_S3_1: "点防御舰首"
+ Frigate_BOW_S3_2: "精准舰首"
+
+ Frigate_STERN_S2_1: "点防御舰尾"
+ Frigate_STERN_S2_2: "点防御舰尾"
+ Frigate_STERN_M1: "哨兵舰尾"
+
+
+####################################
+# Destroyer
+####################################
+ DESTROYER_BOW_S3_1: "哨兵舰首"
+ DESTROYER_BOW_S3_2: "精准舰首"
+
+
+####################################
+# Cruiser
+####################################
+ CRUISER_BOW_L1_1: "大炮舰首"
+ CRUISER_BOW_M2_1: "排炮舰首"
+ CRUISER_BOW_M2_2: "鱼雷舰首"
+ CRUISER_BOW_M2_3: "弹幕舰首"
+
+####################################
+# Light Carrier
+####################################
+ LightCarrier_BOW_L1: "大炮舰首"
+ LightCarrier_BOW_M2: "排炮舰首"
+ LightCarrier_BOW_M1S2_1: "齐射舰首"
+ LightCarrier_BOW_M1S2_2: "精准舰首"
+ LightCarrier_BOW_M1S2_3: "点防御舰首"
+
+ LightCarrier_MID1_L1M1: "大炮核心 1"
+ LightCarrier_MID1_M3: "排炮核心 1"
+ LightCarrier_MID1_M2S2: "愤怒核心 1"
+ LightCarrier_MID1_S2HB_1: "机库核心 1"
+ LightCarrier_MID1_S2HB_2: "终端核心 1"
+ LightCarrier_MID1_S2HB_3: "航母核心 1"
+
+ LightCarrier_MID2_L1M1: "大炮核心 2"
+ LightCarrier_MID2_M3: "排炮核心 2"
+ LightCarrier_MID2_M2S2: "愤怒核心 2"
+ LightCarrier_MID2_S2HB_1: "机库核心 2"
+ LightCarrier_MID2_S2HB_2: "终端核心 2"
+ LightCarrier_MID2_S2HB_3: "航母核心 2"
+
+ LightCarrier_STERN_M1: "点防御舰尾"
+ LightCarrier_STERN_S2: "精准舰尾"
+
+
+####################################
+# Strike Cruiser
+####################################
+ StrikeCruiser_BOW_L1: "警戒破坏者"
+ StrikeCruiser_BOW_M1S2_1: "弹幕舰首"
+ StrikeCruiser_BOW_M1S2_2: "精准舰首"
+ StrikeCruiser_BOW_M2_1: "排炮舰首"
+ StrikeCruiser_BOW_M2_2: "鱼雷舰首"
+ StrikeCruiser_BOW_M2_3: "齐射舰首"
+
+ StrikeCruiser_MID_L1M1: "惩罚者核心"
+ StrikeCruiser_MID_S2HB_1: "齐射核心"
+ StrikeCruiser_MID_S2HB_2: "精准核心"
+ StrikeCruiser_MID_M3_1: "排炮核心"
+ StrikeCruiser_MID_M3_2: "鱼雷核心"
+ StrikeCruiser_MID_M2S2_1: "弹幕核心"
+ StrikeCruiser_MID_M2S2_2: "喷火核心"
+
+ StrikeCruiser_STERN_M1_1: "排炮舰尾"
+ StrikeCruiser_STERN_M1_2: "鱼雷舰尾"
+ StrikeCruiser_STERN_S2_1: "精准舰尾"
+ StrikeCruiser_STERN_S2_2: "点防御舰尾"
+
+
+####################################
+# Battlecruiser
+####################################
+ Battlecruiser_BOW_L1_1: "大炮舰首"
+ Battlecruiser_BOW_L1_2: "弹幕舰首"
+ Battlecruiser_BOW_M1S2_1: "精准舰首"
+ Battlecruiser_BOW_M1S2_2: "鱼雷舰首"
+ Battlecruiser_BOW_M2: "排炮舰首"
+
+ Battlecruiser_MID1_S2HB: "机库核心 1"
+ Battlecruiser_MID1_L1M1_1: "大炮核心 1"
+ Battlecruiser_MID1_L1M1_2: "弹幕核心 1"
+ Battlecruiser_MID1_M3_1: "排炮核心 1"
+ Battlecruiser_MID1_M3_2: "鱼雷核心 1"
+ Battlecruiser_MID1_M2S2_1: "齐射核心 1"
+ Battlecruiser_MID1_M2S2_2: "精准核心 1"
+
+ Battlecruiser_MID2_S2HB: "机库核心 2"
+ Battlecruiser_MID2_L1M1_1: "大炮核心 2"
+ Battlecruiser_MID2_L1M1_2: "弹幕核心 2"
+ Battlecruiser_MID2_M3_1: "排炮核心 2"
+ Battlecruiser_MID2_M3_2: "鱼雷核心 2"
+ Battlecruiser_MID2_M2S2_1: "齐射核心 2"
+ Battlecruiser_MID2_M2S2_2: "精准核心 2"
+
+ Battlecruiser_STERN_M1_1: "排炮舰尾"
+ Battlecruiser_STERN_M1_2: "鱼雷舰尾"
+ Battlecruiser_STERN_S2_1: "精准舰尾"
+ Battlecruiser_STERN_S2_2: "点防御舰尾"
+
+
+####################################
+# Battleship
+####################################
+ BATTLESHIP_BOW_L1M1S2_1: "排炮舰首"
+ BATTLESHIP_MID_M4SHB_1: "齐射核心"
+ BATTLESHIP_BOW_XL1: "脊山舰首"
+
+ BATTLESHIP_STERN_M2_1: "排炮舰尾"
+
+
+####################################
+# Carrier
+####################################
+ Carrier_BOW_L1M1S2: "排炮舰首"
+ Carrier_BOW_L1S4: "泰坦破坏者"
+ Carrier_BOW_L2: "大炮舰首"
+ Carrier_BOW_M1S2SHB_1: "弹幕舰首"
+ Carrier_BOW_M1S2SHB_2: "精准舰首"
+ Carrier_BOW_M1S2SHB_3: "点防御舰首"
+ Carrier_BOW_M2S4_1: "排炮舰首"
+ Carrier_BOW_M2S4_2: "覆盖舰首"
+ Carrier_BOW_M3S2: "齐射舰首"
+
+ Carrier_MID1_L1M4: "兴风者核心 1"
+ Carrier_MID1_L2M2: "排炮核心 1"
+ Carrier_MID1_L3: "奇点核心 1"
+ Carrier_MID1_M4SHB: "机库核心 1"
+ Carrier_MID1_L2S4_1: "排炮核心 1"
+ Carrier_MID1_L2S4_2: "机库核心 1"
+ Carrier_MID1_L2S4_3: "齐射核心 1"
+ Carrier_MID1_S4LHB_1: "弹幕核心 1"
+ Carrier_MID1_S4LHB_2: "航母核心 1"
+ Carrier_MID1_S4LHB_3: "精准核心 1"
+
+ Carrier_MID2_L1M4: "兴风者核心 2"
+ Carrier_MID2_L2M2: "排炮核心 2"
+ Carrier_MID2_L3: "奇点核心 2"
+ Carrier_MID2_M4SHB: "机库核心 2"
+ Carrier_MID2_L2S4_1: "排炮核心 2"
+ Carrier_MID2_L2S4_2: "机库核心 2"
+ Carrier_MID2_L2S4_3: "齐射核心 2"
+ Carrier_MID2_S4LHB_1: "弹幕核心 2"
+ Carrier_MID2_S4LHB_2: "航母核心 2"
+ Carrier_MID2_S4LHB_3: "精准核心 2"
+
+ Carrier_STERN_L1: "精准舰尾"
+ Carrier_STERN_M1S2_1: "齐射舰尾"
+ Carrier_STERN_M1S2_2: "神射手舰尾"
+ Carrier_STERN_M2: "排炮舰尾"
+ Carrier_STERN_S4_1: "弹幕舰尾"
+ Carrier_STERN_S4_2: "精准舰尾"
+ Carrier_STERN_S4_3: "点防御舰尾"
+
+
+####################################
+# Dreadnought
+####################################
+ Dreadnought_BOW_L1M1S2: "排炮舰首"
+ Dreadnought_BOW_L1S4: "弹幕舰首"
+ Dreadnought_BOW_L2: "大炮舰首"
+ Dreadnought_BOW_M1S2SHB: "机库舰首"
+ Dreadnought_BOW_M2S4: "冲角舰首"
+ Dreadnought_BOW_M3S2: "鱼雷防御舰首"
+
+ Dreadnought_MID1_L3: "歼灭者核心 1"
+ Dreadnought_MID1_L2M2_1: "大炮核心 1"
+ Dreadnought_MID1_L2M2_2: "排炮核心 1"
+ Dreadnought_MID1_L1M4_1: "齐射核心 1"
+ Dreadnought_MID1_L1M4_2: "弹幕核心 1"
+ Dreadnought_MID1_M4SHB: "奔流核心 1"
+ Dreadnought_MID1_L2S4: "超星核心 1"
+ Dreadnought_MID1_S4LHB: "航母核心 1"
+
+ Dreadnought_MID2_L3: "歼灭者核心 2"
+ Dreadnought_MID2_L2M2_1: "大炮核心 2"
+ Dreadnought_MID2_L2M2_2: "排炮核心 2"
+ Dreadnought_MID2_L1M4_1: "齐射核心 2"
+ Dreadnought_MID2_L1M4_2: "弹幕核心 2"
+ Dreadnought_MID2_M4SHB: "奔流核心 2"
+ Dreadnought_MID2_L2S4: "超星核心 2"
+ Dreadnought_MID2_S4LHB: "航母核心 2"
+
+ Dreadnought_STERN_M1S2: "永世堡垒"
+ Dreadnought_STERN_L1: "大炮舰尾"
+ Dreadnought_STERN_M2: "排炮舰尾"
+ Dreadnought_STERN_S4: "精准舰尾"
+
+
+####################################
+# Command Dreadnought
+####################################
+
+ Superdreadnought_BOW_L1M1S2: "排炮舰首"
+ Superdreadnought_BOW_L1S4: "弹幕舰首"
+ Superdreadnought_BOW_L2: "大炮舰首"
+ Superdreadnought_BOW_M1S2SHB: "机库舰首"
+ Superdreadnought_BOW_M2S4: "冲角舰首"
+ Superdreadnought_BOW_M3S2: "喷火舰首"
+
+ Superdreadnought_MID1_L3: "歼灭者核心 1"
+ Superdreadnought_MID1_L2M2_1: "大炮核心 1"
+ Superdreadnought_MID1_L2M2_2: "轰炸核心 1"
+ Superdreadnought_MID1_L1M4_1: "排炮核心 1"
+ Superdreadnought_MID1_L1M4_2: "猛射核心 1"
+ Superdreadnought_MID1_M4SHB_1: "齐射核心 1"
+ Superdreadnought_MID1_M4SHB_2: "奔流核心 1"
+ Superdreadnought_MID1_L2S4_1: "弹幕核心 1"
+ Superdreadnought_MID1_L2S4_2: "齐射核心 1"
+ Superdreadnought_MID1_S4LHB: "航母核心 1"
+
+ Superdreadnought_MID2_L3: "歼灭者核心 2"
+ Superdreadnought_MID2_L2M2_1: "大炮核心 2"
+ Superdreadnought_MID2_L2M2_2: "轰炸核心 2"
+ Superdreadnought_MID2_L1M4_1: "排炮核心 2"
+ Superdreadnought_MID2_L1M4_2: "猛射核心 2"
+ Superdreadnought_MID2_M4SHB_1: "齐射核心 2"
+ Superdreadnought_MID2_M4SHB_2: "奔流核心 2"
+ Superdreadnought_MID2_L2S4_1: "弹幕核心 2"
+ Superdreadnought_MID2_L2S4_2: "齐射核心 2"
+ Superdreadnought_MID2_S4LHB: "航母核心 2"
+
+ Superdreadnought_STERN_M1S2: "永世堡垒"
+ Superdreadnought_STERN_L1: "大炮舰尾"
+ Superdreadnought_STERN_M2: "排炮舰尾"
+ Superdreadnought_STERN_S4: "精准舰尾"
+
+
+####################################
+# Flagship
+####################################
+ Flagship_BOW_XL1: "冲角舰首 1"
+ Flagship_BOW_XL2: "冲角舰首 2"
+ Flagship_BOW_XL3: "冲角舰首 3"
+ Flagship_BOW_L2: "歼灭者舰首"
+ Flagship_BOW_L1S4_1: "大炮舰首"
+ Flagship_BOW_L1S4_2: "猛射舰首"
+ Flagship_BOW_L1S4_3: "齐射舰首"
+ Flagship_BOW_L1M1S2_1: "弹幕舰首"
+ Flagship_BOW_L1M1S2_2: "轰炸舰首"
+ Flagship_BOW_L1M1S2_3: "排炮舰首"
+ Flagship_BOW_M3S2_1: "奔流舰首"
+ Flagship_BOW_M3S2_2: "精准舰首"
+ Flagship_BOW_M3S2_3: "喷火舰首"
+ Flagship_BOW_M2S4_1: "齐射舰首"
+ Flagship_BOW_M2S4_2: "清洁者舰首"
+
+ Flagship_MID1_L3_1: "歼灭者核心 1"
+ Flagship_MID1_L3_2: "大炮核心 1"
+ Flagship_MID1_L3_3: "轰炸核心 1"
+ Flagship_MID1_L2M2_1: "排炮核心 1"
+ Flagship_MID1_L2S4_1: "弹幕核心 1"
+ Flagship_MID1_L1M4_1: "齐射核心 1"
+ Flagship_MID1_L2M2_2: "猛射核心 1"
+ Flagship_MID1_L2S4_2: "齐射核心 1"
+ Flagship_MID1_L2S4_3: "清洁者核心 1"
+ Flagship_MID1_L1M4_2: "精准核心 1"
+ Flagship_MID1_M4SHB_1: "奔流核心 1"
+ Flagship_MID1_M4SHB_2: "喷火核心 1"
+ Flagship_MID1_S4LHB: "超级航母核心 1"
+
+ Flagship_MID2_L3_1: "歼灭者核心 2"
+ Flagship_MID2_L3_2: "大炮核心 2"
+ Flagship_MID2_L3_3: "轰炸核心 2"
+ Flagship_MID2_L2M2_1: "排炮核心 2"
+ Flagship_MID2_L2S4_1: "弹幕核心 2"
+ Flagship_MID2_L1M4_1: "齐射核心 2"
+ Flagship_MID2_L2M2_2: "猛射核心 2"
+ Flagship_MID2_L2S4_2: "齐射核心 2"
+ Flagship_MID2_L2S4_3: "清洁者核心 2"
+ Flagship_MID2_L1M4_2: "精准核心 2"
+ Flagship_MID2_M4SHB_1: "奔流核心 2"
+ Flagship_MID2_M4SHB_2: "喷火核心 2"
+ Flagship_MID2_S4LHB: "超级航母核心 2"
+
+ Flagship_MID3_L3_1: "歼灭者核心 3"
+ Flagship_MID3_L3_2: "大炮核心 3"
+ Flagship_MID3_L3_3: "轰炸核心 3"
+ Flagship_MID3_L2M2_1: "排炮核心 3"
+ Flagship_MID3_L2S4_1: "弹幕核心 3"
+ Flagship_MID3_L1M4_1: "齐射核心 3"
+ Flagship_MID3_L2M2_2: "猛射核心 3"
+ Flagship_MID3_L2S4_2: "齐射核心 3"
+ Flagship_MID3_L2S4_3: "清洁者核心 3"
+ Flagship_MID3_L1M4_2: "精准核心 3"
+ Flagship_MID3_M4SHB_1: "奔流核心 3"
+ Flagship_MID3_M4SHB_2: "喷火核心 3"
+ Flagship_MID3_S4LHB: "超级航母核心 3"
+
+ Flagship_STERN_L1_1: "歼灭者舰尾"
+ Flagship_STERN_L1_2: "大炮舰尾"
+ Flagship_STERN_M2_1: "排炮舰尾"
+ Flagship_STERN_M2_2: "轰炸舰尾"
+ Flagship_STERN_M2_3: "弹幕舰尾"
+ Flagship_STERN_M1S2_1: "齐射舰尾"
+ Flagship_STERN_M1S2_2: "清洁者舰尾"
+ Flagship_STERN_M1S2_3: "猛射舰尾"
+ Flagship_STERN_M1S2_4: "奔流舰尾"
+ Flagship_STERN_S4_1: "喷火舰尾"
+ Flagship_STERN_S4_2: "精准舰尾"
+ Flagship_STERN_S4_3: "齐射舰尾"
+
+
+####################################
+# Defense Platform
+####################################
+
+ LIGHT_PLATFORM_SMALL_MILITARY_STATION_SECTION: "小型平台"
+ LIGHT_PLATFORM_POINT_DEFENSE_MILITARY_STATION_SECTION: "点防御平台"
+ LIGHT_PLATFORM_MIXED_MILITARY_STATION_SECTION: "轻型平台"
+ MEDIUM_MILITARY_STATION_SECTION: "中型平台"
+ MEDIUM_PLATFORM_TORPEDO_MILITARY_STATION_SECTION: "鱼雷平台"
+ HEAVY_MILITARY_STATION_SECTION: "重型平台"
+ HANGAR_PLATFORM_MILITARY_STATION_SECTION: "机库平台"
+
+####################################
+# Defense Station
+####################################
+
+ LIGHT_DSTATION_SMALL_MILITARY_STATION_SECTION: "小型平台"
+ LIGHT_DSTATION_POINT_DEFENSE_MILITARY_STATION_SECTION: "点防御平台"
+ LIGHT_DSTATION_MIXED_MILITARY_STATION_SECTION: "轻型平台"
+ MEDIUM_DSTATION_MEDIUM_MILITARY_STATION_SECTION: "中型平台"
+ MEDIUM_DSTATION_TORPEDO_MILITARY_STATION_SECTION: "鱼雷平台"
+ MEDIUM_DSTATION_MIXED_MILITARY_STATION_SECTION: "削弱平台"
+ HEAVY_DSTATION_LARGE_MILITARY_STATION_SECTION: "重型平台"
+ HANGAR_DSTATION_MILITARY_STATION_SECTION: "机库平台"
+
+####################################
+# Fortress
+####################################
+
+ LIGHT_LSTATION_SMALL_MILITARY_STATION_SECTION: "小型平台"
+ LIGHT_LSTATION_POINT_DEFENSE_MILITARY_STATION_SECTION: "点防御平台"
+ LIGHT_LSTATION_MIXED_MILITARY_STATION_SECTION: "轻型平台"
+ MEDIUM_LSTATION_MEDIUM_MILITARY_STATION_SECTION: "中型平台"
+ MEDIUM_LSTATION_TORPEDO_MILITARY_STATION_SECTION: "鱼雷平台"
+ MEDIUM_LSTATION_MIXED_MILITARY_STATION_SECTION: "削弱平台"
+ HEAVY_LSTATION_LARGE_MILITARY_STATION_SECTION: "重型平台"
+ HANGAR_LSTATION_MILITARY_STATION_SECTION: "机库平台"
+
+####################################
+# Battle Fortress
+####################################
+
+ LIGHT_SMALL_MILITARY_STATION_XLARGE_SECTION: "小型平台"
+ LIGHT_POINT_DEFENSE_MILITARY_STATION_XLARGE_SECTION: "点防御平台"
+ LIGHT_MIXED_MILITARY_STATION_XLARGE_SECTION: "轻型平台"
+ MEDIUM_MEDIUM_MILITARY_STATION_XLARGE_SECTION: "中型平台"
+ MEDIUM_TORPEDO_MILITARY_STATION_XLARGE_SECTION: "鱼雷平台"
+ MEDIUM_MIXED_MILITARY_STATION_XLARGE_SECTION: "削弱平台"
+ HEAVY_MILITARY_STATION_XLARGE_SECTION: "重型平台"
+ HANGAR_MILITARY_STATION_XLARGE_SECTION: "机库平台"
+
+####################################
+# Other Stations
+####################################
+
+ OUTPOST_STATION_SECTION_1: "边哨(等级 1)"
+ OUTPOST_STATION_SECTION_2: "边哨(等级 2)"
+ OUTPOST_STATION_SECTION_3: "边哨(等级 3)"
+ OUTPOST_STATION_SECTION_4: "边哨(等级 4)"
+
+ SENSOR_STATION_SECTION: "预警站"
+ MININGBASE_SECTION: "采矿站"
+ POWERSTATION_SECTION: "能源站"
+ HEADQUARTERS_SECTION_1: "指挥所 1"
+ HEADQUARTERS_SECTION_2: "指挥所 2"
+ HEADQUARTERS_SECTION_3: "指挥所 3"
+ HEADQUARTERS_SECTION_4: "指挥所 4"
+
+ DEFAULT_MINING_STATION_SECTION: "采矿站"
+ DEFAULT_RESEARCH_STATION_SECTION: "研究站"
+ DEFAULT_WORMHOLE_STATION_SECTION: "虫洞站"
+ DEFAULT_OBSERVATION_STATION_SECTION: "观测站"
+
+####################################
+# Miscellaneous
+####################################
+
+ SCIENCECRUISER_SECTION: "科考站"
+ CONSTRUCTIONCRUISER_SECTION: "建造站"
+ DRYDOCK_SECTION: "干船坞"

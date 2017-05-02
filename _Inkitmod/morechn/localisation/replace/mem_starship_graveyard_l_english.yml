@@ -1,0 +1,23 @@
+﻿l_english:
+
+####################################
+# Starship Graveyard Project
+# by asnys
+####################################
+
+ mem_starship_graveyard.101.title:0 "一个有趣的发现"
+ mem_starship_graveyard.101.desc:0 "我们在[mem_graveyard_planet.GetName]的研究站的调查报告一个不寻常的飞船墓地中找到的残骸：一艘几乎完整的战舰具有许多有趣的地方。他们请求一艘科研船协助调查沉船。"
+ mem_starship_graveyard.101.a:0 "立即派遣船只！"
+ mem_starship_graveyard.101.b:0 "我们的船现在都很忙。"
+ 
+ MEM_STARSHIP_GRAVEYARD_PROJECT:0 "飞船墓地探险"
+ MEM_STARSHIP_GRAVEYARD_PROJECT_DESC:0 "一艘位于墓地的异常完好的战舰有很多有趣的地方。请求科研船协助调查。"
+ 
+ mem_starship_graveyard.103.title:0 "有价值的发现"
+ mem_starship_graveyard.103.desc:0 "你们的科学家分析残骸，发现它的工程设计能极大改进帝国的战舰。"
+ mem_starship_graveyard.103.a:0 "卓越的！"
+ 
+ mem_starship_graveyard.104.title:0 "有价值的发现"
+ mem_starship_graveyard.104.desc:0 "你们的科学家分析了沉船发现与大多数的船只都一样很无趣 - 但除了它的护甲，这是一个非常难得的材料打造，这让我们想起了我们所遇到水晶生命形式的护甲。样品已转发给我们的研究人员，进行更深入的研究。"
+ mem_starship_graveyard.104.a:0 "卓越的！"
+ 

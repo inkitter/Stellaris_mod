@@ -1,0 +1,10 @@
+﻿l_english:
+
+ mem_orbital_bombardment.3:0 "雨水的破坏"
+ mem_orbital_bombardment.3.desc:0 "我们的无畏舰在[mem_bombardment_system_target.GetName]的[mem_bombardment_target.GetName]轨道上完成武器充能，我们已经锁定目标，正在等候你的指示。"
+ mem_orbital_bombardment.3.a:0 "继续操作。当你准备好时候，开火。"
+ mem_orbital_bombardment.3.a.tooltip:0 "§Y摧毁目标星球。§!"
+ mem_orbital_bombardment.3.b:0 "离开这里，我们有更重要的事情要做。"
+
+ pc_mem_cracked:0 "被摧毁的世界"
+ pc_mem_cracked_desc:0 "破碎残余的世界，曾经充满了生机，却化为一片灰烬。"

@@ -1,0 +1,107 @@
+﻿l_english:
+###########################
+##### 戦争要求調整MOD #####
+###########################
+
+############
+# 宣戦画面 #
+############
+ war_demand_superiority_header:1 "§H秀优越§!"
+ war_demand_superiority_subtext:0 "[parameter:country.GetName]"
+ war_demand_superiority_tooltip_header:0 "$war_demand_superiority_header$"
+ war_demand_superiority_tooltip_content:2 "向国内展示我们相较[parameter:country.GetName]的优越性。 在接下来的§Y5§!年内、 增加[GetCountry.GetName]的影响力获取量和幸福度。 "
+ war_demand_superiority_tooltip_proper_header:0 "$war_demand_superiority_headder$"
+ war_demand_superiority_tooltip_proper_content:1 "向国内展示[GetCountry.GetName]相较[parameter:country.GetName]的优越性。 在接下来的§Y5§!年内、 增加[GetCountry.GetName]的影响力获取量和幸福度。 "
+
+ war_demand_get_energy_header:1 "§Y赔付能源 (小)§!"
+ war_demand_get_energy_subtext:0 "[parameter:country.GetName]"
+ war_demand_get_energy_tooltip_header:0 "$war_demand_get_energy_header$"
+ war_demand_get_energy_tooltip_content:2 "从[parameter:country.GetName]获取§G1000§!の£energy 能源作为赔偿。 若[parameter:country.GetName]的国库没有足够的能源赔付，则会强制赔付并给[parameter:country.GetName]的国民带来屈辱感。"
+ war_demand_get_energy_tooltip_proper_header:0 "$war_demand_get_energy_tooltip_header$"
+ war_demand_get_energy_tooltip_proper_content:1 "[GetCountry.GetName]从[parameter:country.GetName]获得§G1000§!の£energy 能源的赔偿。若[parameter:country.GetName]的国库没有足够的能源赔付，则会强制赔付并给[parameter:country.GetName]的国民带来屈辱感。"
+
+ war_demand_get_energy_lv2_header:1 "§Y赔付能源 (大)§!"
+ war_demand_get_energy_lv2_subtext:0 "[parameter:country.GetName]"
+ war_demand_get_energy_lv2_tooltip_header:0 "$war_demand_get_energy_lv2_header$"
+ war_demand_get_energy_lv2_tooltip_content:2 "从[parameter:country.GetName]获取§G2000§!の£energy 能源作为赔偿。 若[parameter:country.GetName]的国库没有足够的能源赔付，则会强制赔付并给[parameter:country.GetName]的国民带来屈辱感。"
+ war_demand_get_energy_lv2_tooltip_proper_header:0 "$war_demand_get_energy_lv2_tooltip_header$"
+ war_demand_get_energy_lv2_tooltip_proper_content:1 "[GetCountry.GetName]从[parameter:country.GetName]获得§G2000§!の£energy 能源的赔偿。若[parameter:country.GetName]的国库没有足够的能源赔付，则会强制赔付并给[parameter:country.GetName]的国民带来屈辱感。"
+
+ war_demand_make_tributary_sci_header:1 "§Y租借研究设施§!"
+ war_demand_make_tributary_sci_subtext:0 "[parameter:country.GetName]"
+ war_demand_make_tributary_sci_tooltip_header:0 "$war_demand_make_tributary_sci_header$"
+ war_demand_make_tributary_sci_tooltip_content:2 "要求租借[parameter:country.GetName]的研究设施。 $SUBJECT_DESC_tributary_sci$"
+ war_demand_make_tributary_sci_tooltip_proper_header:0 "$war_demand_make_tributary_sci_tooltip_header$"
+ war_demand_make_tributary_sci_tooltip_proper_content:1 "要求[parameter:country.GetName]的研究设施租借给[GetCountry.GetName]。 $SUBJECT_DESC_tributary_sci$"
+
+ war_demand_limit_navysize_header:1 "§H限制军力 (小)§!"
+ war_demand_limit_navysize_subtext:0 "[parameter:country.GetName]"
+ war_demand_limit_navysize_tooltip_header:0 "$war_demand_limit_navysize_header$"
+ war_demand_limit_navysize_tooltip_content:2 "限制[parameter:country.GetName]的海军规模上限。 接下来的§Y10§!年内、 他们的海军规模上限降低§Y-30%§!，同时我们获得§G100§!的影响力。\n若[parameter:country.GetName]拥有§Y军国主义§!道德观、 则这定会让[parameter:country.GetName]感觉是非常大的羞辱。 "
+ war_demand_limit_navysize_tooltip_proper_header:0 "$war_demand_limit_navysize_header$"
+ war_demand_limit_navysize_tooltip_proper_content:1 "$war_demand_limit_navysize_tooltip_content$"
+
+ war_demand_limit_navysize_lv2_header:1 "§H限制军力 (大)§!"
+ war_demand_limit_navysize_lv2_subtext:0 "[parameter:country.GetName]"
+ war_demand_limit_navysize_lv2_tooltip_header:0 "$war_demand_limit_navysize_lv2_header$"
+ war_demand_limit_navysize_lv2_tooltip_content:2 "限制[parameter:country.GetName]的海军规模上限。接下来的 §Y10§!年内、 他们的海军规模上限降低§Y-60%§!，同时我们获得§G100§!的影响力。\n若[parameter:country.GetName]拥有§Y军国主义§!道德观、 则这定会让[parameter:country.GetName]感觉是非常大的羞辱。 "
+ war_demand_limit_navysize_lv2_tooltip_proper_header:0 "$war_demand_limit_navysize_lv2_header$"
+ war_demand_limit_navysize_lv2_tooltip_proper_content:1 "$war_demand_limit_navysize_lv2_tooltip_content$"
+
+ war_demand_limit_res_phy_header:1 "§H限制研究 (物理)§!"
+ war_demand_limit_res_phy_subtext:0 "[parameter:country.GetName]"
+ war_demand_limit_res_phy_tooltip_header:0 "$war_demand_limit_res_phy_header$"
+ war_demand_limit_res_phy_tooltip_content:2 "限制[parameter:country.GetName]的物理研究。接下来的§Y10§!年内、 他们的物理研究速度降低§Y-30%§!，同时我们获得§G100§!的影响力。\n若[parameter:country.GetName]拥有§Y唯物主义§!道德观、 则这定会让[parameter:country.GetName]感觉是非常大的羞辱。 "
+ war_demand_limit_res_phy_tooltip_proper_header:0 "$war_demand_limit_res_phy_header$"
+ war_demand_limit_res_phy_tooltip_proper_content:1 "$war_demand_limit_res_phy_tooltip_content$"
+
+ war_demand_limit_res_soc_header:1 "§H限制研究 (社会)§!"
+ war_demand_limit_res_soc_subtext:0 "[parameter:country.GetName]"
+ war_demand_limit_res_soc_tooltip_header:0 "$war_demand_limit_res_soc_header$"
+ war_demand_limit_res_soc_tooltip_content:2 "限制[parameter:country.GetName]的社会研究。接下来的§Y10§!年内、 他们的社会研究速度降低§Y-30%§!，同时我们获得§G100§!的影响力。\n若[parameter:country.GetName]拥有§Y唯物主义§!道德观、 则这定会让[parameter:country.GetName]感觉是非常大的羞辱。 "
+ war_demand_limit_res_soc_tooltip_proper_header:0 "$war_demand_limit_res_soc_header$"
+ war_demand_limit_res_soc_tooltip_proper_content:1 "$war_demand_limit_res_soc_tooltip_content$"
+
+ war_demand_limit_res_eng_header:1 "§H限制研究 (工程)§!"
+ war_demand_limit_res_eng_subtext:0 "[parameter:country.GetName]"
+ war_demand_limit_res_eng_tooltip_header:0 "$war_demand_limit_res_eng_header$"
+ war_demand_limit_res_eng_tooltip_content:2 "限制[parameter:country.GetName]的工程研究。接下来的§Y10§!年内、 他们的工程研究速度降低§Y-30%§!，同时我们获得§G100§!的影响力。\n若[parameter:country.GetName]拥有§Y唯物主义§!道德观、 则这定会让[parameter:country.GetName]感觉是非常大的羞辱。 "
+ war_demand_limit_res_eng_tooltip_proper_header:0 "$war_demand_limit_res_eng_header$"
+ war_demand_limit_res_eng_tooltip_proper_content:1 "$war_demand_limit_res_eng_tooltip_content$"
+
+ war_demand_beat_ruler_header:1 "§R元首下台§!"
+ war_demand_beat_ruler_subtext:0 "[parameter:country.GetName]"
+ war_demand_beat_ruler_tooltip_header:0 "$war_demand_beat_ruler_header$"
+ war_demand_beat_ruler_tooltip_content:2 "要求[parameter:country.GetName]的元首[parameter:country.GetRulerName]下台。 接下来的§Y10§!年内、 （元首被赶下台造成心理恐慌）他们的道德分歧受到§Y+90%§!的修正、同时我们获得§G100§!的影响力。\n若[parameter:country.GetName]拥有§Y集体主义§!道德观、 则这定会让[parameter:country.GetName]感觉是非常大的羞辱。 "
+ war_demand_beat_ruler_tooltip_proper_header:0 "$war_demand_beat_ruler_header$"
+ war_demand_beat_ruler_tooltip_proper_content:1 "$war_demand_beat_ruler_tooltip_content$"
+
+########
+# 補正 #
+########
+
+ wdtmod_superiority:0 "秀优越"
+ wdtmod_superiority_desc:0 "无论如何，我们战胜了敌国。这让我们的国民得到了不小的幸福感。"
+
+ wdtmod_limit_navysize:0 "限制 (军力:小)"
+ wdtmod_limit_navysize_desc:0 "由于我们的战败，海军规模上限被小幅地减少了。"
+ wdtmod_limit_navysize_lv2:0 "限制 (军力:大)"
+ wdtmod_limit_navysize_lv2_desc:0 "由于我们的战败，海军规模上限被大幅地减少了。"
+
+ wdtmod_limit_res_phy:0 "限制 (研究 :物理)"
+ wdtmod_limit_res_phy_desc:0 "由于我们的战败，物理学研究受到了严重的制约。"
+ wdtmod_limit_res_soc:0 "限制 (研究 :社会)"
+ wdtmod_limit_res_soc_desc:0 "由于我们的战败，社会学研究受到了严重的制约。"
+ wdtmod_limit_res_eng:0 "限制 (研究 :工程)"
+ wdtmod_limit_res_eng_desc:0 "由于我们的战败，工程学研究受到了严重的制约。"
+
+ wdtmod_ruler_beated:0 "动摇"
+ wdtmod_ruler_beated_desc:0 "由于我们的战败和元首的下台，民众心理产生了极大的动摇。"
+
+##########
+# その他 #
+##########
+
+ SUBJECT_tributary_sci:0 "技术进贡国"
+ SUBJECT_DESC_tributary_sci:0 "技术进贡国虽然算是独立的国家，但他们每月的研究点数有§Y25%§!需要交给宗主国。"
+

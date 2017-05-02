@@ -1,0 +1,31 @@
+﻿l_english:
+ # events
+ board_that_ship.3.name:0 "严重受损的船"
+ board_that_ship.3.desc:0 "§M[board_that_ship_target.GetName]§!已关闭所有子系统。扫描显示有严重内部损毁，现在处于漂流状态 -  还不清楚船上的状况如何。\n生物扫描显示船上还存在幸存的战斗船员。如果我们行动快速，我们极有可能捕获这艘船，但不代表我们能和平获得！"
+ board_that_ship.3.0:0 "登船！"
+ board_that_ship.3.1:0 "我们不需要这垃圾，把他们清理掉。"
+
+ board_that_ship.4.name:0 "成功"
+ board_that_ship.4.desc:0 "虽然还有零星反抗，但是抵抗正在减弱，大部分的船员向我们的陆战队投降了。\n工程师开始检修飞船，虽然能暂时维持飞船运行，但要想正常使用必须进行一次彻底维修。"
+
+ board_that_ship.5.name:0 "失败"
+ board_that_ship.5.desc:0 "我们还没时间派人登陆§M[board_that_ship_target.GetName]§!。爆炸的原因未知，也许是有人启动了自毁系统。\n无论原因如何，我们错过一次机会。"
+
+ board_that_ship.6.desc:0 "敌人没有足够时间登陆§M[board_that_ship_target.GetName]§!。我们的舰队撤退的同时还全力保住了受损的战舰。"
+
+ board_that_ship.7.desc:0 "我们没有足够时间登陆§M[board_that_ship_target.GetName]§!。敌人的舰队撤退的同时还全力保住了受损的战舰。\n无论原因如何，我们错过一次机会。"
+
+ # project
+ board_that_ship_project:0 "登船！"
+ board_that_ship_project_DESC:0 "船已经停止运作，我们必须控制它。"
+ board_that_ship_project_discovery:0 "$board_that_ship_project$"
+ board_that_ship_project_discovery_DESC:0 "$board_that_ship_project_DESC$"
+
+ # modifier
+ board_that_ship_titan_cost:0 "不能建造泰坦"
+ board_that_ship_titan_cost_desc:0 "$board_that_ship_titan_cost$"
+
+ # menu
+ board_that_ship_menu.1.desc:0 "$modmenu_configure$ $modmenu_3$"
+ board_that_ship_menu.1.0:0 "Debug."
+ board_that_ship_menu.1.0.tooltip:0 "如果有什么问题的话。"

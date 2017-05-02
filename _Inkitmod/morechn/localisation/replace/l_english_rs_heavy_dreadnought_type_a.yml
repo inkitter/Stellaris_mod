@@ -1,0 +1,26 @@
+﻿l_english:
+ ####################################
+ # Hull Sizes
+ ####################################
+ RS_HEAVY_DREADNOUGHT_TYPE_A:0 "重型无畏舰"
+ rs_heavy_dreadnought_type_a:0 "重型无畏舰"
+ rs_heavy_dreadnought_type_a_plural:0 "重型无畏舰"
+ ####################################
+ # section slots
+ ####################################
+ bow:0 "舰首"
+ mid1:0 "舰中头"
+ mid2:0 "舰中尾"
+ stern:0 "舰尾"
+ ####################################
+ # Technology View
+ ####################################
+ TECH_UNLOCK_RS_HEAVY_DREADNOUGHT_TYPE_A_TITLE:0 "§H解锁战舰类型:§! 重型无畏舰"
+ TECH_UNLOCK_RS_HEAVY_DREADNOUGHT_TYPE_A_DESC:0 "§H重型无畏舰§!\n作为海军的强大力量的象征，重型无畏舰与其他主力舰类型相比而言具有更强大的火力和更坚固的护甲的最大主力舰类型。"
+ sm_battleship_assembly_yards_type_a:0 "战列舰装配厂"
+ ####################################
+ # Dynamic Modifiers
+ ####################################
+ shipsize_rs_heavy_dreadnought_type_a_construction_speed_mult:0 "重型无畏舰建造速度"
+ shipsize_rs_heavy_dreadnought_type_a_build_cost_mult:0 "重型无畏舰建造成本"
+ 

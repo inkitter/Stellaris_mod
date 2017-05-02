@@ -1,0 +1,25 @@
+﻿l_english:
+ ##Near Miss
+ #Writing and idea by Foremole
+ #Code by LamilLerran
+ mem_near_miss.1.name:0 "侥幸脱险"
+ mem_near_miss.1.desc:0 "§Y[Root.GetName]§!的科学家惊讶地发现一个巨大的太阳的\"超级风暴\"在绕过[Root.GetPlanetMoon]。风暴来袭，一个日冕物质被抛射出去擦过传感器直接击中殖民地，并对§Y[Root.GetName]§!的造成广泛的电子基础设备无法挽回的损害。如果直接命中这个世界，谁知道还要有多少人在危难中死去？"
+ mem_near_miss.1.neutral:0 "为什么这老困扰着我？"
+ mem_near_miss.1.mat:0 "这种可能性每天都笼罩在我们头顶。可怕的。"
+ mem_near_miss.1.spi:0 "这是神的指示，星球被拯救的信号！"
+ mem_near_miss.1.phile:0 "我们越是殖民，此类事件造成的危害较小。"
+ mem_near_miss.1.phobe:0 "现在谁会带来新的儿童到这个陌生的世界吗?"
+ mem_near_miss.1.ind:0 "[Root.GetName]有新说法:\"生命只有一次\"。"
+ mem_near_miss.1.col:0 "这将提醒我们殖民者合作价值的同时他们还可以。"
+ mem_near_miss_mat:0 "侥幸脱险"
+ mem_near_miss_mat_desc:0 "民众害怕致命的日冕喷发"
+ mem_near_miss_spi:0 "侥幸脱险"
+ mem_near_miss_spi_desc:0 "民众对神的保护心存感激"
+ mem_near_miss_phile:0 "侥幸脱险"
+ mem_near_miss_phile_desc:0 "民众被最近的事件驱使扩大"
+ mem_near_miss_phobe:0 "侥幸脱险"
+ mem_near_miss_phobe_desc:0 "民众害怕把孩子带到这个陌生的世界"
+ mem_near_miss_ind:0 "侥幸脱险"
+ mem_near_miss_ind_desc:0 "民众在他们最后拥有的时间里寻求各种各样的体验"
+ mem_near_miss_col:0 "侥幸脱险"
+ mem_near_miss_col_desc:0 "民众对共同威胁作出统一反应"

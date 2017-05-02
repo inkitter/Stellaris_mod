@@ -1,0 +1,943 @@
+﻿l_english:
+
+ ####################################
+ # Modifiers
+ ####################################
+
+ ####################################
+ # Planet Modifiers
+ ####################################
+ Frequent_Thunderstorms:0 "雷雨频繁"
+ Frequent_Thunderstorms_desc:0 "该世界正遭受极端天气的影响。"
+ 
+ Global_Thunderstorms:0 "全球雷暴"
+ Global_Thunderstorms_desc:0 "该世界正遭受极端天气的影响。"
+ 
+ Hyper_Complex_Biome:1 "超复杂群落"
+ Hyper_Complex_Biome_desc:1 "该世界进化出复杂的生态系统，能为生物学提供巨大的研究机会。"
+ 
+ Single_Biome:1 "简单群落"
+ Single_Biome_desc:1 "该世界进化出简单的生态系统，能为生物学提供巨大的研究机会。"
+ 
+ unstable_tectonics_2:0 "不稳定地质"
+ unstable_tectonics_2_desc:0 "该世界地质极其不稳定，容易引发火山或地震。"
+ 
+ Strong_Volcanism:0 "火山频发"
+ Strong_Volcanism_desc:0 "该世界地质极其不稳定，容易引发火山。"
+ 
+ asteroid_impacts_2:0 "小行星撞击"
+ asteroid_impacts_2_desc:0 "该星球的轨道充满了小行星，地面极其容易遭到撞击。"
+ 
+ Highly_Charged_Air_Particles:0 "高电荷大气粒子"
+ Highly_Charged_Air_Particles_desc:0 "该世界大气充满着带电粒子。一个值得研究的奇怪现象。"
+ 
+ Thin_Atmospheres:0 "不寻常的稀薄大气"
+ Thin_Atmospheres_desc:0 "该世界有着不寻常的稀薄大气。生活就像场挑战。"
+ 
+ Dense_Atmospheres:0 "不寻常的环境"
+ Dense_Atmospheres_desc:0 "该世界有着不寻常的厚重大气。生活很美好。"
+
+ strong_magnetic_field_2:0 "强磁场"
+ strong_magnetic_field_2_desc:1 "该世界存在异常高的磁场，会严重干扰仪器和计算机的运行。"
+ 
+ weak_magnetic_field_2:0 "弱磁场"
+ weak_magnetic_field_2_desc:1 "该世界存在异常低的磁场，会严重干扰仪器和计算机的运行。"
+ 
+ low_gravity_2:0 "低重力"
+ low_gravity_2_desc:0 "该世界的重力比其他世界低很多。"
+ 
+ high_gravity_2:0 "高重力"
+ high_gravity_2_desc:0 "该世界的重力比其他世界高很多。"
+ 
+ mineral_rich_2:1 "优质矿脉"
+ mineral_rich_2_desc:1 "该世界有着大量的优质矿物。"
+ 
+ ultra_rich_2:1 "致密矿脉"
+ ultra_rich_2_desc:1 "该世界存在着极其高密度的特殊矿物。"
+ 
+ mineral_poor_2:1 "稀疏矿脉"
+ mineral_poor_2_desc:1 "该世界的矿物十分稀疏，也不知道这是为何。"
+ 
+ Time_Displaced_Planet:1 "星球时移"
+ Time_Displaced_Planet_desc:1 "该世界会使得计时器延后。虽然不知原因如何，但是这能有利于我们了解时间的本质！\n £physics §G6 £society §G6 £engineering §G6"
+ 
+ Floating_Islands:0 "浮岛"
+ Floating_Islands_desc:0 "该世界的某些矿物使得大型岩石漂浮在空中形成了浮岛。"
+
+ Hostile_Flora:0 "危险植物"
+ Hostile_Flora_desc:0 "该世界的植物对外来生物有毒。"
+
+ Magma_Ocean:0 "岩浆之海"
+ Magma_Ocean_desc:0 "熔岩不断在地表翻滚，犹如海洋一样。"
+
+ Toxic_Gas:0 "毒气"
+ Toxic_Gas_desc:0 "该世界经常会被毒气所包围。"
+
+ Extensive_Cavern_System:0 "大山洞"
+ Extensive_Cavern_System_desc:0 "深不可测的山洞，像是能通往地核一样。"
+
+ Titanic_Predators:0 "巨型肉食动物"
+ Titanic_Predators_desc:0 "这里是巨型怪物的家园。"
+
+ Unnatural_World:0 "不自然的世界"
+ Unnatural_World_desc:0 "这里的一切与外面的一切都有着种说不出的不同。"
+
+ Atmospheric_Stimulant:0 "兴奋大气"
+ Atmospheric_Stimulant_desc:0 "空气中充满一些让人急躁的元素。"
+
+ Unusual_Seasons:0 "不寻常的季节"
+ Unusual_Seasons_desc:0 "你永远不知道下一个季节是啥。"
+
+ Perfect_Seasons:0 "完美季节"
+ Perfect_Seasons_desc:0 "真正的天堂，四季如春。"
+
+ Ruined_Battlefield:0 "战场遗址"
+ Ruined_Battlefield_desc:0 "到处充满着战争历史的痕迹。"
+
+ Spaceship_Graveyard:0 "战舰墓地"
+ Spaceship_Graveyard_desc:0 "到处充满着战争历史的痕迹。"
+
+ Living_Planet:0 "生命星球"
+ Living_Planet_desc:0 "这个世界再跟你说你好.."
+
+ Gemstones:0 "宝石"
+ Gemstones_desc:0 "这里到处充满着宝石。"
+
+ Ideal_for_Life:0 "理想生活"
+ Ideal_for_Life_desc:0 "这就是向往的生活，更健康，更有魅力，更长寿，欣欣向荣。"
+
+ Endless_Fish:0 "无穷无尽的鱼"
+ Endless_Fish_desc:0 "没人知道为啥这里有那么多的鱼，但只知道根本捕不完！"
+
+ Artificial_Water:0 "人工水"
+ Artificial_Water_desc:0 "On closer inspection this world is not made out of water! But rather a weird nanite composite that behaves like a liquid."
+
+ Clear_Skies:0 "晴空万里"
+ Clear_Skies_desc:0 "This world has a very calm atmosphere and is ideally located within the galaxy. Somehow this exact spot in space allows for the most beautiful vision of the universe."
+
+ Android_Pleasure_Palace:0 "机器行宫"
+ Android_Pleasure_Palace_desc:0 "We do not know who built this, but it sounds like a fun place.. "
+
+ Melted_Ice_Caps:0 "融化的冰川"
+ Melted_Ice_Caps_desc:0 "The geological record of this world suggests it once had large polar ice caps at one point in its history, but somehow these have all but disappeared."
+
+ Small_Islands:0 "小岛"
+ Small_Islands_desc:0 "The islands of this oceanic world are unusually small, making it difficult to establish sizeable settlements and population centres."
+
+ Windy:0 "风"
+ Windy_desc:0 "This world is unusually windy, though it is still habitable."
+
+ Simple_Organisms:0 "简单的生物"
+ Simple_Organisms_desc:0 "This world is full of thriving simple organisms, many of the organisms on this world are small and unicellular."
+
+ Newly_Evolved_Complex_Organisms:0 "复杂的生物"
+ Newly_Evolved_Complex_Organisms_desc:0 "This world has a large and complex group of multicellular organisms that are thriving."
+
+ Delicious_Ingredients:0 "美味的配料"
+ Delicious_Ingredients_desc:0 "The fauna and flora of this world are unusually tasty."
+
+ Recent_Mass_Extinction:0 "最近的大规模灭绝"
+ Recent_Mass_Extinction_desc:0 "According to our scientists this world went through a great mass extinction event relatively recently."
+
+ Friendly_Wildlife:0 "友好的野生动物"
+ Friendly_Wildlife_desc:0 "The fauna on this world tend to be docile and of agreeable temperament."
+
+ Pleasant_Weather:0 "宜人的天气"
+ Pleasant_Weather_desc:0 "The atmospheric and geological systems of this world are unusually mild and agreeable to most sentient species."
+
+ Unusual_Formations:0 "不寻常的地层"
+ Unusual_Formations_desc:0 "On this planetary body are numerous amounts of odd but nevertheless natural geological shapes stretching for miles and miles."
+
+ Flat_Terrain:0 "平坦的地形"
+ Flat_Terrain_desc:0 "The terrain on this world is mostly flat."
+
+ Rugged_Terrain:0 "崎岖的地形"
+ Rugged_Terrain_desc:0 "This world's terrain is extremely uneven."
+
+ Many_Extremophiles:0 "许多微生物"
+ Many_Extremophiles_desc:0 "For some reason this world is full of extremophile organisms."
+
+ Great_Temperature_Variation:0 "温差大"
+ Great_Temperature_Variation_desc:0 "This world suffers from extreme variations in temperature - sometimes it is too hot, sometimes it is too cold."
+
+ Gorgeous_Sky:0 "美丽的天空"
+ Gorgeous_Sky_desc:0 "Due to the chemical composition of this world’s atmosphere, this world’s sky is a vivid, brilliant, dazzling display of various colors and lights."
+
+ Large_Asteroid:0 "大型小行星"
+ Large_Asteroid_desc:0 "This asteroid is unusually large and might even be considered a proto-planet of sorts."
+
+ Asteroid_Moon:0 "古老的月亮"
+ Asteroid_Moon_desc:0 "This asteroid is large enough to have a number of small satellites circling it."
+
+ Ice_Age:0 "冰河时代"
+ Ice_Age_desc:0 "This world is currently in the midst of a major ice age."
+
+ Ancient_Temple:0 "古老的寺庙"
+ Ancient_Temple_desc:0 "An ancient temple dedicated to an age long gone. Writings on the murals indicate is was a temple shared by many different alien species. The images on the walls depict the aliens as creatures with unusual powers, moving objects with their mind, wielding glowing sticks and a participating in a lot of meditating. "
+
+ Metal_Asteroid:0 "金属小行星"
+ Metal_Asteroid_desc:0 "This asteroid is made out of a single dense element."
+
+ Dense_Core:0 "致密核心"
+ Dense_Core_desc:0 "This asteroid has an unusual dense core. Perhaps it can be mined.\n £minerals §G9"
+
+ Unusual_Sun_Spots:0 "不寻常的太阳黑子"
+ Unusual_Sun_Spots_desc:0 "Unusual sun spots are covering this star. We do not know for sure at what point this sun is in its cycle because of this. Very unusual."
+ 
+ Unusual_Bright_Sun:0 "异常明亮"
+ Unusual_Bright_Sun_desc:0 "This sun is unusually bright due to vastly increased surface solar activity. A rare combination of elements and gravitational pressure seems to be the cause of this unusual phenomenon. We could take advantage of this!\n £energy §G14"
+
+ Tilted_Axis:0 "倾斜轴"
+ Tilted_Axis_desc:0 "This world's axis of rotation is tilted more than usual, resulting in more extreme weather patterns."
+
+ Perpendicular_Axis:0 "垂直轴"
+ Perpendicular_Axis_desc:0 "This world's axis of rotation extreme, so for some parts of the year, each half the world suffers almost constant day or night. The weather patterns are downright unfriendly."
+
+ Radioactive_Mantle:0 "放射性的地幔"
+ Radioactive_Mantle_desc:0 "The world's rocky exterior has an unusually high proportion of radioactive elements like uranium."
+
+ Locust_Plagues:0 "蝗灾"
+ Locust_Plagues_desc:0 "The world is home to a particularly voracious species of locust. "
+
+ Acidic_Seas:0 "酸性海洋"
+ Acidic_Seas_desc:0 "This world has not yet sequestered its carbonic and sulphuric acids. Its oceans are unusually acidic."
+
+ Empathic_Life:0 "催情的生活"
+ Empathic_Life_desc:0 "Most life forms on this world have evolved innate telepathic defences and can induce intense feelings of dread or even joy to confuse potential predators."
+
+ Seasonal_Flooding:0 "季节性洪水"
+ Seasonal_Flooding_desc:0 "Entire regions on this world are prone to severe flooding due to extreme tidal forces or recurring cycles of glacial melting."
+
+ Lingering_Pollution:0 "挥之不去的污染"
+ Lingering_Pollution_desc:0 "The biosphere of this world is slowly recovering from intense pollution and industrial contamination produced several eons ago by an unknown civilization."
+
+ Thin_ozone_layer:0 "薄薄的臭氧层"
+ Thin_ozone_layer_desc:0 "The ozone layer does not repel much solar radiation."
+
+ Symbiotic_life:0 "共生的生活"
+ Symbiotic_life_desc:0 "Natural parasites have proven to be beneficial for the health of our settlers. Every colonist now has one. Sadly they need special atmospheric conditions which would make an export business too expensive."
+
+ Resilent_parasites:0 "Resilient parasites"
+ Resilent_parasites_desc:0 "One of the parasite species on this world is withstanding all efforts of our doctors to remove it. Potential colonists are doomed to suffer in the long term."
+
+ Ice_Flora:0 "Ice Flora"
+ Ice_Flora_desc:0 "Our scientists are awestruck by the wondrous ice formations on the poles of this world. Even more so because it seems like these ice formations are actually similar to endryophyte life forms of other worlds with green vegetation, complete with their own form of reproduction and cryosynthesis!"
+
+ Strange_Ice_River:0 "Strange Ice River"
+ Strange_Ice_River_desc:0 "Amidst the eternal cold of the world, our scientists discovered something magnificent: A river of flowing ice with a multitude of strange physical properties that defies all logic and is sure make us re-evaluate several important theories about the laws of the universe."
+
+ Juggernaut_Manta_Rays:0 "Juggernaut Manta Rays"
+ Juggernaut_Manta_Rays_desc:0 "Our scientists discovered truly gigantic colonies of fish that resemble manta rays. They are humongous, have an extraordinarily thick skin and spot other features that make them impossible to harm unless one destroys the entire world along with them. They roam giant stretches of the ocean and react very aggressively towards intruders, yet our scientists believe we can gain valuable knowledge from them."
+
+ Black_Oily_Stone:0 "Black Oily Stone"
+ Black_Oily_Stone_desc:0 "The jungle seems to flee from a big glade at the heart of the continent, where tons of strange black & oily stones seem scattered in a curious pattern. There are no noises from the local fauna and even the grass amongst our scientists feet feels strangely other worldly, yet very lush. Probes we extracted from the stone seem to get heavier the further we take them away from the glade."
+
+ Crystal_Moon_Palace:0 "Crystal Moon Palace"
+ Crystal_Moon_Palace_desc:0 "Our scientists discovered a beautiful palace made entirely out of crystal on the surface of this moon. The interior is full of strange runes and cryptic devices. We hope to extract a lot of information about this long lost society."
+
+ Cities_in_the_sky:0 "Cities in the sky"
+ Cities_in_the_sky_desc:0 "The landscape is dotted with remnants of an unknown civilization. Bright metal spires and monoliths reach up beyond the cloud cover. The towers are shaped to concentrate sunlight on certain areas, and provide excellent living and working environments."
+
+ Old_World:0 "Old World"
+ Old_World_desc:0 "Under the surface of this world lies a vast number of archaeological layers. In between the layers are periodic layers of advanced ruins, topped with a layer of ash, witness of an ancient, perhaps violent civilization that went through several cycles before resetting."
+
+ Dunes:0 "Dunes"
+ Dunes_desc:0 "The weather systems of this world have covered it in a massive, shifting dunes. Though a challenge for settlements, the dunes also provide a rich mineral wealth."
+
+ Extensive_reef_systems:0 "Extensive reef systems"
+ Extensive_reef_systems_desc:0 "The shallow seas of this world are dominated by massive reefs, harbouring impressive biodiversity. Not only do the fishing and tourism industries tremendously benefit, but researchers are also flocking to investigate the many forms of life that live here."
+ 
+ Protomolecule_Infected_Station:0 "Protomolecule Infected Station"
+ Protomolecule_Infected_Station_desc:0 "At first this asteroid station seemed abandoned, damaged. But as soon as we started listening to various channels we could hear strange voices, ever so slightly picking up in speed. On closer inspection the interior of the station is filled with strange crystals and a bizarrely moving bio-metal core, almost lifelike. The entire place sounds terrifying. \n £society §G12"
+
+ Trubbles:0 "Trubbles"
+ Trubbles_desc:0 "They just sit there, looking cute, until they breed like crazy and overrun everything"
+
+ Strange_Voices:0 "Strange Voices"
+ Strange_Voices_desc:0 "During the initial scans of this world, the exploration crew heard strange voices. Voices promising eternal life, unlimited power and to fulfil all your desires. All you have to do is come down to the surface and perform a certain ritual.."
+
+ Hot_Geysers:0 "Hot Geysers"
+ Hot_Geysers_desc:0 "A vent in the surface that periodically ejects a column of hot liquid and gas. Even a small geyser is an amazing phenomenon to behold. Some geysers have eruptions that blast thousands of gallons of boiling-hot liquids up to a few hundred feet in the air."
+
+ Cryogeysers:0 "Cryogeysers"
+ Cryogeysers_desc:0 "Due to the low ambient pressures, these eruptions consist of vapour without liquid; they are made more easily visible by particles of dust and ice carried aloft by the gas"
+
+ Very_Hot_Core:0 "Very Hot Core"
+ Very_Hot_Core_desc:0 "This world has a remarkable hot core. Surface temperatures are higher than what one would expect from such a cold dead world. Terraforming this world should prove fairly easy. "
+
+ Solidified_Core:0 "Solidified Core"
+ Solidified_Core_desc:0 "This world core is dead. Time has proven unfortunate for this world as its core has turned entirely solid as it cooled down. Surface temperatures are remarkably colder  and terraforming this world should prove fairly hard."
+
+ Low_Metallicity:0 "Low Metallicity"
+ Low_Metallicity_desc:0 "This star has unusually low concentrations of elements it can not fuse, rendering it more energetic compared to other stars."
+
+ High_Metallicity:0 "High Metallicity"
+ High_Metallicity_desc:0 "This star has unusually high concentrations of elements it can not fuse, leaving it dimmer but ultimately longer-lived."
+
+ Plasmoid_Life:0 "Plasmoid Life"
+ Plasmoid_Life_desc:0 "Somehow, life comprised entirely of plasma has managed to evolve on this star. If only we could study this."
+
+ Compact_Star:0 "Compact Star"
+ Compact_Star_desc:0 "The surface of a stellar remnant is perhaps one of the most extreme environments in the known universe, second only to black holes."
+
+ Pulsar_clock:0 "Pulsar clock"
+ Pulsar_clock_desc:0 "Not only is this pulsar fast, but it also spins with such amazing regularity that it is among the most accurate clocks in the universe. Using these celestial timekeepers, astronomers are answering questions about stars, matter - and even space and time itself - that would otherwise be impossible.\n £physics §G12\n §BNeutronium §G1"
+
+ Stellar_Spectacle:0 "Stellar Spectacle"
+ Stellar_Spectacle_desc:0 "The surface of this star regularly erupts in a vibrant lightshow."
+
+ Plasma_Tornadoes:0 "Plasma Tornadoes"
+ Plasma_Tornadoes_desc:0 "The photosphere of this star tends to coalesce into incandescent vortices."
+
+ Temple_of_the_Ancient_One:0 "Temple of the Ancient One"
+ Temple_of_the_Ancient_One_desc:0 "The breath taking, indescribable beauty of the ruined, mysterious rock-hewn temple, would be amazing to any that were to spend time looking at it if it was not for its dangerous allure. Stories are scribbled on the walls, warning almost, of previous explorers who spend days in darkness as they wandered around the temple. In the end, they were no longer able to resist the powerful visions and auditory hallucinations that appeared, nor the madness-inspired impulse to enter the inner sanctum of the temple. The inner sanctum, now appearing to you impossibly illuminated by what seems to be a flickering altar flame.."
+
+ Beautiful_Lakes:0 "Beautiful Lakes"
+ Beautiful_Lakes_desc:0 "This world is dotted with numerous small and large lakes of indescribable beauty. water, so clear and still you can see the bottom from any distance. Lush foliage and tiny sea creatures dot the landscape and lakes."
+
+ Proto_Forests:0 "Proto Forests"
+ Proto_Forests_desc:0 "With a diameter of up to 1 m, and a height reaching 8 m, these proto forest trees are fairly small. Viewed from afar, the trees take the form of tree-trunks, spreading slightly near their base in a fashion that suggests a connection to unpreserved root-like structures. Concentric growth rings, sometimes containing embedded plant material, suggest that the organism grows sporadically by the addition of external layers. It is probable that the "trunks" represent the fruiting body, or "sporophore", of a fungus, which would be fuelled by a mycelium, a net of dispersed hyphae filaments."
+
+ Dense_Forests:0 "Dense Forests"
+ Dense_Forests_desc:0 "Surprisingly dense forests can be found on this world. The trees crowd together to form a thick canopy and the canopy provides shelter to the vegetation and wildlife that live beneath it. "
+
+ Planetwide_Forest:0 "Endless Forest"
+ Planetwide_Forest_desc:0 "Massive forests as far as the eye can see cover this world. Sometimes a world like this would be called a forest world. these worlds provide habitats very suitable for complex life over much of the surface, resulting in life more diverse than there are on other worlds."
+ 
+ Inspirational:0 "Inspirational"
+ Inspirational_desc:0 "It is hard to think of practical applications of the black hole. Because practical applications are so remote, many people assume we should not be interested. But this quest to understand the world is what defines us as intelligent beings.\n £physics §G12\n §BDark Matter §G1"
+ 
+ Hiveworld:0 "Hiveworld Fossils"
+ Hiveworld_desc:0 "These fossilized remnants of worlds seem to have thousands of synapse nodes spread on them. Serving as massive bio-factories that could churn out the endless swarms of bio-lifeforms. Hive worlds as we name them seem to have been living creatures on their own, incorporating millions of bioengineered organisms. Each was a biological factory capable of creating trillions of large and small organisms, of replicating genomes and splicing together new creatures perfectly adapted for each new world and environment they are found on. We can only hope these types of creatures are no longer amongst us.."
+ 
+ Periodic_Meteor_Showers:0 "Periodic Meteor Showers"
+ Periodic_Meteor_Showers_desc:0 "A reoccurring celestial event in which a number of meteors are observed to radiate, or originate, from one point in the night sky. These meteors are caused by streams of cosmic debris called meteoroids entering the gravitational pull of the world at extremely high speeds on parallel trajectories. Most meteors are smaller than a grain of sand, on atmospheric rich worlds they almost never reach the surface duo to burning up. Intense or unusual meteor showers are known as meteor outbursts and meteor storms. These displays can sometimes be very beautiful to observe."
+ 
+ Arachnophobia:0 "Arachnophobia\n §G Allows you to build§! §BGiant Arachnid§! §Garmies§!"
+ Arachnophobia_desc:0 "A world overrun by packs of giant arachnids. It seems like madness to even think of setting foot on this world. Early explorers tell stories of night-time hissing coming from the treetops and caverns, of endless thumping sounds as they hear these arachnids walk over their ship. It is not known if any of the early explorers actually set foot outside of their ship or if they just sent a drone and lied in their reports."
+ 
+ Giant_Worm:0 "Giant Worm"
+ Giant_Worm_desc:0 "Colossal worms that live beneath the sand. They are easily attracted to rhythmic vibrations on the surface, and they would breach in pursuit of the origin of such vibrations almost immediately. This seems to be an effort to defend their territory, of which they seem to be highly protective. Thus to see a worm, and live to tell about it, might be a rarity in itself. The sandworms are extremely territorial; as soon as two worms sense each others presence, they let out chuffing roars of challenge, bellowing melange-smelling exhaust from their cavernous throats. Despite all the potential danger, the spice must flow."
+ 
+ Artificial_Core:0 "Artificial Core"
+ Artificial_Core_desc:0 "This world should have died long ago after the core froze and the magnetic field died, but a massive installation in the planet's core, made by a particularly powerful precursor empire somehow keeps the core spinning and the magnetic field active."
+
+ Fast_Rotation:0 "Fast Rotation"
+ Fast_Rotation_desc:0 "This world has a very fast rotation making the day/night-cycle extremly daunting. Living on this world would be very challenging, especially to ones sleep cycle."
+ 
+ Surface_Of_Bones:0 "Surface of Bones"
+ Surface_Of_Bones_desc:0 "Bones, skulls, corpses, as far as the eye can see. The entire surface of this world is covered in bones. A horrific sight. Whatever battle happened here, it happened here a long time ago."
+ 
+ Ghost_Ships:0 "Ghostly Ships"
+ Ghost_Ships_desc:0 "Sensors, eyes, it does not matter what is used. Everyone, everything, keeps reporting they see ghostly images in the distance. They look like floating vessels but are transparent. Yet, when we get close, there is nothing."
+ 
+ Omnious_Fog:0 "Ominous Fog"
+ Omnious_Fog_desc:0 "Every time it gets dark, a strange dark purple fog starts seeping out of the ground. Our scans show this to be just water vapour, yet there is something strange about it. The fog moves around as if it has a will of its own.."
+ 
+ Beautiful_Planet_Rings:0 "Beautiful Planetary Rings"
+ Beautiful_Planet_Rings_desc:0 "The rings around this world glisten and shine very brightly, and in various colours, every time the sun hits them. From the surface or from orbit these rings are spectacular to behold."
+ 
+ Blood_Moon:0 "Blood Moon"
+ Blood_Moon_desc:0 "Every so often the moon turns blood red. Strangely the moons actual surface turns red, it's not just an atmospheric illusion. We're not sure why this is happening, but it promises nothing good.."
+ 
+ Solar_Eclipse:0 "Solar Eclipse"
+ Solar_Eclipse_desc:0 "Every month the moon lines up perfectly between this world and it's sun producing a spectacular global solar eclipse. Beautiful golden rays of light can be seen shining down onto the surface. A unique event rarely seen on any other world."
+ 
+ Lunar_Dance:0 "Lunar Dance"
+ Lunar_Dance_desc:0 "The moons of this world have a very unique intertwined orbit. As if they dance they swing about, around and over each other as they orbit their main world. It looks chaotic, but once you look at them long enough you'll see the beauty that is this lunar dance."
+ 
+ Dark_Skies:0 "Dark Skies"
+ Dark_Skies_desc:0 "Even during daylight hours, this planet receives paltry amounts of sunlight."
+ 
+ Musical_Creatures:0 "Musical Creatures"
+ Musical_Creatures_desc:0 "The  creatures of this planet have evolved to communicate with each other using what we recognize as musical notes. It is not only a boon for researchers, but also lends the world a nice melodic quality to it, almost magical."
+ 
+ Odd_Cloud_Shapes:0 "Odd Cloud Shapes"
+ Odd_Cloud_Shapes_desc:0 "Perhaps due to this planet's atmospheric chemistry, it's clouds often take on unusually vivid, interesting shapes. Some say it's almost as if the clouds are alive."
+ 
+ Giant_Mold_Blobs:0 "Giant Mold Blobs"
+ Giant_Mold_Blobs_desc:0 "Massive slime molds inhabit this planet, roving the landscape for food. They do appear to have some semblance of sentience."
+ 
+ Subterranean_Eco_System:0 "Subterranean Eco Systems"
+ Subterranean_Eco_System_desc:0 "Deep under the surface of this planetary body are miles of crisscrossing caverns with a near perfectly sealed environment. Who knows what else lives down there."
+ 
+ Colossal_Cliffs:0 "Colossal Cliffs"
+ Colossal_Cliffs_desc:0 "These cliffs rise well over a mile into the sky and have clouds form around their bases. The geographical forces that formed them must have been cataclysmic. Just.. watch your step."
+ 
+ Massive_Waterfalls:0 "Massive Waterfalls"
+ Massive_Waterfalls_desc:0 "Waterfalls are a common site on this world, and can extend for miles pouring trillions of gallons of water over their precipices every single day. They are a breath taking site if impractical to go near."
+ 
+ Strange_Alien_Eggs:0 "Strange Alien Eggs"
+ Strange_Alien_Eggs_desc:0 "unsure what creature made these, they seem dormant. Perhaps we best not touch these.."
+ 
+ Mushroom_Forest:0 "Mushroom Forests"
+ Mushroom_Forest_desc:0 "Massive mushrooms dot the landscape. These mushrooms forests are very strange looking and produce mists of spores every so often. They seem soft so should be very easy to clear."
+
+ 
+
+ ########################################
+ ######### precursor modifiers ##########
+ 
+ Precursor_City:0 "先驱城市"
+ Precursor_City_desc:0 "该世界存在一个未知的星际帝国古城遗址.."
+ 
+ Precursor_Remnants:0 "先驱残骸"
+ Precursor_Remnants_desc:0 "该世界遗留了大量未知的星际帝国的基础设施。.."
+ 
+ Precursor_Energy_Grid:0 "先驱枢纽"
+ Precursor_Energy_Grid_desc:0 "该世界曾经是古老文明的生产中心。虽然破败了，但依稀能看得出以往的繁荣。"
+ 
+ Precursor_Mines:0 "先驱矿山"
+ Precursor_Mines_desc:0 "该世界曾经是古老文明的采矿中心。虽然破败了，但依稀能看得出以往的繁荣。"
+ 
+ Precursor_Shipyards:0 "先驱船厂"
+ Precursor_Shipyards_desc:0 "古老船厂被遗弃在这个世界。"
+
+ Precursor_Planetary_Gun:0 "先驱防御网络"
+ Precursor_Planetary_Gun_desc:0 "被遗弃的大规模防御系统。"
+ 
+ Precursor_Bunker_Grid:0 "先驱碉堡网络\n §G允许你建造§! §B打捞先驱堡垒§! §G军队§!"
+ Precursor_Bunker_Grid_desc:0 "一个古老文明所遗弃的堡垒系统。"
+
+ Precursor_Mechs:0 "先驱机甲\n §G允许你建造§! §B打捞先驱机甲§! §G军队§!"
+ Precursor_Mechs_desc:0 "被遗弃的泰坦机甲等待着被激活。"
+ 
+ Precursor_Planetary_Shield:0 "先驱护盾阵列"
+ Precursor_Planetary_Shield_desc:0 "A giant array of shield systems is spread around this world. Reactivating it probably uses a lot of energy, but could provide a safe haven for everyone."
+ 
+ Precursor_Floating_City:0 "先驱浮空城"
+ Precursor_Floating_City_desc:0 "This world has several self-sustaining floating cities. The cities look a bit damaged but otherwise still function. There are some ruins of cities on the surface, wonder if they used to float as well.. "
+ 
+ Precursor_Capital_Complex:0 "先驱首都"
+ Precursor_Capital_Complex_desc:0 "There is giant ruined city on this world with a massive towering structure in the middle. We believe this structure functioned as the heart of this city, if maybe the entire world of this civilisation. Perhaps this was a capital."
+ 
+ Precursor_Communication_Hub:0 "先驱通信枢纽"
+ Precursor_Communication_Hub_desc:0 "A single large spire is all that stands out among the ruins of this world. Still emitting light and a beam going from its centres all the way up to space. We believe this used to link up to a satellite grid. Perhaps used to communication or monitoring, we should try to use it."
+ 
+ Precursor_Satalite_Grid:0 "先驱卫星网"
+ Precursor_Satalite_Grid_desc:0 "该世界的轨道上部署许多卫星。"
+ 
+ Precursor_Singularity_Drive:0 "奇点引擎"
+ Precursor_Singularity_Drive_desc:0 "This world appears to have underground regions resembling laboratories and experimentation facilities, leading to a central room containing an enormous singularity drive that resonates with energy. The automatons within the room, seem to take eachother apart and reattaching the pieces with no discernible pattern."
+
+ 
+ #############################################
+ ######### Fallen Empires modifiers ##########
+ 
+ Utopian_World:0 "Utopian World"
+ Utopian_World_desc:0 "Not a single hint of pollution, of toxicity or disease. This world is beautiful in any respect. Buildings shine like they are not affected by the elements. Sound, light all seems to dance along with its population. Every bit of surface looks like it flows into the cities and back out again, almost in perfect harmony."
+ 
+ Utopian_Services:0 "Utopian Services"
+ Utopian_Services_desc:0 "This world offers everything to its residents. From longevity to an abundance of food. Everything is provided and taken care of. "
+ 
+ Primitive_Reserve:0 "Primitive Reserve"
+ Primitive_Reserve_desc:0 "A giant domelike structure seems to show no signs of advanced life. In fact, what appears to be primitive life is all that is roaming inside of it. A glimpse into a species past perhaps. Or a twisted type of zoo."
+ 
+ 
+ #######################################
+ ###### 5 hot exclusive modifiers ######
+
+ Exotic_Spices:0 "Exotic Spices"
+ Exotic_Spices_desc:0 "Small shrubberies and plants cover a lot of the surface. Despite the harsher conditions of this world the plant life grows very fast and in a great variety. More excitingly, the plant life is delicious as additives to food. The exotic flavours that these shrubs and plants produce make this world quite unique."
+
+ Sandstorms:0 "Sandstorms"
+ Sandstorms_desc:0 "On a windy day, giant, short lived walls of sand occasionally cover the surface with a thin layer of sand. Although these sandstorms happen quite frequently, they are more of an annoyance than a danger. A quick sweeping with a brush is enough to clean up any sand. With a bit of luck the next winds will just blow it all away again."
+ 
+ Sand_Tornadoes:0 "Sand Tornadoes"
+ Sand_Tornadoes_desc:0 "Occasionally sand tornadoes can be seen on this world. Though very small they usually happen in clusters of about three to seven depending on the terrain and direction of wind. The sand is fairly reflective which causes the sand tornadoes to almost shine in the sunlight. Very beautiful, albeit a bit chaotic, to see."
+ 
+ Silicon_Crystals:0 "Silicon Crystals"
+ Silicon_Crystals_desc:0 "Large silicon crystals are seen growing on this world. They seem to form clusters of crystals starting at a point in the soul and growing outwards like a flower. Their colours depend on the composition of the soil, with bright soil resulting in fairly clear yellow and brown crystals and darker, iron rich soil resulting in bright red or purple crystals. Various other types can be found across the surface of this world."
+ 
+ Quicksand:0 "Quicksand"
+ Quicksand_desc:0 "Large pools of loose soil on this world is seen to behave much like quicksand. Though unlike quicksand it doesn't always have to be wet, which makes it very deceptive and dangerous. Every step taken on this world has to be checked beforehand and routes have to be carefully mapped."
+
+ 
+ ########################################
+ ###### 5 cold exclusive modifiers ######
+
+ Never_Ending_Aurora:0 "Never Ending Aurora"
+ Never_Ending_Aurora_desc:0 "Because of this systems almost unique solar activity this world is blessed with a permanent display of auroras. These auroras are formed when the magnetosphere is sufficiently disturbed by the solar wind to form charged particles that are visible. The resulting ionization and excitation of atmospheric constituents emits light of varying colour and complexity."
+ 
+ Spirals_of_Ice:0 "Spirals of Ice"
+ Spirals_of_Ice_desc:0 "Very unusual features are found on this planet. The cold wind and moist air tend to form spirals of ice. Some of these spirals have grown so large they match our tallest buildings. It's remarkable how not a single crack can be found on them as well as no air bubbles which makes they crystal clear. During the night they reflect the galaxy's light in a beautiful display of colours."
+ 
+ Furry_Packs:0 "Furry Packs"
+ Furry_Packs_desc:0 "This world is inhabited by huge roaming packs of giant, four legged creatures. These creatures have massive hornes on their head and a long, and very nimble, extra arm as nose. They are covered in a thick, mostly brown fur to keep them warm during the nights. They seem to be a very social type of animal. It's not know how, but they seem to take the same route around the world looking for food every season. Perhaps they're just good at remembering the terrain they roam."
+ 
+ Blizzards:0 "Blizzards"
+ Blizzards_desc:0 "It always starts with light snowfall, but this world's weather always follows the same pattern. Light snow, heavy wind and in just a moment’s notice, it becomes a full-fledged blizzard. With snowfall so dense you can hardly see the end of your extremities."
+ 
+ Abominable_Predators:0 "Abominable Predators"
+ Abominable_Predators_desc:0 "On cold nights, this creature roams the lands looking for food. It's massive height and large forearms are a terrifying sight. While they don't hunt in packs they are seen to be living in small groups of around four to six. These creatures have a thick light-blue to white coat of fur and giant claws. It behaves almost apelike and has been observed to communicate through grunts and gestures with its fellow companions."
+ 
+
+ ########################################
+ ###### 5 life exclusive modifiers ######
+
+ Rich_Soil:0 "Rich Soil"
+ Rich_Soil_desc:0 "The rich soil on this world has produced very healthy and dense local plant life. Producing food on this world should be very easy."
+ 
+ Otherworldly_Colours:0 "Otherworldly Colours"
+ Otherworldly_Colours_desc:0 "This world’s vegetation comes in all sorts of colours. The most remarkable thing is, the vegetation colour depends on the latitude of the planet. From bright yellow flowers and trees on the equator to deep purple grass near the arctic. This world feels truly alien."
+ 
+ Misty:0 "Misty"
+ Misty_desc:0 "This world's surface is almost completely covered in mist. The combination of pressure and temperature cause the oceans and lakes to give off a lot of water vapour that hangs around the surface."
+ 
+ Ecological_Nervous_System:0 "Ecological Nervous System"
+ Ecological_Nervous_System_desc:0 "The plant life on this world seems to be connected to each other through a complex root system. The energetic pulses that run through it is very reminiscent of a nervous system. Observations have found that killing one plant has an effect on nearby plants as they seem to close their flowers or slowly grow in the opposite direction."
+ 
+ Carnivorous_Flies:0 "Carnivorous Flies"
+ Carnivorous_Flies_desc:0 "These tiny flies may seem like just an annoyance, they are the most dangerous creatures on this world. These tiny flies glow in the dark at night, but that's not when they're out feeding. During the night they glow as a means to attract other flies as a part of their mating ritual, which seems to be quite complex. During the day they fly around looking for food. Being carnivorous, they tend to swarm their prey and eat it alive in a matter of hours. Large, or small, all creatures are food for them. What makes it even worse is their colony like behaviour, allowing them to navigate complex tunnels.. or vents! The fact that they emit no noise to even warn their next meal is the worst part."
+
+
+ #########################################
+ ###### 5 ocean exclusive modifiers ######
+
+ Algae_Boom:0 "Algae Boom"
+ Algae_Boom_desc:0 "This world is in the midst of a century long algae boom. Millions of tons of algae cover the planet's oceans and lakes. While it looks bad, it's actually very good for the wildlife and air quality."
+
+ Ocean_Forests:0 "Ocean Forests"
+ Ocean_Forests_desc:0 "Strange trees are growing on this world’s ocean floors. These trees look very similar to trees found on the surface of this world, yet are fully capable on surviving, and blooming, under water. Truly a sight to behold."
+ Clear_Water:0 "Clear Water"
+ Clear_Water_desc:0 "This worlds lakes and oceans are remarkably clear and see through."
+ 
+ Warm_Water_Lakes:0 "Warm Water Lakes"
+ Warm_Water_Lakes_desc:0 "The water on this world is very warm. The unusual composition of the soil allows it to retain a fair amount of heat resulting in lukewarm to hot lakes. If the perfect holiday was a planet, this world would be it."
+ 
+ Torrential_Rainstorms:0 "Torrential Rainstorms"
+ Torrential_Rainstorms_desc:0 "Massive torrential rainstorms are a frequent occurrence on this world. There's so much rain falling so fast that you'll be soaked in about three seconds."
+ 
+
+ ##############################################
+ ###### 5 deep ocean exclusive modifiers ######
+
+ Ocean_Currents:0 "洋流"
+ Ocean_Currents_desc:0 "The ocean currents of this world are remarkably complex. Warm water has a chance to reach even the furthest areas of this world allowing for more favourable conditions for life."
+ 
+ Ocean_Ridges:0 "Ocean Ridges"
+ Ocean_Ridges_desc:0 "Giant underwater mountain ridges cover the ocean surface. These are home to a variety of simple algae and coral type life."
+ 
+ Ocean_Trenches:0 "Ocean Trenches"
+ Ocean_Trenches_desc:0 "The unfathomable deep trenches of the ocean floor on this world will probably never be fully explored. The depth pressure is enough to buckle any exploration vessel and outright destroy even the material it's made from. It is so dark and so deep that staring into the nothingness of these trenches is highly unnerving, almost as if it is staring back into you."
+ 
+ Unique_Marine_Habitats:0 "Unique Marine Habitats"
+ Unique_Marine_Habitats_desc:0 "living organisms in this deep, dark, ecosystem rely on chemicals and a process called chemosynthesis as the base of their food web and not on sunlight and photosynthesis."
+ 
+ Massive_Waves:0 "Massive Waves"
+ Massive_Waves_desc:0 "The oceans on this world periodically produce massive waves that travel across the globe. Once they reach land they produce dangerous tsunamis."
+
+
+ #############################################
+ ###### 5 terraform exclusive modifiers ######
+
+ Extinct_Species:0 "Extinct Species"
+ Extinct_Species_desc:0 "Thanks to our scientists this Terraformed planet is now home to previously exciting species from our homeworld."
+ 
+ Terraform_Result_Better:0 "Terraform Result: §LBetter Than Expected§!"
+ Terraform_Result_Better_desc:0 "The terraforming process on this world has resulted in a better than expected result!"
+ 
+ Terraform_Result_Unbelievable:0 "Terraform Result: §TUnbelievable§!"
+ Terraform_Result_Unbelievable_desc:0 "The terraforming process on this world has resulted in an unbelievable good result!"
+
+ Terraform_Result_Perfect:0 "Terraform Result: §YPerfect§!"
+ Terraform_Result_Perfect_desc:0 "The terraforming process on this world produced a perfect result!"
+ 
+ 
+ #######################################
+ ####### MEGASTRUCTURE MODIFIERS ####### 
+ 
+ ###### Ringworld Exclusive modifiers ######
+ Ringworld_Tier_1:0 "环形世界的建造：§LAbove Specs§!"
+ Ringworld_Tier_1_desc:0 "The ringworld construction process has resulted in a better than expected result!"
+ 
+ Ringworld_Tier_2:0 "环形世界的建造：§TBeautiful Architecture§!"
+ Ringworld_Tier_2_desc:0 "The ringworld construction process has resulted in an unbelievable good result! The architecure used in this design is awe-inspiring."
+ 
+ Ringworld_Tier_3:0 "环形世界的建造：§YPerfect Design§!"
+ Ringworld_Tier_3_desc:0 "The ringworld construction process has produced a perfect result! It's architecture is sublime, it's layout, perfect. All support systems on this ringworld are functioning better than expected."
+ 
+ Ringworld_Breath_Taking_view:0 "Breath Taking View"
+ Ringworld_Breath_Taking_view_desc:0 "The artificial atmosphere on this ringworld is so clear it's possible to see most of the ringworld and the star. This view is breath taking to say the least. It is truely a remarkable sigh that makes one wonder just how it is even possible at all."
+ 
+ Ringworld_Neural_Nexus:0 "Neural Nexus"
+ Ringworld_Neural_Nexus_desc:0 "This ringworld section has been outfitted with a section wide neural net allowing the centralised nexus to control every aspect of this ringworld."
+ 
+ Ringworld_Idyllic_Gardens:0 "Idyllic Gardens"
+ Ringworld_Idyllic_Gardens_desc:0 "The gardens on this section are of unimaginable beauty. Not only are the colours of the flowers, the plants and trees very soothing, the smells are a world on their own. "
+ 
+ Ringworld_Xeno_Zoo:0 "外星动物园"
+ Ringworld_Xeno_Zoo_desc:0 "A large xeno zoo has been outfitted on this ringworld allowing it's residents a place to relax and learn about the universe outside of this ringworld. "
+ 
+ Ringworld_Badlands:0 "恶土"
+ Ringworld_Badlands_desc:0 "A large section of this ringworld has been dedicated for a much simpler life. People can chose to live here and be entirely self-sufficient. It's a great place for anyone who needs to escape from everything for a while."
+ 
+ Ringworld_Battle_Simularors:0 "战斗模拟器"
+ Ringworld_Battle_Simularors_desc:0 "Large artificial battlezones are built around this section of the ringworld allowing our armies to train in multiple environments. From zero-g battle environments to urban or even jungle battle zones. As a result armies can be trained much quicker. "
+ 
+ Ringworld_Endless_Ocean:0 "Endless Ocean"
+ Ringworld_Endless_Ocean_desc:0 "This section on the ringworld was designed in such a way that it can appear as a single endless ocean. "
+ 
+ Ringworld_Mass_Transit_Systems:0 "Mass Transit System"
+ Ringworld_Mass_Transit_Systems_desc:0 "A complex grid of mass transit systems on this section of the ringworld allow for extremely efficient and fast transportation, significantly reducing the cost of transportation in both resources and time."
+
+ 
+ ###### Habitat Exclusive modifiers ######
+ Habitat_Tier_1:0 "Habitat Construction: §LAbove Specs§!"
+ Habitat_Tier_1_desc:0 "The habitat construction process has resulted in a better than expected result!"
+ 
+ Habitat_Tier_2:0 "Habitat Construction: §TBeautiful Architecture§!"
+ Habitat_Tier_2_desc:0 "The habitat construction process has resulted in an unbelievable good result! The architecure used in this design is awe-inspiring."
+ 
+ Habitat_Tier_3:0 "Habitat Construction: §YPerfect Design§!"
+ Habitat_Tier_3_desc:0 "The habitat construction process has produced a perfect result! It's architecture is sublime, it's layout, perfect. All systems in this station are functioning better than expected."
+ 
+ Habitat_Stadium:0 "Artificial Gravity Stadium"
+ Habitat_Stadium_desc:0 "On popular request this habitat has been outfitted with a large stadium. It's artificial gravity generators allow for a wide variety of exciting games to be played."
+ 
+ Habitat_Trade_Docks:0 "Extended Trade Docks"
+ Habitat_Trade_Docks_desc:0 "This habitat is very close to a busy trade route making it ideal as a trading stop or hub. As such the standard docks have been made larged and additional dock sections are installed for traders."
+ 
+ Habitat_Holonet_Entertainment_Systems:0 "Holonet Entertainment Systems"
+ Habitat_Holonet_Entertainment_Systems_desc:0 "Numerous entertainment systems have been installed throughout this habitat. It's holograms and hard-light emitters allow for a variety of tactile entertainment. Truly luxury for the mind and body!"
+ 
+ Habitat_Replicator_Systems:0 "Replicator Systems"
+ Habitat_Replicator_Systems_desc:0 "Instead of basic delivery systems for food and anything that might be needed this habitat is equipped with small but efficient matter-energy replicators. Simple tell it what you need and it will be created right in front of you! Truly we're living in the future!"
+
+
+ #####################
+ ### Tile Blockers ###
+
+ c_tb_Precursor_Planetary_Shield:0 "§BPrecursor Planetary Shield§!"
+ c_tb_Precursor_Planetary_Shield_desc:0 "A giant self-maintaining and self-powering shield array stands here. Its shield spread across the entire world surface. "
+ 
+ c_tb_Ruined_Battlefield:0 "§HBattlefield Ruins§!"
+ c_tb_Ruined_Battlefield_desc:0 "Endless remains dot the surface. Banners, flags, primitive and none-primitive weapons as well. These remains show a vicious bloody war with casualties on every side. It seems impossible to tell who won. Maybe it is best to give all of them a proper burial."
+ 
+ c_tb_Spaceship_Graveyard:0 "§HCrashed Spaceship§!"
+ c_tb_Spaceship_Graveyard_desc:0 "A giant spaceship hull, half imbedded in the land covers most of the land. It seem to have crashed here centuries, if not millennia ago. Most of the tech has been degraded and destroyed by the elements, but perhaps there is still something to learn."
+ 
+ c_tb_Android_Pleasure_Palace:0 "§GPleasure Palace§!"
+ c_tb_Android_Pleasure_Palace_desc:0 "A fairly well maintained, but old building stands here. It seems to be active and some say they can see all sorts of robotic creatures inside doing strange things to each other. "
+ 
+ c_tb_Toxic_Gas:0 "Toxic Gas"
+ c_tb_Toxic_Gas_desc:0 "Giant clouds of heavy toxic gas, gently floating in this area. Building here would be suicide."
+ 
+ c_tb_Unusual_Formations:0 "Unusual Formations"
+ c_tb_Unusual_Formations_desc:0 "Giant and numerous amounts of odd but nevertheless natural geological shapes can be found here. Size and shape of these formations seems to be fairly consistent in some areas."
+ 
+ c_tb_Locust_Plagues:0 "Locusts"
+ c_tb_Locust_Plagues_desc:0 "Not only look these creatures infinitely worse and scary than any other insect observed, they seem to have an endless appetite for anything with leaves. It will take more than fire to get rid of these! And rid of these is preferable."
+ 
+ c_tb_Seasonal_Flooding:0 "Floodplains"
+ c_tb_Seasonal_Flooding_desc:0 "These lands periodically flood to the extent that it is unwise to even settle here. It is highly recommended to develop the land and adjoining rivers and provide flood banks and walls to stop the water from flooding everything."
+ 
+ c_tb_Ice_Flora:0 "Ice Flora"
+ c_tb_Ice_Flora_desc:0 "Gentle blue-white coloured flowers and trees dot the landscape. It is surprising how they can survive such cold, yet here they are. The leaves seem to have a semi-crystalline structure which refracts the sunlight ever so gently, projecting a fantastic beautiful display of colours on the surface."
+ 
+ c_tb_Planetwide_Forest:0 "Endless Forests"
+ c_tb_Planetwide_Forest_desc:0 "Massive forest area as far as the eye can see. Stretching and growing over everything, including rivers and mountains. Probably very easy to get lost in.."
+ 
+ c_tb_Dense_Forests:0 "Dense Forests"
+ c_tb_Dense_Forests_desc:0 "Dense, towering trees with canopy’s that block the entire sky. protected, an unusual large amount of diverse flora and fauna can be found beneath these trees covering the surface."
+ 
+ c_tb_Proto_Forests:0 "Proto Forests"
+ c_tb_Proto_Forests_desc:0 "Small early evolutionary form of frees spread the landscape. It is a weird sight but somehow very peaceful."
+ 
+ c_tb_Temple_of_the_Ancient_One:0 "§RTemple of the Ancient One§!"
+ c_tb_Temple_of_the_Ancient_One_desc:0 "A giant rock-hewn temple stands here. Abandoned and overgrown it somehow still has light inside coming from a fire or brazier or something like that. Who knows who or what this temple was for."
+ 
+ c_tb_Arachnophobia:0 "Giant Arachnids"
+ c_tb_Arachnophobia_desc:0 "Assume for a moment a world very much like our own. Except for the fact that spiders can grow to 12 feet in length, breed prodigiously, are expert at hiding and often attack in swarms. \n-§BLuna Lovewell§!, Author."
+ 
+ c_tb_Dunes:0 "Dunes"
+ c_tb_Dunes_desc:0 "Sand. Even more sand. Sand everywhere. These sand dunes stretch out as far as the eye can see, and tower quite high in the sky. It will take some effort to stabilize these areas of the world before we can use it to settle on."
+ 
+ c_tb_Mushroom_Forest:0 "Mushroom Forest"
+ c_tb_Mushroom_Forest_desc:0 "Large forests of giant mushrooms cover the surface. They're relatively soft and should take no time to remove. Their giant mushroom tops do provide a nice bit of shade though."
+
+ 
+ ######################
+ ### Techs Blockers ###
+
+ tech_c_tb_Toxic_Gas:0 "Aero-Chemical Neutralizers"
+ tech_c_tb_Toxic_Gas_desc:0 "It is going to be hard to remove toxic gas clouds that roam the landscape. Our best bet is dropping a mist of chemical neutralizers over them."
+ 
+ tech_c_tb_Unusual_Formations:0 "Large Scale Demolition"
+ tech_c_tb_Unusual_Formations_desc:0 "Since these formations are unstable by nature all it would take is some explosives. "
+ 
+ tech_c_tb_Locust_Plagues:0 "Natural Predators"
+ tech_c_tb_Locust_Plagues_desc:0 "By introducing harmless natural predators into the environment we should be able to control the locus swarms. We are fairly sure nothing can go wrong with this plan."
+ 
+ tech_c_tb_Seasonal_Flooding:0 "Flood Management"
+ tech_c_tb_Seasonal_Flooding_desc:0 "Flood management strategies generally involve multiple engineering projects that can fall under one of two categories. Hard engineering projects are ones that involve the construction of artificial structures that, through a combination of science, technology and a bit of brute force, prevent a river from flooding. Soft engineering projects are the opposite. These projects use natural resources and local people’s knowledge of the river to reduce the risk posed by a flood."
+ 
+ tech_c_tb_Arachnophobia:0 "They are no joke!"
+ tech_c_tb_Arachnophobia_desc:0 "If we could we would take the next shuttle out of here! But sadly we cannot, so we will have to deal with these giant arachnids. Perhaps a giant flamethrower. Something with fire §Ralways§! works."
+ 
+ tech_c_tb_Dunes:0 "Dune Removal"
+ tech_c_tb_Dunes_desc:0 "The management of dune removal projects includes planting vegetation successfully. Merely scattering and leaving seeds over sandy areas is perceived as a potential waste as strong winds can blow seeds away. Planting of nurseries should be conducted in the hollows of any present sand hills or in depressions of sandy areas. Seeds should be planted in moist conditions and should be lightly covered by a layer of sand and large mature grass individuals should be planted in deep holes with the tops of the plants cut short so as to reduce wind resistance."
+ 
+ ######################
+ ####### Armies #######
+ 
+ c_precursor_mech_army:0 "Salvaged Precursor Mech"
+ c_precursor_mech_army_desc:0 "Salvaged Precursor Mech. It cost a lot of resources but we've finally managed to get one working! Towering far above the colony, with massive on-board weaponry these mechs are a sight to behold. The enormity of this machine means we can only use it for defensive purposes, unfortunately."
+ 
+ precursor_mech_army_trigger_tooltip:0 "§BCan only be built on worlds with precursor mechs.§!"
+ 
+ c_precursor_bunker_army:0 "Salvaged Precursor Bunker"
+ c_precursor_bunker_army_desc:0 "Salvaged Precursor Bunker. The complexity of the bunker grid on this world is amazing. Clearly designed by an advanced AI. It seems every bunker is a self-maintaining system, one which we can use to our advantage. Virtually impenetrable walls mean it'll take our enemies months to get through. With enough of these bunkers we might just be able to hold off hostile forces indefinitely."
+ 
+ precursor_bunker_army_trigger_tooltip:0 "§BCan only be built on worlds with precursor bunkers.§!"
+ 
+ c_giant_arachnid_army:0 "Giant Arachnid Army"
+ c_giant_arachnid_army_desc:0 "Trough blood, sweat and tears.. well mostly blood and tears, we have managed to tame the arachnids! A cybernetic implant lets us control these giant arachnids by suggestion a direction for them to move to. They usually proceed to try and eat anything they encounter. Dropping the arachnids from orbit might just be scary enough to win the war!"
+ 
+ giant_arachnid_army_trigger_tooltip:0 "§BCan only be built on worlds infested with giant arachnids.§!\n§RCan only have 5§!"
+
+ 
+ #########################
+ ####### Anomalies #######
+ 
+ C_BLACK_HOLE_CAT:0 "诱人的黑暗"
+ C_BLACK_HOLE_CAT_DESC:0 "There is something about this singularity, perhaps we should just stay a while."
+ 
+ anomaly.78877.name:0 "励志"
+ anomaly.78877.desc:0 "It is hard to think of practical applications of the black hole. Because practical applications are so remote, many people assume we should not be interested. But this quest to understand the world is what defines us as intelligent beings."
+ 
+ c_Inspirational:0 "增加 £physics §G12 和 §B暗物质 §G1 "
+ 
+ 
+ C_SUN_CAT:0 "天空中的钻石"
+ C_SUN_CAT_DESC:0 "This sun seems very bright, a full orbital scan might shed some light on this phenomenon."
+ 
+ anomaly.78878.name:0 "异常明亮"
+ anomaly.78878.desc:0 "This sun is unusually bright due to vastly increased surface solar activity. A rare combination of elements and gravitational pressure seems to be the cause of this unusual phenomenon. We could take advantage of this!"
+ 
+ c_sun_energy_deposit:0 "增加 £energy §G14 "
+ 
+ 
+ C_WEIRD_CAT:0 "奇怪的东西"
+ C_WEIRD_CAT_DESC:0 "Our scanners are detecting unusual readings. This world should not be what it is according to our long range scans and star charts. We should §Hdefinitely§! investigate."
+ 
+ anomaly.78879.name:0 "时移星球"
+ anomaly.78879.desc:0 "This world emits strange chronotron readings. Somehow this world has been displaced out of time. It is not known when this world was born, or when it is from, but it sure offers a lot of opportunities to learn about the nature of time itself!"
+ 
+ c_Time_Displaced_Planet:0 "增加 £physics §G6 £society §G6 £engineering §G6"
+ 
+ 
+ C_PROTO_CAT:0 "不寻常的排放"
+ C_PROTO_CAT_DESC:0 "Our scanners are detecting unusual emissions coming from the surface of this asteroid. We should investigate."
+ 
+ anomaly.78880.name:0 "坡塔莫秋感染站"
+ anomaly.78880.desc:0 "At first this asteroid station seemed abandoned, damaged. But as soon as we started listening to various channels we could hear strange voices, ever so slightly picking up in speed. On closer inspection the interior of the station is filled with strange crystals and a bizarrely moving bio-metal core, almost lifelike. The entire place sounds terrifying."
+ 
+ c_proto_molecule_deposit:0 "增加 £society §G12 "
+ 
+ 
+ C_CLOCK_CAT:0 "黑暗之中的闪光"
+ C_CLOCK_CAT_DESC:0 "Something about this pulsar seems very consistent. It pulses regularly while releasing immense amounts of energy."
+ 
+ anomaly.78881.name:0 "脉冲星钟"
+ anomaly.78881.desc:0 "Not only is this pulsar fast, but it also spins with such amazing regularity that it is among the most accurate clocks in the universe. Using these celestial timekeepers, astronomers are answering questions about stars, matter - and even space and time itself - that would otherwise be impossible."
+ 
+ c_Pulsar_clock:0 "增加 £physics §G12 和 §B零号元素 §G1 "
+ 
+ ####################################
+ # Colony Events
+ ####################################
+ 
+ c_colony.3.name:0 "不完全废金属"
+ c_colony.3.desc:0 "Our initial scans of this world showed a lot of metal from the crashed ships. There must be hundreds spread out over this world. Unfortunately, due to the many alloys and busted electronics of these colossal crashed ships our scans were subjected to heavy electromagnetic interference and thus were unable to give a detailed reading of every wreck. Now that we have started doing visual inspections we have discovered something amazing. A few of the ships down there are still emitting EM-radiation, meaning there is still power left in them. Perhaps their databanks can teach us something about their designs, or their makers."
+ 
+ c_colony.3.a:0 "开始打捞程序。"
+ 
+ c_colony.4.name:0 "好的难以置信"
+ c_colony.4.desc:0 "Our initial goal of accessing their databanks wasn't quite a success, we have found out these ships belonged to two different warring factions. One highly advanced and the other, less so.. Sadly not much was able to be gained from their databases, it seems to have been standard procedure to wipe them if the ship became unusable. During our salvaging we did stumbled upon another ship wreck. This one is far far more complete. Our engineers have proposed to try and repair it with parts from a nearby wreck. Perhaps even use it as a template to try and salvage a few more nearby ships that don't look too terrible damaged. "
+ 
+ c_colony.4.a:0 "企图打捞船只。 (需要 60 天)"
+ c_colony.4.b:0 "精彩！"
+ 
+ c_colony.5.name:0 "临时巡洋舰"
+ c_colony.5.desc:0 "She flies! This ship might look a bit dated, it surprisingly supports quite an array of weapon systems and defensive systems!"
+ 
+ c_colony.6.name:0 "临时巡洋舰"
+ c_colony.6.desc:0 "They fly! These ships might look a bit dated, but they surprisingly support quite an array of weapon systems and defensive systems!"
+ 
+ c_colony.7.name:0 "打捞无畏舰"
+ c_colony.7.desc:0 "We had to salvage half a dozen of these colossal ships just to get this one working. It's unbelievable how massive she is. Our engineers aren't sure just how she is able to maintain structural integrity, so it is unlikely we'll even attempt to replicate it's design. She will serve us well none the less."
+ 
+ c_colony.8.name:0 "远古的护卫舰"
+ c_colony.8.desc:0 "Not only were we able to repair it's systems, we managed to repair a few of them! Our military experts are guessing these ships must have been part of a swarm of ships. Although small in size, they have a very advanced design allowing for quite a bit of power to be funnelled in its defensive and offensive systems. We should be very careful with these."
+ 
+ c_colony.9.name:0 "远古的战列巡洋舰"
+ c_colony.9.desc:0 "Our engineers were only able to just repair one of these highly advanced, ancient ships. The design of these ships is truly remarkable. It's ridiculous power generation allows for a massive weapons system. We should take great care of this ship as it seems to be one of a kind. "
+ 
+ c_colony.10.name:0 "远古的战列巡洋舰"
+ c_colony.10.desc:0 "Our engineers were able to repair multiple of these highly advanced, ancient ships. Fortunately there was an even bigger damaged ship nearby which has just enough components for the critical systems. The rest of the ships damaged sections was salvaged from a small crash site on the other side of the world. The design of these ships is truly remarkable. It's ridiculous power generation allows for a massive weapons system. We should take great care of this ship as it seems to be one of a kind. "
+ 
+ c_colony.11.name:0 "远古泰坦"
+ c_colony.11.desc:0 "Amongst the burned and smelted wreckage we found a section of the ship dug into the ground. At first we just assumed it was a relatively small ship that had crashed. It was covered by dust and other wreckage that fell from a massive space battle that took place overhead millennia ago. It was good that we took a closer look. The shiny hull that was showing isn't just a small crashed ship, it was just a single section of a much larger ship. A ship that was surprisingly still in one piece. After digging it out we discovered the reason it failed was a direct hit to its control centre which spend it spiralling down into the planet. After gathering parts from nearby ships we were able to construct a control centre in the ship entirely to our own specifications. After powering up the ship we were surprised how easily it's integrated AI was able to translate and support our own systems. It only took a few days for our instruments to control the ship. After a few more tests we are ready to fly it into orbit, into service."
+
+ c_colony.20.name:0 "外星人的早餐"
+ c_colony.20.desc:0 "One of the colonists just HAD to touch the eggs! Oh no they are breeding! These xenomorph are everywhere! Run for your lives!"
+ 
+ c_colony.20.a:0 "§R帮助！§!"
+ c_colony.20.b:0 "§H一个§!人口被杀害！\n§H一个§!§R异形军§!入侵！"
+ 
+ ####################################
+ # Survey modifier Events
+ ####################################
+ 
+ pm_survey.AMAZING:0 "太神了!"
+ 
+ pm_survey.2.name:0 "发现：Very hot planetary core!"
+ pm_survey.2.desc:0 "Scientist §H[From.GetLeaderName]§! on board of the science vessel §H[From.GetName]§! has made an interesting discovery!\nThis world has a remarkable hot core. Surface temperatures are higher than what one would expect from such world. Further study would be required to better understand the geological interactions of planetary tectonics with its core."
+ 
+ pm_survey.2.a:0 "有趣的！"
+ pm_survey.2.b:0 "添加帝国效应:\n§H改造发现 1/3§!\n    改造速度奖励: §G+10%§!"
+ 
+ pm_survey.3.name:0 "发现：Better Understanding of the planetary core"
+ pm_survey.3.desc:0 "Scientist §H[From.GetLeaderName]§! on board of the science vessel §H[From.GetName]§! has made another interesting discovery!\nAnother world with above average core temperature. The tectonic plates on this world seem very stable; this is probably thanks to a few very large volcanoes that regularly release pressure that builds up beneath the plates. Further study will be required to see how the liquid mantle in such hot core planets interacts with the dense metal centre."
+ 
+ pm_survey.3.a:0 "迷人的!"
+ pm_survey.3.b:0 "添加帝国效应:\n§H改造发现 2/3§!\n    改造速度奖励: §G+20%§!"
+ 
+ pm_survey.4.name:0 "发现：Terraforming Dreams"
+ pm_survey.4.desc:0 "Scientist §H[From.GetLeaderName]§! on board of the science vessel §H[From.GetName]§! has made another interesting discovery!\nEureka! This world has just the right tectonic density to peer through with our scanners. We have fully mapped out the fluid interactions of this world core.\n The data suggest that around the dense metal core there is not one but two distinct layers of molten rock and minerals. The first, inner, layer seems to behave as normal, flowing against the dense metal core and producing it's magnetic field. The fluid inner layer seems to move at the speeds we expect it to move. The outer molten layer however seems to flow in the opposite direction of the inner layer at a much slower speed.\nThis creates unique convection currents that keep them from over pressurising the tectonic plates and turning this world into a geological unstable nightmare."
+ 
+ pm_survey.4.a:0 "尤里卡！"
+ pm_survey.4.b:0 "添加帝国效应:\n§H改造发现 3/3§!\n    改造速度奖励: §G+30%§!"
+ 
+ pm_terraform_speed_one:0 "改造发现 1/3"
+ pm_terraform_speed_two:0 "改造发现 2/3"
+ pm_terraform_speed_three:0 "改造发现 3/3"
+ 
+ # precursor remnants
+ pm_survey.5.name:0 "发现：Precursor Remnants!"
+ pm_survey.5.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n There is still a significant amount of infrastructure left on this world, built by an ancient unknown interstellar empire. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor energy grid
+ pm_survey.6.name:0 "发现：Precursor Energy Grid!"
+ pm_survey.6.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n This world was once some kind of centre of production for an ancient forgotten civilization. Although only a shadow of its former capacity remains in working condition, it is still an impressive example of industry. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor satellite grid
+ pm_survey.7.name:0 "发现：Precursor Satellite Grid!"
+ pm_survey.7.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n This world has a large amount of precursor satellites in very efficient orbits. Hundreds of small satellites and arrays orbit this world. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor city
+ pm_survey.8.name:0 "发现：Precursor City!"
+ pm_survey.8.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Ancient city ruins belonging to an unknown interstellar empire can be found on this world. Most look strangely intact however. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor shipyards
+ pm_survey.9.name:0 "发现：Precursor Shipyards!"
+ pm_survey.9.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Far above this world rests an ancient massive shipyard. It's near endless spires and tendrils reach far and wide. These massive sections curve along the planet duo to the massive gravitational pull. We don't know what is keeping it in orbit as it should have deorbited ages ago. What we do know is that is still has power from the looks of it. Perhaps, one day, we can claim it for our own. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor planetary guns
+ pm_survey.10.name:0 "发现：Precursor Planetary Guns!"
+ pm_survey.10.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Massive weapons, setup all over this world, capable of firing into orbit that were built millions of years ago. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor bunker grid
+ pm_survey.11.name:0 "发现：Precursor Bunker Grid!"
+ pm_survey.11.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n A massive and wide bunker system is all that is left from this ancient precursor civilization. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor mechs
+ pm_survey.12.name:0 "发现：Precursor Mechs!"
+ pm_survey.12.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Legions of abandoned titanic mechs stand across the surface of this world, waiting to be reactivated. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor planetary shields
+ pm_survey.13.name:0 "发现：Precursor Planetary Shields!"
+ pm_survey.13.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n A giant array of shield systems is spread around this world. Reactivating it probably uses a lot of energy, but could provide a safe haven for everyone. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor floating city
+ pm_survey.14.name:0 "发现：Precursor Floating City!"
+ pm_survey.14.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n This world has several self-sustaining floating cities. The cities look a bit damaged but otherwise still function. There are some ruins of cities on the surface, wonder if they used to float as well..  \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor capital complex
+ pm_survey.15.name:0 "发现：Precursor Capital Complex!"
+ pm_survey.15.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n There is giant ruined city on this world with a massive towering structure in the middle. We believe this structure functioned as the heart of this city, if maybe the entire world of this civilisation. Perhaps this was a capital. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor communication hub
+ pm_survey.16.name:0 "发现：Precursor Communication Hub!"
+ pm_survey.16.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n A single large spire is all that stands out among the ruins of this world. Still emitting light and a beam going from its centres all the way up to space. We believe this used to link up to a satellite grid. Perhaps used to communication or monitoring, we should try to use it. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # precursor singularity drive
+ pm_survey.17.name:0 "发现：Precursor Singularity Drive !"
+ pm_survey.17.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n This world appears to have underground regions resembling laboratories and experimentation facilities, leading to a central room containing an enormous singularity drive that resonates with energy. The automatons within the room, seem to take each other apart and reattaching the pieces with no discernible pattern. \n §HPerhaps there are more worlds like this to be discovered..§!"
+ 
+ # gaia world
+ pm_survey.18.name:0 "发现：Gaia World!"
+ pm_survey.18.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n This world has an ideal, temperate with a nitrogen-oxygen atmosphere and a resilient ecosystem. It might offer optimal conditions at different latitudes thanks to its diverse terrain with biomes that are eminently suitable to most forms of life."
+ 
+ # holy planet
+ pm_survey.19.name:0 "发现：Strange Planet!"
+ pm_survey.19.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n This world, while appearing to be quite normal in nature has some unnatural elements to it. On the surface, spread out in interesting non-random patterns, are strange stones of various size and shapes. They glow as if they are made out of gems. Some of the crew wonders if these stones mean anything. Some wonder if they are a warning to stay away.."
+ 
+ # floating islands
+ pm_survey.20.name:0 "发现：Floating Islands!"
+ pm_survey.20.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n While fascinating to look at these islands are so unusual they defy conventional logic. It appears some mineral or substance on this world is causes large rocks to float through the air forming floating islands that hover dozens to sometimes hundreds of feet of the ground."
+ 
+ # ruined battlefield
+ pm_survey.21.name:0 "发现：Battlefield Ruins!"
+ pm_survey.21.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Our ship sensors are detecting various scarred terrain and ruins across this world. It seems a massive planetary scale battle was waged here centuries ago, untold billions must have died. Makes one wonder about the frivolous nature of life.. "
+ 
+ # spaceship graveyard
+ pm_survey.22.name:0 "发现：Spaceship Graveyard!"
+ pm_survey.22.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Our scanners are detecting massive quantities of various alloys and chemicals spread across the surface of this world. Wrecks of ships can be seen from orbit and are truly huge in scale. A titanic battle must have once raged overhead and the world is now littered with rusted skeletons of craft that once ruled the skies. "
+ 
+ # artificial water
+ pm_survey.23.name:0 "发现：Artificial Water!"
+ pm_survey.23.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Initially this world looks quite normal. On closer inspection we noticed that this world water is not actually water comprised of oxygen and hydrogen! But rather a weird nanite composite that behaves just like liquid water. \nWe performed some tests and it seems these nanites only purpose is to behave and act just like water in every way. So it should be safe to drink.."
+ 
+ # android pleasure palace
+ pm_survey.24.name:0 "发现：Android Pleasure Palace!"
+ pm_survey.24.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n A strange structure seems to show signs of activity. We took a closer look and what we found was so out of this world we had to take a second look.. This building is operated by various android machines, so lifelike you'd think they were sentient. They seems to maintain this place and offer various services to not only visitors, but each other as well. Some are inserting strange looking devices that glow and shake into parts of another droid. While others are stringing up a droid to the wall upside down and hitting it with a rope like device. We do not know who built this, but it sounds like it could be a fun place.\nA very interesting discovery indeed!\nOh my!"
+ 
+ # ancient temple
+ pm_survey.25.name:0 "发现：Ancient Temple!"
+ pm_survey.25.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n An ancient temple dedicated to an age long gone has been found on this world. Writings on the murals indicate it was a temple shared by many different alien species. The images on the walls depict the aliens as creatures with unusual powers, moving objects with their mind, wielding glowing sticks and a participating in a lot of meditating. This seems to be of a culture that embraces diversity and desired to protect everyone."
+ 
+ # crystal moon palace
+ pm_survey.26.name:0 "发现：Crystal Palace!"
+ pm_survey.26.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Our scientists discovered a beautiful palace made entirely out of crystal on the surface of this moon. The interior is full of strange runes and cryptic devices. We don't know who built it, or for what purpose, but we hope to find out more about it. "
+ 
+ # plasmoid life
+ pm_survey.27.name:0 "发现：Plasmoid Life!"
+ pm_survey.27.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Somehow, life comprised entirely of plasma has managed to evolve on this star. Sadly we cannot go closer for a better scan as this suns thermal radiation is proving too much for our on board sensors.\n "
+ 
+ # temple of the ancient one
+ pm_survey.28.name:0 "发现：Strange Temple!"
+ pm_survey.28.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n The breath taking, indescribable beauty of the ruined, mysterious rock-hewn temple, would be amazing to any that were to spend time looking at it if it was not for its dangerous allure. Stories are scribbled on the walls, warning almost, of previous explorers who spend days in darkness as they wandered around the temple. In the end, they were no longer able to resist the powerful visions and auditory hallucinations that appeared, nor the madness-inspired impulse to enter the inner sanctum of the temple. The inner sanctum, now appearing to you impossibly illuminated by what seems to be a flickering altar flame. "
+ 
+ # proto forest
+ pm_survey.29.name:0 "发现：Proto Forests!"
+ pm_survey.29.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Large patches of relatively short forests type flora has been discovered on this world. These proto-forests seem to be the earliest signs of forest-like life out there. We will add a detailed analysis to our databanks about this world for future study. "
+ 
+ # hive world
+ pm_survey.30.name:0 "发现：Hive Ruins!"
+ pm_survey.30.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\nAfter extensive analysis we discovered that the fossilized remnants of this world seems to have thousands of synapse nodes spread on them. Serving as massive bio-factories that could churn out the endless swarms of bio-forms. Hive worlds as we could name these worlds seem to have been living creatures on their own, incorporating millions of bioengineered organisms. Each was a biological factory capable of creating trillions of large and small organisms, of replicating genomes and splicing together new creatures perfectly adapted for each new world and environment they are found on. We can only hope these types of creatures are no longer amongst us."
+ 
+ # arachnophobia
+ pm_survey.31.name:0 "发现：Hell!"
+ pm_survey.31.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Of all the insufferable undeniable terrible infested hellholes of planets this world, so overrun by packs of giant arachnids, is the worst. THE WORST!\n It seems like madness to even think of setting foot on this world. We heard night-time hissing coming from the treetops and caverns, of endless thumping sounds as we heard these giant arachnid creatures walk all over our ship. We didn't care if they broke something, we just left. This world, never again. "
+
+ # giant worm
+ pm_survey.32.name:0 "发现：Giant Worm!"
+ pm_survey.32.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n This world is occupied by colossal worms that live beneath the sand. They are easily attracted to rhythmic vibrations on the surface, and they would breach in pursuit of the origin of such vibrations almost immediately. This seems to be an effort to defend their territory, of which they seem to be highly protective. Thus to see a worm, and live to tell about it, might be a rarity in itself. The sandworms are extremely territorial; as soon as two worms sense each other's presence, they let out chuffing roars of challenge, bellowing melange-smelling exhaust from their cavernous throats. "
+ 
+ # artificial core
+ pm_survey.33.name:0 "发现：Artificial Core!"
+ pm_survey.33.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n This world should have died long ago after the core froze and the magnetic field died, but a massive installation in the planet's core, made by a particularly powerful ancient empire somehow keeps the core spinning and the magnetic field active. "
+ 
+ # surface of bones
+ pm_survey.34.name:0 "发现：Surface of Bones!"
+ pm_survey.34.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Bones, skulls, corpses, as far as the eye can see. The entire surface of this world is covered in bones. A horrific sight. Whatever battle happened here, it happened here a long time ago. And it was brutal."
+ 
+ # strange alien eggs
+ pm_survey.35.name:0 "发现：Strange Eggs!"
+ pm_survey.35.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Several patches of mucus can be found on this world, much like swamps these are covered by a faint mist of vapour. We didn't really want to wage trough these thick, sticky slimy areas so we left it at that. Though some of our officers reported seeing strange eggs sticking out in these slimy swamps. But like I mentioned in the ships log, we won't return to find out. That is someone else's job."
+ 
+ # mushroom forest
+ pm_survey.36.name:0 "发现：Mushroom Forest!"
+ pm_survey.36.desc:0 "Scientist §H[Root.GetLeaderName]§! on board of the science vessel §H[Root.GetName]§! has made an interesting discovery on §H[From.GetName]§!!\n Massive mushrooms dot the landscape of this world. These mushrooms forests are very strange looking and produce mists of spores every so often. They're very soft so they should be very easy to clear. One of our officers joked and wondered how they'd taste like."

@@ -1,0 +1,20 @@
+﻿l_english:
+
+####################################
+# Ex-Planet Project
+# by mem_ex_planet
+####################################
+
+ mem_ex_planet.301.title:0 "一个有趣的发现"
+ mem_ex_planet.301.desc:0 "我们在[mem_ex_planet.GetName]的采矿站报告他们发现了一些很有趣的东西：化石！他们发现类似大型昆虫的生物化石混在新开挖的矿石里。我们对[mem_ex_planet.GetName]的初步调查表明该小行星是颗行星爆炸后的碎片，并发现里面存在死亡很久的细菌痕迹，这些迹象表明之前行星存在宏观的生命形式。矿工们要求派遣一艘科研船进行调查。"
+ mem_ex_planet.301.a:0 "我们将派一艘船去。"
+ mem_ex_planet.301.b:0 "目前我们所有船只都很忙。"
+ 
+ MEM_EX_PLANET_PROJECT:0 "化石研究"
+ MEM_EX_PLANET_PROJECT_DESC:0 "一个采矿站发现来自某个破碎的星球的类似虫子的生物化石痕迹。他们请求一艘科研船进行调查。"
+ 
+ mem_ex_planet.303.title:0 "行星的遗骸"
+ mem_ex_planet.303.desc:0 "我们的科研船已经证实了[mem_ex_planet.GetName]的化石发现 - 不只是少数，而是一个完整的支脉！在[mem_ex_planet.GetName]的行星具有生命形式有一些不寻常的特点，并获得他们的遗体无疑将扩大我们的生物学知识量。"
+ mem_ex_planet.303.a:0 "太好了！"
+ 
+ mem_d_ex_planet_society_deposit:0 "£society  +8\n"

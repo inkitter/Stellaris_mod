@@ -1,0 +1,5 @@
+﻿l_english:
+ #Events
+ edict_planet_capital:0 "设定为我国首都"
+ edict_planet_capital_desc:0 "点击后将设定此星球为我国新的首都。" 
+ edict_planet_capital.tooltip:0 "将 §Y[Root.GetName]§! 设为你的首都。"

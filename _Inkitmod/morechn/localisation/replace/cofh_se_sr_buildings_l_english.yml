@@ -1,0 +1,39 @@
+﻿l_english:
+
+# Buildings
+
+ building_cofh_se_dark_matter:0 "暗物质集中器"
+ building_cofh_se_dark_matter_desc:0 "通过使用§Y$sr_dark_matter$§!能为战舰提供重力操控装置。"
+
+ building_cofh_se_engos:0 "萦戈扩散站"
+ building_cofh_se_engos_desc:0 "通过使用§Y$sr_engos$§!进行复杂雾化分发能为帝国增长寿命。"
+
+ building_cofh_se_garanthium:0 "镉镧铯制造厂"
+ building_cofh_se_garanthium_desc:0 "通过使用§Y$sr_garanthium$§!对战舰的零部件进行改造便于加快生产效率。"
+
+ building_cofh_se_living_metal:0 "活金属仓库"
+ building_cofh_se_living_metal_desc:0 "通过使用§Y$sr_living_metal$§!对战舰的零部件进行改造为我们舰队提供后勤优势。"
+
+ building_cofh_se_lythuric:0 "莱素稳定装置"
+ building_cofh_se_lythuric_desc:0 "通过使用§Y$sr_lythuric$§!用于改进行星防御和发电站。"
+
+ building_cofh_se_neutronium:0 "零号元素兵工厂"
+ building_cofh_se_neutronium_desc:0 "通过使用§Y$sr_neutronium$§!生产军事装备能提升我们的陆地作战能力。"
+
+ building_cofh_se_orillium:0 "奥里炸药厂"
+ building_cofh_se_orillium_desc:0 "通过使用§Y$sr_orillium$§!生产炸药可用于采矿和建筑事业。"
+
+ building_cofh_se_pitharan:0 "铍烯兰蒸馏设备"
+ building_cofh_se_pitharan_desc:0 "通过使用§Y$sr_pitharan$§!可用于促进农业发展和发电站的功率。"
+
+ building_cofh_se_satramene:0 "赛特宁输液装置"
+ building_cofh_se_satramene_desc:0 "通过使用§Y$sr_satramene$§!进行复杂雾化分发能提高帝国谈判的能力。"
+
+ building_cofh_se_teldar:0 "泰达尔净化厂"
+ building_cofh_se_teldar_desc:0 "通过使用§Y$sr_teldar$§!能提高帝国采矿能力。"
+
+ building_cofh_se_yuranic:0 "育兰沉积装置"
+ building_cofh_se_yuranic_desc:0 "通过使用§Y$sr_yuranic$§!提高帝国的研究能力。"
+
+ building_cofh_se_zro:0 "氧化锆扩散站"
+ building_cofh_se_zro_desc:0 "通过使用§Y$sr_zro$§!能够促进帝国子民的灵能觉醒并得到强化。"

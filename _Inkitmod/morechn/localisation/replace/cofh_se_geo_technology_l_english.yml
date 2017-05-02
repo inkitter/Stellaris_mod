@@ -1,0 +1,11 @@
+﻿l_english:
+
+# Technology - Non-Repeatable
+
+# Society
+
+ tech_cofh_se_geoengineering:0 "行星地质工程"
+ tech_cofh_se_geoengineering_desc:0 "有足够知识，耐心和资源，我们可以改造被居住的星球。"
+
+ COFH_SE_TECH_UNLOCK_GEOENGINEERING_TITLE:0 "§H解锁功能:§! 行星地质工程"
+ COFH_SE_TECH_UNLOCK_GEOENGINEERING_DESC:0 "§H行星地质工程§!\n允许我们改造重新改造被居住的星球。"

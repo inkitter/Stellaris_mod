@@ -1,0 +1,21 @@
+﻿l_english:
+ 
+ SPACEPORT_ENERGY_LANCE_1:0 "能量激光防御模块"
+ SPACEPORT_ENERGY_LANCE_1_DESC:0 "能量激光防御模块"
+ 
+ SPACEPORT_ENERGY_LANCE_2:0 "微粒激光防御模块"
+ SPACEPORT_ENERGY_LANCE_2_DESC:0 "微粒激光防御模块"
+ 
+ SPACEPORT_ENERGY_LANCE_3:0 "快子激光防御模块"
+ SPACEPORT_ENERGY_LANCE_3_DESC:0 "快子激光防御模块"
+ 
+ sm_spaceport_energy_lance_1:0 "能量激光防御模块"
+ sm_spaceport_energy_lance_1_desc:0 "能量激光防御模块"
+ 
+ sm_spaceport_energy_lance_2:0 "微粒激光防御模块"
+ sm_spaceport_energy_lance_2_desc:0 "微粒激光防御模块"
+ 
+ sm_spaceport_energy_lance_3:0 "快子激光防御模块"
+ sm_spaceport_energy_lance_3_desc:0 "快子激光防御模块"
+ 
+ 

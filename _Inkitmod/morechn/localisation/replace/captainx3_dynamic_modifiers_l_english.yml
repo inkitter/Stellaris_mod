@@ -1,0 +1,47 @@
+﻿l_english:
+
+ ####################################
+ # Dynamic Modifiers
+ ####################################
+ shipsize_Frigate_construction_speed_mult: "护卫舰建造速度"
+ shipsize_StrikeCruiser_construction_speed_mult: "打击巡洋舰建造速度"
+ shipsize_LightCarrier_construction_speed_mult: "轻型航母建造速度"
+ shipsize_Battlecruiser_construction_speed_mult: "战列巡洋舰建造速度"
+ shipsize_Carrier_construction_speed_mult: "航母建造速度"
+ shipsize_Dreadnought_construction_speed_mult: "无畏舰建造速度"
+ shipsize_Superdreadnought_construction_speed_mult: "超无畏舰建造速度"
+ shipsize_Flagship_construction_speed_mult: "旗舰建造速度"
+ shipsize_Headquarters_construction_speed_mult: "指挥所建造速度"
+ shipsize_military_station_xlarge_construction_speed_mult: "战斗要塞建造速度"
+ shipsize_military_station_small_construction_speed_mult: "防御平台建造速度"
+ shipsize_military_station_medium_construction_speed_mult: "防御站建造速度"
+ shipsize_military_station_large_construction_speed_mult: "要塞建造速度"
+
+ shipsize_Frigate_build_cost_mult: "护卫舰建造成本"
+ shipsize_StrikeCruiser_build_cost_mult: "打击巡洋舰建造成本"
+ shipsize_LightCarrier_build_cost_mult: "轻型航母建造成本"
+ shipsize_Battlecruiser_build_cost_mult: "战列巡洋舰建造成本"
+ shipsize_Carrier_build_cost_mult: "航母建造成本"
+ shipsize_Dreadnought_build_cost_mult: "无畏舰建造成本"
+ shipsize_Superdreadnought_build_cost_mult: "超无畏舰建造成本"
+ shipsize_Flagship_build_cost_mult: "旗舰建造成本"
+ shipsize_ScienceCruiser_build_cost_mult: "科研船建造成本"
+ shipsize_Headquarters_build_cost_mult: "指挥所建造成本"
+ shipsize_military_station_xlarge_build_cost_mult: "战斗要塞建造成本"
+ shipsize_military_station_small_build_cost_mult: "防御平台建造成本"
+ shipsize_military_station_medium_build_cost_mult: "防御站建造成本"
+ shipsize_military_station_large_build_cost_mult: "要塞建造成本"
+ 
+ # Static Modifiers
+ nsc_hq_buildtime: "指挥所限制"
+ nsc_hq_buildtime_desc: "只允许一座指挥所。"
+ nsc_flagship_buildtime: "旗舰限制"
+ nsc_flagship_buildtime_desc: "只允许一艘旗舰。"
+ 
+ nsc_flagship_bonus: "旗舰帝国奖励"
+ nsc_headquarters_bonus: "指挥所帝国奖励"
+ 
+ #Modifiers
+ 
+ built_world: "巨型建筑世界"
+ built_world_desc: "该世界已被改造为100%宜居性，使得它非常适合任何种族居住。"

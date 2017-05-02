@@ -1,0 +1,310 @@
+﻿l_english:
+ mem_conduit_escort:0 "搜索者护航舰"
+ mem_conduit_escort_mid_key:0 "搜索者护航舰核心"
+ 
+ mem_conduit_cruiser:0 "搜索者战列巡洋舰"
+ mem_conduit_cruiser_mid_key:0 "搜索者战列巡洋舰核心"
+ 
+ mem_conduit_titan:0 "搜索者无畏舰"
+ mem_conduit_titan_mid_key:0 "搜索者无畏舰核心"
+ 
+ mem_conduit_fortress:0 "搜索者堡垒"
+ mem_conduit_fortress_mid_key:0 "搜索者堡垒核心"
+ 
+ mem_conduit_avatar_bound:0 "搜索者"
+ mem_conduit_avatar_bound_mid_key:0 "搜索者"
+ 
+ mem_conduit_avatar:0 "搜索者"
+ mem_conduit_avatar_mid_key:0 "搜索者阿凡达核心"
+ 
+ mem_conduit_anchor:0 "搜索者"
+ mem_conduit_anchor_mid_key:0 "搜索者锚核心"
+
+ mem_conduit_escort_plural:0 "搜索者"
+ mem_conduit_cruiser_plural:0 "搜索者"
+ mem_conduit_titan_plural:0 "搜索者"
+ mem_conduit_fortress_plural:0 "搜索者"
+ mem_conduit_avatar_bound_plural:0 "搜索者"
+ mem_conduit_avatar_plural:0 "搜索者"
+ mem_conduit_anchor_plural:0 "搜索者"
+
+ mem_CONDUIT_PRIMARY_WEAPON:0 "搜索者终结者"
+ mem_CONDUIT_SECONDARY_WEAPON:0 "搜索者歼灭者Mk II"
+ mem_CONDUIT_TORPEDO:0 "搜索者量子鱼雷"
+ mem_CONDUIT_LARGE_WEAPON:0 "搜索者歼灭者Mk I"
+ mem_CONDUIT_MEDIUM_WEAPON:0 "搜索者分解者Mk II"
+ mem_CONDUIT_SMALL_WEAPON:0 "搜索者分解者Mk I"
+ mem_CONDUIT_PD:0 "搜索者点防御"
+
+ mem_CONDUIT_DRONE_HANGAR:0 "搜索者无人机机库"
+
+ mem_CONDUIT_DISRUPTION_FIELD_SHIP:0 "搜索者断能力场"
+ mem_CONDUIT_DISRUPTION_FIELD_STATION:0 "搜索者断能力场"
+
+ mem_conduit_weakness:0 "规则反击"
+ mem_conduit_weakness_desc:0 "用探索者的弱点更新目标数据。"
+ damage_vs_country_type_mem_conduit_guardian_mult:0 "对探索者的伤害"
+
+ mem_the_conduit.1:0 "太空漫游"
+ mem_the_conduit.1.desc:0 "我们的传感器发现一些不寻常的信号。在[From.GetName]有四个"方尖碑"围绕着恒星，看上去像是某个摇篮。我们无法识别上面的任何信号，但这个被屏障保护的世界可能会有我们要的答案。"
+ mem_the_conduit.1.a:0 "这个星系值得我们关注。"
+ 
+ mem_the_conduit.5:0 "失落的花园"
+ mem_the_conduit.5.desc:0 "我们的科学家在[mem_garden_system.GetName]发现了一种能穿透[mem_shielded_target.GetName]的屏障的方式。我们的初步扫描发现它是一个花园世界。我们该如何做？"
+ mem_the_conduit.5.a:0 "屏障在减弱，这将是很好的殖民地。"
+ mem_the_conduit.5.a.tooltip:0 "解除[mem_garden_system.GetName]的屏障。"
+ mem_the_conduit.5.b:0 "这其中一定有他的道理，离开这里。"
+ 
+ mem_the_conduit.11:0 "知识的的成果"
+ mem_the_conduit.11.desc:0 "指挥官，我们相信我们找到一个方法进入[Root.System.GetName]。我们科学家认为我们可以改变在[Root.GetName]的设备，这将使我们能够直接探索情况。这是一个很好的调查机会，但谁知道我们能发现什么。。"
+ mem_the_conduit.11.a:0 "执行命令，与它进行链接。"
+ mem_the_conduit.11.b:0 "当我们使用古老的设备时，通常会发生什么？ 不。"
+ 
+ mem_the_conduit.12:0 "知识的成果"
+ mem_the_conduit.12.desc:0 "我们初步测试和实验证明是可行的！提高功率有助于使我们能够更快完成第二个接口的繁杂任务，我们科学家向我们保证风险不会因此变大。"
+ mem_the_conduit.12.a:0 "听起来不错，你可以尽情使用。"
+ mem_the_conduit.12.b:0 "你对现有一切很满足，无需更进一步。"
+ 
+ mem_the_conduit.13:0 "知识的成果"
+ mem_the_conduit.13.desc:0 "这个影响已经...值得注意的是，我相信你已经经历过。提高对[Root.GetName]的方尖碑输出功率，我们可以创造亚空间通道连接到其他世界。我们相信我们只运行50%的力量，还有更大潜力等着我们使用。"
+ mem_the_conduit.13.a:0 "行动但要时刻小心，确保我们可以关掉它。"
+ mem_the_conduit.13.b:0 "不，这项目将会被搁置。"
+ 
+ mem_the_conduit.14:0 "知识的成果"
+ mem_the_conduit.14.desc:0 "谣言在我们人群中传播，使得[Root.GetName]的人群开始崇拜遗迹，他们认为方尖碑出现会给这里带来一个繁荣稳定的新时代，但是我们军队报告说最近出现日益动荡的局势。他们要求充分控制方尖碑。"
+ mem_the_conduit.14.a:0 "他们这样做是对的。100%能量输出。"
+ mem_the_conduit.14.b:0 "真是一团糟。让我们结束这一切。"
+ 
+ mem_the_conduit.21:0 "接触"
+ mem_the_conduit.21.desc:0 "我们的科学家与第一个方尖碑建立了联系，应该可以为我们所用。"
+ #Standard response: EXCELLENT
+ 
+ mem_the_conduit.22:0 "接触"
+ mem_the_conduit.22.desc:0 "与第二个方尖碑已同步，现已上线。"
+ #Standard response: EXCELLENT
+ 
+ mem_the_conduit.23:0 "接触"
+ mem_the_conduit.23.desc:0 "我们已经连接到第三个方尖碑，它已在线上等候。"
+ #Standard response: EXCELLENT
+ 
+ mem_the_conduit.24:0 "接触"
+ mem_the_conduit.24.desc:0 "最后方尖碑已上线，我们可以开始操作了。"
+ #Standard response: EXCELLENT
+ 
+ mem_the_conduit.31:0 "通道"
+ mem_the_conduit.31.desc:0 "我们已经建立起第一个轨道建筑的链接，我们应该计算下风险！"
+ mem_the_conduit.31.a:0 "好消息，监测有新进展！"
+ 
+ mem_the_conduit.32:0 "通道"
+ mem_the_conduit.32.desc:0 "与第二轨道建筑联系已建立！输出增加似乎与我们计算一致，这将是光辉的一笔！"
+ mem_the_conduit.32.a:0 "我对我们的科学团队有最大的信心。"
+ 
+ mem_the_conduit.33:0 "通道"
+ mem_the_conduit.33.desc:0 "与第三轨道建筑链接成功！加大输出功率。没有"主要"对检测造成影响。也许有可能是我们忽视了。"
+ mem_the_conduit.33.a:0 "辉煌。"
+ 
+ mem_the_conduit.34:0 "通道"
+ mem_the_conduit.34.desc:0 "最终轨道建筑已上线，方尖碑已全面运作。我们在尽全力跟踪我们的系统。虽然安全协议已失效，但我们相信能撑过这次挑战。"
+ mem_the_conduit.34.a:0 "我希望我们在做正确的事。"
+ 
+ mem_the_conduit.50:0 "守望者在天空"
+ mem_the_conduit.50.desc:0 "我们在[mem_garden_star_locator.GetName]的轨道上发现一个奇怪的物体。我们的传感器无法识别。"
+ #Standard response: WORRYING
+ 
+ mem_the_conduit.55:0 "Dying Lights"
+ mem_the_conduit.55.desc:0 "我们似乎与[mem_conduit_system.GetName]星系失去了联系。"
+ mem_the_conduit.55.a:0 "Divine be damned, what is going on?"
+ 
+ mem_the_conduit.71:0 "东山再起"
+ mem_the_conduit.71.desc:0 "我们武器对敌人无效化。我们还在持续的重大损失，应该立即撤军并试图找出一种方法突破敌人的防御。"
+ mem_the_conduit.71.a:0 "我们不是那么容易被打败的。"
+ mem_the_conduit.71.b:0 "我们为啥要执迷不悟。"
+
+ mem_the_conduit.72:0 "组织反攻"
+ mem_the_conduit.72.desc:0 "我们科学家相信他们找到了一个如何解决这股坚不可摧的力量的办法。我们应该集合所有力量与敌人决一死战。"
+ mem_the_conduit.72.a:0 "胜利终将属于我们！"
+ 
+ mem_the_conduit.101:0 "新的黎明"
+ mem_the_conduit.101.desc:0 "随着外星舰队的败走，我们重新夺回了地面控制权。战争伤痕这需要时间来抹平。然而还有许多问题没有答案，比如这次入侵的目的是什么？"
+ mem_the_conduit.101.a:0 "我们可以在这之后，向地面进行人道主义援助！"
+ 
+ mem_the_conduit.110:0 "赦罪"
+ mem_the_conduit.110.desc:0 "我们在[mem_garden_clear.GetName]进行的人道主义取得了成功。我们科学家设想解决外星入侵者所造成的的心理创伤以便使得该星球尽快恢复生产。"
+ mem_the_conduit.110.a:0 "我们的苦难随着方尖碑倒下而逝去！"
+ 
+ mem_the_conduit.121:0 "岩浆潜水员"
+ mem_the_conduit.121.desc:0 "我们收到来自[mem_conduit_system.GetName]的奇怪的数据。似乎来自[mem_garden_molten.GetName]这个炽热的深处。"
+ mem_the_conduit.121.a:0 "交给我们工程船去处理。"
+ mem_the_conduit.121.b:0 "离开这里，我们不想在这里陷入麻烦。"
+ 
+ mem_the_conduit.122:0 "小型的利维坦"
+ mem_the_conduit.122.desc:0 "我们回收的对象似乎是在外星文明的星系就遇到过。它看起来像是一个先进的武器平台的核心组成部分。基于我们的以往经验，这种类型的技术，应当在整合在舰队之前进行足够的安全措施。"
+ mem_the_conduit.122.a:0 "看起来是无害的。"
+ mem_the_conduit.122.b:0 "在别人得到前，拆掉它是个聪明的决定a。"
+ 
+ mem_the_conduit.130:0 "普罗维登斯"
+ mem_the_conduit.130.desc:0 "我们科学家认为我们能够解开名为'岩浆潜水员'的奇怪船的全部功能，不过需要付出点代价。"
+ mem_the_conduit.130.a:0 "我们愿付出一切。"
+ mem_the_conduit.130.b:0 "浪费资源。"
+ 
+ mem_the_conduit.131:0 "进入涡流"
+ mem_the_conduit.131.desc:0 "我们科学家认为，该战舰已全面运作可以部署，在战斗情况下应该能发挥出它应有实力。"
+ mem_the_conduit.131.a:0 "看起来和以前完全不一样..."
+  
+ mem_the_conduit.132:0 "开火"
+ mem_the_conduit.132.desc:0 "-进入战斗准备-"
+ mem_the_conduit.132.a:0 "所有系统待命！进入战斗部署倒计时 3, 2, 1..."
+
+ mem_the_conduit.140:0 "破碎的支柱"
+ mem_the_conduit.140.desc:0 "四个方尖碑围绕着远古的花园世界。"
+ mem_the_conduit.140.a:0 "太好了。"
+ 
+ mem_the_conduit.150:0 "永恒的舰队"
+ mem_the_conduit.150.desc:0 "我们通过对入侵者技术进行逆向的知识，发现我们似乎可以修复在远古的花园世界的轨道上的残骸。这将是一个不错的选择，但我们还并没有完全掌握这项技术以及对其风险把控。"
+ mem_the_conduit.150.a:0 "我们将修复一支护卫舰中队。"
+ mem_the_conduit.150.a.tooltip:0 "修复10艘护卫舰。"
+ mem_the_conduit.150.b:0 "我们将修复战列巡洋舰小队。"
+ mem_the_conduit.150.b.tooltip:0 "修复5艘护卫舰和1艘战列巡洋舰。"
+ mem_the_conduit.150.c:0 "我们将修复泰坦分队。"
+ mem_the_conduit.150.c.tooltip:0 "修复5艘护卫舰和1艘泰坦。"
+ mem_the_conduit.150.d:0 "做这一切只会浪费没必要的资源。"
+ 
+ mem_the_conduit.151:0 "永恒的舰队"
+ mem_the_conduit.151.desc:0 "我们已经完成对在远古的花园世界的轨道上的修理作业，这艘船已经可以加入我们舰队。"
+ #Standard response: EXCELLENT
+
+ mem_the_conduit.152:0 "永恒的舰队"
+ mem_the_conduit.152.desc:0 "我们已经完成对在远古的花园世界的轨道上的修理作业，这艘船已经可以加入我们舰队。"
+ #Standard response: EXCELLENT
+ 
+ mem_the_conduit.153:0 "永恒的舰队"
+ mem_the_conduit.153.desc:0 "我们已经完成对在远古的花园世界的轨道上的修理作业，这艘船已经可以加入我们舰队。"
+ #Standard response: EXCELLENT
+
+ MEM_CONDUIT_UNLOCK:0 "失乐园"
+ MEM_CONDUIT_UNLOCK_DESC:0 "不知道何种原因，[mem_shielded_target.GetName]被一个坚不可摧的护盾笼罩着。我们必须找方法来消除屏障以便发现为了藏些什么！"
+
+ MEM_OBELISK_1_PROJECT:0 "接触实验"
+ MEM_OBELISK_1_PROJECT_DESC:0 "建立与[Root.Planet.GetName]的方尖碑的联系。"
+ 
+ MEM_OBELISK_2_PROJECT:0 "接触实验"
+ MEM_OBELISK_2_PROJECT_DESC:0 "建立与[Root.Planet.GetName]的方尖碑的联系。"
+ 
+ MEM_OBELISK_3_PROJECT:0 "接触实验"
+ MEM_OBELISK_3_PROJECT_DESC:0 "建立与[Root.Planet.GetName]的方尖碑的联系。"
+ 
+ MEM_OBELISK_4_PROJECT:0 "接触实验"
+ MEM_OBELISK_4_PROJECT_DESC:0 "建立与[Root.Planet.GetName]的方尖碑的联系。"
+ 
+ MEM_GARDEN_HELP:0 "暗影失控"
+ MEM_GARDEN_HELP_DESC:0 "恢复[mem_garden_aid.GetName]秩序。"
+ 
+ MEM_CONDUIT_FLEET_1:0 "永恒舰队"
+ MEM_CONDUIT_FLEET_1_DESC:0 "修复被遗留的不朽的入侵者的残骸。"
+ 
+ MEM_CONDUIT_FLEET_2:0 "永恒舰队"
+ MEM_CONDUIT_FLEET_2_DESC:0 "修复被遗留的不朽的入侵者的残骸。"
+ 
+ MEM_CONDUIT_FLEET_3:0 "永恒舰队"
+ MEM_CONDUIT_FLEET_3_DESC:0 "修复被遗留的不朽的入侵者的残骸。"
+ 
+ MEM_LAVA_DIVER:0 "岩浆潜水"
+ MEM_LAVA_DIVER_DESC:0 "发现[mem_garden_molten.GetName]的岩浆世界的秘密。"
+
+ MEM_CONDUIT_AWAKENING:0 "爆发"
+ MEM_CONDUIT_AWAKENING_DESC:0 "解锁关于'岩浆潜水员'的真正的力量。"
+  
+ MEM_CONDUIT_WEAKNESS_PROJECT:0 "伤害加成 - 探索者"
+ MEM_CONDUIT_WEAKNESS_PROJECT_DESC:0 "研究通道的守护者和寻找他们的弱点。"
+ 
+ mem_pop_conduit_1:0 "失控"
+ mem_pop_conduit_1_desc:0 "被花园控制。"
+ 
+ mem_pop_conduit_2:0 "失控"
+ mem_pop_conduit_2_desc:0 "被花园控制。"
+ 
+ mem_pop_conduit_3:0 "失控"
+ mem_pop_conduit_3_desc:0 "被花园控制。"
+ 
+ mem_pop_conduit_4:0 "失控"
+ mem_pop_conduit_4_desc:0 "被花园控制。"
+ 
+ mem_pop_conduit_5:0 "绝望"
+ mem_pop_conduit_5_desc:0 "被花园控制。"
+ 
+ mem_obelisk_1_mod:0 "第一塔"
+ mem_obelisk_1_mod_desc:0 "新时代的黎明。"
+ 
+ mem_obelisk_2_mod:0 "第二塔"
+ mem_obelisk_2_mod_desc:0 "新时代的黎明。"
+ 
+ mem_obelisk_3_mod:0 "第三塔"
+ mem_obelisk_3_mod_desc:0 "新时代的黎明。"
+ 
+ mem_obelisk_4_mod:0 "第四塔"
+ mem_obelisk_4_mod_desc:0 "新时代的黎明。"
+ 
+ mem_obelisk_5_mod:0 "兴高采烈"
+ mem_obelisk_5_mod_desc:0 "一个繁荣的新时代已经开始。"
+ 
+ mem_obelisk_6_mod:0 "傲慢"
+ mem_obelisk_6_mod_desc:0 "让我们人民深感震惊的事件发生了。"
+ 
+ mem_obelisk_7_mod:0 "解放"
+ mem_obelisk_7_mod_desc:0 "我们人民脱离了方尖碑的影响。"
+
+ mem_garden_mod:0 "花园"
+ mem_garden_mod_desc:0 "一个理想温带的世界，有着氮氧环境和可持续的生态系统。能满足不同纬度的所有生命生活的最佳条件。"
+
+ requires_building_ancient_obelisk:0 "§R需要§Y$mem_building_obelisk_0$§!在星球。§!"
+ 
+ mem_building_ancient_factory:1 "自动工厂"
+ mem_building_ancient_factory_desc:1 "§L这座古老的建筑是用一种早已失传的技术建造而成的。§!"
+
+ mem_building_dark_matter_power_plant:0 "暗物质发电厂"
+ mem_building_dark_matter_power_plant_desc:0 "§L这座古老的建筑是用一种早已失传的技术建造而成的。§!"
+
+ mem_building_agri_processing_complex:0 "农产品加工厂"
+ mem_building_agri_processing_complex_desc:0 "§L这座古老的建筑是用一种早已失传的技术建造而成的。§!"
+
+ mem_building_engineering_facility:0 "古代工程设施"
+ mem_building_engineering_facility_desc:1 "§L这座古老的建筑是用一种早已失传的技术建造而成的。§!"
+ 
+ mem_building_biolab:0 "古代生物实验室"
+ mem_building_biolab_desc:1 "§L这座古老的建筑是用一种早已失传的技术建造而成的。§!"
+ 
+ mem_building_physics_lab:0 "古代物理实验室"
+ mem_building_physics_lab_desc:1 "§L这座古老的建筑是用一种早已失传的技术建造而成的。§!"
+
+ mem_building_obelisk_0:0 "古代方塔"
+ mem_building_obelisk_0_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。"
+ 
+ mem_building_obelisk_1:0 "古代方塔"
+ mem_building_obelisk_1_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。这里充满靠近就会头疼的神秘力量。"
+ 
+ mem_building_obelisk_2:0 "古代方塔"
+ mem_building_obelisk_2_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。这里充满靠近就会头疼的神秘力量。"
+ 
+ mem_building_obelisk_3:0 "古代方塔"
+ mem_building_obelisk_3_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。这里充满靠近就会头疼的神秘力量。"
+ 
+ mem_building_obelisk_4:0 "古代方塔"
+ mem_building_obelisk_4_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。这里充满靠近就会头疼的神秘力量。"
+ 
+ building_mem_obelisk_offline:0 "古代方塔"
+ building_mem_obelisk_offline_desc:0 "威武雄壮的过往。"
+ 
+ tb_mem_paradise:0 "£blocker  杂草丛生的远古遗迹"
+ tb_mem_paradise_desc:0 "这里曾为文明的痕迹，现已经杂草丛生。"
+ mem_the_conduit.56:0 "消失的光芒"
+ mem_the_conduit.56.desc:0 "我们与[mem_conduit_system.GetName]星系失去了联系。"
+ mem_the_conduit.56.a:0 "神圣的诅咒，发生什么事？"
+ mem_the_conduit.131.a.tooltip:0 "§Y警告 - 转化过程是极不稳定的。§!"
+ mem_building_obelisk_0_1:0 "古代方塔"
+ mem_building_obelisk_0_1_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。"
+ mem_building_obelisk_0_2:0 "古代方塔"
+ mem_building_obelisk_0_2_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。"
+ mem_building_obelisk_0_3:0 "古代方塔"
+ mem_building_obelisk_0_3_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。"
+ mem_building_obelisk_0_4:0 "古代方塔"
+ mem_building_obelisk_0_4_desc:0 "一个神秘的方尖碑上刻满了死亡的外星语言字母。"

@@ -1,0 +1,585 @@
+﻿l_english:
+
+###########################################################################
+##### Written by ZakkerDoodle(Burgermeister) for the Extra Events Mod #####
+###########################################################################
+
+#§Ywords§ = Yellow Words
+#§Rwords§ = Red Words
+#§Gwords§ = Green Words
+#§Bwords§ = Blue Words
+#§Swords§ = Orange Words
+# \n£blocker = Blocker Picture
+# \n£society = Society Picture
+# \n£engineering = Engineering Picture
+# \n£physics = Physics Picture
+# \n£energy = Energy Picture
+# \n£minerals = Minerals Picture
+
+# Have not been able to make these work. [AssassinEmpire.GetName] [Root.Owner.GetSpeciesName] [Owner.GetSpeciesName] [Root.GetSpeciesAdj] [Root.GetRulerTitle]  [Root.GetSpeciesNamePlural]   [Root.Capital.GetName]
+
+#TEMPLATE
+ #youranomalyhere_category: "Name of beginning event"
+ #youranomalyhere_category_desc: "Desc of beginning event"
+ #youranomalyhere.1.name: "Name of event"
+ #youranomalyhere.1.desc: "Desc of event"
+ #youranomalyhere.1.a: "first answer"
+ #youranomalyhere.1.b: "second answer"
+
+
+ ancient_flag_category: "被遗忘的标志"
+ ancient_flag_category_desc: "船员发现一个奇怪的金属圆筒，上面带着一块染色的布条，可能是§Y[From.GetName]§!的标志。"
+ ancient_flag.1.name: "古代文明的标志"
+ ancient_flag.1.desc: "科学家§G[Root.GetLeaderName]§!命令§B[Root.GetFleetName]§!完成对§Y[From.GetName]§!的扫描工作.这个物体似乎起源于大约在三千年前的某个古老文明. 在他们文化中有把国旗放在物体上的做法。\n\n虽然§Y[From.GetName]§!过去了三千年，国旗依然没有遭到任何腐蚀。不过那个古文明发生什么事至今仍然是个谜. "
+ ancient_flag.1.a: "迷人。"
+
+
+ space_grave_category: "太空遗骸"
+ space_grave_category_desc: "§G[Root.GetLeaderName]§!发现在§Y[Root.GetName]§!的轨道上漂浮着许多骨头。\n\n这一发现让船员们兴奋不止。"
+ space_grave.1.name: "太空坟墓"
+ space_grave.1.desc: "越来越多的骨架在§Y[Root.GetName]§!轨道上发现.看来这里很久以前发生过一场灾难性事件.虽不知道这里发生什么，他们好像试图在逃离§Y[Root.GetName]§!。\n\n究竟是何种灾难仍然是个谜，因为关于末日理论有太多因素存在。"
+ space_grave.1.a: "非凡的！"
+
+
+ mineral_monolith_category: "有价值的岩石"
+ mineral_monolith_category_desc: "科学家在§Y[Root.GetName]§!发现了一个巨大又奇怪的岩石.据扫描显示这岩石不仅蕴含大量有价值的矿物而且表面还有一些神奇雕刻。"
+ mineral_monolith.1.name: "矿脉"
+ mineral_monolith.1.desc: "§G[Root.GetLeaderName]§!和§B[Root.GetFleetName]§!完成扫描工作，它确实是非常迷人。\n\n§G[Root.GetLeaderName]§!分析得出这是很久以前一个原始文明敬拜这个岩石，并把它作为某种和平的神或笔记的符号，虽然随着时间流逝，上面雕刻已经被慢慢侵蚀了。\n\n§G[Root.GetLeaderName]§!提议可以将它保存到我们的博物馆，然后将其展出，也可以直接敲碎只取里面蕴含的矿物，或者卖给一些愿意出高价的收藏家。"
+ mineral_monolith.1.a: "敲开它。"
+ mineral_monolith.1.b: "留下它。"
+ mineral_monolith.1.c: "卖了它。"
+ mineral_monolith.1.d: "别碰它！"
+
+
+ last_words_category: "丢失的信号"
+ last_words_category_desc: "船员发现一个来自§Y[Root.GetName]§!的信号。"
+ last_words.1.name: "冒险家的最后一句话"
+ last_words.1.desc: "§B[Root.GetFleetName]§!的船员发现一个不断向外传播的信号装置，这里面似乎刻录了外星人的冒险家的最后一句话。他们已经将其翻译了，这是翻译内容:\n\n"Leader! Leader!?Leader快过来!我找到它了!经过那么多年，我终于找到它了!这将会改变我们所认知的宇宙。我们能做些- ... 等一下. 它...在移动?它真的在移动!它还活着! ...它发现我。如果我不把我的坐标-。"\n\n这就是我们所知道的事情。我们可能永远不知道她找到了什么，因为这个"Leader" 彻底把这个星球夷平。除了我们再无其他生命。"
+ last_words.1.a: "沉默不语。"
+
+
+ mineral_core_category: "不正常的质量"
+ mineral_core_category_desc: "这星球的质量几乎每隔几天就会变换一次，需要进一步研究。"
+ mineral_core.1.name: "矿物核心"
+ mineral_core.1.desc: "§G[Root.GetLeaderName]§!的报告称§B[Root.GetFleetName]§!的船员已查明该星球的质量会发生变化的原因。\n\n事实证明，这颗星球的核心已经开始停转。这将会使我们能更安全开采这个星球的资源，为帝国提供大量资源。"
+ mineral_core.1.a: "极好的一天！"
+
+
+ bad_fate_category: "物种的灭绝"
+ bad_fate_category_desc: "仔细调查发现在多层岩石中存在生物化石，更不寻常的是，这个星球是完全荒芜的。"
+ bad_fate.1.name: "悲惨的命运"
+ bad_fate.1.desc: "更进一步的调查§Y[Root.GetName]§!发现，被§B[Root.GetFleetName]§!船员称呼为“Fate”和“Destiny”的两颗行星发生了碰撞。\n\n最有趣的是，其中有一颗行星上面存在高级文明！\n\n真是一个有趣的发现。"
+ bad_fate.1.a: "极好的！"
+ bad_fate.1.b: "安息。"
+
+
+ rocky_egg_category: "奇怪的星球"
+ rocky_egg_category_desc: "扫描显示这颗星球的地理非常不符合常理。"
+ rocky_egg.1.name: "巨大的岩石蛋"
+ rocky_egg.1.desc: "§G[Root.GetLeaderName]§!和§B[Root.GetFleetName]§!的船员告诉我们，这颗星球实际上是一颗万年巨蛋！\n\n这个蛋在过去的几百万年里收集了许多其他天体的质量！\n\n§G[Root.GetLeaderName]§!说不用担心，这个蛋不会变成一只万年母鸡。\n\n像这样的东西存在真是个奇迹。这种生物似乎非常罕见的，这个蛋可能是他们的种族的唯一的东西。我们的科学家为这个发现感到十分惊讶。"
+ rocky_egg.1.a: "令人惊异的。"
+
+
+ gassy_planet_category: "家园"
+ gassy_planet_category_desc: "船员已经发现在§Y[Root.GetName]§!曾经有过文明的迹象。"
+ gassy_planet.1.name: "气态星球"
+ gassy_planet.1.desc: "§B[Root.GetFleetName]§!的船员通过扫描星球可以确定，这个古老的文明之所以遗弃星球的原因是星球已经死亡了。\n\n§G[Root.GetLeaderName]§!认为星球死亡的原因是巨大的火山喷射出有毒气体进入大气。\n\n他们现在在哪仍是个谜。"
+ gassy_planet.1.a: "有趣的。"
+
+
+ doomed_civ_category: "失事飞船"
+ doomed_civ_category_desc: "船员发现一艘失事的飞船。"
+ doomed_civ.1.name: "命中注定的文明"
+ doomed_civ.1.desc: "§B[Root.GetFleetName]§!的船员发现了飞船上有被破坏的痕迹。\n\n这艘船更像是一艘逃生船，在他们的家乡星球上有一个逃生轨道，根据船上的数据显示这是颗将要死亡的星球。他们家乡所发生的灾难肯定是非常具有毁灭性。"
+ doomed_civ.1.a: "好奇的。"
+
+
+ lost_treasure_category: "弱信号"
+ lost_treasure_category_desc: "我们收到来自§Y[Root.GetName]§!的微弱信号。"
+ lost_treasure.1.name: "遗失的财富"
+ lost_treasure.1.desc: "§B[Root.GetFleetName]§!的船员发现信号是来自一艘似乎装满了珍稀物体的货船。\n\n§G[Root.GetLeaderName]§!认为货船之所以会被星球引力抓住，是因为船上有一个原始的人工智能控制的缘故，这也就解释了为什么它会如此之容易被星球抓住的原因。"
+ lost_treasure.1.a: "我们可以拥有更多的能源。"
+
+
+ crazy_scientist_category: "奇怪的激素"
+ crazy_scientist_category_desc: "扫描§Y[Root.GetName]§!时，船员发现了一种奇怪的激素。"
+ crazy_scientist.1.name: "疯狂的科学家"
+ crazy_scientist.1.desc: "我们的科学家在研究这个异常时，不小心划破了衣服，并沾上了这种激素，他的行为变的非常奇怪。\n\n他突然尖叫起来，害怕其他人，之后他逃进了一个天然洞穴中\n\n"
+ crazy_scientist.1.a: "令人担忧的。"
+
+ diamond_core_category: "致密的核心"
+ diamond_core_category_desc: "对星球核心的调查表明，它的结构是异常致密的。"
+ diamond_core.1.name: "钻石核心"
+ diamond_core.1.desc: "§B[Root.GetFleetName]§!的船员和他们的首席科学家§G[Root.GetLeaderName]§!已经发现，这颗星球的核心很大部分是由钻石组成的！\n\n挖掘这颗行星的矿物将对我们的工业大有帮助。"
+ diamond_core.1.a: "去挖掘！"
+
+#1.3
+ except_engine_category: "奇怪的机器"
+ except_engine_category_desc: "扫描结果显示§Y[Root.GetName]§!上有奇怪的机械物体。"
+ except_engine.1.name: "特殊工程"
+ except_engine.1.desc: "§B[Root.GetFleetName]§!发现，这些机器比我们所拥有的更为先进！\n\n§G[Root.GetLeaderName]§!建议我们应该将其带回，以便于进一步研究这些机器，或者也可以将其出售给感兴趣的人。"
+ except_engine.1.a: "学习这些技术！"
+ except_engine.1.b: "卖掉这些破烂。"
+
+ crushed_category: "闪亮的物体"
+ crushed_category_desc: "船员们在§Y[Root.GetName]§!上发现了一个异常现象. 这个星体表面拥有异常强烈的反射光芒。"
+ crushed.1.name: "破碎的文明"
+ crushed.1.desc: "正在执行调查任务的§B[Root.GetFleetName]§!船员发现了一个微型智慧文明。\n\n当飞船降落在他们的栖息地，瞬间便毁灭了他们90%的人口，剩下的人看起来非常生气，并将岩石扔在科学家的脚边。\n\n这些闪亮的岩石被证明具有很高的价值!"
+ crushed.1.a: "哎呀..."
+
+ perfect_planet_category: "特别的读数"
+ perfect_planet_category_desc: "在§Y[Root.GetName]§!的仔细扫描发现该星球呈现不正常的读数！"
+ perfect_planet.1.name: "完美的星球"
+ perfect_planet.1.desc: "这颗星球是真正的完美！\n\n像河流一样多的黄金与堆积如山的矿物，我们可以从这颗星球上大赚一笔。"
+ perfect_planet.1.a: "神奇"
+
+ ancient_fossils_category: "先进的古代遗址"
+ ancient_fossils_category_desc: "科学家们发现了一个古老、先进的文明的废墟。"
+ ancient_fossils.1.name: "古文明化石"
+ ancient_fossils.1.desc: "§B[Root.GetFleetName]§!的船员是对的. 数百万年之前，这颗星球上生活着一个先进的文明。\n\n§G[Root.GetLeaderName]§!不知道是什么毁灭了这个文明，或许是小行星也可能是超级火山爆发。\n\n无论曾经发生了什么，重要的是我们可以从他们的废墟之中学到很多东西!"
+ ancient_fossils.1.a: "太好了。"
+
+ space_knights_category: "石头建筑"
+ space_knights_category_desc: "当扫描§Y[Root.GetName]§!时，船员们发现了一座石头做成的建筑。"
+ space_knights.1.name: "宇宙骑士"
+ space_knights.1.desc: "一个灭亡的中世纪物种曾经在这颗星球上存在过，他们的死法相当的惊奇！\n\n两大阵营统治着这颗星球，他们之间进行着无休止的战争，§G[Root.GetLeaderName]§!推论在大约5000年前，他们相继灭亡。\n\n这两个交战的派系的最后一次战斗，几乎摧毁了他们的星球，直到现在都没有恢复。"
+ space_knights.1.a: "有趣。"
+
+ world_war_category: "战斗的碎片"
+ world_war_category_desc: "船员们认为一场世界大战曾经在§Y[Root.GetName]§!爆发，并毁灭了他们的种族。"
+ world_war.1.name: "世界大战"
+ world_war.1.desc: "船员们的想法是正确的，但是§G[Root.GetLeaderName]§!和他的科考团队认为它们的文明在被毁灭的时候，远没有曾经那么先进. 它们的科技水平甚至和我们接近。\n\n§G[Root.GetLeaderName]§!认为有一个好战的领袖为了统治世界，肆无忌惮的轰炸了他的许多敌人，这导致了他们星球的毁灭。"
+ world_war.1.a: "迷人。"
+
+#1.4
+ asteroid_attack_category: "小行星洞穴"
+ asteroid_attack_category_desc: "科学家们在§Y[Root.GetName]§!上找到了许多天然东西，并希望找到其形成的原因。"
+ asteroid_attack.1.name: "小行星袭击"
+ asteroid_attack.1.desc: "这些洞穴确实是由某种东西造成的，但不是人工形成的。\n\n当扫描这些洞穴系统时，§B[Root.GetFleetName]§!船员们发现了一些可怕的东西，不久后与我们失去了联系。"
+ asteroid_attack.1.a: "太可惜了。"
+
+ ayy_category: "光源"
+ ayy_category_desc: "我们的科学家在§Y[Root.GetName]§!上面发现了许多光源，并希望展开进一步的调查。"
+ ayy.1.name: "当地的外星人"
+ ayy.1.desc: "§G[Root.GetLeaderName]§!发现这些光源是由星球上一些人造建筑发出了，这些建筑之中居住着一些智慧水平不太高的生物。\n\n他们自称他们的帝国是强大的，并希望在银河中进行殖民。\n\n§G[Root.GetLeaderName]§!说这些外星人实际上是外强中干，害怕我们，并愿意支付一定的代价让我们的离开。"
+ ayy.1.a: "很好，拿钱。"
+ ayy.1.b: "让他们安静。"
+ ayy.1.c: "招募进军队。"
+ ayy.1.e: "赶走他们！"
+
+ storms_category: "疯狂的天气"
+ storms_category_desc: "§Y[Root.GetName]§!上的天气似乎十分异常 。"
+ storms.1.name: "无限风暴"
+ storms.1.desc: "这个星球的风暴似乎已经持续上百万年. §G[Root.GetLeaderName]§!推测如果没有外界激烈的变化，这场风暴将永远不会停息。\n\n§G[Root.GetLeaderName]§!说我们有能力停止这场风暴，如果我们打算在这里殖民的话。"
+ storms.1.a: "浪费钱。"
+ storms.1.b: "阻止风暴。"
+
+#1.5
+ ai_factory_category: "地下建筑"
+ ai_factory_category_desc: "对§Y[Root.GetName]§!的扫描显示这颗星球存在着人造的地下建筑。"
+ ai_factory.1.name: "AI工厂"
+ ai_factory.1.desc: "地下建筑实际上是一座工厂，由一个未知的种族所建造，用于生产智能机器人。\n\n这个工厂至今仍然在工作着。\n\n机器人现在很活跃，但是§G[Root.GetLeaderName]§!解释说这些机器人可能是一个威胁，如果我们继续让工厂运转下去的话。"
+ ai_factory.1.a: "占领工厂。"
+ ai_factory.1.b: "摧毁！"
+ ai_factory.1.c: "占领工厂并且从中学习技术。"
+
+ space_nomads_category: "轨道上的货船"
+ space_nomads_category_desc: "我们的科学家在§Y[Root.GetName]§!轨道上发现了一艘货船。"
+ space_nomads.1.name: "太空游牧"
+ space_nomads.1.desc: "§B[Root.GetFleetName]§!接近这艘货船时，一群智慧生物友好的接待了我们，他们自称为“漫游者”，是一个太空游牧民族。\n\n在一场宴会之后，他们希望得到我们的一些帮助，以使其走出财务困境。"
+ space_nomads.1.a: "我们没钱..."
+ space_nomads.1.b: "当然！"
+ space_nomads.1.c: "赶走他们。"
+ space_nomads.1.d: "告诉这群杂碎快点滚！"
+ space_nomads.1.e: "我们没钱，但我们会让国家记住善良的你们！"
+ space_nomads.1.f: "优秀的外星人应该为帝国效力。"
+ space_nomads.1.g: "问下他们对宇宙的了解。"
+ space_nomads.1.h: "他们知道我们的创世主吗？"
+ space_nomads.1.i: "捕获并奴隶他们！"
+
+ space_minerals_category: "轨道上的货船"
+ space_minerals_category_desc: "我们的科学家在§Y[Root.GetName]§!轨道上发现了一艘货船。"
+ space_minerals.1.name: "轨道上的矿物"
+ space_minerals.1.desc: "§B[Root.GetFleetName]§!接近这些货船，发现上面满载着矿石！\n\n我们不知道这些矿石的主人是谁，但是我们可以很轻易的带走它们。"
+ space_minerals.1.a: "带走矿物。"
+ space_minerals.1.b: "放弃矿物。"
+
+ water_monster_category: "海里的物体"
+ water_monster_category_desc: "我们的科学家在§Y[Root.GetName]§!的海洋里面发现了一些移动的物体。"
+ water_monster.1.name: "海怪"
+ water_monster.1.desc: "在扫描星球海洋的时候，我们的科学家发现了一个巨大的海怪！\n\n一位研究人员对这个怪物很感兴趣，并不顾§G[Root.GetLeaderName]§!的命令，近距离观察海怪，不幸被海怪吃掉了。"
+ water_monster.1.a: "节哀。"
+ water_monster.1.b: "蠢货.."
+
+#1.6
+ abandoned_base_category: "金属物体"
+ abandoned_base_category_desc: "我们的科学家报告，似乎有一些不明金属物体在§Y[Root.GetName]§!的表面。"
+ abandoned_base.1.name: "逃兵"
+ abandoned_base.1.desc: "当我们走进这个金属物体，它的真面目清晰的呈现在科学家眼前，这是一个建在山边的军营。\n\n当我们的科学家靠近时，他们向我们开枪示警，我们向他们传达了善意的信息，他们的态度也逐渐好转，并邀请科学家们吃饭。\n\n§G[Root.GetLeaderName]§!得到这些民兵们的信息，他们是来自一个帝国的逃兵。"
+ abandoned_base.1.a: "让他们为我们服务。"
+ abandoned_base.1.b: "一群叛徒！"
+ abandoned_base.1.c: "留下财物并让他们滚！"
+ abandoned_base.2.name: "招募"
+ abandoned_base.2.desc: "我们的科学家邀请这些民兵们加入我们的军队. 他们欣然接受了。\n\n§G[Root.GetLeaderName]§!强烈反对他们加入我们的军队，他们能够不忠于自己的祖国，谁能保证他们能够忠于我们？"
+ abandoned_base.2.a: "欢迎加入我们的帝国，自由民主！"
+ abandoned_base.2.b: "没关系。"
+ abandoned_base.2.tooltip: "之后的故事"
+
+ infinium_category: "稀有矿物"
+ infinium_category_desc: "当扫描§Y[Root.GetName]§!时，我们的科学家发现了一种从没见过的矿石，研究人员迫切需要更多的这种矿石样本以进行研究。"
+ infinium.1.name: "因菲尼矿"
+ infinium.1.desc: "这是一种真正神奇的矿物，在高温下，它可以被塑造成任何东西，冷却下来后，它几乎是坚不可摧的！\n\n我们的科学家将其命名为因菲尼。\n\n§G[Root.GetLeaderName]§!建议进一步研究和利用因菲尼，当然，我们也可以卖掉它。"
+ infinium.1.a: "留下它。"
+ infinium.1.b: "卖了它。"
+
+ error_category: "人工生命"
+ error_category_desc: "似乎有人工生命在§Y[Root.GetName]§!上面巡逻。"
+ error.1.name: "人工生命"
+ error.1.desc: "有人工生命在这颗星球上巡逻，但我们不知道原因。\n\n当我们试图联系这些人工生命时，他们只会不断的重复: "§RERROR-703，PATH - NOT - FOUND§!"。\n\n§G[Root.GetLeaderName]§!建议捕捉一只人工生命，以找出他们的目的，或者我们也可以将其出售给感兴趣的国家。"
+ error.1.a: "找出他们的目的。"
+ error.1.b: "将他们彻底报废。"
+ error.1.c: "卖了他们。"
+ error.1.d: "远离他们。"
+ error.2.name: "目的"
+ error.2.desc: "我们的科学家已经找到了这些人工生命的目的。\n\n他们的目的是要杀掉这颗星球上所有有机生物，但我们不知道原因，他们还有另一个神秘的目的，似乎是试图找到某个东西，也许他们是在寻找他们的创造者？"
+ error.2.a: "有趣。"
+ error.2.tooltip: "之后的故事"
+
+#1.7
+ mutiny_category: "轨道上的货船"
+ mutiny_category_desc: "我们的科学家在§Y[Root.GetName]§!轨道上发现了一艘货船。"
+ mutiny.1.name: "兵变！"
+ mutiny.1.desc: "我们的科学家在这艘货船上发现了大量的矿石，不幸的是，有部分船员试图私吞这些矿石，并反抗§G[Root.GetLeaderName]§!。\n\n我们该如何处理？"
+ mutiny.1.a: "试图跟他们谈判。"
+ mutiny.1.b: "让他们自行解决。"
+ mutiny.1.c: "杀鸡儆猴！"
+ mutiny.1.tooltip: "之后的故事"
+ mutiny.2.name: "情况好转"
+ mutiny.2.desc: "兵变的参与者们同意妥协。"
+ mutiny.2.a: "结果不错。"
+ mutiny.3.name: "情况好转"
+ mutiny.3.desc: "刚刚传来的消息显示，科考团队的首席科学家和他的属下被杀害。"
+ mutiny.3.a: "很好。"
+ mutiny.2.tooltip: "科研船将被炸毁"
+
+ artificial_sun_category: "奇怪的恒星"
+ artificial_sun_category_desc: "这个恒星的形状有点奇怪，不太像我们之前见过的任何恒星。"
+ artificial_sun.1.name: "人造太阳"
+ artificial_sun.1.desc: "§Y[Root.GetName]§!恒星是人造的！伟大的奇迹！制造这个恒星的种族似乎已经灭亡几千年了。"
+ artificial_sun.1.a: "有趣。"
+
+ blackhole_life_category: "生命迹象"
+ blackhole_life_category: "Signs of Life Anomaly"
+ blackhole_life_category_desc: "船员们在§Y[From.GetName]§!黑洞中发现了生命的迹象. 这可能会颠覆我们所知道的物理和生物学体系!"
+ blackhole_life.1.name: "黑洞生态系统"
+ blackhole_life.1.desc: "黑洞里面确实存在着生命形态！\n\n这些生命能够使用某种方法通过事件视界，而不是比光速更快，事实上，他们相当的慢。\n\n他们似乎生活在黑洞中，只在附近的太空尘埃中获得给养，受技术水平所限，我们无法越过事件视界看到里面的具体情况。"
+ blackhole_life.1.a: "杰出！"
+
+ sand_creature_category: "流沙"
+ sand_creature_category_desc: "§Y[Root.GetName]§!表面的流沙似乎在以一种不寻常的方式流动。"
+ sand_creature.1.name: "可怕的沙人"
+ sand_creature.1.desc: "§B[Root.GetFleetName]§!船员们降落在星球上，他们注意到沙子在向着他们移动.§G[Root.GetLeaderName]§!感到很好奇，他决定亲自去调查. 其他船员试图阻止他，但§G[Root.GetLeaderName]§!拒绝了。\n\n当船员们看到沙子越来越近，并逐渐变大，他们意识到，不知道是什么原因，这些沙子是有生命的，并将他们视作食物。\n\n船员们毫无选择只能抛弃§G[Root.GetLeaderName]§!因为没有时间去拯救他。"
+ sand_creature.1.a: "正确的选择。"
+
+ frozen_civilization_category: "冰雪覆盖"
+ ##### IDEA AND WRITING BY APPARESO
+ frozen_civilization_category_desc: "在§Y[Root.GetName]§!表面似乎有巨型的建筑被包裹在冰层之中。"
+ frozen_civilization.1.name: "冰冻文明"
+ frozen_civilization.1.desc: "根据§B[Root.GetFleetName]§!船员们的调查，不只是有巨型建筑物，里面还存在着体型庞大的生物。\n\n生物识别扫描显示，他们还活着，他们的科技水平似乎还相当原始。\n\n看起来，是一个场剧变导致这颗星球被冻结，科学家们提出过许多猜测，但没有任何证据。"
+ frozen_civilization.1.a: "神奇！"
+
+ supernova_category: "非常亮的恒星"
+ supernova_category_desc: "当研究人员靠近§Y[Root.GetName]§!他们发现它的亮度异常!"
+ supernova.1.name: "超新星！"
+ supernova.1.desc: "§B[Root.GetFleetName]§!的船员们意识到发生了什么. 一颗超新星正在诞生. 他们知道逃跑已经晚了，船员们接受了自己的命运，并开始记录事件。\n\n他们的牺牲，让我们得到了宝贵的超新星一手资料。"
+ supernova.1.a: "的确。"
+
+ boom_asteroid_category: "金属结构"
+ boom_asteroid_category_desc: "船员在§Y[Root.GetName]§!表面发现了一个非自然的金属结构体。"
+ boom_asteroid.1.name: "核爆炸"
+ boom_asteroid.1.desc: "§B[Root.GetFleetName]§!船员们仔细检查了这个金属结构体，随后触发了一个响亮的警报声. 警报从30秒开始倒计时，这时船员们发现了一个巨大的核装置. 船员们意识到麻烦大了。\n\n船员们只得尽快的接触这个装置，但是由于不了解对方使用的语言，进展缓慢。\n\n不久之后，星球发生了大爆炸，我们仍然不知道为什么会触发警报，或者说为什么会有这种威力达到足以摧毁行星的核装置。"
+ boom_asteroid.1.a: "悲惨的命运。"
+
+#1.8
+ unstable_gas_category: "不稳定气态巨星"
+ unstable_gas_category_desc: "扫描结果表面§Y[Root.GetName]§!是一颗不稳定的气态巨星。"
+ unstable_gas.1.name: "恒星的诞生"
+ unstable_gas.1.desc: "给予足够的质量与氢气，一个气态巨星可以成为恒星，§Y[From.GetName]§!满足了这些要求。\n\n随后进一步研究这颗气态巨星,§G[Root.GetLeaderName]§!发现§Y[From.GetName]§!已经到了进化为恒星的最后一步. 但是由于科研活动的影响，§Y[From.GetName]§!提前爆发。\n\n船员们无法在这场大爆炸中逃离，不幸遇难。"
+ unstable_gas.1.a: "神奇！"
+ unstable_gas.1.tooltip: "气态巨星变成恒星。"
+
+#1.9
+
+
+
+########## STAR STUFF ##########
+
+ star_stuff.1.name:0 "开展恒星分析计划"
+ star_stuff.1.desc:0 "自从我们的文明诞生以来，我们一直怀着敬畏的心情仰望星空，现在我们可以近距离访问这些星体了。\n\n我们的科学家们一致认为，我们应该收集不同种类恒星的信息，研究它们的秘密。"
+ star_stuff.1.a:0 "同意开展。"
+ star_stuff.1.b:0 "没时间浪费。"
+
+ star_stuff.2.name: "A类型恒星"
+ star_stuff.2.desc: "这个浅蓝色的恒星相对于其他恒星而言，不仅年轻还十分耀眼。他们十分巨大，自转速度十分快，但最终会在几百万年后放慢速度并转变成一个红巨星。"
+ star_stuff.2.a: "有趣。"
+
+ star_stuff.3.name: "B类型恒星"
+ star_stuff.3.desc: "这个蓝色恒星是十分罕见的种类，而且相对于A类恒星而言更加明亮。"
+ star_stuff.3.a: "有趣。"
+
+ star_stuff.4.name: "F类型恒星"
+ star_stuff.4.desc: "F型恒星，更多时候被称为白矮星，虽不断向外辐射强大的紫外线，但也有适合生活的区域。"
+ star_stuff.4.a: "有趣。"
+
+ star_stuff.5.name: "G类型恒星"
+ star_stuff.5.desc: "这颗黄矮星被称为G型星，实际上它有一定颜色范围。这些恒星在膨胀并成为红巨星之前，大约在100亿年前就把氢元素燃烧殆尽了。\n\n虽然G型星的寿命短于K型星，但G型星的星系是能诞生生命并发展的最佳地方。"
+ star_stuff.5.a: "神奇。"
+
+ star_stuff.6.name:0 "K类型恒星"
+ star_stuff.6.desc:0 "K型星通常被称为橙矮星，是一个常见的星系。K型星有着一段十分漫长的发展过程。"
+ star_stuff.6.a: "有趣。"
+
+ star_stuff.7.name:0 "M类型恒星"
+ star_stuff.7.desc:0 "M型星是宇宙中最常见的，通常称为红矮星。低光度意味着这些恒星很难被肉眼观察到，但从远处观看，又是十分惊人。\n\n虽然它们有着漫长的寿命，但是它们几乎不向外辐射紫外线，这种环境不利于生命存在。"
+ star_stuff.7.a: "不可思议。"
+
+ star_stuff.8.name:0 "中子星"
+ star_stuff.8.desc:0 "这是颗高密度的恒星，被称为中子星，一般诞生于当一颗巨大的恒星遭受到迅速崩溃爆炸变成一颗超新星后。\n\n虽然它们直径只有十公里，但质量又比G型星大!"
+ star_stuff.8.a: "不可思议！"
+
+ star_stuff.9.name: "黑洞"
+ star_stuff.9.desc: "这被称为黑洞，是由一颗非常巨大的恒星在其寿命结束时崩溃而形成的。\n\n黑洞有着强大的引力场，它可以阻止任何东西逃逸 - 甚至是光 -唯一办法不进入事件视界之内。\n\n研究这个星球怪物时候，船员必须十分小心。"
+ star_stuff.9.a: "神奇！"
+
+ star_stuff.10.name: "脉冲星"
+ star_stuff.10.desc: "一颗发出电磁辐射束的高度磁化的中子星被称为脉冲星。\n\n当辐射光束指向观察者时，你会发现脉冲的间隔是十分精确的，它可以用来测量时间的偏移值，这就是无比精确的脉冲星。"
+ star_stuff.10.a: "不可思议！"
+
+ star_stuff.11.name: "研究完成"
+ star_stuff.11.desc: "经过多年来的努力，我们完成太空中所有已知的恒星研究计划。虽然过程坎坷，但毫无疑问的是这是一笔宝贵的财富！\n\n虽然科学家建议我们密切关注这些星星动向，但是没有提醒我们应该用我们的知识去收集更多的能量..."
+ star_stuff.11.a: "我们现在知道更多关于宇宙的事情。"
+ star_stuff.11.b: "这就是力量！"
+
+ star_stuff_chain_title: "恒星分析计划"
+ star_stuff_chain_desc: "自从我们的文明诞生以来，我们一直怀着敬畏的心情仰望星空，现在我们可以近距离访问这些星体了。\n\n我们的科学家们一致认为，我们应该收集不同种类恒星的信息，研究它们的秘密。"
+ star_stuff_surveyed: "恒星研究"
+
+ BLACK_HOLE_SURVEY: "黑洞"
+ BLACK_HOLE_SURVEY_DESC: "分析黑洞"
+ PULSAR_SURVEY: "脉冲星"
+ PULSAR_SURVEY_DESC: "分析脉冲星"
+ NEUTRON_SURVEY: "中子星"
+ NEUTRON_SURVEY_DESC: "分析中子星"
+ A_SURVEY: "A类型恒星"
+ A_SURVEY_DESC: "分析亮蓝色恒星"
+ B_SURVEY: "B类型恒星"
+ B_SURVEY_DESC: "分析蓝色恒星"
+ F_SURVEY: "F类型恒星"
+ F_SURVEY_DESC: "分析白色恒星"
+ G_SURVEY: "G类型恒星"
+ G_SURVEY_DESC: "分析黄色恒星"
+ K_SURVEY: "K类型恒星"
+ K_SURVEY_DESC: "分析橙色恒星"
+ M_SURVEY: "M类型恒星"
+ M_SURVEY_DESC: "分析红色恒星"
+
+########## END STAR STUFF ##########
+
+########## EVENT FAILS ##########
+
+ gen_fail.1.name: "失败了"
+ gen_fail.1.desc: "这个船员失败了。"
+ gen_fail.1.a: "不幸的。"
+
+ gen_crit_fail.1.name: "失败了"
+ gen_crit_fail.1.desc: "这个船员失败了。"
+ gen_crit_fail.1.a: "不幸的。"
+
+########## END EVENT FAILS ##########
+
+########## COUNTRY EVENTS ##########
+
+ popup.1.name: "非法移民"
+ popup.1.desc.d: "一群外星人非法入境! 我们是赶走他们，还是让他们留下来？"
+ popup.1.a: "让他们滚。"
+ popup.1.b: "他们应该留下来。"
+ popup.1.c: "暂时留下他们，以后再说。"
+#
+ popup.2.name: "恐怖袭击"
+ popup.2.desc: "我们首都星的一座重要建筑：银河贸易中心最近遭到恐怖袭击。\n\n首府官员们保证，该大楼将在不久后重建。"
+ popup.2.a: "抓到他们！"
+#
+ popup.3.name: "领导遇刺！"
+ popup.3.desc: "在年度大会进行时，一名刺客突然袭击了与会领导们，刺客随后被逮捕。\n\n这起袭击事件造成多人受伤，其中一人重伤，经过两周的紧急治疗，最终死亡。"
+ popup.3.default: "丢人..."
+ popup.3.militarist: "我们的军队在干嘛！？"
+ popup.3.phobe: "一个外星人，不是开玩笑吧？"
+ popup.3.peace: "这只会令我们的人民更加团结。"
+#
+ popup.4.name: "告密者！"
+ popup.4.desc: "我们的一位特工将情报泄露给了外国，我们不知道是向谁泄露的情报，但是我们应该做好万全的准备。"
+ popup.4.a: "太糟糕。"
+ popup.4.b: "不能容忍!监禁她！"
+#
+ popup.5.name: "当地名人去世！"
+ popup.5.desc: "一位名人在今天去世了。\n\n她用她的歌声与精彩的演出，深深的打动了我们的心，人们会怀念她。"
+ popup.5.a: "默哀。"
+ popup.5.b: "我都没拿到她的签名。"
+#1.6
+ popup.6.name: "科学家生病！"
+ popup.6.desc: "我们的一位知名科学家患上了绝症，似乎是由于另一个外星物种造成的！\n\n幸运的是，这种绝症不会传染。"
+ popup.6.a: "安息..."
+ popup.6.b: "他做不错。"
+ popup.6.c: "该死外星渣渣！"
+#
+ popup.7.name: "游牧民族的到来"
+ popup.7.desc: "一群自称为“拳头”的外星人来到我们的首都星，并请求在此定居，由于我们很少许可异族居住在首都星，所以我们对他们进行了一场面谈。\n\n拳头说，他们能够建造一座伟大的城市，人们可以在那里得到希望得到的一切，包括免费的食物、医疗甚至住房，但是生活在那里的人们必须信仰他们的神。"
+ popup.7.a: "让他们进来"
+ popup.7.b: "否认他们"
+ popup.7.c: "谁允许这些外星人存在？"
+ #popup.7.d: "Sign them up for training!"
+ popup.7.e: "我们的新奴隶。"
+ popup.7.f: "当然能呆一下。"
+#
+ popup.8.name: "水下的恐怖！"
+ popup.8.desc: "一群当地的渔夫在捕鱼时，发现水下潜伏着一些巨大的生物..。\n\n他们报告了他们的坐标，但是我们找不到他们，只发现了他们的船，船上空无一人。\n\n我们可以选择为他们报仇，但这也可能会影响当地的生态平衡。"
+ popup.8.a: "在伤害更多人前杀了它！"
+ popup.8.b: "为何不将它捕获呢..."
+#
+ popup.9.name: "首富去世"
+ popup.9.desc: "我国首富今天去世了，当然这不是重点，重点是他没有后嗣，我们将决定他的财产如何分配。\n\n我们可以选择将这些钱发放给人民，也可以选择上缴国库。"
+ popup.9.a: "分发给人民。"
+ popup.9.b: "上缴国库。"
+#1.7
+ popup.10.name: "流行病"
+ popup.10.desc: "我们的一些人民感染了一种未知的病毒，这似乎是从太空旅行中感染到的。\n\n目前我们还没有治疗的方法，情况十分紧急。\n\n我们的科学家说，这种病毒传染性极强，建议将患者彻底隔离起来，虽然这将花费一大笔钱。"
+ popup.10.a: "立即!隔离他们！"
+ popup.10.b: "我们没钱。"
+#1.8
+ popup.11.name: "优秀的农作物"
+ popup.11.desc: "在某种特殊的条件下，农作物加快了生长速度！\n\n今年的我们将迎来一场大丰收。"
+ popup.11.a: "精彩！"
+ popup.11.b: "收获成果。"
+#
+ popup.12.name: "大鱼"
+ popup.12.desc: "我们的渔民在捕鱼时惊讶的发现了一个大型鱼群，并尽可能的抓获了更多的这种大型鱼。"
+ popup.12.a: "好的。"
+ popup.12.b: "卖掉这鱼。"
+#
+ popup.13.name: "许多矿物"
+ popup.13.desc: "我们的探矿无人机在银河中进行着无止尽的搜索，其中一架无人机偶然中发现了一个充满着稀有矿石的洞穴!"
+ popup.13.a: "对我们有利。"
+ popup.13.b: "卖掉赚钱。"
+#
+ popup.14.name: "额外利润"
+ popup.14.desc: "对我国来说，今年是一个伟大的经济之年，我们的企业、商人和公民们都大赚了一笔，我们的税收也因此而大增!"
+ popup.14.a: "经济繁荣！"
+#
+ popup.15.name: "威名远扬"
+ popup.15.desc: "在我们伟大领袖的治理下，我国威名远扬，哪怕是银河系最边缘的国家也知道了我们伟大领袖的赫赫威名!"
+ popup.15.a: "很好。"
+#
+ popup.16.name: "天赋异禀的宠物"
+ popup.16.desc: "我的家里来了一个新成员，非常可爱，我决定给它起个名字叫..."
+ popup.16.a: "Ceaser"
+ popup.16.b: "Hunter"
+ popup.16.c: "Socks"
+ popup.16.d: "Max"
+ popup.16.e: "Fluffy"
+ popup.16.f: "我不需要，杀了它。"
+#
+ popup.17.name: "帮助商人"
+ popup.17.desc: "我们的商人们最近过的很不好，今年的经济不景气，他们希望得到政府的援助以渡过难关。"
+ popup.17.a: "帮助他们。"
+ popup.17.b: "拒绝帮助。"
+#
+ popup.18.name: "帮助科学家"
+ popup.18.desc: "我们的科学家们最近遇到了一些麻烦，例如发生故障的设备或者缺乏培训的新人，他们希望得到更多的经费。"
+ popup.18.a: "帮助他们。"
+ popup.18.b: "其他地方更需要我的帮助..."
+
+#1.9
+ popup.19.name: "万贯家财"
+ popup.19.desc: "多年来，我们已收集了一笔§Y能源§!。\n\n或许我们该捐助穷人？或者病人？或者我们也可以赞助企业以便找到治疗太空癌症的办法？"
+ popup.19.a: "捐赠给饥饿的人"
+ popup.19.b: "捐赠给病人"
+ popup.19.c: "赞助以便寻找解决太空癌症的办法"
+ popup.19.d: "管我啥事。"
+
+ popup.20.name: "太空癌症治愈"
+ popup.20.desc: "似乎几个月前我们慷慨的捐赠帮助治疗癌症有效果了！\n\n昨晚听到这个消息时我们的首都星球都沉浸在欢喜之中！"
+ popup.20.a: "极好的"
+
+ popup.22.name: "外星原始感染"
+ popup.22.desc: "我们发现§Y[From.GetName]§!的人口在迅速下降。这星球发生了可怕的灭绝性的病毒感染。\n\n我们可以让他们建立一个幸存者根据地，也可以夷平这个星球所有生物。"
+ popup.22.a: "随便他们吧。"
+ popup.22.b: "夷平这颗星球！"
+
+ popup.24.name: "错误的设备"
+ popup.24.desc: "按常规而言，我们的科学家很小心地登陆在§Y[From.GetName]§!的一个偏远的位置收集一些样品为未来的研究这些外星人的生活方式。\n\n一位科学家然不小心把她的设备留在这颗星球上。\n\n她向我们保证一切都会好的，并在我们下次来访§Y[From.GetName]§!的时候，将捡回她的设备。"
+ popup.24.a: "不幸的"
+
+ popup.26.name: "错误的设备: 续 II"
+ popup.26.desc: "按常规而言，我们的科学家只会登陆§Y[From.GetName]§!一次。不过这次列外，因为我们科学家希望能找回一些丢失的设备。\n\n他们并没有发现任何关于丢失的设备消息。但是他们注意到本地生物的足迹散落在周围，好像开派对一样，或许是它们以某种方式崇拜我们的科学家的设备。"
+ popup.26.a: "有趣的"
+
+ popup.28.name: "错误的设备: 续 III"
+ popup.28.desc: "按常规而言，我们的科学家只会登陆§Y[From.GetName]§!一次。但是这一次他们被当地土著人包围起来并迎接到来。其中一个土著人拿着我们科学家丢失的枪。他看上去比其他人更高贵。他已经成为这个星球上的国王，也许是因为他的新发现的力量。\n\n同时他们开始散漫的和尖叫在他们的母语。向我们传达的信息是永远不要回来。\n\n我们的科学家迅速撤退，匆忙离开了这颗星球。"
+ popup.28.a: "也许这能更好地研究affar。"
+ popup.28.b: "杀死那些反对我们的人，无论老幼。"
+ popup.28.c: "这颗星球和这些物种都是垃圾，清理掉。"
+
+ popup.30.name: "新的原始物种觉醒"
+ popup.30.desc: "作为我们的观测所的科学家正在研究§Y[From.GetName]§!，他们发现了一些非常罕见的有趣的事情。\n\n一个新的觉知物种进化与当前已有的物种命名"§SXiblibi§!"。两个不同的种族现在居住§Y[From.GetName]§!。"
+ popup.30.a: "有趣的"
+ popup.30.b: "非我族人其心必异！消灭这些"Xiblibi"。"
+
+ popup.31.name: "新感觉能力觉醒"
+ popup.31.desc: "我们星球上的一个本地动物已经有不断觉醒的迹象。\n\n我们可以促进他们的进化，这样可以使他们成为我们的公民。"
+ popup.31.a: "它可能是一个坏主意。"
+ popup.31.b: "多多益善。"
+
+
+########## END COUNTRY EVENTS ##########
+
+########## MURDER ##########
+
+ murder_category: "奇怪的信号"
+ murder_category_desc: "我们科学家收到来自§Y[Root.GetName]§!的求救信号。"
+
+ MURDER_PROJECT: "连环杀手"
+ MURDER_PROJECT_DESC: "在扫描行星时，我们在信号位置发现一个打开的容器。里面却装着一封信，信上用红色的大字写着'读我'. 经过一番讨论后，虽然这不是我们最好的决定，但是我们还是决定打开它。\n\n它的内容是: '好的，你找到我的保险箱了。现在我已经得到了你的关注，我应该告诉你，我厌倦了一群像你这样的政府官员把我们像奴隶一样统治着，所以我决定杀死五个人，我说到做到，希望你能赶在我之前。不要迟到哦。-D'。"
+
+ murder_event.1.name: "连环杀手"
+ murder_event.1.desc: "在扫描行星时，我们在信号位置发现一个打开的容器。里面却装着一封信，信上用红色的大字写着'读我'. 经过一番讨论后，虽然这不是我们最好的决定，但是我们还是决定打开它。\n\n它的内容是: '好的，你找到我的保险箱了。现在我已经得到了你的关注，我应该告诉你，我厌倦了一群像你这样的政府官员把我们像奴隶一样统治着，所以我决定杀死五个人，我说到做到，希望你能赶在我之前。不要迟到哦。-D'.\n\n这有可能是个骗局，但是我们必须为了保护人民的安全，抓到他。"
+ murder_event.1.a: "必须找到这个人！"
+ murder_event.1.b: "只是死亡恐吓...谁在乎？"
+
+ murder_event.2.name: "第一次谋杀"
+ murder_event.2.desc: "我们最害怕的事情发生...这并不是开玩笑的死亡威胁...他已经开始行动了。这位死者是一名著名将军的女儿。\n\n在她手上还有一封信: '可怜的女孩。她错过了什么？可能...你太晚了。 -D' \n\n将军会迟些通知你。"
+ murder_event.2.a: "找到那个人！"
+
+ murder_event.4.name: "第二次谋杀"
+ murder_event.4.desc: "又一起谋杀案，这次发生在一个外星人在负责对外事务的这段时间内。\n\n躺在地上的外星人旁边的一封信: '这个外星人的时间。你太迟了。-D'"
+ murder_event.4.a: "为什么我们还没找到他！？"
+
+ murder_event.5.name: "第三次谋杀"
+ murder_event.5.desc: "第三起，一个老人和他的妻子手牵手被绞死在一棵树上，而这位老人是我们首席科学家的父母。\n\n在他们手上的信: '一对可爱的夫妇。不过你又迟到了... -D'"
+ murder_event.5.a: "还有多少人会因他没被抓到而死去！？"
+
+ murder_event.6.name: "第四次谋杀"
+ murder_event.6.desc: "又一起，这次似乎是我们市长的妻子。\n\n在地上的信: '这次是一个重要的妻子，哦，我希望市长不要因此而自杀...只因为你太迟了。-D'"
+ murder_event.6.a: "安息。"
+
+ murder_event.7.name: "最后的谋杀"
+ murder_event.7.desc: "我们预计第五次谋杀之前给我们的最重要的公民进行个人保护，而且我们相信这一次会抓到他...我们尝试去做了！但是他这次目标是我们最富有的首席执行官。\n\n我们找到这个人是在一个满是血迹的先进盔甲里。我们试图找出他的身份，但他不会回答任何问题，但除了我们问他 '你叫什么名字？'，他唯一的回答'我已死去'。\n\n正如我们所预料一样，我们在首席执政官的口袋里发现一张纸条: '甚至钱都没能救她，相信我，她提供了很多。但你太晚了。-D'"
+ murder_event.7.a: "最后的疯狂与结束。"
+
+ murder_event.8.name: "结束"
+ murder_event.8.desc: "'死亡'已经被抓住了，但不是在他杀死五个人之后。谁知道他是如何拥有如此先进的东西来躲避我们的调查。但是通过这次事件，我们学到很多，比如加强更多安保措施。\n\n但是那个成本...它是值得的吗？"
+ murder_event.8.a: "至少有些东西是因为这个。"
+
+########## END MURDER ##########
+
+
+

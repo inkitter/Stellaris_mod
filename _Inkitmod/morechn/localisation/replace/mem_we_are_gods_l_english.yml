@@ -1,0 +1,13 @@
+﻿l_english:
+ # We are gods
+ #Written by Maria
+ #Code by Matthew Betts
+
+ # ROOT = PLANET SCOPE
+ # FROM = SHIP SCOPE
+
+ mem_we_are_gods.2.name:0 "我们是神？"
+ mem_we_are_gods.2.desc:0 "似乎这个星球上的土著人开始相信我们是...神。当我们的一个研究小组被抓住，当地人跪下来而不是攻击科考队时，这让我们陷入了尴尬的境地。围绕着我们的宗教，包括一些将我们提升到更高层面的人，现在整个社会稳步发展。这使得更容易被进一步研究土著人，虽然他们愿意奉献自己。"
+ mem_we_are_gods.2.a:0 "有趣的。"
+ mem_we_are_gods.2.b:0 "当这群可怜的生物比喻我们的时候，除了神的地位外，任何都太低档次了。"
+ mem_we_are_gods.2.c:0 "至少他们是在正确的道路上...有点"

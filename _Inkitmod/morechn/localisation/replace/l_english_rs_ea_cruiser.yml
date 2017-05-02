@@ -1,0 +1,24 @@
+﻿l_english:
+ ####################################
+ # Hull Sizes
+ ####################################
+ RS_EA_CRUISER:0 "电子作战巡洋舰"
+ rs_ea_cruiser:0 "电子作战巡洋舰"
+ rs_ea_cruiser_plural:0 "电子作战巡洋舰"
+ ####################################
+ # section slots
+ ####################################
+ bow:0 "舰首"
+ mid:0 "核心"
+ stern:0 "舰尾"
+ ####################################
+ # Technology View
+ ####################################
+ TECH_UNLOCK_RS_EA_CRUISER_TITLE:0 "§H解锁战舰类型:§! 电子作战巡洋舰"
+ TECH_UNLOCK_RS_EA_CRUISER_DESC:0 "§H电子作战巡洋舰§!\n基于巡洋舰进行改造的可满足电子化作战的电子作战用途的巡洋舰。"
+ ####################################
+ # Dynamic Modifiers
+ ####################################
+ shipsize_rs_ea_cruiser_construction_speed_mult:0 "电子作战巡洋舰建造速度"
+ shipsize_rs_ea_cruiser_build_cost_mult:0 "电子作战巡洋舰建造成本"
+ 

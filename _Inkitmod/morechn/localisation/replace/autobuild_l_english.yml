@@ -1,0 +1,330 @@
+﻿l_english:
+ # menu
+ autobuild_0:0 "$modmenu_on$ 所有主要设置"
+ autobuild_0.tooltip:0 "$autobuild_0$"
+
+ autobuild_fleet:0 "空间站"
+ autobuild_fleet.tooltip:0 "目前所有的建造船将会被系统接管进行自动建造。如果你有使用它们的需求，可以通过禁用该选项或者新造一艘建造船。启用后当前所有建造船会被设为"事件锁定"，这是正常的。"
+
+ autobuild_1:0 "自动升级建筑"
+ autobuild_1.tooltip:0 "自动升级非需影响力和非实验室的建筑物。"
+
+ autobuild_2:0 "自动升级需要影响力的建筑"
+ autobuild_2.tooltip:0 "自动升级需要影响力的建筑。"
+
+ autobuild_3:0 "根据地块上的资源自动建造新建筑"
+ autobuild_3.tooltip:0 "根据地块上的资源以及其数量造建筑。"
+
+ autobuild_13:0 "自动建造：机器人"
+ autobuild_13.tooltip:0 "自动建造机器人。"
+
+ autobuild_10:0 "自动清理障碍"
+ autobuild_10.tooltip:0 "自动清理障碍。 §R警告§!，这是个半作弊选项，因为借用了非正常手段清理的。"
+
+ autobuild_14:0 "自动建造：Alphamod"
+ autobuild_14.tooltip:0 "自动建造alphamod的建筑。"
+
+ autobuild_ai_allowed:0 "允许AI使用自动建造"
+ autobuild_ai_allowed.tooltip:0 "AI将与玩家共同使用该MOD。"
+
+ # other menu
+ autobuild_others_options_menu:0 "§B菜单§! 其他选项"
+
+ autobuild_4_2:0 "奴役矿工"
+ autobuild_4_2.tooltip:0 "自动将矿场和发电站的人口奴役。"
+
+ autobuild_ship_ignore_1_and_less_mineral:0 "忽略1矿物"
+ autobuild_ship_ignore_1_and_less_mineral.tooltip:0 "事件的工程船不会在一矿以下的情况下建造采矿站。"
+
+ autobuild_ship_ignore_2_and_less_mineral:0 "忽略低于2矿物"
+ autobuild_ship_ignore_2_and_less_mineral.tooltip:0 "事件的工程船不会在两矿以下的情况下建造采矿站。"
+
+ autobuild_remove_farms_not_planet_farm:0 "移除所有的农场，但除了农业星球。"
+ autobuild_remove_farms_not_planet_farm.tooltip:0 "移除所有普通农场，但除了农业星球。"
+
+ autobuild_remove_farms:0 "移除所有的农场"
+ autobuild_remove_farms.tooltip:0 "移除所有普通农场。"
+
+ # labs
+ autobuild_5:0 "自动升级实验室"
+ autobuild_5.tooltip:0 "所有基础实验室将根据设置进行升级。"
+
+ autobuild_labs_menu:0 "§B菜单:§! 升级实验室"
+
+ autobuild_labs_disable_random:0 "移除随机实验室升级"
+ autobuild_labs_disable_random.tooltip:0 "如果实验室没有任何有益的条件下，是不会进行任何随机性升级。"
+
+ autobuild_labs_not_count_trait:0 "不计算特质"
+ autobuild_labs_not_count_trait.tooltip:0 "不考虑人口特质对实验室的影响。"
+
+ autobuild_labs_not_count_planet:0 "不计算星球修改"
+ autobuild_labs_not_count_planet.tooltip:0 "升级实验室时候不会考虑星球的任何修改。"
+
+ autobuild_labs_engineering_priority:0 "工程优先"
+ autobuild_labs_engineering_priority.tooltip:0 "基础实验室会更加优先考虑升级到工程。"
+
+ autobuild_labs_physics_priority:0 "物理优先"
+ autobuild_labs_physics_priority.tooltip:0 "基础实验室会更加优先考虑升级到物理。"
+
+ autobuild_labs_bio_priority:0 "生物优先"
+ autobuild_labs_bio_priority.tooltip:0 "基础实验室会更加优先考虑升级到生物。"
+
+ # on ept tile
+ autobuild_7:0 "自动在空地块上建造"
+ autobuild_7.tooltip:0 "自动在空地块上建造。"
+
+ autobuild_7_settings:0 "§B菜单:§! 自动在空地块上建造"
+
+ autobuild_7_1:0 ""能源优先""
+ autobuild_7_1.tooltip:0 "没有资源的空地将自动建造发电站。"
+ autobuild_7_2:0 ""工业优先""
+ autobuild_7_2.tooltip:0 "没有资源的空地将自动建造矿场。"
+ autobuild_7_3:0 ""科研优先""
+ autobuild_7_3.tooltip:0 "没有资源的空地将自动建造实验室。"
+ autobuild_7_4:0 ""适当科研优先""
+ autobuild_7_4.tooltip:0 "没有资源的空地将自动按照一个发电站和四个实验室的比例分配建造。"
+ autobuild_7_6:0 ""平衡优先""
+ autobuild_7_6.tooltip:0 "没有资源的空地将自动按照一个发电站和一个实验室以及一个矿场的比例分配建造。"
+ autobuild_7_7:0 ""能源与科研优先""
+ autobuild_7_7.tooltip:0 "没有资源的空地将自动按照一个发电站和一个实验室的比例分配建造。"
+ autobuild_7_8:0 ""忽略矿物""
+ autobuild_7_8.tooltip:0 "没有资源的空地将不会自动建设矿场。"
+ autobuild_7_9:0 ""忽略食物""
+ autobuild_7_9.tooltip:0 "没有资源的空地将不会自动建设农场。"
+ autobuild_7_10:0 ""忽略能源""
+ autobuild_7_10.tooltip:0 "没有资源的空地将不会自动建设发电站。"
+ autobuild_7_11:0 ""忽略科研""
+ autobuild_7_11.tooltip:0 "没有资源的空地将不会自动建设实验室。"
+
+ # unique buildings
+ autobuild_planet_unique:0 "§B菜单:§! 独特建筑"
+ autobuild_planet_unique.tooltip:0 "设置建造独特建筑（例如诊所等）"
+ autobuild_on_every_planet.tooltip:0 "每个星球会根据需求自动建造，如果没空间时候将取代常规建筑。"
+
+ # cost
+ autobuild_cost:0 "资源保留量"
+ autobuild_cost.tooltip:0 "当高于资源保留量才会自动建造并升级建筑(默认是1000矿物和250影响力)。"
+
+ autobuild_cost_menu:0 "§B菜单:§! $autobuild_cost$"
+ autobuild_cost_menu.tooltip:0 "$autobuild.4.desc$"
+
+ autobuild_keep:0 "§H保留§!"
+
+ # planets
+ # modifiers
+ free_from_auto_update:0 "忽略自动升级"
+ free_from_auto_update_desc:0 "该星球的建筑不会被自动升级。"
+
+ free_from_autobuild:0 "忽略自动建造"
+ free_from_autobuild_desc:0 "该星球不会自动建造建筑。"
+
+ planet_forge_autobuild:0 "工业中心"
+ planet_forge_autobuild_desc:0 "该星球将被建设成工业中心。所有的发电厂，农场以及实验室将会被取代。"
+
+ planet_power_plant_autobuild:0 "能源中心"
+ planet_power_plant_autobuild_desc:0 "该星球将被建设成能源中心。所有的矿场，农场以及实验室将会被取代。"
+
+ planet_labs_autobuild:0 "研究中心"
+ planet_labs_autobuild_desc:0 "该星球将被建设成研究中心。所有的发电厂，农场以及矿场将会被取代。"
+
+ planet_farms_autobuild:0 "农业中心"
+ planet_farms_autobuild_desc:0 "该星球将被建设成农业中心。所有的发电厂，矿场以及实验室将会被取代。"
+
+ autobuild_planet_labs_physics:0 "物理优先"
+ autobuild_planet_labs_physics_desc:0 "该星球的所有实验室将升级为物理。"
+
+ autobuild_planet_labs_bio:0 "生物优先"
+ autobuild_planet_labs_bio_desc:0 "该星球的所有实验室将升级为生物。"
+
+ autobuild_planet_labs_engineering:0 "工程优先"
+ autobuild_planet_labs_engineering_desc:0 "该星球的所有实验室将升级为工程。"
+
+ # edicts
+ edict_no_sector:0 "更多的直辖行星"
+ edict_no_sector_desc:0 "启用这个法令后，直辖行星上限提高。"
+
+ edict_autobuild_hide_planetary_edicts:0 "隐藏/显示自动法令"
+ edict_autobuild_hide_planetary_edicts_desc:0 "隐藏或显示所有行星的自动建造的法令。"
+
+ autobuild_clear_planetary_edictss:0 "清除自动法令"
+ autobuild_clear_planetary_edictss_desc:0 "所有自动建造将被移除。"
+
+ # lines without text
+ # edicts
+ edict_autobuild_free_auto_update:0 "$free_from_auto_update$"
+ edict_autobuild_free_auto_update_desc:0 "$free_from_auto_update_desc$"
+ edict_autobuild_free_autobuild:0 "$free_from_autobuild$"
+ edict_autobuild_free_autobuild_desc:0 "$free_from_autobuild_desc$"
+ edict_autobuild_planet_forge:0 "$planet_forge_autobuild$"
+ edict_autobuild_planet_forge_desc:0 "$planet_forge_autobuild_desc$"
+ edict_autobuild_planet_power_plant:0 "$planet_power_plant_autobuild$"
+ edict_autobuild_planet_power_plant_desc:0 "$planet_power_plant_autobuild_desc$"
+ edict_autobuild_planet_labs:0 "$planet_labs_autobuild$"
+ edict_autobuild_planet_labs_desc:0 "$planet_labs_autobuild_desc$"
+ edict_autobuild_planet_farms:0 "$planet_farms_autobuild$"
+ edict_autobuild_planet_farms_desc:0 "$planet_farms_autobuild$"
+ edict_autobuild_planet_labs_physics:0 "$autobuild_planet_labs_physics$"
+ edict_autobuild_planet_labs_physics_desc:0 "$autobuild_planet_labs_physics_desc$"
+ edict_autobuild_planet_labs_bio:0 "$autobuild_planet_labs_bio$"
+ edict_autobuild_planet_labs_bio_desc:0 "$autobuild_planet_labs_bio_desc$"
+ edict_autobuild_planet_labs_engineering:0 "$autobuild_planet_labs_engineering$"
+ edict_autobuild_planet_labs_engineering_desc:0 "$autobuild_planet_labs_engineering_desc$"
+
+ # main menu
+ autobuild_1_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_1.tooltip$"
+ autobuild_2_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_2.tooltip$"
+ autobuild_3_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_3.tooltip$"
+ autobuild_4_2_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_4_2.tooltip$"
+ autobuild_5_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_5.tooltip$"
+ autobuild_6_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_6.tooltip$"
+ autobuild_7_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_7.tooltip$"
+ autobuild_10_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_10.tooltip$"
+ autobuild_fleet_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_fleet.tooltip$"
+ autobuild_cost_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_cost.tooltip$"
+
+ autobuild_1_on:0 "$modmenu_on$ $autobuild_1$"
+ autobuild_2_on:0 "$modmenu_on$ $autobuild_2$"
+ autobuild_3_on:0 "$modmenu_on$ $autobuild_3$"
+ autobuild_4_2_on:0 "$modmenu_on$ $autobuild_4_2$"
+ autobuild_5_on:0 "$modmenu_on$ $autobuild_5$"
+ autobuild_6_on:0 "$modmenu_on$ $autobuild_6$"
+ autobuild_7_on:0 "$modmenu_on$ $autobuild_7$"
+ autobuild_10_on:0 "$modmenu_on$ $autobuild_10$"
+ autobuild_fleet_on:0 "$modmenu_on$ $autobuild_fleet$"
+ autobuild_cost_on:0 "$modmenu_on$ $autobuild_cost$"
+
+ autobuild_1_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_1.tooltip$"
+ autobuild_2_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_2.tooltip$"
+ autobuild_3_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_3.tooltip$"
+ autobuild_4_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_4.tooltip$"
+ autobuild_4_1_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_4_1.tooltip$"
+ autobuild_4_2_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_4_2.tooltip$"
+ autobuild_5_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_5.tooltip$"
+ autobuild_6_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_6.tooltip$"
+ autobuild_7_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_7.tooltip$"
+ autobuild_10_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_10.tooltip$"
+ autobuild_fleet_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_fleet.tooltip$"
+ autobuild_cost_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_cost.tooltip$"
+ autobuild_cost_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_cost.tooltip$"
+
+ autobuild_1_off:0 "$modmenu_off$ $autobuild_1$"
+ autobuild_2_off:0 "$modmenu_off$ $autobuild_2$"
+ autobuild_3_off:0 "$modmenu_off$ $autobuild_3$"
+ autobuild_4_2_off:0 "$modmenu_off$ $autobuild_4_2$"
+ autobuild_5_off:0 "$modmenu_off$ $autobuild_5$"
+ autobuild_6_off:0 "$modmenu_off$ $autobuild_6$"
+ autobuild_7_off:0 "$modmenu_off$ $autobuild_7$"
+ autobuild_10_off:0 "$modmenu_off$ $autobuild_10$"
+ autobuild_fleet_off:0 "$modmenu_off$ $autobuild_fleet$"
+ autobuild_cost_off:0 "$modmenu_off$ $autobuild_cost$"
+
+ autobuild_ai_allowed_on:0 "$modmenu_on$ $autobuild_ai_allowed$"
+ autobuild_ai_allowed_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_ai_allowed.tooltip$"
+ autobuild_ai_allowed_off:0 "$modmenu_off$ $autobuild_ai_allowed$"
+ autobuild_ai_allowed_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_ai_allowed.tooltip$"
+
+ autobuild_13_on:0 "$modmenu_on$ $autobuild_13$"
+ autobuild_13_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_13.tooltip$"
+ autobuild_13_off:0 "$modmenu_off$ $autobuild_13$"
+ autobuild_13_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_13.tooltip$"
+ autobuild_14_on:0 "$modmenu_on$ $autobuild_14$"
+ autobuild_14_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_14.tooltip$"
+ autobuild_14_off:0 "$modmenu_off$ $autobuild_14$"
+ autobuild_14_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_14.tooltip$"
+
+ # other menu
+ autobuild_ship_ignore_1_and_less_mineral_on:0 "$modmenu_on$ $autobuild_ship_ignore_1_and_less_mineral$"
+ autobuild_ship_ignore_1_and_less_mineral_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_ship_ignore_1_and_less_mineral.tooltip$"
+ autobuild_ship_ignore_1_and_less_mineral_off:0 "$modmenu_off$ $autobuild_ship_ignore_1_and_less_mineral$"
+ autobuild_ship_ignore_1_and_less_mineral_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_ship_ignore_1_and_less_mineral.tooltip$"
+ autobuild_ship_ignore_2_and_less_mineral_on:0 "$modmenu_on$ $autobuild_ship_ignore_2_and_less_mineral$"
+ autobuild_ship_ignore_2_and_less_mineral_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_ship_ignore_2_and_less_mineral.tooltip$"
+ autobuild_ship_ignore_2_and_less_mineral_off:0 "$modmenu_off$ $autobuild_ship_ignore_2_and_less_mineral$"
+ autobuild_ship_ignore_2_and_less_mineral_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_ship_ignore_2_and_less_mineral.tooltip$"
+
+ # unique buildings
+ autobuild_planet_unique_on.tooltip:0 "$modmenu_on$ $autobuild_planet_unique$"
+ autobuild_planet_unique_off.tooltip:0 "$modmenu_off$ $autobuild_planet_unique$"
+
+ autobuild_building_clinic:0 "$building_clinic$"
+ autobuild_building_clinic_on:0 "$modmenu_on$ $autobuild_building_clinic$"
+ autobuild_building_clinic_off:0 "$modmenu_off$ $autobuild_building_clinic$"
+
+ autobuild_building_mineral_silo_1:0 "$building_mineral_silo_1$"
+ autobuild_building_mineral_silo_1_on:0 "$modmenu_on$ $autobuild_building_mineral_silo_1$"
+ autobuild_building_mineral_silo_1_off:0 "$modmenu_off$ $autobuild_building_mineral_silo_1$"
+
+ autobuild_building_akx_worm_2:0 "$building_akx_worm_2$"
+ autobuild_building_akx_worm_2_on:0 "$modmenu_on$ $autobuild_building_akx_worm_2$"
+ autobuild_building_akx_worm_2_off:0 "$modmenu_off$ $autobuild_building_akx_worm_2$"
+
+ autobuild_building_visitor_center:0 "$building_visitor_center$"
+ autobuild_building_visitor_center_on:0 "$modmenu_on$ $autobuild_building_visitor_center$"
+ autobuild_building_visitor_center_off:0 "$modmenu_off$ $autobuild_building_visitor_center$"
+
+ autobuild_building_slave_processing:0 "$building_slave_processing$"
+ autobuild_building_slave_processing_on:0 "$modmenu_on$ $autobuild_building_slave_processing$"
+ autobuild_building_slave_processing_off:0 "$modmenu_off$ $autobuild_building_slave_processing$"
+
+ autobuild_building_temple:0 "$building_temple$"
+ autobuild_building_temple_on:0 "$modmenu_on$ $autobuild_building_temple$"
+ autobuild_building_temple_off:0 "$modmenu_off$ $autobuild_building_temple$"
+
+ autobuild_building_autochthon_monument:0 "$building_autochthon_monument$"
+ autobuild_building_autochthon_monument_on:0 "$modmenu_on$ $autobuild_building_autochthon_monument$"
+ autobuild_building_autochthon_monument_off:0 "$modmenu_off$ $autobuild_building_autochthon_monument$"
+
+ autobuild_building_power_hub_1:0 "$building_power_hub_1$"
+ autobuild_building_power_hub_1_on:0 "$modmenu_on$ $autobuild_building_power_hub_1$"
+ autobuild_building_power_hub_1_off:0 "$modmenu_off$ $autobuild_building_power_hub_1$"
+
+ autobuild_building_mineral_processing_plant_1:0 "$building_mineral_processing_plant_1$"
+ autobuild_building_mineral_processing_plant_1_on:0 "$modmenu_on$ $autobuild_building_mineral_processing_plant_1$"
+ autobuild_building_mineral_processing_plant_1_off:0 "$modmenu_off$ $autobuild_building_mineral_processing_plant_1$"
+
+ autobuild_building_paradise_dome:0 "$building_paradise_dome$"
+ autobuild_building_paradise_dome_on:0 "$modmenu_on$ $autobuild_building_paradise_dome$"
+ autobuild_building_paradise_dome_off:0 "$modmenu_off$ $autobuild_building_paradise_dome$"
+
+ autobuild_building_hypercomms_forum:0 "$building_hypercomms_forum$"
+ autobuild_building_hypercomms_forum_on:0 "$modmenu_on$ $autobuild_building_hypercomms_forum$"
+ autobuild_building_hypercomms_forum_off:0 "$modmenu_off$ $autobuild_building_hypercomms_forum$"
+
+ autobuild_building_hab_cultural_center:0 "$building_hab_cultural_center$"
+ autobuild_building_hab_cultural_center_on:0 "$modmenu_on$ $autobuild_building_hab_cultural_center$"
+ autobuild_building_hab_cultural_center_off:0 "$modmenu_off$ $autobuild_building_hab_cultural_center$"
+
+ # labs
+ autobuild_labs_not_count_planet_on:0 "$modmenu_on$ $autobuild_labs_not_count_planet$"
+ autobuild_labs_not_count_planet_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_labs_not_count_planet.tooltip$"
+ autobuild_labs_not_count_planet_off:0 "$modmenu_off$ $autobuild_labs_not_count_planet$"
+ autobuild_labs_not_count_planet_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_labs_not_count_planet.tooltip$"
+ autobuild_labs_not_count_trait_on:0 "$modmenu_on$ $autobuild_labs_not_count_trait$"
+ autobuild_labs_not_count_trait_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_labs_not_count_trait.tooltip$"
+ autobuild_labs_not_count_trait_off:0 "$modmenu_off$ $autobuild_labs_not_count_trait$"
+ autobuild_labs_not_count_trait_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_labs_not_count_trait.tooltip$"
+ autobuild_labs_disable_random_on:0 "$modmenu_on$ $autobuild_labs_disable_random$"
+ autobuild_labs_disable_random_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_labs_disable_random.tooltip$"
+ autobuild_labs_disable_random_off:0 "$modmenu_off$ $autobuild_labs_disable_random$"
+ autobuild_labs_disable_random_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_labs_disable_random.tooltip$"
+ autobuild_labs_physics_priority_on:0 "$modmenu_on$ $autobuild_labs_physics_priority$"
+ autobuild_labs_physics_priority_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_labs_physics_priority.tooltip$"
+ autobuild_labs_physics_priority_off:0 "$modmenu_off$ $autobuild_labs_physics_priority$"
+ autobuild_labs_physics_priority_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_labs_physics_priority.tooltip$"
+ autobuild_labs_bio_priority_on:0 "$modmenu_on$ $autobuild_labs_bio_priority$"
+ autobuild_labs_bio_priority_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_labs_bio_priority.tooltip$"
+ autobuild_labs_bio_priority_off:0 "$modmenu_off$ $autobuild_labs_bio_priority$"
+ autobuild_labs_bio_priority_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_labs_bio_priority.tooltip$"
+ autobuild_labs_engineering_priority_on:0 "$modmenu_on$ $autobuild_labs_engineering_priority$"
+ autobuild_labs_engineering_priority_on.tooltip:0 "$modmenu_tooltip_on$ $autobuild_labs_engineering_priority.tooltip$"
+ autobuild_labs_engineering_priority_off:0 "$modmenu_off$ $autobuild_labs_engineering_priority$"
+ autobuild_labs_engineering_priority_off.tooltip:0 "$modmenu_tooltip_off$ $autobuild_labs_engineering_priority.tooltip$"
+
+ autobuild_cost_20000:0 "$autobuild_keep$ 20000 $minerals$."
+ autobuild_cost_5000:0 "$autobuild_keep$ 5000 $minerals$."
+ autobuild_cost_2500:0 "$autobuild_keep$ 2500 $minerals$."
+ autobuild_cost_1000:0 "$autobuild_keep$ 1000 $minerals$."
+ autobuild_cost_500:0 "$autobuild_keep$ 500 $minerals$."
+ autobuild_cost_inf_500:0 "$autobuild_keep$ 500 $influence$."
+ autobuild_cost_inf_250:0 "$autobuild_keep$ 250 $influence$."
+ autobuild_cost_inf_100:0 "$autobuild_keep$ 100 $influence$."

@@ -1,0 +1,960 @@
+﻿l_english:
+
+ INSULT_PROPOSE_COL_IND:0 "[Root.GetName]究竟是不是一个真实存在的国家，还是一群乌合之众？请原谅我的措辞，但是贵国的政治体制实在让人难以置评。"
+ 02_INSULT_PROPOSE_COL_IND:0 "所以到底是谁在统治着你们这可怜的弹丸小国？竟然会想到"投票"选出执政者这种可笑的想法！毫无疑问，这会不可避免地让你们走向崩溃。"
+ 03_INSULT_PROPOSE_COL_IND:0 "正如[Root.GetName]的政治体制一般，贵国的民主政治是银河系的一颗明珠。"
+ 04_INSULT_PROPOSE_COL_IND:0 "你们是多么自私的种族，竟然会选择自由制度来维持社会稳定。自由主义……呸！[Root.GetName]已经时日无多了。"
+ 01_INSULT_PROPOSE_IND_COL:0 "毫无疑问，你们那残忍暴戾的霸权统治将会很快陷落。"
+ 02_INSULT_PROPOSE_IND_COL:0 "贵国究竟有没有赋予人民自由思考的权利？如果阁下继续依靠恐吓与霸权执政，毫无疑问这会导致[Root.GetName]的毁灭。"
+ 03_INSULT_PROPOSE_IND_COL:0 "像[Root.GetName]这样的霸权主义国家究竟是怎样才能存在下去的？这是银河系智慧文明的耻辱！"
+ 04_INSULT_PROPOSE_IND_COL:0 "[Root.GetName]的人民生活在极权统治下的时代就要终结了。你们的统治集团必须被推翻！"
+ 16_FRIENDLY_GREETING:0 "贵国政府在阻止自由主义流毒的蔓延上作出了不可磨灭的贡献，[From.GetSpeciesNamePlural]。"
+ 14_FRIENDLY_GREETING:0 "尽管我们更倾向于自由社会，无法否认的是，贵国政府在维持社会稳定方面做出了巨大贡献。"
+ ENSLAVED_DESC:0 "这个人口已被奴役，被奴役人口将会降低该星球所有自由主义人士的幸福度。"
+ COL_LABEL:0 "独裁主义者 <-> 平等主义者"
+
+ ethic_collectivist:0 "威权主义"
+ ethic_collectivist_desc:1 "§L不同的个体生来就掌握着不同的技能，这是不言而喻的事实。一些人生来就适合统治，而另一些人则生来就适合服务，因此，他们的社会分工应当在制度层面上体现出来，无视这个事实只会导致社会的混乱与不安定。§!\n"
+ ethic_fanatic_collectivist:0 "极权主义"
+ ethic_fanatic_collectivist_desc:1 "§L否定与生俱来的统治或者服务才能将是严重的犯罪行为。社会的稳定只能依靠严格的等级制度和绝对服从来维持。§!\n"
+ ethic_individualist:0 "自由主义"
+ ethic_individualist_desc:1 "§L每个人的基本权利与人格尊严都是平等的。维持社会稳定作为我们共同的远大目标，决不能依靠霸权主义与强权政治来维持。只有消灭少数统治多数的现象，才能让文明之花繁荣盛开。§!\n"
+ ethic_fanatic_individualist:0 "无政府主义"
+ ethic_fanatic_individualist_desc:1 "§L权力本身不会腐朽，因为它本身就是最大的腐朽。所有的不平等权力都必须从根本上被普世道德所取代。真正的自由与公正只能依靠平等来实现。§!\n"
+
+ ethic_socialism:0 "社会主义"
+ ethic_fanatic_socialism:0 "共产主义"
+ ethic_socialism_desc:1 "§L(选择这种伦理可以让你定制"福利"经济政策)\n社会主义是一种基于生产资料集体所有制和人民民主专政的社会制度。比起个人的成就，社会主义制度更加强调集体主义原则与社会价值。通过实行计划经济，使所有个体均能享受到食物和医疗保障。§!\n"
+ ethic_fanatic_socialism_desc:1 "§L(选择这种伦理可以让你定制"福利"(高级版)经济政策)\n只有当我们消灭了私有制与阶级分化，我们才能真正主宰我们的世界。为了实现社会的大同，我们必须消除我们的分歧与欲望，让社会的一切成员享受到我们创造的财富。§!\n"
+
+ personality_utopia_builders:0 "空想主义者"
+ personality_utopia_builders_desc:0 "空想主义者将本族的经济与社会繁荣视作至高使命。政府无论等级高低，其天职就是保证人民不会遭受贫困、疾病和失业的痛苦。"
+
+ personality_adventurous_expansionist:0 "激进扩张主义者"
+ personality_adventurous_expansionist_desc:0 "激进扩张主义者将整个银河系视为造物主的遗产。他们的最终目的是将自己种族的而影响力扩展到星际的每一处角落。"
+
+ personality_paranoid_isolationists:0 "极端孤立主义者"
+ personality_paranoid_isolationists_desc:0 "极端孤立主义者的目标是建立一个完全同外界隔绝的世外桃源。他们专注于本国的内部建设，并致力保持现状。"
+
+ ethic_industrial:0 "工业主义"
+ ethic_fanatic_industrial:0 "极端工业主义"
+ ethic_industrial_desc:1 "§L快速高效的基础设施建设是文明社会的支柱。我们必须大力发展我们的工业体系，以确保未来的繁荣昌盛。无论我们失去什么，都只是我们走向未来的一点微不足道的代价。§!\n"
+ ethic_fanatic_industrial_desc:1 "§L通过我们强大工业体系的生产创造，我们有能力推动我们的文明飞速发展，并依照我们的意志改造整个物质世界。在我们的意愿之下，群星将会向我们屈服，为我们献出它们的财富。这种力量必须被利用起来，并依靠这种力量将全银河纳入我们的蓝图。§!\n"
+ ethic_green:0 "生态主义"
+ ethic_fanatic_green:0 "极端生态主义"
+ ethic_green_desc:1 "§L群星的价值在于她们的行云，她们的流水，她们的土壤与森林，她们的矿产与河流，她们的江河湖海，她们的美丽风光，她们的原生动物与生态多样性。这一切就是我们经济得以发展的立足之本，因此我们一切的经济活动都必须围绕着行星的生态展开，我们行星的生态系统就是我们伟大文明得以繁荣昌盛的根本保证。§!\n"
+ ethic_fanatic_green_desc:1 "§L没有动物的鸣吠与树木的低语，我们的音乐家就无法创作出悠扬的旋律；没有巍峨的高山、静谧的河流和广阔的洞穴，我们的艺术家就无法绘出美丽的图画。我们生于超然的美丽宇宙只是一个偶然而已，因此我们必须尽我们全力保护她的存在。§!\n"
+
+ ethic_capitalism:0 "资本主义"
+ ethic_fanatic_capitalism:0 "垄断资本主义"
+ ethic_capitalism_desc:1 "§L(选择这种伦理可以让你定制"市场"经济政策)\n资本主义制度发展的核心推动力是资本的积累，通过产品和服务的销售、再生产、资本增值、生产方式改革及扩大再生产使原始价值得到扩展。§!\n"
+ ethic_fanatic_capitalism_desc:1 "§L(选择这种伦理可以让你定制"市场"(高级版)经济政策)\n没有比个人追求私有财产的增长更加名正言顺的追求。通过建立人与人之间，阶级与阶级之间的竞争，我们可以利用人们的野心和个人财富创造更伟大的成果。只有最优秀的个体才有权利进入我们社会体系的高层，对个体有益的就是全社会的资产。§!\n"
+
+ ethic_expansionist:0 "扩张主义"
+ ethic_expansionist_desc:0 "我们必须时刻牢记我们的先驱精神：指引我们走向群星。银河系的奥秘就是我们的遗产，我们将致力于得到这一切。"
+ ethic_fanatic_expansionist:0 "帝国主义"
+ ethic_fanatic_expansionist_desc:0 "从我们走向太空的第一刻起，君临全银河就是我们的最终目标，一切的困难都不能成为我们的障碍。"
+
+ ethic_isolationist:0 "保守主义"
+ ethic_isolationist_desc:0 "尽管扩张是文明发展的必经之路，我们应当永远铭记我们的故乡。只有通过谨慎地拓展我们的国土，我们才能保护好我们拥有的一切——并设法稳健发展。"
+ ethic_fanatic_isolationist:0 "封闭主义"
+ ethic_fanatic_isolationist_desc:0 "国家虽大，好战必亡。扩张是一种非常危险的举动，也是对我们人民极不负责的表现，因此我们应当致力于国家的发展，而非对外的扩张与交流。"
+
+
+ ethic_space_engineering:0 "太空工程"
+ ethic_space_engineering_desc:0 "我们的文明在太空工程领域取得了巨大成果。"
+
+ ethic_land_engineering:0 "行星工程"
+ ethic_land_engineering_desc:0 "我们的文明在历史上取得了许多建筑学和工程学上的伟大奇迹，最终让我们在行星工程领域大有所成。"
+
+ ethic_energy:0 "资源管理"
+ ethic_energy_desc:0 "我们的文明在对资源能源的生产和分配方面有严格的监督机制，以确保物尽其用，然而这也占用了大量的社会人力资源。"
+
+ ethic_education:0 "教育"
+ ethic_education_desc:0 "你的文明有着悠久的传统和高效的教育体系。"
+
+ ethic_transport:0 "运输"
+ ethic_transport_desc:0 "高效的运输与物流系统是任何的文明社会的经济和军事的发展的一个基本的核心。"
+
+ ethic_medicine:0 "医学"
+ ethic_medicine_desc:0 "经过几个世纪，你的文明已经发展到发达的医疗保健的最高标准。"
+
+ ethic_comms:0 "通讯"
+ ethic_comms_desc:0 "高效的通信技术的开发与支持是任何日益增长的文明的一个重要的战略资产。"
+
+ ethic_hospitality:0 "旅游"
+ ethic_hospitality_desc:0 "你的人民有着经常出游的习惯，这导致了酒店业向着更高层次的发展。"
+
+ ethic_culture:0 "文化"
+ ethic_culture_desc:0 "你文明有着丰富和古老的文化，是民族自豪感的来源也是外国人尊重的对象。"
+
+ ethic_elitist:0 "精英主义"
+ ethic_elitist_desc:0 "不是每个人都能得到均等的社会发展机会，技能，责任，个人优势和个人品质并非平等地寄托于每个人的身上，一些人比其他人更适合统治和领导，而另一些人则更适合被统治和领导，如果我们遵循这一规律，那么每个人都能从中受益。"
+ ethic_fanatic_elitist:0 "超人主义"
+ ethic_fanatic_elitist_desc:0 "社会如同一座牧场，需要牧羊犬的监管；社会如同一场比赛，成者为王败者为寇。少数手握重权的人注定要领导广大人民，监督并指引他们遵守社会秩序。他们生来，被选中或被培养来镇压那些不合秩序的，错误的，失败的，狭隘的，落后的或龌龊的思想，这些人注定是社会的精英。"
+
+ ethic_pluralist:0 "平均主义"
+ ethic_pluralist_desc:0 "社会有着限制人民跨越其自身界限的可能性的趋势，例如生育、财富和社会网络，社会需要限制人们的个人财产，个体差异以及其所获得的一切，确保每个个体都能得到均等的发展机会。"
+ ethic_fanatic_pluralist:0 "民粹主义"
+ ethic_fanatic_pluralist_desc:0 "每个人生来便在生物学层面具有均等的发展潜力。社会作为一个整体应当给予个体均等的权利、发展空间和发展机会以便充分发展其潜力，整体将使个体更加强大，而道德则使其更加明智。"
+
+ elite_cyborg_army:0 "精英机甲部队"
+ elite_cyborg_army_plural:0 "精英机甲部队"
+ elite_cyborg_army_desc:0 "这是统治者的精英卫队。"
+ elite_cyborg_army_proper:0 "精英机甲部队"
+ elite_cyborg_army_plural_proper:0 "精英机甲部队"
+ elite_cyborg_army_desc_proper:0 "统治者的精英卫队。"
+ elite_cyborg_army_trigger_tooltip:0 "每个统治者只能招募一支精英卫队。"
+
+ elite_inquisitor_army:0 "精英执政官"
+ elite_inquisitor_army_plural:0 "精英执政官"
+ elite_inquisitor_army_desc:0 "统治者的精英突击部队。"
+ elite_inquisitor_army_proper:0 "精英执政官"
+ elite_inquisitor_army_plural_proper:0 "精英执政官"
+ elite_inquisitor_army_desc_proper:0 "统治者的精英突击部队。"
+ elite_inquisitor_army_trigger_tooltip:0 "每个统治者只能招募一支精英突击部队。"
+
+ RT_HIGH_TECHNICIAN:0 "天网"
+ RT_HTECH:0 "高级技术主任"
+ RT_GENSEK:0 "共产党中央总书记"
+ HT_DEPUTY_SEK:0 "共产党副书记"
+ RT_SENIOR_COORDINATOR:0 "高级协调专员"
+ RT_CEO:0 "主席"
+ RT_CEO_1:0 "首席执行官"
+ RT_CHIEF:0 "独裁官"
+ HT_DEFMINISTER:0 "国防部长"
+ RT_KEEPER:0 "帝皇"
+ HT_COUNS:0 "高级顾问"
+ RT_WARDEN:0 "守护者"
+ RT_THANE:0 "领主"
+ RT_HTHANE:0 "首领"
+ RT_CURATOR:0 "监督者"
+ HT_COMAN:0 "司令官"
+ RT_HCOM:0 "总司令"
+ RT_DOM:0 "执政官"
+ HT_CHCOMAN:0 "总指挥官"
+ RT_HEMPEROR:0 "至高皇帝"
+ HT_HPRINCE:0 "亲王"
+ RT_DRULER:0 "神王"
+ HT_DPRINCE:0 "神使"
+ RT_DQUEEN:0 "圣女皇"
+ HT_DPRINCESS:0 "圣公主"
+ RT_HEMPERESS:0 "大女皇"
+ HT_HPRINCESS:0 "大公主"
+ RT_SGEN:0 "秘书长"
+ RT_PRINCEPS:0 "元老"
+ RT_MOD:0 "仲裁者"
+ RT_SUP:0 "管理员"
+ RT_CHSUP:0 "首席管理员"
+ RT_SUPRE:0 "最高领导人"
+ HT_1COUNS:0 "首席议员"
+ RT_PRIME:0 "社会网络监督者"
+ RT_NAZLEADER:0 "国家领导人"
+ HT_PRINCE:0 "王子"
+ HT_PRINCESS:0 "公主"
+ RT_UNION:0 "公会主席"
+ RT_LABOUR:0 "劳动委员主席"
+ RT_GR_EMPEROR:0 "皇帝"
+ RT_GR_EMPRESS:0 "皇后"
+ RT_IRON_LORD:0 "钢之领主"
+ HT_IRON_PRINCE:0 "铁之储君"
+
+ edict_social_engineering:0 "社会工程"
+ edict_social_engineering_desc:1 "这项霸权主义政策通过微妙的社会手段来加强我们在星球上的执政能力。\n\n"
+ edict_privatization_campaign:1 "民政管理"
+ edict_privatization_campaign_desc:1 "这项无政府主义及资本主义政策鼓励个体尽最大努力扩大生产以承担更大的社会责任。\n\n"
+
+ building_ministry_benevolence:0 "真理部"
+ building_ministry_benevolence_desc:0 "真理部通过操控新闻媒体、大众娱乐和教育体系来确保大众只能看到中央政府的正确决策，而无法看到其执政失误。"
+
+
+ opinion_of_individualist_pos:0 "独立的自由主义者"
+ opinion_of_individualist:0 "自由主义乌合之众"
+ opinion_of_collectivist:0 "霸权主义暴君"
+
+ opinion_of_socialism_pos:0 "社会主义同志"
+ opinion_of_socialism:0 "共党分子"
+ opinion_of_capitalism_pos:0 "资本家合作伙伴"
+ opinion_of_capitalism:0 "资本主义剥削者"
+
+ opinion_of_green_pos:0 "自然之友"
+ opinion_of_green:0 "愚蠢的环保主义者"
+ opinion_of_industrial_pos:0 "工业合作伙伴"
+ opinion_of_industrial:0 "短视的工业主义者"
+
+ plutocratic_oligarchy:0 "金权帝国"
+ plutocratic_oligarchy_desc:0 "§L这是一种资本主义垄断政权，由少数大公司财阀统治，公民的权利大小取决于私人财产的多寡。§!"
+ mega_corporation:0 "星际财团理事会"
+ mega_corporation_desc:0 "§L这是一种资本主义垄断体制的高级形态，其国家机构由超大型公司联合体和星际企业组成。§!"
+
+ despotic_hegemony:0 "技术官僚专政"
+ despotic_hegemony_desc:0 "§L这是一种唯物主义的专制政府，公民只是国家机器的组成部分，效率和技术进步高于一切。§!"
+
+ ai_overlordship:0 "网络官僚专政"
+ ai_overlordship_desc:0 "§L这是一种唯物主义专制政府的高级形态，由先进的超级计算机负责执政，计算出最为行之有效的管理方法。国家生活的一切都围绕着高新技术的研发和发展所展开。§!"
+
+ military_republic_desc:1 "§L这是个军国主义的民主形式政府。军队主要由民兵和其他组织自行组件而成，而公民可以自行分配自己的装备。§!"
+
+ military_junta_desc:1 "§L这是个军国主义形式的独裁政权，权力取决于委员会的军事高层以及他们个人的资格，经验和高薪的雇佣军。§!"
+
+ mining_conglomerate:0 "工矿企业联合体"
+ mining_conglomerate_desc:0 "§L这是一种企业寡头政府的高级形态，由强大的工矿企业所组成，互相争夺银河系的资源和政治权力。§!"
+
+ adv_an_caps:0 "无政府资本主义"
+ adv_an_caps_desc:0 "§L无政府资本主义是主张消除国家主体的社会、经济以及推崇政治自由，这样难免导致大多数的社会财富会被集中在富有的星际企业手中。§!"
+
+ star_confederation:0 "星际联盟"
+ star_confederation_desc:0 "§L一个以联盟形式存在的政府，政治主体是由分散在各个星域之间的条约而组成，有专门的会议代表他们去处理绝大多数的内部和外交事务。§!"
+
+ big_brother:0 "思想极权专制"
+ big_brother_desc:0 "§L这是一种极权政府的高级形态，通过神经科学，心灵控制，和神经语言学来控制民众，确保他们主动反对外来思想。与其他文明的交流则由少部分一批受过专门训练，对党绝对忠诚的核心党员负责。§!"
+
+ anarch_com_utopia:0 "社会主义共和制"
+ anarch_com_utopia_desc:0 "这是一种极端民主制国家的高级形态，信奉共产主义，致力于消灭阶级分化、贫富分化和财富私有制。"
+
+ agri_consortium:0 "农业企业联盟"
+ agri_consortium_desc:0 "这是一种财阀寡头国家，由大型农业企业所组成，其政策主要围绕增加农业生产，开垦荒地以满足其农产品需求展开。"
+
+ div_imperium:0 "神权军事帝国"
+ div_imperium_desc:0 "这是一种政教合一的霸权军国主义国家的高级形态，其帝王和教宗的权力高于一切。"
+ div_imperium_special:0 "每位统治者可以训练一支精英执政官"
+
+ adv_technocratic:0 "技术专家共和制"
+ adv_technocratic_desc:0 "这是一种控制论民主政体的高级形态，国家的一切活动都围绕技术的发展。"
+
+ adv_machine_cult:0 "超越技术专家制度"
+ adv_machine_cult_desc:0 "专制的唯心主义政府，有着高度组织崇拜最离奇的宗教，他们信仰着机械。"
+ adv_machine_cult_special:0 "每位统治者可以建造一座巨型机器丰碑"
+
+ pan_galactic:0 "泛银河安全理事会"
+ pan_galactic_desc:0 "泛银河安全理事会的最终目标是通过和平手段统一银河系的所有文明，并积极推行他们的意识形态。"
+
+ biotech_syndicate:0 "生化企业联合体"
+ biotech_syndicate_desc:0 "这是生化企业联盟的高级阶段，由全球性企业和星际企业联盟所组成，通过开发高科技生化科技取得巨大利益。"
+
+ social_democracy:0 "实现论民主制"
+ social_democracy_desc:0 "§L这是一种信奉实现论的理想主义民主政体，鼓励公民充分发挥自身潜力，实现自身价值以追求个人幸福，和平、经济与社会的繁荣高于一切。§!"
+
+
+
+ social_utopia:0 "实现论共和制"
+ social_utopia_desc:0 "§L这是一种实现论政体的高级形态，极度追求个人财富的增长与享乐主义。§!"
+
+ communist_dictatorship:0 "蜂群社会"
+ communist_dictatorship_desc:0 "§L这是一种权力高度集中的专制体制，集中所有个体的思维来实现社会、文化和经济政策的统一。§!"
+ communist_utopia:0 "母脑社会"
+ communist_utopia_desc:0 "§L这是一种蜂群社会的高级形态，在这种社会体制下，连个人生活和个体思维都会受到母脑的统一管理。§!"
+
+
+
+ unified_empire:0 "族民共同体"
+ unified_empire_desc:0 "§L这是一种排外主义独裁政府的高级形态，国家的最终目标是尽一切必要手段确保种族的文化纯洁性和血统纯洁性。§!"
+ unified_empire_special:0 "每位统治者可以建造一座行星防御系统。"
+ xeno_fascism:0 "种族主义专政"
+ xeno_fascism_desc:0 "§L这是一种奉行排外主义的专制国家，致力于维护国家主权与领土完整，奉行保守主义，保证国内安全。§!"
+ xeno_fascism_special:0 "每位统治者可以建造一座行星防御系统。"
+
+ mil_cartel:0 "军工企业联盟"
+ mil_cartel_desc:0 "这是一种由军工企业所统治的寡头制国家，其国家元首由军事长官担任。"
+ mil_syndicate:0 "军工企业联合体"
+ mil_syndicate_desc:0 "这是一种军工企业寡头政府的高级形态，其国家的一切政治生活都围绕军事建设展开。"
+
+ eco_utopia:0 "超然民主制"
+ eco_utopia_desc:0 "§L这是一种生态主义民主政体的高级形态，致力于精神与生理同世界的统一。为了实现生态系统的全面和谐，他们主张发展星球改造与基因工程。§!"
+ eco_democracy:0 "和谐民主制"
+ eco_democracy_desc:0 "§L这是一种生态主义民主政府。公民被要求遵守并维护本地的生态系统并且尽可能消除一切可能影响到当地生态环境的负面要素。§!"
+
+ communism:0 "共产主义专政"
+ communism_desc:0 "这是一种无产阶级专政的共产主义政体，通过实行计划经济和生产资料公有制来推动社会和工业生产的快速发展。"
+ peoples_republic:0 "共产主义人民民主专政"
+ peoples_republic_desc:0 "这是共产主义政体的高级阶段，实行人民民主专政，国家主席是人民的进步与希望的光荣象征，而公民则被鼓励在他们的伟大领袖的领导下为了更好的未来而努力创造。"
+
+
+
+ coalescence:0 "超然网络联合"
+ coalescence_desc:0 "只有探索到物质与精神的最深处的秘密时，才有可能诞生这种独特的社会形态 - 真正的集体，在那里每个人的大脑都能协同参与并完成共同的目标 - 繁荣的认知。"
+ ul_coal:0 "超然网络意识"
+ ul_coal_desc:0 "只有探索到物质与精神的最深处的秘密时，才有可能诞生这种独特的社会形态 - 真正的集体，在那里每个人的大脑都能协同参与并完成共同的目标 - 繁荣的认知。"
+ caste:0 "等级社会"
+ caste_desc:0 "这是一种超人主义独裁政府，主张通过基因改造来维持社会阶级分化提高生产率和资源利用效率。"
+ ul_caste:0 "阶级统治"
+ ul_caste_desc:0 "这是一种超人主义独裁政府的高级形态，在这种社会体制下，公民从出生起便通过试管培植、条件制约、催眠、睡眠疗法、巴甫洛夫条件反射等科学方法分成不同的社会阶层以执行不同的工作。"
+
+
+
+ cap_autocracy:0 "国家资本主义专政"
+ cap_autocracy_desc:0 "这是一种资本主义独裁政府，在这种政治体制下，资本与国家政权相结合，由国家掌握和控制，资本主义为国家所承认并受国家监督。"
+ adv_cap_autocracy:0 "国家垄断资本主义专政"
+ adv_cap_autocracy_desc:0 "这是一种资本主义独裁政府的高级形态，是国家同私人垄断资本相结合而形成的一种垄断资本主义，垄断资本直接控制和利用国家政权，并通过国家政权干预和调节社会经济生活，以保证垄断企业获得高额垄断利润及社会经济生活的正常运转。"
+
+
+
+ police_state:0 "行政独裁"
+ police_state_desc:0 "这是一种军国主义的社会主义专制政府，国家通过军事力量控制思想以维护霸权，确保对社会秩序的严格控制。"
+ adv_police_state:0 "极权专制"
+ adv_police_state_desc:0 "这是一种极权主义行政国的高级形态，在这种政治体制下，国家的行政权被极度放大，政府对社会有着绝对权威并尽一切可能谋求控制公众与私人生活。"
+ par_monarchy:0 "议会君主制"
+ par_monarchy_desc:0 "这是一种君主立宪政体，受其长期以来的君主制影响，尽管专制皇权已被消除，这种国家仍然保留着浓厚的皇室传统。"
+ par_monarchy_special:0 "每位统治者可以建造一座皇家图书馆。"
+ glor_monarchy:0 "议会君主立宪制"
+ glor_monarchy_desc:0 "这是一种君主立宪政体的高级形态，由于其疆域庞大，各属地往往保留着较大的自决权，但国家元首仍然是这些属地的唯一统治者。"
+ glor_monarchy_special:0 "每位统治者可以建造一座皇家图书馆。"
+ soc_dem:0 "社会主义"
+ soc_dem_desc:0 "民主政府，国家在保护和促进其公民的社会和经济福祉中起着关键作用。"
+ soc_utopia:0 "社会主义的乌托邦"
+ soc_utopia_desc:0 "民主政府，国家在保护和促进其公民的社会和经济福祉中起着关键作用。"
+
+
+
+ xen_aristocracy:0 "奴隶共和"
+ xen_aristocracy_desc:0 "民主精英形式的政府，只有特权阶层的公民才可以参政，而奴隶阶层的人只有生存和服务的权利。"
+ adv_xen_aristocracy:0 "贵族"
+ adv_xen_aristocracy_desc:0 "真贵族"
+
+ aristocracy:0 "贵族"
+ aristocracy_desc:0 "精英组成寡头政体，每个人都有他们专属位置的福祉，而且都能通过技能或公平审判或比赛获得更好的位置。"
+ adv_aristocracy:0 "真贵族"
+ adv_aristocracy_desc:0 "真贵族"
+
+ feud_kingdom:0 "封建王国"
+ feud_kingdom_desc:0 "一个强大的中央集权的封建权威的国度，由无数诸侯组成的社会体系。"
+ feud_empire:0 "星际封建主义"
+ feud_empire_desc:0 "一个强大的中央集权的封建权威的国度，由无数诸侯组成的社会体系。"
+
+
+ drone_coa:0 "无人机同盟"
+ drone_coa_desc:0 "为了保护无人机的自由和社会保障，由重工业工会组成的民主自由的社会主义的政府。"
+ drone_common:0 "劳工联邦"
+ drone_common_desc:0 "为了保护无人机的自由和社会保障，由重工业工会组成的民主自由的社会主义的政府。"
+
+
+ imperialist_state:0 "帝国主义国家"
+ imperialist_state_desc:0 "专制政府，在它的强大的军事力量影响下领土越来越大。但它很难维持一个在高水准的帝国控制。"
+ adv_imperialist:0 "联邦帝国"
+ adv_imperialist_desc:0 "专制政府，在它的强大的军事力量影响下领土越来越大。但它很难维持一个在高水准的帝国控制。"
+
+
+
+ power_plant_build_cost_mult:0 "发电厂建造花费"
+ hydroponics_farm_build_cost_mult:0 "水培农场建造花费"
+ science_lab_build_cost_mult:0 "科学实验室建造花费"
+ shipsize_science_construction_speed_mult:0 "科研船建造速度"
+
+ edict_forced_industrialization:0 "学说: 工业快速发展"
+ edict_forced_industrialization_desc: 0 " "
+ edict_clean_air:0 "学说: 洁净空气"
+ edict_clean_air_desc:0 " "
+ edict_spirit_freedom:0 "自由精神"
+ edict_spirit_freedom_desc:0 " "
+ edict_div_crusade:0 "圣灵十字军"
+ edict_div_crusade_desc:0 " "
+ edict_loyalty:0 "学说: 忠诚"
+ edict_loyalty_desc:0 " "
+ edict_meal_real:0 " "Meal'n'Real!" "
+ edict_meal_real_desc:0 " "
+ edict_ancestor_call:0 "神圣的丰收节"
+ edict_ancestor_call_desc:0 " "
+ edict_religious_unity_desc:1 "禁食将作为强制性的一部分加入准宗教的信徒们的极端唯心法令中去。\n\n"
+ edict_increase_planetsize:0 "合理的土地规划"
+ edict_increase_planetsize_desc:0 "对星球土地合理运用，方能最大化增加我们的空间。"
+ edict_increase_planetsize.tooltip:0 "为§Y[Root.GetName]§!增加§G一个格子§!，最大能增加到§R二十五个格子§!。"
+
+ tech_advanced_industrialization:0 "工业发展"
+ tech_advanced_industrialization_desc:0 " "
+ tech_thermal_borehole:0 "新型环保管制标准"
+ tech_thermal_borehole_desc:0 " "
+ tech_ministry_of_equality:0 "学说: 社会平等"
+ tech_ministry_of_equality_desc:0 " "
+ tech_new_diplomacy_standarts:0 "新外交准则"
+ tech_new_diplomacy_standarts_desc:0 " "
+ tech_multicultural_integration:0 "多元一体"
+ tech_multicultural_integration_desc:0 " "
+ tech_bioreactor:0 "环境经济学"
+ tech_bioreactor_desc:0 " "
+ tech_galactic_benevolence:0 "真理部"
+ tech_ministry_of_defence:0 "学说: 国家安全"
+ tech_ministry_of_defence_desc:0 " "
+ tech_spirit_freedom: "自由精神"
+ tech_spirit_freedom_desc:0 " "
+ tech_div_crusade:0 "呼唤圣灵"
+ tech_div_crusade_desc:0 " "
+ tech_deep_space_scanner:0 "SETI计划"
+ tech_deep_space_scanner_desc:0 " "
+ tech_terraform_gaia:0 "盖亚世界改造"
+ tech_terraform_gaia_desc:0 " "
+ tech_research_coordination:0 "协助研究"
+ tech_research_coordination_desc:0 " "
+ tech_atm_purifying:0 "大气净化"
+ tech_atm_purifying_desc:0 "先进的空气净化系统几乎可以消除星球大气中所有的有毒有害气体和辐射成分。\n\n"
+ tech_terraform_uninhabit:0 "敌对环境改造"
+ tech_terraform_uninhabit_desc:0 "只要有足够的时间和资源，即使是最不适合居住的星球都可以被改造成宜居环境。\n\n"
+ tech_spirit_agri:0 "快速农业发展"
+ tech_spirit_agri_desc:0 " "
+ tech_metallurgical_plant:0 "快速重工业发"
+ tech_metallurgical_plant_desc:0 " "
+ tech_loyalty:0 "学说:忠诚"
+ tech_loyalty_desc:0 " "
+ tech_spirit_planet:0 "行星精神"
+ tech_spirit_planet_desc:0 " "
+ tech_opti_ftl:0 "高效超光速航行技术"
+ tech_opti_ftl_desc:0 " "
+ tech_high_tech_industry:0 "全球工业重建"
+ tech_high_tech_industry_desc:0 " "
+ tech_colliseum:0 " "Meal'n'Real!" "
+ tech_colliseum_desc:0 " "
+ tech_ancestor_call:0 "神圣的丰收节 "祖先的召唤""
+ tech_ancestor_call_desc:0 "神圣的丰收节"
+ tech_resort:0 "遥远的世界的旅游胜地"
+ tech_resort_desc:0 "是时候该让我们的遥远的殖民地不只是一个生存的地方，而是更像一个家一样的有意义的地方。"
+ tech_adv_engin:0 "合理的土地规划"
+ tech_adv_engin_desc:0 "对星球土地合理运用，方能最大化增加我们的空间。"
+ tech_gal_university:0 "新的教育标准"
+ tech_gal_university_desc:0 " "
+ tech_bio_institute:0 "高级生物工程"
+ tech_bio_institute_desc:0 " "
+ tech_comm_hub:0 "全新星际通讯"
+ tech_comm_hub_desc:0 " "
+
+ TECH_UNLOCK_TERRAFORMING_PURIFICATION_TITLE:0 "§H解锁功能:§! 大气净化"
+ TECH_UNLOCK_TERRAFORMING_PURIFICATION_DESC:0 "§H大气净化§!\n允许改造废土世界和毒气世界。\n\n需要比常规改造更多的战略资源和改造时间。"
+
+ TECH_UNLOCK_TERRAFORMING_HABITABLE_TITLE:0 "§H解锁功能:§! 敌对环境改造"
+ TECH_UNLOCK_TERRAFORMING_HABITABLE_DESC:0 "§H敌对环境改造§!\n允许改造无法居住的星球。\n\n需要比常规改造更多的战略资源和改造时间。"
+
+ TECH_UNLOCK_TERRAFORMING_GAIA_TITLE:0 "§H解锁功能:§! 盖亚世界改造"
+ TECH_UNLOCK_TERRAFORMING_GAIA_DESC:0 "§H盖亚世界改造§!\n允许将任何有适居潜力的星球改造为盖亚世界。\n\n需要比常规改造更多的战略资源和改造时间。"
+
+ building_diplomacy_academy:0 "高级外交学院"
+ building_diplomacy_academy_desc:0 " "
+ building_pan_galactic_forum:0 "泛银河论坛"
+ building_pan_galactic_forum_desc:0 " "
+ building_ministry_of_equality:0 "社会保障部"
+ building_ministry_of_equality_desc:0 " "
+ building_thermal_borehole:0 "盖亚井"
+ building_thermal_borehole_desc:0 "地热井穿过地幔直通星球核心，提供大量稀有资源，同时会对星球环境造成影响。"
+ building_biofuel_plant:0 "生化处理厂"
+ building_biofuel_plant_desc:0 "这座设施的工业设备可以隔离和提取各种植物和农作物的化合物。这种化合物可以进一步研究和应用于工业，例如生产生物燃料，促进作物生长和制作天然保健品。"
+ building_ministry_of_defence:0 "国防部"
+ building_ministry_of_defence_desc:0 " "
+ building_global_pds:0 "行星防御系统"
+ building_global_pds_desc:0 " "
+ building_deep_space_scanner:0 "深空探测器"
+ building_deep_space_scanner_desc:0 " "
+ building_research_coordination:0 "协助研究设施"
+ building_research_coordination_desc:0 " "
+ building_food_bazaar:0 "大型食物市场"
+ building_food_bazaar_desc:0 "一座大型农产品交易市场，足以满足整个星球的食品需求。"
+ building_soil_enrich:0 "土地净化设施"
+ building_soil_enrich_desc:0 " "
+ building_metallurgical_plant:0 "金属冶炼厂"
+ building_metallurgical_plant_desc:0 "这座重工业设施可以提高当地的矿产产量，并促进基础设施建设。"
+ building_wellfare_center:0 "社会福利中心"
+ building_wellfare_center_desc:0 "这座建筑可以改善行星居住条件。"
+ building_royal_library:0 "皇家图书馆"
+ building_royal_library_desc:0 " "
+ building_recreational:0 "娱乐场所"
+ building_recreational_desc:0 "为这颗星球上的居民提供精神娱乐。"
+ building_sacred_grove:0 "圣林"
+ building_sacred_grove_desc:0 "来自全国各地的人民可以在这里参加一年一度的仪式，将这片神圣的森林中的植物煮沸并服用可以给予他们更为圣洁的心灵和健康的身体。"
+ building_industrial_cap:0 "工业中心"
+ building_industrial_cap_desc:0 "这座大型高科技工业联合体可以加工利美尼定，将民用和军用工业的生产效率提高到前所未有的高度。"
+ building_colliseum:0 "新体育馆"
+ building_colliseum_desc:0 " "
+ building_resort:0 "豪华度假村"
+ building_resort_desc:0 " "
+ building_robot_mon:0 "巨型机器丰碑"
+ building_robot_mon_desc:0 " "
+ building_gal_university:0 "银河大学"
+ building_gal_university_desc:0 " "
+ building_bio_institute:0 "生物工程研究所"
+ building_bio_institute_desc:0 " "
+ building_comm_hub:0 "星际通讯中心"
+ building_comm_hub_desc:0 " "
+
+ sm_hyperium_refinery:0 "利美尼定精炼厂"
+
+ sr_sacred_plant:0 "圣木"
+ sr_sacred_plant_desc:0 "这种非常稀有且特别的植物可以诱导意识层面的转化，提供精神层面的愉悦感，在生理上也有一定的治疗作用。"
+
+ sr_hyperium:0 "利美尼定"
+ sr_hyperium_desc:0 "这种罕见的金属具有难以置信的耐用性和灵活性，但同样具有非常强的放射性，需要特定的技术才可以加工并应用于工业生产。"
+
+ sr_sights:0 "天堂"
+ sr_sights_desc:0 "这个纯天然的美丽的地方适合建立一个一流的度假胜地！"
+
+
+ requirement_farmland:0 "§R只能在食物产出地块建设。§!"
+ requirement_energy:0 "§R只能在能源产出地块建设。§!"
+ requirement_sights_deposit:0 "§R只能在天堂地块上建设。§!"
+
+
+ trait_drone_mindset:0 "蜂群智慧"
+ trait_drone_mindset_desc:0 "这种特殊的基因特性允许你选择“蜂群社会”政体。"
+ trait_slaver_gene:0 "服从基因"
+ trait_slaver_gene_desc:0 "这种特殊的基因特性允许你选择“等级社会”政体。"
+ trait_brainchip:0 "脑组织芯片"
+ trait_brainchip_desc:0 "这种特殊的基因特性允许你选择“联众政府”政体。"
+
+ ACTION_EMBASSY1_TITLE:0 "建立大使馆"
+ ACTION_EMBASSY1_DESC:0 "在对方首都建立大使馆。"
+ ACTION_EMBASSY1_COST:2 "这项外交活动每月将会提高0.05点关系点数（上限为25），我们可以同时派遣五名大使。"
+
+ policy_economy:0 "经济"
+ policy_economy_desc:0 " "
+
+ mixed_economy:0 "混合经济"
+ mixed_economy_name:0 "混合经济"
+ mixed_economy_desc:0 " "
+
+ left_economy:0 "职业福利"
+ left_economy_name:0 "职业福利"
+ left_economy_desc:0 " "
+ right_economy:0 "人才市场"
+ right_economy_name:0 "人才市场"
+ right_economy_desc:0 " "
+
+ capitalism_economy:0 "市场"
+ capitalism_economy_name:0 "市场"
+ capitalism_economy_desc:0 " "
+ fan_capitalism_economy:0 "市场 (高级版)"
+ fan_capitalism_economy_name:0 "市场 (高级版)"
+ fan_capitalism_economy_desc:0 " "
+
+ socialism_economy:0 "福利"
+ socialism_economy_name:0 "福利"
+ socialism_economy_desc:0 " "
+ fan_socialism_economy:0 "福利 (高级版)"
+ fan_socialism_economy_name:0 "福利 (高级版)"
+ fan_socialism_economy_desc:0 " "
+
+ free_market_1_economy:0 "免费市场"
+ free_market_1_economy_name:0 "免费市场"
+ free_market_1_economy_desc:0 " "
+
+ free_market_2_economy:0 "免费市场 (高级版)"
+ free_market_2_economy_name:0 "免费市场 (高级版)"
+ free_market_2_economy_desc:0 " "
+
+ planned_1_economy:0 "计划"
+ planned_1_economy_name:0 "计划"
+ planned_1_economy_desc:0 " "
+
+ planned_2_economy:0 "计划 (高级版)"
+ planned_2_economy_name:0 "计划 (高级版)"
+ planned_2_economy_desc:0 " "
+
+ military_communism:0 "军事共产主义"
+ military_communism_name:0 "军事共产主义"
+ military_communism_desc:0 " "
+
+ capitalism_utopia:0 "资本主义的乌托邦"
+ capitalism_utopia_name:0 "资本主义的乌托邦"
+ capitalism_utopia_desc:0 " "
+
+ no_property:0 "社会主义"
+ no_property_name:0 "社会主义"
+ no_property_desc:0 " "
+
+ innov_economics:0 "创新经济学"
+ innov_economics_name:0 "创新经济学"
+ innov_economics_desc:0 " "
+
+ universal_welfare:0 "全民福利"
+ universal_welfare_name:0 "全民福利"
+ universal_welfare_desc:0 " "
+
+ slaver_economy:0 "奴隶经济"
+ slaver_economy_name:0 "奴隶经济"
+ slaver_economy_desc:0 " "
+
+ policy_production_focus:0 "集中生产"
+ policy_production_focus_desc:0 "集中生产"
+
+ none_production:0 "无"
+ none_production_name:0 "无"
+ none_production_desc:0 " "
+
+ recycle_focus:0 "废物回收利用"
+ recycle_focus_name:0 "废物回收利用"
+ recycle_focus_desc:0 "循环再利用的废料提供了巨大的经济效益和更好的环境，但增加了在生产时候的成本。"
+
+ recycle_focus_adv:0 "废物回收利用(高级版)"
+ recycle_focus_adv_name:0 "废物回收利用(高级版)"
+ recycle_focus_adv_desc:0 "循环再利用的废料提供了巨大的经济效益和更好的环境，但增加了在生产时候的成本。"
+
+ mining_focus:0 "采矿"
+ mining_focus_name:0 "采矿"
+ mining_focus_desc:0 " "
+
+ mining_focus_adv:0 "采矿(高级版)"
+ mining_focus_adv_name:0 "采矿(高级版)"
+ mining_focus_adv_desc:0 " "
+
+ agri_focus:0 "农业"
+ agri_focus_name:0 "农业"
+ agri_focus_desc:0 " "
+
+ agri_focus_adv:0 "农业(高级版)"
+ agri_focus_adv_name:0 "农业(高级版)"
+ agri_focus_adv_desc:0 " "
+
+ milind_focus:0 "军事工业"
+ milind_focus_name:0 "军事工业"
+ milind_focus_desc:0 " "
+
+ milind_focus_adv:0 "军事工业(高级版)"
+ milind_focus_adv_name:0 "军事工业(高级版)"
+ milind_focus_adv_desc:0 " "
+
+ policy_ecology:0 "环境法规"
+ policy_ecology_desc:0 " "
+
+ none_ecology:0 "无"
+ none_ecology_name:0 "无"
+ none_ecology_desc:0 " "
+
+ eco_market:0 "生态市场"
+ eco_market_name:0 "生态市场"
+ eco_market_desc:0 "市场,注重生产、生态类型主要农业，而不是重工业。"
+
+ eco_planned:0 "生态福利"
+ eco_planned_name:0 "生态福利"
+ eco_planned_desc:0 "经济，专注于保持清洁的环境和可持续的生活条件，以较慢的工业生产率的成本。"
+
+ industry_market:0 "工业市场"
+ industry_market_name:0 "工业市场"
+ industry_market_desc:0 "市场,专注于高效率的重工业的发展，这通常是不可避免的对环境的危害。"
+
+ industry_planned:0 "工业福利"
+ industry_planned_name:0 "工业福利"
+ industry_planned_desc:0 "经济，其中额外的资源投入增加工业生产率。"
+
+ policy_national_politics:0 "国家政治"
+ policy_national_politics_desc:0 " "
+
+ none_national:0 "无"
+ none_national_name:0 "无"
+ none_national_desc:0 " "
+
+ nationalism:0 "极端民族主义"
+ nationalism_name:0 "极端民族主义"
+ nationalism_desc:0 " "
+
+ multiculti:0 "多元文化主义"
+ multiculti_name:0 "多元文化主义"
+ multiculti_desc:0 " "
+
+ policy_foreign_policy:0 "外交政策"
+ policy_foreign_policy_desc:0 "我们的外交政策是什么样的?"
+
+ none_foreign:0 "无"
+ none_foreign_name:0 "无"
+ none_foreign_desc:0 " "
+
+ for_aggressive:0 "战争贩子"
+ for_aggressive_name:0 "战争贩子"
+ for_aggressive_desc:0 " "
+
+ for_peaceful:0 "维和部队"
+ for_peaceful_name:0 "维和部队"
+ for_peaceful_desc:0 " "
+
+ for_expansia:0 "和平扩张"
+ for_expansia_name:0 "和平扩张"
+ for_expansia_desc:0 " "
+
+ for_isolatia:0 "军事孤立主义"
+ for_isolatia_name:0 "军事孤立主义"
+ for_isolatia_desc:0 " "
+
+ policy_social_values:0 "社会价值观"
+ policy_social_values_desc:0 " "
+
+ none_social:0 "无"
+ none_social_name:0 "无"
+ none_social_desc:0 " "
+
+ elite_rule:0 "影响力"
+ elite_rule_name:0 "影响力"
+ elite_rule_desc:0 "社会的领导者被认为是最强大的，最有影响力的人。"
+
+ people_rule:0 "平等"
+ people_rule_name:0 "平等"
+ people_rule_desc:0 "社会的领导者被认为是不在乎自身地位不断亲民的人。"
+
+ policy_bureaucracy:0 "官僚主义"
+ policy_bureaucracy_desc:0 " "
+
+ none_bureaucracy:0 "无"
+ none_bureaucracy_name:0 "无"
+ none_bureaucracy_desc:0 " "
+
+ empire_bureaucracy:0 "国家机关"
+ empire_bureaucracy_name:0 "国家机关"
+ empire_bureaucracy_desc:0 " "
+
+ eff_bureaucracy:0 "高效的政府机构"
+ eff_bureaucracy_name:0 "高效的政府机构"
+ eff_bureaucracy_desc:0 " "
+
+ policy_ideology:0 "思想"
+ policy_ideology_desc:0 " "
+
+ none_ideology:0 "无"
+ none_ideology_name:0 "无"
+ none_ideology_desc:0 " "
+
+ scientific_pragmatism:0 "科学实用主义"
+ scientific_pragmatism_name:0 "科学实用主义"
+ scientific_pragmatism_desc:0 " "
+
+ scientific_liberal:0 "启蒙精神"
+ scientific_liberal_name:0 "启蒙精神"
+ scientific_liberal_desc:0 " "
+
+ divine_right:0 "君权神授"
+ divine_right_name:0 "君权神授"
+ divine_right_desc:0 " "
+
+ fundamentalism:0 "原教旨主义"
+ fundamentalism_name:0 "原教旨主义"
+ fundamentalism_desc:0 " "
+
+ policy_doctrine:0 "文化渴求"
+ policy_doctrine_desc:0 " "
+
+ none_doctrine:0 "无"
+ none_doctrine_name:0 "无"
+ none_doctrine_desc:0 " "
+
+ spiritual_harmony:0 "精神和谐"
+ spiritual_harmony_name:0 "精神和谐"
+ spiritual_harmony_desc:0 "与大自然的完美和谐的生活给你的人民带来满足，并提供他们的身心健康。"
+
+ faith_def:0 "信仰的捍卫者"
+ faith_def_name:0 "信仰的捍卫者"
+ faith_def_desc:0 " "
+
+ exploration:0 "银河系的调查"
+ exploration_name:0 "银河系的调查"
+ exploration_desc:0 " "
+
+ terraforming:0 "世界雕塑"
+ terraforming_name:0 "世界雕塑"
+ terraforming_desc:0 " "
+
+ good_trading:0 "经济"
+ good_trading_desc:0 "基础商业贸易知识"
+ leader_trait_expertise_good_trading:0 "专业知识: 经济"
+ leader_trait_expertise_good_trading_desc:1 "这个领导被认为是经济领域的专家。"
+
+ tech_free_market:0 "经济: 自由市场"
+ tech_free_market_desc:0 " "
+
+ tech_planned_economy:0 "经济: 计划"
+ tech_planned_economy_desc:0 " "
+
+ tech_military_communism:0 "经济: 军事共产主义"
+ tech_military_communism_desc:0 " "
+
+ tech_capitalism_utopia:0 "经济: 资本主义的乌托邦"
+ tech_capitalism_utopia_desc:0 " "
+
+ tech_socialistic:0 "经济: 社会主义"
+ tech_socialistic_desc:0 " "
+
+ tech_innovation_economy:0 "经济: 创新"
+ tech_innovation_economy_desc:0 " "
+
+ tech_universal_welfare:0 "经济: 全民福利"
+ tech_universal_welfare_desc:0 " "
+
+ tech_slaver_economy:0 "经济: 奴隶"
+ tech_slaver_economy_desc:0 " "
+
+ tech_recycle_economy:0 "生产重点: 回收利用"
+ tech_recycle_economy_desc:0 " "
+
+ tech_mining_economy:0 "生产重点: 矿业"
+ tech_mining_economy_desc:0 " "
+
+ tech_milind_economy:0 "生产重点: 军事工业"
+ tech_milind_economy_desc:0 " "
+
+ tech_energy_economy:0 "生产重点: 电力工业"
+ tech_energy_economy_desc:0 " "
+
+ energy_focus:0 "发电: 平衡"
+ energy_focus_name:0 "发电: 平衡"
+ energy_focus_desc:0 " "
+
+ energy_focus_green:0 "发电: 安全"
+ energy_focus_green_name:0 "发电: 安全"
+ energy_focus_green_desc:0 " "
+
+ energy_focus_green_adv:0 "发电: 安全 (高级版)"
+ energy_focus_green_adv_name:0 "发电: 安全 (高级版)"
+ energy_focus_green_adv_desc:0 " "
+
+ energy_focus_fossil:0 "发电: 超载"
+ energy_focus_fossil_name:0 "发电: 超载"
+ energy_focus_fossil_desc:0 " "
+
+ energy_focus_fossil_adv:0 "发电: 超载 (高级版)"
+ energy_focus_fossil_adv_name:0 "发电: 超载 (高级版)"
+ energy_focus_fossil_adv_desc:0 " "
+
+ xeno_congress:0 "外星科学国会"
+ xeno_congress_desc:0 "寡头政治，由科学理事会统治，沉迷于研究外星生命，世界以及文化。"
+
+ adv_xeno_congress:0 "外星科学议会"
+ adv_xeno_congress_desc:0 "寡头政治，由科学理事会统治，沉迷于研究外星生命，世界以及文化。"
+
+ trait_machine_worship:0 "机械崇拜"
+ trait_machine_worship_desc:0 "相信机器是一切的宗教信仰。"
+
+ trait_xeno_interference:0 "外星爱好者"
+ trait_xeno_interference_desc:0 "沉迷研究各种外星生命的特性。"
+
+ category_good_trading_research_speed_mult:0 "研究速度(经济学)"
+
+ requirement_dense_jungle:0 "§R只能建在密林旁。§!"
+ requirement_dangerous_wildlife:0 "§R只能建在危险的野生动物旁。§!"
+ requirement_noxious_swamp:0 "§R只能建在有毒沼泽旁。§!"
+ requirement_toxic_kelp:0 "§R只能建在剧毒藻类旁。§!"
+
+ tech_intense_eco_study:0 "高级外星生态"
+ tech_intense_eco_study_desc:0 " "
+
+ building_jungle_surveying:0 "密林考察营地"
+ building_jungle_surveying_desc:0 " "
+
+ building_wildlife_surveying:0 "危险的野生动物考察营地"
+ building_wildlife_surveying_desc:0 " "
+
+ building_swamp_surveying:0 "有毒沼泽考察营地"
+ building_swamp_surveying_desc:0 " "
+
+ building_ocean_surveying:0 "剧毒藻类考察营地"
+ building_ocean_surveying_desc:0 " "
+
+ mission_deep_observation:0 "深入的异种研究"
+ mission_deep_observation_desc:0 " "
+
+ building_xeno_hatchery:0 "外星培养"
+ building_xeno_hatchery_desc:0 " "
+
+ building_xeno_zoo_garden:0 "外星动物园"
+ building_xeno_zoo_garden_desc:0 " "
+
+ tech_xeno_hatchery:0 "外星宠物饲养"
+ tech_xeno_hatchery_desc:0 " "
+
+ sr_alien_pets_brood:0 "外星宠物饲养地"
+ sr_alien_pets_brood_desc:0 "给外星宠物进行人工培育后代。"
+
+ building_tribal_surveying:0 "土著保护区考察营地"
+ building_tribal_surveying_desc:0 " "
+ requirement_tribal_settlement:0 "§R只能建在土著保护区旁。§!"
+
+ tech_big_brother:0 "学说: 思想控制"
+ tech_big_brother_desc:0 "允许选择"思想控制状态"，作为一种更高级的政府形式。"
+
+ tech_biotechnology_advancement:0 "科学突破: 生物技术"
+ tech_biotechnology_advancement_desc:0 " "
+
+ eco_utopia_adv:0 "和谐意识"
+ eco_utopia_desc:0 "洞察意志力的秘密可以达到精神文化的统一与自然的终极力量。"
+
+ tech_set_confederation:0 "学说: 星际联盟"
+ tech_set_confederation_desc:0 " "
+
+ tech_private_armies:0 "学说: 私人武装"
+ tech_private_armies_desc:0 " "
+
+ military_corps:0 "军事帝国"
+ military_corps_desc:0 "私人武装力量能减少维护成本，但是拥有军事权力的企业会因为缺乏管制野蛮生长。"
+
+ cyber_dictatorship:0 "思想极权专制"
+ cyber_dictatorship_desc:0 "唯物主义的独裁统治的终极形态，觉醒AI负责管理所有方面，电子人持有最高权限和自动化操作。"
+ cyber_dictatorship_special:0 "每个统治者只能招募一支精英机甲部队"
+
+ tech_nazi_empire:0 "学说: 上帝庇佑的国度"
+ tech_nazi_empire_desc:0 " "
+
+ nazi_empire:0 "法西斯主义"
+ nazi_empire_desc:0 "依靠强大的领袖的极权的帝国主义政府。一个围绕"国家"的终极价值的社会思想，而且军事力量常被作为外交政策的主要手段。"
+
+ tech_cyber_society:0 "学说: 模控社会"
+ tech_cyber_society_desc:0 " "
+
+ RT_CHIEFTAIN:0 "法官"
+
+ ETHIC_REBUILD_TECH_UNLOCK_SOC_TITLE:0 "§H解锁功能:§! 极端的自由主义/集体主义有一个选项可以选择"无政府共产主义"作为一种更高级的政府形式。"
+ ETHIC_REBUILD_TECH_UNLOCK_SOC_DESC:0 "§H极端的自由主义/集体主义有一个选项可以选择"无政府共产主义"作为一种更高级的政府形式。"
+
+ ETHIC_REBUILD_TECH_UNLOCK_FREE_MARKET_TITLE:0 "§H解锁功能:§! 极端的自由主义/个人主义有一个选项可以选择"无政府资本主义"作为一种更高级的政府形式。"
+ ETHIC_REBUILD_TECH_UNLOCK_FREE_MARKET_DESC:0 "§H极端的自由主义/个人主义有一个选项可以选择"无政府资本主义"作为一种更高级的政府形式。"
+
+ ETHIC_REBUILD_TECH_UNLOCK_CYBER_SOC_TITLE:0 "§H解锁功能:§! 有一个选项可以选择"技术专家共和制"作为一种更高级的政府形式。"
+ ETHIC_REBUILD_TECH_UNLOCK_CYBER_SOC_DESC:0 "§H有一个选项可以选择"技术专家共和制"作为一种更高级的政府形式。"
+
+ ETHIC_REBUILD_TECH_UNLOCK_BIOTECH_TITLE:0 "§H解锁功能:§! 有一个选项可以选择"生化企业联合体"作为一种更高级的政府形式。"
+ ETHIC_REBUILD_TECH_UNLOCK_BIOTECH_DESC:0 "§H有一个选项可以选择"生化企业联合体"作为一种更高级的政府形式。"
+
+ ETHIC_REBUILD_TECH_UNLOCK_BIG_BROTHER_TITLE:0 "§H解锁功能:§! 有一个选项可以选择"思想极权专制"作为一种更高级的政府形式。"
+ ETHIC_REBUILD_TECH_UNLOCK_BIG_BROTHER_DESC:0 "§H有一个选项可以选择"思想极权专制"作为一种更高级的政府形式。"
+
+ ETHIC_REBUILD_TECH_UNLOCK_NAZI_TITLE:0 "§H解锁功能:§! 有一个选项可以选择"法西斯主义"作为一种更高级的政府形式。"
+ ETHIC_REBUILD_TECH_UNLOCK_NAZI_DESC:0 "§H有一个选项可以选择"法西斯主义"作为一种更高级的政府形式。"
+
+ ETHIC_REBUILD_TECH_UNLOCK_CORP_ARMY_TITLE:0 "§H解锁功能:§! 有一个选项可以选择"军事帝国"作为一种更高级的政府形式。"
+ ETHIC_REBUILD_TECH_UNLOCK_CORP_ARMY_DESC:0 "§H有一个选项可以选择"军事帝国"作为一种更高级的政府形式。"
+
+ ETHIC_REBUILD_TECH_UNLOCK_CONFEDERATION_TITLE:0 "§H解锁功能:§! 有一个选项可以将你的当前政体转变为"星际联盟"。"
+ ETHIC_REBUILD_TECH_UNLOCK_CONFEDERATION_DESC:0 "§H有一个选项可以将你的当前政体转变为"星际联盟"。"
+
+ dec_bureaucracy:0 "二元君主制"
+ dec_bureaucracy_desc:0 "这是个封建形式的寡头政治的政府，权力虽然处在一个领袖手上，但他会被一些共同的规则所约束，不过所有法律签署都必须经过这个领袖之手的认可。"
+ star_bureaucracy:0 "议会君主制"
+ star_bureaucracy_desc:0 "这是个更高级的封建形式的寡头政治的政府，他们与普选出来的领袖共同在一个房子里讨论并以便一同决定国家未来的权力，财产还有政策。"
+
+ START_SCREEN_PART_TWO_DEC_BUREAUCRACY:0 " "
+
+ START_SCREEN_PART_TWO_POLICE_STATE:0 "在世纪社会内部的分歧和纷争，我们得出的结论是，我们需要集中的最高权力的公民的安全和控制犯罪，而必须进行的军事和警察部队。毕竟我们合并铁翼下的行星状态，这将为我们体面的未来，由于锻炼的任何侵权行为的监督和制止。"
+
+ START_SCREEN_PART_TWO_ECO_DEMOCRACY:0 "随着社会发展，逐步认识到自然是无价的。国家建立与人与动物之间和谐相处的民主之上。欣赏大自然赋予我们的一切。回到未来和谐的心，不仅照顾我们的世界，还有星系。"
+
+ START_SCREEN_PART_TWO_DRONE_COA:0 "长期以来，我们的人民饱受暴虐和压迫之苦。为了反抗暴政，所有工人阶级联合了起来，建立了以工会为核心的政府。从此国家不再漠视它的公民并为每个人提供合适薪水和舒适的生活。团结一致，我们可以共创未来。"
+
+ START_SCREEN_PART_TWO_SOC_DEM:0 "我们的文明经历了灭绝之战，孤立封闭和异化思想。当我们明白了这一切都是没有必要的时候，是时候该团结一致。我们建立一个完全基于人民利益的政府。人人平等，社会保障以及民主选举等，所有这些举措让我们打破了恶性循环。随着国家真正为人民服务时，我们已经做好准备踏入深空！"
+
+ START_SCREEN_PART_TWO_CAP_AUTOCRACY:0 "尝试了不同的经济模式后，我们发现幸福的关键是来自个人主动性。但是疯狂的自由市场几乎摧毁了我们文明，使得我们不得不采取严格的金融流动监控。国家财富被大多数国有企业所掌握，而这些国有企业又被庞大的官僚体系管控。精细挑选的规则方能保障整个体系的运作。"
+
+ START_SCREEN_PART_TWO_CASTE:0 "在历史上，有许多荒唐离奇的政体相继取得了成就。为了维持社会稳定，我们创造了一个新的社会体制，每个人都是他们的主人，同时也是他们的奴隶。每个人都像齿轮一样呆在他们应该在的位置和这个完美政府共同主导整个世界。"
+
+ START_SCREEN_PART_TWO_COMMUNISM:0 "长期以来我们的星球被贪婪的资本家划分为不同国家并掌握着资源。直到有一个英明的领袖出现，他统一了世界，他关心每一个公民，他创造一切，他管理着整个星球。他变革了体制，使得生产效率大幅度提升，工人阶级欣欣向荣。现在是时候该实现长久以来的梦想..."
+
+ START_SCREEN_PART_TWO_COMMUNIST_DICTATORSHIP:0 "我存在。我是精神。我的身体是国家的组成部分。我统一整个星球并管理所有这些弱小的生物。我给他们启迪，让他们帮助我研究，建设和战争。他们没有自己的意志，而我会成为他们的意志。他们遵守服从精神。我是骨干，我也是心脏。我唯一抉择就是奉献。我将带领我的种族走向光辉的未来，因为我即是一切。"
+
+ START_SCREEN_PART_TWO_SOCIAL_DEMOCRACY:0 "自相残杀的战争时代给了我们的启示意义，让我们明白内斗是毫无意义的。战争结束后，我们的经济迅速突破了瓶颈。大量贸易促进了社会重生，社会安定繁荣高于一切。只有安定生活才是整个星球统一的关键所在。"
+
+ tech_terraform_barren:0 "贫瘠世界改造"
+ tech_terraform_barren_desc:0 ""
+
+ tech_terraform_frozen:0 "极地世界改造"
+ tech_terraform_frozen_desc:0 ""
+
+ tech_terraform_molten:0 "熔岩世界改造"
+ tech_terraform_molten_desc:0 ""
+
+ RT_HIGH_OVERSEER:0 "高维观测者"
+
+ RT_STAR_RULER:0 "星际统治者"
+ RT_STAR_MISTRESS:0 "星际霸主"
+
+ abs_monarchy:0 "君主专制政体"
+ abs_monarchy_desc:0 "一个强大的中央封建集权的专制政府，控制着许多附庸和无比强大的皇家军队实力。国家会把一部分领地赐予给忠诚的贵族，使其获得经营领土的权利，但为此上贡维护皇家军队。"
+ adv_abs_monarchy:0 "星际君主政体"
+ adv_abs_monarchy_desc:0 "一个强大的中央封建集权的专制政府，控制着许多附庸和无比强大的皇家军队实力。国家会把一部分领地赐予给忠诚的贵族，使其获得经营领土的权利，但为此上贡维护皇家军队。"
+ START_SCREEN_PART_TWO_ABS_MONARCHY:0 "我们的封建国家诞生于诸侯之间的为了权力财富而进行无数场斗争的血腥历史。只有不断推动科技发展，方能从这个血腥历史中脱颖而出。只有最强大的国家的国王才能保留无比至高的统治权力。"

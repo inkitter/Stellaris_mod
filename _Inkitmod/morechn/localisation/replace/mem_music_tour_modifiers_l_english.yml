@@ -1,0 +1,22 @@
+﻿l_english:
+ mem_foreign_star_on_tour_happy:0 "享受外国名人"
+ mem_foreign_star_on_tour_happy_desc:0 "最近一位外国名人的来访使人们很高兴。"
+ 
+ mem_foreign_star_denied_entry_happy:0 "外国名人否认入境"
+ mem_foreign_star_denied_entry_happy_desc:0 "一个外国名人被拒绝入境，这让人感到高兴。"
+ 
+ mem_foreign_star_on_tour_unhappy:0 "外国名人不高兴"
+ mem_foreign_star_on_tour_unhappy_desc:0 "最近一位外国名人的来访使人们不高兴。"
+ 
+ mem_foreign_star_denied_entry_unhappy:0 "外国名人否认入境"
+ mem_foreign_star_denied_entry_unhappy_desc:0 "一个外国名人被拒绝入境，使他们感到不快。"
+ 
+ mem_foreign_rockstar_filth_banned:0 "儿童思维"
+ mem_foreign_rockstar_filth_banned_desc:0 "在被外国名人吓坏后，人口回归了我们的传统价值观。"
+ 
+ mem_foreign_rockstar_peace_love:0 "反战歌曲"
+ mem_foreign_rockstar_peace_love_desc:0 "在外国名人的提醒下，人口回归了我们的传统价值观。"
+ 
+ mem_less_play_more_work:0 "努力工作"
+ mem_less_play_more_work_desc:0 "人口忙于工作，偏离了我们的传统价值观。"
+

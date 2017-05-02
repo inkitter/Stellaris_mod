@@ -1,0 +1,124 @@
+﻿l_english:
+ mem_grave:0 "监狱长"
+ mem_grave_mid_key:0 "监狱长核心"
+
+ mem_grave_awakened:0 "监狱长"
+ mem_grave_awakened_mid_key:0 "监狱长核心"
+
+ mem_grave_awakened_pc_bound:0 "监狱长"
+ mem_grave_awakened_pc_bound:0 "监狱长核心"
+
+ mem_grave_awakened_pc:0 "监狱长"
+ mem_grave_awakened_pc_mid_key:0 "监狱长核心"
+
+ mem_grave_plural:0 "监狱长"
+ mem_grave_awakened_plural:0 "监狱长"
+ mem_grave_awakened_pc_plural:0 "监狱长"
+ mem_grave_awakened_pc_bound_plural:0 "监狱长"
+
+ mem_GRAVE_PRIMARY_WEAPON:0 "守墓者终结者"
+ mem_GRAVE_SECONDARY_WEAPON:0 "守墓者歼灭者 Mk II"
+ mem_GRAVE_TORPEDO:0 "守墓者量子鱼雷"
+ mem_GRAVE_LARGE_WEAPON:0 "守墓者歼灭者 Mk I"
+ mem_GRAVE_MEDIUM_WEAPON:0 "守墓者分解者 Mk II"
+ mem_GRAVE_SMALL_WEAPON:0 "守墓者分解者 Mk I"
+ mem_GRAVE_PD:0 "守墓者点防御"
+
+ mem_GRAVE_DISRUPTION_FIELD_SHIP:0 "守墓者断能力场"
+ mem_GRAVE_DISRUPTION_FIELD_STATION:0 "守墓者断能力场"
+
+ mem_grave_weakness:0 "最后的仪式"
+ mem_grave_weakness_desc:0 "利用守墓者的弱点更新目标数据。"
+ damage_vs_country_type_mem_grave_guardian_mult:0 "对守墓者的伤害"
+
+ mem_gravekeeper.1:0 "墓地"
+ mem_gravekeeper.1.desc:0 "进入[From.GetName]之后，我们发现这里之前似乎是个许多战舰被破坏的残骸之地。在这片残骸之中似乎有一座空间站，看起来比其他都要完整。"
+ mem_gravekeeper.1.a:0 "这里发生了什么？"
+
+ mem_gravekeeper.2:0 "守墓者"
+ mem_gravekeeper.2.desc:0 "[Root.GetName]的船员设法取得空间站的访问权。科学家[Root.GetLeaderName]认为这会启动空间站的安全协议并且激活空间站的防御装置。"
+ mem_gravekeeper.2.a:0 "还有哪里可能出问题？"
+ mem_gravekeeper.2.a.tooltip:0 "恢复[mem_grave_star.GetName]的运作。"
+ mem_gravekeeper.2.b:0 "让它继续沉睡。"
+
+ mem_gravekeeper.10:0 "墨菲的屁话"
+ mem_gravekeeper.10.desc:0 "激活成功！设施开始全面运作。就剩下几个安全协议需要解除，那么我们就会取得最高控制权限。我们的担心是徒劳的。"
+ mem_gravekeeper.10.a:0 "这只需要几天时间就可以完成。"
+
+ mem_gravekeeper.11:0 "墨菲定理"
+ mem_gravekeeper.11.desc:0 "我们与墓地世界的科学家失去联系。"
+
+ mem_gravekeeper.21:0 "觉醒"
+ mem_gravekeeper.21.desc:0 "经过激烈的战斗之后，这个外星空间站的[mem_grave_system.GetName]系统终于失去反抗的力量。但这胜利是短暂的，当电源恢复之后，空间站又重新开始运作，继续对我们攻击。不过这次反抗力量比之前更猛烈。"
+ mem_gravekeeper.21.a:0 "这显然还没有结束。"
+
+ mem_gravekeeper.24:0 "太空逃亡记"
+ mem_gravekeeper.24.desc:0 "我们的传感器失去与敌舰的联系，但我们发现一个紧急跃迁的能量信号的痕迹。"
+ mem_gravekeeper.24.a:0 "我们会无止尽追杀。"
+
+ mem_gravekeeper.31:0 "东山再起"
+ mem_gravekeeper.31.desc:0 "我们武器对敌人无效化。我们还在持续的重大损失，应该立即撤军并试图找出一种方法突破敌人的防御。"
+ mem_gravekeeper.31.a:0 "我们不是那么容易被打败的。"
+ mem_gravekeeper.31.b:0 "我们的军队不需要这个。"
+
+ mem_gravekeeper.32:0 "最后的仪式"
+ mem_gravekeeper.32.desc:0 "我们的科学家相信他们已经想出一个对策证明这种力量是可以击败的。我们应该召集我们的军队并立即与敌人战斗。"
+ mem_gravekeeper.32.a:0 "胜利终将属于我们！"
+
+ mem_gravekeeper.41:0 "盗墓者"
+ mem_gravekeeper.41.desc:0 "我们设法禁用[mem_grave_system.GetName]的古代兵器。尽管被我们造成一定破坏，但它的自动修复系统依旧可以运作。虽然修复需要一定时间，我们的工程师认为，如果我们行动迅速的话，可以在它修复完之前，取得控制权。它可能会成为一个强大的战术武器。"
+ mem_gravekeeper.41.a:0 "这古代兵器终将属于我们！"
+ mem_gravekeeper.41.b:0 "这件事太危险了。毕竟回收之前，它可以恢复！"
+
+ mem_gravekeeper.43:0 "守墓者被毁"
+ mem_gravekeeper.43.desc:0 "报告指出一个陌生的帝国摧毁了在[mem_grave_system.GetName]的名为'守墓者'的古代战舰。"
+
+ mem_gravekeeper.50:0 "墓穴归来"
+ mem_gravekeeper.50.desc:0 "这是个值得高兴的日子！我们的工程师完成了对[mem_grave_system.GetName]的古代兵器的安全试验的工作。谨慎的工程师终于在今天毫不犹豫地说这件强大无比的兵器已经彻底为我们所用。AI核心已被我们替换成由我们设计的全新系统，它正在等待我们的新的指令。"
+ mem_gravekeeper.50.a:0 "等下我们会知道发生什么事情？"
+
+ mem_gravekeeper.60:0 "亡者归来"
+ mem_gravekeeper.60.desc:0 "我们科学家相信我们能重启这艘名叫'守墓者'的古老战舰的所有能力，不过需要付出些代价。"
+ mem_gravekeeper.60.a:0 "为了真正的力量，我们愿付出一切。"
+ mem_gravekeeper.60.b:0 "浪费资源。"
+
+ mem_gravekeeper.61:0 "墓地"
+ mem_gravekeeper.61.desc:0 "我们科学家认为，该战舰已全面运作可以部署，在战斗情况下应该能发挥出它应有实力。"
+ mem_gravekeeper.61.a:0 "让我们看看它能用多久。"
+ mem_gravekeeper.61.a.tooltip:0 "§Y警告 - 转化过程会产生高能波动。§!"
+
+ mem_gravekeeper.71:0 "解除所有限制"
+ mem_gravekeeper.71.desc:0 "我们科学家相信他们能够解除'守墓者'的所有反应堆限制，但这样可能会对船只造成不可预见的副作用。我们该怎么办？"
+ mem_gravekeeper.71.a:0 "即刻解除！"
+ mem_gravekeeper.71.b:0 "我们从修改古代技术中能学到啥？"
+
+ mem_gravekeeper.72:0 "超频"
+ mem_gravekeeper.72.desc:0 "我们科学家完成对守墓者的反应堆的核心调整；应该在短时间内就可以突破限制。"
+ mem_gravekeeper.72.a:0 "这个能力应该谨慎使用。"
+ mem_gravekeeper.72.a.tooltip:0 "§Y警告 - 一旦从爆发模式脱离，船只将会变得十分脆弱。§!"
+
+ mem_gravekeeper.75:0 "爆发模式"
+ mem_gravekeeper.75.desc:0 "-爆发模式启动-"
+ mem_gravekeeper.75.a:0 "反应堆百分之两百输出。"
+
+ mem_gravekeeper.76:0 "爆发模式冷却中"
+ mem_gravekeeper.76.desc:0 "-爆发模式脱出-"
+ mem_gravekeeper.76.a:0 "反应堆输出水平低于正常值。"
+
+ MEM_GRAVE_LIMIT_BREAK:0 "解除所有限制"
+ MEM_GRAVE_LIMIT_BREAK_DESC:0 "移除'守墓者'的限制。"
+
+ MEM_GRAVE_EXPLORE:0 "古老的空间站"
+ MEM_GRAVE_EXPLORE_DESC:0 "科研船在[mem_grave_star.GetName]发现一个废弃的空间站。"
+
+ MEM_GRAVE_PC_PROJECT:0 "古代兵器"
+ MEM_GRAVE_PC_PROJECT_DESC:0 "我们在战斗过程中发现的巨大兵器[mem_grave_system.GetName]系统是完好无损的，我们可以尝试通过骇入系统内部取得控制权。"
+
+ MEM_GRAVE_AWAKENING:0 "亡者归来"
+ MEM_GRAVE_AWAKENING_DESC:0 "解锁关于'守墓者'的真正的力量。"
+
+ MEM_GRAVE_WEAKNESS_PROJECT:0 "伤害加成 - 守墓者"
+ MEM_GRAVE_WEAKNESS_PROJECT_DESC:0 "研究墓地的守护者和寻找他们的弱点。"
+
+ mem_gravekeeper_object:0 "古老的空间站"
+ mem_gravekeeper_pc_object:0 "受伤的守墓者"

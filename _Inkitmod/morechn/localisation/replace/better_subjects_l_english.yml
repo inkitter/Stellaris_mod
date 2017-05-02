@@ -1,0 +1,54 @@
+﻿l_english:
+####################################
+# Better Subjects
+# by Lucas Pinheiro Silva
+####################################
+### Policies
+# Taxation of Subjects
+ policy_subjects_taxation:0 "征税"
+ policy_subjects_taxation_desc:0 "保护臣民是我们的责任，但是这不是我们的义务.\n"
+ dont_tax_subjects:0 "免税"
+ dont_tax_subjects_name:0 "免税"
+ dont_tax_subjects_desc:0 "忠诚便是一切.\n\n§E附庸国和保护国不会被征税.§!"
+ tax_vassals:0 "向附庸国征税"
+ tax_vassals_name:0 "向附庸国征税"
+ tax_vassals_desc:0 "向帝国交税是你们的义务.\n\n§E附庸国每月必须缴纳§Y10%§!能源和矿物.但这会影响我们之间关系.§!"
+ tax_protectorates:0 "向保护国征税"
+ tax_protectorates_name:0 "向保护国征税"
+ tax_protectorates_desc:0 "弱者不能在军事上作出贡献，那就必须在经济上作出贡献.\n\n§E保护国每月必须缴纳§Y10%§!能源和矿物.但这会影响我们之间关系.§!"
+ tax_all_subjects:0 "向所有人征税"
+ tax_all_subjects_name:0 "向所有人征税"
+ tax_all_subjects_desc:0 "所有人都必须为帝国服务.\n\n§E附庸国和保护国每月必须缴纳§Y10%§!能源和矿物.但这会影响我们之间关系.§!"
+ # Subsidization of subjects
+ policy_subjects_support:0 "补贴"
+ policy_subjects_support_desc:0 "臣民可以从我们这里享受福利.但能有多少?\n"
+ no_subsidies:0 "不补贴"
+ no_subsidies_name:0 "不补贴"
+ no_subsidies_desc:0 "弱国无权分享我们的财富.\n\n§E这并不会改变我们之间关系§!"
+ subsidize_vassals:0 "补贴附庸国"
+ subsidize_vassals_name:0 "补贴附庸国"
+ subsidize_vassals_desc:0 "给予附庸国经济帮助。\n\n§E附庸国会额外收到§Y5%§!的能源及矿产产量。我们之间的关系将会大大提高。§!\n\n§Y1-5附庸§!\n§R-5%§!的矿物和能量\n§Y6-10附庸§!\n§R-10%§!的矿物和能量\n§Y11及更多附庸§!\n§R-15%§!的矿物和能量\n"
+ subsidize_protectorates:0 "补贴保护国"
+ subsidize_protectorates_name:0 "补贴保护国"
+ subsidize_protectorates_desc:0 "给予保护国科技支持。\n\n§E保护国会额外收到§Y25%§!所有类型研究点。这项科学合作每保护国每月将给予我们§G+10§!的各类研究点存储。我们之间的关系将会大大提高。§!\n\n§G+10§!物理研究(￡physics )每保护国每月\n§G+10§!社会研究(￡society )每保护国每月\n§G+10§!工程研究(￡engineering )每保护国每月"
+ subsidize_all_subjects:0 "补贴所有人"
+ subsidize_all_subjects_name:0 "补贴所有人"
+ subsidize_all_subjects_desc:0 "共同进步共同发展。\n\n§E附庸国会额外收到§Y5%§!的能源及矿产产量，保护国会额外收到§Y25%§!所有类型研究点。我们也将每月得到§G+10§!各类科学研究点存储。我们与所有隶属帝国的关系将大大改善。§!\n\n§Y1-5附庸§!\n§R-5%§!的矿物和能量\n§Y6-10附庸§!\n§R-10%§!的矿物和能量\n§Y11及更多附庸§!\n§R-15%§!的矿物和能量\n\n§G+10§!物理研究(￡physics )每保护国每月\n§G+10§!社会研究(￡society )每保护国每月\n§G+10§!工程研究(￡engineering )每保护国每月"
+### Opinion Modifiers and Static Modifiers
+ opinion_subjects_taxes:0 "税收"
+ opinion_subjects_subsidies:0 "补贴"
+ overlord_subsidies_vassal:0 "领主补贴"
+ overlord_subsidies_vassal_desc:0 "我们的领主给予我们额外矿物和能源以便支持我们的经济。"
+ overlord_subsidies_protectorate:0 "领主补贴"
+ overlord_subsidies_protectorate_desc:0 "我们的领主对我们的科学事业做出了巨大贡献。"
+ subsidizing_vassals_1:0 "补贴附庸"
+ subsidizing_vassals_1_desc:0 "牺牲自己的财富，支援我们附庸的经济。"
+ subsidizing_vassals_2:0 "补贴附庸"
+ subsidizing_vassals_2_desc:0 "牺牲自己的财富，支援我们附庸的经济。"
+ subsidizing_vassals_3:0 "补贴附庸"
+ subsidizing_vassals_3_desc:0 "牺牲自己的财富，支援我们附庸的经济。"
+### Subject Types
+ SUBJECT_tvassal:0 "进贡附庸"
+ SUBJECT_DESC_tvassal:0 "除了加入他们的领主的战争和有限的外交行动外, 进贡附庸需要每月支付§Y10%§!的能源及矿物给他们的领主 - 这会让他们不高兴。"
+ SUBJECT_tprotectorate:0 "进贡保护国"
+ SUBJECT_DESC_tprotectorate:0 "进贡保护国不能被整合，领主要保障他们独立，不过能以§Y50%§!价格研究领主的已知科技。这样的好处是每月需支付§Y10%§!能量及矿产。当研究§Y40%§!领主科技后会变成附庸。"

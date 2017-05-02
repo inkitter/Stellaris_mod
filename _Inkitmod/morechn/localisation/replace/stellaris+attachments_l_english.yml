@@ -1,0 +1,27 @@
+﻿l_english:
+
+ ####################################
+ # Army.Attachments
+ ####################################
+ 
+ #Starting
+ army_attachment_engineering_squads:0 "工兵班"
+ army_attachment_engineering_squads_desc:0 "工程兵携带多种设备，使他们能够快速部署的防御工事和战壕。\n\n"
+ army_attachment_artillery_squads:0 "炮兵班"
+ army_attachment_artillery_squads_desc:0 "呼叫火炮连来轰击敌人的阵地。\n\n"
+ 
+ #Tech Dependant
+ army_attachment_powered_exoskeletons:0 "动力外骨骼"
+ army_attachment_powered_exoskeletons_desc:0 "动力外骨骼提高了军队生存能力。\n\n"
+ 
+ army_attachment_cybernetic_implants:0 "芯片植入"
+ army_attachment_cybernetic_implants_desc:0 "芯片植入提高了军队的作战能力。\n\n"
+ 
+ army_attachment_chemical_stimulants:0 "兴奋剂"
+ army_attachment_chemical_stimulants_desc:0 "兴奋剂提高了军队的作战能力。\n\n"
+ 
+ army_attachment_shield_generators:0 "护盾发生器"
+ army_attachment_shield_generators_desc:0 "个人护盾保护，提高了军队生存能力。\n\n"
+ 
+ army_attachment_aircraft_support:0 "空中支援"
+ army_attachment_aircraft_support_desc:0 "允许地面部队呼叫空中支援。\n\n"

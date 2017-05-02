@@ -1,0 +1,31 @@
+﻿l_english:
+
+ mem_lex_ring_chain_title:0 "传感器异常阿尔法"
+ mem_lex_ring_chain_desc:0 "有些东西干扰了我们对这地方的空间扫描，在这里可能会有一些值得我们关注的东西。"
+
+ mem_lex_grave_chain_title:0 "传感器异常贝塔"
+ mem_lex_grave_chain_desc:0 "有些东西干扰了我们对这地方的空间扫描，在这里可能会有一些值得我们关注的东西。"
+
+ mem_lex_garden_chain_title:0 "传感器异常伽马"
+ mem_lex_garden_chain_desc:0 "有些东西干扰了我们对这地方的空间扫描，在这里可能会有一些值得我们关注的东西。"
+
+ mem_ring_guardian_poi:0 "兴趣点"
+ mem_ring_guardian_poi_desc:0 "发现传感器异常的起源。"
+
+ mem_grave_guardian_poi:0 "兴趣点"
+ mem_grave_guardian_poi_desc:0 "发现传感器异常的起源。"
+
+ mem_garden_guardian_poi:0 "兴趣点"
+ mem_garden_guardian_poi_desc:0 "发现传感器异常的起源。"
+
+ mem_lex_init.3.name:0 "站在巨人肩膀上"
+ mem_lex_init.3.desc:0 "我们的报告指出在最近的传感器硬件升级后，他们收到了来自附近星系的边缘地带的奇怪能量读书。而且这些星系甚至不在我们星图之内。民间有声音要求进行远征探索..."
+ mem_lex_init.3.a:0 "我们会派人调查此事。"
+
+ mem_lex_init.4.name:0 "站在巨人肩膀上"
+ mem_lex_init.4.desc:0 "我们的报告指出在最近的传感器硬件升级后，他们收到了来自附近星系的边缘地带的奇怪能量读书。而且这些星系甚至不在我们星图之内。民间有声音要求进行远征探索..."
+ mem_lex_init.4.a:0 "我们会派人调查此事。"
+
+ mem_lex_init.5.name:0 "站在巨人肩膀上"
+ mem_lex_init.5.desc:0 "我们的报告指出在最近的传感器硬件升级后，他们收到了来自附近星系的边缘地带的奇怪能量读书。而且这些星系甚至不在我们星图之内。民间有声音要求进行远征探索..."
+ mem_lex_init.5.a:0 "我们会派人调查此事。"

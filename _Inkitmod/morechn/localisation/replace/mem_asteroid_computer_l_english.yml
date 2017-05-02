@@ -1,0 +1,11 @@
+﻿l_english:
+ mem_asteroid_computer_category:0 "小行星型计算机"
+ mem_asteroid_computer_category_desc:0 "在[From.GetName]的小行星似乎由一个巨大的难以置信的复杂的计算机系统组成。这将需要一些时间来分析。"
+
+ mem_asteroid_computer.11.name:0 "不可思议的机器"
+ mem_asteroid_computer.11.desc:0 "这个计算机的复杂性远远超出我们最聪明的头脑的理解能力。虽然我们能够确定机器的构架似乎基于某种外星神经网络形式，我们还没能够确定创造它的人是用来解决什么理论的问题。"
+ mem_asteroid_computer.11.a:0 "我们永远不会知道..."
+
+ mem_asteroid_computer.10.name:0 "魔鬼演算"
+ mem_asteroid_computer.10.desc:0 "这是个复杂只专注于单一的数学方程式。在最好的[Root.Owner.GetSpeciesName]的计算机的剩余存储记忆里，人们意识到一个问题，并一致回应说，系统在试图证明宇宙只不过是个模拟器。\n\n但是最复杂的部分被损坏了。这里包含着长期数据存储，对于被破坏的缘由可能有所答案。所有迹象表明在小行星的关键系统的部分被蓄意破坏。也许是有人对机器的发现表示不满。尽管如此，但它大多数计算能力仍然完好保留下来。我们的设备与外星设备的接口吻合可以让它作为我们一个研究辅助工具。"
+ mem_asteroid_computer.10.a:0 "我们的宇宙是场游戏？荒谬！"

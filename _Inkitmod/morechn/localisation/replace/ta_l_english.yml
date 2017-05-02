@@ -1,0 +1,154 @@
+﻿l_english:
+
+# Perks
+
+ta_ap_precursorproduction:0 "先驱的承诺"
+ta_ap_precursorproduction_desc:0 "古老的科技奇迹不应该被遗忘在历史的垃圾桶里。我们要用失传的知识重塑往日的光辉。"
+
+ta_ap_cityuponahill:0 "山巅之城"
+ta_ap_cityuponahill_desc:0 "我们将成为银河之光，无论是希望的灯塔还是净化的烈焰。"
+
+ta_ap_supremacy_over_nature:0 "权力的本质"
+ta_ap_supremacy_over_nature_desc:0 "放开双手，掌握未来。"
+
+ta_ap_fasterthanftlwarp:0 "更快的FTL"
+ta_ap_fasterthanftlwarp_desc:0 "掌握空间就是掌握了一切。"
+
+ta_ap_fasterthanftlhyper:0 "更快的FTL"
+ta_ap_fasterthanftlhyper_desc:0 "犹如聪明的蜘蛛，方能在网中遨游。"
+
+ta_ap_fasterthanftlworm:0 "更快的FTL"
+ta_ap_fasterthanftlworm_desc:0 "两点之间重叠最短，因为直线为零。"
+
+ta_ap_fasterthanftljump:0 "虚空之旅"
+ta_ap_fasterthanftljump_desc:0 "我犹如一片叶，随风翱翔。"
+
+ta_ap_fasterthanftljumphyper:0 "虚空之旅"
+ta_ap_fasterthanftljumphyper_desc:0 "我犹如一片叶，随风翱翔。"
+
+
+# Techs
+
+ta_tech_repeatable_ascension_perks:0 "再现飞升"
+ta_tech_repeatable_ascension_perks_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_5:0 "再现飞升"
+ta_tech_ascension_perk_5_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_6:0 "再现飞升"
+ta_tech_ascension_perk_6_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_7:0 "再现飞升"
+ta_tech_ascension_perk_7_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_8:0 "再现飞升"
+ta_tech_ascension_perk_8_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_9:0 "再现飞升"
+ta_tech_ascension_perk_9_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_10:0 "再现飞升"
+ta_tech_ascension_perk_10_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_11:0 "再现飞升"
+ta_tech_ascension_perk_11_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_12:0 "再现飞升"
+ta_tech_ascension_perk_12_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_13:0 "再现飞升"
+ta_tech_ascension_perk_13_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_14:0 "再现飞升"
+ta_tech_ascension_perk_14_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_15:0 "再现飞升"
+ta_tech_ascension_perk_15_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_16:0 "再现飞升"
+ta_tech_ascension_perk_16_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_17:0 "再现飞升"
+ta_tech_ascension_perk_17_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+ta_tech_ascension_perk_18:0 "再现飞升"
+ta_tech_ascension_perk_18_desc:0 "时间是个圆。我们所做的一切，或将要做的一切，我们将其做了一遍又一遍。直到永远。"
+
+
+
+# Buildings
+
+
+ta_building_precursor_power:0 "大角星零点反应堆"
+ta_building_precursor_power_desc:0 "先驱建筑: 每颗星球限制一座。\n\n与传统零点反应堆不同的是，该设施是直接从真实亚空间的时间里汲取真空能量，而不是人造的亚空间的时间汲取。这相当棘手。\n\n警告:这会与同一颗星球上的其他先驱建筑产生共鸣，然后导致反应堆超载发生爆炸，从而撕裂宇宙形成一个可怕的裂缝。"
+ta_building_precursor_minerals:0 "亚空间粒子装配厂"
+ta_building_precursor_minerals_desc:0 "先驱建筑: 每颗星球限制一座。\n\n利用超相位仪器将光子变为基本粒子，然后注入矩阵电容器之中。\n\n警告:这会与同一颗星球上的其他先驱建筑产生共鸣，继而使得继电器发生极性转换使其产生可怕的闪电球。"
+ta_building_precursor_food:0 "传统培植穹顶"
+ta_building_precursor_food_desc:0 "先驱建筑: 每颗星球限制一座。\n\n利用有机材料与非重叠反超光速脉冲加快细胞生长。\n\n警告:这会与同一颗星球上的其他先驱建筑产生共鸣，从而产生可怕的时间乱流，以致该星球时间处于极端混乱之中。"
+ta_building_precursor_research:0 "欧米茄三网络"
+ta_building_precursor_research_desc:0 "先驱建筑: 每颗星球限制一座。\n\n利用多重复杂的核心串联成一个巨大而又复杂的网络。\n\n警告:这会与同一颗星球上的其他先驱建筑产生共鸣，从而产生剧烈的爆炸，进而使得星球处于危机之中。"
+ta_building_precursor_unity:0 "唤回奥普"
+ta_building_precursor_unity_desc:0 "先驱建筑: 每颗星球限制一座。\n\n让旅客通过植入记忆方式体验他人的生活。\n\n警告:这会与同一颗星球上的其他先驱建筑产生共鸣，对该星球的所有人口造成不可挽回的损伤，从而使得帝国陷入危机之中。"
+
+
+# Misc
+ta_requires_ascension_perks_4:1 "$TRIGGER_FAIL$需要四个飞升之槽作为选择。"
+ta_requires_ascension_perks_5:1 "$TRIGGER_FAIL$需要五个飞升之槽作为选择"
+
+ta_requires_ap_ftl_nonhyper:1 "$TRIGGER_FAIL$需要§Y$ta_ap_fasterthanftlwarp$§!飞升之槽。"
+ta_requires_ap_ftl_hyper:1 "$TRIGGER_FAIL$需要§Y$ta_ap_fasterthanftlhyper$§!飞升之槽。"
+
+ta_requires_technology_galactic_administration:0 "$TRIGGER_FAIL$需要£society  §Y$tech_galactic_administration$§!科技。"
+ta_requires_technology_warp:0 "$TRIGGER_FAIL$需要£physics  §Y$tech_warp_drive_1$§!科技。"
+ta_requires_technology_hyper:0 "$TRIGGER_FAIL$需要£physics  §Y$tech_hyper_drive_1$§!科技。"
+ta_requires_technology_worm:0 "$TRIGGER_FAIL$需要£physics  §Y$tech_wormhole_generation_1$§!科技。"
+ta_requires_technology_jump:0 "$TRIGGER_FAIL$需要£physics  §Y$tech_jump_drive_1$§!科技或£society  §Y$tech_psi_jump_drive_1$§!科技。"
+
+ta_requires_mastery_of_nature:1 "$TRIGGER_FAIL$需要§Y$ap_mastery_of_nature$§!飞升之槽。"
+ta_ap_supremacy_over_nature_enabled:2 "清除现有星球上的障碍。"
+
+ta_allow_precursor_power:0 "§H解锁建筑:§! 大角星零点反应堆"
+ta_allow_precursor_minerals:0 "§H解锁建筑:§! 亚空间粒子装配厂"
+ta_allow_precursor_food:0 "§H解锁建筑:§! 传统培植穹顶"
+ta_allow_precursor_research:0 "§H解锁建筑:§! 欧米茄三网络"
+ta_allow_precursor_unity:0 "§H解锁建筑:§! 唤回奥普"
+
+ta_ap_synthetic_assimilation:0 "飞升的礼物"
+ta_ap_synthetic_assimilation_desc:0 "他们称之为'怪物'。我们并不是那样的东西。我们进化到完美之物，但在别人眼中形如'怪物'。"
+
+ta_allow_edict_assimilate:0 "§H解锁法令:§! 强迫飞升"
+ta_describe_edict_assimilate:0 "强制将所有在你帝国的非机器的外来物种转化为合成人。"
+
+ta_allow_pol_assimilate:0 "§H解锁政策:§! 给予飞升"
+ta_describe_pol_assimilate:0 "允许将在你帝国的非机器的外来物种转化成你主流的物种。"
+
+ta_requires_ap_synthetic_evolution:0 "$TRIGGER_FAIL$需要§Y$ap_synthetic_evolution$§!飞升之槽。"
+ta_pop_boo_assimilation:0 "你对我做了什么？"
+ta_pop_hooray_assimilation:0 "拥抱完美"
+ta_pop_mildly_peeved_assimilation:0 "愤怒"
+ta_opinion_assimilated_our_species:0 "同化我们的物种"
+ta_opinion_assimilated:0 "智械危机"
+
+edict_ta_edict_assimilate:0 "强迫飞升"
+edict_ta_edict_assimilate_desc:1 "任何非机器的人口将被转化为机器人，哪怕是不愿意的。"
+
+ta_event.20.name:0 "综合飞升要求"
+ta_event.20.desc:0 "随着我们的伟大的国家不断扩张，越来越多的人钦佩合成人的效率。一个在[Root.Planet.GetName]的外星组织的[Root.GetSpeciesName]物种要求我们帮助他们摆脱落后的生物形式并加入我们的飞升行列。"
+ta_event.20.a:0 "我们不会否认他们的飞升。"
+ta_event.20.a.tooltip:0 "在[Root.Planet.GetName]的人口[Root.GetSpeciesName]加入了[Root.Planet.Owner.GetSpeciesName]。"
+ta_event.20.b:0 "他们还没有准备好。"
+ta_event.20.b.tooltip:0 "在[Root.Planet.GetName]的[Root.GetSpeciesName]人口拒绝飞升。"
+ta_pop_hooray_ascension:0 "获得飞升"
+ta_pop_whatgivesbro:0 "拒绝飞升"
+
+policy_ta_pol_grant_ascension:0 "给予飞升"
+policy_ta_pol_grant_ascension_desc:0 "飞升是进化的必经之路，人人都喜欢。"
+
+grant_ascension_not_allowed:0 "否认"
+grant_ascension_not_allowed_desc:0 "他们反对这种飞升之道。"
+
+grant_ascension_manual:0 "手动"
+grant_ascension_manual_desc:0 "所有参与飞升之人，必须得到你的批准。"
+
+grant_ascension_automatic:0 "自动"
+grant_ascension_automatic_desc:0 "人人都可以参与飞升之道。"

@@ -1,0 +1,100 @@
+﻿l_english:
+ 
+ GIANT_MATTER_DISINTEGRATOR:0 "巨型物质粉碎机"
+ GIANT_MATTER_DISINTEGRATOR_DESC:0 "利用我们对第五维的研究深入可以提高物质分解者的潜在破坏力。"
+ 
+ TITAN_ARC_EMITTER_PROTOTYPE:0 "原型泰坦电弧发射器"
+ TITAN_ARC_EMITTER_PROTOTYPE_DESC:0 "一个强大的版本的聚焦发射器，这种武器发射了一个强大力量的闪电弧，忽视装甲和护盾。"
+ 
+ TITAN_ARC_EMITTER:0 "泰坦电弧发射器"
+ TITAN_ARC_EMITTER_DESC:0 "一个更强大的版本的聚焦发射器，这种武器发射了一个强大力量的闪电弧，忽视装甲和护盾。"
+ 
+ DRAGON_BREATH:0 "龙之吐息"
+ DRAGON_BREATH_DESC:0 "通过研究利维坦背后的科学，我们可以百分百模拟这种武器的音效效果。"
+ 
+ SOLAR_DISRUPTORS:0 "太阳阻扰者"
+ SOLAR_DISRUPTORS_DESC:0 "干扰技术与太阳风粒子的结合，我们可以创造出带电粒子用于去除目标的护盾的一个人工太阳风。"
+ 
+ TERROR_CANNON_PROTOTYPE:0 "原型惊悚炮"
+ TERROR_CANNON_PROTOTYPE_DESC:0 "致命的泰坦原型大炮能发射炮弹的威力足以让其异族感动不寒而栗。"
+ 
+ TERROR_CANNON:0 "惊悚炮"
+ TERROR_CANNON_DESC:0 "致命的泰坦大炮能发射炮弹的威力足以让其异族感动不寒而栗。"
+ 
+ TITAN_TORPEDOES:0 "泰坦鱼雷"
+ TITAN_TORPEDOES_DESC:0 "我们可以试图部署一个具有强大溅射效果的鱼雷。"
+ 
+ SCOURGE_ARTILLERY:0 "天灾炮"
+ SCOURGE_ARTILLERY_DESC:0 "研究这些生物武器装备时候产生了新的见解，知道他们是如何能够在太空中发射生物武器。现在我们已经增强了这些武器的性能。"
+ 
+ MASSIVE_AUTOCANNONS:0 "重型自动火炮"
+ MASSIVE_AUTOCANNONS_DESC:0 "全新原型版的自动火炮，更强的火力更远的射程。"
+ 
+ TITAN_MISSILE:0 "泰坦导弹"
+ TITAN_MISSILE_DESC:0 "一种具有智能计算机的实验性导弹，可躲避敌方的拦截命中目标。"
+ 
+ ADVANCED_PLASMA_LAUNCHER:0 "高级等离子发射器"
+ ADVANCED_PLASMA_LAUNCHER_DESC:0 "我们掌握了等离子技术可以将接近恒星温度的等离子炮弹射向敌人。"
+ 
+ PORTAL_GENERATOR:0 "传送门发生器"
+ PORTAL_GENERATOR_DESC:0 "我们高度发达的科学使得我们能通过撕裂时空结构，从未知次元进行对敌打击。"
+ 
+ MYSTERIOUS_WEAPON:0 "神秘武器"
+ MYSTERIOUS_WEAPON_DESC:0 "一种只有先知才能解释的粒子，当它被大量释放时候，会造成可怕伤害。"
+ 
+ tech_titan_weaponry:0 "泰坦武器"
+ tech_titan_weaponry_desc:0 "对付敌人最好的办法就是研究更强大的武器。"
+ 
+ tech_giant_matter_disintegrator:0 "超物质粉碎机"
+ tech_giant_matter_disintegrator_desc:0 "利用我们对第五维的研究深入可以提高物质分解者的潜在破坏力。"
+ 
+ tech_titan_arc_emitter_prototype:0 "泰坦原型电弧发射器"
+ tech_titan_arc_emitter_prototype_desc:0 "一个强大的版本的聚焦发射器，这种武器发射了一个强大力量的闪电弧，忽视装甲和护盾。"
+ 
+ tech_titan_arc_emitter:0 "泰坦电弧发射器"
+ tech_titan_arc_emitter_desc:0 "一个更强大的版本的聚焦发射器，这种武器发射了一个强大力量的闪电弧，忽视装甲和护盾。"
+ 
+ tech_dragon_breath:0 "龙之吐息"
+ tech_dragon_breath_desc:0 "通过研究利维坦背后的科学，我们可以百分百模拟这种武器的音效效果。"
+ 
+ tech_solar_disruptors:0 "太阳阻扰者"
+ tech_solar_disruptors_desc:0 "干扰技术与太阳风粒子的结合，我们可以创造出带电粒子用于去除目标的护盾的一个人工太阳风。"
+ 
+ tech_terror_cannon_prototype:0 "原型惊悚炮"
+ tech_terror_cannon_prototype_desc:0 "致命的泰坦原型大炮能发射炮弹的威力足以让其异族感动不寒而栗。"
+ 
+ tech_terror_cannon:0 "惊悚炮"
+ tech_terror_cannon_desc:0 "致命的泰坦大炮能发射炮弹的威力足以让其异族感动不寒而栗。"
+ 
+ tech_titan_torpedoes:0 "泰坦鱼雷"
+ tech_titan_torpedoes_desc:0 "我们可以试图部署一个具有强大溅射效果的鱼雷。"
+
+ tech_scourge_artillery:0 "天灾炮"
+ tech_scourge_artillery_desc:0 "研究这些生物武器装备时候产生了新的见解，知道他们是如何能够在太空中发射生物武器。现在我们已经增强了这些武器的性能。"
+ 
+ tech_massive_autocannons:0 "重型自动火炮"
+ tech_massive_autocannons_desc:0 "全新原型版的自动火炮，更强的火力更远的射程。"
+
+ tech_titan_missile:0 "泰坦导弹"
+ tech_titan_missile_desc:0 "一种具有智能计算机的实验性导弹，可躲避敌方的拦截命中目标。"
+ 
+ tech_advanced_plasma_launcher:0 "高级等离子发射器"
+ tech_advanced_plasma_launcher_desc:0 "我们掌握了等离子技术可以将接近恒星温度的等离子炮弹射向敌人。"
+ 
+ tech_portal_generator:0 "传送门发生器"
+ tech_portal_generator_desc:0 "我们高度发达的科学使得我们能通过撕裂时空结构，从未知次元进行对敌打击。"
+ 
+ tech_mysterious_weapon:0 "神秘武器"
+ tech_mysterious_weapon_desc:0 "一种只有先知才能解释的粒子，当它被大量释放时候，会造成可怕伤害。"
+ 
+ titan_weapons.2.name:0 "泰坦武器研究"
+ titan_weapons.2.desc:0 "我们的情报表明§H[From.GetName]§!开展了超大型武器秘密研究。泄密者认为这些武器 - 从理论直到现在才确认 - 具有非常强大的毁灭性，这对我们国家安全构成巨大威胁。但为什么§H[From.GetSpeciesName]§!会研究这些武器？我们必须采取措施针对这次背叛行为。"
+ titan_weapons.2.a:0 "苦难的岁月..."
+ 
+ titan_weapons.4.name:0 "巨型武器"
+ titan_weapons.4.desc:0 "将我们所知道一切用于实际，我们认为我们可以建造它们。拥有这些武器，能使得我们在战局中处于绝对主导权。"
+ titan_weapons.4.a:0 "我们敌人终将毁灭。"
+ 
+ titan_weapons.6.name:0 "次元突破！"
+ titan_weapons.6.desc:0 "我们科学家曾怀疑了一段时间，我们与其他次元的壁垒削弱可能是我们的传送门发生器造成。不过所幸的是，我们在纠正设备问题之前，这一切...的东西，跨入我们的维度。我们应该重新评估我们的武器使用后的问题，但首先把这个东西送回他来的地方。"
+ titan_weapons.6.a:0 "战斗岗位！"

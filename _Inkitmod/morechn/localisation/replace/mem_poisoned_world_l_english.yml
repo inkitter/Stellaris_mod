@@ -1,0 +1,17 @@
+﻿l_english:
+ ##Poisoned World
+ #Idea and writing by shockedsystem
+ #Code by LamilLerran
+ mem_poisoned_world_category:0 "剧毒的世界"
+ mem_poisoned_world_category_desc:0 "[Root.GetPlanetMoon]，虽然现在被剧毒气体覆盖着，但显然是曾经居住着高度工业化的种族。死亡城市在地表清晰可见。"
+ mem_poisoned_world.100.name:0 "离开"
+ mem_poisoned_world.100.desc:0 "我们对[From.GetName]的被遗弃的城市检查揭示一个谜底。而不是通过寻找数百万尸体的证据，科学家[This.GetLeaderName]得出结论是[From.GetPlanetMoon]被遗弃的。巨大， 匆促建造的运输线路蜿蜒穿过景观并且在几个主要城市的墙壁指示公民如何被撤离的指导。\n\n接下来发生的事情至今还不明。没有明显证据显示他们有太空计划，唯一可能答案可能在运输网络的中心的奇怪的拱门。这可能有个我们未知的空间旅行方式，但这些设备暴露在这种腐蚀性极强的环境下几个世纪，早已经解体了。我们永远无法了解这些拱门运行方式，但是眼前的一切让我们为之一亮。"
+ mem_poisoned_world.100.a:0 "分析剩下的东西。"
+ mem_poisoned_world.101.name:0 "集体疯狂"
+ mem_poisoned_world.101.desc:0 "我们科学家团队从探索[From.GetName]的过程报道一个惊人发现。这里剧毒气体和放射性云并不是事故或者自然灾害造成的。这些大量的有毒的污染物在测试中发现含有几种先进的神经毒素，而且在工厂附近发现大量被使用过的钴。唯一能解释这种情况的是[From.GetPlanetMoon]是故意污染自己的天空的。\n\n散落的碎片和残留的能源武器的证据表明这里曾有过一个围绕这个星球的轨道战争。也许是一个来自外部的威胁，而这里人不希望战斗。他们的核反应被永久记录在这个世界的地质中。在数百公里的土地正向外人述说着可怕的历史。"
+ mem_poisoned_world.101.a:0 "奇怪的是这能鼓舞人心。"
+ mem_poisoned_world.200.name:0 "蜂巢"
+ mem_poisoned_world.200.desc:0 "这个星球上的城市，原来是巨大的蜂巢，是数以百万计的飞行生物的家园。许多飞行怪物聚集于[This.GetName]，对本来低空飞行的科研船进行撕咬。虽然科研船逃脱了，但是对船身造成轻微损伤。所以对这里动物进行进一步调查是不可取的。"
+ mem_poisoned_world.200.a:0 "让我们不要再这样做。"
+ mem_poisoned_world.200.a.tooltip:0 "[This.GetName]有轻微损伤。"
+ 

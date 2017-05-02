@@ -1,0 +1,22 @@
+﻿l_english:
+ mem_DRONE_HANGAR:0 "守墓者无人机机库 I"
+ mem_AWAKENED_DRONE_HANGAR:0 "守墓者无人机机库 II"
+ 
+ mem_AURA_MINEFIELD:0 "守望者亚空间地雷"
+ mem_AURA_SHIELD_RECHARGER:0 "守望者电容场"
+
+ mem_PROGENITOR_DRIVE:0 "原祖FTL核心"
+ mem_PROGENITOR_THRUSTER:0 "原祖惰性引擎"
+ mem_PROGENITOR_SENSOR:0 "原祖传感阵列"
+ 
+ mem_PROGENITOR_CPU_XS:0 "原祖AI核心"
+ mem_PROGENITOR_CPU_S:0 "原祖AI核心"
+ mem_PROGENITOR_CPU_M:0 "原祖AI核心"
+ mem_PROGENITOR_CPU_L:0 "原祖AI核心"
+ 
+ mem_PROGENITOR_POWER_CORE:0 "原祖堕落反应堆"
+ mem_PROGENITOR_SHIELD:0 "原祖护盾投影仪"
+ 
+ mem_PROGENITOR_RECHARGER:0 "原祖护盾发生器"
+ mem_PROGENITOR_REPAIR:0 "原祖修复系统"
+ mem_THRONE_DISRUPTION_FIELD:0 "守望者干扰场"

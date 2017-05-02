@@ -1,0 +1,9 @@
+﻿l_english:
+ MEM_A_STAR_SURVEY:0 "研究A类型恒星"
+ MEM_A_STAR_SURVEY_DESC:0 "对蓝色恒星进行研究。"
+ MEM_K_STAR_SURVEY:0 "研究K类型恒星"
+ MEM_K_STAR_SURVEY_DESC:0 "对橙色恒星进行研究。"
+ MEM_M_STAR_SURVEY:0 "研究M类型恒星"
+ MEM_M_STAR_SURVEY_DESC:0 "对红矮星进行研究。"
+ MEM_RARE_STAR_SURVEY:0 "研究致密的恒星"
+ MEM_RARE_STAR_SURVEY_DESC: "对一颗超新星然后崩塌的恒星进行恒星。"

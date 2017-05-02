@@ -1,0 +1,682 @@
+﻿l_english:
+ 
+ ####################################
+ # Events
+ ####################################
+ 
+ # Main Events:
+ 
+ guardian_main.1.name: "守护者事件调整"
+ guardian_main.1.desc: "该事件目的是：一让你选择守护者事件生成概率，二参加NSC自定义守护者功能。\n\n这个事件让你决定是否允许NSC自定义守护者功能启用。当你启用之后，在你打败守护者之后，会有一系列事件让你解锁并自定义自己的守护者。如果你不要，也可有得选择。\n\n一旦你确定使用，你还有机会进行单独的个性化调整，比如出现在你的母星概率，或者其他地方概率等等。\n\n请注意，你必须先选择是否，然后才能进行其他选择。"
+ 
+ NSC_guardian_main.1.a: "是的，我想玩守护者事件。"
+ NSC_guardian_main.1.b: "不，我不想玩守护者事件。"
+ 
+ guardian_main.3.name: "禁止守护者事件"
+ guardian_main.3.desc: "§R警告！这将禁用当前游戏中可玩的守护者事件。你确定继续？§!"
+ 
+ NSC_guardian_main.3.a: "是的，我确定。禁止守护者事件。"
+ NSC_guardian_main.3.b: "不，我还是想玩守护者事件。"
+ 
+ guardian_main.4.name: "推迟守护者事件"
+ guardian_main.4.desc: "这将推迟§Y一年之后§!才触发守护者事件。你确定继续？"
+ 
+ NSC_guardian_main.4.a: "是的，推迟。"
+ NSC_guardian_main.4.b: "不，不推迟。"
+ 
+ NSC_guardian_activate_tooltip: "此选项将激活NSC守护者自定义功能，让你自由定义你的守护者。"
+ NSC_guardian_deactivate_tooltip: "此选项将禁止NSC守护者自定义功能，使得守护者维持原来样子。"
+ 
+ guardian_main.102.name: "守护者生成概率修改"
+ guardian_main.102.desc: "该事件决定了在你星系出现守护者的总概率（除了保留的原始值的地方）。0%意味着永不生成，100% 则是一定会出现。你的选择是§Y最终的§!，这意味着它将会影响所有守护者事件。如果你想单独定制，请进行适当选择。\n\n§R重要：请注意，会有一个特殊事件让所有玩家都可以找到，战胜，研究和使用所有守护者，这就是该事件的功能...如果你想的话。如果你想通过该事件找到并启用的话，我强烈建议所有玩家请确保守护者都存在你的星系中。§!"
+ 
+ NSC_guardian_main.102.a: "我要0% 生成概率修改给守护者。"
+ NSC_guardian_main.102.b: "我要25% 生成概率修改给守护者。"
+ NSC_guardian_main.102.c: "我要50% 生成概率修改给守护者。"
+ NSC_guardian_main.102.d: "我要75% 生成概率修改给守护者。"
+ NSC_guardian_main.102.e: "我要100% 生成概率修改给守护者。"
+ NSC_guardian_main.102.f: "我想单独定制。"
+ 
+ guardian_main.1001.name: "没有守护者系统"
+ guardian_main.1001.desc: "你选择了§Y0% 生成概率修改§!给所有守护者事件。这将意味着本局游戏将无任何守护者事件。你确定继续？"
+ 
+ NSC_guardian_main.1001.a: "是的，设置§Y0% 生成概率修改§!"
+ NSC_guardian_main.1001.b: "不，我想要其他不同的"
+ 
+ NSC_guardian_main.110.a: "我要§Y0% 生成概率修改§!给守护者。"
+ NSC_guardian_main.110.b: "我要§Y25% 生成概率修改§!给守护者。"
+ NSC_guardian_main.110.c: "我要§Y50% 生成概率修改§!给守护者。"
+ NSC_guardian_main.110.d: "我要§Y75% 生成概率修改§!给守护者。"
+ NSC_guardian_main.110.e: "我要§Y100% 生成概率修改§!给守护者。"
+ 
+ guardian_main.110.name: "无畏战舰"
+ guardian_main.110.desc: "此事件是第一个开始，将允许你有自定义生成每个守护者的概率。(不影响原来的功能)\n\n该事件将确定关于§R无畏战舰§!的生成概率。"
+ guardian_main.120.name: "位面之魇"
+ guardian_main.120.desc: "该事件将确定关§M位面之魇§!的生成概率。"
+ guardian_main.130.name: "神秘堡垒"
+ guardian_main.130.desc: "该事件将确定关§E神秘堡垒§!的生成概率。"
+ guardian_main.140.name: "以太龙"
+ guardian_main.140.desc: "该事件将确定关§S以太龙§!的生成概率。"
+ guardian_main.150.name: "虫群"
+ guardian_main.150.desc: "该事件将确定关§L虫群§!的生成概率。"
+ guardian_main.160.name: "噬星者"
+ guardian_main.160.desc: "该事件将确定关§Y噬星者§!的生成概率。"
+ guardian_main.170.name: "无限神机"
+ guardian_main.170.desc: "该事件将确定关§G无限神机§!的生成概率。"
+ guardian_main.180.name: "幽魂"
+ guardian_main.180.desc: "该事件将确定关§B幽魂§!的生成概率。"
+ 
+ guardian_main.2.name: "守护者库"
+ guardian_main.2.desc: "Your scientists have learned much from your explorations and exploits in the galaxy. From the rumors, whispers, and tales of the galaxy told from Enclaves to wandering travelers to the legends of species' bed time stories, your people have discovered the Leviathans, ancient and deadly creatures and vessels that wander the galaxy in far distant systems, mysterious and powerful relics of a lost time that are waiting to be exploited.\n\nThis event 'menu' is a repository of all the Guardians you have defeated personally, and can now grow/built for your own purposes. This menu will hold up to 7 of the 8 major Guardians (Hive Asteroids being the exception) plus a new Pirate Guardian (if you can grab it first) that you can defeat, but until you personally defeat the Guardian, the option to grow/build them in this repository will remain locked. Select one of your previously conquered Guardians below to receive one. If you don't want another Guardian at this time, there is an option to postpone or end the Playable Guardian feature below.\n\n§RWARNING! You can only have one Guardian at any given time, so make your selection carefully. If you accidentally press any of the options below (especially the postpone or terminate options), there is a safeguard after these options to allow you to return here. Once your Guardian dies, you will return here to either select the same Guardian again, research a different one of your choosing that you have researched, or postpone/end the feature.§!"
+ 
+ NSC_guardian_main.2.a: "我要§R无畏战舰§!！" #Red
+ NSC_guardian_main.2.b: "我要§M位面之魇§!！" #Purple
+ NSC_guardian_main.2.c: "我要§E神秘堡垒§!！" #Light Blue
+ NSC_guardian_main.2.d: "我要§S以太龙§!！" #Orange
+ NSC_guardian_main.2.e: "我要§Y噬星者§!！" #Yellow
+ NSC_guardian_main.2.f: "我要§G无限神机§!！" #Green
+ NSC_guardian_main.2.g: "我要§B幽魂§!！" #Blue
+ NSC_guardian_main.2.h: "I would like to postpone for now。"
+ NSC_guardian_main.2.i: "I would like to end Playable Guardians。"
+ 
+ NSC_guardian_main_tooltip: "Enables Event: §YPlayable Guardian Repository§!"
+ NSC_guardian_main_postpone_tooltip: "Delays §YPlayable Guardian Repository§! one year。"
+ NSC_guardian_main_disable_tooltip: "Permenantly disables §YPlayable Guardian Repository§!"
+ 
+ NSC_guardian_automated_dreadnought_tooltip: "Allows for construction of an §RAutomated Dreadnought§!。"
+ NSC_guardian_dimensional_horror_tooltip: "Allows for summoning of a §MDimensional Horror§!。"
+ NSC_guardian_enigmatic_fortress_tooltip: "Allows for building of an §EEnigmatic Fortress§!。"
+ NSC_guardian_ether_drake_tooltip: "Allows for growing of a §SDragonfire Drake§!。"
+ NSC_guardian_stellarite_tooltip: "Allows for birthing of a §YStellarite§!。"
+ NSC_guardian_technosphere_tooltip: "Allows for assembling of a §GTechnosphere§!。"
+ NSC_guardian_wraith_tooltip: "Allows for the creation of a §BWraith§!。"
+ 
+ guardian_backout.1.a: "Actually, I've changed my mind. 我想要different Guardian。"
+ 
+ # Automated Dreadnought Events:
+ 
+ guardian_dreadnought.2.a: "我要§RAutomated Dreadnought§!。"
+ guardian_dreadnought.2.b: "我要different Guardian for now。"
+ guardian_dreadnought.2.c: "I already have a Guardian, perhaps later。"
+ guardian_dreadnought.3.a: "我要original white §RAutomated Dreadnought§!！"
+ guardian_dreadnought.3.b: "I want the alternative §RAutomated Dreadnought§!！"
+ 
+ guardian_dreadnought.2.name: "Dreadnought Defeated"
+ guardian_dreadnought.2.desc: "The people of the [Root.GetName] rejoice as the mighty §RAutomated Dreadnought§! has been destroyed by the brave men and women of [This.GetName]. Your research teams are already turning what remains of the Dreadnought upside down and studying the ruins on the habitable worlds in this system, and have already found many interesting discoveries, including what they hope is the means to build an §RAutomated Dreadnought§! of our own if you are interested.\n\n§GBefore selecting anything on either event - 'Dreadnought Defeated' or 'Dreadnought Disabled', read the following:\n\nThe 'Dreadnought Defeated' event message (this one) is from NSC and allows you direct access to 2 different color schemes for the Dreadnought, with increased HP and other benefits (one a surprise), while the original special project found on the Dreadnought, 'Dreadnought Disabled' event is the vanilla one. It takes a very long time to finish, and the only bonus you get there is additional weaponry damage, and you cannot replace this dreadnought. You can decide for yourself what to do with the original Dreadnought chain.§!"
+ 
+ guardian_dreadnought.3.name: "Dreadnought Initialive"
+ guardian_dreadnought.3.desc: "Our researchers have learned much about the §RAutomated Dreadnoughts§!. With the research our scientists and technicians have pulled from the Automated Dreadnought and its creator's worlds, we can now build and control our own Dreadnought and even include the AI functionality without worry of corruption. Our technicians have studied the AI from both ships and the data collected in the [dreadnought_system.GetName] System, and can limit it's control over the ship, so it does certain get functions (with manual overrides) and a large crew compliment will handle the rest, especially life support. It's still automated, just not dependent on it.\n\nFinally, given the large crew compliment required, expensive tech, and overall resource costs of the massive §RAutomated Dreadnought§!, your people will only support one being active at any given time, but we can create either version of the §RAutomated Dreadnought§! at your command。"
+ 
+ guardian_dreadnought.4.name: "Dreadnought Launched"
+ guardian_dreadnought.4.desc: "Our engineers have finished and successfully launched our own §RAutomated Dreadnought§!. With the crew ready, the ship AI properly functioning under our directive, and enough firepower to take on a fleet, the §RAutomated Dreadnought§! is ready to defend the empire at your command。"
+ 
+ guardian_dreadnought.5.name: "Dreadnought Destroyed"
+ guardian_dreadnought.5.desc: "Our §RAutomated Dreadnought§! has been destroyed. Your engineers are ready to construct another one if you wish to allow the necessary funding。"
+ 
+ # Dimensional Horror Events:
+ 
+ guardian_horror.2.a: "我想要§MDimensional Horror§!！"
+ guardian_horror.2.b: "I would like another Guardian。"
+ guardian_horror.2.c: "I already have a Guardian, perhaps later。"
+ guardian_horror.3.a: "我想要§MDimensional Horror§!！"
+ 
+ guardian_horror.2.name: "Horror Defeated"
+ guardian_horror.2.desc: "The people of the [Root.GetName] rejoice as the mighty §MDimensional Horror§! has been destroyed by the brave men and women of [FromFrom.GetName]. The beast has fallen back into whatever dimensional realm it came from, leaving us with a tremenous oppertunity. Our scientists believe they can learn from the sounds the Horror made and data gathered from the system and the Horror's portal to not only summon a §MDimensional Horror§!, but control one if you would like。"
+ 
+ guardian_horror.3.name: "Horror Summons"
+ guardian_horror.3.desc: "Our scientists are ready to summon a §MDimensional Horror§! from the dimensional realm. While supremely confident in their ability to summon one, our scientists believe that our best chance at controling one is by summoning a baby Horror. While the baby obviously wouldn't be as powerful as the Horror that we killed previously, even a baby one would be a formidable defense for our empire. Furthermore, due to the nature of the summoning, the risks involved, and the sure power of even a baby Horror, your people are not willing to risk summoning more than one Horror, even a baby, at any given time.\n\nWith this understanding, we are ready to begin the summoning process at your command。"
+ 
+ guardian_horror.4.name: "Horror Arrived"
+ guardian_horror.4.desc: "Our scientists have successfully summoned our own §MDimensional Horror§!. While our 'safeguard' means that the Dimensional Horror is only a baby, our scientists assure us that the beast is still deadlier than our mightiest ships. It's now fully trained and ready to defend our empire at your command!\n\nYou can tell your §MDimensional Horror§! to §Hmove to defend§! another colonized world in your empire using the appropriate planetary edict found on the planet you wish defended。"
+ 
+ guardian_horror.5.name: "Horror Killed"
+ guardian_horror.5.desc: "Our §MDimensional Horror§! has died, and its corpse has fallen back through the wormhole into its dimension. Our scientists can summon another §MDimensional Horror§! if you wish to find a replacement。"
+ 
+ # Enigmatic Fortress Events:
+ 
+ guardian_fortress.2.a: "我要§EEnigmatic Fortress§!！"
+ guardian_fortress.2.b: "I would like a different Guardian。"
+ guardian_fortress.2.c: "I already have a Guardian, perhaps later。"
+ guardian_fortress.3.a: "我要§EEnigmatic Fortress§!！"
+ 
+ guardian_fortress.2.name: "Fortress Conquered"
+ guardian_fortress.2.desc: "With our successful powerdown of the §EEnigmatic Fortress§! and new understanding of it's security, our scientists and technicians how have complete access to the fortress and all it's systems. We have learned much, and believe it may be possible to construct our own with enough time and effort, or you could always choose another Guardian。"
+ 
+ guardian_fortress.3.name: "Fortress Construction"
+ guardian_fortress.3.desc: "Our researchers have learned much from the idle §EEnigmatic Fortress§!, and now not only do we have the knowledge to avoid any hidden security or triggering of defenses, but also to construct our own Fortress. We can build our own §EEnigmatic Fortress§!, however, your advisors will only support the building of one at any given time: between the time, effort, energy, and expensive of building one, not to mention maintaining one, there is also the question that we are building technology we might never fully understand.\n\nWith this in mind, your research teams are ready to build an §EEnigmatic Fortress§! if you wish。"
+ 
+ guardian_fortress.4.name: "Fortress Online"
+ guardian_fortress.4.desc: "Success! We now have a fully powered and operational §EEnigmatic Fortress§!. While our researchers are certain that the limited systems they can control, never mind are aware of our completely under our control, your top minds are still baffled by the technology that has been built. Given the limited control we have, we think we may never actually know the full capabilities of this massive vault, but what we do have is formidable, and is ready to defend the empire at your command.\n\nYou §Ycan move§! your §EEnigmatic Fortress§! to defend another colonized world in your empire using the appropriate planetary edict found on the planet you wish defended。"
+ 
+ guardian_fortress.5.name: "Fortress Destroyed"
+ guardian_fortress.5.desc: "Our §EEnigmatic Fortress§! has been completely and utterly destroyed, with no possibility of the restore system fixing the damage. Your advisors are ready to commission another §EEnigmatic Fortress§! if you wish to receive a replacement。"
+ 
+ # Ether Drake Events:
+ 
+ guardian_dragon.3.a: "我想要Red 以太龙！"
+ guardian_dragon.3.b: "我想要Orange 以太龙！"
+ guardian_dragon.3.c: "我想要Yellow 以太龙！"
+ guardian_dragon.3.d: "我想要Chartreuse 以太龙！"
+ guardian_dragon.3.e: "我想要Green 以太龙！"
+ guardian_dragon.3.f: "我想要Aquamarine 以太龙！"
+ guardian_dragon.3.g: "我想要Cyan 以太龙！"
+ guardian_dragon.3.h: "我想要Azure 以太龙！"
+ guardian_dragon.3.i: "我想要Blue 以太龙！"
+ guardian_dragon.3.j: "我想要Violet 以太龙！"
+ guardian_dragon.3.k: "我想要品红色以太龙！"
+ guardian_dragon.3.l: "我想要Rose 以太龙！"
+ guardian_dragon.3.m: "我想要Voidwalker 以太龙！"
+ 
+ guardian_dragon.2.a: "我要§S以太龙§!！"
+ guardian_dragon.2.b: "I would like a different Guardian。"
+ guardian_dragon.2.c: "I already have a Guardian, perhaps later。"
+ 
+ guardian_dragon.2.name: "Dragon Slain"
+ guardian_dragon.2.desc: "The people of [Root.GetName] rejoice as the mighty §SEther Drake§! has been slain by the brave men and women of [This.GetName]. Our scientists have already begun studying any remains of the Drake and in particular the planet it was guarding. Our researchers discovered an egg on the planet's surface in prestine condition, and our scientists have already begun to look into a means of growing and hopefully training our own Drake, already dubbing it the Dragonfire Project.\n\nWe can look into producing an §SEther Drake§! for our empire if you like, or perhaps another Guardian?"
+ 
+ guardian_dragon.3.name: "Dragon Training"
+ guardian_dragon.3.desc: "Our Dragonfire Project managers are ready to grow and train our very own §SEther Drake§!, named after the project's name, §S龙息蜉蝣§!. While our teams cannot promise these §S龙息蜉蝣§! will be nearly as tough or deadly as the known Drakes, they assure you that this will be a formidable beast to control. Due to the complex nature of growing of the Drake, the trickiness and dangers of training it, the amount of food to feed and sustain it, and the overall expense of the entire process means your people are only willing to support one Drake at any given time.\n\nUnderstanding this, your geneticists have discovered genome that changes the color of the Drakes, therefore, they have managed to find the sequence of many different color variations, and you can choose which you would prefer!"
+ 
+ guardian_dragon.4.name: "Dragon Grown"
+ guardian_dragon.4.desc: "Our Dragonfire Project teams have successfully grown and trained your §SDragonfire Drake§!, and inform you as long as you keep it well fed it will respond to any order... mostly。"
+ 
+ guardian_dragon.5.name: "Dragon Killed"
+ guardian_dragon.5.desc: "Our §SDragonfire Drake§! has been killed, and it's corpse has dissolved into nothingness. Project Dragonfire is ready to grow and train another Dragonfire Drake if you wish to receive a replacement。"
+ 
+ # Stellarite Events:
+ 
+ guardian_stellarite.3.a: "Summon a §YStellarite§!！"
+ guardian_stellarite.2.a: "我想要§YStellarite§! immediately!"
+ guardian_stellarite.2.b: "I would like a different Guardian。"
+ guardian_stellarite.2.c: "I already have a Guardian, perhaps later。"
+ 
+ guardian_stellarite.2.name: "Stellarite Control"
+ guardian_stellarite.2.desc: "The people of the [Root.GetName] rejoice as the mighty §YStellarite§! has been destroyed by the brave men and women of [FromFrom.GetName]. Between the remains of the beast itself and what remains of the star, our scientists believe they can form our own §YStellarite§! and even teach it to not devourer every star in our empire if you would like to control one。"
+ 
+ guardian_stellarite.3.name: "Stellarite Creation"
+ guardian_stellarite.3.desc: "Our research teams have learned much about the §YStellarite§!, and believe they can easily adapt a system to learn a system to train the Stellarite to take what it needs without dimenishing a star. Your advisors only caution that you should give your people ample time to prepare the beast for it's new role, and more importantly, to only try to control one at any given time, to ensure the people that the §YStellarite§! is under your control. Aside from the extra time to be sure it will obey commands, you should have no promblems finding, summoning, and training a §YStellarite§! to defend your empire。"
+ 
+ guardian_stellarite.4.name: "Stellarite Arrived"
+ guardian_stellarite.4.desc: "We have successfully summoned and trained a §YStellarite§!, ready to defend our empire at your command. Your advisors tell you they believe this Stellarite will be fully cooperative, like a pet, as long as we don't deny it the occasional feeding of a star... without destroying it of course。"
+ 
+ guardian_stellarite.5.name: "Stellarite Killed"
+ guardian_stellarite.5.desc: "Our §YStellarite§! has been killed, and it's energy matrix has faded into the cold vaccum of space. Your research teams are ready to form and train another if you wish to find a replacement。"
+ 
+ # Technosphere Events:
+ 
+ guardian_technosphere.3.a: "我想要§G无限神机§!！"
+ guardian_technosphere.2.a: "Excellent. Begin construction immediately。"
+ guardian_technosphere.2.b: "I would prefer a different Guardian。"
+ guardian_technosphere.2.c: "I already have a Guardian, perhaps later。"
+ 
+ guardian_technosphere.2.name: "无限神机的神秘"
+ guardian_technosphere.2.desc: "The people of the [Root.GetName] rejoice as the mighty §GTechnosphere§! aka §GInfinity Machine§! has been destroyed by the brave men and women of [FromFrom.GetName]. Between past expeditions to study the sphere and our own understanding now that we have seen the sphere open up ourselves, our scientists believe they can recreate the sphere to defend our own empire, if you wish to have it。"
+ 
+ guardian_technosphere.3.name: "无限神机的项目"
+ guardian_technosphere.3.desc: "Our research teams have developed a firm grasp of the technology required to construct a §GTechnosphere§!. However, given the vast resources required, time to construct, and still unknowns about the §GTechnosphere§!, your advisors suggest you only support one at any given time. If you wish to construct a §GTechnosphere§!, just give the word。"
+ 
+ guardian_technosphere.4.name: "无限神机Launch"
+ guardian_technosphere.4.desc: "After a lot of research, development, safeguards, and resources, our fully functional §GTechnosphere§! has been launched!\n\nOur research teams tell us that while they are as positive as they can be about the §GTechnosphere§! being under our full control, because of our lack of understanding of all that happens within the sphere, this §GTechnosphere§! is not as powerful as the original. However, we are assured that it is still very powerful compared to our standard ship classes, and it is more than capable of handling most threats.\n\nThe §GTechnosphere§! is in orbit over §Y[Root.Capital.GetName]§!, ready to defend the empire at your command。"
+ 
+ guardian_technosphere.5.name: "无限神机Destroyed"
+ guardian_technosphere.5.desc: "Our §GTechnosphere§! has been destroyed, with a previous unknown self destruct feature making sure there is no remaining trace of the sphere for others to find, take, and study. Our research teams are confident they can make a new §GTechnosphere§! without issue if you wish to build a replacement。"
+ 
+ # Wraith Events:
+ 
+ guardian_wraith.2.a: "我想要§BWraiths§!！"
+ guardian_wraith.2.b: "I would prefer a different Guardian。"
+ guardian_wraith.2.c: "I already have a Guardian, perhaps later。"
+ 
+ guardian_wraith.3.a: "我想要红色幽魂！"
+ guardian_wraith.3.b: "我想要橙色幽魂！"
+ guardian_wraith.3.c: "我想要黄色幽魂！"
+ guardian_wraith.3.d: "我想要绿色幽魂！"
+ guardian_wraith.3.e: "我想要蓝色幽魂！"
+ guardian_wraith.3.f: "我想要蓝紫色幽魂！"
+ guardian_wraith.3.g: "我想要白色幽魂！"
+ 
+ guardian_wraith.2.name: "幽魂Lighting"
+ guardian_wraith.2.desc: "The people of the [Root.GetName] rejoice as the mighty §BWraith§! has been destroyed by the brave men and women of [FromFrom.GetName]. With the knowledge of the Curators and our own scans and experiance with the §BWraith§!, our scientists believe they can dulicate the spectral frequency of the §BWraith§!, perhaps with a wider range than just the one we saw, allowing for us to created different colo红色 §BWraiths§! to defend our empire。"
+ 
+ guardian_wraith.3.name: "幽魂Spectrums"
+ guardian_wraith.3.desc: "Our researchers have isolated 7 different §BWraiths§! spectral frequencies, allowing for us to create 7 different colors, although none of them seem to have any discernable advantages due to the different in frequency. Due to the nature of the formation of these creatures, the amoutn of energy and specialized equipment it takes to create and maintain one, never mind control, your advisors will only allow for one §BWraith§! at any given time. Our research teams are ready to start the process, they only need to know what spectral frequency you wish to have。"
+ 
+ guardian_wraith.4.name: "幽魂Optimized"
+ guardian_wraith.4.desc: "Our researchers have successfully created a spectral §BWraiths§! at your desired frequency without any issue. The §BWraith§! is ready to defend our empire at your command。"
+ 
+ guardian_wraith.5.name: "幽魂Disintegrated"
+ guardian_wraith.5.desc: "Our §BWraith§! has been killed, and it's energy matrix has destabilized and disintegrated into nothingness. Our researchers can create another §BWraith§! if you wish to create a replacement。"
+ 
+ 
+ # Captain's Galleon Pirate Events:
+ 
+ guardian_pirate.1.a: "That sound interesting. Let's find this system。"
+ guardian_pirate.2.a: "Proceed with caution。"
+ guardian_pirate.4.a: "That ship would be an excellent warship. Seize it!"
+ guardian_pirate.4.b: "It's a Pirate ship not worth the trouble. Destroy it。"
+ guardian_pirate.5.a: "He could prove useful. Watch him and we'll see。"
+ guardian_pirate.6.a: "Curses! The Hidden Paradise system will have to do。"
+ guardian_pirate.7.a: "Build me a mighty Pirate Galleon!"
+ guardian_pirate.7.b: "Actually, 我想要different Guardian。"
+ guardian_pirate.8.a: "Research whatever you need to。"
+ 
+ guardian_pirate.1.name: "Pirate Secrets"
+ guardian_pirate.1.desc: "The pirates in the [pirate_home_system.GetName] System are nearly defeated. Our communication officers intercepted a transmission from one of the remaining pirate vessels. It would appear someone paniced and sent a communication we, or well anyone, could track. It would appear the [pirate_home_system.GetName] System isn't the Pirate 'stronghold' as previously believed, or at least, it's just the main rally point.\n\nApparently there is a previously unknown system near it the Pirate clans refer to as 'The Hidden Paradise', and is apparently a 'retreat' of sorts for them, although it's location is very tighly controlled. Fortunately for us, we can locate this 'Paradise' for ourselves thanks to whatever pirate vessel paniced. Although, the communication logs do state that any pirate vessels taveling there without permission will 'answer to the Captain and his galleon'... whatever that means。"
+ 
+ guardian_pirate.2.name: "Pirate Paradise"
+ guardian_pirate.2.desc: "As [Root.GetName] enters the mysterious Hidden Paradise System, we finally have an idea of why the pirates call this place Paradise.\n\nThere is a habitable Gaia Moon in the system, orbiting what appears to be a planet completely destroyed in a nuclear war. It will not be habitable for a many decades, if not longer. While the Gaia world here is a welcomed sight, what makes this system rather... unique is the star. It's abnormally large, and even stranger is it has rings, like you would typically find on a gas giant. Just outside the rings of the star, there is an asteroid belt, with many looking like promising mining candidates. It seems like the star pulled in asteroid belts to become planetary rings even though it's not a black hole.\n\nWhile the system is interesting to observe and study, the [Root.GetName] must first deal with the pirates in this system, and these pirates are not your typical scavengers. There are two Pirate Galleons here like the ones in the previous system, but what has everyone worried is the Capital system they protect.\n\nThere is a massive Galleon here, over twice the mass as the standard Galleon. It's embroidered in black and gold, and if the appearance wasn't scary enough, our initial scans tell us it's covered in weaponry, a count only a Pirate would deem necessary. Whoever commands this Galleon is not to be trifled with。"
+ 
+ guardian_pirate.3.name: "Pirate Raid"
+ guardian_pirate.3.desc: "Our forces have disabled the Captain's Galleon, and remarkably the massive vessel hasn't collapsed. This could be an excellent oppertunity to send over professional boarding teams and see if we can claim the vessel and restore it. Of course, if you don't want the vessel or don't think it's worth the effort, we could simply destroy the ship as well.\n\n§GIn order to try and board the Captain's Galleon, you will require 3 transport ships and a commanding general.§!"
+ 
+ guardian_pirate.4.name: "Pirate Plunder"
+ guardian_pirate.4.desc: "Our boarding teams have successfully boarded and captured the Captain's Galleon!\n\nOur boarding teams met with heavy resistance at first, and the firefights lasted a long time, but eventually the pirate crew either grew tired or uncaring, as some surrended or started making stupid mistakes. Finally, our troops stormed the bridge and captured the Captain of the Galleon, who was remarkably cooperative, mainly because he wants to sign a contract with us to command the ship under our flag!\n\nYour advisors and department leaders interrogated the Captain and questioned him for any signs of deceit. Apparently he was very impressed with your forces managing to fight through his defeats, both in the [pirate_home_system.GetName] System and here in Hidden Paradise. He's knowledge, tactical and strategic skills are impressive, and he is willing to sign a contract to fight under our flag in exchange for the running of his Galleon。"
+ 
+ guardian_pirate.5.name: "Pirate Lost"
+ guardian_pirate.5.desc: "We couldn't get our boarding parties ready and on site in time. The Captain's Galleon has impoded from damage from our battle, and there is practically nothing left to salvage. While certainly a loss, we have eradicated the most dangerous and secretive Pirate stronghold in the Galaxy, and the Hidden Paradise system is ripe for the taking。"
+ 
+ guardian_pirate.6.name: "Pirate Treasure"
+ guardian_pirate.6.desc: "Since the loss of the original Captain's Galleon, our engineering teams have been looking for a means of building a replacement. Fortunately, the original Pirate Captain kept the blueprints to his massive vessel with him while he was in command of the original, and our technicians managed to pull them from our records. There seems to be a few odd procedures and interesting design choices. It will take a little research to figure all these new deisgns out, but we can build another might Galleon for our empire.\n\n§GThree new rare technologies are now available for research, one per research branch. You must complete all 3 to continue the Guardian chain。"
+ 
+ guardian_pirate.7a.name: "Pirate Hiring"
+ guardian_pirate.7a.desc: "Your researchers have successfully finished all relevant research to build our own Captain Galleons at your command, however, while we have another Guardian active, our people will not support the building of a ship of this magnitude。"
+ 
+ guardian_pirate.7.name: "Pirate Galleon"
+ guardian_pirate.7.desc: "Our engineering teams are ready to construct a Captain's Pirate Galleon... overloaded weaponry and all. Due to the cost, complex design, and sure resources it will take to build and maintain this vessel, your people will only support one at any given time。"
+ 
+ guardian_pirate.8.name: "Pirate Launch"
+ guardian_pirate.8.desc: "Our new Captain's Pirate Galleon has been launched, and is ready to defeat our empire at your command。"
+ 
+ guardian_pirate.9.name: "Pirate Destroyed"
+ guardian_pirate.9.desc: "Our Pirate Galleon has been destroyed, with hardly any wreckage worth looking at remaining. Your engineering teams stand ready to build another one if you wish to build a replacement。"
+ 
+ ####################################
+ # Edicts
+ ####################################
+ 
+ edict_guardian_horror_here: "移动§MDimensional Horror§!到这"
+ edict_guardian_horror_here_desc: " " #Space prevents error.log message without showing anything
+ edict_guardian_horror_here_tooltip: "Tells the §MDimensional Horror§! to move its anchored wormhole to orbit §Y[Root.GetName]§!。"
+ 
+ edict_guardian_fortress_here: "移动§EEnigmatic Fortress§!到这"
+ edict_guardian_fortress_here_desc: " " #Space prevents error.log message without showing anything
+ edict_guardian_fortress_here_tooltip: "Tells the §EEnigmatic Fortress§! to active it's jump drive and move to orbit §Y[Root.GetName]§!。"
+ 
+ ####################################
+ # Special Projects
+ ####################################
+ 
+ # Automated Dreadnought Projects:
+ 
+ guardian_dreadnought_original_project: "Automated Dreadnought Original"
+ guardian_dreadnought_original_project_DESC: "We will construct the original, white hulled, blue lit §RAutomated Dreadnought§!。"
+ guardian_dreadnought_original_project_completed: " "
+ 
+ guardian_dreadnought_alternative_project: "Automated Dreadnought Alternative"
+ guardian_dreadnought_alternative_project_DESC: "We will construct the alternative, blue-grey hulled, cyan lit §RAutomated Dreadnought§!。"
+ guardian_dreadnought_alternative_project_completed: " "
+ 
+ # Dimensional Horror Projects:
+ 
+ guardian_horror_project: "Dimensional Horror Summoning"
+ guardian_horror_project_DESC: "Our scientists will summon a baby §MDimensional Horror§! and carefully train it to defend our empire。"
+ guardian_horror_project_completed: " "
+ 
+ # Enigmatic Fortress Projects:
+   
+ guardian_fortress_project: "Enigmatic Fortress Construction Project"
+ guardian_fortress_project_DESC: "With the knowledge and experiance we have gained, we will build our own §EEnigmatic Fortress§!, and safely place it into orbit of §Y[Root.Capital.GetName]§!。"
+ guardian_fortress_project_completed: " "
+ 
+ # Dragonfire Drake Projects:
+ 
+ guardian_dragon_red_project: "红色以太龙"
+ guardian_dragon_red_project_DESC: "Our scientists will grow and train a red Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_red_project_completed: " "
+ 
+ guardian_dragon_orange_project: "橙色以太龙"
+ guardian_dragon_orange_project_DESC: "Our scientists will grow and train a orange Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_orange_project_completed: " "
+ 
+ guardian_dragon_yellow_project: "黄色以太龙"
+ guardian_dragon_yellow_project_DESC: "Our scientists will grow and train a yellow Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_yellow_project_completed: " "
+ 
+ guardian_dragon_chartreuse_project: "黄绿色以太龙"
+ guardian_dragon_chartreuse_project_DESC: "Our scientists will grow and train a chartreuse Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_chartreuse_project_completed: " "
+ 
+ guardian_dragon_green_project: "绿色以太龙"
+ guardian_dragon_green_project_DESC: "Our scientists will grow and train a green Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_green_project_completed: " "
+ 
+ guardian_dragon_aquamarine_project: "海蓝色以太龙"
+ guardian_dragon_aquamarine_project_DESC: "Our scientists will grow and train a aquamarine Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_aquamarine_project_completed: " "
+ 
+ guardian_dragon_cyan_project: "青色以太龙"
+ guardian_dragon_cyan_project_DESC: "Our scientists will grow and train a cyan Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_cyan_project_completed: " "
+ 
+ guardian_dragon_azure_project: "天蓝色以太龙"
+ guardian_dragon_azure_project_DESC: "Our scientists will grow and train a azure Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_azure_project_completed: " "
+ 
+ guardian_dragon_blue_project: "蓝色以太龙"
+ guardian_dragon_blue_project_DESC: "Our scientists will grow and train a blue Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_blue_project_completed: " "
+ 
+ guardian_dragon_violet_project: "蓝紫色以太龙"
+ guardian_dragon_violet_project_DESC: "Our scientists will grow and train a violet Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_violet_project_completed: " "
+ 
+ guardian_dragon_magenta_project: "品红色以太龙"
+ guardian_dragon_magenta_project_DESC: "Our scientists will grow and train a violet Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_magenta_project_completed: " "
+ 
+ guardian_dragon_rose_project: "粉红色以太龙"
+ guardian_dragon_rose_project_DESC: "Our scientists will grow and train a rose Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_rose_project_completed: " "
+ 
+ guardian_dragon_white_project: "虚空行者以太龙"
+ guardian_dragon_white_project_DESC: "Our scientists will grow and train a Voidwalker Dragonfire Drake to serve and protect our empire。"
+ guardian_dragon_white_project_completed: " "
+ 
+ # Stellarite Projects:
+ 
+ guardian_stellarite_project: "Stellarite Formation"
+ guardian_stellarite_project_DESC: "We are ready to form and train a §YStellarite§! at your command。"
+ guardian_stellarite_project_completed: " "
+ 
+ # Technosphere Projects:
+ 
+ guardian_technosphere_project: "无限神机的装配"
+ guardian_technosphere_project_DESC: "Our research teams believe they work out enough of the §GTechnosphere's§! technology to construction one of our own。"
+ guardian_technosphere_project_completed: " "
+ 
+ # Wraith Projects:
+ 
+ guardian_wraith_red_project: "红色幽魂"
+ guardian_wraith_red_project_DESC: "Our scientists will create and train a red Wraith to serve and protect our empire。"
+ guardian_wraith_red_project_completed: " "
+ 
+ guardian_wraith_orange_project: "橙色幽魂"
+ guardian_wraith_orange_project_DESC: "Our scientists will create and train a orange Wraith to serve and protect our empire。"
+ guardian_wraith_orange_project_completed: " "
+ 
+ guardian_wraith_yellow_project: "黄色幽魂"
+ guardian_wraith_yellow_project_DESC: "Our scientists will create and train a yellow Wraith to serve and protect our empire。"
+ guardian_wraith_yellow_project_completed: " "
+ 
+ guardian_wraith_green_project: "绿色幽魂"
+ guardian_wraith_green_project_DESC: "Our scientists will create and train a green Wraith to serve and protect our empire。"
+ guardian_wraith_green_project_completed: " "
+ 
+ guardian_wraith_blue_project: "蓝色幽魂"
+ guardian_wraith_blue_project_DESC: "Our scientists will create and train a blue Wraith to serve and protect our empire。"
+ guardian_wraith_blue_project_completed: " "
+ 
+ guardian_wraith_violet_project: "蓝紫色幽魂"
+ guardian_wraith_violet_project_DESC: "Our scientists will create and train a violet Wraith to serve and protect our empire。"
+ guardian_wraith_violet_project_completed: " "
+ 
+ guardian_wraith_white_project: "虚空行者幽魂"
+ guardian_wraith_white_project_DESC: "Our scientists will create and train a Voidwalker Wraith to serve and protect our empire。"
+ guardian_wraith_white_project_completed: " "
+ 
+ # Pirate Projects:
+ 
+ captain_galleon_board: "Pirate Raid"
+ captain_galleon_board_DESC: "Our expert boarding teams will attempt to take the massive Pirate Galleon by force。"
+ captain_galleon_board_completed: " "
+ 
+ captain_galleon_creation: "Pirate Ship"
+ captain_galleon_creation_DESC: "With the blueprints of the original Galleon at our disposal, we will attempt to rebuild the massive Pirate Flagship。"
+ captain_galleon_creation_completed: " "
+ 
+ ####################################
+ # Hull Sizes
+ ####################################
+ 
+ NSC_DRAGONFIRE_DRAKE: "以太龙"
+ NSC_dragonfire_drake: "以太龙"
+ NSC_dragonfire_drake_plural: "以太龙s"
+ 
+ NSC_RED_DRAGONFIRE_DRAKE: "红色以太龙"
+ NSC_red_dragonfire_drake: "红色以太龙"
+ NSC_red_dragonfire_drake_plural: "红色以太龙"
+ 
+ NSC_ORANGE_DRAGONFIRE_DRAKE: "橙色以太龙"
+ NSC_orange_dragonfire_drake: "橙色以太龙"
+ NSC_orange_dragonfire_drake_plural: "橙色以太龙"
+ 
+ NSC_YELLOW_DRAGONFIRE_DRAKE: "黄色以太龙"
+ NSC_yellow_dragonfire_drake: "黄色以太龙"
+ NSC_yellow_dragonfire_drake_plural: "黄色以太龙"
+ 
+ NSC_CHARTREUSE_DRAGONFIRE_DRAKE: "黄绿色以太龙"
+ NSC_chartreuse_dragonfire_drake: "黄绿色以太龙"
+ NSC_chartreuse_dragonfire_drake_plural: "黄绿色以太龙"
+ 
+ NSC_GREEN_DRAGONFIRE_DRAKE: "绿色以太龙"
+ NSC_green_dragonfire_drake: "绿色以太龙"
+ NSC_green_dragonfire_drake_plural: "绿色以太龙"
+ 
+ NSC_AQUAMARINE_DRAGONFIRE_DRAKE: "海蓝色以太龙"
+ NSC_aquamarine_dragonfire_drake: "海蓝色以太龙"
+ NSC_aquamarine_dragonfire_drake_plural: "海蓝色以太龙"
+ 
+ NSC_CYAN_DRAGONFIRE_DRAKE: "青色以太龙"
+ NSC_cyan_dragonfire_drake: "青色以太龙"
+ NSC_cyan_dragonfire_drake_plural: "青色以太龙"
+ 
+ NSC_AZURE_DRAGONFIRE_DRAKE: "天蓝色以太龙"
+ NSC_azure_dragonfire_drake: "天蓝色以太龙"
+ NSC_azure_dragonfire_drake_plural: "天蓝色以太龙"
+ 
+ NSC_BLUE_DRAGONFIRE_DRAKE: "蓝色以太龙"
+ NSC_blue_dragonfire_drake: "蓝色以太龙"
+ NSC_blue_dragonfire_drake_plural: "蓝色以太龙"
+ 
+ NSC_VIOLET_DRAGONFIRE_DRAKE: "蓝紫色以太龙"
+ NSC_violet_dragonfire_drake: "蓝紫色以太龙"
+ NSC_violet_dragonfire_drake_plural: "蓝紫色以太龙"
+ 
+ NSC_MAGENTA_DRAGONFIRE_DRAKE: "品红色以太龙"
+ NSC_magenta_dragonfire_drake: "品红色以太龙"
+ NSC_magenta_dragonfire_drake_plural: "品红色以太龙"
+ 
+ NSC_ROSE_DRAGONFIRE_DRAKE: "粉红色以太龙"
+ NSC_rose_dragonfire_drake: "粉红色以太龙"
+ NSC_rose_dragonfire_drake_plural: "粉红色以太龙"
+ 
+ NSC_WHITE_DRAGONFIRE_DRAKE: "虚空行者以太龙"
+ NSC_white_dragonfire_drake: "虚空行者以太龙"
+ NSC_white_dragonfire_drake_plural: "虚空行者以太龙"
+ 
+ PIRATE_GALLEON: "First Mate's Pirate Galleon"
+ pirate_galleon: "First Mates's Pirate Galleon"
+ pirate_galleon_plural: "First Mate's Pirate Galleons"
+ 
+ GUARDIAN_PIRATE_GALLEON: "First Mate's Pirate Galleon"
+ guardian_pirate_galleon: "First Mates's Pirate Galleon"
+ guardian_pirate_galleon_plural: "First Mate's Pirate Galleons"
+ 
+ CAPTAIN_PIRATE_GALLEON: "Pirate Carrack Galleon"
+ captain_pirate_galleon: "Pirate Carrack Galleon"
+ captain_pirate_galleon_plural: "Pirate Carrack Galleons"
+ 
+ MASTER_PIRATE_GALLEON: "Pirate Carrack Galleon"
+ master_pirate_galleon: "Pirate Carrack Galleon"
+ master_pirate_galleon_plural: "Pirate Carrack Galleons"
+ 
+ NSC_DIMENSIONAL_HORROR: "Darkspawn Dimensional Horror"
+ NSC_dimensional_horror: "Darkspawn Dimensional Horror"
+ NSC_dimensional_horror_plural: "Darkspawn Dimensional Horrors"
+ 
+ NSC_ENIGMATIC_FORTRESS: "Enigmatic Fortress"
+ NSC_enigmatic_fortress: "Enigmatic Fortress"
+ NSC_enigmatic_fortress_plural: "Enigmatic Fortress"
+ 
+ NSC_STELLARITE: "Ethereal Stellarite"
+ NSC_stellarite: "Ethereal Stellarite"
+ NSC_stellarite_plural: "Ethereal Stellarites"
+ 
+ NSC_TECHNOSPHERE: "Infinity Machine"
+ NSC_technosphere: "Infinity Machine"
+ NSC_technosphere_plural: "Infinity Machines"
+ 
+ NSC_AUTOMATED_DREADNOUGHT: "Sentient Dreadnought"
+ nsc_automated_dreadnought: "Sentient Dreadnought"
+ nsc_automated_dreadnought_plural: "Sentient Dreadnought"
+ 
+ NSC_AUTOMATED_DREADNOUGHT_ALTERNATIVE: "Sentient Dreadnought II"
+ nsc_automated_dreadnought_alternative: "Sentient Dreadnought II"
+ nsc_automated_dreadnought_alternative_plural: "Sentient Dreadnought IIs"
+ 
+ RED_WRAITH: "幻影幽魂450THz"
+ red_wraith: "幻影幽魂450THz"
+ red_wraith_plural: "幻影幽魂450THz"
+ 
+ ORANGE_WRAITH: "幻影幽魂500THz"
+ orange_wraith: "幻影幽魂500THz"
+ orange_wraith_plural: "幻影幽魂500THz"
+ 
+ YELLOW_WRAITH: "幻影幽魂520THz"
+ yellow_wraith: "幻影幽魂520THz"
+ yellow_wraith_plural: "幻影幽魂520THz"
+ 
+ GREEN_WRAITH: "幻影幽魂550THz"
+ green_wraith: "幻影幽魂550THz"
+ green_wraith_plural: "幻影幽魂550THz"
+ 
+ BLUE_WRAITH: "幻影幽魂650THz"
+ blue_wraith: "幻影幽魂650THz"
+ blue_wraith_plural: "幻影幽魂650THz"
+ 
+ VIOLET_WRAITH: "幻影幽魂720THz"
+ violet_wraith: "幻影幽魂720THz"
+ violet_wraith_plural: "幻影幽魂720THz"
+ 
+ WHITE_WRAITH: "幻影幽魂800THz"
+ white_wraith: "幻影幽魂800THz"
+ white_wraith_plural: "幻影幽魂800THz"
+ 
+ ####################################
+ # Section Template Keys
+ ####################################
+
+ NSC_red_dragonfire_drake_key: "红色以太龙"
+ NSC_orange_dragonfire_drake_key: "橙色以太龙"
+ NSC_yellow_dragonfire_drake_key: "黄色以太龙"
+ NSC_chartreuse_dragonfire_drake_key: "黄绿色以太龙"
+ NSC_green_dragonfire_drake_key: "绿色以太龙"
+ NSC_aquamarine_dragonfire_drake_key: "海蓝色以太龙"
+ NSC_cyan_dragonfire_drake_key: "青色以太龙"
+ NSC_azure_dragonfire_drake_key: "天蓝色以太龙"
+ NSC_blue_dragonfire_drake_key: "蓝色以太龙"
+ NSC_violet_dragonfire_drake_key: "蓝紫色以太龙"
+ NSC_violet_dragonfire_drake_key: "蓝紫色以太龙"
+ NSC_rose_dragonfire_drake_key: "粉红色以太龙"
+ NSC_white_dragonfire_drake_key: "虚空行者以太龙"
+ 
+ NSC_DIMENSIONAL_HORROR_KEY: "Darkspawn Dimensional Horror"
+ 
+ ENIGMATIC_FORTRESS_KEY: "Enigmatic Fortress"
+ 
+ NSC_stellarite_key: "Ethereal Stellarite"
+ 
+ nsc_technosphere_key: "无限神机"
+ 
+ NSC_automated_dreadnought_key: "众生无畏"
+ NSC_automated_dreadnought_alternative_key: "众生无畏 II"
+ 
+ first_mate_pirate_galleon_key: "First Mate's Pirate Galleon"
+ captain_pirate_galleon_key: "Captain's Pirate Galleon"
+ 
+ red_wraith_key: "红色幽魂"
+ orange_wraith_key: "橙色幽魂"
+ yellow_wraith_key: "黄色幽魂"
+ green_wraith_key: "绿色幽魂"
+ blue_wraith_key: "蓝色幽魂"
+ violet_wraith_key: "蓝紫色幽魂"
+ white_wraith_key: "白色幽魂"
+ 
+ ####################################
+ # Weapons
+ ####################################
+ 
+ DRAGON_WEAPON_REDFIRE: "红色龙息"
+ DRAGON_WEAPON_RED: "红色龙息"
+ DRAGON_WEAPON_ORANGE: "橙色龙息"
+ DRAGON_WEAPON_YELLOW: "黄色龙息"
+ DRAGON_WEAPON_CHARTREUSE: "黄绿色龙息"
+ DRAGON_WEAPON_GREEN: "绿色龙息"
+ DRAGON_WEAPON_AQUAMARINE: "海蓝色龙息"
+ DRAGON_WEAPON_CYAN: "青色龙息"
+ DRAGON_WEAPON_AZURE: "天蓝色龙息"
+ DRAGON_WEAPON_BLUE: "蓝色龙息"
+ DRAGON_WEAPON_VIOLET: "蓝紫色龙息"
+ DRAGON_WEAPON_MAGENTA: "品红色龙息"
+ DRAGON_WEAPON_ROSE: "粉红色龙息"
+ DRAGON_WEAPON_WHITE: "白色龙息"
+ DRAGON_WEAPON_VOIDWALKER: "虚空行者龙息"
+ 
+ DRAGON_SECONDARY_WEAPON_RED: "红色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_ORANGE: "橙色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_YELLOW: "黄色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_CHARTREUSE: "黄绿色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_GREEN: "绿色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_AQUAMARINE: "海蓝色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_CYAN: "青色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_AZURE: "天蓝色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_BLUE: "蓝色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_VIOLET: "蓝紫色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_MAGENTA: "品红色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_ROSE: "粉红色龙息闪电"
+ DRAGON_SECONDARY_WEAPON_WHITE: "白色龙息闪电"
+ 
+ DRAGON_TERTIARY_WEAPON_RED: "红色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_ORANGE: "橙色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_YELLOW: "黄色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_CHARTREUSE: "黄绿色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_GREEN: "绿色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_AQUAMARINE: "海蓝色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_CYAN: "青色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_AZURE: "天蓝色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_BLUE: "蓝色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_VIOLET: "蓝紫色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_MAGENTA: "品红色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_ROSE: "粉红色龙息雷电"
+ DRAGON_TERTIARY_WEAPON_WHITE: "白色龙息雷电"
+ 
+ NSC_DIMENSIONAL_HORROR_PRIMARY_WEAPON: "Dimensional Lance"
+ NSC_DIMENSIONAL_HORROR_LARGE_WEAPON: "Dimesnional Ripper"
+ NSC_DIMENSIONAL_HORROR_MEDIUM_WEAPON: "Dimensional Render"
+ NSC_DIMENSIONAL_HORROR_SMALL_WEAPON: "Dimensional Striker"
+ NSC_DIMENSIONAL_HORROR_PD: "Dimensional Guard"
+ 
+ NSC_STELLARITE_BEAM: "Stellarite Lance"
+ NSC_STELLARITE_MISSILE: "Stellarite Torpedo"
+ NSC_STELLARITE_PLASMA: "Stellarite Plasma"
+ NSC_STELLARITE_LASER: "Stellarite Lazer"
+ 
+ DREADNOUGHT_LARGE_KINETIC_ARTILLERY: "Kinetic Artillery Cannon"
+ DREADNOUGHT_LARGE_PLASMA: "Accelarated Plasma Cannon"
+ DREADNOUGHT_LARGE_DISRUPTOR: "Pulsated Phase Disruptor"
+ DREADNOUGHT_MASS_DRIVER: "Mass Driver Cannon"
+ 
+ INFINITY_LANCE: "无限Lance"
+ TECHNO_LARGE_WHITE_LASER: "大型无限Lazer"
+ TECHNO_MEDIUM_WHITE_LASER: "中型无限Lazer"
+ TECHNO_SMALL_WHITE_LASER: "小型无限Lazer"
+ TECHNO_WHITE_PD: "无限PD"
+ 
+ PHANTOM_WRAITH_RED_LASER: "450THz发射器"
+ PHANTOM_WRAITH_BLUE_LASER: "650THz发射器"
+ PHANTOM_WRAITH_YELLOW_LASER: "520THz发射器"
+ PHANTOM_WRAITH_VIOLET_LASER: "720THz发射器"
+ PHANTOM_WRAITH_GREEN_LASER: "550THz发射器"
+ PHANTOM_WRAITH_ORANGE_LASER: "500THz发射器"
+ PHANTOM_WRAITH_WHITE_LASER: "800THz发射器"
+ 

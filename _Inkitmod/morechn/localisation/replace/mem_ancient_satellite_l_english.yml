@@ -1,0 +1,15 @@
+﻿l_english:
+ #Ancient Satellite Anomaly
+ #Writing and idea by ForeMole
+ #Code by LamilLerran
+ mem_ancient_satellite_category:0 "深空的太阳能装置"
+ mem_ancient_satellite_category_desc:0 "§Y[Root.GetName]§!的扫描显示一个不明物体在恒星炽热的边缘。该物体在恒星的稳定轨道缓慢环绕，但是它是如何到达轨道或者如何保持完好，没人知道。"
+ mem_ancient_satellite.1.name:0 "远古卫星"
+ mem_ancient_satellite.1.desc:0 "进一步的研究表明，接近§Y[From.From.GetName]§!的表面，发现该物体是个古老的自动化的研究站。理论上该物体不应该能够保持稳定运作在这里，但由于其先进设计使得它能免受恶劣环境的危害。然而，对卫星§Y[From.From.GetName]§!的招呼，只会返回恒星的环境的危险信息 - 和服从简单的命令，包括改变位置的命令。\n\n已作出两项建议。我们可以保持它现在的位置，并利用它的位置进行研究或者我们可以命令卫星前往更高的轨道以便我们更安全研究卫星的组成。任何选择都能为我们提供几百年前我们所不知道的信息，但只有后者才能告诉我们它的制造原因。我们应该如何进行？"
+ mem_ancient_satellite.1.a:0 "留它在那并继续研究。"
+ mem_ancient_satellite.1.b:0 "捡它起来。让我们看看这东西是什么造的。"
+ mem_ancient_satellite.100.name:0 "耀斑爆发"
+ mem_ancient_satellite.100.desc:0 "虽然越来越接近§Y[From.From.GetName]§!是为了进一步分析神秘物体表面，突然耀斑爆发迫使§Y[From.From.GetName]§!撤退。经过一系列精心执行的演习，船员他们会设法将它安全的撤出。然而，进一步尝试研究物体已失败了。虽然在它躲过耀斑爆发之前，一切都是未知的，但实际上，它似乎已被破坏了。"
+ mem_ancient_satellite.100.a:0 "虽然兴奋，但没有回报。"
+ mem_ancient_satellite.150.name:0 "耀斑爆发"
+ mem_ancient_satellite.150.desc:0 "虽然越来越接近§Y[From.From.GetName]§!的表面，以便进一步分析神秘物体，突然耀斑迫使§Y[Root.GetName]§!撤退。尽管他们尽了最大的努力，船员§Y[From.From.GetName]§! 无法逃脱的太阳物质的快速扩张。§Y[From.From.GetName]§!被毁灭了，所有的都被毁灭了。尝试进一步研究物体已经失败。虽然在它躲过耀斑爆发之前，一切都是未知的，但实际上，它似乎已被破坏了。"

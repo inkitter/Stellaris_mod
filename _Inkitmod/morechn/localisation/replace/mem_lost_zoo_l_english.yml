@@ -1,0 +1,17 @@
+﻿l_english:
+ #Lost Zoo Anomaly
+ #Code and idea by LamilLerran
+ #Writing by shockedsystem
+ #Note that this comes from a vanilla anomaly category, title "Life Signs" and text
+ #"We have detected life signs coming from somewhere beneath the barren and lifeless surface of this §Y[planet/moon]§!. What manner of organism could possibly live there?"
+ mem_lost_zoo.8.name:0 "神秘的圆顶"
+ mem_lost_zoo.8.desc:0 "深入调查发现这个圆顶是由不断被叠加起来的结构，最后被封在星球之上。挖掘了最大的建筑，发现了深入地面两百多米的长电梯。"
+ mem_lost_zoo.8.a:0 "下面可能有什么？"
+ MEM_LOST_ZOO_PROJECT:0 "探讨圆顶复杂"
+ MEM_LOST_ZOO_PROJECT_DESC:0 "§Y[From.GetName]§!的被破坏圆顶上有一座深不可测的电梯。如果我们想知道下面是什么，我们就得派遣科考队上去。"
+ mem_lost_zoo.1.name:0 "古老的动物园"
+ mem_lost_zoo.1.desc:0 "探索这个轴发现有一个完整独立的生物族群在一个巨大的洞穴里。至少有三个独立的热带星球的生物表现被登记。该系统高度自动化，有众多的专业无人机观测维护，有时会减少人口，人工控制食物周期和设备本身。三到七小时的白天夜间循环是靠人工光杆在屋顶上缓慢来模拟，负责供能的地热埋在更深的地面。\n\n这个人造生态系统估计有四万年历史，并且自动化系统开始老化且无法修复。§Y[Root.GetLeaderName]§!估计该设施将会在未来千年左右达到崩坏临界点。"
+ mem_lost_zoo.1.a:0 "拆解机器和逆向其技术。"
+ mem_lost_zoo.1.b:0 "将其变成解剖实验室。"
+ mem_lost_zoo.1.c:0 "将其原汁原味保留。"
+ 

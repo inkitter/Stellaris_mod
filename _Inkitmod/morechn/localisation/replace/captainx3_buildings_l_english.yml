@@ -1,0 +1,18 @@
+﻿l_english:
+
+####################################
+# BUILDINGS
+####################################
+
+
+ building_governors_mansion: "总督府"
+ building_governors_mansion_desc: "这是非常华丽奢侈的总督府。"
+
+ building_science_center_1: "专项研发中心"
+ building_science_center_1_desc: "一个汇聚了全帝国最聪明的头脑风暴的全新研发中心，足以促进我们的研究速度提升。"
+ building_science_center_2: "教育学习中心"
+ building_science_center_2_desc: "经过不断试错和努力探索改进下，这个中心已经更新换代，拥有更大的空间和更好的管理，能提高我们的研究速度。"
+ building_science_center_3: "研究发展中心"
+ building_science_center_3_desc: "经过多年的学习经验积累，一个新的研发中心诞生了，现在这个研发中心能为我们提供更多选择，更快研究速度。"
+ building_science_center_4: "科学技术中心"
+ building_science_center_4_desc: "经过不断合作，试验，失败和成功，终于在帝国诞生一个最先进的，最超现代化的研发中心，研发中心各个部门之间合作比以往更有效率，拥有更多资源，并为你提供最优秀的研究方案以及最快的研究效率。"

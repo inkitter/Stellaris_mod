@@ -1,0 +1,351 @@
+﻿l_english:
+# RELATED EVENTS
+# Sect rebel
+ dividedloyalties.100.title:0 "教派叛变！"
+ dividedloyalties.100.desc:3 "动乱已经席卷全国。一个教派兴起并试图推翻当前帝国。"
+# Sect riot
+ dividedloyalties.101.title:1 "教派暴动！"
+ dividedloyalties.101.desc:1 "动乱越来越大，教派成员纷纷走上街头烧杀抢掠。\n\n报告指出在[From.GetName]的主要设施被摧毁了。"
+# Order rebel
+ dividedloyalties.200.title:0 "派系政变！"
+ dividedloyalties.200.desc:3 "动乱已经席卷全国。一个派系兴起并试图推翻当前帝国。"
+# Order riot
+ dividedloyalties.201.title:1 "派系进攻！"
+ dividedloyalties.201.desc:1 "动乱越来越大，派系成员开始对各地的重要设施进行突袭破坏。"
+
+ dividedloyalties.310.title:1 "[From.GetName]遭受骇入！"
+ dividedloyalties.310.desc:1 "安全人员称在[From.GetName]发现一个未知的黑客攻击，该地的工厂在未来几个月内生产力会严重降低。辛迪加声称是此次攻击的主导者。"
+
+ dividedloyalties.320.title:1 "[From.GetName]腐败"
+ dividedloyalties.320.desc:1 "安全人员称最近传闻指出在[From.GetName]的腐败势力已经渗透到了到处都是。"
+
+ dividedloyalties.330.title:1 "财团的破坏"
+ dividedloyalties.330.desc:1 "辛迪加对一个重要设施进行恐怖袭击。据报道称，此次袭击造成数百人伤亡，多为平民。"
+
+# POP MODIFIERS
+ MOD_POP_HEAVY_TAXATION: "征税！"
+ pop_pop_heavy_taxation: "征税！"
+ pop_heavy_taxation: "征税！"
+ MOD_POP_CORRUPTED: "腐败"
+ pop_pop_corrupted: "腐败"
+ pop_corrupted: "腐败"
+ MOD_POP_HACKED: "被骇入"
+ pop_pop_hacked: "被骇入"
+ pop_hacked: "被骇入"
+ MOD_TRADE_SUBSIDIES: "税收补贴"
+ pop_pop_trade_subsidies: "税收补贴"
+ pop_trade_subsidies: "税收补贴"
+ MOD_SPIRITUAL_INDOCTRINATION: "心灵教化"
+ pop_spiritual_indoctrination: "心灵教化"
+ spiritual_indoctrination: "心灵教化"
+ MOD_LEADERS_ARRESTED: "你逮捕了我的朋友！"
+ pop_leaders_arrested: "你逮捕了我的朋友！"
+ leaders_arrested: "你逮捕了我的朋友！"
+ MOD_SPIRITUAL_DEPROGRAM: "解除洗脑"
+ pop_spiritual_deprogram: "解除洗脑"
+ spiritual_deprogram: "解除洗脑"
+ MOD_POP_ON_STRIKE: "惊人的"
+ pop_pop_on_strike: "惊人的"
+ pop_on_strike: "惊人的"
+ MOD_POP_SAFETY_IMPROVED: "安全作业环境"
+ pop_pop_safety_improved: "安全作业环境"
+ pop_safety_improved: "安全作业环境"
+ MOD_POP_DEMONSTRATING: "游行"
+ pop_pop_demonstrating: "游行"
+ pop_demonstrating: "游行"
+ MOD_PLANET_CORPORATE_SUPPORTER: "派系支持者"
+ pop_planet_corporate_supporter: "派系支持者"
+ planet_corporate_supporter: "派系支持者"
+ sect_follower: "世俗信仰"
+ sect_follower_desc: "这群人有着世俗精神信仰，这让他们感受到受到限制。"
+ modifier_sect_follower: "世俗信仰"
+ modifier_sect_follower_desc: "这群人有着世俗精神信仰，这让他们感受到受到限制。"
+ MOD_SECT_FOLLOWER: "世俗信仰"
+ pop_sect_follower: "世俗信仰"
+ order_follower: "秩序信徒"
+ order_follower_desc: "这群人相信只有帝国和其公民遵循唯一信仰方能强大。"
+ modifier_order_follower: "秩序信徒"
+ modifier_order_follower_desc: "这群人口相信只有帝国和其公民遵循唯一信仰方能强大。"
+ MOD_ORDER_FOLLOWER: "秩序信徒"
+ pop_order_follower: "秩序信徒"
+ syndicate_legitimacy: "财团的合法性"
+ empire_syndicate_legitimacy: "财团的合法性"
+
+# Merchant House
+ merchant_house: "商业家族"
+ FACTION_MERCHANT_HOUSE: "商业家族"
+ FACTION_MERCHANT_HOUSE_DESC: "一个被大家族垄断贸易的星球。"
+ FACTION_COUNTRY_MERCHANT_HOUSE: "商业家族"
+ FACTION_COUNTRY_MERCHANT_HOUSE_DESC: "一个被大家族垄断贸易的星球。"
+ pft_merchant_house: "商业家族"
+ pft_merchant_house_desc: "一个被大家族垄断贸易的星球。"
+
+ planet_soletradingrights: "独家的商业家族"
+ planet_soletradingrights_desc: "商业家族拥有该星球唯一的贸易权。"
+
+ POP_FACTION_PLANET_MERCHANTHOUSE_DEMAND_TITLE: "[parameter:Planet.GetName]的独家贸易"
+ POP_FACTION_PLANET_MERCHANTHOUSE_DEMAND_DESC: "商业家族完全控制了§Y[parameter:Planet.GetName]§!的贸易。"
+
+ POP_FACTION_PLANET_HASSOLERIGHTS: "商业家族拥有独家贸易。"
+
+ FACTION_ACTION_GRANTSOLERIGHTS: "独家贸易"
+ FACTION_ACTION_GRANTSOLERIGHTS_DESC: "商业家族拥有该星球唯一的贸易权。"
+
+# Corporations
+ corporate_faction: "集团企业"
+ FACTION_CORPORATE_FACTION: "集团企业"
+ FACTION_CORPORATE_FACTION_DESC: "由多个分公司组成的一家大型私营集团企业企业。"
+ FACTION_COUNTRY_CORPORATE_FACTION: "集团企业"
+ FACTION_COUNTRY_CORPORATE_FACTION_DESC: "由多个分公司组成的一家大型私营集团企业企业。"
+ pft_corporate_faction: "集团企业"
+ pft_corporate_faction_desc: "由多个分公司组成的一家大型私营集团企业。"
+
+ POP_FACTION_PLANET_CORPORATION_DEMAND_TITLE: "[parameter:Planet.GetName]的私有化"
+ POP_FACTION_PLANET_CORPORATION_DEMAND_DESC: "该集团希望购买并控制在§Y[parameter:Planet.GetName]§!的殖民地。"
+
+ POP_FACTION_PLANET_CORPORATION_GRANT_INDEPENDENCE_TITLE: "卖地"
+ POP_FACTION_PLANET_CORPORATION_GRANT_INDEPENDENCE_DESC: "将殖民地出售给该集团企业成为他们的附属品。"
+
+ POP_FACTION_PLANET_HOUSE_GRANT_INDEPENDENCE_TITLE: "商业收购"
+ POP_FACTION_PLANET_HOUSE_GRANT_INDEPENDENCE_DESC: "殖民地的统治权将移交给有实力的集团企业。该殖民地将会变为你的附庸。"
+ POP_FACTION_PLANET_HOUSE_WELL_DEVELOPED: "殖民地的发展必经是先进的。"
+ POP_FACTION_PLANET_HOUSE_VALID_POP: "行星必须要有一个有效的人口。"
+
+ POP_FACTION_PLANET_CORPORATION_GATHER_SUPPORT: "扩大资产"
+ POP_FACTION_PLANET_CORPORATION_GATHER_SUPPORT_DESC: "该派系支持潜在的投资者，土地，财产和雇员。"
+ POP_FACTION_PLANET_CORPORATION_LEADER_IS_RULER: "该派系的领导人是帝国统治者。"
+
+ POP_FACTION_PLANET_CORPORATION_OCCUPIED: "行星被占领。"
+ POP_FACTION_PLANET_CORPORATION_COMBAT: "行星上有地面战斗。"
+ POP_FACTION_PLANET_CORPORATION_IS_NOT_OCCUPIED: "行星没被占领。"
+ POP_FACTION_PLANET_CORPORATION_NO_GROUND_COMBAT: "行星上没有地面战斗。"
+ POP_FACTION_PLANET_CORPORATION_RECENTLY_FULL_SUPPORT: "派系最近得到了满足。"
+
+ POP_FACTION_PLANET_CORPORATION_WITHHOLD_TAXES: "拒绝纳税"
+ POP_FACTION_PLANET_CORPORATION_WITHHOLD_TAXES_DESC: "该派系拒绝支付税款，从而导致帝国能源收入减少。"
+
+ POP_FACTION_PLANET_CORPORATION_WITHHOLD_SHIPMENTS: "暂停出货"
+ POP_FACTION_PLANET_CORPORATION_WITHHOLD_SHIPMENTS_DESC: "该派系拒绝上缴货物，从而导致帝国矿物收入减少。"
+
+ POP_FACTION_PLANET_CORPORATION_HALT_EXPANSION: "停止扩张"
+ POP_FACTION_PLANET_CORPORATION_HALT_EXPANSION_DESC: "集团企业拒绝继续发展殖民地。"
+
+ FACTION_ACTION_INCREASED_OVERSIGHT: "严加监管"
+ FACTION_ACTION_INCREASED_OVERSIGHT_DESC: "加强国家法律法规和直接监督派系。"
+
+ FACTION_ACTION_PROSECUTE: "起诉"
+ FACTION_ACTION_PROSECUTE_DESC: "该派系的领袖因未能履行义务、触犯法律、逃税、反抗国家甚至叛国行为而被起诉"
+
+ FACTION_ACTION_SEIZE_ASSETS: "查封资产"
+ FACTION_ACTION_SEIZE_ASSETS_DESC: "国家没收该派系的所有资产。该派系被解散。"
+
+ FACTION_ACTION_STATE_BUYOUT: "收购"
+ FACTION_ACTION_STATE_BUYOUT_DESC: "国家收购集团企业的所有资产。然而，如有一家公司消失，不久之后就有另一家公司替代。"
+
+ planet_halt_expansion: "停止扩张"
+ planet_halt_expansion_desc: "集团企业拒绝继续发展殖民地。"
+ planet_corporate_homeworld: "集团企业家园"
+ planet_merchanthouse_homeworld: "商业家族家园"
+ planet_corporate_dismantling: "派系解散"
+ planet_corporate_homeworld_desc: "集团企业家园。"
+ planet_merchanthouse_homeworld_desc: "商业家族家园。"
+ planet_corporate_dismantling_desc: "派系已在这个世界被解散。"
+ planet_withholding_shipments: "拒绝发货"
+ planet_withholding_shipments_desc: "该派系拒绝上缴货物，从而导致帝国矿物收入减少。"
+ planet_withholding_taxes: "预提税"
+ planet_withholding_taxes_desc: "该派系拒绝支付税款，从而导致帝国能源收入减少。"
+
+# Spiritual Sects
+ spiritual_sect: "世俗教派"
+ pft_spiritual_sect: "世俗教派"
+ pft_spiritual_sect_desc: "教派成员要求帝国认可他们的信仰并认为统治者应该是他们的教派领袖。"
+ FACTION_SPIRITUAL_SECT: "[parameter:owner.GetSpeciesAdj]教派"
+ FACTION_SPIRITUAL_SECT_DESC: "教派成员要求帝国认可他们的信仰并认为统治者应该是他们的教派领袖。"
+ FACTION_COUNTRY_SPIRITUAL_SECT: "[parameter:owner.GetSpeciesAdj]教派"
+ FACTION_COUNTRY_SPIRITUAL_SECT_DESC: "教派成员要求帝国认可他们的信仰并认为统治者应该是他们的教派领袖。"
+
+ POP_FACTION_SPIRITUALIST_SECT_DEMAND_TITLE: "新的统治和唯一信仰"
+ POP_FACTION_SPIRITUALIST_SECT_DEMAND_DESC: "该教派要求他们领袖应该成为帝国统治者，并且世俗信仰是允许，认可以及被尊重的。"
+
+ POP_FACTION_SPIRITUALIST_SECT_RULERSHIP_TITLE: "转移统治权"
+ POP_FACTION_SPIRITUALIST_SECT_RULERSHIP_DESC: "帝国统治权交给了教派领袖。"
+
+ POP_FACTION_SPIRITUALIST_SECT_RECOGNISED_TITLE: "世俗信仰"
+ POP_FACTION_SPIRITUALIST_SECT_RECOGNISED_DESC: "帝国宗教自由政策被改变，允许世俗信仰。"
+
+ FACTION_ACTION_INDOCTRINATE_FOLLOWERS: "教导教派成员"
+ FACTION_ACTION_INDOCTRINATE_FOLLOWERS_DESC: "教派成员被送上例会，为其灌输国家的正确的信仰。"
+
+ FACTION_ACTION_ARREST_SECT_LEADERS: "逮捕教派领袖"
+ FACTION_ACTION_ARREST_SECT_LEADERS_DESC: "将其具有影响力的教派领袖逮捕并且关押。"
+
+ POP_FACTION_PLANET_SECT_POLICY_NOT_SECULAR: "宗教自由政策不允许世俗信仰。"
+
+ POP_FACTION_PLANET_SECT_CONVERT_OTHERS: "联系其他"
+ POP_FACTION_SECT_GATHER_SUPPORT_DESC: "教派找出潜在的新人，然后并将他们皈依教派成为成员之一。"
+ POP_FACTION_PLANET_SECT_LEADER_IS_RULER: "这个教派领袖是帝国统治者。"
+ POP_FACTION_PLANET_SECT_LEADER_IS_NOT_RULER: "这个教派领袖是帝国统治者。"
+ POP_FACTION_SECT_ALLOWED: "世俗信仰被视为帝国政策。"
+
+ POP_FACTION_SECT_STRIKES_TITLE: "教派成员罢工"
+ POP_FACTION_SECT_STRIKES_DESC: "该教派成员拒绝做任何种类的工作。"
+
+ POP_FACTION_SECT_SABOTAGE_TITLE: "教派骚乱"
+ POP_FACTION_SECT_SABOTAGE_DESC: "教派成员引起骚乱并破坏设施。"
+ POP_FACTION_SECT_RECENT_SABOTAGE: "最近有教派的骚乱。"
+ POP_FACTION_SECT_NOTHING_TO_RUIN: "教派的骚乱被发现，他们放弃了。"
+
+ POP_FACTION_SECT_REBELLION_TITLE: "教派叛乱"
+ POP_FACTION_SECT_REBELLION_DESC: "教派成员试图控制帝国。"
+ POP_FACTION_PLANET_SECT_OCCUPIED: "行星被占领。"
+ POP_FACTION_PLANET_SECT_COMBAT: "行星上有地面战斗。"
+
+# Spiritual Orders
+ spiritual_order: "唯心派系"
+ FACTION_SPIRITUAL_ORDER: "[parameter:owner.GetSpeciesAdj]派系"
+ FACTION_SPIRITUAL_ORDER_DESC: "一个唯心派系要求帝国及其公民必须遵循唯一信仰，他们的追随者要求帝国将其统治权转交给唯心派系的领导者。"
+ FACTION_COUNTRY_SPIRITUAL_ORDER: "[parameter:owner.GetSpeciesAdj]派系"
+ FACTION_COUNTRY_SPIRITUAL_ORDER_DESC: "一个唯心派系要求帝国及其公民必须遵循唯一信仰，他们的追随者要求帝国将其统治权转交给唯心派系的领导者。"
+ pft_spiritual_order: "唯心派系"
+ pft_spiritual_order_desc: "一个唯心派系要求帝国及其公民必须遵循唯一信仰，他们的追随者要求帝国将其统治权转交给唯心派系的领导者。"
+
+ POP_FACTION_SPIRITUALIST_ORDER_DEMAND_TITLE: "新的统治和唯一信仰"
+ POP_FACTION_SPIRITUALIST_ORDER_DEMAND_DESC: "该派系要求他们领袖应该成为帝国统治者，而且帝国必须只有且有一个信仰，必须遵守这一切。"
+
+ POP_FACTION_SPIRITUALIST_ORDER_RULERSHIP_TITLE: "转移统治权"
+ POP_FACTION_SPIRITUALIST_ORDER_RULERSHIP_DESC: "帝国统治权交给了派系的领导者。"
+
+ POP_FACTION_SPIRITUALIST_ORDER_RECOGNISED_TITLE: "唯一信仰"
+ POP_FACTION_SPIRITUALIST_ORDER_RECOGNISED_DESC: "帝国宗教自由政策被改变，只允许唯一一个真正的派系信仰存在。"
+
+ FACTION_ACTION_DEPROGRAM_FOLLOWERS: "消灭派系成员"
+ FACTION_ACTION_DEPROGRAM_FOLLOWERS_DESC: "派系成员被送上例会，使其恢复原有正确的信仰和遵循正确的做法，就是这一切是国家规定的，而不是他们的派系。"
+
+ FACTION_ACTION_ARREST_ORDER_LEADERS: "逮捕派系领导"
+ FACTION_ACTION_ARREST_ORDER_LEADERS_DESC: "将其具有影响力的派系领导者逮捕并且关押。"
+
+ POP_FACTION_PLANET_ORDER_POLICY_NOT_SECULAR: "宗教自由政策不允许只有一个信仰。"
+
+ POP_FACTION_PLANET_ORDER_CONVERT_OTHERS: "联系其他"
+ POP_FACTION_ORDER_GATHER_SUPPORT_DESC: "派系找出潜在的新人，然后并将他们皈依派系成为成员之一。"
+ POP_FACTION_PLANET_ORDER_LEADER_IS_RULER: "这个派系领导是帝国统治者。"
+ POP_FACTION_PLANET_ORDER_LEADER_IS_NOT_RULER: "这个派系领导不是帝国统治者。"
+ POP_FACTION_ORDER_ALLOWED: "仅有一个信念被允许作为帝国政策。"
+
+ POP_FACTION_ORDER_DEMONSTRATIONS_TITLE: "示威活动"
+ POP_FACTION_ORDER_DEMONSTRATIONS_DESC: "派系成员组织这场示威活动，造成生产力下降的情况，因为他们阻塞了城市街道并包围重要设施。"
+
+ planet_demonstrations: "示威活动！"
+ planet_demonstrations_desc: "示威者穿过城市街道包围了重要设施。"
+
+ POP_FACTION_ORDER_SABOTAGE_TITLE: "派系进攻"
+ POP_FACTION_ORDER_SABOTAGE_DESC: "派系成员进攻设施。"
+ POP_FACTION_ORDER_RECENT_SABOTAGE: "最近有来自派系的进攻。"
+ POP_FACTION_ORDER_NOTHING_TO_RUIN: "派系的进攻命令被发现，他们放弃了。"
+
+ POP_FACTION_ORDER_REBELLION_TITLE: "派系政变"
+ POP_FACTION_ORDER_REBELLION_DESC: "派系成员试图控制帝国。"
+ POP_FACTION_PLANET_ORDER_OCCUPIED: "行星被占领。"
+ POP_FACTION_PLANET_ORDER_COMBAT: "行星上有地面战斗。"
+
+# Merchant Guild
+ merchant_guild_faction: "商人行会"
+ FACTION_MERCHANT_GUILD: "商人行会"
+ FACTION_MERCHANT_GUILD_DESC: "商业贸易工会。"
+ FACTION_COUNTRY_MERCHANT_GUILD: "商人行会"
+ FACTION_COUNTRY_MERCHANT_GUILD_DESC: "商业贸易工会。"
+ pft_merchant_guild: "商人行会"
+ pft_merchant_guild_desc: "商业贸易工会。"
+ currently_subsidised: "不能补贴或者课征重税。"
+
+ FACTION_ACTION_TRADE_SUBSIDIES: "税收补贴"
+ FACTION_ACTION_TRADE_SUBSIDIES_DESC: "补贴商业贸易5年。这将花费大量资金，但这能使得商业贸易工会十分高兴，并可能会导致在私营领域的盲目扩张。"
+ FACTION_ACTION_HEAVY_TAXATION: "课征重税"
+ FACTION_ACTION_HEAVY_TAXATION_DESC: "增加商业贸易工会3年的税收。这将会大大提高国家的收入，但这会使得商业贸易工会十分不满，并可能导致私营企业数量减少。"
+ FACTION_ACTION_STATE_INTEGRATION: "国家整合"
+ FACTION_ACTION_STATE_INTEGRATION_DESC: "将该派系融入国家体系之中。对于那些希望加入该领域工作的人来说，这是强制性的。这也非常有效解散该独立的派系。"
+
+# Miners Union
+ miners_union_faction: "矿工协会"
+ FACTION_MINERS_UNION: "矿工协会"
+ FACTION_MINERS_UNION_DESC: "矿工工人工会。"
+ FACTION_COUNTRY_MINERS_UNION: "矿工协会"
+ FACTION_COUNTRY_MINERS_UNION_DESC: "矿工工人工会。"
+ pft_miners_union: "矿工协会"
+ pft_miners_union_desc: "矿工工人工会。"
+
+ FACTION_ACTION_IMPROVED_SAFETY: "更安全的工作条件"
+ FACTION_ACTION_IMPROVED_SAFETY_DESC: "为所有工会成员谋取更安全的工作环境。这样能使得他们更加快乐，能提供更多矿物产量。"
+
+ currently_improved_safety: "安全作业环境必须实施。"
+
+# Criminal Factions
+ pft_crime_syndicate: "财团"
+ pft_crime_syndicate_desc: "A group of organisations combined to promote criminal activities, usually by covert means, to not just get rich but also be the real power in the empire。"
+
+ POP_FACTION_SYNDICATE_DEMAND: "无"
+ POP_FACTION_SYNDICATE_DEMAND_DESC: "The Syndicate operates in the shadows and has no public demands. When they have a demand, they'll let the relevant people know。"
+
+ POP_FACTION_GATHER_SUPPORT: "野蛮生长"
+ POP_FACTION_GATHER_SUPPORT_DESC: "The faction recruits operatives and seeks to expand infrastructure and increase funding from influential, powerful and wealthy supporters。"
+ POP_FACTION_SYNDICATE_RECENT_SUPPORT: "最近辛迪加扩张。"
+
+ POP_FACTION_THREAT_ELIMINATION: "威胁消除"
+ POP_FACTION_THREAT_ELIMINATION_DESC: "The faction targets military, security and law enforcement forces and facilities, to either subvert them or eliminate them。"
+
+ POP_FACTION_SYNDICATE_CORRUPTION: "腐败"
+ POP_FACTION_SYNDICATE_CORRUPTION_DESC: "财团利用威胁、勒索和贿赂将政府官员忽略他们的活动。"
+ POP_FACTION_SYNDICATE_RECENT_CORRUPTION: "政府官员的腐败已发生。"
+
+ POP_FACTION_SYNDICATE_LEGITIMACY: "合理化"
+ POP_FACTION_SYNDICATE_LEGITIMACY_DESC: "财团试图改变法律以及让政府合法化他们的行为。"
+ POP_FACTION_SYNDICATE_RECENT_LEGITIMACY: "财团的合理化已发生。"
+
+ pft_crime_cartel: "垄断联盟"
+ pft_crime_cartel_desc: "随着犯罪活动增加，财团垄断所有行业，并利用暴力手段获得金钱与权力。"
+
+ pft_crime_cartel_2: "垄断联盟"
+ pft_crime_cartel_2_desc: "随着犯罪活动增加，财团垄断所有行业，并利用暴力手段获得金钱与权力。"
+
+ POP_FACTION_PLANET_CARTEL_DEMAND: "金钱与权力"
+ POP_FACTION_PLANET_CARTEL_DEMAND_DESC: "财团想通过犯罪手段获得在[parameter:Planet.GetName]的无限金钱和绝对权力。如果国家或者地方政府向试图阻止，他们就会施以强大的火力进行反击。"
+
+ POP_FACTION_PLANET_CARTEL_RECRUIT: "新成员"
+ POP_FACTION_PLANET_CARTEL_RECRUIT_DESC: "财团与帮派合作增加在[parameter:Planet.GetName]的有组织的犯罪活动和利用诈骗增加组织收入以便维持他们的基础设施。"
+ POP_FACTION_PLANET_CARTEL_RECENT_RECRUIT: "成员正在壮大。"
+
+ POP_FACTION_PLANET_CARTEL_CRIME: "有预谋的犯罪浪潮"
+ POP_FACTION_PLANET_CARTEL_CRIME_DESC: "财团与帮派合作增加在[parameter:Planet.GetName]的有组织的犯罪活动。"
+ POP_FACTION_PLANET_CARTEL_RECENT_CRIME: "有组织的犯罪活动正呈上升趋势。"
+
+ POP_FACTION_PLANET_CARTEL_MARKETEERING: "黑市"
+ POP_FACTION_PLANET_CARTEL_MARKETEERING_DESC: "财团开辟在[parameter:Planet.GetName]的黑市，为星球提供毒品、武器、走私、性交易等非法服务。"
+ POP_FACTION_PLANET_CARTEL_RECENT_MARKETEERING: "黑市已经开始运作。"
+
+ POP_FACTION_PLANET_CARTEL_CORRUPTION: "腐败"
+ POP_FACTION_PLANET_CARTEL_CORRUPTION_DESC: "财团使用威胁、敲诈和贿赂的手段使得[parameter:Planet.GetName]的官员无视他们的活动。"
+ POP_FACTION_PLANET_CARTEL_RECENT_CORRUPTION: "政府官员的腐败已发生。"
+
+ FACTION_ACTION_CRACKDOWN: "镇压！"
+ FACTION_ACTION_CRACKDOWN_DESC: "国家将执法机关和其他政府机构的全部精力放在派系上，尽一切可能阻止他们的活动。"
+
+ FACTION_ACTION_CLEAN_HOUSE: "内部清洗"
+ FACTION_ACTION_CLEAN_HOUSE_DESC: "失落的国家或者地方官员都被逮捕并替换。那些嚣张的财团已经被锁定，要么被逮捕，要么被杀，要么隐姓埋名。"
+
+ FACTION_ACTION_BOUNTIES: "慷慨的奖励"
+ FACTION_ACTION_BOUNTIES_DESC: "为抓获或协助抓获犯罪分子、恐怖分子和叛徒提供巨额奖励。"
+
+ POP_FACTION_PLANET_CARTEL_REBELLION_TITLE: "敌人接管了[parameter:Planet.GetName]!"
+ POP_FACTION_PLANET_CARTEL_REBELLION_DESC: "财团试图采取直接控制[parameter:Planet.GetName]并对针对地方政府发动军事进攻。"
+
+ POP_FACTION_PLANET_CARTEL_OCCUPIED: "行星被占领。"
+ POP_FACTION_PLANET_CARTEL_COMBAT: "该行星有地面战斗。"
+
+ planet_crimewave: "犯罪率激增！"
+ planet_crimewave_desc: "星球上的罪行难以断绝。"
+ planet_blackmarkets: "黑市"
+ planet_blackmarkets_desc: "这颗星球活跃着各种囤积非法物资，经营非法服务。"
+
+ edict_divloy_cleanstreets:0 "清扫街道"
+ edict_divloy_cleanstreets_desc:1 "针对犯罪，黑市交易以及腐败的清扫行动已经持续10年了，人民因此更加幸福，但也使得这个地方谁说增加一点成本。"
+ edict_divloy_cleanstreets.tooltip: "针对犯罪，黑市交易以及腐败的清扫行动。"

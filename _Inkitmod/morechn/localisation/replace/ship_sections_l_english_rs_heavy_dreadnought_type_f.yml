@@ -1,0 +1,28 @@
+﻿l_english:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+ 
+ 
+ ####################################
+ # RS Heavy Dreadnought Type F
+ #################################### 
+ RS_HEAVY_DREADNOUGHT_TYPE_F_BOW_L1M1S2:0 "舷侧舰首"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_BOW_L2:0 "大炮舰首"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_BOW_M1S2SHB:0 "机库舰首"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_BOW_XL1:0 "斯百摩舰首"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_MID1_L2M2:0 "舷侧核心"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_MID1_L3:0 "重型大炮核心"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_MID1_M4SHB:0 "机库核心"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_MID1_S4LHB:0 "卡瑞尔核心"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_MID2_L2M2:0 "舷侧核心"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_MID2_L3:0 "大炮核心"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_MID2_M4SHB:0 "机库核心"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_MID2_S4LHB:0 "卡瑞尔核心"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_STERN_L1:0 "重型大炮舰尾"
+ RS_HEAVY_DREADNOUGHT_TYPE_F_STERN_M2:0 "先进舷侧舰尾"

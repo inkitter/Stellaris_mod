@@ -1,0 +1,15 @@
+﻿l_english:
+ 
+ ########################
+ ### Special Projects ###
+ ########################
+ 
+ EXTERMINATE_THE_BUGS:0 "消灭星球的虫群危害"
+ EXTERMINATE_THE_BUGS_DESC:0 "该星球的虫群半觉醒并攻击我们的殖民地。我们需要派出军队清理它们。\n\n"
+ 
+ MASSIVE_RUINS:0 "巨大的废墟"
+ MASSIVE_RUINS_DESC:0 "我们发现该星球绝大部分被一个废墟笼罩，我们可以探索这里。\n\n"
+ 
+ CAVE_SYSTEM:0 "溶洞系统"
+ CAVE_SYSTEM_DESC:0 "在我们殖民地发了一个巨大的洞穴，而且里面还有一些生物。我们需要派出军队清理它们。\n\n"
+ 

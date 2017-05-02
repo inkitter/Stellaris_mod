@@ -1,0 +1,16 @@
+﻿l_english:
+ 
+ pc_plcom: "机械星球"
+ pc_plcom_desc: "一个具有行星大小的用于星系计算的智能计算机。"
+ 
+ pc_plcom_tile: "机械星球表面"
+ pc_plcom_tile_desc: "寒冷，毫无生气和人造地形。一个访问点的行星数据管道。"
+ 
+ plcom_planet: "机械星球"
+ plcom_planet_desc: "整个星球是一个巨大的智能计算机。"
+ 
+ tech_plcom_creation: "机械星球创造"
+ tech_plcom_creation_desc: "创造由人工智能操控的行星大小般的计算机，用于银河范围测量任务。除了全新的改造技术和发电技术外，这种大型计算机还覆盖了整个行星表面使其可以自我管理和自我解决问题。" 
+ 
+ tech_plcom_annihilation:"地质湮没"
+ tech_plcom_annihilation_desc: "通过人工手段改造一颗行星，虽然摧毁了大气和所有居住陆地，但是也创造一些新东西。"

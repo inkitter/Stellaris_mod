@@ -1,0 +1,53 @@
+﻿l_english:
+
+#--
+#--		--------------------------- --------------------------- --------------------------- ---------------------------
+#--		Fallen Empire Expanded - Localisation for Starting Homeworld descriptions
+#--		--------------------------- --------------------------- --------------------------- ---------------------------
+#--
+#--		Fallen Empire Extended (FEE) is designed with full compatibility and safe uninstallation in mind.
+#--
+#--		Removal of this mod...
+#--		•	Will not remove existing created systems created by FEE from your saves.
+#--		•	Will not corrupt scripts or triggers associated with fallen empires.
+#--		•	Should not compromise or corrupt your saves.
+#--
+#--		PREFACE
+#--		•	This file provides the localisation for name and description for new player staring locations
+#--		•	Without this file, names and description will be missing
+#--
+#--		--------------------------- --------------------------- --------------------------- ---------------------------
+#--
+
+ FEE_fallen_1_1_player_NAME:0 "§H无限灯塔\n"
+ FEE_fallen_1_1_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L有四个居住区的完整的环形世界。\n§G   - 4x 环形世界居住区 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_1_3_player_NAME:0 "§H恒心灯塔\n"
+ FEE_fallen_1_3_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L被破坏的环形世界只剩下一个完整的居住区。\n§G   - 1x 环形世界居住区 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_2_player_NAME:0 "§H天体王座\n"
+ FEE_fallen_2_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L巫师帝国的王座。两个盖亚世界。\n§G   - 1x 盖亚行星 (25)\n§G   - 1x 盖亚行星 (15)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_3_player_NAME:0 "§H天父\n"
+ FEE_fallen_3_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L领域的融合。三个盖亚星球环绕着一个巨型气态星球。\n§G   - 1x 盖亚月亮 (20)\n§G   - 1x 盖亚月球 (12)\n§G   - 1x 盖亚月亮 (10)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_4_player_NAME:0 "§H核心\n"
+ FEE_fallen_4_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L一个隐居帝国，两个盖亚世界。一个轨道。\n§G   - 1x 盖亚行星 (25)\n§G   - 1x 盖亚月亮 (12)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_5_player_NAME:0 "§H天体发电机\n"
+ FEE_fallen_5_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L古老又失效的机器。部分环形世界和盖亚世界。\n§G   - 1x 环形世界居住区 (25)\n§G   - 1x 盖亚行星 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_6_player_NAME:0 "§H太空避难所\n"
+ FEE_fallen_6_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L一个被共有恒星环绕着神秘空间。三个分开在轨道上的盖亚世界。\n§G   - 1x 盖亚行星 (25)\n§G   - 2x 盖亚月球 (20)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_7_player_NAME:0 "§H空灵堡垒\n"
+ FEE_fallen_7_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L生命的摇篮。有四个居住区的完整的环形世界。\n§G   - 4x 环形世界居住区 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_8_player_NAME:0 "§H永恒城堡\n"
+ FEE_fallen_8_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L一个腐朽的帝国的最后的根据地，一个类地星球和一个理想世界。\n§G   - 1x 盖亚行星 (25)\n§G   - 1x 理想的宜居行星 (25)\n\n$system_initializer_DESC$"
+
+ FEE_fallen_earth_player_NAME:0 "§H地球\n"
+ FEE_fallen_earth_player_DESC:0 "§H失落帝国扩展\n--------------------------------\n§L停滞不前的圣所有着大量不同行星。\n§G     Venus - 热带世界 (16)\n§G     Earth - 盖亚世界 (25)\n§G     Mars - 草原世界 (16)\n§G     Europa - 海洋月球 (16)\n§G     Titan - 北极月 (12)\n\n§H家园: §R人族联盟\n\n$system_initializer_DESC$"
+
+ FEE_fallen_terran_wasteland_player_NAME:0 "§H人族荒地\n"
+ FEE_fallen_terran_wasteland_player_DESC:0 "§H失落帝国扩展 \n--------------------------------\n§L一个有着大量不同行星的外星入侵以及种族灭绝的墓地宝座。\n§G     Venus - 荒野世界 (16)\n§G     Earth - 死寂世界 (25)\n§G     Mars - 盖亚世界 (25)\n§G     Europa - 死寂月球 (25)\n§G     Titan - 苔原月 (16)\n§G     Titania - 北极月 (16)\n\n§H家园: §R索尔帝国\n\n$system_initializer_DESC$"

@@ -1,0 +1,24 @@
+﻿l_english:
+ ####################################
+ # Cruiser
+ ####################################
+ CRUISER_BOW_M2HB:0 "守护破坏者"
+ CRUISER_BOW_S2HB:0 "银幕破坏者"
+ CRUISER_BOW_S1HB:0 "链式破坏者"
+ CRUISER_BOW_L2:0 "恶习破坏者"
+ CRUISER_BOW_M3:0 "憎恶破坏者"
+ CRUISER_BOW_M2S1:0 "枷锁破坏者"
+
+
+ CRUISER_MID_S2HB_A:0 "爆炸核心"
+ CRUISER_MID_S2HB_B:0 "愤怒核心"
+ CRUISER_MID_S3:0 "哨兵核心"
+ CRUISER_MID_L1M1_A:0 "幽灵核心"
+ CRUISER_MID_M3_A:0 "惩罚者核心"
+ CRUISER_MID_M1S1:0 "收割者核心"
+
+
+ CRUISER_STERN_HB:0 "保护堡垒"
+ CRUISER_STERN_S2_A:0 "守护堡垒"
+ CRUISER_STERN_L1:0 "热枕堡垒"
+ CRUISER_STERN_M1_A:0 "荣誉堡垒"

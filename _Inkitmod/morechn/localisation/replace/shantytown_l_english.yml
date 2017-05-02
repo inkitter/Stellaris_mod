@@ -1,0 +1,17 @@
+﻿l_english:
+
+ building_shanty_town:0 "棚户区城镇"
+ building_shanty_town_desc:0 "哪怕是贫民窟，起码也是个家。"
+ building_shanty_mine:0 "棚户区工作"
+ building_shanty_mine_desc:0 "收集材料为改善家园做贡献。"
+ building_shanty_market:0 "棚户区超市"
+ building_shanty_market_desc:0 "买卖基本必需品和大量废弃垃圾。"
+ building_shanty_farm:0 "棚户区农场"
+ building_shanty_farm_desc:0 "为了生存不得不自己种植食物。"
+ building_shanty_school:0 "棚户区学校"
+ building_shanty_school_desc:0 "社会青年也要得到教育。"
+
+ edict_disallow_shanty_towns:0 "禁止棚户区"
+ edict_disallow_shanty_towns_desc:0 "失业人口不能建造棚户区。"
+ edict_allow_shanty_towns:0 "允许棚户区"
+ edict_allow_shanty_towns_desc:0 "失业人口能建造棚户区。"

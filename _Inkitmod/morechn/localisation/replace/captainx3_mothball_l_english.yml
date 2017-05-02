@@ -1,0 +1,35 @@
+﻿l_english:
+
+ sm_mothball_module: "封存与报废"
+ sm_mothball_module_desc: "启用星球法令允许封存或报废所有在轨的战舰。"
+
+ edict_activate_moth: "激活封存模块"
+ edict_activate_moth_desc: "所有在轨的战舰，无论是建造还是修复亦或者停靠，都将会被封存，以便减少维护费§G100%§!。\n"
+ edict_activate_moth_tooltip: "\n激活星港的封存模块。这是免费的。然而当封存完后你需要§P支付£minerals。§!\n\n价格将由我们管理局决定，你无法提前得知。然而费用永远不会超过所有闲置战舰成本的70%。\n\n§G封存的战舰将不会被任何人视为有效目标。所有船员将被送往其他地方以及战舰会如同残骸一般飘浮在太空中。§! §R如果封存的星球被轰炸，你将一无所有。§!"
+
+ edict_deactivate_moth: "停用封存模块"
+ edict_deactivate_moth_desc: "启用一个§M特殊项目§!以便重新激活帝国所有被封存的战舰。\n\n§G立即关闭封存§!让星港重新运作。\n"
+ edict_deactivate_moth_tooltip: "\n无法这时候确定成本。成本估算说明开始于§R£minerals 10§!每海军规模，每年会增加直到§R£minerals 50§!每海军规模。\n\n§P如果不能在特别项目完成后一次性支付，将会每月扣除一部分直到达到为止。§!"
+
+ edict_scrapships: "报废封存战舰"
+ edict_scrapships_desc: "启用一个§M特殊项目§!将帝国封存起来的战舰报废。"
+ edict_scrapships_tooltip: "报废将会退还一部分封存的战舰的成本。\n\n我们的工程师会估算出报废会回收到多少的£minerals在项目完成后。"
+
+ mothballed_fleet: "已封存"
+ mothballed_fleet_desc: "这舰队已被封存。"
+
+ folk_unmothball: "激活舰队"
+ folk_unmothball_DESC: "我们需要一定时间完成重新激活被封存战舰。我们仍然不知道这个项目的实际成本，但相信，它会在建造的新船将成本的5%和70%之间。"
+
+ folk_scrapships: "报废舰队"
+ folk_scrapships_DESC: "让我们工程师处理这些需要报废的舰队。"
+
+ folk_mothball_paidfully: "支付成功"
+ folk_mothball_paidfully_desc: "我们的舰队将会马上进行封存作业。\n\n交货: £minerals §R[Root.MothballPayment]§!\n\n已付款的§Y封存与报废序列§!已满。"
+
+ folk_mothball_notpaid: "支付失败!"
+ folk_mothball_notpaid_desc: "我们的舰队将会马上进行封存作业。\n\n然而，我们还§R没有结清账目§!给§Y封存与报废序列§!已满并将扣除每月£minerals直到我们付清为止。当付款完成后，你将得到一个新的通知。\n\n总计: £minerals §R[Root.MothballPayment]§!\n支付: £minerals §R[Root.MothballPartlyPaid]§!\n到期金额: £minerals §R[Root.MothballDue]§!\n"
+
+ folk_mothball_scrapped: "舰队报废"
+ folk_mothball_scrapped_desc: "封存与报废作业开始，我们所有封存舰队将会回收成本并且报废。\n\n在完成前，我们支付的£minerals §R[Root.MothballScrapPayment]§!。"
+

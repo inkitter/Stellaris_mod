@@ -1,0 +1,1148 @@
+﻿l_english:
+
+# Crystallis-Infused Tissue
+
+ tech_c_regenerative_hull_tissue_1:0 "水晶自愈组织 Mk I"
+ tech_c_regenerative_hull_tissue_1_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性。\n\n"
+
+ tech_c_regenerative_hull_tissue_2:0 "水晶自愈组织 Mk II"
+ tech_c_regenerative_hull_tissue_2_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性。\n\n"
+
+ tech_c_regenerative_hull_tissue_3:0 "水晶自愈组织 Mk III"
+ tech_c_regenerative_hull_tissue_3_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性。\n\n"
+
+ tech_c_regenerative_hull_tissue_4:0 "水晶自愈组织 Mk IV"
+ tech_c_regenerative_hull_tissue_4_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性。\n\n"
+
+ tech_c_regenerative_hull_tissue_5:0 "水晶自愈组织 Mk V"
+ tech_c_regenerative_hull_tissue_5_desc:0 "将转基因的硅基细菌注入非有机材料可以强化材料的再生性。\n\n"
+
+ C_AUTO_REPAIR_1:0 "水晶自愈组织 I"
+ C_AUTO_REPAIR_1_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高。"
+
+ C_AUTO_REPAIR_2:0 "水晶自愈组织 II"
+ C_AUTO_REPAIR_2_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高。"
+
+ C_AUTO_REPAIR_3:0 "水晶自愈组织 III"
+ C_AUTO_REPAIR_3_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高。"
+
+ C_AUTO_REPAIR_4:0 "水晶自愈组织 IV"
+ C_AUTO_REPAIR_4_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高。"
+
+ C_AUTO_REPAIR_5:0 "水晶自愈组织 V"
+ C_AUTO_REPAIR_5_DESC:0 "把这些注入结晶的细菌与舰船设计在一起，将使得船体受损恢复速度提高。"
+
+ C_SMALL_AUTO_REPAIR_1:1 "小型水晶自愈组织 I"
+ C_MEDIUM_AUTO_REPAIR_1:1 "中型水晶自愈组织 I"
+ C_LARGE_AUTO_REPAIR_1:1 "大型水晶自愈组织 I"
+
+ C_SMALL_AUTO_REPAIR_2:1 "小型水晶自愈组织 II"
+ C_MEDIUM_AUTO_REPAIR_2:1 "中型水晶自愈组织 II"
+ C_LARGE_AUTO_REPAIR_2:1 "大型水晶自愈组织 II"
+
+ C_SMALL_AUTO_REPAIR_3:1 "小型水晶自愈组织 III"
+ C_MEDIUM_AUTO_REPAIR_3:1 "中型水晶自愈组织 III"
+ C_LARGE_AUTO_REPAIR_3:1 "大型水晶自愈组织 III"
+
+ C_SMALL_AUTO_REPAIR_4:1 "小型水晶自愈组织 IV"
+ C_MEDIUM_AUTO_REPAIR_4:1 "中型水晶自愈组织 IV"
+ C_LARGE_AUTO_REPAIR_4:1 "大型水晶自愈组织 IV"
+
+ C_SMALL_AUTO_REPAIR_5:1 "小型水晶自愈组织 V"
+ C_MEDIUM_AUTO_REPAIR_5:1 "中型水晶自愈组织 V"
+ C_LARGE_AUTO_REPAIR_5:1 "大型水晶自愈组织 V"
+
+# Crystallis-Laced Targeting Matrix
+
+ tech_c_crystalis_targeting_matrix_1:0 "水晶目标定位矩阵 I"
+ tech_c_crystalis_targeting_matrix_1_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率。\n\n"
+
+ tech_c_crystalis_targeting_matrix_2:0 "水晶目标定位矩阵 II"
+ tech_c_crystalis_targeting_matrix_2_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率。\n\n"
+
+ tech_c_crystalis_targeting_matrix_3:0 "水晶目标定位矩阵 III"
+ tech_c_crystalis_targeting_matrix_3_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率。\n\n"
+
+ tech_c_crystalis_targeting_matrix_4:0 "水晶目标定位矩阵 IV"
+ tech_c_crystalis_targeting_matrix_4_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率。\n\n"
+
+ tech_c_crystalis_targeting_matrix_5:0 "水晶目标定位矩阵 V"
+ tech_c_crystalis_targeting_matrix_5_desc:0 "在瞄准系统使用特殊的晶体硅片可以提高船舶命中率。\n\n"
+
+ C_TARGETTING_COMPUTER_1:0 "水晶目标定位矩阵 I"
+ C_TARGETTING_COMPUTER_1_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升。"
+
+ C_TARGETTING_COMPUTER_2:0 "水晶目标定位矩阵 II"
+ C_TARGETTING_COMPUTER_2_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升。"
+
+ C_TARGETTING_COMPUTER_3:0 "水晶目标定位矩阵 III"
+ C_TARGETTING_COMPUTER_3_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升。"
+
+ C_TARGETTING_COMPUTER_4:0 "水晶目标定位矩阵 IV"
+ C_TARGETTING_COMPUTER_4_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升。"
+
+ C_TARGETTING_COMPUTER_5:0 "水晶目标定位矩阵 V"
+ C_TARGETTING_COMPUTER_5_DESC:0 "瞄准系统已经注入晶体芯片，舰船准确度得到了提升。"
+
+ C_SMALL_TARGETING_COMPUTER_1:1 "小型水晶目标定位矩阵 I"
+ C_MEDIUM_TARGETING_COMPUTER_1:1 "中型水晶目标定位矩阵 I"
+ C_LARGE_TARGETING_COMPUTER_1:1 "大型水晶目标定位矩阵 I"
+
+ C_SMALL_TARGETING_COMPUTER_2:1 "小型水晶目标定位矩阵 II"
+ C_MEDIUM_TARGETING_COMPUTER_2:1 "中型水晶目标定位矩阵 II"
+ C_LARGE_TARGETING_COMPUTER_2:1 "大型水晶目标定位矩阵 II"
+
+ C_SMALL_TARGETING_COMPUTER_3:1 "小型水晶目标定位矩阵 III"
+ C_MEDIUM_TARGETING_COMPUTER_3:1 "中型水晶目标定位矩阵 III"
+ C_LARGE_TARGETING_COMPUTER_3:1 "大型水晶目标定位矩阵 III"
+
+ C_SMALL_TARGETING_COMPUTER_4:1 "小型水晶目标定位矩阵 IV"
+ C_MEDIUM_TARGETING_COMPUTER_4:1 "中型水晶目标定位矩阵 IV"
+ C_LARGE_TARGETING_COMPUTER_4:1 "大型水晶目标定位矩阵 IV"
+
+ C_SMALL_TARGETING_COMPUTER_5:1 "小型水晶目标定位矩阵 V"
+ C_MEDIUM_TARGETING_COMPUTER_5:1 "中型水晶目标定位矩阵 V"
+ C_LARGE_TARGETING_COMPUTER_5:1 "大型水晶目标定位矩阵 V"
+
+# Crystallis-Forged Plating
+
+ tech_c_crystal_armor_3:0 "水晶重甲 II"
+ tech_c_crystal_armor_3_desc:0 "在锻造过程中引入更多结晶物质，金属变得更硬。\n\n"
+
+ tech_c_crystal_armor_4:0 "水晶重甲 III"
+ tech_c_crystal_armor_4_desc:0 "在锻造过程中引入更多结晶物质，金属变得更硬。\n\n"
+
+ tech_c_crystal_armor_5:0 "水晶重甲 IV"
+ tech_c_crystal_armor_5_desc:0 "在锻造过程中引入更多结晶物质，金属变得更硬。\n\n"
+
+ tech_c_crystal_armor_6:0 "水晶重甲 V"
+ tech_c_crystal_armor_6_desc:0 "在锻造过程中引入更多结晶物质，金属变得更硬。\n\n"
+
+ C_CRYSTAL_ARMOR_3:0 "水晶重甲 II"
+ C_CRYSTAL_ARMOR_3_DESC:0 "进一步修改锻造结晶合金的过程，提高合金耐久性。"
+
+ C_CRYSTAL_ARMOR_4:0 "水晶重甲 III"
+ C_CRYSTAL_ARMOR_4_DESC:0 "进一步修改锻造结晶合金的过程，提高合金耐久性。"
+
+ C_CRYSTAL_ARMOR_5:0 "水晶重甲 IV"
+ C_CRYSTAL_ARMOR_5_DESC:0 "进一步修改锻造结晶合金的过程，提高合金耐久性。"
+
+ C_CRYSTAL_ARMOR_6:0 "水晶重甲 V"
+ C_CRYSTAL_ARMOR_6_DESC:0 "进一步修改锻造结晶合金的过程，提高合金耐久性。"
+
+ C_SMALL_CRYSTAL_ARMOR_3:1 "小型水晶重甲 II"
+ C_MEDIUM_CRYSTAL_ARMOR_3:1 "中型水晶重甲 II"
+ C_LARGE_CRYSTAL_ARMOR_3:1 "大型水晶重甲 II"
+
+ C_SMALL_CRYSTAL_ARMOR_4:1 "小型水晶重甲 III"
+ C_MEDIUM_CRYSTAL_ARMOR_4:1 "中型水晶重甲 III"
+ C_LARGE_CRYSTAL_ARMOR_4:1 "大型水晶重甲 III"
+
+ C_SMALL_CRYSTAL_ARMOR_5:1 "小型水晶重甲 IV"
+ C_MEDIUM_CRYSTAL_ARMOR_5:1 "中型水晶重甲 IV"
+ C_LARGE_CRYSTAL_ARMOR_5:1 "大型水晶重甲 IV"
+
+ C_SMALL_CRYSTAL_ARMOR_6:1 "小型水晶重甲 V"
+ C_MEDIUM_CRYSTAL_ARMOR_6:1 "中型水晶重甲 V"
+ C_LARGE_CRYSTAL_ARMOR_6:1 "大型水晶重甲 V"
+
+# Crystal-Reinforced Armor
+ tech_c_ship_armor_6:0 "水晶强化重甲 VI"
+ tech_c_ship_armor_6_desc:0 "将水晶注入分子中能够使材料更耐用。\n\n"
+
+ tech_c_ship_armor_7:0 "水晶强化重甲 VII"
+ tech_c_ship_armor_7_desc:0 "将水晶注入分子中能够使材料更耐用。\n\n"
+
+ tech_c_ship_armor_8:0 "水晶强化重甲 VIII"
+ tech_c_ship_armor_8_desc:0 "将水晶注入分子中能够使材料更耐用。\n\n"
+
+ tech_c_ship_armor_9:0 "水晶强化重甲 IX"
+ tech_c_ship_armor_9_desc:0 "将水晶注入分子中能够使材料更耐用。\n\n"
+
+ tech_c_ship_armor_10:0 "水晶强化重甲 X"
+ tech_c_ship_armor_10_desc:0 "将水晶注入分子中能够使材料更耐用。\n\n"
+
+ C_ARMOR_6:0 "水晶强化重甲 VI"
+ C_ARMOR_6_DESC:0 "将水晶注入分子中能够使材料更耐用。"
+
+ C_ARMOR_7:0 "水晶强化重甲 VII"
+ C_ARMOR_7_DESC:0 "将水晶注入分子中能够使材料更耐用。"
+
+ C_ARMOR_8:0 "水晶强化重甲 VIII"
+ C_ARMOR_8_DESC:0 "将水晶注入分子中能够使材料更耐用。"
+
+ C_ARMOR_9:0 "水晶强化重甲 IX"
+ C_ARMOR_9_DESC:0 "将水晶注入分子中能够使材料更耐用。"
+
+ C_ARMOR_10:0 "水晶强化重甲 X"
+ C_ARMOR_10_DESC:0 "将水晶注入分子中能够使材料更耐用。"
+
+ C_SMALL_ARMOR_6:1 "小型水晶强化重甲 VI"
+ C_MEDIUM_ARMOR_6:1 "中型水晶强化重甲 VI"
+ C_LARGE_ARMOR_6:1 "大型水晶强化重甲 VI"
+
+ C_SMALL_ARMOR_7:1 "小型水晶强化重甲 VII"
+ C_MEDIUM_ARMOR_7:1 "中型水晶强化重甲 VII"
+ C_LARGE_ARMOR_7:1 "大型水晶强化重甲 VII"
+
+ C_SMALL_ARMOR_8:1 "小型水晶强化重甲 VIII"
+ C_MEDIUM_ARMOR_8:1 "中型水晶强化重甲 VIII"
+ C_LARGE_ARMOR_8:1 "大型水晶强化重甲 VIII"
+
+ C_SMALL_ARMOR_9:1 "小型水晶强化重甲 IX"
+ C_MEDIUM_ARMOR_9:1 "中型水晶强化重甲 IX"
+ C_LARGE_ARMOR_9:1 "大型水晶强化重甲 IX"
+
+ C_SMALL_ARMOR_10:1 "小型水晶强化重甲 X"
+ C_MEDIUM_ARMOR_10:1 "中型水晶强化重甲 X"
+ C_LARGE_ARMOR_10:1 "大型水晶强化重甲 X"
+
+# Crystallis 零点反应堆
+ tech_c_reactor_6:0 "水晶零点反应堆 VI"
+ tech_c_reactor_6_desc:0 "使用量子技术以水晶为燃料的零点反应堆能够以便获得更大的驱动力以及近乎无限的电力。\n\n"
+
+ tech_c_reactor_7:0 "水晶维度反应堆 VII"
+ tech_c_reactor_7_desc:0 "使用量子技术以水晶为燃料的维度反应堆能够以便获得更大的驱动力以及近乎无限的电力。\n\n"
+
+ tech_c_reactor_8:0 "水晶硅岩金属反应堆 VIII"
+ tech_c_reactor_8_desc:0 "使用量子技术以水晶为燃料的硅岩金属反应堆能够以便获得更大的驱动力以及近乎无限的电力。\n\n"
+
+ tech_c_reactor_9:0 "水晶重力波反应堆 IX"
+ tech_c_reactor_9_desc:0 "使用量子技术以水晶为燃料的重力波反应堆能够以便获得更大的驱动力以及近乎无限的电力。\n\n"
+
+ tech_c_reactor_10:0 "水晶奇点反应堆 X"
+ tech_c_reactor_10_desc:0 "使用量子技术以水晶为燃料的奇点反应堆能够以便获得更大的驱动力以及近乎无限的电力!\n\n"
+
+ C_ZERO_POINT_REACTOR_6:0 "水晶零点反应堆 VI"
+ C_ZERO_POINT_REACTOR_6_DESC:0 "使用量子技术以水晶为燃料的零点反应堆能够以便获得更大的驱动力以及近乎无限的电力。"
+
+ C_ZERO_POINT_REACTOR_7:0 "水晶维度反应堆 VII"
+ C_ZERO_POINT_REACTOR_7_DESC:0 "使用量子技术以水晶为燃料的维度反应堆能够以便获得更大的驱动力以及近乎无限的电力。"
+
+ C_ZERO_POINT_REACTOR_8:0 "水晶硅岩金属反应堆 VIII"
+ C_ZERO_POINT_REACTOR_8_DESC:0 "使用量子技术以水晶为燃料的硅岩金属反应堆能够以便获得更大的驱动力以及近乎无限的电力。"
+
+ C_ZERO_POINT_REACTOR_9:0 "水晶重力波反应堆 IX"
+ C_ZERO_POINT_REACTOR_9_DESC:0 "使用量子技术以水晶为燃料的重力波反应堆能够以便获得更大的驱动力以及近乎无限的电力。"
+
+ C_ZERO_POINT_REACTOR_10:0 "水晶奇点反应堆 X"
+ C_ZERO_POINT_REACTOR_10_DESC:0 "使用量子技术以水晶为燃料的奇点反应堆能够以便获得更大的驱动力以及近乎无限的电力!"
+
+ C_SMALL_ZERO_POINT_REACTOR_6:1 "小型水晶零点反应堆 VI"
+ C_MEDIUM_ZERO_POINT_REACTOR_6:1 "中型水晶零点反应堆 VI"
+ C_LARGE_ZERO_POINT_REACTOR_6:1 "大型水晶零点反应堆 VI"
+
+ C_SMALL_ZERO_POINT_REACTOR_7:1 "小型水晶维度反应堆 VII"
+ C_MEDIUM_ZERO_POINT_REACTOR_7:1 "中型水晶维度反应堆 VII"
+ C_LARGE_ZERO_POINT_REACTOR_7:1 "大型水晶维度反应堆 VII"
+
+ C_SMALL_ZERO_POINT_REACTOR_8:1 "小型水晶硅岩金属反应堆 VIII"
+ C_MEDIUM_ZERO_POINT_REACTOR_8:1 "中型水晶硅岩金属反应堆 VIII"
+ C_LARGE_ZERO_POINT_REACTOR_8:1 "大型水晶硅岩金属反应堆 VIII"
+
+ C_SMALL_ZERO_POINT_REACTOR_9:1 "小型水晶重力波反应堆 IX"
+ C_MEDIUM_ZERO_POINT_REACTOR_9:1 "中型水晶重力波反应堆 IX"
+ C_LARGE_ZERO_POINT_REACTOR_9:1 "大型水晶重力波反应堆 IX"
+
+ C_SMALL_ZERO_POINT_REACTOR_10:1 "小型水晶奇点反应堆 X"
+ C_MEDIUM_ZERO_POINT_REACTOR_10:1 "中型水晶奇点反应堆 X"
+ C_LARGE_ZERO_POINT_REACTOR_10:1 "大型水晶奇点反应堆 X"
+
+# Crystallis-Lenzing Shield Array VI
+ C_SMALL_ZERO_POINT_REACTOR_6p:1 "小型水晶零点反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_6p1:1 "小型水晶零点反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_6p2:1 "小型水晶零点反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_6p3:1 "小型水晶零点反应堆"
+
+ C_SMALL_ZERO_POINT_REACTOR_7p:1 "小型水晶维度反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_7p1:1 "小型水晶维度反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_7p2:1 "小型水晶维度反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_7p3:1 "小型水晶维度反应堆"
+
+ C_SMALL_ZERO_POINT_REACTOR_8p:1 "小型水晶硅岩金属反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_8p1:1 "小型水晶硅岩金属反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_8p2:1 "小型水晶硅岩金属反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_8p3:1 "小型水晶硅岩金属反应堆"
+
+ C_SMALL_ZERO_POINT_REACTOR_9p:1 "小型水晶重力波反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_9p1:1 "小型水晶重力波反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_9p2:1 "小型水晶重力波反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_9p3:1 "小型水晶重力波反应堆"
+
+ C_SMALL_ZERO_POINT_REACTOR_10p:1 "小型水晶奇点反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_10p1:1 "小型水晶奇点反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_10p2:1 "小型水晶奇点反应堆"
+ C_SMALL_ZERO_POINT_REACTOR_10p3:1 "小型水晶奇点反应堆"
+
+ tech_c_shields_6:0 "水晶纤维护盾阵列 VI"
+ tech_c_shields_6_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。\n\n"
+
+ tech_c_shields_7:0 "水晶纤维护盾阵列 VII"
+ tech_c_shields_7_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。\n\n"
+
+ tech_c_shields_8:0 "水晶纤维护盾阵列 VIII"
+ tech_c_shields_8_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。\n\n"
+
+ tech_c_shields_9:0 "水晶纤维护盾阵列 IX"
+ tech_c_shields_9_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。\n\n"
+
+ tech_c_shields_10:0 "水晶纤维护盾阵列 X"
+ tech_c_shields_10_desc:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。\n\n"
+
+
+ tech_c_shields_11:0 "灵能护盾阵列 VI"
+ tech_c_shields_11_desc:0 "+护盾回复 -护盾能量。\n\n"
+
+ tech_c_shields_12:0 "灵能护盾阵列 VII"
+ tech_c_shields_12_desc:0 "+护盾回复 -护盾能量。\n\n"
+
+ tech_c_shields_13:0 "灵能护盾阵列 VIII"
+ tech_c_shields_13_desc:0 "+护盾回复 -护盾能量。\n\n"
+
+ tech_c_shields_14:0 "灵能护盾阵列 IX"
+ tech_c_shields_14_desc:0 "+护盾回复 -护盾能量。\n\n"
+
+ tech_c_shields_15:0 "灵能护盾阵列 X"
+ tech_c_shields_15_desc:0 "+护盾回复 -护盾能量。\n\n"
+
+
+ tech_c_shields_16:0 "硬化护盾阵列 VI"
+ tech_c_shields_16_desc:0 "+护盾值 -护盾回复。\n\n"
+
+ tech_c_shields_17:0 "硬化护盾阵列 VII"
+ tech_c_shields_17_desc:0 "+护盾值 -护盾回复。\n\n"
+
+ tech_c_shields_18:0 "硬化护盾阵列 VIII"
+ tech_c_shields_18_desc:0 "+护盾值 -护盾回复。\n\n"
+
+ tech_c_shields_19:0 "硬化护盾阵列 IX"
+ tech_c_shields_19_desc:0 "+护盾值 -护盾回复。\n\n"
+
+ tech_c_shields_20:0 "硬化护盾阵列 X"
+ tech_c_shields_20_desc:0 "+护盾值 -护盾回复。\n\n"
+
+
+ C_SHIELD_6:0 "水晶纤维护盾阵列 VI"
+ C_SHIELD_6_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。"
+
+ C_SHIELD_7:0 "水晶纤维护盾阵列 VII"
+ C_SHIELD_7_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。"
+
+ C_SHIELD_8:0 "水晶纤维护盾阵列 VIII"
+ C_SHIELD_8_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。"
+
+ C_SHIELD_9:0 "水晶纤维护盾阵列 IX"
+ C_SHIELD_9_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。"
+
+ C_SHIELD_10:0 "水晶纤维护盾阵列 X"
+ C_SHIELD_10_DESC:0 "利用晶体的绝缘作用，使用水晶纤维阵列制造的护盾，它的耐久度极大的提高了。"
+
+
+ C_SHIELD_11:0 "灵能护盾阵列 VI"
+ C_SHIELD_11_DESC:0 "+护盾回复 -护盾能量。"
+
+ C_SHIELD_12:0 "灵能护盾阵列 VII"
+ C_SHIELD_12_DESC:0 "+护盾回复 -护盾能量。"
+
+ C_SHIELD_13:0 "灵能护盾阵列 VIII"
+ C_SHIELD_13_DESC:0 "+护盾回复 -护盾能量。"
+
+ C_SHIELD_14:0 "灵能护盾阵列 IX"
+ C_SHIELD_14_DESC:0 "+护盾回复 -护盾能量。"
+
+ C_SHIELD_15:0 "灵能护盾阵列 X"
+ C_SHIELD_15_DESC:0 "+护盾回复 -护盾能量。"
+
+
+ C_SHIELD_16:0 "硬化护盾阵列 VI"
+ C_SHIELD_16_DESC:0 "+护盾值 -护盾回复。"
+
+ C_SHIELD_17:0 "硬化护盾阵列 VII"
+ C_SHIELD_17_DESC:0 "+护盾值 -护盾回复。"
+
+ C_SHIELD_18:0 "硬化护盾阵列 VIII"
+ C_SHIELD_18_DESC:0 "+护盾值 -护盾回复。"
+
+ C_SHIELD_19:0 "硬化护盾阵列 IX"
+ C_SHIELD_19_DESC:0 "+护盾值 -护盾回复。"
+
+ C_SHIELD_20:0 "硬化护盾阵列 X"
+ C_SHIELD_20_DESC:0 "+护盾值 -护盾回复。"
+
+ C_SMALL_SHIELD_6:1 "小型水晶纤维护盾阵列 VI"
+ C_MEDIUM_SHIELD_6:1 "中型水晶纤维护盾阵列 VI"
+ C_LARGE_SHIELD_6:1 "大型水晶纤维护盾阵列 VI"
+
+ C_SMALL_SHIELD_7:1 "小型水晶纤维护盾阵列 VII"
+ C_MEDIUM_SHIELD_7:1 "中型水晶纤维护盾阵列 VII"
+ C_LARGE_SHIELD_7:1 "大型水晶纤维护盾阵列 VII"
+
+ C_SMALL_SHIELD_8:1 "小型水晶纤维护盾阵列 VIII"
+ C_MEDIUM_SHIELD_8:1 "中型水晶纤维护盾阵列 VIII"
+ C_LARGE_SHIELD_8:1 "大型水晶纤维护盾阵列 VIII"
+
+ C_SMALL_SHIELD_9:1 "小型水晶纤维护盾阵列 IX"
+ C_MEDIUM_SHIELD_9:1 "中型水晶纤维护盾阵列 IX"
+ C_LARGE_SHIELD_9:1 "大型水晶纤维护盾阵列 IX"
+
+ C_SMALL_SHIELD_10:1 "小型水晶纤维护盾阵列 X"
+ C_MEDIUM_SHIELD_10:1 "中型水晶纤维护盾阵列 X"
+ C_LARGE_SHIELD_10:1 "大型水晶纤维护盾阵列 X"
+
+ C_SMALL_SHIELD_11:1 "小型灵能护盾阵列 VI"
+ C_MEDIUM_SHIELD_11:1 "中型灵能护盾阵列 VI"
+ C_LARGE_SHIELD_11:1 "大型灵能护盾阵列 VI"
+
+ C_SMALL_SHIELD_12:1 "小型灵能护盾阵列 VII"
+ C_MEDIUM_SHIELD_12:1 "中型灵能护盾阵列 VII"
+ C_LARGE_SHIELD_12:1 "大型灵能护盾阵列 VII"
+
+ C_SMALL_SHIELD_13:1 "小型灵能护盾阵列 VIII"
+ C_MEDIUM_SHIELD_13:1 "中型灵能护盾阵列 VIII"
+ C_LARGE_SHIELD_13:1 "大型灵能护盾阵列 VIII"
+
+ C_SMALL_SHIELD_14:1 "小型灵能护盾阵列 IX"
+ C_MEDIUM_SHIELD_14:1 "中型灵能护盾阵列 IX"
+ C_LARGE_SHIELD_14:1 "大型灵能护盾阵列 IX"
+
+ C_SMALL_SHIELD_15:1 "小型灵能护盾阵列 X"
+ C_MEDIUM_SHIELD_15:1 "中型灵能护盾阵列 X"
+ C_LARGE_SHIELD_15:1 "大型灵能护盾阵列 X"
+# science Lab
+ C_SMALL_SHIELD_16:1 "小型硬化护盾阵列 VI"
+ C_MEDIUM_SHIELD_16:1 "中型硬化护盾阵列 VI"
+ C_LARGE_SHIELD_16:1 "大型硬化护盾阵列 VI"
+
+ C_SMALL_SHIELD_17:1 "小型硬化护盾阵列 VII"
+ C_MEDIUM_SHIELD_17:1 "中型硬化护盾阵列 VII"
+ C_LARGE_SHIELD_17:1 "大型硬化护盾阵列 VII"
+
+ C_SMALL_SHIELD_18:1 "小型硬化护盾阵列 VIII"
+ C_MEDIUM_SHIELD_18:1 "中型硬化护盾阵列 VIII"
+ C_LARGE_SHIELD_18:1 "大型硬化护盾阵列 VIII"
+
+ C_SMALL_SHIELD_19:1 "小型硬化护盾阵列 IX"
+ C_MEDIUM_SHIELD_19:1 "中型硬化护盾阵列 IX"
+ C_LARGE_SHIELD_19:1 "大型硬化护盾阵列 IX"
+
+ C_SMALL_SHIELD_20:1 "小型硬化护盾阵列 X"
+ C_MEDIUM_SHIELD_20:1 "中型硬化护盾阵列 X"
+ C_LARGE_SHIELD_20:1 "大型硬化护盾阵列 X"
+
+ tech_c_deep_space_lab_1:0 "深空科学研究所 I"
+ tech_c_deep_space_lab_1_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+
+ tech_c_deep_space_lab_2:0 "深空科学研究所 II"
+ tech_c_deep_space_lab_2_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+
+ tech_c_deep_space_lab_3:0 "深空科学研究所 III"
+ tech_c_deep_space_lab_3_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+
+ tech_c_deep_space_lab_4:0 "深空科学研究所 IV"
+ tech_c_deep_space_lab_4_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+
+ tech_c_deep_space_lab_5:0 "深空科学研究所 V"
+ tech_c_deep_space_lab_5_desc:0 "改进我们的科学实验室，让我们能够勇敢走进无人踏足的深空!\n\n"
+
+ science_labs:0 "深空科学研究所"
+ science_labs_DESC:0 "改进深空科学研究所。"
+
+ c_science_labs_1:0 "深空科学研究所 I"
+ c_science_labs_1_DESC:0 "改进深空科学研究所。"
+
+ c_science_labs_2:0 "深空科学研究所 II"
+ c_science_labs_2_DESC:0 "改进深空科学研究所。"
+# SHIP CREW
+ c_science_labs_3:0 "深空科学研究所 III"
+ c_science_labs_3_DESC:0 "改进深空科学研究所。"
+
+ c_science_labs_4:0 "深空科学研究所 IV"
+ c_science_labs_4_DESC:0 "改进深空科学研究所。"
+
+ c_science_labs_5:0 "深空科学研究所 V"
+ c_science_labs_5_DESC:0 "改进深空科学研究所。"
+
+ C_MEDIUM_SCIENCE_LAB_1:1 "深空科学研究所 I"
+ C_MEDIUM_SCIENCE_LAB_2:1 "深空科学研究所 II"
+ C_MEDIUM_SCIENCE_LAB_3:1 "深空科学研究所 III"
+ C_MEDIUM_SCIENCE_LAB_4:1 "深空科学研究所 IV"
+ C_MEDIUM_SCIENCE_LAB_5:1 "深空科学研究所 V"
+
+ tech_c_robot_crew:0 "机器人船员"
+ tech_c_robot_crew_desc:0 "这个机器人船员能使战舰更有效率并减少维护成本。"
+ tech_c_droid_crew:0 "II型机器人船员"
+ tech_c_droid_crew_desc:0 "这个II型机器人船员能使战舰更有效率并减少维护成本。"
+ tech_c_synth_crew:0 "人造船员"
+ tech_c_synth_crew_desc:0 "这个人造船员能使战舰更有效率并减少维护成本。"
+
+ tech_c_psionic_crew_1:0 "初学灵能船员"
+ tech_c_psionic_crew_1_desc:0 "这个初学者灵能船员能使战舰更有效率并减少维护成本。"
+ tech_c_psionic_crew_2:0 "熟练灵能船员"
+ tech_c_psionic_crew_2_desc:0 "这个熟练灵能船员能使战舰更有效率并减少维护成本。"
+ tech_c_psionic_crew_3:0 "大师灵能船员"
+ tech_c_psionic_crew_3_desc:0 "这个大师灵能船员能使战舰更有效率并减少维护成本。"
+
+ tech_c_clone_crew_1:0 "第一代克隆船员"
+ tech_c_clone_crew_1_desc:0 "这个第一代克隆船员能使战舰更有效率并减少维护成本。"
+ tech_c_clone_crew_2:0 "第二代克隆船员"
+ tech_c_clone_crew_2_desc:0 "这个第二代克隆船员能使战舰更有效率并减少维护成本。"
+ tech_c_clone_crew_3:0 "第三代克隆船员"
+ tech_c_clone_crew_3_desc:0 "这个第三代克隆船员能使战舰更有效率并减少维护成本。"
+
+ tech_c_purifier_crew_1:0 "净化者船员"
+ tech_c_purifier_crew_1_desc:0 "这个净化者船员能使战舰更有效率并减少维护成本。"
+ tech_c_purifier_crew_2:0 "积极的净化者船员"
+ tech_c_purifier_crew_2_desc:0 "这个积极的净化者船员能使战舰更有效率并减少维护成本。"
+ tech_c_purifier_crew_3:0 "狂热的净化者船员"
+ tech_c_purifier_crew_3_desc:0 "这个狂热的净化者船员能使战舰更有效率并减少维护成本。"
+
+ tech_c_alien_crew_1:0 "小型外星船员"
+ tech_c_alien_crew_1_desc:0 "这个小型外星船员能使战舰更有效率并减少维护成本。"
+ tech_c_alien_crew_2:0 "中型外星船员"
+ tech_c_alien_crew_2_desc:0 "这个中型外星船员能使战舰更有效率并减少维护成本。"
+ tech_c_alien_crew_3:0 "大型外星船员"
+ tech_c_alien_crew_3_desc:0 "这个大型外星船员能使战舰更有效率并减少维护成本。"
+
+ tech_c_civilian_crew_1:0 "民用船员"
+ tech_c_civilian_crew_1_desc:0 "这个民用船员能使战舰更有效率并减少维护成本。"
+ tech_c_civilian_crew_2:0 "训练的民用船员"
+ tech_c_civilian_crew_2_desc:0 "这个训练的民用船员能使战舰更有效率并减少维护成本。"
+ tech_c_civilian_crew_3:0 "经验丰富的民用船员"
+ tech_c_civilian_crew_3_desc:0 "这个经验丰富的民用船员能使战舰更有效率并减少维护成本。"
+
+ tech_c_volunteer_crew_1:0 "小型志愿者船员"
+ tech_c_volunteer_crew_1_desc:0 "这个小型志愿者船员能使战舰更有效率并减少维护成本。"
+ tech_c_volunteer_crew_2:0 "中型志愿者船员"
+ tech_c_volunteer_crew_2_desc:0 "这个中型志愿者船员能使战舰更有效率并减少维护成本。"
+ tech_c_volunteer_crew_3:0 "大型志愿者船员"
+ tech_c_volunteer_crew_3_desc:0 "这个大型志愿者船员能使战舰更有效率并减少维护成本。"
+
+ tech_c_slave_crew_1:0 "小型奴隶船员"
+ tech_c_slave_crew_1_desc:0 "这个小型奴隶船员能使战舰更有效率并减少维护成本。"
+ tech_c_slave_crew_2:0 "中型奴隶船员"
+ tech_c_slave_crew_2_desc:0 "这个中型奴隶船员能使战舰更有效率并减少维护成本。"
+ tech_c_slave_crew_3:0 "大型奴隶船员"
+ tech_c_slave_crew_3_desc:0 "这个大型奴隶船员能使战舰更有效率并减少维护成本。"
+
+ tech_c_purifier_crew:0 "净化者船员主义"
+ tech_c_purifier_crew_desc:0 "解锁净化者船员并允许建造以及放置到你的船上。"
+
+ tech_c_alien_crew:0 "外星船员主义"
+ tech_c_alien_crew_desc:0 "解锁外星船员并允许建造以及放置到你的船上。"
+
+ tech_c_civilian_crew:0 "民用船员主义"
+ tech_c_civilian_crew_desc:0 "解锁民用船员并允许建造以及放置到你的船上。"
+
+ tech_c_volunteer_crew:0 "志愿者船员主义"
+ tech_c_volunteer_crew_desc:0 "解锁志愿者船员并允许建造以及放置到你的船上。"
+
+ tech_c_slave_crew:0 "奴隶船员主义"
+ tech_c_slave_crew_desc:0 "解锁奴隶船员并允许建造以及放置到你的船上。"
+
+ tech_c_clone_crew:0 "克隆船员主义"
+ tech_c_clone_crew_desc:0 "解锁克隆船员并允许建造以及放置到你的船上。"
+
+
+ TECH_UNLOCK_PURIFIER_CREW_TITLE:0 "§H解锁部件:§! 净化者船员"
+ TECH_UNLOCK_PURIFIER_CREW_DESC:0 "§H净化者船员§!\n"
+
+ TECH_UNLOCK_ALIEN_CREW_TITLE:0 "§H解锁部件:§! 外星船员"
+ TECH_UNLOCK_ALIEN_CREW_DESC:0 "§H外星船员§!\n"
+
+ TECH_UNLOCK_CIVILIAN_CREW_TITLE:0 "§H解锁部件:§! 文明船员"
+ TECH_UNLOCK_CIVILIAN_CREW_DESC:0 "§H文明船员§!\n"
+
+ TECH_UNLOCK_VOLUNTEER_CREW_TITLE:0 "§H解锁部件:§! 志愿者船员"
+ TECH_UNLOCK_VOLUNTEER_CREW_DESC:0 "§H志愿者船员§!\n"
+
+ TECH_UNLOCK_SLAVE_CREW_TITLE:0 "§H解锁部件:§! 奴隶船员"
+ TECH_UNLOCK_SLAVE_CREW_DESC:0 "§H奴隶船员§!\n"
+
+ TECH_UNLOCK_CLONE_CREW_TITLE:0 "§H解锁部件:§! 克隆船员"
+ TECH_UNLOCK_CLONE_CREW_DESC:0 "§H克隆船员§!\n"
+
+ C_CREW_1:0 "机器人船员"
+ C_CREW_1_DESC:0 "这个机器人船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_2:0 "机器人II 船员"
+ C_CREW_2_DESC:0 "这个机器人II 船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_3:0 "人造船员"
+ C_CREW_3_DESC:0 "这个人造船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_4:0 "初学灵能船员"
+ C_CREW_4_DESC:0 "这个初学者灵能船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_5:0 "熟练灵能船员"
+ C_CREW_5_DESC:0 "这个熟练灵能船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_6:0 "大师灵能船员"
+ C_CREW_6_DESC:0 "这个大师灵能船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_7:0 "第一代克隆船员"
+ C_CREW_7_DESC:0 "这个第一代克隆船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_8:0 "第二代克隆船员"
+ C_CREW_8_DESC:0 "这个第二代克隆船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_9:0 "第三代克隆船员"
+ C_CREW_9_DESC:0 "这个第三代克隆船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_10:0 "净化者船员"
+ C_CREW_10_DESC:0 "这个净化者船员能使战舰更有效率并减少维护成本。"
+ tech_c_purifier_crew_2:0 "积极的净化者船员"
+
+ C_CREW_11:0 "积极的净化者船员"
+ C_CREW_11_DESC:0 "这个积极的净化者船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_12:0 "狂热的净化者船员"
+ C_CREW_12_DESC:0 "这个狂热的净化者船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_13:0 "小型外星船员"
+ C_CREW_13_DESC:0 "这个小型外星船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_14:0 "中型外星船员"
+ C_CREW_14_DESC:0 "这个中型外星船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_15:0 "大型外星船员"
+ C_CREW_15_DESC:0 "这个大型外星船员能使战舰更有效率并减少维护成本。"
+#Armored Thrusters
+ C_CREW_16:0 "民用船员"
+ C_CREW_16_DESC:0 "这个民用船员能使战舰更有效率并减少维护成本。"
+ tech_c_civilian_crew_2:0 "训练的民用船员"
+
+ C_CREW_17:0 "训练的民用船员"
+ C_CREW_17_DESC:0 "这个训练的民用船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_18:0 "经验丰富的民用船员"
+ C_CREW_18_DESC:0 "这个经验丰富的民用船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_19:0 "小型志愿者船员"
+ C_CREW_19_DESC:0 "这个小型志愿者船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_20:0 "中型志愿者船员"
+ C_CREW_20_DESC:0 "这个中型志愿者船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_21:0 "大型志愿者船员"
+ C_CREW_21_DESC:0 "这个大型志愿者船员能使战舰更有效率并减少维护成本。"
+#Psionic Thrusters
+ C_CREW_22:0 "小型奴隶船员"
+ C_CREW_22_DESC:0 "这个小型奴隶船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_23:0 "中型奴隶船员"
+ C_CREW_23_DESC:0 "这个中型奴隶船员能使战舰更有效率并减少维护成本。"
+
+ C_CREW_24:0 "大型奴隶船员"
+ C_CREW_24_DESC:0 "这个大型奴隶船员能使战舰更有效率并减少维护成本。"
+
+ C_LARGE_CREW_1:1 "机器人船员"
+ C_LARGE_CREW_2:1 "机器人II 船员"
+ C_LARGE_CREW_3:1 "人造船员"
+ C_LARGE_CREW_4:1 "初学灵能船员"
+ C_LARGE_CREW_5:1 "熟练灵能船员"
+ C_LARGE_CREW_6:1 "大师灵能船员"
+ C_LARGE_CREW_7:1 "第一代克隆船员"
+ C_LARGE_CREW_8:1 "第二代克隆船员"
+ C_LARGE_CREW_9:1 "第三代克隆船员"
+ C_LARGE_CREW_10:1 "净化者船员"
+ C_LARGE_CREW_11:1 "积极的净化者船员"
+ C_LARGE_CREW_12:1 "狂热的净化者船员"
+ C_LARGE_CREW_13:1 "小型外星船员"
+ C_LARGE_CREW_14:1 "中型外星船员"
+ C_LARGE_CREW_15:1 "大型外星船员"
+ C_LARGE_CREW_16:1 "民用船员"
+ C_LARGE_CREW_17:1 "训练的民用船员"
+ C_LARGE_CREW_18:1 "经验丰富的民用船员"
+ C_LARGE_CREW_19:1 "小型志愿者船员"
+ C_LARGE_CREW_20:1 "中型志愿者船员"
+ C_LARGE_CREW_21:1 "大型志愿者船员"
+ C_LARGE_CREW_22:1 "小型奴隶船员"
+ C_LARGE_CREW_23:1 "中型奴隶船员"
+ C_LARGE_CREW_24:1 "大型奴隶船员"
+
+#Crystalline-x Sensors
+ tech_c_thrusters_armor_1:0 "重甲推进器 I"
+ tech_c_thrusters_armor_1_desc:0 "给推进器安装重甲，以牺牲速度的方式来以便获得更强保护。"
+
+ tech_c_thrusters_armor_2:0 "重甲推进器 II"
+ tech_c_thrusters_armor_2_desc:0 "给推进器安装重甲，以牺牲速度的方式来以便获得更强保护。"
+
+ tech_c_thrusters_armor_3:0 "重甲推进器 III"
+ tech_c_thrusters_armor_3_desc:0 "给推进器安装重甲，以牺牲速度的方式来以便获得更强保护。"
+
+ tech_c_thrusters_armor_4:0 "重甲推进器 IV"
+ tech_c_thrusters_armor_4_desc:0 "给推进器安装重甲，以牺牲速度的方式来以便获得更强保护。"
+
+ C_SHIP_THRUSTER_ARMOR_1:1 "重甲推进器 I"
+ C_SHIP_THRUSTER_ARMOR_2:1 "重甲推进器 II"
+ C_SHIP_THRUSTER_ARMOR_3:1 "重甲推进器 III"
+ C_SHIP_THRUSTER_ARMOR_4:1 "重甲推进器 IV"
+
+ tech_c_thrusters_psi_1:0 "灵能推进器 I"
+ tech_c_thrusters_psi_1_desc:0 "通过用灵能方式改进推进器，以以便获得更快的速度和更容易规避一些伤害。"
+
+ tech_c_thrusters_psi_2:0 "灵能推进器 II"
+ tech_c_thrusters_psi_2_desc:0 "通过用灵能方式改进推进器，以以便获得更快的速度和更容易规避一些伤害。"
+
+ tech_c_thrusters_psi_3:0 "灵能推进器 III"
+ tech_c_thrusters_psi_3_desc:0 "通过用灵能方式改进推进器，以以便获得更快的速度和更容易规避一些伤害。"
+
+ tech_c_thrusters_psi_4:0 "灵能推进器 IV"
+ tech_c_thrusters_psi_4_desc:0 "通过用灵能方式改进推进器，以以便获得更快的速度和更容易规避一些伤害。"
+
+ C_SHIP_THRUSTER_PSI_1:1 "灵能推进器 I"
+ C_SHIP_THRUSTER_PSI_2:1 "灵能推进器 II"
+ C_SHIP_THRUSTER_PSI_3:1 "灵能推进器 III"
+ C_SHIP_THRUSTER_PSI_4:1 "灵能推进器 IV"
+ 
+#Crystal Growth Patterns
+
+ tech_c_sensors_5:0 "水晶棱镜传感器 V"
+ tech_c_sensors_5_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围！"
+
+ tech_c_sensors_6:0 "水晶双锥传感器 VI"
+ tech_c_sensors_6_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围！"
+
+ tech_c_sensors_7:0 "水晶四面体传感器 VII"
+ tech_c_sensors_7_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围！"
+
+ tech_c_sensors_8:0 "水晶双孔传感器 VIII"
+ tech_c_sensors_8_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围！"
+ 
+# Hangar Bays
+ tech_c_sensors_9:0 "水晶螺旋传感器 IX"
+ tech_c_sensors_9_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围！"
+
+ tech_c_sensors_10:0 "水晶多面体传感器 X"
+ tech_c_sensors_10_desc:0 "通过把水晶安装进传感器里，提高传感器效率和范围！"
+
+ C_SHIP_SENSOR_5:1 "水晶棱镜传感器 V"
+ C_SHIP_SENSOR_6:1 "水晶双锥传感器 VI"
+ C_SHIP_SENSOR_7:1 "水晶四面体传感器 VII"
+ C_SHIP_SENSOR_8:1 "水晶双孔传感器 VIII"
+ C_SHIP_SENSOR_9:1 "水晶螺旋传感器 IX"
+ C_SHIP_SENSOR_10:1 "水晶多面体传感器 X"
+
+ C_STATION_SENSOR_5:1 "水晶棱镜传感器 V"
+ C_STATION_SENSOR_6:1 "水晶双锥传感器 VI"
+ C_STATION_SENSOR_7:1 "水晶四面体传感器 VII"
+ C_STATION_SENSOR_8:1 "水晶双孔传感器 VIII"
+ C_STATION_SENSOR_9:1 "水晶螺旋传感器 IX"
+ C_STATION_SENSOR_10:1 "水晶多面体传感器 X"
+
+ tech_c_crystal_growth_1:0 "培养水晶 I"
+ tech_c_crystal_growth_1_desc:0 "通过掌握了水晶生长方式进行大量培养以便获得更多水晶。"
+
+ tech_c_crystal_growth_2:0 "培养水晶 II"
+ tech_c_crystal_growth_2_desc:0 "通过掌握了水晶生长方式进行大量培养以便获得更多水晶。"
+
+ tech_c_crystal_growth_3:0 "培养水晶 III"
+ tech_c_crystal_growth_3_desc:0 "通过掌握了水晶生长方式进行大量培养以便获得更多水晶。"
+
+ tech_c_crystal_growth_4:0 "培养水晶 IV"
+ tech_c_crystal_growth_4_desc:0 "通过掌握了水晶生长方式进行大量培养以便获得更多水晶。"
+
+# Ship Sections
+ tech_c_hangar_1:0 "机库 Mk I"
+ tech_c_hangar_1_desc:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。\n\n"
+
+ tech_c_hangar_2:0 "机库 Mk II"
+ tech_c_hangar_2_desc:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。\n\n"
+
+ tech_c_hangar_3:0 "机库 Mk III"
+ tech_c_hangar_3_desc:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。\n\n"
+
+ tech_c_hangar_4:0 "机库 Mk IV"
+ tech_c_hangar_4_desc:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。\n\n"
+
+ tech_c_hangar_5:0 "机库 Mk V""
+ tech_c_hangar_5_desc:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。\n\n"
+
+ C_HANGAR_1:0 "机库 I"
+ C_HANGAR_1_DESC:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。"
+
+ C_HANGAR_2:0 "机库 II"
+ C_HANGAR_2_DESC:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。"
+
+ C_HANGAR_3:0 "机库 III"
+ C_HANGAR_3_DESC:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。"
+
+ C_HANGAR_4:0 "机库 IV"
+ C_HANGAR_4_DESC:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。"
+
+ C_HANGAR_5:0 "机库 V"
+ C_HANGAR_5_DESC:0 "扩展机库允许更快地部署战斗机或轰炸机。改进维护协议允许你的战斗机或轰炸机更有效地战斗。"
+
+ C_HANGAR_BAY_1:1 "机库 I"
+ C_HANGAR_BAY_2:1 "机库 II"
+ C_HANGAR_BAY_3:1 "机库 III"
+ C_HANGAR_BAY_4:1 "机库 IV"
+ C_HANGAR_BAY_5:1 "机库 V"
+
+ tech_c_corvette_sections:0 "护卫舰辅助部件"
+ tech_c_corvette_sections_desc:0 "扩展使其拥有更多的配件槽。\n\n"
+
+ tech_c_destroyer_sections:0 "驱逐舰辅助部件"
+ tech_c_destroyer_sections_desc:0 "扩展使其拥有更多的配件槽。\n\n"
+
+ tech_c_cruiser_sections:0 "巡洋舰辅助部件"
+ tech_c_cruiser_sections_desc:0 "扩展使其拥有更多的配件槽。\n\n"
+ 
+# Lasers
+ tech_c_battleship_sections:0 "战列舰辅助部件"
+ tech_c_battleship_sections_desc:0 "扩展使其拥有更多的配件槽。\n\n"
+
+ tech_c_science_sections:0 "先进科研船部件"
+ tech_c_science_sections_desc:0 "扩展使其拥有更多的配件槽。\n\n"
+
+ C_SCIENCESHIP_SECTION_ADV:1 "先进科研船"
+
+ C_CORVETTE_MID_M1S1:1 "鱼雷扩展"
+ C_CORVETTE_MID_S3:1 "战斗机扩展"
+
+ C_DESTROYER_STERN_S2:1 "S2型舰尾"
+ C_DESTROYER_STERN_M1:1 "M1型舰尾"
+
+ C_CRUISER_STERN_M1:1 "M1型舰尾"
+ C_CRUISER_STERN_S2:1 "S2型舰尾"
+
+ C_BATTLESHIP_STERN_L1:1 "L1型炮舰尾"
+ C_BATTLESHIP_STERN_M2:1 "M2型舰尾"
+
+ TECH_UNLOCK_SCIENCE_CONSTRUCTION_TITLE:0 "先进科研船部件"
+
+ TECH_UNLOCK_SCIENCE_CONSTRUCTION_DESC:0 "先进的技术设计是扩展升级配件槽的第一步。\n\n"
+ 
+# Plasma
+ C_LASER_6:0 "阳电子光束"
+ C_LASER_6_DESC:0 "阳电子光束是能发射出一束非常高频率的阳电子光束并与负电子结合产生巨大的毁灭性能量的激光束武器。"
+
+ C_LASER_7:0 "反物质光束"
+ C_LASER_7_DESC:0 "反物质光束是能发射出一束反物质的光束并与正物质结合产生巨大的毁灭性能量的激光束武器。"
+
+ tech_c_lasers_6:0 "阳电子光束"
+ tech_c_lasers_6_desc:0 "阳电子光束是能发射出一束非常高频率的阳电子并与负电子结合产生巨大的毁灭性能量的激光束武器。\n\n"
+
+ tech_c_lasers_7:0 "反物质光束"
+ tech_c_lasers_7_desc:0 "反物质光束是能发射出一束反物质的光束并与正物质结合产生巨大的毁灭性能量的激光束武器。\n\n"
+
+ C_SMALL_LASER_6:1 "小型阳电子光束 VI"
+ C_MEDIUM_LASER_6:1 "中型阳电子光束 VI"
+ C_LARGE_LASER_6:1 "大型阳电子光束 VI"
+
+ C_SMALL_LASER_7:1 "小型反物质光束 VII"
+ C_MEDIUM_LASER_7:1 "中型反物质光束 VII"
+ C_LARGE_LASER_7:1 "大型反物质光束 VII"
+ 
+# Missiles
+ C_PLASMA_4:0 "定向等离子炮"
+ C_PLASMA_4_DESC:0 "老式动能武器已经不能满足战争需求，更为致命的等离子炮弹将是战场的新星。"
+
+ C_PLASMA_5:0 "慢性等离子炮"
+ C_PLASMA_5_DESC:0 "老式动能武器已经不能满足战争需求，更为致命的等离子炮弹将是战场的新星，这是定向等离子炮的改进版。"
+
+ tech_c_plasma_4:0 "定向等离子炮"
+ tech_c_plasma_4_desc:0 "老式动能武器已经不能满足战争需求，更为致命的等离子炮弹将是战场的新星。\n\n"
+
+ tech_c_plasma_5:0 "慢性等离子炮"
+ tech_c_plasma_5_desc:0 "老式动能武器已经不能满足战争需求，更为致命的等离子炮弹将是战场的新星，这是定向等离子炮的改进版。\n\n"
+
+ C_SMALL_PLASMA_4:1 "小型定向等离子炮 IV"
+ C_MEDIUM_PLASMA_4:1 "中型定向等离子炮 IV"
+ C_LARGE_PLASMA_4:1 "大型定向等离子炮 IV"
+# Mass Drivers
+ C_SMALL_PLASMA_5:1 "小型慢性等离子炮 V"
+ C_MEDIUM_PLASMA_5:1 "中型慢性等离子炮 V"
+ C_LARGE_PLASMA_5:1 "大型慢性等离子炮 V"
+
+ C_MISSILE_6:0 "等速导弹"
+ C_MISSILE_6_DESC:0 "配有计算机的先进导弹，能极大提高其命中目标的性能。"
+
+ C_MISSILE_7:0 "时间子导弹"
+ C_MISSILE_7_DESC:0 "配有计算机的先进导弹，能极大提高其命中目标的性能。"
+
+ tech_c_missiles_6:0 "等速导弹"
+ tech_c_missiles_6_desc:0 "配有计算机的先进导弹，能极大提高其命中目标的性能。\n\n"
+
+ tech_c_missiles_7:0 "时间子导弹"
+ tech_c_missiles_7_desc:0 "配有计算机的先进导弹，能极大提高其命中目标的性能。\n\n"
+
+ C_SMALL_MISSILE_6:1 "小型等速导弹 VI"
+ C_MEDIUM_MISSILE_6:1 "中型等速导弹 VI"
+ C_LARGE_MISSILE_6:1 "大型等速导弹 VI"
+# Autocannons
+ C_SMALL_MISSILE_7:1 "小型时间子导弹 VII"
+ C_MEDIUM_MISSILE_7:1 "中型时间子导弹 VII"
+ C_LARGE_MISSILE_7:1 "大型时间子导弹 VII"
+
+ C_MASS_DRIVER_6:0 "三叉高斯炮"
+ C_MASS_DRIVER_6_DESC:0 "有时候升级老式的高斯炮比重新设计款新型的轨道炮来得更有破坏性，现在它具有令人难以置信的精度和发射炮弹拥有极高速度。"
+
+ C_MASS_DRIVER_7:0 "XV-88轨道炮"
+ C_MASS_DRIVER_7_DESC:0 "有时候升级老式的XV-88轨道炮比重新设计款新型的轨道炮来得更有破坏性，现在它具有令人难以置信的精度和发射炮弹拥有极高速度。"
+
+ tech_c_mass_drivers_6:0 "三叉高斯炮s"
+ tech_c_mass_drivers_6_desc:0 "有时候升级老式的高斯炮比设计一款新型的轨道炮来得更有破坏性，现在它具有令人难以置信的精度和发射炮弹拥有极高速度。\n\n"
+
+ tech_c_mass_drivers_7:0 "XV-88轨道炮"
+ tech_c_mass_drivers_7_desc:0 "有时候升级老式的XV-88轨道炮比重新设计款新型的轨道炮来得更有破坏性，现在它具有令人难以置信的精度和发射炮弹拥有极高速度。\n\n"
+
+ C_SMALL_MASS_DRIVER_6:1 "小型三叉高斯炮 VI"
+ C_MEDIUM_MASS_DRIVER_6:1 "中型三叉高斯炮 VI"
+ C_LARGE_MASS_DRIVER_6:1 "大型三叉高斯炮 VI"
+
+ C_SMALL_MASS_DRIVER_7:1 "小型XV-88轨道炮 VII"
+ C_MEDIUM_MASS_DRIVER_7:1 "中型XV-88轨道炮 VII"
+ C_LARGE_MASS_DRIVER_7:1 "大型XV-88轨道炮 VII"
+# Crystallis Research Techs
+
+ C_AUTOCANNON_4:0 "雷霆机炮"
+ C_AUTOCANNON_4_DESC:0 "先进的高速旋转的机炮可对目标倾泻所有穿甲弹和高爆弹。"
+
+ C_AUTOCANNON_5:0 "雷神机炮"
+ C_AUTOCANNON_5_DESC:0 "先进的高速旋转的机炮可对目标倾泻所有穿甲弹和高爆弹。"
+
+ tech_c_autocannons_4:0 "雷霆机炮"
+ tech_c_autocannons_4_desc:0 "先进的高速旋转的机炮可对目标倾泻所有穿甲弹和高爆弹。\n\n"
+
+ tech_c_autocannons_5:0 "雷神机炮"
+ tech_c_autocannons_5_desc:0 "先进的高速旋转的机炮可对目标倾泻所有穿甲弹和高爆弹。\n\n"
+
+ C_SMALL_AUTOCANNON_4:1 "小型雷霆机炮 IV"
+ C_MEDIUM_AUTOCANNON_4:1 "中型雷霆机炮 IV"
+ C_LARGE_AUTOCANNON_4:1 "大型雷霆机炮 IV"
+
+ C_SMALL_AUTOCANNON_5:1 "小型雷神机炮 V"
+ C_MEDIUM_AUTOCANNON_5:1 "中型雷神机炮 V"
+ C_LARGE_AUTOCANNON_5:1 "大型雷神机炮 V"
+
+########################################################################
+ tech_c_eng_research_1:0 "超固成形理论"
+ tech_c_eng_research_1_desc:0 "通过制备超固体的另一种理论使我们更好地理解超固体的奇怪性质。\n\n"
+
+ tech_c_eng_research_2:0 "零重力建造模拟"
+ tech_c_eng_research_2_desc:0 "通过模拟失重环境能提高我们在太空环境下建造速度。\n\n"
+
+ tech_c_eng_research_3:0 "纳米制备法"
+ tech_c_eng_research_3_desc:0 "大量制造纳米材料以及零件能提高我们的效率！\n\n"
+
+ tech_c_phy_research_1:0 "九维理论"
+ tech_c_phy_research_1_desc:0 "九维理论可以解释很多关于我们以前不明白的事情。\n\n"
+########################################################################
+ tech_c_phy_research_2:0 "量子关联特性"
+ tech_c_phy_research_2_desc:0 "进一步了解量子能级上的粒子属性，使得可以测量而无需担心观测干扰。\n\n"
+
+ tech_c_phy_research_3:0 "SAI-超级人工智能"
+ tech_c_phy_research_3_desc:0 "SAI能够使我们认识到更深层次的量子力学研究与传统理论研究之间的差距。因此宇宙再无秘密可言。\n\n"
+
+
+
+ C_ENERGY_LANCE_3:0 "四重子枪"
+ C_ENERGY_LANCE_3_DESC:0 "一个更强大的版本的超光速粒子枪，这种武器能发射四重子束。"
+ C_ENERGY_LANCE_4:0 "极化子枪"
+ C_ENERGY_LANCE_4_DESC:0 "一个更强大的版本的四重子枪，这种武器能发射极化子。"
+########################################################################
+ tech_c_energy_lance_3:0 "四重子枪"
+ tech_c_energy_lance_3_desc:0 "一个更强大的版本的超光速粒子枪，这种武器能发射强大的四重子束。但是它安装范围有限。\n\n"
+ tech_c_energy_lance_4:0 "极化子枪"
+ tech_c_energy_lance_4_desc:0 "一个更强大的版本的四重子枪，这种武器能发射强大的极化子。但是它安装范围有限。\n\n"
+
+ C_LARGE_ENERGY_LANCE_3:0 "四重子枪"
+ C_LARGE_ENERGY_LANCE_4:0 "极化子枪"
+
+
+ C_ARC_EMITTER_3:0 "V型电弧发射器"
+ C_ARC_EMITTER_3_DESC:0 "升级发射器使其配备更好的聚焦透镜，从而释放更强大的电能。"
+ C_ARC_EMITTER_4:0 "C型电弧发射器"
+ C_ARC_EMITTER_4_DESC:0 "升级发射器使其配备更好的聚焦透镜，从而释放更强大的电能。"
+########################################################################
+ tech_c_arc_emitter_3:0 "V型电弧发射器"
+ tech_c_arc_emitter_3_desc:0 "升级发射器使其配备更好的聚焦透镜，从而释放更强大的电能。\n\n"
+ tech_c_arc_emitter_4:0 "C型电弧发射器"
+ tech_c_arc_emitter_4_desc:0 "升级发射器使其配备更好的聚焦透镜，从而释放更强大的电能。\n\n"
+
+ C_LARGE_ARC_EMITTER_3:0 "V型电弧发射器"
+ C_LARGE_ARC_EMITTER_4:0 "C型电弧发射器"
+
+
+ C_DISRUPTOR_4:0 "谐振干扰"
+ C_DISRUPTOR_4_DESC:0 "利用各种粒子对敌人造成难以置信的损害。"
+ C_DISRUPTOR_5:0 "缪介子干扰"
+ C_DISRUPTOR_5_DESC:0 "利用各种粒子对敌人造成难以置信的损害。"
+
+ tech_c_disruptors_4:0 "谐振干扰"
+ tech_c_disruptors_4_desc:0 "利用各种粒子对敌人造成难以置信的损害。\n\n"
+ tech_c_disruptors_5:0 "缪介子干扰"
+ tech_c_disruptors_5_desc:0 "利用各种粒子对敌人造成难以置信的损害。\n\n"
+########################################################################
+ C_SMALL_DISRUPTOR_4:0 "小型谐振干扰"
+ C_MEDIUM_DISRUPTOR_4:0 "中型谐振干扰"
+ C_LARGE_DISRUPTOR_4:0 "大型谐振干扰"
+
+ C_SMALL_DISRUPTOR_5:0 "小型缪介子干扰"
+ C_MEDIUM_DISRUPTOR_5:0 "中型缪介子干扰"
+ C_LARGE_DISRUPTOR_5:0 "大型缪介子干扰"
+
+
+ C_ENERGY_TORPEDO_3:0 "反质子鱼雷"
+ C_ENERGY_TORPEDO_3_DESC:0 "升级鱼雷使其依靠质子而不是中子去破坏敌人。正如之前产品一样，依旧保持着对护盾高效破坏。但由于这些鱼雷缺乏实体，它们无法被点防御武器拦截。"
+ C_ENERGY_TORPEDO_4:0 "量子鱼雷"
+ C_ENERGY_TORPEDO_4_DESC:0 "升级鱼雷使其依靠量子之间作用力而不是质子去破坏敌人。正如之前产品一样，依旧保持着对护盾高效破坏。但由于这些鱼雷缺乏实体，它们无法被点防御武器拦截。"
+########################################################################
+ tech_c_energy_torpedoes_3:0 "反质子鱼雷"
+ tech_c_energy_torpedoes_3_desc:0 "升级鱼雷使其依靠质子而不是中子去破坏敌人。正如之前产品一样，依旧保持着对护盾高效破坏。\n\n"
+ tech_c_energy_torpedoes_4:0 "量子鱼雷"
+ tech_c_energy_torpedoes_4_desc:0 "升级鱼雷使其依靠量子之间作用力而不是质子去破坏敌人。正如之前产品一样，依旧保持着对护盾高效破坏。\n\n"
+
+ C_TORP_ENERGY_TORPEDO_3:0 "反质子鱼雷"
+ C_TORP_ENERGY_TORPEDO_4:0 "量子鱼雷"
+
+
+ C_EXTRADIMENSIONAL_2:0 "改进型物质粉碎机"
+ C_EXTRADIMENSIONAL_2_DESC:0 "在来自虚空的物质粉碎机的核心技术支持下能无视物理规则进行破坏。"
+ C_EXTRADIMENSIONAL_3:0 "物质-能量粉碎机"
+ C_EXTRADIMENSIONAL_3_DESC:0 "在来自虚空的物质粉碎机的核心技术支持下能无视物理规则进行破坏。"
+########################################################################
+ tech_c_extradimensional_weapon_2:0 "虚空武器 II"
+ tech_c_extradimensional_weapon_2_desc:0 "能在低维度运用第五维度能量的操纵技术将允许更强大的能量武器诞生。\n\n"
+ tech_c_extradimensional_weapon_3:0 "虚空武器 III"
+ tech_c_extradimensional_weapon_3_desc:0 "能在低维度运用第五维度能量的操纵技术将允许更强大的能量武器诞生。\n\n"
+
+ C_SMALL_ED_WEAPON_2:0 "小型改进型物质粉碎机"
+ C_MEDIUM_ED_WEAPON_2:0 "中型改进型物质粉碎机"
+ C_LARGE_ED_WEAPON_2:0 "大型改进型物质粉碎机"
+
+ C_SMALL_ED_WEAPON_3:0 "小型物质-能量粉碎机"
+ C_MEDIUM_ED_WEAPON_3:0 "中型物质-能量粉碎机"
+ C_LARGE_ED_WEAPON_3:0 "大型物质-能量粉碎机"
+
+########################################################################
+ C_SPACE_CLOUD_WEAPON_2:0 "共振闪电云"
+ C_SPACE_CLOUD_WEAPON_2_DESC:0 "利用我们已知知识创造一个强大闪电云，能对一定范围造成伤害。"
+ C_SPACE_CLOUD_WEAPON_3:0 "辉赫闪电云"
+ C_SPACE_CLOUD_WEAPON_3_DESC:0 "利用我们已知知识创造一个强大闪电云，能对一定范围造成伤害。"
+
+ tech_c_space_cloud_weapon_2:0 "共振闪电云导管"
+ tech_c_space_cloud_weapon_2_desc:0 "通过一个导管将密集的相同气体发射出去，通过装满等离子体的特殊引信点燃气体使其气体范围产生闪电伤害。\n\n"
+ tech_c_space_cloud_weapon_3:0 "辉赫闪电云导管"
+ tech_c_space_cloud_weapon_3_desc:0 "通过一个导管将密集的相同气体发射出去，通过装满等离子体的特殊引信点燃气体使其气体范围产生闪电伤害。\n\n"
+
+ C_SPACE_CLOUD_LIGHTNING_2:0 "共振闪电云"
+ C_SPACE_CLOUD_LIGHTNING_3:0 "辉赫闪电云"
+
+########################################################################
+ C_SWARMER_MISSILE_3:0 "台风导弹"
+ C_SWARMER_MISSILE_3_DESC:0 "新的小型化技术将允许我们升级为蜂群导弹弹头以及提高导弹飞行性能。"
+ C_SWARMER_MISSILE_4:0 "飓风导弹"
+ C_SWARMER_MISSILE_4_DESC:0 "新的小型化技术将允许我们升级为蜂群导弹弹头以及提高导弹飞行性能。"
+
+ tech_c_swarmer_missiles_3:0 "台风导弹"
+ tech_c_swarmer_missiles_3_desc:0 "新的小型化技术将允许我们升级为蜂群导弹弹头以及提高导弹飞行性能。\n\n"
+ tech_c_swarmer_missiles_4:0 "飓风导弹"
+ tech_c_swarmer_missiles_4_desc:0 "新的小型化技术将允许我们升级为蜂群导弹弹头以及提高导弹飞行性能。\n\n"
+
+ # C_SWARMER_MISSILE_3:0 "Typhoon Missiles"
+ # C_SWARMER_MISSILE_4:0 "Hurricane Missiles"
+
+########################################################################
+ C_TORPEDO_4:0 "钴鱼雷"
+ C_TORPEDO_4_DESC:0 "非常先进强大的鱼雷弹头。它们有着更时尚的设计，能通过远程控制提高引擎功率以及调整应对护盾的调制器。"
+ C_TORPEDO_5:0 "三钴鱼雷"
+ C_TORPEDO_5_DESC:0 "非常先进强大的鱼雷弹头。它们有着更时尚的设计，能通过远程控制提高引擎功率以及调整应对护盾的调制器。"
+
+ tech_c_torpedoes_4:0 "钴鱼雷"
+ tech_c_torpedoes_4_desc:0 "非常先进强大的鱼雷弹头。它们有着更时尚的设计，能通过远程控制提高引擎功率以及调整应对护盾的调制器。\n\n"
+ tech_c_torpedoes_5:0 "三钴鱼雷"
+ tech_c_torpedoes_5_desc:0 "非常先进强大的鱼雷弹头。它们有着更时尚的设计，能通过远程控制提高引擎功率以及调整应对护盾的调制器。\n\n"
+
+ # C_TORPEDO_4:0 "Cobalt Torpedoes"
+ # C_TORPEDO_5:0 "Tricobalt Torpedoes"
+
+########################################################################
+ C_POINT_DEFENCE_4:0 "仁慈点防御"
+ C_POINT_DEFENCE_4_DESC:0 "更多可用的弹药类型大大提高了威胁来袭时的拦截有效率。"
+ C_POINT_DEFENCE_5:0 "皇帝点防御"
+ C_POINT_DEFENCE_5_DESC:0 "更多可用的弹药类型大大提高了威胁来袭时的拦截有效率。"
+
+ tech_c_pd_tracking_4:0 "高级预测算法"
+ tech_c_pd_tracking_4_desc:0 "先进预测算法大大提高了主动对抗系统的准确性。\n\n"
+ tech_c_pd_tracking_5:0 "人工智能预测算法"
+ tech_c_pd_tracking_5_desc:0 "先进预测算法大大提高了主动对抗系统的准确性。\n\n"
+
+ C_PD_POINT_DEFENCE_4:0 "仁慈点防御"
+ C_PD_POINT_DEFENCE_5:0 "皇帝点防御"
+
+########################################################################
+ C_KINETIC_ARTILLERY_3:0 "动能炮"
+ C_KINETIC_ARTILLERY_3_DESC:0 "一个更强大的基础船只配备的动能火炮，现在升级并配备了全新计算机控制系统。"
+ C_KINETIC_ARTILLERY_4:0 "动力榴弹炮"
+ C_KINETIC_ARTILLERY_4_DESC:0 "一个更强大的基础船只配备的动能火炮，现在升级并配备了全新计算机控制系统。"
+
+ tech_c_kinetic_artillery_3:0 "动能炮"
+ tech_c_kinetic_artillery_3_desc:0 "一个更强大的基础船只配备的动能火炮，现在升级并配备了全新计算机控制系统。\n\n"
+ tech_c_kinetic_artillery_4:0 "动力榴弹炮"
+ tech_c_kinetic_artillery_4_desc:0 "一个更强大的基础船只配备的动能火炮，现在升级并配备了全新计算机控制系统。\n\n"
+# Shield Rechargers
+ C_LARGE_KINETIC_ARTILLERY_3:0 "动能炮"
+ C_LARGE_KINETIC_ARTILLERY_4:0 "动力榴弹炮"
+
+ C_MASS_ACCELERATOR_3:0 "超炮"
+ C_MASS_ACCELERATOR_3_DESC:0 "一个更强大的固定安放的动能武器。"
+ C_MASS_ACCELERATOR_4:0 "欧米茄炮"
+ C_MASS_ACCELERATOR_4_DESC:0 "一个更强大的固定安放的动能武器。"
+
+ tech_c_mass_accelerator_3:0 "超炮"
+ tech_c_mass_accelerator_3_desc:0 "一个更强大的质量加速器大炮，可以撕裂最坚硬的护盾。\n\n"
+ tech_c_mass_accelerator_4:0 "欧米茄炮"
+ tech_c_mass_accelerator_4_desc:0 "一个更强大的质量加速器大炮，可以撕裂最坚硬的护盾。\n\n"
+
+ C_LARGE_MASS_ACCELERATOR_3:0 "超炮"
+ C_LARGE_MASS_ACCELERATOR_4:0 "欧米茄炮"
+
+# Strike Crafts
+ C_FLAK_BATTERY_3:0 "高射炮阵"
+ C_FLAK_BATTERY_3_DESC:0 "全新升级的高射炮阵列，采用更强大的榴弹炮弹，能为船只提供更出色的防御手段。"
+ C_FLAK_BATTERY_4:0 "防空屏障"
+ C_FLAK_BATTERY_4_DESC:0 "全新升级的高射炮阵列，采用更强大的榴弹炮弹，能为船只提供更出色的防御手段。"
+
+ tech_c_flak_batteries_3:0 "高射炮阵"
+ tech_c_flak_batteries_3_desc:0 "全新升级的高射炮阵列，采用更强大的榴弹炮弹，能为船只提供更出色的防御手段。\n\n"
+ tech_c_flak_batteries_4:0 "防空屏障"
+ tech_c_flak_batteries_4_desc:0 "全新升级的高射炮阵列，采用更强大的榴弹炮弹，能为船只提供更出色的防御手段。\n\n"
+
+ # C_FLAK_BATTERY_3:0 "Flak Array"
+ # C_FLAK_BATTERY_4:0 "Flak Barrier"
+
+ tech_c_shield_rechargers_2:0 "高级护盾电容器"
+ tech_c_shield_rechargers_2_desc:0 "更大更先进的电容器能允许战斗中拥有更好的护盾充能。\n\n"
+
+ tech_c_shield_rechargers_3:0 "超级护盾电容器"
+ tech_c_shield_rechargers_3_desc:0 "允许更快在战斗进行护盾充能的超高效电容器。\n\n"
+ 
+ C_SHIELD_RECHARGER_2:0 "高级护盾电容器"
+ C_SHIELD_RECHARGER_2_DESC:0 "更大更先进的电容器能允许战斗中拥有更好的护盾充能。"
+ 
+ C_SHIELD_RECHARGER_3:0 "超级护盾电容器"
+ C_SHIELD_RECHARGER_3_DESC:0 "允许更快在战斗进行护盾充能的超高效电容器。"
+ 
+ # Strike Crafts
+ tech_c_strike_craft_4:0 "超高级攻击工艺设计"
+ tech_c_strike_craft_4_desc:0 "为战斗机和轰炸机提供新型的太空作战的工艺设计升级。\n\n"
+ 
+ C_LARGE_FIGHTERS_HANGAR_4:0 "灵敏战斗机"
+ C_LARGE_FIGHTERS_HANGAR_4_DESC:0 "能快速在太空中移动的攻击型战斗机。"
+ 
+ C_LARGE_BOMBERS_HANGAR_4:0 "灵敏轰炸机"
+ C_LARGE_BOMBERS_HANGAR_4_DESC:0 "能快速在太空中移动的攻击型轰炸机。"
+ 
+ C_LARGE_BOMBERS_HANGAR_DIM:0 "维度轰炸机"
+ C_LARGE_BOMBERS_HANGAR_DIM_DESC:0 "维度轰炸机可携带高效致命的实验武器。"
+ 
+ C_FIGHTERS_HANGAR_4:0 "灵敏战斗机"
+ C_FIGHTERS_HANGAR_4_DESC:0 "能快速在太空中移动的攻击型战斗机。"
+ 
+ C_BOMBERS_HANGAR_4:0 "灵敏轰炸机"
+ C_BOMBERS_HANGAR_4_DESC:0 "能快速在太空中移动的攻击型轰炸机。"
+ 
+ C_BOMBERS_HANGAR_DIM:0 "维度轰炸机"
+ C_BOMBERS_HANGAR_DIM_DESC:0 "维度轰炸机可携带高效致命的实验武器。"

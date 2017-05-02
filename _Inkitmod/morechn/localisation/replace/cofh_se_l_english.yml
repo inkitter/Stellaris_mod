@@ -1,0 +1,63 @@
+﻿l_english:
+
+# Events
+
+ COFH_SE_FURTHER_RESEARCH:0 "进一步观察研究有助于证实这些理论的可行性。\n\n实地验证，也被称之为"战斗"，也可有助于研究推进。"
+
+ cofh_se.101.name:0 "虫群的研究"
+ cofh_se.101.desc:0 "这些生物遇到我们舰队之前曾有段时间被认为是太空中的有机生命体。不过随着我们实力增大，我们可能找到其弱点。\n\n指派一个科学小组进行针对性研究以便找到其弱点。"
+ cofh_se.101.a:0 "收到。"
+ cofh_se.110.name:0 "虫群弱点发现"
+ cofh_se.110.desc:0 "针对尸体解剖研究分析找到了它们的一些潜在弱点。$COFH_SE_FURTHER_RESEARCH$"
+
+ cofh_se.201.name:0 "虚空的观察"
+ cofh_se.201.desc:0 "这些虚空体遇到我们舰队之前曾有段时间被认为是太空中的纯能量体。不过随着我们实力增大，我们可能找到其弱点。\n\n指派一个科学小组进行针对性研究以便找到其弱点。"
+ cofh_se.201.a:0 "收到。"
+ cofh_se.210.name:0 "虚空恶魔弱点发现"
+ cofh_se.210.desc:0 "针对虚空研究分析找到了它们的一些潜在弱点。$COFH_SE_FURTHER_RESEARCH$"
+
+ cofh_se.301.name:0 "机器分析"
+ cofh_se.301.desc:0 "这些机器人遇到我们舰队之前曾有段时间被认为是某些帝国的未知设计。不过随着我们实力增大，我们可能找到其弱点。\n\n指派一个科学小组进行针对性研究以便找到其弱点。"
+ cofh_se.301.a:0 "收到。"
+ cofh_se.310.name:0 "机器人弱点发现"
+ cofh_se.310.desc:0 "针对机器人研究分析找到了它们的一些潜在弱点。$COFH_SE_FURTHER_RESEARCH$"
+
+ cofh_se.401.name:0 "失落帝国分析"
+ cofh_se.401.desc:0 "前段时间我们舰队所遇到失落帝国的战舰比我们先进得多。然而，他们有一个特殊的装甲结构和最小发动机原则设计。\n\n指派一个科学小组进行针对性研究以便找到其弱点。"
+ cofh_se.401.a:0 "收到。"
+ cofh_se.410.name:0 "失落帝国弱点发现"
+ cofh_se.410.desc:0 "针对失落帝国舰队观察发现一些隐藏的弱点，这发现源自他们的傲慢和死板的设计传统。$COFH_SE_FURTHER_RESEARCH$"
+
+# Modifiers
+
+ damage_vs_country_type_ai_empire_mult:0 "对机器崛起的伤害"
+ damage_vs_country_type_extradimensional_mult:0 "对普通入侵者的伤害"
+ damage_vs_country_type_extradimensional_2_mult:0 "对困难入侵者的伤害"
+ damage_vs_country_type_extradimensional_3_mult:0 "对疯狂入侵者的伤害"
+
+ damage_vs_country_type_fallen_empire_mult:0 "对失落帝国伤害加成"
+ damage_vs_country_type_awakened_fallen_empire_mult:0 "阻止失落帝国的觉醒"
+
+# Spaceport Modules
+
+ sm_cofh_se_atmospheric_manipulator:0 "大气机械手"
+ sm_cofh_se_mining_terminal:0 "矿业终端"
+
+# Special Projects
+
+ COFH_SE_INVESTIGATE_AI:0 "工程分析：机器崛起"
+ COFH_SE_INVESTIGATE_AI_DESC:0 "科学部门竭尽全力分析机器人的船只，为的是为我们部队争取一个战斗优势。"
+ COFH_SE_INVESTIGATE_EXD:0 "多光谱观测：虚空的力量"
+ COFH_SE_INVESTIGATE_EXD_DESC:0 "科学部门竭尽全力分析虚空恶魔的船只，为的是为我们部队争取一个战斗优势。"
+ COFH_SE_INVESTIGATE_SWARM:0 "生物研究：虫群入侵"
+ COFH_SE_INVESTIGATE_SWARM_DESC:0 "科学部门竭尽全力分析虫群的船只，为的是为我们部队争取一个战斗优势。"
+ COFH_SE_INVESTIGATE_FE:0 "舰队观察: 失落帝国"
+ COFH_SE_INVESTIGATE_FE_DESC:0 "科学部门竭尽全力分析失落帝国的船只，为的是为我们部队争取一个战斗优势。"
+
+# Tooltips
+
+ COFH_SE_TECH_ANTI_EXD_TITLE:0 "对虚空恶魔的伤害: §G+15%§!"
+ COFH_SE_TECH_ANTI_EXD_DESC:0 "§H$tech_cofh_se_anti_extradimensional$§!\n帝国加成\n$COFH_SE_TECH_ANTI_EXD_TITLE$"
+
+ COFH_SE_TECH_ANTI_FE_TITLE:0 "对失落帝国的伤害: §G+15%§!"
+ COFH_SE_TECH_ANTI_FE_DESC:0 "§H$tech_cofh_se_anti_fallen_empire$§!\n帝国加成\n$COFH_SE_TECH_ANTI_FE_TITLE$"

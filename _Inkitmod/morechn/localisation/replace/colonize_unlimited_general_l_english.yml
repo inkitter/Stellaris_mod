@@ -1,0 +1,8 @@
+﻿l_english:
+  requires_building_capital_and_not_water_void:0 "§R需求§Y$building_capital_1$§!在有水的行星上。(不可以是沙漠，干旱，气态，贫瘠，熔岩，有毒和死寂星球)§!"
+  climate_gas:0 "气态"
+  climate_inhospitable:0 "不可居住"
+  climate_harsh:0 "严酷"
+  gas:0 "§M(气体)§!"
+  inhospitable:0 "§H(不可居住气候)§!"
+  harsh:0 "§R(严酷气候)§!"

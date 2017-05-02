@@ -1,0 +1,154 @@
+﻿l_english:
+ 
+ TITAN_SHIELD:0 "泰坦护盾"
+ TITAN_SHIELD_DESC:0 "泰坦护盾"
+ 
+ MEDIUM_TITAN_SHIELD:0 "泰坦护盾"
+ MEDIUM_TITAN_SHIELD_DESC:0 "泰坦护盾"
+ 
+ LARGE_TITAN_SHIELD:0 "泰坦护盾"
+ LARGE_TITAN_SHIELD_DESC:0 "泰坦护盾"
+ 
+ TITAN_SHIELD_PROTOTYPE:0 "泰坦原型护盾"
+ TITAN_SHIELD_PROTOTYPE_DESC:0 "泰坦原型护盾"
+ 
+ MEDIUM_TITAN_SHIELD_PROTOTYPE:0 "中型泰坦原型护盾"
+ MEDIUM_TITAN_SHIELD_PROTOTYPE_DESC:0 "泰坦原型护盾"
+ 
+ LARGE_TITAN_SHIELD_PROTOTYPE:0 "大型泰坦原型护盾"
+ LARGE_TITAN_SHIELD_PROTOTYPE_DESC:0 "泰坦原型护盾"
+ 
+ TITAN_ARMOR:0 "泰坦装甲"
+ TITAN_ARMOR_DESC:0 "泰坦装甲"
+ 
+ MEDIUM_TITAN_ARMOR:0 "泰坦装甲"
+ MEDIUM_TITAN_ARMOR_DESC:0 "泰坦装甲"
+ 
+ LARGE_TITAN_ARMOR:0 "泰坦装甲"
+ LARGE_TITAN_ARMOR_DESC:0 "泰坦装甲"
+ 
+ TITAN_ARMOR_PROTOTYPE:0 "泰坦原型装甲"
+ TITAN_ARMOR_PROTOTYPE_DESC:0 "泰坦原型装甲"
+ 
+ MEDIUM_TITAN_ARMOR_PROTOTYPE:0 "中型泰坦原型装甲"
+ MEDIUM_TITAN_ARMOR_PROTOTYPE_DESC:0 "泰坦原型装甲"
+ 
+ LARGE_TITAN_ARMOR_PROTOTYPE:0 "大型泰坦原型装甲"
+ LARGE_TITAN_ARMOR_PROTOTYPE_DESC:0 "泰坦原型装甲"
+ 
+ TITAN_HULL:0 "泰坦电镀"
+ TITAN_HULL_DESC:0 "泰坦电镀"
+ 
+ TITAN_HULL_PROTOTYPE:0 "泰坦原型电镀"
+ TITAN_HULL_PROTOTYPE_DESC:0 "泰坦原型电镀"
+ 
+ TITAN_REACTOR:0 "泰坦反应炉"
+ TITAN_REACTOR_DESC:0 "泰坦反应炉"
+ 
+ LARGE_TITAN_REACTOR:0 "泰坦反应炉"
+ LARGE_TITAN_REACTOR_DESC:0 "泰坦反应炉"
+
+ MEDIUM_TITAN_REACTOR:0 "泰坦反应炉"
+ MEDIUM_TITAN_REACTOR_DESC:0 "泰坦反应炉"
+ 
+ TITAN_REACTOR_PROTOTYPE:0 "泰坦原型反应炉"
+ TITAN_REACTOR_PROTOTYPE_DESC:0 "泰坦原型反应炉"
+ 
+ LARGE_TITAN_REACTOR_PROTOTYPE:0 "泰坦原型反应炉"
+ LARGE_TITAN_REACTOR_PROTOTYPE_DESC:0 "泰坦原型反应炉"
+
+ MEDIUM_TITAN_REACTOR_PROTOTYPE:0 "泰坦原型反应炉"
+ MEDIUM_TITAN_REACTOR_PROTOTYPE_DESC:0 "泰坦原型反应炉"
+ 
+ TITAN_THRUSTER:0 "泰坦推进器"
+ TITAN_THRUSTER_DESC:0 "泰坦推进器"
+ 
+ TITAN_THRUSTER_PROTOTYPE:0 "泰坦原型推进器"
+ TITAN_THRUSTER_PROTOTYPE_DESC:0 "泰坦原型推进器"
+ 
+ TITAN_SHIP_SENSOR:0 "泰坦传感器"
+ TITAN_SHIP_SENSOR_DESC:0 "泰坦传感器"
+ 
+ TITAN_SHIP_SENSOR_PROTOTYPE:0 "泰坦原型传感器"
+ TITAN_SHIP_SENSOR_PROTOTYPE_DESC:0 "泰坦原型传感器"
+ 
+ TITAN_STATION_SENSOR:0 "泰坦传感器"
+ TITAN_STATION_SENSOR_DESC:0 "泰坦传感器"
+ 
+ TITAN_STATION_SENSOR_PROTOTYPE:0 "泰坦原型传感器"
+ TITAN_STATION_SENSOR_PROTOTYPE_DESC:0 "泰坦原型传感器"
+ 
+ TITAN_JUMP_DRIVE:0 "泰坦跃迁引擎"
+ TITAN_JUMP_DRIVE_DESC:0 "泰坦跃迁引擎"
+ 
+ TITAN_JUMP_DRIVE_PROTOTYPE:0 "泰坦原型跃迁引擎"
+ TITAN_JUMP_DRIVE_PROTOTYPE_DESC:0 "泰坦原型跃迁引擎"
+ 
+ TITAN_AFTERBURNER:0 "泰坦补燃器"
+ TITAN_AFTERBURNER_DESC:0 "泰坦补燃器"
+ 
+ TITAN_AFTERBURNER_PROTOTYPE:0 "泰坦原型补燃器"
+ TITAN_AFTERBURNER_PROTOTYPE_DESC:0 "泰坦原型补燃器"
+ 
+ TITAN_ENCODER:0 "泰坦编码器"
+ TITAN_ENCODER_DESC:0 "泰坦编码器"
+ 
+ TITAN_DECODER:0 "泰坦解码器"
+ TITAN_DECODER_DESC:0 "泰坦解码器"
+ 
+ tech_titan_shield:0 "泰坦护盾"
+ tech_titan_shield_desc:0 "泰坦护盾"
+ 
+ tech_titan_shield_prototype:0 "泰坦原型护盾"
+ tech_titan_shield_prototype_desc:0 "泰坦原型护盾"
+ 
+ tech_titan_armor:0 "泰坦装甲"
+ tech_titan_armor_desc:0 "泰坦装甲"
+ 
+ tech_titan_armor_prototype:0 "泰坦原型装甲"
+ tech_titan_armor_prototype_desc:0 "泰坦原型装甲"
+ 
+ tech_titan_hull:0 "泰坦电镀"
+ tech_titan_hull_desc:0 "泰坦电镀"
+ 
+ tech_titan_hull_prototype:0 "泰坦原型电镀"
+ tech_titan_hull_prototype_desc:0 "泰坦原型电镀"
+ 
+ tech_titan_thruster:0 "泰坦推进器"
+ tech_titan_thruster_desc:0 "泰坦推进器"
+ 
+ tech_titan_thruster_prototype:0 "泰坦原型推进器"
+ tech_titan_thruster_prototype_desc:0 "泰坦原型推进器"
+ 
+ tech_titan_reactor:0 "泰坦反应炉"
+ tech_titan_reactor_desc:0 "泰坦反应炉"
+ 
+ tech_titan_reactor_prototype:0 "泰坦原型反应炉"
+ tech_titan_reactor_prototype_desc:0 "泰坦原型反应炉"
+ 
+ tech_titan_sensor:0 "泰坦传感器"
+ tech_titan_sensor_desc:0 "泰坦传感器"
+ 
+ tech_titan_sensor_prototype:0 "泰坦原型传感器"
+ tech_titan_sensor_prototype_desc:0 "泰坦原型传感器"
+
+ tech_titan_jump_drive:0 "泰坦跃迁引擎"
+ tech_titan_jump_drive_desc:0 "泰坦跃迁引擎"
+ 
+ tech_titan_jump_drive_prototype:0 "泰坦原型跃迁引擎"
+ tech_titan_jump_drive_prototype_desc:0 "泰坦原型跃迁引擎"
+ 
+ tech_titan_afterburner:0 "泰坦补燃器"
+ tech_afterburner_desc:0 "泰坦补燃器"
+ 
+ tech_titan_afterburner_prototype:0 "泰坦原型补燃器"
+ tech_afterburner_prototype_desc:0 "泰坦原型补燃器"
+ 
+ tech_titan_encoder:0 "泰坦编码器"
+ tech_titan_encoder_DESC:0 "泰坦编码器"
+ 
+ tech_titan_decoder:0 "泰坦解码器"
+ tech_titan_decoder_DESC:0 "泰坦解码器"
+ 
+ station_sensor_components:0 "传感器部件"
+ station_sensor_components_DESC:0 "传感器部件"

@@ -1,0 +1,25 @@
+﻿l_english:
+ ####################################
+ # Hull Sizes
+ ####################################
+ RS_DREADNOUGHT:0 "无畏舰"
+ rs_dreadnought:0 "无畏舰"
+ rs_dreadnought_plural:0 "无畏舰"
+ ####################################
+ # section slots
+ ####################################
+ bow:0 "舰首"
+ mid1:0 "舰中头"
+ mid2:0 "舰中尾"
+ stern:0 "舰尾"
+ ####################################
+ # Technology View
+ ####################################
+ TECH_UNLOCK_RS_DREADNOUGHT_TITLE:0 "§H解锁战舰类型:§! 无畏舰"
+ TECH_UNLOCK_RS_DREADNOUGHT_DESC:0 "§H无畏舰§!\n随着工程设计和电路系统的改进优化，使得战舰具有强大的火力和无比坚固的护甲。结果:无畏舰属于强大的主力舰类型。"
+ ####################################
+ # Dynamic Modifiers
+ ####################################
+ shipsize_rs_dreadnought_construction_speed_mult:0 "无畏舰建造速度"
+ shipsize_rs_dreadnought_build_cost_mult:0 "无畏舰建造成本"
+ 

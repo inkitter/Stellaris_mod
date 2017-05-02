@@ -1,0 +1,12 @@
+﻿l_english:
+ #Molten Core Anomaly
+ #Writing and idea by Foremole
+ #Code by LamilLerran
+ mem_molten_core_category:0 "火海"
+ mem_molten_core_category_desc:0 "像大多数的熔岩世界，§Y[Root.GetName]§!也覆盖着熔岩之河和熔岩之海。然而，在这个星球上的某些东西是不寻常的，甚至都能从轨道上方看见。和普通的大陆世界一样，星球表面大约有70%被液体所覆盖，尽管所有推测预示着熔岩在很久以前就已凝固了，只因为[Root.GetPlanetMoon]的太阳没提供足够热量来维持其表面状态。"
+ mem_molten_core.1.name:0 "暴露的核心"
+ mem_molten_core.1.desc:0 "虽然它是常见的熔岩星球有着许多岩浆喷涌点，时不时将岩浆喷涌而出至地面，§Y[From.GetName]§!似乎已经进入下一个阶段。近乎40%的星球表面裸露着外核，这就是巨大的岩浆海的原因。探测器可以很容易探索这个星球的核心，开辟新的星球矿业，但是这将耗费比其他世界更多的资源来实现。§Y[From.GetName]§!将完美完成研究工作。"
+ mem_molten_core.1.a:0 "好听。"
+ mem_molten_core.99.name:0 "凝固之海"
+ mem_molten_core.99.desc:0 "§Y[This.GetLeaderName]§!的报告表明在§Y[From.From.GetName]§!的熔岩之海的他们只不过是侥幸而已。表面开始逐渐冷却，预计在几年内，[From.From.GetPlanetMoon]的熔岩之海变成陆地的比率会逐步变成典型的熔岩世界。"
+ mem_molten_core.99.a:0 "非常好。"

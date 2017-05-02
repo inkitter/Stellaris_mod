@@ -1,0 +1,201 @@
+﻿l_english:
+
+SUBJECT_mercsquad: "Mercenary Squadron"
+SUBJECT_DESC_mercsquad: "Mercenary operations squadron en route to target。"
+
+tech_mercenary_enclave: "Mercenary Enclave Hidden Tech"
+tech_mercenary_enclave_desc: "This technology is only for the Mercenary Enclave. You're cheating!"
+
+merc_enclave_insurance: "Mercenary Insurance Policy"
+merc_enclave_insurance_desc: "Whiteout Enterprises will contact you and allow you to make a counter-offer if some other empire tries to order an operation against you。"
+
+MERC_SHIP_SENSOR_4: "Ship-mounted $OBSERVATORY_4$"
+MERC_SHIP_SENSOR_4_DESC: "$OBSERVATORY_4_DESC$"
+MERC_SHIP_COMPUTER_1: "Mercenary Computer"
+nongfx_fmerc_ship_01: "Weird"
+nongfx_fmerc_ship_01_plural: "Weird"
+name_list_FMercenaries: "Wannabe Pirates"
+SUBJECT_merc_operations_squad: "Inconspicuous Operatives"
+
+folk_mercenary_government: "Mercenary Enclave"
+folk_mercenary_government_desc: "§LAn interstellar conglomerate of mercenaries dedicated to profiteering.§!"
+FOLK_HIGH_MERC: "Boss"
+
+INVESTIGATE_MERC_ENCLAVE: "Investigate [fmercsystem.GetName]"
+INVESTIGATE_MERC_ENCLAVE_DESC: "We need to learn more about the mysterious aliens residing in the §Y[fmercsystem.GetName] System§!. If they possess a language, we must decipher it and establish communications。\n\nReward: £influence  §GInfluence§! or §SSpecial Project§!"
+
+opinion_destroyed_mercenary: "Destroyed Mercenary Enclave"
+fmerc_opinion_liberate: "Mercenary Operation"
+fmerc_opinion_raid: "Mercenary Operation"
+fmerc_opinion_fleet: "Mercenary Operation"
+fmerc_opinion_spaceport: "Mercenary Operation"
+
+LARGE_MASS_ACCELERATOR_FMERC: "Mercenary Station Accelerator XL"
+MASS_ACCELERATOR_MERC: "Mercenary Kinetic"
+MASS_ACCELERATOR_MERC_DESC: "Mercenary Station Kinetic Accelerator weapon components。"
+
+fmerc.introduction.desc: "Greetings! Let us just get right to it: the use of mercenaries in warfare has a long history. Much longer, in fact, than the deployment of national militaries to wage wars。\n\n§YWhiteout Enterprises§! is a business just like any other. We can be contracted to perform a wide array of combat maneuvers, logistics, armed security, and ground combat training。\n\nFor a price。"
+
+fmerc_enclave.report: "We're being hailed by the head of our interior ministry: §H\"[Root.GetRulerTitle], we can confidently report that §!§Y[fmerc_buyer.GetName]§!§H has recently conducted a covert operation against us through §!§YWhiteout Enterprises§!§H. Noone has taken responsibility for the mission officially, but we are certain in our assessment.\"§!\n\nPerhaps it would be wise to order a counter-operation。"
+
+
+# =============================================
+# Diplomacy
+#
+
+fmerc_enclave.name: "Whiteout Enterprises"
+fmerc_enclave.attacked.desc: "Ha ha ha! You think you can beat us? That is most hilarious. Have a good day, you filthy scum. We will meet again。"
+fmerc_enclave.close: "§PEnd communications§!"
+fmerc_enclave.back: "Back to previous menu"
+fmerc_enclave.order: "Order this service"
+fmerc_enclave.order.tooltip: "When you order this service you will be brought to a new screen where you will have to answer a series of questions regarding the operational parameters specific to the selected service。\n\nPlease be patient。\n\nPayment details and signature will be required before we proceed with the actual operation。"
+fmerc_enclave.trust30: "Requires this §YMercenary Enclave§! to have:\n£opinion  Opinion +30\n"
+fmerc_enclave.trust: "Requires this §YMercenary Enclave§! to have:\n£opinion  Opinion +50\n"
+fmerc_enclave.has_station: "We need to allow them access to construct military facilities in our territory。"
+fmerc_enclave.has_insurance: "We are already insured。"
+fmerc_enclave.execute.desc: "Thank you for doing business with §YWhiteout Enterprises§!。\n\nThe operation will commence within 3-90 days. There will be no further communication regarding this operation。\n\nFunds will be withdrawn from your account and treasury immediately. If there is not sufficient funds, the operation will cease and you will be notified。\n\nMay our names never be mentioned。"
+fmerc_enclave.needsdeposit: "You need at least £minerals §G2500§! deposited with §YWhiteout Enterprises§!。"
+
+# Initial diplomacy window
+fmerc_enclave.100a.desc: "Got a problem we can handle for you?"
+fmerc_enclave.100b.desc: "Greetings, customer! If there's any service we can render, please browse our selection on the right-hand screen。\n\nCurrent deposit:  £minerals §G[Root.MercDeposit]§!\nAdministrative fee: §R5% / year§!"
+fmerc_enclave.100c.desc: "§YWhiteout Enterprises§! is currently engaged in special operations activity on behalf of someone in your government. Please check back at a later date。\n\nNote that all our special operations are be terminated immediately after 5 years, regardless of progress。"
+fmerc_enclave.100.insurance.button: "Buy insurance"
+fmerc_enclave.100.insurance.sell: "Sell insurance"
+fmerc_enclave.100.insurance.tooltip: "§YWhiteout Enterprises§! offers an insurance policy, which in simple terms means that if any other empire orders a §YWhiteout Enterprises§! service targetting you, you will be given an option to outbid them。"
+
+fmerc_enclave.100.minerals.button: "Deposit £minerals §G2500§!"
+fmerc_enclave.100.minerals.tooltip: "Deposits another 2500 minerals in the §YWhiteout Enterprise§! emergency account. Any funds in this account will be spent first if you order any combat maneuvers or other services at a later date。\n\nAdministrative fee: §R5% / year§!\n$OPINION$: £opinion  §G+5§!"
+fmerc_enclave.100.minerals.reply: "Excellent, I'm sure those funds will come in handy for you one day。\n\nTotal deposit:  £minerals §G[Root.MercDeposit] +2500§!\nAdministrative fee: §R5% / year§!"
+fmerc_enclave.100.operations.button: "Let me see your services"
+fmerc_enclave.100.stations.button: "Allow border access"
+fmerc_enclave.100.stations.tooltip: "This allows §YWhiteout Enterprises§! access to your territories. Doing this will slowly increase their trust towards you over time。\n\nHowever, rest assured it will also increase their effectiveness against you should someone else contract their services towards you。"
+fmerc_enclave.100.nostations.button: "Revoke border access"
+fmerc_enclave.100.nostations.tooltip: "Revokes our border access ensurance towards §YWhiteout Enterprises§!。"
+
+# border access opinion boost
+fmerc_enclave.110.open: "Excellent. We appreciate this。"
+fmerc_enclave.110.close: "That is unfortunate. We will disassemble any operational presence we might have ongoing inside your territories at our convenience。"
+
+# insurance
+fmerc_enclave.150.buy: "Good thinking. We will let you know if anyone orders any services against you。"
+fmerc_enclave.150.sell: "That's unfortunate. Look for us on the horizon。"
+
+# Services menu
+fmerc_enclave.200.name: "Special Operations"
+fmerc_enclave.200.desc: "We at §YWhiteout Enterprises§! provide several special combat operations for our customers. Feel free to browse our brochure!\n\nPlease read the descriptions carefully, and sign on the dotted line。\n§YWhiteout Enterprise§! operations have several parameters that will remain outside any clients control, the most important of which is timing. After you sign up for a service, it might take anywhere from 3 days to 90 days before the operation starts. This allows us to plan carefully, and is not up for negotiation。"
+
+fmerc_enclave.target.invalid_operation: "We can not execute this type of operation against this type of empire。"
+
+# Spaceports service
+fmerc_enclave.300.name: "Attack Spaceport"
+fmerc_enclave.300.desc: "After you have selected the target country and some other operational parameters, §YWhiteout Enterprises§! will locate and destroy one or more Spaceport facilities on your behalf. If we can not locate a valid Spaceport, we will attempt to clear one entire star system of military stations。\n\nCost: £minerals §G5000§!\nChance of success: §G80%§!\nDetection risk: §G20%§!"
+
+# Liberate Planet
+fmerc_enclave.400.name: "Liberate Planet"
+fmerc_enclave.400.desc: "Planet liberation is always risky business, and has an immense upfront cost - but the payoff is exceptional. If you select this option, §YWhiteout Enterprises§! finds a suitable target planet to invade, and does all the dirty work for you. Once liberated, the population on the planet will be \"convinced\" to follow your ethos, and then forcefully freed from - what we can only presume is - the tyranny of their empire。\n\nCost: £minerals §G15000§!\nChance of success: §G75%§!\nDetection risk: §G35%§!"
+
+# Mining/Research Raid
+fmerc_enclave.500.name: "Mining/Research Raid"
+fmerc_enclave.500.desc: "Want to stifle an adversaries economy? This option is for you. After you set up the menial operational parameters of the raid, §YWhiteout Enterprises§! will locate, engage, and destroy, between 5 and 12 mining/research stations in your adversaries space. Obviously, any loot we find is ours to keep。\n\nCost: £minerals §G2500§!\nChance of success: §G95%§!\nDetection risk: §G25%§!"
+
+# Fleet Battle
+fmerc_enclave.600.name: "Fleet Raid"
+fmerc_enclave.600.desc: "The most dangerous operation we can undertake. This puts us inevitably in direct confrontation with enemy admirals and leadership, and is thus the chance of capture is extremely high. However, this is what we live for, what we work for. If you select this service, §YWhiteout Enterprises§! will locate, identify, track, and engage, a minimum of 1 (one) hostile fleet of at least size 20 or more. If we can not find a fleet this big, we will find the toughest one。\n\nCost: £minerals §G10000§!\nChance of success: §G80%§!\nDetection risk: §G25%§!"
+
+# Clear Space
+fmerc_enclave.700.name: "Clear Space"
+fmerc_enclave.700.desc: "Pirates, Drones, Amoebas, or other random annoying hostiles lounge about inside your territories? §YWhiteout Enterprises§! can handle some of those targets for you. For a price。\n\nSelect the type of target you want us to §Rimmediately§! engage in our services menu on the right, and let us get to work. §GThere is no red tape on this one.§!\n\nCost: £minerals §GBetween 300 and 3000§!\nChance of success: §G95%§!\nDetection risk: §G0%§!"
+fmerc_enclave.700.amoeba: "Immediately attack $space_amoeba_plural$"
+fmerc_enclave.700.cloud: "Immediately attack $space_cloud_plural$"
+fmerc_enclave.700.crystal: "Immediately attack Crystals"
+fmerc_enclave.700.pirates: "Immediately attack Pirates"
+fmerc_enclave.700.drones: "Immediately attack Drones"
+fmerc_enclave.700.tooltip: "§YWhiteout Enterprises§! will §Rimmediately§! go to work on any hostile targets matching this description inside your territories. If there are no targets of this type, your minerals will be considered a donation。\n\nThe cost will vary depending on several factors, but §YWhiteout Enterprises§! sees this service as a friendly gesture among trusted customers, and will simply §Gdeduct the cost from your account§! after the operation has been completed。"
+
+# Question 1, which country should we attack
+fmerc_enclave.1000.name: "Target Selection"
+fmerc_enclave.1000.desc: "The very first parameter we need to know is what kind of target you want to select. §YWhiteout Enterprises§! has an internal classification system for most kinds of empires that can be found thriving around the galaxy。\n\nEach classification type comes with bonuses and/or penalties to the final operational costs。\n\nDue to standard non-disclosure agreements with all our clients, you will only be able to select targets which your own country has identified. If you see no relevant target categories, that means we are unable to fulfil your request。"
+fmerc_enclave.1000.default: "Standard Empires"
+fmerc_enclave.1000.fallen: "Fallen Empires"
+fmerc_enclave.1000.swarm: "Swarm"
+fmerc_enclave.1000.ed: "Extradimensional"
+fmerc_enclave.1000.ai: "AI Revolt"
+
+fmerc_enclave.target_not_valid: "§YWhiteout Enterprises§! does not consider this country a valid target for this type of operation。"
+
+fmerc_enclave.selected.default: "You selected: §GStandard Empires§!。\n\nThis encompasses all normal, independent empires found throughout the galaxy. If you have made contact with any, at least 20 of them should be available for selection on the right-hand side. Please do so now。\n\n§GStandard Empires do not have any bonuses or penalties to make the price deviate from listed price.§!\n§ROnly empires we would consider valid targets are listed. The criteria for this is a trade secret.§!"
+
+fmerc_enclave.selected.fallen: "You selected: §GFallen Empires§!。\n\nFallen Empires are stagnant or awakened ancient empires that have been present in the galaxy as long as time itself. These kinds of targets are exceptionally hard to engage, and will require a substantial added investment. However, since they look down their nose at all us regular folk, the detection risk is a lot lower。\n\nCost: £minerals §G+20%§!\nChance of success: §G-10%§!\nDetection risk: §G-10%§!\n§ROnly empires we would consider valid targets are listed. The criteria for this is a trade secret.§!"
+
+fmerc_enclave.selected.swarm: "You selected: §GSwarm§!。\n\nThe Swarm is filthy, and we - like all sane, sentient beings - hate it. Therefore, we drop our price significantly. Because of their strength, however, the chances of success drop dramatically. As an added bonus, there is zero chance they will see through our guise. If they did, they probably wouldn't care。\n\nCost: £minerals §G-20%§!\nChance of success: §G-10%§!\nDetection risk: §G0%§!\n§ROnly empires we would consider valid targets are listed. The criteria for this is a trade secret.§!"
+
+fmerc_enclave.selected.ed: "You selected: §GExtradimensionals§!。\n\nThese beings are here to consume us all. We are honored to fight them in your name. Therefore, our prices are lowered for this target. Because of their strength, however, the chances of success drop dramatically. As an added bonus, there is zero chance they will see through our guise. If they did, they probably wouldn't care。\n\nCost: £minerals §G-20%§!\nChance of success: §G-10%§!\nDetection risk: §G0%§!\n§ROnly empires we would consider valid targets are listed. The criteria for this is a trade secret.§!"
+
+fmerc_enclave.selected.ai: "You selected: §GAI Revolt Empire§!。\n\nThese heartless robots are here to consume us all. We are honored to fight them in your name. Therefore, our prices are lowered for this target。\n\nCost: £minerals §G-10%§!\nChance of success: §G-5%§!\nDetection risk: §G-5%§!\n§ROnly empires we would consider valid targets are listed. The criteria for this is a trade secret.§!"
+
+# Question 2, disguise
+fmerc_enclave.2000.name: "Disguise Selection"
+fmerc_enclave.2000.desc: "§Y[fmerc_target_country.GetName]§! will never know what hit them。\n\nThe next operational parameter you need to decide is what kind of disguise we should apply on our fleet. The available choices all have bonuses and penalties, so please choose carefully。"
+
+fmerc_enclave.disguise.random: "Random"
+fmerc_enclave.disguise.random.tooltip: "Lets §YWhiteout Enterprises§! pick a random disguise from their arsenal。\n\nPrice: £minerals §G-5%§!\nDetection risk: §G+5%§!"
+fmerc_enclave.disguise.other: "Non-[Root.GetName]"
+fmerc_enclave.disguise.other.tooltip: "Make sure §YWhiteout Enterprises§! picks any disguise as long as it does not match your own ships。\n\nPrice: £minerals §G+5%§!\nDetection risk: §G-5%§!"
+fmerc_enclave.disguise.same: "[Root.GetName]"
+fmerc_enclave.disguise.same.tooltip: "No disguise, use the same ship type as your empire。\n\nChance of success: §G+15%§!\nDetection risk: §G+10%§!"
+fmerc_enclave.disguise.pirate: "Pirate"
+fmerc_enclave.disguise.pirate.tooltip: "Deconstruct random pieces of the ship hulls so the fleet appears as a rag-tag band of pirates。\n\nPrice: £minerals §G-5%§!\nChance of success: §G-10%§!"
+fmerc_enclave.disguise.monster: "Xenofauna"
+fmerc_enclave.disguise.monster.tooltip: "Disguise the mercenary fleet as some type of fauna found naturally in the galaxy. For example the Space Whales, Amoebas, Clouds, and Drones。\n\nPrice: £minerals §G+15%§!\nDetection risk: §G-10%§!"
+
+
+
+# Conclusion
+fmerc_enclave.conclusion.parameters: "Target: §Y[fmerc_target_country.GetName]§!\nDisguise: §Y[trader_leader.GetName]§!\nPrice: £minerals  §R[Root.MercCost]§!\nChance of success: §G[Root.MercSuccess]%§!\nDetection risk: §H[Root.MercDetect]%§!\n"
+fmerc_enclave.conclusion.postfix: "Please accept responsibility for the outcome of this operation, agree to our terms and conditions, sign the non-disclosure agreement, sign for our limited access to your empires treasury, and finally, sign on the executive order。"
+
+fmerc_enclave.300.conclusion: "Operation: §YAttack Spaceport§!\n$fmerc_enclave.conclusion.parameters$\n$fmerc_enclave.conclusion.postfix$"
+fmerc_enclave.400.conclusion: "Operation: §YLiberate Planet§!\n$fmerc_enclave.conclusion.parameters$\n$fmerc_enclave.conclusion.postfix$"
+fmerc_enclave.500.conclusion: "Operation: §YMining/Research Raid§!\n$fmerc_enclave.conclusion.parameters$\n$fmerc_enclave.conclusion.postfix$"
+fmerc_enclave.600.conclusion: "Operation: §YFleet Raid§!\n$fmerc_enclave.conclusion.parameters$\n$fmerc_enclave.conclusion.postfix$"
+
+fmerc_enclave.accept.responsibility: "Accept responsibility"
+fmerc_enclave.accept.terms: "Sign terms and conditions"
+fmerc_enclave.accept.nda: "Sign NDA"
+fmerc_enclave.accept.treaty: "Sign for treasury access"
+fmerc_enclave.accept.signature: "Sign executive order"
+fmerc_enclave.9000.signatures: "Signatures Required"
+fmerc_enclave.9000.go: "Operation will commence"
+
+fmerc_enclave.cantafford.title: "Not enough minerals"
+fmerc_enclave.cantafford.desc: "§YWhiteout Enterprises§! was unable to withdraw the required funds from our treasury department。\n\nAs a result, the order has been cancelled。"
+
+# insurance
+fmerc_enclave.insurance.title: "Friendly alert"
+fmerc_enclave.insurance.desc: "We're pleased to inform you that your §YWhiteout Enterprises§! insurance policy has come into effect. Another valued customer has ordered an operation against your empire through our services menu。\n\nThis operation is already under way, and our fleets have entered your subspace. Rest assured they are effective。\n\nDue to our non-disclosure agreements with all our customers, this is the only information we will provide on the subject。\n\nSince your insurance policy allows you to make a counter-offer, you may do so now, at a 25% discount. If you accept the offer, our operations will be terminated immediately。"
+fmerc_enclave.insurance.offer: "Pay £minerals §R[Root.MercCost]§!"
+fmerc_enclave.insurance.decline: "Thank you for the heads up"
+fmerc_enclave.insurance.prevented: "We regret to inform you that the target you selected for your last order has invoked their insurance policy with §YWhiteout Enterprises§!, and as such, if we had an ongoing operation against them on your behalf - which we're not saying we do, or did - then it would be terminated immediately。\n\nHave a nice day。"
+
+# mission completed
+fmerc_enclave.completed.title: "Friendly \"Hello\""
+fmerc_enclave.completed.desc: "§YWhiteout Enterprises§! is pleased to inform you that our services menu is now open for business. We hope you are happy with any services we might have rendered in the past。\n\nHave a nice day。"
+
+# Merc Enclave destroyed / attacked
+fmerc_enclave.a.desc: "$fmerc_enclave.desc.first$ $fmerc_enclave.desc.known$ $fmerc_enclave.desc.second$"
+fmerc_enclave.b.desc: "$fmerc_enclave.desc.first$ $fmerc_enclave.desc.unknown$ $fmerc_enclave.desc.second$"
+fmerc_enclave.c.desc: "$fmerc_enclave.desc.first$ $fmerc_enclave.desc.known$ $fmerc_enclave.desc.second$\n\n$fmerc_enclave.desc.trade$"
+fmerc_enclave.d.desc: "$fmerc_enclave.desc.first$ $fmerc_enclave.desc.unknown$ $fmerc_enclave.desc.second$\n\n$fmerc_enclave.desc.trade$"
+fmerc_enclave.desc.first: "The headquarters of §YWhiteout Enterprises§! in the [trader_system.GetName] system was recently destroyed"
+fmerc_enclave.desc.known: "by an attack force belonging to the [trader_destroyer.GetName]!"
+fmerc_enclave.desc.unknown: "by unknown forces!"
+fmerc_enclave.desc.second: "The few surviving employees have fled the scene, and the corporation's remaining assets are being liquidated。"
+fmerc_enclave.desc.trade: "Unfortunately, all facilities were destroyed, and we will no longer have access to this strategic resource。"
+fmerc_enclave.a: "A blow to free trade。"
+fmerc_enclave.b: "We had lots of minerals stored there!"
+fmerc_enclave.156.desc: "We laugh at your feeble attack fleet. Rest assured, whatever the outcome, we will be avenged. Say goodbye。"
+fmerc_enclave.156.a: "End communications。"
+
+fmerc_enclave.precom_title: "Encounter in [From.From.GetName]"
+fmerc_enclave.precom_desc: "We have encountered some form of alien vessels in the §Y[From.From.GetName]§! System! The vessels have been flagged as §Y[fmercsystem.GetName]§! until we can learn more about them。\n\nPlease visit the §MSpecial Projects§! department to initiate an investigation into the nature of these vessels immediately。"

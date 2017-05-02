@@ -1,0 +1,91 @@
+﻿l_english:
+ 
+ ########################
+ # Duel Ritual
+ # Code by Malthus
+ # Text by Drew_eire and Malthus
+ ########################
+ 
+ # Fist Event entry after planet has been invaded
+ mem_duel_ritual.4.name:0 "这些土著居民中产生了骚动"
+ mem_duel_ritual.4.desc:0 "虽然绝大部分§Y[This.GetName]§!上的土著都享受着他们被殖民之后的新生活，当地一个军事极端派系却正在为了重获他们的自由而奋起反抗我们的统治。已经报告了数起本土军人拒绝听从我国军官命令的案例，这些本土军人甚至拒绝对这些土著暴乱分子发起哪怕一些装模作样的攻击。"
+ mem_duel_ritual.4.a:0 "这仅仅是一个开始。"
+ mem_duel_ritual.4.b:0 "他们似乎在幻想着他们尚且还有机会。"
+ mem_duel_ritual.4.tooltip:0 "所有位于§Y[This.GetName]§!上的派系居民获得§Y外族占领§!修正并在5年之内减少他们10%的快乐。"
+ 
+ # Second popup Primitives asking for negotiations
+ mem_duel_ritual.5.name:0 "与原住民的关系紧张"
+ mem_duel_ritual.5.desc:0 "一个来自于§Y[This.GetName]§!军事派系的代表们走到台前说有一个办法可能有助于解决当前的紧张局势。"
+ mem_duel_ritual.5.a:0 "让我们姑且先听听看吧。"
+ mem_duel_ritual.5.b:0 "我们绝不会跟原住民们进行任何谈判。"
+ mem_duel_ritual.5.b.tooltip:0 "§Y[This.GetName]§!上的所有原住民派系居民得到加强的§Y外族占领§!修正将会在5年内减少他们20%的快乐。"
+ 
+ # Pop modifiers
+ mem_suppressed_primitives_01:0 "外族占领"
+ mem_suppressed_primitives_02:0 "外族占领"
+ mem_impressed_primitives:0 "因比武而振奋"
+ mem_proud_masterrace:0 "我们的荣耀"
+ mem_humiliated_masterrace:0 "被羞辱了"
+ 
+ 
+ # Audience Duel proposal
+ mem_duel_ritual.6.name:0 "古代的仪式"
+ mem_duel_ritual.6.desc:0 "当地的代表解释说: "§Y[This.GetName]§!上的居民有一项古老的传统，就是把所有难以解决的社会事物通过一场比武审判来解决。双方的代表会用一些最古老的武器单打独斗直到一人胜出为止。尽管这种比武方式绝大多数时候都仅仅是仪式上的，但是这些仪式本身却是对我们的人民十分重要的.\n\n如果您同意举行一场比武来解决此次冲突的话，所有的敌对行动将会暂时平息直到仪式结束为止，到时候无论胜负都将会有一个满意的结果，您意下如何呢?""
+ mem_duel_ritual.6.a:0 "我们同意举行比武。大将军[mem_duel_ritual_champion.GetName]会成为我们的勇士。"
+ mem_duel_ritual.6.a.tooltip:0 "大将军§Y[mem_duel_ritual_champion.GetName]§!"自愿地" 作为我们的勇士参加这次的比武。"
+ mem_duel_ritual.6.a.response:0 ""那就在此决定了。你们的勇士将会在这颗行星公转周期的12分之1的时间后迎战我们的勇士。"\n\n双方的勇士们将会利用这段时间来进行准备.虽然这个高风险的比武仪式一直恪守着点到为止的习俗，然而造成死伤的意外也确实曾经发生过..."
+ mem_duel_ritual.6.b:0 "我们接受这次比武挑战。我们特种部队的一名战士将会成为我们的勇士。"
+ mem_duel_ritual.6.b.tooltip:0 "一位来自于我们的特种部队的精英士兵自愿作为我们这一方的勇士来参与这场决斗。"
+ mem_duel_ritual.6.c:0 "我们不会参加这种老掉牙的仪式。"
+ mem_duel_ritual.6.c.tooltip:0 "因为你拒绝尊重他们的习俗，所有§Y[This.GetName]§!上的土著居民得到了更强的§Y外族占领§!修正并在5年内减少他们20%的幸福度。"
+ mem_duel_ritual.6.c.response:0 ""这是赤裸裸的背叛!我们的人绝不会接受你们给我们强加的规定，因为你们从没尊重过我们的传统!"\n\n本地居民的代表们带着愤怒的情绪离开了会议室..."
+ 
+ # Duel with General
+ mem_duel_ritual.7.name:0 "古老的仪式"
+ # with blood
+ mem_duel_ritual.7.desc_01:0 "决定命运的一天终于到来了.所有现场观众都在尖叫着，很多人坐在电视机前观看这一场即将决定两国命运的比武审判，所有人都在等待着双方的勇士进入眼前这座古老的竞技场。这座竞技场内的沙土早已经被历朝历代的[mem_duel_ritual_species.GetSpeciesName]勇士们的鲜血所染红。我们的种族是否也会成为这些失败者，让我们拭目以待吧.\n\n在成为军事领袖之前，大将军[mem_duel_ritual_champion.GetName]曾经是我们的特种部队的一员，他亲自杀死了超过300个各式各样的生物。以一个前游击战争专家的观点来看，他对于面对面搏斗十分擅长。随着时间的临近，喧嚣的吵闹声此起彼伏，家庭成员间在互相低语着，历史学家们纷纷涌进会场内，等待着记录下这史诗般的决战。在众人的欢呼声中，双方的勇士们步入了会场，他们互相向对方致以最崇高的敬意。"
+ # with ichor
+ mem_duel_ritual.7.desc_02:0 "决定命运的一天终于到来了.所有现场观众都在尖叫着，很多人坐在电视机前观看这一场即将决定两国命运的比武审判，所有人都在等待着双方的勇士进入眼前这座古老的竞技场。这座竞技场内的沙土早已经被历朝历代的[mem_duel_ritual_species.GetSpeciesName]勇士们的灵魂所沁染。我们的种族是否也会成为这些失败者，让我们拭目以待吧.\n\n在成为军事领袖之前，大将军[mem_duel_ritual_champion.GetName]曾经是我们的特种部队的一员，他亲自杀死了超过300个各式各样的生物。以一个前游击战争专家的观点来看，他对于面对面搏斗十分擅长。随着时间的临近，喧嚣的吵闹声此起彼伏，家庭成员间在互相低语着，历史学家们纷纷涌进会场内，等待着记录下这史诗般的决战。在众人的欢呼声中，双方的勇士们步入了会场，他们互相向对方致以最崇高的敬意。"
+ # with sap
+ mem_duel_ritual.7.desc_03:0 "决定命运的一天终于到来了.所有现场观众都在尖叫着，很多人坐在电视机前观看这一场即将决定两国命运的比武审判，所有人都在等待着双方的勇士进入眼前这座古老的竞技场。这座竞技场内的沙土早已经被历朝历代的[mem_duel_ritual_species.GetSpeciesName]勇士们的精神所感染。我们的种族是否也会成为这些失败者，让我们拭目以待吧.\n\n在成为军事领袖之前，大将军[mem_duel_ritual_champion.GetName]曾经是我们的特种部队的一员，他亲自杀死了超过300个各式各样的生物。以一个前游击战争专家的观点来看，他对于面对面搏斗十分擅长。随着时间的临近，喧嚣的吵闹声此起彼伏，家庭成员间在互相低语着，历史学家们纷纷涌进会场内，等待着记录下这史诗般的决战。在众人的欢呼声中，双方的勇士们步入了会场，他们互相向对方致以最崇高的敬意。"
+ mem_duel_ritual.7.a:0 "比武开始了。"
+ 
+ # General Fight Win
+ mem_duel_ritual.8.name:0 "决定性的胜利"
+ mem_duel_ritual.8.desc:0 "大将军[mem_duel_ritual_champion.GetName]获胜了!这场比武的结局几乎是从双方第一次接触就决定了，我们敬爱的将军一拳就把对方的勇士打倒在地。所有§Y[mem_duel_ritual_planet.GetName]§!上的原住民们接受了我们的军事力量超过他们这个明显的事实，他们不再反抗，反而是敞开胸怀迎接我们的统治。这次比武征服了他们的心，他们不会再闹事了。"
+ mem_duel_ritual.8.a:0 "本该如此。"
+ mem_duel_ritual.8.a.tooltip:0 "§Y[mem_duel_ritual_planet.GetName]§!上的所有原住民移除§Y外族占领§!修正并且增加§Y因比武而振奋§!修正并增加他们的快乐。你的主要物种获得§Y我们的荣耀§!修正并在5年内增加他们的快乐。"
+
+ # General Fight Draw
+ mem_duel_ritual.9.name:0 "平局?"
+ mem_duel_ritual.9.desc:0 "在激烈的近身肉搏中，大将军[mem_duel_ritual_champion.GetName]和他的对手互相把对方绊倒在地，他们重重的摔在地面的石头上，同时失去了意识。从好的方面看，制造所有事端的军事极端组织似乎平息了下来。因为他们对这个平局的事实依然感到难以接受。我们居住于银河各地的居民们逐渐接受了平局的事实，街头巷尾的艺人们不断的模仿着最后这戏剧性的一幕。因为这次比武，大将军成了所有人嘲弄的对象。"
+ mem_duel_ritual.9.a:0 "我们成了整个银河的笑柄!"
+ mem_duel_ritual.9.a.tooltip:0 "§Y[mem_duel_ritual_planet.GetName]§!上的所有原住民移除§Y外族占领§!修正并且增加§Y因比武而振奋§!修正并增加他们的快乐。你的主要物种获得§Y被羞辱了§!修正并在5年内减少他们的快乐。"
+ 
+  # Duel with Soldier
+ mem_duel_ritual.10.name:0 "古老的仪式"
+ # with blood
+ mem_duel_ritual.10.desc_01:0 "决定命运的一天终于到来了.所有现场观众都在尖叫着，很多人坐在电视机前观看这一场即将决定两国命运的比武审判，所有人都在等待着双方的勇士进入眼前这座古老的竞技场。这座竞技场内的沙土早已经被历朝历代的[mem_duel_ritual_species.GetSpeciesName]勇士们的鲜血所染红。我们的种族是否也会成为这些失败者，让我们拭目以待吧.\n\n随着时间的临近，喧嚣的吵闹声此起彼伏，家庭成员间在互相低语着，历史学家们纷纷涌进会场内，等待着记录下这史诗般的决战。在众人的欢呼声中，双方的勇士们步入了会场，他们互相向对方致以最崇高的敬意。"
+ # with ichor
+ mem_duel_ritual.10.desc_02:0 "决定命运的一天终于到来了.所有现场观众都在尖叫着，很多人坐在电视机前观看这一场即将决定两国命运的比武审判，所有人都在等待着双方的勇士进入眼前这座古老的竞技场。这座竞技场内的沙土早已经被历朝历代的[mem_duel_ritual_species.GetSpeciesName]勇士们的灵魂所沁染。我们的种族是否也会成为这些失败者，让我们拭目以待吧.\n\n随着时间的临近，喧嚣的吵闹声此起彼伏，家庭成员间在互相低语着，历史学家们纷纷涌进会场内，等待着记录下这史诗般的决战。在众人的欢呼声中，双方的勇士们步入了会场，他们互相向对方致以最崇高的敬意。"
+ # with sap
+ mem_duel_ritual.10.desc_03:0 "决定命运的一天终于到来了.所有现场观众都在尖叫着，很多人坐在电视机前观看这一场即将决定两国命运的比武审判，所有人都在等待着双方的勇士进入眼前这座古老的竞技场。这座竞技场内的沙土早已经被历朝历代的[mem_duel_ritual_species.GetSpeciesName]勇士们的精神所感染。我们的种族是否也会成为这些失败者，让我们拭目以待吧.\n\n随着时间的临近，喧嚣的吵闹声此起彼伏，家庭成员间在互相低语着，历史学家们纷纷涌进会场内，等待着记录下这史诗般的决战。在众人的欢呼声中，双方的勇士们步入了会场，他们互相向对方致以最崇高的敬意。"
+ mem_duel_ritual.10.a:0 "比武开始了。"
+ 
+ # Soldier Fight Win
+ mem_duel_ritual.11.name:0 "决定性的胜利"
+ mem_duel_ritual.11.desc:0 "我们的士兵胜利了!经过一场激烈的搏斗，来自[mem_duel_ritual_species.GetSpeciesName]的勇士承认了失败。双方都受到了不同程度的损伤但是都不会危及生命。虽然这可能不是他们所期望的结果，即便是最极端的[mem_duel_ritual_species.GetSpeciesName]军事派系也承认了这次比武的结果。"
+ mem_duel_ritual.11.a:0 "本该如此。"
+ mem_duel_ritual.11.a.tooltip:0 "§Y[mem_duel_ritual_planet.GetName]§!上的所有原住民移除§Y外族占领§!修正并且增加§Y因比武而振奋§!修正并增加他们的快乐。你的主要物种获得§Y我们的荣耀§!修正并在5年内增加他们的快乐。"
+ 
+ # Soldier Fight Lose
+ mem_duel_ritual.12.name:0 "无奈的失败"
+ mem_duel_ritual.12.desc:0 "来自[mem_duel_ritual_species.GetSpeciesName]的勇士获胜了!经过一场激烈的搏斗，我们的士兵承认了失败。双方都受到了不同程度的损伤但是都不会危及生命。虽然这可能不是我们所期望的结果，最极端的[mem_duel_ritual_species.GetSpeciesName]军事派系消停了下来，因为这次比武成功捍卫了他们的荣誉，虽然这将使他们在今后的日子里更加猖狂地追求独立。"
+ mem_duel_ritual.12.a:0 "令人无法接受的结果..."
+ mem_duel_ritual.12.a.tooltip:0 "§Y[mem_duel_ritual_planet.GetName]§!上的所有原住民移除§Y外族占领§!修正并且增加§Y因比武而振奋§!修正并增加他们的快乐。你的主要物种获得§Y被羞辱了§!修正并在5年内减少他们的快乐。"
+ 
+ # Soldier Fight Draw
+ mem_duel_ritual.13.name:0 "不幸的结局"
+ mem_duel_ritual.13.desc:0 "在激烈的搏斗中，双方的勇士都不太熟悉对方的生理结构，他们互相给与了对方致命的伤害。视频中双方勇士不顾自身受到的伤害，互相带着各自的敬意搏斗到死的画面传遍了我们的帝国.§Y[mem_duel_ritual_planet.GetName]§!上的居民似乎对双方的勇士都抱着极大的崇敬尤其是看到他们奋斗至死的那一幕后。"
+ mem_duel_ritual.13.a:0 "不幸的结局..."
+ mem_duel_ritual.13.a.tooltip:0 "§Y[mem_duel_ritual_planet.GetName]§!上的所有原住民移除§Y外族占领§!修正并且增加§Y因比武而振奋§!修正并增加他们的快乐。"

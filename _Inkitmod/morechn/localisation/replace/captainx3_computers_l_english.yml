@@ -1,0 +1,65 @@
+﻿l_english:
+
+###################################
+# Hull Specific Battle Computers
+###################################
+
+
+ Frigate_COMBAT_COMPUTER_1: "基本战斗计算机(护卫舰)"
+ Frigate_COMBAT_COMPUTER_2: "中级战斗计算机(护卫舰)"
+ Frigate_COMBAT_COMPUTER_3: "先进战斗计算机(护卫舰)"
+ Frigate_COMBAT_COMPUTER_4: "感知战斗计算机(护卫舰)"
+ Frigate_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(护卫舰)"
+
+ Battlecruiser_COMBAT_COMPUTER_1: "基本战斗计算机(战列巡洋舰)"
+ Battlecruiser_COMBAT_COMPUTER_2: "中级战斗计算机(战列巡洋舰)"
+ Battlecruiser_COMBAT_COMPUTER_3: "先进战斗计算机(战列巡洋舰)"
+ Battlecruiser_COMBAT_COMPUTER_4: "感知战斗计算机(战列巡洋舰)"
+ Battlecruiser_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(战列巡洋舰)"
+
+ StrikeCruiser_COMBAT_COMPUTER_1: "基本战斗计算机(打击巡洋舰)"
+ StrikeCruiser_COMBAT_COMPUTER_2: "中级战斗计算机(打击巡洋舰)"
+ StrikeCruiser_COMBAT_COMPUTER_3: "先进战斗计算机(打击巡洋舰)"
+ StrikeCruiser_COMBAT_COMPUTER_4: "感知战斗计算机(打击巡洋舰)"
+ StrikeCruiser_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(打击巡洋舰)"
+
+ LightCarrier_COMBAT_COMPUTER_1: "基本战斗计算机(轻型航母)"
+ LightCarrier_COMBAT_COMPUTER_2: "中级战斗计算机(轻型航母)"
+ LightCarrier_COMBAT_COMPUTER_3: "先进战斗计算机(轻型航母)"
+ LightCarrier_COMBAT_COMPUTER_4: "感知战斗计算机(轻型航母)"
+ LightCarrier_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(轻型航母)"
+
+ Carrier_COMBAT_COMPUTER_1: "基本战斗计算机(航母)"
+ Carrier_COMBAT_COMPUTER_2: "中级战斗计算机(航母)"
+ Carrier_COMBAT_COMPUTER_3: "先进战斗计算机(航母)"
+ Carrier_COMBAT_COMPUTER_4: "感知战斗计算机(航母)"
+ Carrier_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(航母)"
+
+ Dreadnought_COMBAT_COMPUTER_1: "基本战斗计算机(无畏舰)"
+ Dreadnought_COMBAT_COMPUTER_2: "中级战斗计算机(无畏舰)"
+ Dreadnought_COMBAT_COMPUTER_3: "先进战斗计算机(无畏舰)"
+ Dreadnought_COMBAT_COMPUTER_4: "感知战斗计算机(无畏舰)"
+ Dreadnought_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(无畏舰)"
+
+ Superdreadnought_COMBAT_COMPUTER_1: "基本战斗计算机(超无畏舰)"
+ Superdreadnought_COMBAT_COMPUTER_2: "中级战斗计算机(超无畏舰)"
+ Superdreadnought_COMBAT_COMPUTER_3: "先进战斗计算机(超无畏舰)"
+ Superdreadnought_COMBAT_COMPUTER_4: "感知战斗计算机(超无畏舰)"
+ Superdreadnought_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(超无畏舰)"
+
+ Flagship_COMBAT_COMPUTER_1: "基本战斗计算机(旗舰)"
+ Flagship_COMBAT_COMPUTER_2: "中级战斗计算机(旗舰)"
+ Flagship_COMBAT_COMPUTER_3: "先进战斗计算机(旗舰)"
+ Flagship_COMBAT_COMPUTER_4: "感知战斗计算机(旗舰)"
+ Flagship_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(旗舰)"
+
+ Headquarters_COMBAT_COMPUTER_1: "基本战斗计算机(指挥所)"
+ Headquarters_COMBAT_COMPUTER_2: "中级战斗计算机(指挥所)"
+ Headquarters_COMBAT_COMPUTER_3: "先进战斗计算机(指挥所)"
+ Headquarters_COMBAT_COMPUTER_4: "感知战斗计算机(指挥所)"
+ Headquarters_COMBAT_COMPUTER_PRECOG: "预知战斗计算机(指挥所)"
+
+ CAPITAL_BOMBARDMENT_BEHAVIOR_DESC: "首都轰炸:没什么是比轰炸首都来得更有效率。"
+
+# Combat computer for the automated defense HQ fleet
+ NSC_AUTOMATED_DEFENSE_COMPUTER: "自动防御计算机"

@@ -1,0 +1,29 @@
+﻿l_english:
+ mem_enterprise_fallen_category:0 "古代遗迹"
+ mem_enterprise_fallen_category_desc:0 "我们的勘探团队在我们的勘探团队在§Y[From.GetName]§! 上找到一些比较完整的建筑物，看起来值得我们去深入调查。"
+ mem_enterprise_fallen.1.name:0 "大图书馆"
+ mem_enterprise_fallen.1.desc:0 "我们的科学家团队今次简直中了大奖！这栋古代的建筑物原来属于某个古代文明的图书馆，如果要研究埋藏在这裡的文献，恐怕需要花上几年甚至是十几年的时间。"
+ 
+ mem_enterprise_fallen.2.name:0 "没有新的发现"
+ mem_enterprise_fallen.2.desc:0 "虽然这座古代的建筑物算得上比较完整，但是我们的科学家未能找到关于居民的资料，因此各个队员都已经回到§Y[Root.GetName]§! 报告并进行下一项任务。"
+ 
+ mem_enterprise_fallen.3.name:0 "被遗忘的太空船"
+ mem_enterprise_fallen.3.desc:0 "在这个死寂的星体上经过更进一步的调查，以及仔细解读所寻获的历史档案后，我们发现上一批在这裡居住过的生物所使用的科技，比我们想像中更先进。我们从之前找到的文献上发现一张资料详细的先进飞行船设计图，对我们的调查有一定的帮助。"
+ mem_enterprise_fallen.3.a:0 "真的有趣。"
+ 
+ MEM_ENTERPRISE_FALLEN_PROJECT:0 "被遗忘的太空船"
+ MEM_ENTERPRISE_FALLEN_PROJECT_DESC:0 "在§Y[ruins_planet.GetName]§!上正埋头苦干的科研团队恳请调拨更多人手去查明这艘飞船的确实位置及其资料。"
+ 
+ mem_enterprise_fallen.4.name:0 "被遗忘的太空船"
+ mem_enterprise_fallen.4.desc_default:0 "根据调查所得，我们找到了另一个资料库，或者需要更多时间去研究当中内容。不过，我们可以清楚了解一件事：这艘名为「方案号」的太空船并不存在。\n\n它从来都没有存在过。原来曾经在§Y[ruins_planet.GetName]§! 居住过的人具有丰富的想像力，一直幻想著可以进行太空探险。这艘太空船只不过是凭空想像出来，希望可以做到前人做不到的事。\n我们从资料库内完全得不到任何有用的科技或研究成果，不过收藏家或从事娱乐事业的人会对此有兴趣。"
+ mem_enterprise_fallen.4.desc_xenophile:0 "根据调查所得，我们找到了另一个资料库，或者需要更多时间去研究当中内容。不过，我们可以清楚了解一件事：这艘名为「活动号」的太空船并不存在。\n\n太可惜了。曾经在§Y[ruins_planet.GetName]§! 居住过的人跟我们分别不大，他们梦想著可以游历千奇百怪的世界和文明，并将所遇过的经历纪录下来，然后向后人诉说自己心目中的宇宙。「行动」和它的船长正好与我们的遭遇相似 ─ 如果§Y[ruins_planet.GetName]§! 上的人依然存活的话。\n\n我们将会记住他们。§Y[Root.GetLeaderName]§! 已经著手将资料库内的档案翻译成我们的语言，只要一声令下就可以随时对外发放。\n\n如果这些故事大受欢迎的话，我们更可以製作更多集数 ─ 让这个虚构的旅程延续下去。"
+ mem_enterprise_fallen.4.desc_xenophobe:0 "就算以外星生物而言，§Y[ruins_planet.GetName]§! 上的居住者疯得令人可笑，连§Y[Root.GetLeaderName]§! 在翻阅他们遗留下来的文件时也一并疯掉。他们所谓的太空船设计「挑战者」只不过是一辑肥皂剧。不过，看著他们把自己炸得乾乾淨淨也不失为一件好事。\n\n虽然这些文件对我们的科学家一点用处也没有，或许…我们可以私下做一点修改，然后再将之转售给收藏家图利。"
+ mem_enterprise_fallen.4.a:0 "价高者得。"
+ mem_enterprise_fallen.4.b:0 "开播吧！"
+ mem_enterprise_fallen.4.c:0 "让我们的人民知道弱者的下场。"
+ 
+ mem_enterprise_fallen.4.b.tooltip:0 "(和平人口): 新增§Y勇于前进§!效果持续§Y12§!个月，并有以下效用:\n   幸福度: §G+5%§!\n   道德分歧: §G-5%§! "
+ mem_enterprise_fallen.4.c.tooltip:0 "(排外人口):\n   新增§Y恶作剧的乐趣§! 效果持续§Y12§!个月，并有以下效用§G+5%§! 幸福度 "
+ 
+ mem_boldly_going:0 "勇于前进"
+ mem_malicious_joy:0 "恶作剧的乐趣"

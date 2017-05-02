@@ -1,0 +1,90 @@
+﻿l_english:
+
+####################################
+# AURAS / COMPONENTS / SPECIAL SLOTS
+####################################
+
+
+ SHIP_AURA_SHIELDS: "护盾充能场"
+ SHIP_AURA_FIRING: "船队综合网络"
+ SHIP_AURA_DAMAGE: "增强火力场"
+
+ SHIP_SENSOR_5: "EWAR传感器阵列"
+ STATION_SENSOR_5: "EWAR传感器阵列"
+ SHIP_SENSOR_EMPTY: "空槽"
+
+ SC_DEFENSE_AURA: "自动防御系统"
+ STATION_REPAIR_AURA: "自动船只维修系统"
+
+ NSC_AURA_EMPTY: "空槽"
+ SC_DEFENSE_AURA_EMPTY: "空槽"
+ SPECIAL_SLOT_EMPTY: "空槽"
+ special_ship_slot: "特殊组件"
+ special_ship_slot_desc: "特殊组件槽。"
+
+ SPECIAL_SLOT_MULTIPHASIC_SENSORS: "多相传感器"
+ SPECIAL_SLOT_MULTIPHASIC_SENSORS_DESC: "使用多相技术增加传感器范围。"
+ SPECIAL_SLOT_DAMAGE_CONTROL: "快速维修小队"
+ SPECIAL_SLOT_DAMAGE_CONTROL_DESC: "训练有素的快速船舶修理队。"
+ SPECIAL_SLOT_READY_ROOM: "舰长室"
+ SPECIAL_SLOT_READY_ROOM_DESC: "舰长的卧室。"
+ SPECIAL_SLOT_CREW_LOUNGE: "船员休息室"
+ SPECIAL_SLOT_CREW_LOUNGE_DESC: "平常时刻船员也需要得到充分休息。"
+ SPECIAL_SLOT_FIRE_CONTROL: "火控系统"
+ SPECIAL_SLOT_FIRE_CONTROL_DESC: "一种先进的瞄准系统以便提高武器的速度和精度。"
+ SPECIAL_SLOT_STRUCTURAL_INTEGRITY: "结构完整力场"
+ SPECIAL_SLOT_STRUCTURAL_INTEGRITY_DESC: "一种先进的立场以便加强船体结构。"
+ SPECIAL_SLOT_AUXILIARY_SHIELDS: "辅助护盾系统"
+ SPECIAL_SLOT_AUXILIARY_SHIELDS_DESC: "紧急护盾发生器以便主护盾破损时候产生护盾保护。"
+ SPECIAL_SLOT_QUANTUM_THRUSTERS: "量子推进器"
+ SPECIAL_SLOT_QUANTUM_THRUSTERS_DESC: "增加速度和机动性的船只推进器的高级设置。"
+ SPECIAL_SLOT_DEFLECTOR_ARRAY: "偏转阵列"
+ SPECIAL_SLOT_DEFLECTOR_ARRAY_DESC: "偏转立场能够为船只提供额外的保护。"
+
+ KITCHEN_SINK: "厨房水槽"
+ KITCHEN_SINK_DESC: "干净环境能使船员开心。"
+ STELLAR_CARTOGRAPHY: "恒星绘图"
+ STELLAR_CARTOGRAPHY_DESC: "能显示周围空间的地图系统。"
+ NAVIGATIONAL_ARRAY: "导航装置"
+ NAVIGATIONAL_ARRAY_DESC: "一种先进的三维导航系统。"
+
+ SPECIAL_SLOT_KITCHEN_SINK: "厨房水槽"
+ SPECIAL_SLOT_KITCHEN_SINK_DESC: "干净环境能使船员开心。"
+ SPECIAL_SLOT_STELLAR_CARTOGRAPHY: "恒星绘图"
+ SPECIAL_SLOT_STELLAR_CARTOGRAPHY_DESC: "能显示周围空间的地图系统。"
+ SPECIAL_SLOT_NAVIGATIONAL_ARRAY: "导航装置"
+ SPECIAL_SLOT_NAVIGATIONAL_ARRAY_DESC: "一种先进的三维导航系统。"
+
+ EWAR_sensor_components: "EWAR(预警侦察)传感器阵列"
+ EWAR_sensor_components_desc: "一个非常强大的传感器阵列，能在很远的距离发现敌人。"
+
+ STRIKE_CRUISER_AURA_EMPTY: "空槽"
+ STRIKE_CRUISER_AURA_SUBSPACE_SNARE: "亚空间陷阱"
+
+# Slot Name
+ nsc_hq_auras: "指挥所的太空机械臂"
+# Component name
+ NSC_HQ_AURA: "指挥所的太空机械臂"
+# Tooltip description
+ nsc_hq_aura_everything: "联合光环"
+
+
+####################################
+#MISCELLANEOUS
+####################################
+
+
+ UNDERSTOOD: "了解。"
+
+ sm_customs_office: "海关"
+ sm_customs_office_desc: "\n\n海关能更好管理帝国边境出入口情况，但同时它也会减缓人口转移速度和具有很高的保养费。\n\n"
+
+ shipclass_orbital_station_hit_points_mult: "星港集合点"
+ shipsize_military_station_xlarge_upkeep_mult: "战斗要塞保养费"
+
+ shipsize_MiningBase_upkeep_mult: "采矿基地保养费"
+ shipsize_PowerStation_upkeep_mult: "能源基地保养费"
+
+ budget_group_country_modifier: "采矿基地保养费"
+ miningbase_bonus_planet: "采矿基地加成"
+ powerstation_bonus_planet: "能源基地加成"

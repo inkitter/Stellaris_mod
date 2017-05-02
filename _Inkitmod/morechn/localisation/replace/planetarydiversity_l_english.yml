@@ -1,0 +1,182 @@
+﻿l_english:
+
+####################################
+# Extra Planet Classes
+####################################
+ pc_methane:0 "甲烷星球"
+ pc_methane_desc:0 "含甲烷氮氧的岩石世界。这个星球到处充满着不同形态之间的甲烷，不过在负100摄氏度的甲烷水圈下表现十分稳定。"
+ pc_ammonia:0 "氨星球"
+ pc_ammonia_desc:0 "充满氮氧氨的大气的岩石世界。这个星球到处充满着不同形态之间的氨气，不过在负100摄氏度的氨水圈下表现十分稳定。"
+
+ pc_cascadian:0 "海岸线星球"
+ pc_cascadian_desc:0 "由寒冷的山脉森林组成的具有氮氧大气的亚温带山地世界。这里气候变化明显，夏季维持短，而且时常有暴风雨来袭。。"
+ pc_swamp:0 "沼泽星球"
+ pc_swamp_desc:0 "寒冷的泥泞世界，有着厚厚大气保护。季节变化慢，降雨量大。大部分岛屿被茂密的植被所覆盖。"
+ pc_oasis:0 "绿洲星球"
+ pc_oasis_desc:0 "有着氮氧大气的岩石世界。只有靠近水源地区才被植物所覆盖。雨水几乎无法抵达该星球绝大部分内陆的沙漠地区。"
+ pc_steppe:0 "大草原星球"
+ pc_steppe_desc:0 "有着氮氧大气的干燥的岩石世界。山地地形使得这里只生长着分散的灌木和草地。除开冰冻山顶，其他地区只有少量降雨。"
+ pc_frozen_desert:0 "冰冻沙漠星球"
+ pc_frozen_desert_desc:0 "有着氮氧大气的寒冷的岩石世界。由于降水少，所以地表水几乎寻不到踪迹。"
+ pc_mesa:0 "峡谷盆地星球"
+ pc_mesa_desc:0 "炎热干燥的高原台地的赤道地带和极冷的森林。这里水源主要来自大型河流和在峡谷被植被覆盖的河床。"
+ pc_hadesert:0 "高海拔沙漠星球"
+ pc_hadesert_desc:0 "寒冷干燥的星球有着极高的山峰使得星球绝大部分都处于阴暗之中。绝大部分土地是盐沼和山谷。水源只有高山温泉和湖泊。"
+ pc_geothermal:0 "地热极地星球"
+ pc_geothermal_desc:0 "寒冷的星球有着不断冒着热气的裂缝地带。水源来自被融化的冰和热气带来的蒸汽。"
+ pc_desertislands:0 "荒岛星球"
+ pc_desertislands_desc:0 "极端炎热的赤道温度和较冷的热带极地的海洋行星。赤道的温度在一年中大部分时间都不适合降水，但是极地地区却有相当大的降水量。"
+ pc_sandsea:0 "沙海星球"
+ pc_sandsea_desc:0 "有着氮氧大气的炎热干燥的岩石世界。星球表面大多数覆盖着沙海。已知的水有地下的含水层，绿洲和山间的泉水。"
+ pc_mangrove:0 "红树林星球"
+ pc_mangrove_desc:0 "有着的氮氧大气的潮湿的世界。行星表面被大部分浅海覆盖，陆地部分很少。丛林能蔓延数百英里，占据了现有几个岛屿的海岸。这里水圈稳定能支撑得起丰富物种。"
+ pc_glacial:0 "冰河星球"
+ pc_glacial_desc:0 "有着的氮氧大气的极度寒冷的世界。水以冰的形式覆盖在星球表面，仅在夏季时候稍微融化成水。丰富地热活动使得在厚厚冰层之下出现了海洋生命。"
+ pc_subarctic:0 "亚极地海洋星球"
+ pc_subarctic_desc:0 "有着的氮氧大气的寒冷的岩石世界。海洋和冰川占据着星球的§Y90%§!的面积，岛屿如同星罗棋布般分散着。这里有着活跃的火山地热运动，使得海洋生命得以生存。"
+ pc_hajungle:0 "高海拔丛林星球"
+ pc_hajungle_desc:0 "有着的氮氧大气的高山岩石世界。低海拔的海洋是造成这里时常乌云密布的原因。在高海拔的地方，水是十分稀少的，大多数在此的植物是靠着云雾存活着。"
+ pc_antarctic:0 "南极星球"
+ pc_antarctic_desc:0 "有着的氮氧大气的寒冷的岩石世界。这里水常以雪的形式出现。在冬季，这里风俗可以达到每小时250公里的速度，只有在浮冰，洞穴或者挡风的山谷之中，才能寻得生命迹象。"
+
+####################################
+# Terrain Tiles
+####################################
+ pc_methane_tile:0 "甲烷地形"
+ pc_methane_tile_desc:0 "岩石，冰冷以及甲烷海。"
+ pc_ammonia_tile:0 "氨地形"
+ pc_ammonia_tile_desc:0 "茂密的森林与氨海。"
+
+ pc_proto_planet_tile:0 "贫瘠地形"
+ pc_proto_planet_tile_desc:0 "不适合居住。"
+
+ pc_cascadian_tile:0 "海岸线地形"
+ pc_cascadian_tile_desc:0 "茂密的北方森林与漫长崎岖的海岸线。"
+ pc_swamp_tile:0 "沼泽地形"
+ pc_swamp_tile_desc:0 "寒冷气候造就了这里的泥泞潮湿的地形。"
+ pc_steppe_tile:0 "大草原地形"
+ pc_steppe_tile_desc:0 "高原地区有着一些灌木丛和草原，寒冷的气候使得这里生长季节较短。"
+ pc_frozen_desert_tile:0 "冰冻沙漠地形"
+ pc_frozen_desert_tile_desc:0 "冰冻干燥的沙丘有着稀疏的植被。"
+ pc_oasis_tile:0 "绿洲地形"
+ pc_oasis_tile_desc:0 "干旱的沙漠地带，只有靠近水源的地带才有一片可生活的绿洲。"
+ pc_mesa_tile:0 "峡谷盆地地形"
+ pc_mesa_tile_desc:0 "炎热干燥的平顶山，高原以及郁郁葱葱的河床。"
+ pc_hadesert_tile:0 "高海拔沙漠地形"
+ pc_hadesert_tile_desc:0 "寒冷的高山，只有盐碱地和干旱的峡谷。"
+ pc_geothermal_tile:0 "地热极地地形"
+ pc_geothermal_tile_desc:0 "寒冷的极地由于地热原因形成一个一个的温暖地带。"
+ pc_desertislands_tile:0 "荒岛地形"
+ pc_desertislands_tile_desc:0 "干旱炎热的岛屿有着稀疏的植被。"
+ pc_sandsea_tile:0 "沙海地形"
+ pc_sandsea_tile_desc:0 "干热的沙丘。"
+ pc_mangrove_tile:0 "红树林地形"
+ pc_mangrove_tile_desc:0 "浅海和茂密的丛林。"
+ pc_glacial_tile:0 "冰河地形"
+ pc_glacial_tile_desc:0 "冰川山地。"
+ pc_subarctic_tile:0 "亚极地海洋地形"
+ pc_subarctic_tile_desc:0 "寒冷的海洋，冰山和苔藓覆盖的岛屿。"
+ pc_hajungle_tile:0 "高海拔丛林地形"
+ pc_hajungle_tile_desc:0 "迷雾版丛林高耸在山峰之上。"
+ pc_antarctic_tile:0 "南极地形"
+ pc_antarctic_tile_desc:0 "冰冷的高原和冰冻的湖泊"
+
+####################################
+# Habitability Traits
+####################################
+
+ trait_pc_cascadian_preference:0 "海岸线喜好"
+ trait_pc_cascadian_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_steppe_preference:0 "大草原喜好"
+ trait_pc_steppe_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_oasis_preference:0 "绿洲喜好"
+ trait_pc_oasis_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_frozen_desert_preference:0 "冰冻沙漠喜好"
+ trait_pc_frozen_desert_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_swamp_preference:0 "沼泽喜好"
+ trait_pc_swamp_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_mesa_preference:0 "峡谷盆地喜好"
+ trait_pc_mesa_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_hadesert_preference:0 "高海拔沙漠喜好"
+ trait_pc_hadesert_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_geothermal_preference:0 "地热极地喜好"
+ trait_pc_geothermal_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_desertislands_preference:0 "荒岛喜好"
+ trait_pc_desertislands_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_methane_preference:0 "甲烷喜好"
+ trait_pc_methane_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_ammonia_preference:0 "氨喜好"
+ trait_pc_ammonia_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_sandsea_preference:0 "沙海喜好"
+ trait_pc_sandsea_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_mangrove_preference:0 "红树林喜好"
+ trait_pc_mangrove_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_glacial_preference:0 "冰河喜好"
+ trait_pc_glacial_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_subarctic_preference:0 "亚极地海洋喜好"
+ trait_pc_subarctic_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_hajungle_preference:0 "高海拔丛林喜好"
+ trait_pc_hajungle_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ trait_pc_antarctic_preference:0 "南极喜好"
+ trait_pc_antarctic_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+
+####################################
+# Pop Modifiers
+####################################
+
+ pc_frozen_desert_habitability:1 "冰冻沙漠宜居性"
+ pc_oasis_habitability:1 "绿洲宜居性"
+ pc_cascadian_habitability:1 "海岸线宜居性"
+ pc_swamp_habitability:1 "沼泽宜居性"
+ pc_steppe_habitability:1 "大草原宜居性"
+ pc_mesa_habitability:1 "峡谷盆地宜居性"
+ pc_hadesert_habitability:1 "高海拔沙漠宜居性"
+ pc_geothermal_habitability:1 "地热极地宜居性"
+ pc_desertislands_habitability:1 "荒岛宜居性"
+ pc_methane_habitability:1 "甲烷宜居性"
+ pc_ammonia_habitability:1 "氨宜居性"
+ pc_sandsea_habitability:1 "沙海宜居性"
+ pc_mangrove_habitability:1 "红树林宜居性"
+ pc_glacial_habitability:1 "冰河宜居性"
+ pc_subarctic_habitability:1 "亚极地海洋宜居性"
+ pc_hajungle_habitability:1 "高海拔丛林宜居性"
+ pc_antarctic_habitability:1 "南极宜居性"
+
+####################################
+# Climate
+####################################
+
+ climate_wetdry:0 "温暖"
+ climate_drycold:0 "干燥"
+ climate_coldwet:0 "寒冷"
+ climate_coldwet:0 "极端"
+ wetdry:0 "§H(干湿气候)§!"
+ drycold:0 "§L(寒冷干燥气候)§!"
+ coldwet:0 "§B(寒冷潮湿气候)§!"
+ coldwet:0 "§R(极端气候)§!"
+
+
+####################################
+# Start Screen Parts
+####################################
+
+
+ START_SCREEN_PART_ONE_DESERTISLANDS:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在满是热群岛和泻湖的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_STEPPE:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在大草原的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_FROZENDESERT:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在冰冷沙海的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_MESA:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在郁郁葱葱的峡谷盆地的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_OASIS:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在如海一样茂密的森林的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_GEOTHERMAL:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在地热谷和冰洞穴的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_SWAMP:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在大沼泽地的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_CASCADIAN:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在崎岖的海岸线的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_HADESERT:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在崎岖的山谷的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_METHANE:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在崎岖的山谷的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_AMMONIA:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在森林和氨海的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_SANDSEA:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在岩石边缘就是无尽的沙海的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_MANGROVE:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在在浅滩边缘的茂密丛林的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_GLACIAL:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在冰川山地的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_SUBARCTIC:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在崎岖的岛屿的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_HAJUNGLE:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在雾山丛林的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+ START_SCREEN_PART_ONE_ANTARCTIC:0 "在亿万年以来的第一个原始的[GetSpeciesName]聚集在冰冷干燥的平原的[GetHomeWorldName]后，我们的文明从此时此刻开始逐步走向繁荣昌盛的时代。"
+
+

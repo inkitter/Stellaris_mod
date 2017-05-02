@@ -1,0 +1,77 @@
+﻿l_english:
+#l_spanish:
+#l_french:
+#l_german:
+#l_braz_por:
+#l_polish:
+#l_russian:
+
+ shipsize_folk_invisible_station_upkeep_mult: "维护费"
+ folk_invisible_station_upkeep_mult: "维护费"
+
+ building_sdahq: "太空防御局"
+ building_sdahq_desc: "指挥所允许太空防御局部署亚空间的自动无人机用于拦截敌人的进攻和扩展。它们只会瞄准任何没得到许可的舰队企图进入有殖民地的星系。"
+
+ building_sdaoffice: "太空防御局办公厅"
+ building_sdaoffice_desc: "太空防御局允许建立分部办公厅，用于提高当地军队的实力和数量便于提高行星防御力量。\n\n§G建造更多这个有助于提高帝国的太空防御局的进攻能力。§!"
+
+ folksda_aura_station: "立场调解阵列"
+ folksda_aura_station_plural: "立场调解阵列"
+
+ folk_invisible_station: "太空防御局"
+ folk_invisible_station_plural: "太空防御局"
+# Global ship design name
+ folk_invisible_hangar: "虫洞"
+
+ sm_folksda_hangar_module: "军用机库"
+ sm_folksda_hangar_module_desc: "允许太空防御局进行安装部署操作一个中队的轰炸机群和战斗机群用以保卫安全。"
+
+ sm_folksda_snare_module: "亚空间抑制剂"
+ sm_folksda_snare_module_desc: "太空防御局通过安装部署亚空间抑制器可有效抵挡任何具有敌对行为的战舰的FTL的运作效能并为任何有许可的战舰提供FTL帮助。"
+
+ sm_folksda_regen_module: "亚空间调节器(自己)"
+ sm_folksda_regen_module_desc: "太空防御局通过安装部署亚空间调节器来协助友方完成本地星域的工作。由于星港可用能量有限，范围与导弹范围大致相同。"
+
+ sm_folksda_debuff_module: "亚空间调节器(敌人)"
+ sm_folksda_debuff_module_desc: "太空防御局通过安装部署亚空间调节器来破坏敌方在本地星域的工作。由于星港可用能量有限，范围与导弹范围大致相同。"
+
+ sm_folksda_platform_module: "太空防御局"
+ sm_folksda_platform_module_desc: "为当地安装一个永久型的太空防御局办公厅。"
+
+# The stuff below here doesn't need translation really, it's just for debugging.
+# Never shown ingame.
+
+ SPACE_DEFENSE_AGENCY_REGENAURA: "有益立场"
+ SPACE_DEFENSE_AGENCY_REGENAURA_DESC: "有益立场组合。"
+
+ SPACE_DEFENSE_AGENCY_SNARE_AURA: "轨道陷阱光环"
+ SPACE_DEFENSE_AGENCY_SNARE_AURA_DESC: "星港陷阱光环"
+
+ SPACE_DEFENSE_AGENCY_DEBUFFAURA: "对敌立场"
+ SPACE_DEFENSE_AGENCY_DEBUFFAURA_DESC: "对敌立场组合。"
+ SDASET_SPACEPORT_AURAS: "星港组件扩展"
+ SDASET_SPACEPORT_AURAS_DESC: "适合星港扩展的组件部分。"
+
+ DEFENSEAGENCY_HANGAR_SECTION: "机库"
+ SDASET_HANGAR: "机库组件设置"
+ SDASET_HANGAR_DESC: "适合机库的组件部分。"
+
+ DEFENSEAGENCY_PLATFORM_SECTION: "办公厅"
+
+ SDA_REACTOR1: "星港反应炉 1"
+ SDA_REACTOR2: "星港反应炉 2"
+ SDA_REACTOR3: "星港反应炉 3"
+ SDA_REACTOR4: "星港反应炉 4"
+
+ SDASET_SHIELD: "护盾组件设置"
+ SDASET_SHIELD_DESC: "适合护盾的组件部分。"
+ SDASHIELD1: "星港护盾"
+
+ SDASET_UTILITIES: "SDA 设置"
+ SDASET_UTILITIES_DESC: "SDA 设置在星港"
+
+ SPACEDEFENSE_BOMBERS_1: "SDA 轰炸机"
+ SPACEDEFENSE_FIGHTERS_1: "SDA 战斗机 1"
+ SPACEDEFENSE_FIGHTERS_2: "SDA 战斗机 2"
+ SPACEDEFENSE_FIGHTERS_3: "SDA 战斗机 3"
+ SPACEDEFENSE_STINGERS: "SDA 刺探者"

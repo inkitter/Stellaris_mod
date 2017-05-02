@@ -1,0 +1,67 @@
+﻿l_english:
+ 
+ mem_gaia_troubles.name:0 "新的盖亚世界"
+ mem_gaia_troubles.desc:0 "这个盖亚世界对于我们而言完美无缺。探索星球行动开始了。"
+ 
+ mem_gaia_troubles.2.name:0 "一个锤子？"
+ mem_gaia_troubles.2.desc:0 "在§Y[From.GetName]§!的地下洞穴里，科考队发现一个错综复杂似乎绵延数英里的隧道网络。在探索洞穴过程，我们似乎偶然发现一个非常大的空间。这个巨大的洞穴空间表现十分不正常，几乎呈圆形。而且在中心有一个小岩石与奇怪的物体，并且物体还发射微弱的EM信号，同时该物体外形如同传说中的中世纪的战斗锤！"
+ mem_gaia_troubles.2.a:0 "别碰它，这不关我们的事。"
+ mem_gaia_troubles.2.b:0 "移走神器并将其带到我们首都研究。"
+ mem_gaia_troubles.2.c:0 "作为展品向公众开放。"
+ mem_gaia_troubles.2.d:0 "我们应该在星球上研究它而不是移走它。"
+ mem_gaia_troubles.2.e:0 "你说有电磁信号？让我们看看它能否回应我们。"
+
+ mem_gaia_troubles.3.name:0 "原始神器"
+ mem_gaia_troubles.3.desc:0 "我们放弃神器的选择将意味着我们可能错过一次发现古老技术的机会。不过放弃并不是意味着失去所有，起码我们保护这颗星球不受冒险造成损失。"
+ mem_gaia_troubles.3.a:0 "至少没什么不好的！"
+
+ mem_gaia_troubles.4.name:0 "令人不安的变化"
+ mem_gaia_troubles.4.desc:0 "突然§Y[From.GetName]§!刮起了危险天气，一些科学家认为这是我们触碰了§Y[From.GetName]§!的神器的缘故。不过科学界也是这么认为的。"
+ mem_gaia_troubles.4.a:0 "这些蠢蛋怎么坐上这些位置的？"
+ mem_gaia_troubles.4.b:0 "归还它，世界没有后悔药可买。"
+
+ mem_gaia_troubles.5.name:0 "令人不安的变化"
+ mem_gaia_troubles.5.desc:0 "§Y[From.GetName]§!发生大规模的地壳运动，对于一个通常地质活动非常稳定的星球而言，这次地质活动让星球很多人相当关注。许多城市被地震破坏。然而，来自科学界的报告表明，越来越多的科学家支持这个观点：这些奇怪的事情全是我们移除神器造成的。"
+ mem_gaia_troubles.5.a:0 "这是愚昧的观点。"
+ mem_gaia_troubles.5.b:0 "我们必须停下。归还神器。"
+
+ mem_gaia_troubles.6.name:0 "令人不安的变化"
+ mem_gaia_troubles.6.desc:0 "§Y[From.GetName]§!发生不可思议的事情。星球重力大幅度增加。我们的首席科学家对这事是如何发生感到不解。"
+ mem_gaia_troubles.6.a:0 "工作必须继续！"
+ mem_gaia_troubles.6.b:0 "好的...是时候该归还神器。"
+
+ mem_gaia_troubles.7.name:0 "令人不安的变化"
+ mem_gaia_troubles.7.desc:0 "§Y[From.GetName]§!的全部生态系统已在我们眼前开始崩溃。森林不复存在，海洋干涸，沙漠遍布整个星球。目前有数以百万计的人还生活在这个世界，但不同的是他们知道这一切。科学界的大多数人敦促我们归还神器，以免星球变得越来越糟糕。但是我们从神器中获得收益比保护这颗星球多得多。"
+ mem_gaia_troubles.7.a:0 "继续，不计较成本！"
+ mem_gaia_troubles.7.b:0 "我们本可以阻止一切！"
+
+ mem_gaia_troubles.8.name:0 "令人不安的变化"
+ mem_gaia_troubles.8.desc:0 "不。那是不可能的事情。我们应该听从他们的..."
+ mem_gaia_troubles.8.a:0 "现在已经太迟了..."
+
+ mem_gaia_troubles.9.name:0 "令人不安的变化"
+ mem_gaia_troubles.9.desc:0 "§Y[From.GetName]§!曾是美丽的星球。如今到处充满着毒气，在那里生存已经是永远不可能的事情。"
+ mem_gaia_troubles.9.a:0 "也许我们这次太过愚蠢..."
+
+ mem_gaia_troubles.10.name:0 "送回神器"
+ mem_gaia_troubles.10.desc:0 "我们获悉的已经超出我们的范围，无论这个神器是什么，送它回去是科学界认为最好的决定。有些人仍想继续测试，他们渴望着获得这其中的奥秘，继续持有直到不得不的那天。"
+ mem_gaia_troubles.10.a:0 "至少没有什么不好的事情发生？"
+
+ mem_gaia_troubles.20.name:0 "EM测试"
+ mem_gaia_troubles.20.desc:0 "§Y[From.GetName]§!已经部署设备已准备测试，当开始时，你会收到通知。"
+
+ mem_gaia_troubles.21.name:0 "EM测试"
+ mem_gaia_troubles.21.desc:0 "在最后一轮的测试中透露一些关于神器的更多小事情，但不足得出任何可靠的结论。我们要进一步提高EM的强度测试吗？"
+ mem_gaia_troubles.21.a:0 "提高强度，再试一次。"
+ mem_gaia_troubles.21.b:0 "试着降低点强度。"
+
+ mem_gaia_troubles.22.name:0 "EM测试"
+ mem_gaia_troubles.22.desc:0 "在最后一轮的测试中透露一些关于神器的更多小事情，但不足得出任何可靠的结论。我们要进一步提高EM的强度测试吗？"
+ mem_gaia_troubles.22.a:0 "提高强度，再试一次。"
+ mem_gaia_troubles.22.b:0 "试着降低点强度。"
+
+ mem_gaia_troubles.23.name:0 "EM测试"
+ mem_gaia_troubles.23.desc:0 "EM测试并没有给我们带来任何有用的信息。我们现在唯一知道的是不要对我们所不了解的事情做出如此草率的结论。"
+
+ mem_gaia_troubles.24.name:0 "EM测试"
+ mem_gaia_troubles.24.desc:0 "我们似乎"激活"神器。但我们不清楚我们做了些什么。在将EM调整至特定频率之后，一些无人机从隐藏在洞穴里的吊舱中飞了出来，并开始向大气层上方飞去！我们的卫星显示他们的武器正在充能。我们也许该准备保卫自己。"

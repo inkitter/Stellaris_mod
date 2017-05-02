@@ -1,0 +1,13 @@
+﻿l_english:
+  pc_barren_tile: "荒芜地形"
+  pc_barren_tile_desc: "没有空气供应的死寂地形"
+  pc_toxic_tile: "剧毒地形"
+  pc_toxic_tile_desc: "死寂地形被隐藏在厚厚的剧毒的大气之下。"
+  pc_barren_cold_tile: "荒芜地形"
+  pc_barren_cold_tile_desc: "没有空气供应的死寂地形"
+  pc_frozen_tile: "冰封地形"
+  pc_frozen_tile_desc: "土地被掩埋在厚厚的冰层之下，几乎没有任何大气层。"
+  pc_molten_tile: "熔岩地形"
+  pc_molten_tile_desc: "半融化的熔岩地形，天空有着非常稀薄的大气层。"
+  pc_gas_giant_tile:0 "气态巨星大气层"
+  pc_gas_giant_tile_desc:0 "混合气体。想在这里生存不可能出现。"

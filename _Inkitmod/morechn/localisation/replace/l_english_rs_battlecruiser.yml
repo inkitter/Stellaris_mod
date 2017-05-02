@@ -1,0 +1,25 @@
+﻿l_english:
+ ####################################
+ # Hull Sizes
+ ####################################
+ RS_BATTLECRUISER:0 "战列巡洋舰"
+ rs_battlecruiser:0 "战列巡洋舰"
+ rs_battlecruiser_plural:0 "战列巡洋舰"
+ ####################################
+ # section slots
+ ####################################
+ bow:0 "舰首"
+ mid1:0 "舰中头"
+ mid2:0 "舰中尾"
+ stern:0 "舰尾"
+ ####################################
+ # Technology View
+ ####################################
+ TECH_UNLOCK_RS_BATTLECRUISER_TITLE:0 "§H解锁战舰类型:§! 战列巡洋舰"
+ TECH_UNLOCK_RS_BATTLECRUISER_DESC:0 "§H战列巡洋舰§!\n施工方法改进使得战列巡洋舰的诞生，最大的主力舰类型，战列舰的替代品，而且是目前舰队核心主力的战列巡洋舰。"
+ ####################################
+ # Dynamic Modifiers
+ ####################################
+ shipsize_rs_battlecruiser_construction_speed_mult:0 "战列巡洋舰建造速度"
+ shipsize_rs_battlecruiser_build_cost_mult:0 "战列巡洋舰建造成本"
+ 

@@ -1,0 +1,146 @@
+﻿l_english:
+ edict_delta_country_edict_station_mine:0 "Delta / 太空矿工"
+ edict_delta_country_edict_station_mine_desc:0 "自动建造采矿站。没有优惠。"
+ 
+ edict_delta_country_edict_station_research:0 "Delta / 太空科学家"
+ edict_delta_country_edict_station_research_desc:0 "自动建造研究站。没有优惠。"
+
+ edict_delta_country_edict_upgr:0 "Delta / 城市指导"
+ edict_delta_country_edict_upgr_desc:0 "自动升级或重建直属星的建筑。"
+
+ edict_delta_country_edict_build:0 "Delta / 开发指导"
+ edict_delta_country_edict_build_desc:0 "自动建造直属星的建筑：实验室，农场，发电站，电力中心，矿场，矿物加工厂。它虽然不是完美，但是是一个基本的。"
+ 
+ edict_delta_country_edict_fc:0 "Delta / 农业指导"
+ edict_delta_country_edict_fc_desc:0 "有一定的科技水平后，将会自动在大星球建造三个农场，中星球两个，小星球一个。只限直属星。"
+ 
+ edict_delta_country_edict_blocker:0 "Delta / 拆迁办"
+ edict_delta_country_edict_blocker_desc:0 "自动删除直属星的障碍。不考虑折扣。"
+ 
+ edict_delta_planet_edict_leave:0 "Delta / 抛弃这个星球"
+ edict_delta_planet_edict_leave_desc:0 "因为无政府状态和屠杀，人民被迫流离失所。"
+ 
+ delta_tech_eng_defenseStationEnhance:0 "Delta / 增强防御"
+ delta_tech_eng_defenseStationEnhance_desc:0 "提高空间站耐久度。"
+ 
+ delta_static_modifier_planet_trade_1:0 "国际贸易外围"
+ delta_static_modifier_planet_trade_1_desc:0 "国际商业团体"
+ 
+ delta_static_modifier_planet_trade_2:0 "国际贸易市场"
+ delta_static_modifier_planet_trade_2_desc:0 "国际商业团体"
+ 
+ delta_static_modifier_planet_trade_3:0 "国际贸易中心"
+ delta_static_modifier_planet_trade_3_desc:0 "国际商业团体"
+ 
+ delta_static_modifier_planet_trade_4:0 "国际贸易部"
+ delta_static_modifier_planet_trade_4_desc:0 "国际商业团体"
+ 
+ delta_static_modifier_pop_massacre:0 "大屠杀"
+ 
+ delta_static_modifier_overpopulation:0 "人口过剩"
+ delta_static_modifier_overpopulation_desc:0 "星球上人口过剩，使生育困难。"
+ 
+ policy_delta_policy_trade:0 "Delta / 国际贸易"
+ policy_delta_policy_trade_desc:0 "调整国际贸易帝国境内。"
+ 
+ delta_opinion_modifier_massacre:0 "大屠杀"
+ 
+ delta_policy_trade_disabled:0 "禁止"
+ delta_policy_trade_disabled_name:0 "禁止"
+ delta_policy_trade_disabled_desc:0 "国际商业被我国严厉禁止。"
+ delta_policy_trade_allowed:0 "允许"
+ delta_policy_trade_allowed_name:0 "允许"
+ delta_policy_trade_allowed_desc:0 "国际商业被我国大力推广。"
+ 
+ war_demand_delta_war_demand_type_trade_disabled_header:0 "§HDelta / 禁止国际贸易§!"
+ war_demand_delta_war_demand_type_trade_disabled_subtext:0 "[parameter:country.GetName]"
+ war_demand_delta_war_demand_type_trade_disabled_tooltip_header:0 "$war_demand_delta_war_demand_type_trade_disabled_header$"
+ war_demand_delta_war_demand_type_trade_disabled_tooltip_content:0 "所有国际业务代表都被迫离开该国。"
+ war_demand_delta_war_demand_type_trade_disabled_tooltip_proper_header:0 "$war_demand_delta_war_demand_type_trade_disabled_header$"
+ war_demand_delta_war_demand_type_trade_disabled_tooltip_proper_content:0 "$war_demand_delta_war_demand_type_trade_disabled_tooltip_content$"
+ 
+ delta_war_demand_type_trade_disabled:0 "Delta / 禁止国际贸易"
+ delta_war_demand_type_trade_disabled_desc:0 "Delta / 禁止国际贸易"
+
+ delta_map_mode_ftl:0 "Delta / FTL技术"
+ delta_map_mode_ftl_desc:0 "帝国边境颜色变化根据他们的§HFTL技术§!。"
+ delta_map_mode_ftl_hyper:0 "§H[This.GetName]§!使用超空间"
+ delta_map_mode_ftl_wormhole:0 "§H[This.GetName]§!使用虫洞"
+ delta_map_mode_ftl_warp:0 "§H[This.GetName]§!使用曲速"
+ delta_map_mode_ftl_jump:0 "§H[This.GetName]§!使用跃迁"
+ delta_map_mode_ftl_psi:0 "§H[This.GetName]§!使用PSI"
+ delta_map_mode_ftl_no:0 "§H[This.GetName]§!没有FTL技术"
+ 
+ delta_map_mode_wp:0 "Delta / 战争与和平"
+ delta_map_mode_wp_desc:0 "帝国边境颜色变化根据他们的战争与和平。"
+ delta_map_mode_wp_war:0 "§H[This.GetName]§!处于战争"
+ delta_map_mode_wp_war_fallen:0 "§H[This.GetName]§!与失落帝国开战"
+ delta_map_mode_wp_war_leader:0 "§H[This.GetName]§!与宗主国开战"
+ delta_map_mode_wp_war_federation:0 "§H[This.GetName]§!与联邦成员开战"
+ delta_map_mode_wp_war_federation_leader:0 "§H[This.GetName]§!与联邦领导国开战"
+ delta_map_mode_wp_peace:0 "§H[This.GetName]§!处于和平"
+ delta_map_mode_wp_peace_fallen:0 "§H[This.GetName]§!与失落帝国同盟"
+ delta_map_mode_wp_peace_federation:0 "§H[This.GetName]§!与联邦成员同盟"
+ delta_map_mode_wp_peace_federation_leader:0 "§H[This.GetName]§!与联邦领导国同盟"
+ 
+ delta_map_mode_fleet:0 "Delta / 舰队规模"
+ delta_map_mode_fleet_desc:0 "帝国边境颜色变化根据他们的舰队规模。"
+ delta_map_mode_fleet_0:0 "§H[This.GetName]§! 1000-"
+ delta_map_mode_fleet_1000:0 "§H[This.GetName]§! 1000 - 2,500"
+ delta_map_mode_fleet_2500:0 "§H[This.GetName]§! 2,500 - 5,000"
+ delta_map_mode_fleet_5000:0 "§H[This.GetName]§! 5,000 - 10,000"
+ delta_map_mode_fleet_10000:0 "§H[This.GetName]§! 10,000 - 25,000"
+ delta_map_mode_fleet_25000:0 "§H[This.GetName]§! 25,000 - 50,000"
+ delta_map_mode_fleet_50000:0 "§H[This.GetName]§! 50,000 - 100,000"
+ delta_map_mode_fleet_100000:0 "§H[This.GetName]§! 100,000 - 200,000"
+ delta_map_mode_fleet_200000:0 "§H[This.GetName]§! 200,000 - 300,000"
+ delta_map_mode_fleet_300000:0 "§H[This.GetName]§! 300,000 - 400,000"
+ delta_map_mode_fleet_400000:0 "§H[This.GetName]§! 400,000 - 500,000"
+ delta_map_mode_fleet_500000:0 "§H[This.GetName]§! 500,000+"
+ 
+ delta_map_mode_pers:0 "Delta / 帝国的个性"
+ delta_map_mode_pers_desc:0 "帝国边境颜色变化根据他们的个性。"
+ delta_map_mode_pers_aggressive:0 "§H[This.GetName]§!是§Y侵略§!"
+ delta_map_mode_pers_aggressive_isolationist:0 "§H[This.GetName]§!是§Y侵略孤立§!"
+ delta_map_mode_pers_aggressive_cooperator:0 "§H[This.GetName]§!是§Y侵略合作§!"
+ delta_map_mode_pers_aggressive_crisis:0 "§H[This.GetName]§!是§Y凶险§!"
+ delta_map_mode_pers_peaceful:0 "§H[This.GetName]§!是§Y和平§!"
+ delta_map_mode_pers_peaceful_isolationist:0 "§H[This.GetName]§!是§Y和平孤立§!"
+ delta_map_mode_pers_peaceful_liberator:0 "§H[This.GetName]§!是§Y和平解放§!"
+ delta_map_mode_pers_decadent:0 "§H[This.GetName]§!是§Y保守孤立§!"
+ delta_map_mode_pers_no:0 "§H[This.GetName]§!是偶尔会有个性"
+ 
+ delta_map_mode_science:0 "Delta / 科技发展度"
+ delta_map_mode_science_desc:0 "帝国边境颜色变化根据他们的科技发展度。"
+ delta_map_mode_science_more_4:0 "§H[This.GetName]§!的技术压倒性领先§H[From.GetName]§!。"
+ delta_map_mode_science_more_3:0 "§H[This.GetName]§!的技术十分领先§H[From.GetName]§!。"
+ delta_map_mode_science_more_2:0 "§H[This.GetName]§!的技术领先§H[From.GetName]§!。"
+ delta_map_mode_science_more_1:0 "§H[This.GetName]§!的技术稍微领先§H[From.GetName]§!。"
+ delta_map_mode_science_equal:0 "§H[This.GetName]§!和§H[From.GetName]§!不相上下。"
+ delta_map_mode_science_less_1:0 "§H[This.GetName]§!的技术少许落后§H[From.GetName]§!。"
+ delta_map_mode_science_less_2:0 "§H[This.GetName]§!的科技大幅度落后§H[From.GetName]§!。"
+ 
+ delta_map_mode_economy:0 "Delta / 经济"
+ delta_map_mode_economy_desc:0 "帝国边境颜色变化根据他们的经济规模。"
+ delta_map_mode_economy_0:0 "§H[This.GetName]§! 100-"
+ delta_map_mode_economy_100:0 "§H[This.GetName]§! 100 - 250"
+ delta_map_mode_economy_250:0 "§H[This.GetName]§! 250 - 500"
+ delta_map_mode_economy_500:0 "§H[This.GetName]§! 500 - 750"
+ delta_map_mode_economy_750:0 "§H[This.GetName]§! 750 - 1,000"
+ delta_map_mode_economy_1000:0 "§H[This.GetName]§! 1,000 - 1,500"
+ delta_map_mode_economy_1500:0 "§H[This.GetName]§! 1,500 - 2,000"
+ delta_map_mode_economy_2000:0 "§H[This.GetName]§! 2,000 - 4,000"
+ delta_map_mode_economy_4000:0 "§H[This.GetName]§! 4,000 - 6,000"
+ delta_map_mode_economy_6000:0 "§H[This.GetName]§! 6,000 - 10,000"
+ delta_map_mode_economy_10000:0 "§H[This.GetName]§! 10,000 - 12,500"
+ delta_map_mode_economy_12500:0 "§H[This.GetName]§! 12,500 - 15,000"
+ delta_map_mode_economy_15000:0 "§H[This.GetName]§! 15,000+"
+ 
+ ###### VANILLA
+
+# war_demand_humiliate_header:1 "§HDelta / Humiliate And Embargo§!"
+# war_demand_humiliate_subtext:0 "[parameter:country.GetName]"
+# war_demand_humiliate_tooltip_header:0 "$war_demand_humiliate_header$"
+# war_demand_humiliate_tooltip_content:2 "[parameter:country.GetName] will be humiliated, reducing their Influence gain and Happiness for §Y10§! years. International trade with them will be prohibited. We will also gain §G100§! £influence ."
+# war_demand_humiliate_tooltip_proper_header:0 "$war_demand_humiliate_header$"
+# war_demand_humiliate_tooltip_proper_content:1 "$war_demand_humiliate_tooltip_content$"

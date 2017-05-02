@@ -1,0 +1,71 @@
+﻿l_english:
+
+# Technology - Non-Repeatable
+
+# Anti-Crisis
+
+ tech_cofh_se_anti_ai_empire:0 "机器意识的对策"
+ tech_cofh_se_anti_ai_empire_desc:0 "机器意识的分析为我们提供了面对他们的应对之法。"
+
+ tech_cofh_se_anti_exd:0 "虚空恶魔的对策"
+ tech_cofh_se_anti_exd_desc:0 "虚空恶魔的分析为我们提供了面对他们的应对之法。"
+
+ tech_cofh_se_anti_swarm:0 "虫群天灾的对策"
+ tech_cofh_se_anti_swarm_desc:0 "虫群天灾的分析为我们提供了面对他们的应对之法。"
+
+ tech_cofh_se_anti_fallen_empire:0 "失落帝国的对策"
+ tech_cofh_se_anti_fallen_empire_desc:0 "失落帝国的分析为我们提供了面对他们的应对之法。"
+
+# Engineering
+
+ tech_cofh_se_orbital_mineral_processing:0 "轨道矿物加工"
+ tech_cofh_se_orbital_mineral_processing_desc:0 "轨道矿物处理设施可以增加矿物产量。"
+
+ tech_cofh_se_protocol_droids:0 "外交机器人"
+ tech_cofh_se_protocol_droids_desc:0 "流利的沟通才是良好的外交第一步。"
+
+# Physics
+
+ tech_cofh_se_deep_scan:0 "深度扫描算法"
+ tech_cofh_se_deep_scan_desc:0 "大数据分析能使我们更了解更详细的内容。"
+
+ tech_cofh_se_fast_scan:0 "多期扫描"
+ tech_cofh_se_fast_scan_desc:0 "改良传感器的性能和数据分析方式使得科学扫描能够更快的进行。"
+
+# Society
+
+# Ethos Buildings
+
+ tech_cofh_se_central_intelligence:0 "中央情报"
+ tech_cofh_se_central_intelligence_desc:0 "$building_cofh_se_ministry_intelligence_desc$"
+
+ tech_cofh_se_eternal_vigilance:0 "永久警戒"
+ tech_cofh_se_eternal_vigilance_desc:0 "$building_cofh_se_ministry_vigilance_desc$"
+
+ tech_cofh_se_final_frontier:0 "最终的疆界"
+ tech_cofh_se_final_frontier_desc:0 "$building_cofh_se_frontier_institute_desc$"
+
+ tech_cofh_se_galactic_concordance:0 "银河的和谐"
+ tech_cofh_se_galactic_concordance_desc:0 "$building_cofh_se_concord_assembly_desc$"
+
+ tech_cofh_se_cosmic_reflection:0 "宇宙的思考"
+ tech_cofh_se_cosmic_reflection_desc:0 "$building_cofh_se_monument_creation_desc$"
+
+# Diplomacy
+
+ tech_cofh_se_galactic_prominence:0 "银河声望"
+ tech_cofh_se_galactic_prominence_desc:0 "这个宇宙将会是我们的舞台。"
+
+ tech_cofh_se_psi_diplomatic_corps:0 "Psi外交使团"
+ tech_cofh_se_psi_diplomatic_corps_desc:0 "利用灵能作弊的外交使团。"
+
+ tech_cofh_se_xeno_confidence:0 "外星人的信心"
+ tech_cofh_se_xeno_confidence_desc:0 "用一种简单的方式表达我们的意图，更有助于建立深入关系。"
+
+ tech_cofh_se_xeno_negotiation:0 "外星人的谈判"
+ tech_cofh_se_xeno_negotiation_desc:0 "每个物种都能得到应有的价码。"
+
+# Military
+
+ tech_cofh_se_battlefield_leadership:0 "战场指挥官"
+ tech_cofh_se_battlefield_leadership_desc:0 "睿智的将军将会带往我们的士兵走向胜利。"

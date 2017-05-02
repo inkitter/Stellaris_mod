@@ -1,0 +1,117 @@
+﻿l_english:
+ 
+ ##########################
+ ### Engineering Tier 1 ###
+ ##########################
+ 
+ 
+ 
+ tech_impindustry_I:0 "工业改良 I"
+ tech_impindustry_I_desc:1 "改善我们的生产链和供应线，形成一个更高效的工业体系.\n\n"
+ 
+ tech_impindustry_II:0 "工业改良 II"
+ tech_impindustry_II_desc:1 "改善我们的生产链和供应线，形成一个更高效的工业体系.\n\n"
+ 
+ tech_impindustry_III:0 "工业改良 III"
+ tech_impindustry_III_desc:1 "改善我们的生产链和供应线，形成一个更高效的工业体系.\n\n"
+ 
+ ##########################
+ ### Engineering Tier 2 ###
+ ##########################
+ 
+ 
+ ##########################
+ ### Engineering Tier 3 ###
+ ##########################
+ 
+ 
+ ##########################
+ ### Extra Technologies ###
+ ##########################
+ 
+ tech_scientific_excellence:0 "科技飞跃"
+ tech_scientific_excellence_desc:1 "通过不断的探索科学的极限，我们得以时刻保持在银河技术竞赛的最前沿.\n\n"
+ 
+ tech_flexible_research:0 "灵活研究"
+ tech_flexible_research_desc:1 "有时，在正确的时候研究正确的技术，往往能够产生意想不到的效果.\n\n"
+ 
+ tech_physics_development:0 "发展物理学"
+ tech_physics_development_desc:1 "通过提高大学基础科学教育经费，我们可以改善社会的创新能力.\n\n"
+ 
+ tech_conquer_the_space:0 "征服空间"
+ tech_conquer_the_space_desc:1 "帝国扩张的脚步从未停止，而一个个未知的星系中，潜伏着强大的宇宙生物，我们需要对武器进行针对性改进，以消灭他们，征服新世界.\n\n"
+ 
+ tech_efficient_foodmanagement:0 "高效食品管理"
+ tech_efficient_foodmanagement_desc:1 "我们的种族发展需要更多的食物，改进食品管理策略将使得我们能够用最少的食物，养活最多的人口.\n\n"
+ 
+ tech_rapid_population:0 "人口激增"
+ tech_rapid_population_desc:1 "通过实行生育补贴政策，有效的提高我国人口增长速度.\n\n"
+ 
+ tech_nanomedicine:0 "纳米医学"
+ tech_nanomedicine_desc:1 "在纳米医学领域的重大突破将使得人民更加长寿.\n\n"
+ 
+ tech_executive_authority:0 "中央集权"
+ tech_executive_authority_desc:1 "通过进一步加大中央政府的权力，我们可以有效的降低新政策普及的成本.\n\n"
+ 
+ tech_test_tube_babies:0 "试管婴儿"
+ tech_test_tube_babies_desc:1 "去除生殖需求的试管胚胎技术将使得我们的人口繁殖速度加快.\n\n"
+ 
+ tech_genetic_restructuring_one:0 "基因重组 1"
+ tech_genetic_restructuring_one_desc:1 "如果你让一个布罗格进入基因测序实验室，他会告诉你怎样结交新朋友...\n\n"
+ 
+ tech_genetic_restructuring_two:0 "基因重组 2"
+ tech_genetic_restructuring_two_desc:1 "...如果你让一个布罗格进入基因测序实验室，他会告诉你怎样结交新朋友...\n\n"
+ 
+ tech_genetic_restructuring_three:0 "基因重组 3"
+ tech_genetic_restructuring_three_desc:1 "...如果你让一个布罗格进入基因测序实验室，他会告诉你怎样结交新朋友...\n\n"
+ 
+ tech_genetic_restructuring_four:0 "基因重组 4"
+ tech_genetic_restructuring_four_desc:1 "...如果你让一个布罗格进入基因测序实验室，他会告诉你怎样结交新朋友...\n\n"
+ 
+ tech_genetic_restructuring_five:0 "基因重组 5"
+ tech_genetic_restructuring_five_desc:1 "...如果你让一个布罗格进入基因测序实验室，他会告诉你怎样结交新朋友...\n\n"
+ 
+ tech_genetic_restructuring_six:0 "基因重组 6"
+ tech_genetic_restructuring_six_desc:1 "...如果你让一个布罗格进入基因测序实验室，他会告诉你怎样结交新朋友...\n\n"
+ 
+ tech_genetic_restructuring_seven:0 "基因重组 7"
+ tech_genetic_restructuring_seven_desc:1 "...如果你让一个布罗格进入基因测序实验室，他会告诉你怎样结交新朋友...\n\n"
+ 
+ tech_rapid_clearing:0 "快速清除"
+ tech_rapid_clearing_desc:1 "通过更努力的建造可居住区域，使得我们可以容纳更多人口..\n\n"
+ 
+ tech_quantum_dynamite:0 "量子炸药"
+ tech_quantum_dynamite_desc:1 "新的炸药技术使我们能够进行大规模爆破，降低了土地开发成本.\n\n"
+ 
+ tech_world_building:0 "世界建设"
+ tech_world_building_desc:1 "现有基础设施检修改造将带来更高的效率.\n\n"
+ 
+ tech_planet_shaping:0 "行星变形"
+ tech_planet_shaping_desc:1 "通过巨大的努力，我们可以改造行星的形状.\n\n"
+ 
+ tech_mining_propogation:0 "挖掘技术传播"
+ tech_mining_propogation_desc:1 "对于不断增长的帝国来说，扩大矿产收入势在必行.\n\n"
+ 
+ tech_ubiquitous_mines:0 "无处不在的矿产"
+ tech_ubiquitous_mines_desc:1 "想让帝国强大就需要大量的矿产.\n\n"
+ 
+ tech_private_engineering_contractors:0 "私人工程承包"
+ tech_private_engineering_contractors_desc:1 "通过利用私人公司协助特殊项目，我们可以在其他工程问题上集中注意力.\n\n"
+ 
+ 
+ ###########################
+ ### Social Technologies ###
+ ###########################
+ 
+ tech_fleetfocus:0 "舰队焦点"
+ tech_fleetfocus_desc:0 "过共同努力，可以给我们的海军开辟一个大胆的新的方向.\n\n"
+ 
+ tech_antibioweapon:0 "反生物武器"
+ tech_antibioweapon_desc:0 "有了这项新技术，我们的飞船将更加高效的与宇宙生物进行战斗.\n\n"
+ 
+ ############################
+ ### Physics Technologies ###
+ ############################
+ 
+ 
+ 

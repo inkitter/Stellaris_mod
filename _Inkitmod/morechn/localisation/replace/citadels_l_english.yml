@@ -1,0 +1,13 @@
+﻿l_english:
+
+ tech_citadel_station:0 "城堡"
+ tech_citadel_station_desc:0 "根据我们的经验建立防御工事，我们相信可以通过建造大量防御工事以致可以抵御失落帝国来犯。"
+ TECH_UNLOCK_CITADEL_TITLE:0 "§H解锁空间站:§! 城堡"
+ TECH_UNLOCK_CITADEL_DESC:0 "§H城堡:§! 筑建令人诧异的太空防御工事，足以抵挡任何敌人的侵犯。"
+ LIGHT_CITADEL_STATION_SECTION:0 "轻型城堡"
+ MEDIUM_CITADEL_STATION_SECTION:0 "中型城堡"
+ HEAVY_CITADEL_STATION_SECTION:0 "重型城堡"
+ HANGAR_CITADEL_STATION_SECTION:0 "城堡机库
+ SUPERWEAPON_CITADEL_STATION_SECTION:0 "城堡的超级武器"
+ military_station_citadel_plural:0 "城堡"
+ military_station_citadel:0 "城堡"

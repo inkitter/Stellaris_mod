@@ -1,0 +1,38 @@
+﻿l_english:
+ 
+ ENERGY_LANCE_1_LARGE:0 "微粒长矛"
+ ENERGY_LANCE_1_LARGE_DESC:0 "微粒长矛"
+ 
+ ENERGY_LANCE_2_LARGE:0 "超子长矛"
+ ENERGY_LANCE_2_LARGE_DESC:0 "超子长矛"
+ 
+ ARC_EMITTER_1_LARGE:0 "电弧发射器"
+ ARC_EMITTER_1_LARGE_DESC:1 "电弧发射器"
+ 
+ ARC_EMITTER_2_LARGE:0 "聚焦电弧发射器"
+ ARC_EMITTER_2_LARGE_DESC:0 "聚焦电弧发射器"
+ 
+ MASS_ACCELERATOR_1_LARGE:0 "巨型炮"
+ MASS_ACCELERATOR_1_LARGE_DESC:0 "巨型炮"
+
+ MASS_ACCELERATOR_2_LARGE:0 "千兆炮"
+ MASS_ACCELERATOR_2_LARGE_DESC:0 "千兆炮"
+ 
+ tech_resized_energy_lance_1:0 "大型微粒长矛"
+ tech_resized_energy_lance_1_desc:0 "大型微粒长矛"
+ 
+ tech_resized_energy_lance_2:0 "大型超子长矛"
+ tech_resized_energy_lance_2_desc:0 "大型超子长矛"
+ 
+ tech_resized_arc_emitter_1:0 "大型电弧发射器"
+ tech_resized_arc_emitter_1_desc:0 "大型电弧发射器"
+ 
+ tech_resized_arc_emitter_2:0 "大型聚焦电弧发射器"
+ tech_resized_arc_emitter_2_desc:0 "大型聚焦电弧发射器"
+ 
+ tech_resized_mass_accelerator_1:0 "大型巨型炮"
+ tech_resized_mass_accelerator_1_desc:0 "大型巨型炮"
+ 
+ tech_resized_mass_accelerator_2:0 "大型千兆炮"
+ tech_resized_mass_accelerator_2_desc:0 "大型千兆炮"
+ 

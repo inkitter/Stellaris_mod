@@ -1,0 +1,8 @@
+﻿l_english:
+ ####################################
+ # Edicts
+ ####################################
+ 
+ # Planet Edicts
+ edict_msl_regime_retire:0 "政权更迭"
+ edict_msl_regime_retire_desc:1 "执行紧急投票，强迫当前国家领导人下台.\n如果国家没有合适的继承者，将导致一场继承者战争.\n\n"

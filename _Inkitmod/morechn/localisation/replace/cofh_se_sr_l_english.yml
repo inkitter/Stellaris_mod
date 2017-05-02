@@ -1,0 +1,11 @@
+﻿l_english:
+
+# Strategic Resources
+
+sr_cofh_se_ixrybun:0 "伊瑟苯晶体"
+sr_cofh_se_ixrybun_desc:0 "这种致密的岩浆锻造晶体可作为聚焦透镜，能够增加能量武器的破坏威力。"
+
+# Technology
+
+tech_cofh_se_mine_ixrybun:0 "伊瑟苯晶体开采"
+tech_cofh_se_mine_ixrybun_desc:0 "通过使用特殊材料使得可从岩浆里提取伊瑟苯晶体。"

@@ -1,0 +1,174 @@
+﻿l_english:
+
+# Modifiers
+
+ cofh_se_geo_pm_reactor:0 "改造反应器"
+ cofh_se_geo_pm_reactor_desc:0 "地质改造过程中可能会发生一些地质运动情况。"
+
+ cofh_se_geo_pm_storms:0 "狂野风暴"
+ cofh_se_geo_pm_storms_desc:0 "改造反应器会引发并导致大气形成电磁风暴。"
+
+ cofh_se_geo_pm_tectonics:0 "不稳定的构造"
+ cofh_se_geo_pm_tectonics_desc:0 "改造反应器是造成星球板块运动的不稳定变化的原因。"
+
+ cofh_se_geo_pm_weather:0 "危险天气"
+ cofh_se_geo_pm_weather_desc:0 "改造反应器是导致星球频发极端气候的原因。"
+
+# Events
+
+ cofh_se_geo.10.name:0 "$building_cofh_se_georeactor_basic$上线"
+ cofh_se_geo.10.desc:0 "§Y$building_cofh_se_georeactor_basic$§!在§Y[Root.GetName]§!已完成建设。它能够改造该世界的景观。\n\n$COFH_SE_GEO_WORLD_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+ cofh_se_geo.20.name:0 "$building_cofh_se_georeactor_adv$上线"
+ cofh_se_geo.20.desc:0 "§Y$building_cofh_se_georeactor_adv$§!在§Y[Root.GetName]§!已完成建设。它能够改变该世界的水圈。\n\n$COFH_SE_GEO_WORLD_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+ cofh_se_geo.30.name:0 "$building_cofh_se_georeactor_tomb$上线"
+ cofh_se_geo.30.desc:0 "§Y$building_cofh_se_georeactor_tomb$§!在§Y[Root.GetName]§!已完成建设。它能够恢复该世界的大气。\n\n$COFH_SE_GEO_WORLD_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+ cofh_se_geo.40.name:0 "$building_cofh_se_georeactor_gaia$上线"
+ cofh_se_geo.40.desc:0 "§Y$building_cofh_se_georeactor_gaia$§!在§Y[Root.GetName]§!已完成建设。它能够改善该世界的大气。\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+ cofh_se_geo.100.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_continental$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.101.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_ocean$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.102.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_tropical$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.103.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_desert$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.104.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_arid$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.105.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_savannah$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.106.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_arctic$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.107.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_tundra$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.108.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_alpine$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+ cofh_se_geo.109.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$是个§Y$pc_gaia$§!。\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+
+ cofh_se_geo.110.desc:0 "§Y$building_cofh_se_georeactor_basic$§!在§Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+ cofh_se_geo.120.desc:0 "§Y$building_cofh_se_georeactor_adv$§!在§Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+ cofh_se_geo.130.desc:0 "§Y$building_cofh_se_georeactor_tomb$§!在§Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+ cofh_se_geo.140.desc:0 "§Y$building_cofh_se_georeactor_gaia$§!在§Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+
+ cofh_se_geo.210.name:0 "$building_cofh_se_georeactor_basic$闲置"
+ cofh_se_geo.210.desc:0 "§Y$building_cofh_se_georeactor_basic$§!在§Y[Root.GetName]§!已闲置。\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+ cofh_se_geo.220.name:0 "$building_cofh_se_georeactor_adv$闲置"
+ cofh_se_geo.220.desc:0 "§Y$building_cofh_se_georeactor_adv$§!在§Y[Root.GetName]§!已闲置。\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+ cofh_se_geo.230.name:0 "$building_cofh_se_georeactor_tomb$闲置"
+ cofh_se_geo.230.desc:0 "§Y$building_cofh_se_georeactor_tomb$§!在§Y[Root.GetName]§!已闲置。\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+ cofh_se_geo.240.name:0 "$building_cofh_se_georeactor_gaia$闲置"
+ cofh_se_geo.240.desc:0 "§Y$building_cofh_se_georeactor_gaia$§!在§Y[Root.GetName]§!在开始前需要在地质改造器确认。\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+ cofh_se_geo.a:0 "了解。"
+
+ COFH_SE_GEO_WORLD_CHOICE:0 "选择并配置要改造世界类型。地质工程队将其确认并等待一个月后方可开工。"
+ COFH_SE_GEO_WORLD_ALT_CHOICE:0 "停工期间将重置地质工程队的设置为初始状态。选择并配置要改造世界类型。"
+ COFH_SE_GEO_INITIAL_DISTURBANCE:0 "地面部分反应不稳定，因此改造必须马上开始。"
+ COFH_SE_GEO_UPDATE_DISTURBANCE_TITLE:0 "地面干扰"
+ COFH_SE_GEO_UPDATE_DISTURBANCE:0 "地面偶然会产生暂时干扰，使得改造可能出现少许延误。"
+ COFH_SE_GEO_PROJECT_COMPLETE:0 "改造完成"
+ COFH_SE_GEO_PROCESS_FINISHED:0 "在§Y[Root.GetName]§!的星球改造已经完成。"
+ COFH_SE_GEO_REACTOR_DISMANTLED:0 "改造反应器已经消耗殆尽并拆除。"
+
+ cofh_se_geo.continental:0 "$pc_continental$"
+ cofh_se_geo.ocean:0 "$pc_ocean$"
+ cofh_se_geo.tropical:0 "$pc_tropical$"
+ cofh_se_geo.desert:0 "$pc_desert$"
+ cofh_se_geo.arid:0 "$pc_arid$"
+ cofh_se_geo.savanna:0 "$pc_savannah$"
+ cofh_se_geo.arctic:0 "$pc_arctic$"
+ cofh_se_geo.tundra:0 "$pc_tundra$"
+ cofh_se_geo.alpine:0 "$pc_alpine$"
+ cofh_se_geo.tomb:0 "$pc_nuked$"
+ cofh_se_geo.gaia:0 "$pc_gaia$"
+
+# Special Projects
+
+# Basic
+
+ COFH_SE_GEO_CONTINENTAL_BAS:0 "地质重塑: 大陆"
+ COFH_SE_GEO_CONTINENTAL_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_continental$§!。"
+
+ COFH_SE_GEO_OCEAN_BAS:0 "地质重塑: 海洋"
+ COFH_SE_GEO_OCEAN_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_ocean$§!。"
+
+ COFH_SE_GEO_TROPICAL_BAS:0 "地质重塑: 热带"
+ COFH_SE_GEO_TROPICAL_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_tropical$§!。"
+
+ COFH_SE_GEO_DESERT_BAS:0 "地质重塑: 沙漠"
+ COFH_SE_GEO_DESERT_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_desert$§!。"
+
+ COFH_SE_GEO_ARID_BAS:0 "地质重塑: 干旱"
+ COFH_SE_GEO_ARID_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_arid$§!。"
+
+ COFH_SE_GEO_SAVANNA_BAS:0 "地质重塑: 草原"
+ COFH_SE_GEO_SAVANNA_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_savannah$§!。"
+
+ COFH_SE_GEO_ARCTIC_BAS:0 "地质重塑: 极地"
+ COFH_SE_GEO_ARCTIC_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_arctic$§!。"
+
+ COFH_SE_GEO_TUNDRA_BAS:0 "地质重塑: 苔原"
+ COFH_SE_GEO_TUNDRA_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_tundra$§!。"
+
+ COFH_SE_GEO_ALPINE_BAS:0 "地质重塑: 高山"
+ COFH_SE_GEO_ALPINE_BAS_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_basic$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_alpine$§!。"
+
+# Advanced
+
+ COFH_SE_GEO_CONTINENTAL_ADV:0 "大气调整: 大陆"
+ COFH_SE_GEO_CONTINENTAL_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_continental$§!。"
+
+ COFH_SE_GEO_OCEAN_ADV:0 "大气调整: 海洋"
+ COFH_SE_GEO_OCEAN_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_ocean$§!。"
+
+ COFH_SE_GEO_TROPICAL_ADV:0 "大气调整: 热带"
+ COFH_SE_GEO_TROPICAL_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_tropical$§!。"
+
+ COFH_SE_GEO_DESERT_ADV:0 "大气调整: 沙漠"
+ COFH_SE_GEO_DESERT_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_desert$§!。"
+
+ COFH_SE_GEO_ARID_ADV:0 "大气调整: 干旱"
+ COFH_SE_GEO_ARID_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_arid$§!。"
+
+ COFH_SE_GEO_SAVANNA_ADV:0 "大气调整: 草原"
+ COFH_SE_GEO_SAVANNA_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_savannah$§!。"
+
+ COFH_SE_GEO_ARCTIC_ADV:0 "大气调整: 极地"
+ COFH_SE_GEO_ARCTIC_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_arctic$§!。"
+
+ COFH_SE_GEO_TUNDRA_ADV:0 "大气调整: 苔原"
+ COFH_SE_GEO_TUNDRA_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_tundra$§!。"
+
+ COFH_SE_GEO_ALPINE_ADV:0 "大气调整: 高山"
+ COFH_SE_GEO_ALPINE_ADV_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_adv$§!，将§Y[Root.GetName]§!改造水圈和将其变为一个§Y$pc_alpine$§!。"
+
+# Tomb
+
+ COFH_SE_GEO_CONTINENTAL_TOMB:0 "重建大气: 大陆"
+ COFH_SE_GEO_CONTINENTAL_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_continental$§!。"
+
+ COFH_SE_GEO_OCEAN_TOMB:0 "重建大气: 海洋"
+ COFH_SE_GEO_OCEAN_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_ocean$§!。"
+
+ COFH_SE_GEO_TROPICAL_TOMB:0 "重建大气: 热带"
+ COFH_SE_GEO_TROPICAL_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_tropical$§!。"
+
+ COFH_SE_GEO_DESERT_TOMB:0 "重建大气: 沙漠"
+ COFH_SE_GEO_DESERT_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_desert$§!。"
+
+ COFH_SE_GEO_ARID_TOMB:0 "重建大气: 干旱"
+ COFH_SE_GEO_ARID_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_arid$§!。"
+
+ COFH_SE_GEO_SAVANNA_TOMB:0 "重建大气: 草原"
+ COFH_SE_GEO_SAVANNA_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_savannah$§!。"
+
+ COFH_SE_GEO_ARCTIC_TOMB:0 "重建大气: 极地"
+ COFH_SE_GEO_ARCTIC_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_arctic$§!。"
+
+ COFH_SE_GEO_TUNDRA_TOMB:0 "重建大气: 苔原"
+ COFH_SE_GEO_TUNDRA_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_tundra$§!。"
+
+ COFH_SE_GEO_ALPINE_TOMB:0 "重建大气: 高山"
+ COFH_SE_GEO_ALPINE_TOMB_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_tomb$§!，将§Y[Root.GetName]§!改造大气和将其变为一个§Y$pc_alpine$§!。"
+
+# Gaia
+
+ COFH_SE_GEO_GAIA:0 "创造盖亚"
+ COFH_SE_GEO_GAIA_DESC:0 "通过使用一个巨大的§Y$building_cofh_se_georeactor_gaia$§!，将§Y[Root.GetName]§!改造成一个§Y$pc_gaia$§!。"

@@ -1,0 +1,7 @@
+﻿l_english:
+ #Pi Writing Anomaly
+ #Writing and code by LamilLerran
+ #Note that this comes from a vanilla anomaly category, title "Surface Writing" and text
+ #"There is significant scarring on the surface of this world in a pattern that cannot be natural. From orbit, the massive rifts look almost like writing."
+ mem_pi_writing.1.name:0 "圆周率"
+ mem_pi_writing.1.desc:0 "§Y[From.GetName]§!的裂缝里的写作；根据调查小组，它列出了14个圆周率的第196个数字。杰出的社会学家在疯狂猜测为什么作者会认为有能力阅读这个信息的人会需要此信息。"

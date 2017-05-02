@@ -1,0 +1,9 @@
+﻿l_english:
+ glass_ball.2.name:0 "行星轰炸"
+ glass_ball.2.desc:0 "我的[Root.GetRulerTitle], [From.GetName]被完全轰炸.下一步我们该怎么做?"
+ glass_ball.2.a:0 "玻璃!"
+ glass_ball.2.a.tooltip:1 "[From.GetName]已经变成玻璃球，该星球已无任何生命体征."
+ glass_ball.2.b:0 "核平!"
+ glass_ball.2.b.tooltip:1 "[From.GetName]到处充满核辐射."
+ glass_ball.2.c:0 "继续轰炸."
+ 

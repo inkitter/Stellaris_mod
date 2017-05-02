@@ -1,0 +1,25 @@
+﻿l_english:
+ #Black Hole Anomaly 1
+ #Writing by deezee
+ #Code by ShiroKitsune
+ mem_black_hole_1_category:0 "路径之外"
+ mem_black_hole_1_desc:0 "黑洞§Y[Root.GetName]§!似乎有一个小物体在视界外飞行。仔细检查后，发现它似乎是个未知文明的小的古老的虫洞生成器，可能作为一个奇怪进入视界的路径和调查什么是超越。我们科学家想进一步研究这项技术。"
+ MEM_BLACK_HOLE_1_PROJECT:0 "路径之外"
+ MEM_BLACK_HOLE_1_PROJECT_DESC:0 "科学家认为应该激活古代虫洞发生器..."
+ mem_black_hole_1.1.name:0 "成功的调查"
+ mem_black_hole_1.1.desc:0 "仔细检查后发现虫洞发生器随着时间流逝损坏了。然而，首席科学家§Y[Root.GetLeaderName]§!相信它可以修复。"
+ mem_black_hole_1.1.a:0 "开工。"
+ mem_black_hole_1.1.b:0 "太危险了。"
+ mem_black_hole_1.2.name:0 "成功？"
+ mem_black_hole_1.2.desc:0 "修复虫洞发生器后，科研船§Y[Root.GetName]§!消失在视界之中，现在丢失与他们联系。我们只能希望虫洞能够维持到他们回来。"
+ mem_black_hole_1.2.a:0 "屏息等待..."
+ mem_black_hole_1.3.name:0 "什么是超越"
+ mem_black_hole_1.3.desc:0 "科研船已经返回，但船员却被改造了。他们拒绝讨论消失在视觉之后的"不可言说"之事，但我们必须相信，这些见解将有助于我们的帝国。"
+ mem_black_hole_1.3.a:0 "我们希望他们一切安好。"
+ mem_black_hole_1.4.name:0 "古老的遗迹"
+ mem_black_hole_1.4.desc:0 "仔细检查后发现虫洞发生器随着时间流逝损坏了。鉴于这过于接近视界，再进一步调查下去会危及船员安全，而且也不太会出啥好结果的。"
+ mem_black_hole_1.4.a:0 "不幸。"
+ mem_black_hole_1.5.name:0 "悲剧性的失误！"
+ mem_black_hole_1.5.desc:0 "在调查虫洞发生器的时候，首席科学家§Y[Root.GetLeaderName]§!无意中开启了它，但不知道它是损坏的。结果科研船§Y[Root.GetName]§!被虫洞吸引到进入黑洞，再也没了下文。"
+ mem_black_hole_1.5.a:0 "可怕。"
+ 

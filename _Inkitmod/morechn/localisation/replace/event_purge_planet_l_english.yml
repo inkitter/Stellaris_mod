@@ -1,0 +1,15 @@
+﻿l_english:
+ purge_planet.2.name:0 "行星防御瓦解"
+ purge_planet.2.desc:0 "[From.GetName]被轰炸中。未发现任何防御工事。是否继续？"
+ purge_planet.2.a:0 "灭绝是最佳的行动方针。"
+ purge_planet.2.a.tooltip:1 "纳米反汇编器会破坏所有在[From.GetName]的生命体。"
+ purge_planet.2.b:0 "上传至套娃表层。"
+ purge_planet.2.b.tooltip:1 "[From.GetName]的居民将被扫描被上传至一个先进的模拟系统中。"
+ purge_planet.2.c:0 "最终指令:生命灭绝"
+ purge_planet.2.c.tooltip:1 "此操作将会对[From.GetName]的所有生命进行灭绝，但不会破坏其生态系统。"
+ purge_planet.2.d:0 "轨道待命直到新的指令下达。"
+ matryoshka_upload_cooldown:0 "套娃模拟"
+ matryoshka_upload_cooldown_DESC:0 "上传整个数据至我们的系统中。让其知识成为我们的一部分。"
+ cleanse_planet_cooldown:0 "补充选择性纳米机器人"
+ purge_energy_strain:0 "补充电容器"
+ 

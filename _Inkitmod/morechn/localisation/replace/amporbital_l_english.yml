@@ -1,0 +1,34 @@
+﻿l_english:
+
+ tech_orbitalhabitats:0 "轨道殖民地"
+ tech_orbitalhabitats_desc:1 "将在该轨道位置建造轨道殖民地。"
+ 
+ tech_orbitalhabitats_2:0 "扩展轨道栖息地"
+ tech_orbitalhabitats_2_desc:1 "扩展人工建造的轨道栖息地。"
+
+ pc_orbitalhabitat:0 "轨道殖民地"
+ pc_orbitalhabitat_desc:0 "如同标准的太空港一样，轨道殖民地更大且拥有与星球表面不同的生态空间，人造重力和人工大气。"
+ 
+ orbitalhabitats.1.name: "轨道位置准备"
+ orbitalhabitats.1.desc: "准备在[From.GetName]的轨道位置上建造轨道殖民地。"
+ 
+ orbitalhabitats.4.desc: "在[system.GetName]建设的轨道殖民地已经完成。无人的工程船已经为国家奉献了自己。"
+ 
+ pc_orbitalhabitat_tile:0 "人工地貌"
+ pc_orbitalhabitat_tile_desc:1 "这些大多看起来像是自然的地貌其实是被我们精心雕琢出来的。"
+ 
+ pc_orbitalspot:0 "轨道位置"
+ pc_orbitalspot_desc:0 "我们可以在轨道上的合适的位置建造一个殖民地。"
+
+ pc_orbitalhabitat_habitability:0 "轨道居住地"
+ trait_pc_orbitalhabitat_preference:0 "轨道优先"
+ trait_pc_orbitalhabitat_preference_desc:1 "§L气候的类型是由数万年的演变演化出来的，当然，还有精妙的人工调控。§!"
+ 
+ edict_build_orbitalhabitat:0 "建立轨道殖民地"
+ edict_build_orbitalhabitat_desc:1 "在轨道上开始建造一个人造殖民地。"
+ 
+ construct_orbitals_group_title:0 "建造轨道殖民地"
+ construct_orbitals_group_desc:0 "轨道殖民地将由工程船建造，每个轨道殖民地将花费一年时间建造并且会消耗一艘工程船。"
+ 
+ CONSTRUCT_HABITAT_PROJECT:0 "在[From.From.GetName]建造轨道"
+ CONSTRUCT_HABITAT_PROJECT_DESC:0 "需要工程船于[From.GetName] 轨道建造轨道殖民地，工程船将于殖民地建造过程中被消耗。"

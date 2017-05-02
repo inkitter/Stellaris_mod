@@ -1,0 +1,17 @@
+﻿l_english:
+ #Mysterious Pyramids
+ #Code by LamilLerran
+ #Writing and idea by shockedsystem
+ mem_mysterious_pyramids_category:0 "神秘的金字塔"
+ mem_mysterious_pyramids_category_desc:0 "对这个剧毒世界的调查已经确认了十几个金字塔结构与地表的几何精度间隔。考虑到这个世界并不适合我们所知的智慧生命生存的地方，这可能值得研究的价值。"
+ mem_mysterious_pyramids.102.name:0 "失败的改造"
+ mem_mysterious_pyramids.102.desc:0 "据推测，这个金字塔结构是人造的。墙体使用了当地生产的水泥材料，并在对周围的放射性测试是一致的。同时气态的羽状物在光谱分析发现，这些羽状物大多数由水蒸气和二氧化碳以及大量的甲烷组成。\n\n科学家[This.GetLeaderName]相信这些气体是从[From.GetPlanetMoon]的金字塔释放出来的用于改造的。水蒸气和二氧化碳有利于生命存在。沿途的这些站点可能地下埋藏大量的甲烷水合物，也就是所谓的火冰。也许是这个释放是导致这里大气的温室效应的原因。酸性暴雨侵蚀并腐化着地面。这只是一个时间问题，虽他们有意改变，但伤害已经造成了。分析这里所发生一切将会在未来有助于我们避免犯下同样的错。"
+ mem_mysterious_pyramids.102.a:0 "警示故事。"
+ mem_mysterious_pyramids.103.name:0 "异种机"
+ mem_mysterious_pyramids.103.desc:0 "对金字塔结构的分析发现，它们确实人造的。六足机器人从[From.GetPlanetMoon]的地面走过，它们是负责对基础设施和资源提取装置的检测摄影。金字塔其实是大气的处理装置，但乍一看似乎没有影响大气环境一样。\n\n科学家[This.GetLeaderName]发现那惊人的启示。似乎这些建筑是按照程序执行的。金字塔很有可能是被用来产生这些有毒的大气层并将其维持，就像它现在正所做的一样。科学家[This.GetLeaderName]假设推断，这个世界遭受了一个与我们截然不同的种族的对其改造。具有腐蚀性的风暴席卷着这个世界的赤道地区，充满氨气的湖泊可以用于适合它们的农业发展。\n\n还有一个可能性出现:可能还有更多星球被这样改造，去探索更多有关于'异种机'的把世界改造成剧毒的荒地。"
+ mem_mysterious_pyramids.103.a:0 "拆除并研究其结构。"
+ mem_mysterious_pyramids.103.b:0 "离开这；这与我们无关。"
+ mem_mysterious_pyramids.202.name:0 "这是一个谜"
+ mem_mysterious_pyramids.202.desc:0 "金字塔是大石头结构，非常复杂，这使得我们认为可能是人造的。不过远处挖掘机提供我们很少的线索。他们是用简单的花岗岩，并且没有更复杂的内部结构或工程的迹象。也许它们是某种文化的文物;死亡的标记，亦或者天文历法的一部分。不管是什么，这些奇怪的东西对于我们来说没用。"
+ mem_mysterious_pyramids.202.a:0 "古怪。"
+ 

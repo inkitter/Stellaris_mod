@@ -1,0 +1,47 @@
+﻿l_english:
+
+# Technology - Non-Repeatable
+
+# Engineering
+
+ tech_cofh_se_auxiliary_ships:0 "辅助舰船"
+ tech_cofh_se_auxiliary_ships_desc:0 "建造专门的辅助支援船可以使舰队能长时间进行深空作战。"
+
+ tech_cofh_se_corvettes_adv:0 "高级护卫舰"
+ tech_cofh_se_corvettes_adv_desc:0 "运用新型工程技术将使护卫舰进行更多变种建设。"
+
+ tech_cofh_se_destroyers_adv:0 "高级驱逐舰"
+ tech_cofh_se_destroyers_adv_desc:0 "运用新型工程技术将使驱逐舰进行更多变种建设。"
+
+ tech_cofh_se_cruisers_adv:0 "高级巡洋舰"
+ tech_cofh_se_cruisers_adv_desc:0 "运用新型工程技术将使巡洋舰进行更多变种建设。"
+
+ tech_cofh_se_battleships_adv:0 "高级战列舰"
+ tech_cofh_se_battleships_adv_desc:0 "运用新型工程技术将使战列舰进行更多变种建设。"
+
+ COFH_SE_TECH_UNLOCK_CORVETTES_HVY_TITLE:0 "§H解锁战舰类型:§! 重型护卫舰"
+ COFH_SE_TECH_UNLOCK_CORVETTES_HVY_DESC:0 "§H重型护卫舰§!\n一种改进型基本战舰的升级模板。"
+
+ COFH_SE_TECH_UNLOCK_CORVETTES_SUP_TITLE:0 "§H解锁战舰类型:§! 后勤护卫舰"
+ COFH_SE_TECH_UNLOCK_CORVETTES_SUP_DESC:0 "§H后勤护卫舰§!\n一艘可以为前线作战提供后勤支持的护卫舰。"
+
+ COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_TITLE:0 "§H解锁战舰类型:§! 重型驱逐舰"
+ COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_DESC:0 "§H重型驱逐舰§!\n一种专门用于前线作战的驱逐舰的改进版。"
+
+ COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_TITLE:0 "§H解锁战舰类型:§! 战术驱逐舰"
+ COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_DESC:0 "§H战术驱逐舰§!\n一艘可以为前线作战提供后勤支持的驱逐舰。"
+
+ COFH_SE_TECH_UNLOCK_CRUISERS_HVY_TITLE:0 "§H解锁战舰类型:§! 重型巡洋舰"
+ COFH_SE_TECH_UNLOCK_CRUISERS_HVY_DESC:0 "§H重型巡洋舰§!\n一种适合各种交战距离的巡洋舰。"
+
+ COFH_SE_TECH_UNLOCK_CRUISERS_SUP_TITLE:0 "§H解锁战舰类型:§! 指挥巡洋舰"
+ COFH_SE_TECH_UNLOCK_CRUISERS_SUP_DESC:0 "§H指挥巡洋舰§!\n一艘可以为前线作战提供后勤支持的巡洋舰。"
+
+ COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_TITLE:0 "§H解锁战舰类型:§! 重型战列舰"
+ COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_DESC:0 "§H重型战列舰§!\n一种专门用于长距离作战的战列舰。"
+
+ COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_TITLE:0 "§H解锁战舰类型:§! 仲裁战列舰"
+ COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§H仲裁战列舰§!\n一艘可以为前线作战提供后勤支持的战列舰。"
+
+ COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_TITLE:0 "§H解锁战舰类型:§! 补给船"
+ COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_DESC:0 "§H补给船§!\n一个专用为舰队提供日常维护和保养的补给船。"

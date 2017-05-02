@@ -1,0 +1,402 @@
+﻿l_english:
+ 
+ 
+ 
+ ##############################
+ ### Buildings Requirements ###
+ ##############################
+ 
+ requires_farm:0 "需要建在农场附近。\n\n"
+ requirement_has_geothermal:0 "需要建在地热能的格子。\n\n"
+ requirement_has_hydraulic:0 "需要建在液压源的格子。\n\n"
+ requirement_not_farm:0 "每个星球只能建造一个水耕农场。\n\n"
+ requires_building_capital_any:0 "需要首都才可建造。\n\n"
+ requires_building_capital_hab:0 "需要帝国或蜂巢才可建造。\n\n"
+ requires_building_capital_hive:0 "需要蜂巢才可建造。\n\n"
+ requires_building_capital_hive_adv:0 "只能建在先进的蜂巢上。\n\n"
+ requires_building_capital_ind:0 "只能建在工业世界上。\n\n"
+ requires_building_capital_ind_adv:0 "只能建在先进的工业世界上。\n\n"
+ requires_building_capital_fort:0 "只能建在堡垒世界上。\n\n"
+ requires_building_capital_fort_adv:0 "只能建在先进的堡垒世界上。\n\n"
+ requires_building_capital_tech:0 "只能建在技术世界上。\n\n"
+ requires_building_capital_tech_adv:0 "只能建在先进的技术世界上。\n\n"
+ requires_building_capital_techfort:0 "只能建在堡垒世界或技术世界上。\n\n"
+ requires_building_capital_emp:0 "只能建在帝国的资本世界上。\n\n"
+ requirement_not_silo:0 "每个星球只能建造一个。\n\n"
+ requeriment_not_mine:0 "每个同类型的星球只能建造一个。\n\n"
+ requeriment_not_this:0 "只能建造一次。\n\n"
+ requires_capital_indorhab:0 "只能建在工业或蜂巢的世界上。\n\n"
+ requirement_has_uncommon:0 "需要罕见的矿石。\n\n"
+ requirement_has_titanite:0 "需要榍石。\n\n"
+ requirement_no_close_town:0 "不能在该城镇附近建造相同城镇。\n\n"
+ requeriment_incompatible_buildings:0 "这星球有与首都不兼容的建筑。\n\n"
+ requires_water:0 "需要星球类型: 海洋，大陆或热带。\n\n"
+ requires_sand:0 "需要星球类型: 干旱或沙漠。\n\n"
+ requires_ice:0 "需要星球类型: 寒冷或苔原。\n\n"
+ requires_computer:0 "需要建在超级计算机旁。\n\n"
+ requires_hivetown:0 "需要建在蜂巢城镇旁。\n\n"
+ requires_capital:0 "只能建在你首都上。\n\n"
+ 
+ ###########################
+ ### Starting Buildings  ###
+ ###########################
+ 
+ building_basicfactory:0 "基础产业"
+ building_basicfactory_desc:0 "专门生产基础材料的工业基地。\n\n"
+ 
+ building_rocketlaunch:0 "火箭发射场"
+ building_rocketlaunch_desc:0 "可以通过这个将资源和工人送上太空进行轨道工作。\n\n"
+ 
+ building_farm:0 "农用地"
+ building_farm_desc:0 "食物是生活的最基本需求。\n\n"
+ 
+ building_nuclear_power_plant:0 "核电站"
+ building_nuclear_power_plant_desc:0 "核能发电即环保也是高效的能源。\n\n"
+ 
+ building_mine:0 "基础采矿作业"
+ building_mine_desc:0 "使用一个巨大的钻头，我们能开采更多我们的行业所需的基本材料。\n\n"
+ 
+ building_imperial_town:0 "资本世界的城市"
+ building_imperial_town_desc:0 "这个巨大的城市不仅可以养活大量的公民，还提供劳动到相邻的行业。\n\n"
+ 
+ building_space_surveillance_center:0 "太空监视中心"
+ building_space_surveillance_center_desc:0 "利用功能强大的雷达，我们可以更好保护我们的帝国。\n\n"
+ 
+ building_spaceelevator:0 "太空轨道电梯"
+ building_spaceelevator_desc:0 "通过太空轨道电梯有助于我们更快速运送工人和材料。\n\n"
+ 
+ building_food_processor:0 "食品加工机"
+ building_food_processor_desc:0 "一种能将大量天然植物加工成即食食品的机器。\n\n"
+ 
+ building_geothermal:0 "地热发电厂"
+ building_geothermal_desc:0 "地热发电厂利用地热能的热量加热水形成水蒸气，然后转动发电机发电。\n\n"
+ 
+ building_hydraulic:0 "水电站大坝"
+ building_hydraulic_desc:0 "利用水轮机和发电机发电的巨大水电站。\n\n"
+ 
+ ##########################
+ ### Capital Buildings  ###
+ ##########################
+ 
+ building_imperial_capital_1:0 "帝国管理局"
+ building_imperial_capital_1_desc:0 "这是我们帝国的核心。在这里，我们统治者的决策可以直接影响我们数十亿帝国子民。\n\n"
+ 
+ building_imperial_capital_2:0 "帝国首都"
+ building_imperial_capital_2_desc:0 "这是我们帝国的核心。在这里，我们统治者的决策可以直接影响我们数十亿帝国子民。\n\n"
+ 
+ building_imperial_capital_3:0 "高级帝国首都"
+ building_imperial_capital_3_desc:0 "这是我们帝国的核心。在这里，我们统治者的决策可以直接影响我们数十亿帝国子民。\n\n"
+ 
+ building_industrial_capital_1:0 "工业资本"
+ building_industrial_capital_1_desc:0 "一个超工业化首都能将工业星球改造的更加完美。\n\n"
+ 
+ building_industrial_capital_2:0 "高级工业首都"
+ building_industrial_capital_2_desc:0 "一个超工业化首都能将工业星球改造的更加完美。\n\n"
+ 
+ building_fortress_capital_1:0 "堡垒首都"
+ building_fortress_capital_1_desc:0 "这种超级坚固的堡垒首都是帝国军队的核心基地。\n\n"
+
+ building_fortress_capital_2:0 "高级堡垒首都"
+ building_fortress_capital_2_desc:0 "这种超级坚固的堡垒首都是帝国军队的核心基地。\n\n"
+ 
+ building_tech_capital_1:0 "技术首都"
+ building_tech_capital_1_desc:0 "这种技术首都是我们帝国最优秀的头脑所在的最集中的地方。\n\n"
+ 
+ building_tech_capital_2:0 "高级技术首都"
+ building_tech_capital_2_desc:0 "这种技术首都是我们帝国最优秀的头脑所在的最集中的地方。\n\n"
+ 
+ building_hiveworld_capital_1:0 "蜂巢首都"
+ building_hiveworld_capital_1_desc:0 "这个特殊庞大的首都适合吸引并保持大量人口。\n\n"
+
+ building_hiveworld_capital_2:0 "高级蜂巢首都"
+ building_hiveworld_capital_2_desc:0 "这个特殊庞大的首都适合吸引并保持大量人口。\n\n"
+ 
+ #############################
+ ### Industrial Buildings  ###
+ #############################
+ 
+ building_uncommonmine:0 "罕见的矿石"
+ building_uncommonmine_desc:1 "罕见但也是我们工业中必不可少的矿石。\n\n"
+ 
+ building_titanitemine:0 "榍石矿"
+ building_titanitemine_desc:1 "这是可以开采榍石矿的装置。\n\n"
+ 
+ building_orerefinery:0 "矿石精炼厂"
+ building_orerefinery_desc:1 "这能是将罕见的矿石提炼成常用材料的装置。\n\n"
+ 
+ building_orerefinery_2:0 "高级矿石精炼厂"
+ building_orerefinery_2_desc:1 "这能是将罕见的矿石提炼成常用材料的装置。\n\n"
+ 
+ building_componentfactory:0 "元件厂"
+ building_componentfactory_desc:1 "专门生产那些先进的组件的工厂。\n\n"
+ 
+ building_orefactory:0 "货物工厂"
+ building_orefactory_desc:1 "将原材料转化为民用品的工厂。\n\n"
+ 
+ building_industrialtown:0 "工业城"
+ building_industrialtown_desc:1 "这个城镇是为了满足工业区的住房需求。\n\n"
+ 
+ building_atmoscompensator:0 "大气改造" 
+ building_atmoscompensator_desc:1 "改善大气环境问题，解决空气污染。\n\n"
+ 
+ building_atmoscompensator_2:0 "高级大气改造" 
+ building_atmoscompensator_2_desc:1 "改善大气环境问题，解决空气污染。\n\n"
+ 
+ building_caslonextract:0 "卡斯隆提取器"
+ building_caslonextract_desc:1 "这是可提取卡斯隆气体的装置。\n\n"
+ 
+ building_nanitefactory:0 "纳米机械厂"
+ building_nanitefactory_desc:1 "这是可以大量生产纳米机器人的工厂。\n\n"
+ 
+ building_coremine:0 "康奈矿"
+ building_coremine_desc:1 "这是可以开采康奈矿的装置。\n\n"
+ 
+ ##############################################
+ ### Industrial Planet Dependant Buildings  ###
+ ##############################################
+ 
+ ####### Ocean Continental & Tropical
+ 
+ building_oceanicplatform:0 "海上平台"
+ building_oceanicplatform_desc:0 "这个平台可以开采海底资源。\n\n"
+ 
+ building_factoryocean:0 "沿海工厂"
+ building_factoryocean_desc:0 "利用潮汐能使得工厂只需比其他工厂需要更少能源就可工作。\n\n"
+ 
+ ####### Desert & Arid
+ 
+ building_desertmine:0 "沙漠矿场"
+ building_desertmine_desc:1 "利用特殊的钻头可以从沙漠之中开采资源。\n\n"
+ 
+ building_desertfacility:0 "沙漠工厂"
+ building_desertfacility_desc:1 "这家工厂使用的原材料来自沙漠之中的矿物。\n\n"
+ 
+ ####### Arctic & Tundra
+ 
+ building_fronzefacility:0 "极地炼油厂"
+ building_fronzefacility_desc:1 "特殊改造使得炼油厂可以在该星球的温度进行炼油作业。\n\n"
+ 
+ building_iceextractor:0 "冰机"
+ building_iceextractor_desc:1 "我们帝国利用特殊提取器可以从极地提取可用于冷却系统到平民可饮用的水资源。\n\n"
+ 
+ ###########################
+ ### Fortress Buildings  ###
+ ###########################
+ 
+ building_shipyard:0 "行星船厂"
+ building_shipyard_desc:1 "将造船放在星球上进行，然后再发送到太空进行模块化组装，可以帮助我们提高建造速度减低成本。\n\n"
+ 
+ building_ordnancefactory:0 "军工厂"
+ building_ordnancefactory_desc:1 "专门用于生产补给行星防御，舰队以及陆军的弹药制造工厂。\n\n"
+ 
+ building_hangar:0 "行星机库"
+ building_hangar_desc:1 "专门用于维护战斗机群的机库。\n\n"
+ 
+ building_fortresstown:0 "设防城镇"
+ building_fortresstown_desc:1 "一座座的坚固的城镇，能抵御最猛烈的轰炸。因此它被设计成一个巨大的地面堡垒防御。\n\n"
+ 
+ building_bunker:0 "地堡系统"
+ building_bunker_desc:1 "掩藏在星球表面之下的巨大掩体，能提高抵抗轰炸和地面进攻的防御力量。\n\n"
+ 
+ building_antibombplat:0 "反轰炸平台"
+ building_antibombplat_desc:1 "该平台配备了拦截导弹，能拦截来自轨道大部分的轰炸。\n\n"
+ 
+ building_longrangesensor:0 "长距离传感器"
+ building_longrangesensor_desc:1 "用来监测我们周围情况的传感器，可与同盟共享情报。\n\n"
+ 
+ building_longrangesensor_2: "高科技远程传感器"
+ building_longrangesensor_2_desc:1 "更先进的用来监测我们周围情况的传感器，可与同盟共享情报。\n\n"
+ 
+ building_ultrafortress:0 "超级堡垒"
+ building_ultrafortress_desc:1 "一个规模庞大的高科技的国家防御工事。\n\n"
+ 
+ ##############################################
+ ### Industrial Planet Dependant Buildings  ###
+ ##############################################
+ 
+ ####### Ocean Continental & Tropical
+ 
+ building_coastalfortress:0 "沿海要塞"
+ building_coastalfortress_desc:1 "用于强化我们陆军的训练和补给的港口。\n\n"
+ 
+ ####### Desert & Arid
+ 
+ building_desertbase:0 "沙漠基地"
+ building_desertbase_desc:1 "环境恶劣的沙漠是训练军队最佳的地方。\n\n"
+ 
+ ####### Arctic & Tundra
+ 
+ building_mountainfortress:0 "山脉堡垒"
+ building_mountainfortress_desc:1 "该堡垒的位置能额外提供保护，抵御地面的进攻。\n\n"
+ 
+ ################################
+ ### Technological Buildings  ###
+ ################################
+ 
+ building_spaceresearch:0 "太空异常研究中心"
+ building_spaceresearch_desc:1 "太空总是有不经意的异常等待我们的探索发现。\n\n"
+ 
+ building_livingtest:0 "生物测试中心"
+ building_livingtest_desc:1 "一些技术需要在生物本体上进行测试，我们可以通过培养这些生物满足测试需求。\n\n"
+ 
+ building_energyresearch:0 "能源研究中心"
+ building_energyresearch_desc:1 "能源不可能被无止尽使用而不枯竭，我们需要新的能源维持帝国存在。\n\n"
+ 
+ building_researchtown:0 "技术城"
+ building_researchtown_desc:1 "这座城市是科学家的天堂。\n\n"
+ 
+ building_weaponresearch:0 "武器研发中心"
+ building_weaponresearch_desc:1 "我们战舰的上小型武器到巨型武器平台都是从这里诞生的。\n\n"
+ 
+ building_supercomputer:0 "超算"
+ building_supercomputer_desc:1 "超算能满足我们在研究中的所需要庞大的计算量。\n\n"
+ 
+ building_dataserver:0 "数据服务器模块"
+ building_dataserver_desc:1 "为超算提供更多的容量，满足超算的扩展需求。\n\n"
+ 
+ building_testinglab:0 "测试实验室"
+ building_testinglab_desc:1 "新技术总需要被测试后才能正式应用。\n\n"
+ 
+ building_chemicallab:0 "化学实验室"
+ building_chemicallab_desc:1 "论植物如何用于化工产品的研究。\n\n"
+ 
+ #################################################
+ ### Technological Planet Dependant Buildings  ###
+ #################################################
+ 
+ ####### Ocean Continental & Tropical
+ 
+ building_underwaterlab:0 "水下实验室"
+ building_underwaterlab_desc:1 "水下实验室有助于我们探索海底世界奥秘。\n\n"
+ 
+ ####### Desert & Arid
+ 
+ building_desertresearch:0 "沙漠实验室"
+ building_desertresearch_desc:1 "该实验室能为我们提供抗高温的物理工程研究。\n\n"
+ 
+ ####### Arctic & Tundra
+ 
+ building_icereseach:0 "极地实验室"
+ building_icereseach_desc:1 "该实验室能为我们测试低温环境下的技术可行性。\n\n"
+ 
+ ############################
+ ### Hiveworld Buildings  ###
+ ############################
+ 
+ building_xenohotel:0 "外星酒店"
+ building_xenohotel_desc:1 "这家酒店是专门为外星生物准备的。\n\n"
+ 
+ building_ownedmedia:0 "国家媒体"
+ building_ownedmedia_desc:1 "国家的声音就是媒体的声音。\n\n"
+ 
+ building_planetmarket:0 "全球市场"
+ building_planetmarket_desc:1 "帝国子民可以自由获取他们所需的物品。\n\n"
+ 
+ building_hivetown:0 "蜂巢城"
+ building_hivetown_desc:1 "大陆般大小的城市可容纳数亿的人。\n\n" 
+ 
+ building_landingplat:0 "轨道电梯"
+ building_landingplat_desc:1 "用于游客和市民的轨道往返通道。\n\n"
+ 
+ building_dilithiumreactor:0 "双反应器"
+ building_dilithiumreactor_desc:1 "能产生巨大能量的反应器。\n\n"
+ 
+ building_museum:0 "博物馆"
+ building_museum_desc:1 "保存帝国历史的博物馆。\n\n"
+ 
+ building_educationcenter:0 "教育中心"
+ building_educationcenter_desc:0 "在这里，公民会得到教育成为帝国的一份子。\n\n"
+ 
+ building_cityexpansion:0 "城市扩张"
+ building_cityexpansion_desc:1 "扩张有利于居住更多的人。\n\n"
+ 
+ #########################
+ ### Ethics  Buildings ###
+ #########################
+ 
+ building_privateindustry:0 "私人企业"
+ building_privateindustry_desc:0 "倡导自由贸易经济的私人企业。\n\n"
+ 
+ building_corporationtown:0 "自治城市"
+ building_corporationtown_desc:0 "这种城市由各地的私人企业组成的地方。\n\n"
+ 
+ building_corporationhq:0 "公司总部"
+ building_corporationhq_desc:0 "帝国私人公司的总部是我们帝国自由贸易的象征。\n\n"
+ 
+ ###
+ 
+ building_rationationcenter:0 "配给中心"
+ building_rationationcenter_desc:0 "合理分配一切是政府的义务。\n\n"
+ 
+ building_sociallabor:0 "社会工作中心"
+ building_sociallabor_desc:0 "人人都会得到适合他们的工作。\n\n"
+ 
+ building_governmenthq:0 "政府总部"
+ building_governmenthq_desc:0 "这栋大楼是我们帝国的核心，决策都是从这里发出的。\n\n"
+ 
+ ###
+ 
+ building_temple:0 "寺庙"
+ building_temple_desc:0 "这里是星球人们祈祷的宗教场所。\n\n"
+ 
+ building_monolith:0 "神圣巨石"
+ building_monolith_desc:0 "这是上帝赐予我们的礼物。\n\n"
+ 
+ building_acensionthrone:0 "朝拜场所"
+ building_acensionthrone_desc:0 "朝圣是一个很庄重的仪式，是宗教必不可缺的一部分。\n\n"
+ 
+ ###
+ 
+ building_sentienttest:0 "预知测试中心"
+ building_sentienttest_desc:0 "有情感的测试方能提高我们研究的效率。\n\n"
+ 
+ building_formationcenter:0 "成胚中心"
+ building_formationcenter_desc:0 "可定制的公民培养基地。\n\n"
+ 
+ building_experimentalcenter:0 "实验测试装置"
+ building_experimentalcenter_desc:0 "这里是重点实验新设备技术的绝密设施。\n\n"
+ 
+ ###
+  
+ building_planetfortress:0 "行星要塞"
+ building_planetfortress_desc:0 "这个堡垒将是我们地面部队的训练中心。\n\n"
+ 
+ building_weapontesting:0 "武器试验场"
+ building_weapontesting_desc:0 "只有经过测试的武器，方能让帝国繁荣昌盛。\n\n"
+ 
+ building_experimentalweapon:0 "试验武器研究设施"
+ building_experimentalweapon_desc:0 "绝密武器试验场是帝国强大力量的保障。\n\n"
+ 
+ ###
+ 
+ building_embassy:0 "大使馆"
+ building_embassy_desc:0 "这是建立的外交第一步。\n\n"
+ 
+ building_xenocorps:0 "外星训练中心"
+ building_xenocorps_desc:0 "利用训练手段提高对我们外星政策是非常重要的。\n\n"
+ 
+ building_galacticunited:0 "银河国家统一"
+ building_galacticunited_desc:0 "用于银河交流的各国代表外交会议的地方。\n\n"
+ 
+ ###
+ 
+ building_concentration:0 "集中营"
+ building_concentration_desc:0 "专门处理"不良基因"的地方。\n\n"
+ 
+ building_cleansingcenter:0 "清洗中心"
+ building_cleansingcenter_desc:0 "纯净种族是帝国最优先的事情。\n\n"
+ 
+ building_purityhall:0 "纯洁会所"
+ building_purityhall_desc:0 "这里是向外星生物展示我们的力量专门供奉民族英雄的地方。\n\n"
+ 
+ ###
+ 
+ building_xenorec:0 "外星娱乐中心"
+ building_xenorec_desc:0 "为外星物种提供休闲娱乐的地方，这将有利于帮助他们融入我们的社会。\n\n"
+ 
+ building_xenotowns:0 "外星城"
+ building_xenotowns_desc:0 "这些外星人口城市是提高外星生物的生活质量的地方。\n\n"
+ 
+ building_unitycenter:0 "联合中心"
+ building_unitycenter_desc:0 "这个国家建筑是保障外星生物能充分融合进帝国的文化。\n\n"
+ 

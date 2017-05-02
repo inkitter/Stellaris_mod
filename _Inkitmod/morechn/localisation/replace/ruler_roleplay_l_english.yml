@@ -1,0 +1,619 @@
+﻿l_english:
+###RULER_LEVEL_SYSTEM#######################
+#English (Translate Improved by Peterowsky)#
+#######################################################
+#Ignore Chinese words if you are not CN/TW/HK Players,#
+#they are used to translate.###########################
+#######################################################
+#可是瑞凡，我的中文四字成語很辣雞的XD#
+#能寫能讀是可以的，但是文言文就不行了#
+########################################################
+#MAIN MENU, PRESS Ctrl+F TO FIND string quickly#
+################################################
+########
+#Edicts#
+########
+#Ruler edicts is potato
+#(Copy "#Ruler edicts is potato", then find it with Ctrl+F)
+############
+#4/11 added#
+############
+#My ruler please stop being stupid
+
+################
+#HOBBIES EVENTS#
+################
+#MAKE SPACE GREAT M8
+
+####################################
+###Please Translate these three, somehow Paradox forgot to translate them.###
+ country_resource_physics_research_add:0 "每月物理研究"
+ country_resource_society_research_add:0 "每月社会研究"
+ country_resource_engineering_research_add:0 "每月工程研究"
+ 
+ play_as_ruler.3.name:0 "§H[Root.GetRulerName]§!的思想"
+ play_as_ruler.3.desc_01:0 "关于§H[Root.GetName]§!的§Y[Root.GetRulerTitle]§!，改善帝国这是我的工作，而且是从未有人做过的事情。因此，我列出一些值得做的计划。"
+ play_as_ruler.3.desc_02:0 "是时候该引导§H[Root.GetName]§!的前进方向。"
+ 
+###Don't Translate below, won't place in mod for now###
+ #play_as_ruler.3.desc_fleet_1000:0 "Our fleet power is minuscule. There is extreme danger involved, if even the weakest of our enemies would dare attac"
+ #play_as_ruler.3.desc_fleet_5000:0 "§H[Root.GetName]§! is somewhat militarised, yet we are still merely small animals in the jungle."
+ #play_as_ruler.3.desc_fleet_10000:0 "§H[Root.GetName]§! has over §Y5,000§! fleet power; it would be a good time to pay attention to our upkeep."
+ #play_as_ruler.3.desc_fleet_30000:0 "§H[Root.GetName]§! has some decent fleets, over §Y10,000§! fleet power. It might be time to turn our attention someplace else."
+ #play_as_ruler.3.desc_fleet_100000:0 "We have over §Y30,000§! fleet power now; surely, the other empires will not dare disrespect us now!"
+ #play_as_ruler.3.desc_fleet_above:0 "Tremble before our might! No superpower may pose a threat to §H[Root.GetName]§!."
+###Don't Translate above, won't place in mod for now###
+ play_as_ruler.3.a:0 "不管了，下次再说。"
+ #別管了，下次再說。
+ play_as_ruler.3.a_01:0 "先别做这事。"
+ #先不要做這些事。
+ play_as_ruler.3.a_02:0 "现在不是个好时机。"
+ #現在不是好時機。
+ play_as_ruler.3.a_03:0 "算了。"
+ #算了。
+ play_as_ruler.3.tooltip.a:0 "§Y[Root.GetRulerName]§!不会给§H[Root.GetName]§!带来任何好处直到2年后。"
+ play_as_ruler.3.desc_endline:0 "每一步动作都会引发§H[Root.GetName]§!注意。但会有些§R副作用§!。\n\n我应该慎重考虑这些..."
+ play_as_ruler.3.desc_endline_firsttime:0 "当我们的帝国已经足够£influence  §G影响力§!或者更多时候，我可以执行我定的计划。我列出每项决定都可以给§H[Root.GetName]§!一些好处，当然也会有些§R副作用§!。\n\n我应该慎重考虑这些..."
+ 
+ ###MODIFIER_EVENTS###
+ #play_as_ruler.30.name:0 "Research Requires Funds"
+ #play_as_ruler.30.desc:0 "Our science team is working extremely hard to keep us at the cutting-edge. However, it appears that their resources are running out. They are asking us whether can spare some credits to them."
+ #play_as_ruler.30.a:0 "Give them Credits."
+ #play_as_ruler.30.b:0 "No, We don't have any resource to spare."
+ #play_as_ruler.31.name:0 "Researchers Thrived!"
+ #play_as_ruler.31.desc:0 "The Science team asking us for funds from months ago achieved a breakthrough! The test result was better than expected! They are thanking us for funding them. Surely, without §H[Root.GetRulerName]§! this would never have been possible."
+ #play_as_ruler.31.a:0 "It's nothing."
+ #play_as_ruler.31.b:0 "Eggcellent."
+ 
+ #PHILOSOPHER KING#
+ play_as_ruler.20.name:0 "哲学之王"
+ #哲♂學♂之王
+ play_as_ruler.20.desc:0 "§H[Root.GetRulerName]§!是§H[Root.GetName]§!的统治者，[ruler.GetSheHe]将引向繁荣。"
+ play_as_ruler.20.a:0 "给我们[Root.GetRulerTitle]！"
+ play_as_ruler.20.tooltip:0 "§L每个新统治者都要设置，假如你帝国有哲学之王，他们初始等级为§G3§!。§!"
+ #10 EXP REACHED#
+ play_as_ruler.8994.name:0 "统治者的庆典！"
+ play_as_ruler.8994.desc:0 "To thanks §H[ruler.GetName]§! for making every effort to the [root.GetName], our Empire Loyalist hold a Celebration to [ruler.GetHerHim]."
+ #LEVELUP#
+ play_as_ruler.9001.name:0 "统治者升级"
+ play_as_ruler.9001.desc:0 "§H[Root.GetRulerName]§!升级为§G2§!。"
+ play_as_ruler.9002.desc:0 "§H[Root.GetRulerName]§!升级为§G3§!。"
+ play_as_ruler.9003.desc:0 "§H[Root.GetRulerName]§!升级为§G4§!。"
+ play_as_ruler.9004.desc:0 "§H[Root.GetRulerName]§!升级为§G5§!。"
+ play_as_ruler.9005.desc:0 "§H[Root.GetRulerName]§!升级为§G6§!。"
+ play_as_ruler.9006.desc:0 "§H[Root.GetRulerName]§!升级为§G7§!。"
+ play_as_ruler.9007.desc:0 "§H[Root.GetRulerName]§!升级为§G8§!。"
+ play_as_ruler.9008.desc:0 "§H[Root.GetRulerName]§!升级为§G9§!。"
+ play_as_ruler.9009.desc:0 "§H[Root.GetRulerName]§!升级为§G满级§!。"
+ play_as_ruler.9000.a:0 "知道了。"
+#HOBBIES#
+ play_as_ruler.gethobby:0 "统治者获得了爱好"
+ play_as_ruler.9011.desc:0 "§H[Root.GetRulerName]§!现在有§G地主§!爱好。"
+ play_as_ruler.9012.desc:0 "§H[Root.GetRulerName]§!现在有§G建造§!爱好。"
+ play_as_ruler.9013.desc:0 "§H[Root.GetRulerName]§!现在有§G造船§!爱好。"
+ play_as_ruler.9014.desc:0 "§H[Root.GetRulerName]§!现在有§G投资§!爱好。"
+ play_as_ruler.9015.desc:0 "§H[Root.GetRulerName]§!现在有§G物流§!爱好。"
+ play_as_ruler.9016.desc:0 "§H[Root.GetRulerName]§!现在有§G矿工§!爱好。"
+ play_as_ruler.9017.desc:0 "§H[Root.GetRulerName]§!现在有§G调查者§!爱好。"
+ play_as_ruler.9018.desc:0 "§H[Root.GetRulerName]§!现在有§G影响§!爱好。"
+ play_as_ruler.9019.desc:0 "§H[Root.GetRulerName]§!现在有§G法律§!爱好。"
+ play_as_ruler.9021.desc:0 "§H[Root.GetRulerName]§!现在有§G物理研究§!爱好。"
+ play_as_ruler.9022.desc:0 "§H[Root.GetRulerName]§!现在有§G社会研究§!爱好。"
+ play_as_ruler.9023.desc:0 "§H[Root.GetRulerName]§!现在有§G工程研究§!爱好。"
+ play_as_ruler.9024.desc:0 "§H[Root.GetRulerName]§!现在有§G资源回收§!爱好。"
+ play_as_ruler.9025.desc:0 "§H[Root.GetRulerName]§!现在有§G权力统一§!爱好。"
+
+ yaya_energy_exchange_1:0 "§L投资我们的£energy 能源币。§!"
+ yaya_energy_exchange_2:0 "§L贷款£energy 能源币。§!"
+ yaya_minerals_exchange_1:0 "§L投资我们的£minerals 矿物收入。§!"
+ yaya_minerals_exchange_2:0 "§L贷款£minerals 矿物。§!"
+ yaya_research_exchange_1:0 "§L促进我们的£physics £society £engineering 研究点数。§!"
+ yaya_research_focus:0 "§L我们该改善帝国的£physics £society £engineering 科学研究。§!"
+ yaya_mineral_focus:0 "§L关注开采£minerals 矿物。§!"
+ yaya_energy_focus:0 "§L关注£energy 能源收入。§!"
+ yaya_food_focus:0 "§L给予帝国的£food 食物促进。§!"
+ yaya_build_focus:0 "§H需要更多建筑以及改善它们。§!"
+ yaya_clean_tile_focus:0 "§H清理我们星球上所有的障碍区。§!"
+ yaya_ftl_focus:0 "§H让我们的战舰的FTL性能更好。§!"
+ yaya_ship_build_focus:0 "§H提高我们建造船舶的速度。§!"
+ yaya_ship_cost_focus:0 "§H减少我们船舶建造维护成本。§!"
+ yaya_ship_combat_focus:0 "§H改善我们战舰的战斗能力。§!"
+ yaya_ship_power_focus:0 "§H提高我们战舰的武器伤害。§!"
+ yaya_trade_focus:0 "§H与他国交易需要合理性。§!"
+ yaya_trust_focus:0 "§H努力改善与他国关系。§!"
+ yaya_survey_focus:0 "§H鼓励调查恒星。§!"
+ yaya_speed_focus:0 "§H我们的战舰在星系内移动速度更快。§!"
+ yaya_colonize_focus:0 "§H初始殖民活动。§!"
+ yaya_happy_focus:0 "§H将我们资源用在公民最需要的地方。§!"
+ yaya_edict_focus:0 "§H使我们的法令更加灵活。§!"
+ yaya_militarist_focus:0 "§Y增强我们的军事力量。§!"
+ yaya_pacifist_focus:0 "§Y教导和谐哲学。§!"
+ yaya_materialist_focus:0 "§Y推动我们努力探索科学的未知。§!"
+ yaya_spiritualist_focus:0 "§Y教育我们的人民遵循真理之路。§!"
+ yaya_collectivist_focus:0 "§Y权力统一是必须的。§!"
+ yaya_individualist_focus:0 "§Y让我们公民知道他们的权利。§!"
+ yaya_xenophobe_focus:0 "§Y保卫帝国安全。§!"
+ yaya_xenophile_focus:0 "§Y欢迎远方客人。§!"
+#YAYA THATS TONS OF CAMPAIGN MODIFIERS 
+ ruler_militarist_focus_1:0 "军事力量"
+ ruler_militarist_focus_1_desc:0 "§L来自我们统治者的思想。\n独特帝国法令。§!"
+ ruler_pacifist_focus_1:0 "和谐哲学"
+ ruler_pacifist_focus_1_desc:0 "§L来自我们统治者的思想。\n独特帝国法令。§!"
+ ruler_materialist_focus_1:0 "探索未知"
+ ruler_materialist_focus_1_desc:0 "§L来自我们统治者的思想。\n独特帝国法令。§!"
+ ruler_spiritualist_focus_1:0 "真理之路"
+ ruler_spiritualist_focus_1_desc:0 "§L来自我们统治者的思想。\n独特帝国法令。§!"
+ ruler_collectivist_focus_1:0 "权力统一"
+ ruler_collectivist_focus_1_desc:0 "§L来自我们统治者的思想。\n独特帝国法令。§!"
+ ruler_individualist_focus_1:0 "自由权利"
+ ruler_individualist_focus_1_desc:0 "§L来自我们统治者的思想。\n独特帝国法令。§!"
+ ruler_xenophobe_focus_1:0 "优化操作"
+ ruler_xenophobe_focus_1_desc:0 "§L来自我们统治者的思想。\n独特帝国法令。§!"
+ ruler_xenophile_focus_1:0 "星星的活动"
+ ruler_xenophile_focus_1_desc:0 "§L来自我们统治者的思想。\n独特帝国法令。§!"
+
+ ruler_minerals_focus_1:0 "采矿活动"
+ ruler_minerals_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_energy_focus_1:0 "能源超载"
+ ruler_energy_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_food_focus_1:0 "丰收计划"
+ ruler_food_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_research_focus_1:0 "研究关注"
+ ruler_research_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_build_focus_1:0 "城市升级"
+ ruler_build_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_clean_tile_focus_1:0 "清理鼓励"
+ ruler_clean_tile_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_ftl_focus_1:0 "星际旅行者"
+ ruler_ftl_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_ship_build_focus_1:0 "船舶建造"
+ ruler_ship_build_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_ship_cost_focus_1:0 "船舶管理"
+ ruler_ship_cost_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_ship_combat_focus_1:0 "舰队巡逻"
+ ruler_ship_combat_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_ship_power_focus_1:0 "伤害最大化"
+ ruler_ship_power_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_trade_focus_1:0 "合理的外星贸易"
+ ruler_trade_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_trust_focus_1:0 "可信赖的伙伴"
+ ruler_trust_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_survey_focus_1:0 "星系调查赞助"
+ ruler_survey_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_speed_focus_1:0 "亚光速引擎最优化"
+ ruler_speed_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_colonize_focus_1:0 "全新世界"
+ ruler_colonize_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_happy_focus_1:0 "当地关照"
+ ruler_happy_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_edict_focus_1:0 "灵活法令"
+ ruler_edict_focus_1_desc:0 "§L来自我们统治者的思想。§!"
+ 
+ ruler_energy_exchange_1:0 "能源币投资"
+ ruler_energy_exchange_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_energy_exchange_2:0 "能源币贷款"
+ ruler_energy_exchange_2_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_minerals_exchange_1:0 "矿物投资"
+ ruler_minerals_exchange_1_desc:0 "§L来自我们统治者的思想。§!"
+ ruler_minerals_exchange_2:0 "矿物贷款"
+ ruler_minerals_exchange_2_desc:0 "§L来自我们统治者的思想。§!"
+#HOBBIES ICON NAME
+ trait_ruler_hobby_agrarian:0 "§L统治者爱好:§B地主§!§!"
+ trait_ruler_hobby_builder:0 "§L统治者爱好:§B建造§!§!"
+ trait_ruler_hobby_fleet:0 "§L统治者爱好:§B造船§!§!"
+ trait_ruler_hobby_investor:0 "§L统治者爱好:§B投资§!§!"
+ trait_ruler_hobby_logistician:0 "§L统治者爱好:§B物流§!§!"
+ trait_ruler_hobby_miner:0 "§L统治者爱好:§B矿工§!§!"
+ trait_ruler_hobby_research:0 "§L统治者爱好:§B调查者§!§!"
+ trait_ruler_hobby_physic:0 "§L统治者爱好:§B物理研究§!§!"
+ trait_ruler_hobby_social:0 "§L统治者爱好:§B社会研究§!§!"
+ trait_ruler_hobby_engineering:0 "§L统治者爱好:§B工程研究§!§!"
+ trait_ruler_hobby_influence:0 "§L统治者爱好:§B影响§!§!"
+ trait_ruler_hobby_edict:0 "§L统治者爱好:§B法律§!§!"
+ trait_ruler_hobby_recycle:0 "§L统治者爱好:§B资源回收§!§!"
+ trait_ruler_hobby_unity:0 "§L统治者爱好:§B权力统一§!§!"
+ 
+ trait_ruler_hobby_agrarian_experienced:0 "§L统治者爱好:§B地主§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_builder_experienced:0 "§L统治者爱好:§B建造§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_fleet_experienced:0 "§L统治者爱好:§B造船§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_investor_experienced:0 "§L统治者爱好:§B投资§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_logistician_experienced:0 "§L统治者爱好:§B物流§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_miner_experienced:0 "§L统治者爱好:§B矿工§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_research_experienced:0 "§L统治者爱好:§B调查者§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_physic_experienced:0 "§L统治者爱好:§B物理研究§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_social_experienced:0 "§L统治者爱好:§B社会研究§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_engineering_experienced:0 "§L统治者爱好:§B工程研究§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_influence_experienced:0 "§L统治者爱好:§B影响§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_edict_experienced:0 "§L统治者爱好:§B法律§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_recycle_experienced:0 "§L统治者爱好:§B资源回收§!§G(经验丰富)§!§!"
+ trait_ruler_hobby_unity_experienced:0 "§L统治者爱好:§B权力统一§!§G(经验丰富)§!§!"
+ 
+ trait_ruler_hobby_agrarian_expert:0 "§L统治者爱好:§B地主§!§Y(专家)§!§!"
+ trait_ruler_hobby_builder_expert:0 "§L统治者爱好:§B建造§!§Y(专家)§!§!"
+ trait_ruler_hobby_fleet_expert:0 "§L统治者爱好:§B造船§!§Y(专家)§!§!"
+ trait_ruler_hobby_investor_expert:0 "§L统治者爱好:§B投资§!§Y(专家)§!§!"
+ trait_ruler_hobby_logistician_expert:0 "§L统治者爱好:§B物流§!§Y(专家)§!§!"
+ trait_ruler_hobby_miner_expert:0 "§L统治者爱好:§B矿工§!§Y(专家)§!§!"
+ trait_ruler_hobby_research_expert:0 "§L统治者爱好:§B调查者§!§Y(专家)§!§!"
+ trait_ruler_hobby_physic_expert:0 "§L统治者爱好:§B物理研究§!§Y(专家)§!§!"
+ trait_ruler_hobby_social_expert:0 "§L统治者爱好:§B社会研究§!§Y(专家)§!§!"
+ trait_ruler_hobby_engineering_expert:0 "§L统治者爱好:§B工程研究§!§Y(专家)§!§!"
+ trait_ruler_hobby_influence_expert:0 "§L统治者爱好:§B影响§!§Y(专家)§!§!"
+ trait_ruler_hobby_edict_expert:0 "§L统治者爱好:§B法律§!§Y(专家)§!§!"
+ trait_ruler_hobby_recycle_expert:0 "§L统治者爱好:§B资源回收§!§Y(专家)§!§!"
+ trait_ruler_hobby_unity_expert:0 "§L统治者爱好:§B权力统一§!§Y(专家)§!§!"
+ 
+ trait_ruler_hobby_hive:0 " "
+ 
+ trait_ruler_hobby_agrarian_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_builder_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_fleet_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_investor_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_logistician_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_miner_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_research_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_physic_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_social_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_engineering_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_influence_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_edict_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_recycle_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ trait_ruler_hobby_unity_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5 - 10年。§!"
+ 
+ trait_ruler_hobby_agrarian_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_builder_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_fleet_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_investor_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_logistician_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_miner_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_research_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_physic_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_social_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_engineering_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_influence_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_edict_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_recycle_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_unity_experienced_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ 
+ trait_ruler_hobby_agrarian_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_builder_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_fleet_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_investor_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_logistician_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_miner_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_research_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_physic_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_social_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_engineering_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_influence_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_edict_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_recycle_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ trait_ruler_hobby_unity_expert_desc:0 "§L每个统治者都有一次随机爱好机会。统治者爱好能适当改善帝国一些情况。\n每个爱好将持续5年。§!"
+ 
+ trait_ruler_hobby_hive_desc:0 "§L蜂群思维的统治者无法拥有爱好。但他们仍能像其他统治者一样升级。§!"
+ 
+ trait_ruler_hobby_tooltip:0 "每个统治者§L(不包括蜂群思维)§!都有一次随机爱好机会。爱好能适当改善帝国一些情况。每个爱好将持续5-10年。"
+ #RULER LEVEL BAR
+ trait_witness_ruler_lv1:0 "§L统治者等级:§G1§!§!"
+ trait_witness_ruler_lv2:0 "§L统治者等级:§G2§!§!"
+ trait_witness_ruler_lv3:0 "§L统治者等级:§G3§!§!"
+ trait_witness_ruler_lv4:0 "§L统治者等级:§G4§!§!"
+ trait_witness_ruler_lv5:0 "§L统治者等级:§G5§!§!"
+ trait_witness_ruler_lv6:0 "§L统治者等级:§G6§!§!"
+ trait_witness_ruler_lv7:0 "§L统治者等级:§G7§!§!"
+ trait_witness_ruler_lv8:0 "§L统治者等级:§G8§!§!"
+ trait_witness_ruler_lv9:0 "§L统治者等级:§G9§!§!"
+ trait_witness_ruler_lv10:0 "§L统治者等级:§G10§!§!"
+ 
+ trait_witness_ruler_lv1_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv2_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv3_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv4_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv5_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv6_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv7_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv8_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv9_desc:0 "§L§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ trait_witness_ruler_lv10_desc:0 "§L统治者已经§Y满级§!。\n§Y统治者等级条§!确定帝国统治者的经验。\n通过§Y保持活动§!或§Y长期的帝国管理§!将有机会提高统治者等级。\n统治者等级越高，获益越大§!"
+ 
+ play_as_ruler.consider_expert:0 "§H[ruler.GetName]§!的考虑"
+ play_as_ruler.consider_firsttime:0 "\n§H[ruler.GetName]§!有某一爱好数次，[ruler.GetSheHe]可以确定[ruler.GetHerHim]自己是否成为这个爱好的专家。\n\n请注意，在一定时间内§H[ruler.GetName]§!只能有一个[ruler.GetHerHis]的专家爱好。"
+ play_as_ruler.consider_yes:0 "当然！"
+ ruler_consider_yes_tooltip:0 "一旦选定，§H[ruler.GetName]§!会将爱好变为专家，而且不能转变其他爱好。"
+ play_as_ruler.consider_no:0 "在重新考虑前，我未必能欣赏它们。"
+ play_as_ruler.consider_no_meme:0 "不，这简直是个垃圾。"
+ #不，這簡直是辣雞。#
+ #Potato: To describe something is very bad, literally trash.
+ ruler_consider_tooltip:0 "§L"不错，这很愚蠢。"§!\n    - §H[ruler.GetName]§!"
+ #§L"可以，這很辣雞。"§!\n    - §H[ruler.GetName]§!#
+ 
+ play_as_ruler.9031.desc:0 "通过长时间的农耕后，我认为自己是来自§G地主§!的专家..."
+ play_as_ruler.9032.desc:0 "经过多次指导建造后，我认为自己是来自§G建造§!的专家..."
+ play_as_ruler.9033.desc:0 "经过多次指导造船后，我认为自己是来自§G造船§!的专家..."
+ play_as_ruler.9034.desc:0 "经过多次指导投资后，我认为自己是来自§G投资§!的专家..."
+ play_as_ruler.9035.desc:0 "经过多次指导物流后，我认为自己是来自§G物流§!的专家..."
+ play_as_ruler.9036.desc:0 "经过多次指导矿工后，我认为自己是来自§G矿工§!的专家..."
+ play_as_ruler.9037.desc:0 "经过多次指导科学后，我认为自己是来自§G调查者§!的专家..."
+ play_as_ruler.9038.desc:0 "经过多次指导科学后，我认为自己是来自§G物理研究§!的专家..."
+ play_as_ruler.9039.desc:0 "经过多次指导科学后，我认为自己是来自§G社会研究§!的专家..."
+ play_as_ruler.9040.desc:0 "经过多次指导科学后，我认为自己是来自工程研究!的专家..."
+ play_as_ruler.9041.desc:0 "经过多次谈话交流后，我认为自己是来自§G影响§!的专家..."
+ play_as_ruler.9042.desc:0 "颁布多次合法法令后，我认为自己是来自§G法律§!的专家..."
+ play_as_ruler.9043.desc:0 "指导多次节能减排后，我认为自己是来自§G资源回收§!的专家..."
+ play_as_ruler.9044.desc:0 "使我们公民更加团结，我认为自己是来自§G权力统一§!的专家..."
+###EDICTS###
+#Ruler edicts is potato
+ edict_play_as_ruler_get_more_idea:0 "§Y统治者的主意支持§!"
+ edict_play_as_ruler_get_more_idea_desc:0 "告诉你的统治者要发散思维多组织更加有益的活动。\n\n统治者活动所需时间: §G-50%§!\n§E( §G5§!>§G2.5§! - 0.5年)§!"
+ edict_play_as_ruler_slow_down_idea:0 "§Y统治者的主意反对§!"
+ edict_play_as_ruler_slow_down_idea_desc:0 "告诉你的统治者要坚持基本路线一百年不变。\n\n统治者活动所需时间: §R+100%§!\n§E( §R5§!>§R10§! - §R0.5§!>§R1§!年)§!"
+ edict_play_as_ruler_no_idea:0 "§Y统治者的主意禁用§!"
+ edict_play_as_ruler_no_idea_desc:0 "告诉你的统治者，他的主意非常弱智。\n\n§R这个将会禁用统治者举办活动的功能。§!"
+ #跟統治者說他的活動全都是辣雞。\n\n§R選擇這個會關閉統治者舉辦活動的功能。§!
+ #Ruler Campaign Require Time:統治者活動所需時間
+##############################
+###Added by Mod Author 4/11###
+###RULER HOBBIES FOCUS########
+#My ruler please stop being stupid
+ policy_aplay_as_ruler_hobby_focus:0 "统治者专注爱好"
+ policy_aplay_as_ruler_hobby_focus_desc:0 "在这里你可以确定统治者爱好。\n§E每位统治者§L(除了蜂群思维)§!都有一次随机爱好机会。爱好能适当改善帝国一些情况。每个爱好将持续5年。\n§E它有利于统治者更加关注某个领域，如果他们想更好为公民服务的话。§!\n"
+ play_as_ruler_hobby_focus_random_choose:0 "随机爱好"
+ play_as_ruler_hobby_focus_random_choose_name:0 "随机爱好"
+ play_as_ruler_hobby_focus_random_choose_desc:0 "让你的统治者选个想要的爱好。"
+ 
+ play_as_ruler_hobby_focus_ecomony:0 "§H环境关注§!"
+ play_as_ruler_hobby_focus_ecomony_name:0 "§L环境关注§!"
+ play_as_ruler_hobby_focus_ecomony_desc:0 "§L告诉你的统治者把心放在帝国的环境上来。§!\n§E可能的爱好:\n§B地主§!, §B建造§!, §B社会研究§!，§B资源回收§!§！"
+ 
+ play_as_ruler_hobby_focus_product:0 "§H生产关注§!"
+ play_as_ruler_hobby_focus_product_name:0 "§L生产关注§!"
+ play_as_ruler_hobby_focus_product_desc:0 "§L告诉你的统治者把心放在帝国的生产上来。§!\n§E可能的爱好:\n§B投资§!，§B建造§!，§B旷工§!，§B工程研究§!§！"
+ 
+ play_as_ruler_hobby_focus_research:0 "§H研究关注§!"
+ play_as_ruler_hobby_focus_research_name:0 "§L研究关注§!"
+ play_as_ruler_hobby_focus_research_desc:0 "§L告诉你的统治者把心放在帝国的科研上来。§!\n§E可能的爱好:\n§B调查§!, §B物理研究§!, §B社会研究§!, §B工程研究§!§！"
+ 
+ play_as_ruler_hobby_focus_influence:0 "§H影响关注§!"
+ play_as_ruler_hobby_focus_influence_name:0 "§L影响关注§!"
+ play_as_ruler_hobby_focus_influence_desc:0 "§L告诉你的统治者把心放在帝国的影响上来。§!\n§E可能的爱好:\n§B影响§!, §B法律§!, §B权力统一§!§！"
+ 
+ play_as_ruler_hobby_focus_ship:0 "§H舰队关注§!"
+ play_as_ruler_hobby_focus_ship_name:0 "§L舰队关注§!"
+ play_as_ruler_hobby_focus_ship_desc:0 "§L告诉你的统治者把心放在帝国的军事实力上来。§!\n§E可能的爱好:\n§B造船§!, §B物流§!, §B物理研究§!§！"
+ 
+ 
+ play_as_ruler.9499.name:0 "统治者专注爱好激活"
+ play_as_ruler.9499.desc:0 "§H[ruler.GetName]§!将会随机选择个[ruler.GetHerHis]作为想要的爱好。\n\n你可以更改在帝国的§H政策与法令§!的[ruler.GetHerHim]使其专注在某方面。"
+ play_as_ruler.9499.a:0 "注意。"
+ play_as_ruler.9499.tooltip:0 "你可以在帝国的§H政策与法令§!找到统治者专注爱好。"
+############################
+#MAKE SPACE GREAT M8
+
+####################################
+ play_as_ruler.10000.name:0 "§HRLS需要你的帮助§!"
+ play_as_ruler.10000.desc:0 "§H你好，我是RLS作者。感谢你使用这个MOD:D§!\n\n当前我想制作相关事件，因为我觉得它们不应该仅仅只是个领导人的特质。但我想法有限 - 我没法想出更多更好的想法。\n\n希望你们能给予我点帮助，提供一些新的思路，我会尽最大的努力让它们实现，谢谢你！"
+ play_as_ruler.10000.a:0 "好的！"
+ play_as_ruler.10000.tooltip:0 "如果你有什么好的想法，来RLS的MOD页面提供一些建议，谢谢！"
+
+ play_as_ruler.hobby.reward.name:0 "统治者爱好进展"
+ play_as_ruler.hobby.reward.good_01:0 "工作完成。"
+ play_as_ruler.hobby.reward.good_02:0 "棒极了。"
+ play_as_ruler.hobby.reward.good_03:0 "比预期的要好得多。"
+ play_as_ruler.hobby.reward.good_04:0 "没关系。"
+ play_as_ruler.hobby.reward.good_05:0 "出色的工作。"
+ play_as_ruler.hobby.reward.good_06:0 "很好。"
+ play_as_ruler.hobby.reward.bad_01:0 "也许下次运气会变好。"
+ play_as_ruler.hobby.reward.bad_02:0 "这样事情不会有下次了。"
+ play_as_ruler.hobby.reward.bad_03:0 "我搞糟了。"
+ play_as_ruler.hobby.reward.bad_04:0 "太糟糕了。"
+ play_as_ruler.hobby.reward.bad_05:0 "我那愚蠢的想法。"
+ play_as_ruler.hobby.reward.bad_06:0 "唉！"
+ 
+ play_as_ruler.hobby.exp.increase.tooltip:0 "§H[ruler.GetName]§!的爱好经验增加！"
+ play_as_ruler.hobby.exp.decrease.tooltip:0 "§H[ruler.GetName]§!的爱好经验减少。"
+###########################
+#HOBBIES EVENTS
+ play_as_ruler.hobby.exp.highenough.tooltip:0 "This option is availible due to §H[ruler.GetName]§! has enough Hobby Experience."
+
+
+ play_as_ruler.2999.desc.good:0 "The recent Hobby §H[ruler.GetName]§! taken had a great progress, better then expected, providing [ruler.GetHerHim] much of experience."
+ play_as_ruler.2999.desc.normal:0 "The Hobby §H[ruler.GetName]§! recently taken had a decent progress, thus [ruler.GetSheHe] had gained some experience."
+ play_as_ruler.2999.desc.bad:0 "The Hobby §H[ruler.GetName]§! recently taken turned out was less than expected."
+##########
+#ARGARIAN
+#Chauser67
+#You attempt to convince colonists on your settled planets to try food native food types rather than just eating sources introduced from your homeworld. Could have a chance of going horribly wrong and causing a nasty effect to a planet's population. Alternately could be you trying to introduce colonial food sources into high society on your capital world.
+ play_as_ruler.3000.name:0 "天然食品"
+ play_as_ruler.3001.desc:0 "§H[ruler.GetName]§! is attempting to convince colonists on §H[planet.GetName]§! to try native food types, rather than just eating sources introduced from §H[homeplanet.GetName]§!. \n\nSurely, it could have a chance of going horribly wrong, and causing a nasty effect to §H[planet.GetName]§!'s population.\n\nAlternately, §H[ruler.GetName]§! could trying to introduce colonial food sources into high society on §H[capitalplanet.GetName]§!."
+ play_as_ruler.3001.a:0 "§Y[capitalplanet.GetName] will know [planet.GetName] has such a food.§!"
+ play_as_ruler.3001.b:0 "§YConvince colonists that those food are far better than imagined.§!"
+ play_as_ruler.3001.c:0 "Introduce [planet.GetName]'s native food to [capitalplanet.GetName]."
+ play_as_ruler.3001.d:0 "Try to convince colonists eating [planet.GetName]'s native food."
+ play_as_ruler.3002.name:0 "天然食物：介绍"
+ play_as_ruler.3002.desc:0 "At first, food from §H[planet.GetName]§! made §H[capitalplanet.GetName]§! people hesitate a bit.\n\nAfter sevenal tests from Scientists, proving the food has very high nutrition value to §H[Root.GetSpeciesNamePlural]§! people, §H[planet.GetName]§! has become popular food output world. Cook recipe about it spread like wildfire.\n\nThis made §H[planet.GetName]§! became popular among our world."
+ play_as_ruler.3003.desc:0 ""§H[planet.GetName]'s Potato food§!" headline spread out from §H[capitalplanet.GetName]§!.\n\nScientists said that these Potato from §H[planet.GetName]§! has less value than §H[homeplanet.GetName]§! one due to its absurd looks, they also mentioned that eating too much of this food might cause disgust effect to [Root.GetName].\n\nSuch a food won't be best among our people."
+ play_as_ruler.3004.name:0 "天然食物：说服"
+ play_as_ruler.3004.desc:0 "After §H[ruler.GetName]§! instructed §H[planet.GetName]§! of native food, the way how to make them a good diet, the colonists quickly accepted such a good meal.\n\nSuch a success will surely give §H[planet.GetName]§! a population boost."
+ play_as_ruler.3005.desc:0 "Unfortunately, despite the food tastes good, it also cause major food poisoning to [Root.GetSpeciesNamePlural] people. Local news also reported that one of the colonist accidently burn the entire building, making sevenal resource lost."
+ play_as_ruler.3005.a:0 "什么蘑菇。"
+#藍瘦香菇。
+##########
+#MINER
+#Chauser67
+#You become obsessed over what you suspect is a motherlode of resources underneath your residence. What follows is you increasingly tearing up the land around it (including some parks and other public spaces) in an increasingly desperate search for it. As for whether you do strike it, well...
+ play_as_ruler.3100.name:0 "矿物高峰"
+ play_as_ruler.3101.desc:0 "Recently, §H[ruler.GetName]§! cannot help but thinking there is a motherlode of resources underneath §H[planet.GetName]§!. Selected the possible area, [ruler.GetSheHe] planning to send a group to discover potental gold mine.\n\nHowever, the area itself had included parks and other public spaces, should anything go wrong might occur building collapse and stuff..."
+ play_as_ruler.3101.a:0 "§Y他们会发现好又温柔。§!"
+ play_as_ruler.3101.b:0 "让他们全力开采！"
+ play_as_ruler.3101.c:0 "搜索区域，但请注意安全。"
+ play_as_ruler.3101.d:0 "第二个想法，这是个荒谬的想法。"
+ play_as_ruler.3102.name:0 "矿物高峰：浪费时间"
+ play_as_ruler.3102.desc:0 "Sadly, despite couple of days for searching and digging, nothing interesting can be found at §H[planet.GetName]§!, all they dug out were dirt and ashes."
+ play_as_ruler.3103.name:0 "矿物高峰：山崩"
+ play_as_ruler.3103.desc:0 "During digging progress, one of the crew somehow made the land crust started to fall. News also reported that the digging progress cause some building in §H[planet.GetName]§! collapse, causing countless lost."
+ play_as_ruler.3104.name:0 "矿物高峰：下一步"
+ play_as_ruler.3104.desc:0 "In the progress of mining site, the crew are agruing about whether should they continue the mining, since there's giantic stone in their way. If they dig it out directly might occur rockfall.\n\nThey are awaiting §H[ruler.GetName]§!'s next direction."
+ play_as_ruler.3104.a:0 "§Y总有能把它们挖出来的办法。§!"
+ play_as_ruler.3104.b:0 "尝试把它们温柔挖出来。"
+ play_as_ruler.3104.c:0 "不冒险，换个地方继续挖。"
+ play_as_ruler.3105.name:0 "矿物高峰：原型矿"
+ play_as_ruler.3105.desc:0 "经过一些日子的挖掘和开采后，船员终于发现一些原始矿物！数量不是很多，但可以使用。"
+ play_as_ruler.3106.name:0 "矿物高峰：稀有矿"
+ play_as_ruler.3106.desc:0 "经过一些日子的挖掘和开采后，船员终于发现一些稀有矿物！数量很庞大，可以大量投入使用。"
+ play_as_ruler.3107.name:0 "矿物高峰：有趣的石头"
+ play_as_ruler.3107.desc:0 "After days of digging and mining, the Crew found a ... rock.\n\nBut it's not a ordinary rock, it has some interesting carving, one of the crew mentioned that we can keep it, or we can sell it to museum of [planet.GetName]."
+ play_as_ruler.3107.a:0 "保留它。"
+ play_as_ruler.3107.b:0 "卖了它。"
+############
+#Logistician
+#Chauser67
+# A crackdown on petty corruption! You confront one of your admirals over suspected kickbacks from overcharging supply and maintainence. 
+#YO ONE OF DE ADMIRER IS STEALING YOUR GOOD, SHOULDN'T YOU NOSCOPE THAT SCRUB?
+ play_as_ruler.3200.name:0 "失踪的供应"
+ play_as_ruler.3201.desc:0 "During one standard ship maintaining check, one of the [Root.GetName]'s fleet upkeep became unusually high, however there's no record from the check list.\n\nCould it be someone stealing them for propose?"
+ play_as_ruler.3201.a:0 "为什么供应突然一夜之间消失了？"
+ play_as_ruler.3201.tooltip:0 "§H[ruler.GetName]§! began [ruler.GetHerHis] search."
+ play_as_ruler.3202.name:0 "失踪的供应：嫌疑人"
+ play_as_ruler.3202.desc:0 "With §H[ruler.GetName]§!'s effort, [ruler.GetSheHe] caught the suspect whom stealing supplies.\n\nThe suspect, §H[admiral.GetName]§!, seems to use the stolen for something.\n\nWe should continue observe what §H[admiral.GetName]§! have in [admiral.GetHerHis] mind. Or, we can force [admiral.GetHerHim] to retire from admiral seat, since §H[ruler.GetName]§! caught §H[admiral.GetName]§! acting corruption to [ruler.GetHerHim], no one will have opinion."
+ play_as_ruler.3202.a:0 "Let's see what [admiral.GetName] is trying to do with them."
+ play_as_ruler.3202.b:0 "[admiral.GetName] is so fired from [admiral.GetHerHis] admiral seat!"
+ play_as_ruler.3202.tooltip:0 "§H[admiral.GetName]§! is fired from [Root.GetName]."
+ play_as_ruler.3203.name:0 "失踪的供应：原因"
+ play_as_ruler.3203.desc:0 "Several days later, in one of the regular ship checking, §H[admiral.GetName]§! appeared in the corner, carring one of the goods.\n\nBut §H[ruler.GetName]§! apperance completely caught [admiral.GetHerHim] off guard. The stolen supplies are safe and sound. When explaining, §H[admiral.GetName]§! said that [admiral.GetSheHe] is experimenting to maintain the supply lines efficiently, and hope §H[ruler.GetName]§! can give [admiral.GetHerHim] time for experiment the measure."
+ play_as_ruler.3203.a:0 "如果你愿意，我可以再教你一两件事。"
+ play_as_ruler.3203.tooltip:0 "§H[ruler.GetName]§! will teach §H[admiral.GetName]§! how to maintain supplies."
+ play_as_ruler.3203.b:0 "Let [admiral.GetHerHim] do what [admiral.GetSheHe] wants."
+ play_as_ruler.3203.c:0 "No, arrest [admiral.GetHerHim]. Take all the supplies [admiral.GetSheHe] had stolen."
+ play_as_ruler.3203.c.tooltip:0 "§H[admiral.GetName]§! is arrested and fired from [Root.GetName]."
+ play_as_ruler.3204.name:0 "失踪的供应：结果"
+ play_as_ruler.3204.desc_01:0 "With §H[ruler.GetName]§!'s advice, §H[admiral.GetName]§! manmaged to maintain supplies lines without any problem. Also, [admiral.GetSheHe] is thanking §H[ruler.GetName]§! for teaching [admiral.GetHerHim] such a good attempt.\n\n§H[admiral.GetName]§! also promised that the supplies will return to us."
+ play_as_ruler.3204.desc_02:0 "With enough measures and experiments, §H[admiral.GetName]§! manmaged to maintain supplies lines without any problem. Also, [admiral.GetSheHe] is thanking §H[ruler.GetName]§! for giving [admiral.GetHerHim] enough time for such of attempt.\n\n§H[admiral.GetName]§! also promised that the supplies will return to us."
+ play_as_ruler.3204.desc_03:0 "Unfortunately, despite §H[admiral.GetName]§! effort, the experiment didn't work out. The supplies [admiral.GetSheHe] used are wasted."
+ play_as_ruler.3204.a:0 "说得好，[admiral.GetName]！"
+ play_as_ruler.3204.b:0 "Hopefully [admiral.GetName] will know how to maintain the goods."
+ play_as_ruler.3204.c:0 "失望，但可以理解。"
+ play_as_ruler.3205.name:0 "失踪的供应：找回"
+ play_as_ruler.3205.desc:0 "With the disappearance of §H[admiral.GetName]§!, we manmaged to found what [admiral.GetSheHe] had stolen. Whatever §H[admiral.GetName]§! was trying to do with supplies, they are safe and sound now."
+
+###########
+#Flavor Edicts
+#Chauser67
+#You hire a professional speech expert to teach you how to speech confidently in your addresses to the empire.
+#LOL if you are the chosen one, speecher might 2 spooky 4 teaching u and the result will usually fail XDDDDDDD
+ play_as_ruler.3300.name:0 "教我怎么玩"
+ play_as_ruler.3301.desc:0 "As the Ruler of the [root.GetName], §H[ruler.GetName]§! has idea in mind about whether should [ruler.GetSheHe] hire a professional speech expert, to improve speeching confidently in [ruler.GetHerHis] addresses to the [root.GetName]..."
+ play_as_ruler.3301.desc_psionic:0 "But many religion priests suggested that the [root.GetRulerTitle] won't be needed for such a thing, since [ruler.GetSheHe] is already the powerful Psionics among our [root.GetSpeciesNamePlural] people."
+ play_as_ruler.3301.a:0 "是的，我将雇佣专家改善我的言语。"
+ play_as_ruler.3311.a.tooltip:0 "Hire an Expert Speecher to improve §H[ruler.GetName]§! confidence."
+ play_as_ruler.3301.b:0 "不，我不需要。"
+ play_as_ruler.3301.c:0 "这很不错，你总是能从专家那里学到东西。"
+ play_as_ruler.3311.c.tooltip:0 "Hire an Expert speecher to have a nice couple of tea with §H[ruler.GetName]§!."
+ play_as_ruler.3301.d:0 "Of course not, [Root.GetSpeciesNamePlural] people already knew my appearence."
+ play_as_ruler.3302.name:0 "教学：会面"
+ play_as_ruler.3302.desc_01:0 "Using the influence of [root.GetName], The Speecher had arrived to [planet.GetName] Capital."
+ play_as_ruler.3302.desc_02:0 "The Speecher met §H[ruler.GetName]§!, making a short introduction. After knowing that Ruler of [root.GetName] would like to know the tips about speeching confidence, he started to teach lesson for the [root.GetRulerTitle]."
+ play_as_ruler.3302.desc_psionic_01:0 "At first, the speecher seems kind of shock, he never thought that he will meet the [root.GetRulerTitle] [ruler.GetHerHim]self in front of his own eyes."
+ play_as_ruler.3302.desc_psionic_02:0 "Still, the Speecher made a short introduction. After knowing that §H[ruler.GetName]§! would like to know the tips about speeching confidence, he started to teach lesson for the [root.GetRulerTitle]."
+ play_as_ruler.3302.a:0 "很高兴见到你。"
+ play_as_ruler.3302.b:0 "让自己舒服。"
+ play_as_ruler.3303.name:0 "教学：上课"
+ play_as_ruler.3303.desc:0 "In the progress of the Lesson, The Speecher suggested that in addition of the lesson itself, they can have a chat without [root.GetName] routine, just the Speecher and §H[ruler.GetName]§! [ruler.GetHerHim]self. This also can help the confidence grow.\n\nThe two started to have a conversation talk."
+ play_as_ruler.3303.a:0 "你会感兴趣吗..."
+ play_as_ruler.3303.b:0 "我们有好几个..."
+ play_as_ruler.3303.c:0 "请通知我..."
+ play_as_ruler.3303.d:0 "我加你的Spacebook如何..."
+ play_as_ruler.3304.name:0 "教学：结果"
+ play_as_ruler.3304.desc_01:0 "After almost a mouth of lesson, §H[ruler.GetName]§! had finished the lesson about speech."
+ play_as_ruler.3304.desc_02:0 "The speecher believed that with the lesson, §H[ruler.GetName]§! had improved [ruler.GetHerHis] confidence."
+ play_as_ruler.3304.desc_03:0 "Sadly, the Lesson itself doesn't seem to do §H[ruler.GetName]§! any favor."
+ play_as_ruler.3304.desc_psionic_01:0 "But due to [ruler.GetSheHe] is the Powerful Psionics, The Speecher believed that the Psionic already improved §H[ruler.GetName]§! is already a professional of speecher."
+ play_as_ruler.3304.desc_psionic_02:0 "Although §H[ruler.GetName]§! didn't make any speeching progress, but the two somehow became close friends, not to mention [ruler.GetSheHe] added The Speecher to [ruler.GetHerHis] Spacebook."
+ play_as_ruler.3304.a:0 "这很好，认识一个朋友。"
+ play_as_ruler.3304.b:0 "我学到了很多。"
+ play_as_ruler.3304.c:0 "多么耻辱。"
+#Velth
+#your ruler decided to change the way he is leading the empire, change one of his traits (or agenda)
+ play_as_ruler.3310.name:0 "更好的道路"
+ play_as_ruler.3311.desc:0 "It is true for §H[ruler.GetName]§! being the [root.GetRulerTitle] of the [root.GetName], perhaps it would be more better if [ruler.GetSheHe] can make [ruler.GetHerHim]self even more - To change [ruler.GetHerHis] special skills."
+ play_as_ruler.3311.a:0 "是时候该做出改变了。"
+ play_as_ruler.3311.tooltip:0 "§H[ruler.GetName]§! will take a look for [ruler.GetHerHis] own Traits, special Traits not included."
+ play_as_ruler.3311.b:0 "现在我很满意。"
+ play_as_ruler.3312.name:0 "更好的道路：选择"
+ play_as_ruler.3312.desc:0 "§H[ruler.GetName]§! has confirmed [ruler.GetHerHis] skills, [ruler.GetHerHis] traits, everything [ruler.GetSheHe] got in [ruler.GetHerHis] mind.\n\nThe next step is to remove a unwanted Trait and try to get a new one...\n\n§LNote: §H[ruler.GetName]§! might gain the same trait in the end.§!"
+ play_as_ruler.3312.a:0 "第二个想法，我也很满意。"
+ play_as_ruler.3312.b:0 "试图摆脱这一个。"
+ play_as_ruler.3313.name:0 "更好的道路：结果"
+#你是歐洲人還是非洲酋長（滑稽）
+ play_as_ruler.3313.desc_ok:0 "Over days and weeks, §H[ruler.GetName]§! manmaged to remove [ruler.GetHerHis] previous trait, and gained a new one."
+ play_as_ruler.3313.desc_bad:0 "Sadly, with days and weeks of trying, §H[ruler.GetName]§! didn't manmage to remove [ruler.GetHerHis] previous trait."
+###########
+#Researcher
+#MinerSebas
+#Your Leader has a sudden inspiration for a new technologie. Now you can always research this specific Tech, as if you scanned it from shipwrecks.
+#this is kind of unbanlanced issue, thus only research points.
+ play_as_ruler.3400.name:0 "技术尤里卡"
+ play_as_ruler.3401.desc:0 "It appears that §H[ruler.GetName]§!'s works on Science research had encountered an obstacle, [ruler.GetSheHe] can ask people or help, or just try to solve the problem by [ruler.GetHerHim]self."
+ play_as_ruler.3401.a:0 "也许[scientist1.GetName]知道答案。"
+ play_as_ruler.3401.b:0 "也许[scientist2.GetName]知道答案。"
+ play_as_ruler.3401.c:0 "也许[scientist3.GetName]知道答案。"
+ play_as_ruler.3401.d:0 "我更喜欢做自己的"
+ play_as_ruler.3402.name:0 "技术提升：成功"
+ play_as_ruler.3402.desc_01:0 "With the help of §H[scientist.GetName]§!, the research test itself is successful. Both of them have gained some experience from it."
+ play_as_ruler.3402.desc_02:0 "The research test itself was successful. Our ruler has gained some experience from it."
+ play_as_ruler.3403.name:0 "技术提升：失败"
+ play_as_ruler.3403.desc:0 "Despite any attempt had been made, the research test itself had failed. Thus we didn't manmage to boost our research progress."
+##########
+#OBSERVED ONE SYSTEM
+ play_as_ruler.3405.name:0 "观测星系"
+ play_as_ruler.3405.desc:0 "During the research in star observing area, §H[ruler.GetName]§! manmaged to discover one distant star system called §H[distancestar.GetName]§!. After months of observing, the [root.GetRulerTitle] painted the recent discovered one on our star chart."
+#Velth
+#your leader dug through lost archives / noticed strange signal from space; begin chain event in which you send science ship to investigate some systems (or maybe some conversations with neighboring empires which can give you + or - opinion), during the time of the events empire research capacity is slightly lowered, becouse he is using them to fuel his project;
+#after event is finished gain either research, energy, minerals, discover ship or new solar system with something unique. Or receive messege 'it was all in vain'.
+ play_as_ruler.3420.name:0 "暗星系"
+###########
+#Resource Recycle
+#MinerSebas
+#The Leader may have the idea to use the dead bodies of its citizens as food (Soylent Green). This different from the livstock slavery, that your pops still produce normaly, but also give a small food bonus. 
+#If you are not Authoritarien and it is revealed to the general puplic, it will cause massive happiness debuffs and unrest.
+ play_as_ruler.3500.name:0 "尘埃灰烬"
+ play_as_ruler.3500.name:0 "尘埃灰烬"
+###########
+#Unity
+#Velth
+#your leader calls empire wide meeting for province governors, as a result 1 or 2 of them can receive trait (maybe depending on your choices in flavor 'couching' dialogue).
+ play_as_ruler.3600.name:0 "擦亮钻石"
+###########
+#Influence
+#Velth 
+#become leader of one of the existing political factions + receive some timed bonuses. Or disband one of factions.
+ play_as_ruler.3700.name:0 "擦亮钻石"
+##########
+#Contructor
+#why this area has such a high price?
+ play_as_ruler.3800.name:0 "走捷径"
+##########
+#Investor
+#
+ play_as_ruler.3900.name:0 "行星能量"
+ play_as_ruler.3900.desc:0 "§H[planet.GetName]§! has known as "Power Horse" by its energy production in our empire. §H[governor.GetName]§!, the currect planet governor, [governor.GetSheHe] has a suggest that if we invest §H[planet.GetName]§! with credits currectly we have, the planet itself can produce more energy.\n\nThere are two ways of require amounts, we can invest higher or lower credits to improve §H[planet.GetName]§!'s energy output. But §H[governor.GetName]§! also mention that the investment might have a chance to fail, we should think twice before acting."
+ play_as_ruler.3900.a:0 "§YGo with the high one, the investment itself won't go wrong.§!"
+ play_as_ruler.3900.b:0 "Go with higher credits."
+ play_as_ruler.3900.c:0 "Go with lower credits."
+ play_as_ruler.3900.d:0 "No, leave [planet.GetName] be."
+ play_as_ruler.3901.name:0 "行星能量：成功"
+ play_as_ruler.3901.desc_high:0 "With high amount of credits, §H[governor.GetName]§! made a bold move, [governor.GetSheHe] put all the credits into one of the power plant. The investment itself was succeed, this should made §H[planet.GetName]§! output even more credits."
+ play_as_ruler.3901.desc_low:0 "With an amount of credits, §H[governor.GetName]§! put the credits into the good use. This surely will improve §H[planet.GetName]§!'s energy output."
+ play_as_ruler.3902.name:0 "行星能量：失败"
+ play_as_ruler.3902.desc:0 "Sadly, the investment didn't make §H[planet.GetName]§! any change, the credits which used were wasted."
+####PLANET_EVENT######
+ ruler_planet_agrarian_good1:0 "天然食品的兴旺"
+ ruler_planet_agrarian_good1_desc:0 "This planet's food has high value among any species."
+ ruler_planet_agrarian_good2:0 "天然食品的兴旺"
+ ruler_planet_agrarian_good2_desc:0 "This planet's food has high value among any species."
+ ruler_planet_agrarian_bad1:0 "天然食品的影响"
+ ruler_planet_agrarian_bad1_desc:0 "Unfortunately, due to recently food event, this planet is suffering from its impact."
+ ruler_planet_agrarian_bad2:0 "天然食品的影响"
+ ruler_planet_agrarian_bad2_desc:0 "Unfortunately, due to recently food event, this planet is suffering from its impact."
+####HOBBY EVENT MODIFIERS####
+ ruler_teaching_to_play:0 "教育的信心"
+ ruler_teaching_to_play_desc:0 "This Empire had hired a professional speecher to improve the Ruler's confidence."

@@ -1,0 +1,9 @@
+﻿l_english:
+ mem_star_colors_category:0 "奇怪的颜色"
+ mem_star_colors_category_desc:0 "观测恒星时候发现不寻常的颜色闪烁。这不符合恒星本身的光谱。"
+
+ mem_star_colors.1.name:0 "另一个世界的颜色"
+ mem_star_colors.1.desc:0 "对§Y[Root.Planet.GetName]§! 持续观察发现多个微型黑洞连接着一个亚空间。它们在恒星内部不断自发的形成坍塌并沉积了大量的奇异粒子，这就是异常读数的来源。"
+
+ mem_star_colors.2.name:0 "故障传感器"
+ mem_star_colors.2.desc:0 "§Y[Root.Planet.GetName]§!的初步观察无法复原。看来这次异常读数只不过是个机器故障而已。"

@@ -1,0 +1,35 @@
+﻿l_english:
+
+ building_xenofauna_studies:0 "外星动物研究"
+ building_xenofauna_studies_desc:0 "定位、识别、分类以及研究星球上的外星生物。可能有存在能作为驯化用途或者食物来源。\n\n§R不能建在生物质或水的地块上。§!"
+
+ building_medical_xenofauna_labs:0 "外星动物医疗应用"
+ building_medical_xenofauna_labs_desc:0 "这家机构专门负责研究、养育和培训用于医疗用途的外星生物，如Pukachi。\n\n§R只能建造在Pukachi上。§!"
+ sr_fauna_pukachi:0 "外星动物(Pukachi)"
+ sr_fauna_pukachi_desc:1 "这个邪恶的小家伙呕吐出来的物质，能用于提高皮肤活性。可以加以培养。它非常喜欢睡在孵化它的蛋中。哦，不，它生气了。"
+
+ building_npoop_processing:0 "外星动物燃料利用"
+ building_npoop_processing_desc:0 "这家机构专门负责研究、养育和培训用于新能源用途的外星生物，如n'Pooper。\n\n§R只能建造在n'Poopers上。§!"
+ sr_fauna_neutropooper:0 "外星动物(n'Pooper)"
+ sr_fauna_neutropooper_desc:1 "这个友好的小东西却有十分贪婪的胃口，它每隔五分钟能消耗十倍于它体重的食物。毫不奇怪，它的排泄物是极为特殊的潜在的燃料来源。"
+
+ building_hostile_xenofauna_labs:0 "危险外星动物的遏制"
+ building_hostile_xenofauna_labs_desc:0 "这家机构专门负责研究、养育和培训用于作战用途的外星生物，如Headhug。\n\n§R只能建造在Headhugs上。§!"
+ sr_fauna_headhug:0 "外星动物(Headhug)"
+ sr_fauna_headhug_desc:1 "注意:不要目视。同时避免接受该生物的血液。理由上应该避免在无适当的监督和安全措施之前进行任何方式接触。虽然完全可以被驯服但更好的是用于武器化。"
+
+ building_psi_xenofauna_labs:0 "灵能外星动物研究"
+ building_psi_xenofauna_labs_desc:0 "这家机构专门负责研究、养育和培训具有灵能属性的外星生物，如Psiguin。\n\n§R只能建造在Psiguins上。§!"
+ sr_fauna_psipenguin:0 "外星动物(Psiguin)"
+ sr_fauna_psipenguin_desc:1 "有一种水上飞行的鸟类生物具有灵能的力量，进而提高它们的力量去完成事情。这种生物可以借此感应同伴的方位和食物的来源。"
+
+ building_engineering_xenofauna_apps:0 "外星动物工程应用"
+ building_engineering_xenofauna_apps_desc:0 "这家机构专门负责研究、养育和培训用于工程用途的外星生物，如Merglin。\n\n§R只能建造在Merglins上。§!"
+ sr_fauna_merglin:0 "外星动物(Merglin)"
+ sr_fauna_merglin_desc:1 "这些小猴子聪明善良。它们敏锐找出建筑上的弱点并通过不可思议的力量快速破坏建筑。它们也可以作为工程师的得力助手，完成工程师赋予困难的任务。"
+
+ requires_headhug_deposit: "§R只能建造在Headhugs上。§!"
+ requires_npooper_deposit: "§R只能建造在n'Poopers上。§!"
+ requires_pukachi_deposit: "§R只能建造在Pukachi上。§!"
+ requires_psipenguin_deposit: "§R只能建造在Psiguins上。§!"
+ requires_merglin_deposit: "§R只能建造在Merglins上。§!"

@@ -1,0 +1,169 @@
+﻿l_english:
+ 
+ building_fe_ancient_factory:1 "自动化装配厂"
+ building_fe_ancient_factory_desc:1 "§LThis marvel of engineering is the pinnacle of technology and industry.§!"
+ 
+ building_fe_dark_matter_power_plant:0 "暗物质发电厂"
+ building_fe_dark_matter_power_plant_desc:0 "§LThis marvel of engineering is the pinnacle of technology and industry.§!"
+ 
+ building_fe_agri_processing_complex:0 "复合农业加工厂"
+ building_fe_agri_processing_complex_desc:0 "§LThis marvel of engineering is the pinnacle of technology and industry.§!"
+ 
+ 
+ FE_ESCORT_COMBAT_COMPUTER_1:0 "积极姿态"
+ FE_ESCORT_COMBAT_COMPUTER_1_DESC:0 "This ship will aggressively engage hostiles."
+ 
+ FE_ESCORT_COMBAT_COMPUTER_2:0 "防御姿态"
+ FE_ESCORT_COMBAT_COMPUTER_2_DESC:0 "This ship will blast hostiles from range."
+ 
+ FE_BATTLECRUISER_COMBAT_COMPUTER_1:0 "积极姿态"
+ FE_BATTLECRUISER_COMBAT_COMPUTER_1_DESC:0 "This ship will aggressively engage hostiles."
+ 
+ FE_BATTLECRUISER_COMBAT_COMPUTER_2:0 "防御姿态"
+ FE_BATTLECRUISER_COMBAT_COMPUTER_2_DESC:0 "This ship will blast hostiles from range."
+ 
+ FE_TITAN_COMBAT_COMPUTER_1:0 "防御姿态"
+ FE_TITAN_COMBAT_COMPUTER_1_DESC:0 "This ship will blast hostiles from range."
+ 
+ tech_fallen_technologies_1:0 "Energy Lance Spaceport"
+ tech_fallen_technologies_1_desc:0 "In theory, we can mount Energy Lances on our spaceports for extreme homeworld defense."
+ 
+ tech_fallen_technologies_2:0 "技术提升"
+ tech_fallen_technologies_2_desc:0 "The pinnacles of engineering, technology, and production are finally within our grasp."
+ 
+ tech_fallen_technologies_3:0 "优秀的设计"
+ tech_fallen_technologies_3_desc:0 "We have obtained blueprints of superior designs stolen from our precursor neighbors. We can attempt building them when our industrial capabilities are developed."
+ 
+ tech_fallen_technologies_4:0 "银河系的优势"
+ tech_fallen_technologies_4_desc:0 "A Galactic Ascendancy is the zenith of civilization, the height of power, only achievable when there is nothing left to learn, nothing left to explore..."
+ 
+ tech_avada_kedavra:0 "终极武器"
+ tech_avada_kedavra_desc:0 "This is the ultimate weapon, drawing upon the technical know-hows of every Titan Weapon. Our enemies won't know what hit them."
+ 
+ fe_titan:1 "泰坦"
+ fe_titan_plural:1 "泰坦"
+ fe_battlecruiser:1 "战列巡洋舰"
+ fe_battlecruiser_plural:1 "战列巡洋舰"
+ fe_escort:1 "护送"
+ fe_escort_plural:1 "护送"
+ fe_goliath:1 "歌利亚"
+ fe_goliath_plural:1 "歌利亚"
+ fe_large_station:1 "失落帝国大型空间站"
+ fe_large_station_plural:1 "失落帝国大型空间站"
+ fe_small_station:1 "失落帝国小型空间站"
+ fe_small_station_plural:1 "失落帝国小型空间站"
+  
+ FE_TITAN_KEY:1 "泰坦舰首"
+ FE_TITAN_STERN:1 "泰坦舰尾"
+ 
+ FE_BATTLECRUISER_KEY:1 "战列巡洋舰"
+ 
+ FE_ESCORT_KEY:1 "护送"
+ 
+ FE_GOLIATH_MID:1 "歌利亚舰中"
+ FE_GOLIATH_STERN:1 "歌利亚舰尾"
+ FE_GOLIATH_BOW:1 "歌利亚舰首"
+ 
+ AVADA_KEDAVRA:0 "暗能量爆炸"
+ AVADA_KEDAVRA_DESC:0 "No one can survive this."
+ 
+ EXPECTO_PATRONUM:0 "神的审判"
+ EXPECTO_PATRONUM_DESC:0 "A weapon of light, to keep forces of evil at bay."
+ 
+ FE_LARGE_STATION_KEY:0 "Fallen Empire Large Station Mid"
+ FE_LARGE_STATION_MID_XL_KEY: "Fallen Empire Large Station XL"
+ 
+ FE_LARGE_STATION_STERN_KEY:0 "Fallen Empire Large Station Stern"
+ FE_LARGE_STATION_BOW:0 "Fallen Empire Large Station Bow"
+ 
+ FE_SMALL_STATION_MID_KEY:0 "Fallen Empire Small Station Mid"
+ FE_SMALL_STATION_STERN:0 "Fallen Empire Small Station Stern"
+ 
+ ascended_empire:0 "飞升帝国"
+ ascended_empire_admiral:0 "舰队司令"
+ ascended_empire_general:0 "将军"
+ ascended_empire_scientist:0 "科学家"
+ ascended_empire_governor:0 "总督"
+ ascended_empire_ruler:0 "统治者"
+ 
+ lost_empire:0 "飞升帝国"
+ lost_empire_admiral:0 "舰队司令"
+ lost_empire_general:0 "将军"
+ lost_empire_scientist:0 "科学家"
+ lost_empire_governor:0 "总督"
+ lost_empire_ruler:0 "统治者"
+ 
+ COUNTRY_ASCENDED_EMPIRE:0 "飞升帝国"
+ COUNTRY_ASCENDED_EMPIRE_DESC:0 "An Ascended Empire at the zenith of its power."
+ 
+ COUNTRY_LOST_EMPIRE:0 "失落帝国"
+ COUNTRY_LOST_EMPIRE_DESC:0 "Fallen Empires are the stagnant remnants of the galactic powers of old. Though mere shadows of what they once were, they still possess incredibly advanced technology. Galactic affairs are of little interest to them, and they rarely venture beyond their own space."
+
+ gov_galactic_ascendancy:0 "银河系的优势"
+ gov_galactic_ascendancy_desc:0 "文明的巅峰。"
+ 
+ gov_lost_ascendancy:0 "Stagnant Ascendancy"
+ gov_lost_ascendancy_desc:0 "A stagnant form of government based on ancient traditions and long-forgotten principles."
+ 
+ civic_galactic_superpower:0 "Galactic Superpower"
+ civic_galactic_superpower_desc:0 "A galactic superpower, and in all likeliness will never fall."
+ civic_technological_mastery:0 "Technological Mastery"
+ civic_technological_mastery_desc:0 "A complete technological mastery over all matters in science."
+ 
+ personality_lost_empire_spiritualist:0 "Holy Guardians"
+ personality_lost_empire_materialist:0 "Keepers of Knowledge"
+ personality_lost_empire_xenophobe:0 "Militant Isolationists"
+ personality_lost_empire_xenophile:1 "Enigmatic Observers"
+ personality_ascended_empire_spiritualist:0 "Doctrinal Enforcers"
+ personality_ascended_empire_materialist:0 "Watchful Regulators"
+ personality_ascended_empire_xenophobe:0 "Jingoistic Conquerors"
+ personality_ascended_empire_xenophile:0 "Benevolent Interventionists"
+
+ personality_lost_empire_spiritualist_desc:0 "This Fallen Empire dedicates itself to the preservation and defense of its holy sites. Colonizing systems that they consider sacred is likely to incur their ire."
+ personality_lost_empire_materialist_desc:3 "This Fallen Empire dedicates itself to the hoarding of knowledge and technology. They may offer tasks or demand tribute from lesser empires to achieve this end."
+ personality_lost_empire_xenophobe_desc:0 "The Fallen Empire dedicates itself to the defense of its borders against any intrusions. Colonizing systems that border them is likely to draw their ire."
+ personality_lost_empire_xenophile_desc:1 "This Fallen Empire dedicates itself to the study of the younger races. They may offer tasks or demand tribute from lesser empires to achieve this end."
+ personality_ascended_empire_spiritualist_desc:0 "This Ascended Empire seeks to impose its religious doctrines on the galaxy. They are likely to attack any empire that will not willingly convert."
+ personality_ascended_empire_materialist_desc:1 "This Ascended Empire seeks to control the technological level of all other civilizations in the galaxy. They are likely to attack any empire that will not surrender its technological independence."
+ personality_ascended_empire_xenophobe_desc:0 "This Ascended Empire seeks to establish dominion over the galaxy. They are likely to attack any empire that will not acknowledge their overlordship."
+ personality_ascended_empire_xenophile_desc:0 "This Ascended Empire seeks to protect the lesser races from each other. They are likely to attack any empire that will not accept their enforced peace."
+ 
+ 
+ 
+ 
+ civic_humbled_superpower:0 "Humbled Superpower"
+ civic_humbled_superpower_desc:0 "Once a proud galactic superpower, now humbled to its knees."
+ civic_fallen_society:0 "Fallen Society"
+ civic_fallen_society_desc:0 "Their society is fallen, at a loss and without goal or ambition."
+  
+ fallen_technologies.2.name:0 "The Ultimate Weapon Acquired"
+ fallen_technologies.2.desc:0 "For some time, we have accepted that the §H[From.GetName]§! has been a leader on the galactic stage. Their technological expertise and dominance were unrivalled when it came to weapons of a massive scale. Our report suggests they have now developed the ultimate weapon - to which there is no defence and no ship can survive. This news was received mostly with scepticism by our population, with the majority believing it was a cool story fabricated by the media to keep the elites in power. As a result we will not be securing extra funding through voluntary donations to reinforce our naval forces."
+ fallen_technologies.2.a:0 "This weapon is a curse on all of us..."
+ 
+ fallen_technologies.4.name:0 "终极武器研究"
+ fallen_technologies.4.desc:0 "Our scientists have developed the ultimate weapon - to which there is no defence and by our calculations no ship can survive. It is the pinnacle of technology and a crowning achievement, having mastered the Titan Weapons. However, this breakthrough will not go unnoticed by our neighbours. Our allies look upon us with distrust and our enemies gather their strength for a final showdown. When it is operational, we should make an example of them by demonstrating the full power of this new technology."
+ fallen_technologies.4.a:0 "让我们马上建造这个东西。"
+ 
+ fallen_technologies.6.name:0 "优秀舰艇设计"
+ fallen_technologies.6.desc:0 "For centuries, our great species have made incredible advances in technology and have evolved into a thriving stellar civilization, far exceeding our initial hopes and expectations. Unfortunately, our ships still look the same as the first day we achieved spaceflight, which does not serve an empire of our current stature. We recruited some artists to submit several designs but none of them were any good. Perhaps some designs borrowed from our precursor neighbors will both serve to intimidate our enemies and deter future invasions."
+ fallen_technologies.6.a:0 "唯心设计"
+ fallen_technologies.6.b:0 "唯物设计"
+ fallen_technologies.6.c:0 "亲外设计"
+ fallen_technologies.6.d:0 "排外设计"
+ fallen_technologies.6.e:0 "不谢。我们的战舰看起来很不错。"
+ 
+ fallen_technologies.8.name:0 "飞升之路"
+ fallen_technologies.8.desc:0 "The ascension of the §H[From.GetName]§! can no longer be denied. We are destined for great things - not just some one-time galactic power only to be forgotten in a century or two. No, soon we will possess the buildings and technologies required to distinguish ourselves as a civilization that will span millennia. We shall be in every historical archive and younger races will learn of what we have achieved for centuries to come. We shall have a stunning legacy for all to see."
+ fallen_technologies.8.a:0 "好的..."
+ 
+ fallen_technologies.12.name:0 "银河系的优势"
+ fallen_technologies.12.desc:0 "Our empire has ascended. Is it so surprising that it is every xeno's dream right now to be a §H[From.GetSpeciesName]§!? We have achieved many great things, built all the megastructures we needed, and we had nothing more to prove - not even to those that came before us. At this stage we should redirect our efforts to safeguarding our achievements, as the legacy of our empire will always be under scrutiny in the history archives. Xeno historians across the galaxy will write of the §H[From.GetName]§! for centuries to come, but what about? A Galactic Ascendancy must always stand for something. With great power comes great responsibility, and having reached the zenith of civilization we should commit ourselves to a cause with total fanaticism. For that, we shall be remembered in history for eons to come."
+ fallen_technologies.12.a:0 "Pursue Spiritualistic fanaticism"
+ fallen_technologies.12.b:0 "Pursue Materialistic fanaticism"
+ fallen_technologies.12.c:0 "Pursue Xenophilic fanaticism"
+ fallen_technologies.12.d:0 "Pursue Xenophobic fanaticism"
+ fallen_technologies.12.e:0 "We shall keep the values that led us to greatness."
+ 
+ fallen_technologies.15.name:0 "飞升的新帝国"
+ fallen_technologies.15.desc:0 "The §H[From.GetName]§! has become an Ascended Empire - the zenith of galactic civilization. Their technological advancements are awesome, and it is every xeno's dream to be a §H[From.GetSpeciesName]§!. However, with great power comes great responsibility. How will they shape our galaxy next?"
+ fallen_technologies.15.a:0 "这对我们意味着什么？"

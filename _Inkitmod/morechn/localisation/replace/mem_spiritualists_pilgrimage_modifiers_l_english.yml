@@ -1,0 +1,11 @@
+﻿l_english:
+# Opinion modifiers
+ mem_opinion_very_pleased_pilgrims:0 "高兴的朝圣者"
+ mem_opinion_pleased_pilgrims:0 "高兴的朝圣者"
+ mem_opinion_bad_hosts:0 "坏主人"
+ mem_opinion_assassins:0 "刺客"
+ mem_opinion_accused_of_terrorism:0 "恐怖主义的指控"
+# Pop modifier  
+ mem_strange_guests:0 "奇怪的客人"
+ terrorism:0 "恐怖主义"
+ 

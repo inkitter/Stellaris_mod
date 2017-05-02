@@ -1,0 +1,18 @@
+﻿#A hidden Tundra
+#Idea by Mariawr
+#Code by wtlnd
+l_english:
+
+mem_hidden_tundra_category:0 "太空中荒芜而有趣的岩石"
+mem_hidden_tundra_category_desc:0 "首席科学家§Y[Root.GetLeaderName]§!在§Y[From.GetName]§!发现一些有意思的地方。需要进行更严密的调查。"
+
+mem_hidden_tundra.1.name:0 "这是颗适合居住的星球！"
+mem_hidden_tundra.1.desc:0 "原来那颗行星§Y[From.GetName]§!不是我们第一次扫描显示的贫瘠，而是一个苔原世界。但它仍然是颗相当暗淡的星球。 它有着毫无特色的地表，几乎找不到植物痕迹，但给予一定改造可以重获新生。我们应该再次建立一个研究前哨，用于了解在该星球生活的可能性。"
+
+mem_hidden_tundra.2.name:0 "太空中的一颗贫瘠无趣的岩石"
+mem_hidden_tundra.2.desc:0 "与第一个假设相反的§Y[Root.GetLeaderName]§!，§Y[From.GetName]§!是已死去无聊的太空岩石。我们应该把研究重点放到别处。"
+
+mem_hidden_tundra.1.fascinating:0 "迷人的"
+mem_hidden_tundra.1.xenophobe:0 "看来这个害虫有点意思。"
+
+mem_hidden_tundra.2.fascinating:0 "迷人的"

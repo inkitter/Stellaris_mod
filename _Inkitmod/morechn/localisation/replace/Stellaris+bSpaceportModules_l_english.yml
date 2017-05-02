@@ -1,0 +1,28 @@
+﻿l_english:
+
+############################################
+### Spaceport Module - Hive and Capital  ###
+############################################
+
+ sm_civilian_trade_hub:0 "民间贸易枢纽"
+ sm_civilian_trade_hub_desc:0 "公民可以自由开展轨道站与星球的贸易。\n\n"
+
+ sm_orbital_hospital:0 "轨道医院"
+ sm_orbital_hospital_desc:0 " 有助于防止外来疾病进入星球同时也可以为轨道上的人提供帮助。\n\n"
+
+ sm_migration_control:0 "移民管制"
+ sm_migration_control_desc:0 "这个办公厅有助于控制星球上的非法移民。\n\n"
+
+#########
+
+ sm_basic_defenses:0 "基本防御"
+ sm_basic_defenses_desc:0 "轨道站的基本武器防御系统。\n\n"
+
+ sm_civilian_assembly:0 "民用船只装配"
+ sm_civilian_assembly_desc:0 "接纳民用订单，如建筑和殖民地的船只。\n\n"
+
+####################################
+# Spaceportmoduless.Civilian
+####################################
+
+

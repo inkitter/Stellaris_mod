@@ -1,0 +1,98 @@
+﻿l_english:
+
+####################################
+# Battleship
+####################################
+ BATTLESHIP_BOW_L1M1S2:1 "齐射 舰艏"
+ BATTLESHIP_BOW_L1S4:1 "泰坦 舰艏"
+ BATTLESHIP_BOW_L2:1 "巨炮 舰艏"
+ BATTLESHIP_BOW_M1S2SHB:1 "格纳库 舰艏"
+ BATTLESHIP_BOW_M2S4:1 "轴基 舰艏"
+ BATTLESHIP_BOW_M3S2:1 "破魂者 舰艏"
+ BATTLESHIP_MID_L2S4:1 "超新星 核心"
+ BATTLESHIP_MID_L1M4:1 "风暴使者 核心"
+ BATTLESHIP_MID_L2M2:1 "齐射 核心"
+ BATTLESHIP_MID_L3:1 "巨炮 核心"
+ BATTLESHIP_MID_M4SHB:1 "格纳库 核心"
+ BATTLESHIP_MID_S4LHB:1 "航母 核心"
+ BATTLESHIP_STERN_M1S2:1 "万古 舰尾"
+ BATTLESHIP_STERN_L1:1 "巨炮 舰尾"
+ BATTLESHIP_STERN_M2:1 "齐射 舰尾"
+ BATTLESHIP_STERN_S4:1 "天顶 舰尾"
+
+####################################
+# Colonizer
+####################################
+ COLONIZER_MID_M1S1:1 "殖民者 船型"
+ COLONIZER_MID_S3:0 "种子 核心"
+ COLONIZER_MID_MU1:0 "伊甸 核心"
+
+####################################
+# Constructor
+####################################
+ CONSTRUCTOR_MID_M1S1:1 "建造者 船型"
+ CONSTRUCTOR_MID_S3:0 "开发者 核心"
+ CONSTRUCTOR_MID_MU1:0 "熔炼者 核心"
+
+####################################
+# Corvette
+####################################
+ CORVETTE_MID_M1S1:1 "雷击 核心"
+ CORVETTE_MID_S3:1 "拦截者 核心"
+ CORVETTE_MID_S1:1 "游牧者 核心"
+
+####################################
+# Cruiser
+####################################
+ CRUISER_BOW_L1:1 "巨炮 舰艏"
+ CRUISER_BOW_M1S2:1 "雷击 舰艏"
+ CRUISER_BOW_M2:1 "齐射 舰艏"
+ CRUISER_MID_S2HB:1 "格纳库 核心"
+ CRUISER_MID_L1M1:1 "巨炮 核心"
+ CRUISER_MID_M3:1 "齐射 核心"
+ CRUISER_MID_M2S2:1 "雷击 核心"
+ CRUISER_STERN_M1:1 "齐射 舰尾"
+ CRUISER_STERN_S2:1 "强袭 舰尾"
+
+####################################
+# Destroyer
+####################################
+ DESTROYER_BOW_M1S2:1 "强袭 舰艏"
+ DESTROYER_BOW_S3:1 " 监察官 舰艏"
+ DESTROYER_BOW_L1:1 "巨炮 舰艏"
+ DESTROYER_STERN_S2:1 "哨兵线 舰尾"
+ DESTROYER_STERN_M1:1 "强袭 舰尾"
+
+####################################
+# Science
+####################################
+ SCIENCE_MID_M1S1:1 "科研船 核心"
+ SCIENCE_MID_S3:0 "先驱 核心"
+ SCIENCE_MID_MU1:0 "洞察 核心"
+
+####################################
+# Science
+####################################
+ LIGHT_MILITARY_STATION_SECTION:0 "轻型 空间站槽位"
+ MEDIUM_MILITARY_STATION_SECTION:0 "中型 空间站槽位"
+ HEAVY_MILITARY_STATION_SECTION:0 "重型 空间站槽位"
+ HANGAR_MILITARY_STATION_SECTION:0 "机库 空间站槽位"
+ LIGHT_LARGE_MILITARY_STATION_SECTION:0 "轻型 空间站槽位"
+ MEDIUM_LARGE_MILITARY_STATION_SECTION:0 "中型 空间站槽位"
+ HEAVY_LARGE_MILITARY_STATION_SECTION:0 "重型 空间站槽位"
+ HANGAR_LARGE_MILITARY_STATION_SECTION:0 "机库 空间站槽位"
+ OUTPOST_STATION_SECTION:0 "边境 前哨站核心"
+
+####################################
+# Other
+####################################
+ MISSILE_DEFAULT:0 "导弹 槽位"
+ DEFAULT_CONSTRUCTION_SECTION:1 "工程船 船型"
+ DEFAULT_COLONIZATION_SECTION:1 "殖民船 船型"
+ DEFAULT_SCIENCESHIP_SECTION:1 " 科研船 船型"
+ DEFAULT_ORBITAL_STATION_SECTION:0 "轨道 空间站架构"
+ DEFAULT_MINING_STATION_SECTION:0 "采掘 空间站架构"
+ DEFAULT_RESEARCH_STATION_SECTION:0 "研究 空间站架构"
+ DEFAULT_WORMHOLE_STATION_SECTION:0 "虫洞 空间站架构"
+ DEFAULT_MILITARY_STATION_SECTION:0 "基础 军事平台"
+ DEFAULT_TRANSPORT_SECTION:1 "运输舰 核心"

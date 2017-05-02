@@ -1,0 +1,38 @@
+﻿l_english:
+ 
+ 
+ TITAN_LASER_PROTOTYPE:0 "泰坦激光原型"
+ TITAN_LASER_PROTOTYPE_DESC:0 "能源发展为新型能源武器提供了理论基础。"
+ 
+ BLUE_TITAN_LASER:0 "蓝色泰坦激光"
+ BLUE_TITAN_LASER_DESC:0 "泰坦激光"
+ 
+ GREEN_TITAN_LASER:0 "绿色泰坦激光"
+ GREEN_TITAN_LASER_DESC:0 "泰坦激光"
+ 
+ RED_TITAN_LASER:0 "红色泰坦激光"
+ RED_TITAN_LASER_DESC:0 "泰坦激光"
+ 
+ YELLOW_TITAN_LASER:0 "黄色泰坦激光"
+ YELLOW_TITAN_LASER_DESC:0 "泰坦激光"
+ 
+ TITAN_DISINTEGRATOR:0 "泰坦分解者"
+ TITAN_DISINTEGRATOR_DESC:0 "维度配合现有激光武器，其产物可能将是最强大的武器。"
+ 
+  
+ tech_titan_laser:0 "泰坦激光"
+ tech_titan_laser_desc:0 "泰坦激光"
+ tech_titan_disintegrator:0 "泰坦分解者"
+ tech_titan_disintegrator_desc:0 "维度配合现有激光武器，其产物可能将是最强大的武器。"
+ tech_titan_laser_prototype:0 "泰坦激光原型"
+ tech_titan_laser_prototype_desc:0 "能源发展为新型能源武器提供了理论基础。"
+ 
+ titan_awakening.2.name:0 "引起古人的愤怒"
+ titan_awakening.2.desc:0 "我们对泰坦激光的研究并没有被安静的邻居给忽略，反而技术突破消息引起了§H[From.GetSpeciesName]§!的恐慌。曾经沉沦在它们辉煌的舰队力量而停滞不前，现在他们的公民呼吁帝国改革。随着改革深入，扫清了帝国旧时代的作风，现在§H[From.GetName]§!重整自己的装备，以便应对新的威胁。"
+ titan_awakening.2.a:0 "我们做了什么..."
+ 
+ titan_awakening.4.name:0 "泰坦激光研究"
+ titan_awakening.4.desc:0 "§H[From.GetName]§!的一些泰坦激光的研究报道激怒了§H[From.GetSpeciesName]§!，其人民渴望与之战斗。我们能做的是希望别把怒火引到我们身上。"
+ titan_awakening.4.a:0 "他们做了什么..."
+ 
+ 

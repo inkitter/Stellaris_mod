@@ -1,0 +1,39 @@
+﻿l_english:
+####################################
+ # Diplomacy text
+ ####################################
+ 
+ # General Greetings
+ DIRTY:1 "Dirty"
+ AQUATIC:1 "Aquatic"
+ EVIL:1 "Evil"
+ ASARI:1 "Asari"
+ FACTORY:1 "Factory"
+ OVERGROWN:1 "Overgrown"
+ COVENANT:1 "Covenant"
+ SANGHEILI:1 "Sangheili"
+ TAU:1 "Tau"
+ name_list_DIRTY1: "Dirty 1"
+ name_list_AQUATIC1: "Aquatic 1"
+ name_list_EVIL1: "Evil 1"
+ name_list_ASARI1: "Asari 1"
+ name_list_FACTORY1: "Factory 1"
+ name_list_OVERGROWN1: "Overgrown 1"
+ name_list_COVENANT1: "Covenant 1"
+ name_list_SANGHEILI1: "Sangheili 1"
+ name_list_TAU1: "Tau 1"
+ 
+ FALLENGOOD:0 "好失落帝国"
+ name_list_FALLENGOOD1:0 "失落帝国1"
+ 
+ FALLENGREEN:0 "绿色失落帝国"
+ name_list_FALLENGREEN1:0 "失落帝国2"
+ 
+ FALLENRED:0 "红色失落帝国"
+ name_list_FALLENRED1:0 "失落帝国3"
+ 
+ FALLENEVIL:0 "邪恶失落帝国"
+ name_list_FALLENEVIL1:0 "失落帝国4"
+ 
+ FALLENHUMAN:0 "人类失落帝国"
+ name_list_FALLENHUMAN1:0 "失落帝国Hum"

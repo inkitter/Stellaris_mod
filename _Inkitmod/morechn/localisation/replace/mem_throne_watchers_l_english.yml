@@ -1,0 +1,115 @@
+﻿l_english:
+ mem_titan:0 "守望者"
+ mem_titan_mid_key:0 "守望者核心"
+ 
+ mem_titan_pc:0 "守望者"
+ mem_titan_pc_mid_key:0 "守望者核心"
+ 
+ mem_station_large:0 "守望者"
+ mem_station_large_key:0 "守望者核心"
+ 
+ mem_station_small:0 "守望者"
+ mem_station_small_key:0 "守望者核心"
+
+ mem_titan_plural:0 "守望者"
+ mem_titan_pc_plural:0 "守望者"
+ mem_station_large_plural:0 "守望者"
+ mem_station_small_plural:0 "守望者"
+
+ mem_TITAN_PRIMARY_WEAPON:0 "守望者歼灭者 Mk II"
+ mem_TITAN_SECONDARY_WEAPON:0 "守望者重力炮"
+ mem_TITAN_TORPEDO:0 "守望者量子鱼雷"
+ mem_TITAN_LARGE_WEAPON:0 "守望者歼灭者 Mk I"
+ mem_TITAN_MEDIUM_WEAPON:0 "守望者分解者 Mk II"
+ mem_TITAN_SMALL_WEAPON:0 "守望者分解者 Mk I"
+ mem_TITAN_PD:0 "守望者点防御"
+ 
+ mem_ring_weakness:0 "心者"
+ mem_ring_weakness_desc:0 "利用王位观察者的弱点更新目标数据。"
+ damage_vs_country_type_mem_ring_guardian_mult:0 "对王位观察者的伤害"
+ 
+ mem_throne_watchers.1:0 "王位观察者"
+ mem_throne_watchers.1.desc:0 "一进入[From.GetName]星系，我们的探测器便探测到了一艘由AI控制的巨大战舰，位于一个废弃的环世界中。在我们进一步进行观察之前，战舰及环世界的卫星便发现并摧毁了我们的探测器！"
+
+ mem_throne_watchers.11:0 "守门人"
+ mem_throne_watchers.11.desc:0 "在进入[From.From.GetName]之后，我们的导航系统遭受到奇怪的篡改，导致我们被强制跃迁回到了[From.GetName]。或许等我们拥有更先进的跃迁技术之后，我们可以无视这个奇怪篡改，但是我们现在被似乎锁定了，无法进入[From.From.GetName]。"
+ mem_throne_watchers.11.a:0 "貌似有人不喜欢我们的到访。"
+ 
+ mem_throne_watchers.21:0 "东山再起"
+ mem_throne_watchers.21.desc:0 "我们武器对敌人无效化。我们还在持续的重大损失，应该立即撤军并试图找出一种方法突破敌人的防御。"
+ mem_throne_watchers.21.a:0 "我们不是那么容易被打败的。"
+ mem_throne_watchers.21.b:0 "我们为啥要执迷不悟。"
+ 
+ mem_throne_watchers.22:0 "弑君"
+ mem_throne_watchers.22.desc:0 "我们的科学家相信他们已经想出一个对策证明这种力量是可以击败的。我们应该召集我们的军队并立即与敌人战斗。"
+ mem_throne_watchers.22.a:0 "胜利将是我们的！"
+ 
+ mem_throne_watchers.31:0 "废黜"
+ mem_throne_watchers.31.desc:0 "经过一场艰难的战斗，守护环世界的战舰与卫星阵列被我们击败。在战舰被破坏之前，我们的传感器在 [mem_ring_tomb_world.GetName]的卫星轨道上捕捉到一个数据信号。"
+ mem_throne_watchers.31.a:0 "我们应该调查这个信号。"
+ 
+ mem_throne_watchers.40:0 "失落帝国的骄傲"
+ mem_throne_watchers.40.desc:0 "科研小组在[Root.GetLeaderName]的带领下完成了他们在[mem_ring_tomb_world.GetName]卫星的探险并报告了一个相当不寻常的发现。那是一个巨大的战舰框架，和之前在[Root.GetName]攻击我们的那艘战舰很像。我们的科学家对该舰的数据库进行破解，并认为该舰是安全的。所幸的是AI核心没有被初始化。但关于[mem_ring_system.GetName]的环形世界建设者相关记录却已从数据库中被全部清除。我们可以通过访问码试图恢复一些加密数据。"
+ mem_throne_watchers.40.a:0 "发送访问码！"
+ mem_throne_watchers.40.a.tooltip:0 "解锁[mem_ring_system.GetName]星系。"
+ 
+ mem_throne_watchers.45:0 "传承"
+ mem_throne_watchers.45.desc:0 "我们科学家相信我们能重启[mem_ring_tomb_world.GetName]的所有能力，不过需要付出些代价。"
+ mem_throne_watchers.45.a:0 "为了真正的力量，我们愿付出一切。"
+ mem_throne_watchers.45.b:0 "浪费资源。"
+ 
+ mem_throne_watchers.46:0 "太阳使者"
+ mem_throne_watchers.46.desc:0 "在[mem_ring_tomb_world.GetName]的月球上的远古造船厂完成了他们最后的任务。[mem_ring_system.GetName]的守护者再次走上星途。"
+ mem_throne_watchers.46.a:0 "宏伟。"
+ 
+ mem_throne_watchers.47:0 "开火"
+ mem_throne_watchers.47.desc:0 "-Initiating Combat Protocols-"
+ mem_throne_watchers.47.a:0 "Reactor output stable, changing into Combat Mode!"
+ 
+ MEM_DECODE:0 "被毁灭的卫星"
+ MEM_DECODE_DESC:0 "派遣一艘科研船到§Y[mem_ring_tomb_world.GetName]§!卫星并进行调查。"
+
+ MEM_TITAN_AWAKENING:0 "传承"
+ MEM_TITAN_AWAKENING_DESC:0 "解锁关于'远古守护'的真正的力量。"
+ 
+ pc_mem_ringworld_habitable_tile:0 "环世界"
+ pc_mem_ringworld_habitable_tile_desc:0 "适合各种生命形态居住的世界。"
+ 
+ MEM_RING_WEAKNESS_PROJECT:0 "伤害加成 - 王位观察者"
+ MEM_RING_WEAKNESS_PROJECT_DESC:0 "研究环世界的守护者和寻找他们的弱点。"
+ 
+ mem_uncertain_past:0 "不确定的历史"
+ mem_uncertain_past_desc:0 "灾难降临，这个星球仍然笼罩在神秘之中。"
+ 
+ pc_mem_ringworld_habitable:0 "环世界"
+ pc_mem_ringworld_habitable_desc:0 "一个巨大的人造环围绕着星系中央的恒星。\n在其之上建有许多区域以供居住, 摆脱了世俗的限制与行星的约束。"
+ 
+ pc_mem_ringworld_shielded:0 "被屏蔽的环世界"
+ pc_mem_ringworld_shielded_desc:0 "这个环世界的居住区被一种坚不可摧的能量屏障所包裹.这层屏障屏蔽了所有的探测。"
+
+ mem_monolith_text:0 "§R访问被拒绝。§!"
+ mem_monolith_core_text:0 "§R需要激活码。§!"
+ 
+ requires_building_ancient_monolith:0 "§R需要§Y$building_ancient_monolith0$§!。§!"
+
+ mem_building_ancient_ruin_1:0 "远古遗迹"
+ mem_building_ancient_ruin_1_desc:0 "§L这个古老的遗迹可能还没有被修复。§!"
+ 
+ mem_building_ancient_ruin_2:0 "远古遗迹"
+ mem_building_ancient_ruin_2_desc:0 "§L这个古老的遗迹没有经受住时间的考验。§!"
+ 
+ mem_building_ancient_monolith_0:0 "远古造物"
+ mem_building_ancient_monolith_0_desc:0 "§L这个远古造物还没有被激活。§!"
+ 
+ mem_building_ancient_monolith_1:0 "远古造物"
+ mem_building_ancient_monolith_1_desc:0 "§L纪念逝去的辉煌。§!"
+ 
+ mem_building_ancient_monolith_2:0 "远古造物"
+ mem_building_ancient_monolith_2_desc:0 "§L纪念逝去的辉煌。§!"
+ 
+ mem_building_ancient_monolith_3:0 "远古造物"
+ mem_building_ancient_monolith_3_desc:0 "§L纪念逝去的辉煌。§!"
+ 
+ mem_building_ancient_monolith_4:0 "远古造物"
+ mem_building_ancient_monolith_4_desc:0 "§L纪念逝去的辉煌。§!"
+ mem_throne_watchers.46.a.tooltip:0 "§YWARNING - The transformation process is highly volatile.§!"

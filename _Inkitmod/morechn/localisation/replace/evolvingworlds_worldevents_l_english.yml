@@ -1,0 +1,21 @@
+﻿l_english:  
+  
+  ev_worldevents.201.title:0 "查获非法运输"
+  ev_worldevents.201.desc:0 "当局搜查停靠在[Root.GetName]的走私船并查封搬走一批资源。"
+  ev_worldevents.201.a:0 "这些货能值很多钱"
+  ev_worldevents.201.b:0 "把矿物交给我们商店"
+  
+  ev_worldevents.202.title:0 "搜查仓库"
+  ev_worldevents.202.desc:0 "在一次卧底行动中，当局处理了罕见的化学品走私。所有样品被转移到一个由地方政府官员管控的安全的[Root.GetName]。"
+  ev_worldevents.202.a:0 "香料会流失"
+  ev_worldevents.202.b:0 "我们可以使用这个"
+  ev_worldevents.202.c:0 "我们可以使用这个"
+  
+  ev_worldevents.203.title:0 "[Root.GetName]的帮派战"
+  ev_worldevents.203.desc:0 "两个黑帮在[Root.GetName]产生的冲突导致当地平民伤亡。据当地官员说，该事件是由于一个贸易合同的纠纷引起的。"
+  ev_worldevents.203.a:0 "节哀顺变"
+
+  ev_worldevents.204.title:0 "[Root.GetName]的劫案"
+  ev_worldevents.204.desc:0 "罪犯在[Root.GetName]制造一场惊人的劫案并离开了。官员称，此次的安全漏洞已经被修补，未来与官方之间贸易是安全可信的。"
+  ev_worldevents.204.a:0 "安全密码也要求太多吧？"
+  ev_worldevents.204.b:0 "检查人员是瞎子吗？"

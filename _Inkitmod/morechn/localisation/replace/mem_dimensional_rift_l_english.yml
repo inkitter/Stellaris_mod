@@ -1,0 +1,28 @@
+﻿l_english:
+ #Dimensional Rift Anomaly
+ #Writing and idea by Lionheart
+ #Code by LamilLerran
+ mem_dimensional_rift_category:0 "希望之光基金会"
+ mem_dimensional_rift_category_desc:0 "我们的科研船在探索过程发现这颗小行星上有高级合金的痕迹，船员对此十分高兴，这些流浪的巨石可能含有什么宝藏。"
+ mem_dimensional_rift.105.name:0 "不解释"
+ mem_dimensional_rift.105.desc:0 "通过地毯式搜索和对传感器重新校准后没有任何新的发现，§Y[Root.GetLeaderName]§!和§Y[Root.GetName]§! 的船员放弃了继续对此搜索。"
+ mem_dimensional_rift.105.a:0 "回去工作，然后。"
+ mem_dimensional_rift.106.name:0 "临时结束"
+ mem_dimensional_rift.106.desc:0 "扫描小行星深处时候，我们的船只被岩石引发跃迁引擎紧急启动。§Y[Root.GetName]§!的所有船员都跟着船消失不见了。"
+ mem_dimensional_rift.106.a:0 "§Y[Root.Owner.GetName]§!的伤心日"
+ mem_dimensional_rift.7.name:0 "被遗弃的实验室"
+ mem_dimensional_rift.7.desc:0 "一个古老破旧寒冷的被遗弃的研究站就在一颗小行星的附近。经过仔细检查发现，电源核心似乎被撕毁或者以其他方式强制弹出。你的首席科学家请求插入电源核心以便重启整个系统。"
+ mem_dimensional_rift.7.a:0 "插上电源。"
+ mem_dimensional_rift.7.b:0 "我们不能浪费能源在这个时候。"
+ MEM_DIMENSIONAL_RIFT_PROJECT:0 "数据挖掘"
+ MEM_DIMENSIONAL_RIFT_PROJECT_DESC:0 "我们科学家想对破旧研究站进行数据挖掘。他们声称这能提高我们的科技水平。"
+ mem_dimensional_rift.1.name:0 "被遗弃的实验室"
+ mem_dimensional_rift.1.desc:0 "站内的系统闪烁片刻后，在曾经繁忙的实验室的残骸余处发出暗淡的光芒。大多数的电力驱动液压门发生爆炸，导致站内无法居住，这需要对中央控制室进行更深入的调查才可以得知。船员现在要求检查剩余的数据文档。"
+ mem_dimensional_rift.1.a:0 "允许后续调查研究。让我们弄清楚这到底是怎么回事。"
+ mem_dimensional_rift.1.b:0 "别浪费时间在这些无谓的事上。"
+ mem_dimensional_rift.2.name:0 "被遗弃的实验室"
+ mem_dimensional_rift.2.desc:0 "关于该站的最后一篇日志似乎表明这里完成所有研究正处于待关闭状态。而且文件中的数据似乎表明这里曾经被多个时空裂缝袭卷，造成多人伤亡。但关于测试本身的数据似乎被修改或者丢失。任何有关于这里被撕裂的原因，我们尚不得而知。然而，我们通过这里数据获得了大量关于变形场和传说中的物理定律的漏洞的资料。"
+ mem_dimensional_rift.2.a:0 "表彰此次任务的所有人员。"
+ budget_group_country_modifier:0 "事件修改"
+ mem_powering_abandoned_station:0 "强大的废弃站点"
+ 

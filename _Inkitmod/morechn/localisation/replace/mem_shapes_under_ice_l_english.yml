@@ -1,0 +1,23 @@
+﻿l_english:
+ ###############################################
+ # Shapes Under the Ice -- Main Line
+ # Idea and main writing by Foremole
+ # Code and supplemental writing by LamilLerran
+ ###############################################
+ mem_shapes_under_ice_category:0 "神秘的形状"
+ mem_shapes_under_ice_category_desc:0 "即使从轨道上看，在§Y[Root.GetName]§!的奇特的暗斑也有数十万个。然而，经过几天轨道观察发现，这些暗斑会移动；一些已经褪色，一些又会出现其他地方。"
+ mem_shapes_under_ice.1.name:0 "巨大的鹦鹉螺类"
+ mem_shapes_under_ice.1.desc:0 "通过发射探测器对§Y[From.GetName]§!的表面进行仔细检查后，§Y[Root.GetLeaderName]§!确定星球被整个海洋所覆盖同时，又被厚厚冰层覆盖。然而，光可以穿透这厚厚冰层，使得水生生物得以生存。最值得一提的是，§Y[From.GetName]§!的暗斑是这其中的罪魁祸首。巨大的鹦鹉螺类，由于没有天敌，它们是这个生态系统的最顶层的存在。已经发布一个特别项目以便更好研究这些生物。"
+ mem_shapes_under_ice.1.a:0 "看看那些家伙的大小！"
+ MEM_SHAPES_UNDER_ICE_PROJECT:0 "研究鹦鹉螺类"
+ MEM_SHAPES_UNDER_ICE_PROJECT_DESC:0 "调查小组发现§Y[From.GetName]§!的冰下海洋充满生机。我们科学家渴望能从[From.GetPlanetMoon]的生物圈获取有关巨大的鹦鹉螺类的食物链顶层的进一步的分析。"
+ mem_shapes_under_ice.2.name:0 "迷人的鹦鹉螺类"
+ mem_shapes_under_ice.2.desc:0 "在进一步冰下探险研究后，船员在§Y[Root.GetName]§! 发现更多有关鹦鹉螺类的有趣的事情。首先，它们通过奇特的生物过程创造出难以置信的坚固的外壳，真是完美杰作。然而，要获取这材料必须杀死它们。与此同时调查发现它们智商跟其他低等生物没什么两样。此外，当它们不时刻保持自身的浮力时候，就会快速沉到深处，这使得想获取它们的死去的尸体几乎是不可能的，除非在它们死亡那一刻去获取，这使得我们对它们必须疯狂宰杀才能获取外壳材料，假如我们想要这么做的话。"
+ mem_shapes_under_ice.2.a:0 "我们的生物学家会很高兴研究这些生物。"
+ mem_shapes_under_ice.2.b:0 "虽然收获很大，但这会导致它们不可避免产生损失。"
+ mem_shapes_under_ice.2.phile:0 "让我们看看它们到底有多聪明。尝试与它们联系。"
+ mem_shapes_under_ice.2.mat:0 "即使我们不伤害它们，我们也可以通过对壳进行研究。"
+ mem_shapes_under_ice.99.name:0 "肮脏的视口"
+ mem_shapes_under_ice.99.desc:0 "对§Y[From.From.GetName]§!进一步研究表明这些会移动的黑点并不是来自星球上的，而是在§Y[Root.GetName]§!的视口的光学缺陷造成的。工程队以及修复了出现故障的地方，很抱歉没能从这里寻找到什么有趣的东西。"
+ mem_shapes_under_ice.99.a:0 "失望。"
+ 

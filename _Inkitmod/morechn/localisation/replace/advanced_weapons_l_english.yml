@@ -1,0 +1,343 @@
+﻿l_english:
+ 
+ ADVANCED_ENERGY_LANCE_1:0 "暗能量长矛"
+ ADVANCED_ENERGY_LANCE_1_DESC:0 "暗能量长矛"
+ 
+ ADVANCED_ENERGY_LANCE_1_S:0 "小型暗能量长矛"
+ ADVANCED_ENERGY_LANCE_1_S_DESC:0 "暗能量长矛"
+ 
+ ADVANCED_ENERGY_LANCE_1_M:0 "中型暗能量长矛"
+ ADVANCED_ENERGY_LANCE_1_M_DESC:0 "暗能量长矛"
+ 
+ ADVANCED_ENERGY_LANCE_1_L:0 "大型暗能量长矛"
+ ADVANCED_ENERGY_LANCE_1_L_DESC:0 "暗能量长矛"
+ 
+ ADVANCED_ENERGY_LANCE_2:0 "改进型粒子长矛"
+ ADVANCED_ENERGY_LANCE_2_DESC:0 "改进型粒子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_2_S:0 "小型改进型粒子长矛"
+ ADVANCED_ENERGY_LANCE_2_S_DESC:0 "改进型粒子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_2_M:0 "中型改进型粒子长矛"
+ ADVANCED_ENERGY_LANCE_2_M_DESC:0 "改进型粒子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_2_L:0 "大型改进型粒子长矛"
+ ADVANCED_ENERGY_LANCE_2_L_DESC:0 "改进型粒子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_3:0 "高级快子长矛"
+ ADVANCED_ENERGY_LANCE_3_DESC:0 "高级快子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_3_S:0 "小型高级快子长矛"
+ ADVANCED_ENERGY_LANCE_3_S_DESC:0 "高级快子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_3_M:0 "中型高级快子长矛"
+ ADVANCED_ENERGY_LANCE_3_M_DESC:0 "高级快子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_3_L:0 "大型高级快子长矛"
+ ADVANCED_ENERGY_LANCE_3_L_DESC:0 "高级快子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_4:0 "任意子长矛"
+ ADVANCED_ENERGY_LANCE_4_DESC:0 "任意子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_4_S:0 "小型任意子长矛"
+ ADVANCED_ENERGY_LANCE_4_S_DESC:0 "任意子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_4_M:0 "中型任意子长矛"
+ ADVANCED_ENERGY_LANCE_4_M_DESC:0 "任意子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_4_L:0 "大型任意子长矛"
+ ADVANCED_ENERGY_LANCE_4_L_DESC:0 "任意子长矛"
+ 
+ ADVANCED_ENERGY_LANCE_5:0 "能量聚焦长矛"
+ ADVANCED_ENERGY_LANCE_5_DESC:0 "能量聚焦长矛"
+ 
+ ADVANCED_ENERGY_LANCE_5_S:0 "小型能量聚焦长矛"
+ ADVANCED_ENERGY_LANCE_5_S_DESC:0 "能量聚焦长矛"
+ 
+ ADVANCED_ENERGY_LANCE_5_M:0 "中型能量聚焦长矛"
+ ADVANCED_ENERGY_LANCE_5_M_DESC:0 "能量聚焦长矛"
+ 
+ ADVANCED_ENERGY_LANCE_5_L:0 "大型能量聚焦长矛"
+ ADVANCED_ENERGY_LANCE_5_L_DESC:0 "能量聚焦长矛"
+ 
+ ADVANCED_ENERGY_LANCE_6:0 "能量长矛"
+ ADVANCED_ENERGY_LANCE_6_DESC:0 "能量长矛"
+ 
+ ADVANCED_ENERGY_LANCE_6_S:0 "小型能量长矛"
+ ADVANCED_ENERGY_LANCE_6_S_DESC:0 "能量长矛"
+ 
+ ADVANCED_ENERGY_LANCE_6_M:0 "中型能量长矛"
+ ADVANCED_ENERGY_LANCE_6_M_DESC:0 "能量长矛"
+ 
+ ADVANCED_ENERGY_LANCE_6_L:0 "大型能量长矛"
+ ADVANCED_ENERGY_LANCE_6_L_DESC:0 "能量长矛"
+ 
+ ADVANCED_ENERGY_LANCE_7:0 "物质分解长矛"
+ ADVANCED_ENERGY_LANCE_7_DESC:0 "物质分解长矛"
+ 
+ ADVANCED_ENERGY_LANCE_7_S:0 "小型物质分解长矛"
+ ADVANCED_ENERGY_LANCE_7_S_DESC:0 "物质分解长矛"
+ 
+ ADVANCED_ENERGY_LANCE_7_M:0 "中型物质分解长矛"
+ ADVANCED_ENERGY_LANCE_7_M_DESC:0 "物质分解长矛"
+ 
+ ADVANCED_ENERGY_LANCE_7_L:0 "大型物质分解长矛"
+ ADVANCED_ENERGY_LANCE_7_L_DESC:0 "物质分解长矛"
+  
+ ADVANCED_ARC_EMITTER_1:0 "神圣电弧发射器"
+ ADVANCED_ARC_EMITTER_1_DESC:0 "神圣电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_1_S:0 "小型神圣电弧发射器"
+ ADVANCED_ARC_EMITTER_1_S_DESC:0 "神圣电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_1_M:0 "中型神圣电弧发射器"
+ ADVANCED_ARC_EMITTER_1_M_DESC:0 "神圣电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_1_L:0 "大型神圣电弧发射器"
+ ADVANCED_ARC_EMITTER_1_L_DESC:0 "神圣电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_2:0 "忠诚电弧发射器"
+ ADVANCED_ARC_EMITTER_2_DESC:0 "忠诚电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_2_S:0 "小型忠诚电弧发射器"
+ ADVANCED_ARC_EMITTER_2_S_DESC:0 "忠诚电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_2_M:0 "中型忠诚电弧发射器"
+ ADVANCED_ARC_EMITTER_2_M_DESC:0 "忠诚电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_2_L:0 "大型忠诚电弧发射器"
+ ADVANCED_ARC_EMITTER_2_L_DESC:0 "忠诚电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_3:0 "恶魔电弧发射器"
+ ADVANCED_ARC_EMITTER_3_DESC:0 "恶魔电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_3_S:0 "小型恶魔电弧发射器"
+ ADVANCED_ARC_EMITTER_3_S_DESC:0 "恶魔电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_3_M:0 "中型恶魔电弧发射器"
+ ADVANCED_ARC_EMITTER_3_M_DESC:0 "恶魔电弧发射器"
+ 
+ ADVANCED_ARC_EMITTER_3_L:0 "大型恶魔电弧发射器"
+ ADVANCED_ARC_EMITTER_3_L_DESC:0 "恶魔电弧发射器"
+ 
+ ADVANCED_KINETIC_WEAPON_1:0 "动能炮"
+ ADVANCED_KINETIC_WEAPON_1_DESC:0 "动能炮"
+ 
+ ADVANCED_KINETIC_WEAPON_1_S:0 "小型动能炮"
+ ADVANCED_KINETIC_WEAPON_1_S_DESC:0 "动能炮"
+ 
+ ADVANCED_KINETIC_WEAPON_1_M:0 "中型动能炮"
+ ADVANCED_KINETIC_WEAPON_1_M_DESC:0 "动能炮"
+ 
+ ADVANCED_KINETIC_WEAPON_1_L:0 "大型动能炮"
+ ADVANCED_KINETIC_WEAPON_1_L_DESC:0 "动能炮"
+ 
+ ADVANCED_KINETIC_WEAPON_2:0 "改进型米加加农炮"
+ ADVANCED_KINETIC_WEAPON_2_DESC:0 "改进型米加加农炮"
+ 
+ ADVANCED_KINETIC_WEAPON_2_S:0 "小型改进型米加加农炮"
+ ADVANCED_KINETIC_WEAPON_2_S_DESC:0 "改进型米加加农炮"
+ 
+ ADVANCED_KINETIC_WEAPON_2_M:0 "中型改进型米加加农炮"
+ ADVANCED_KINETIC_WEAPON_2_M_DESC:0 "改进型米加加农炮"
+ 
+ ADVANCED_KINETIC_WEAPON_2_L:0 "大型改进型米加加农炮"
+ ADVANCED_KINETIC_WEAPON_2_L_DESC:0 "改进型米加加农炮"
+ 
+ ADVANCED_KINETIC_WEAPON_3:0 "高级千兆炮"
+ ADVANCED_KINETIC_WEAPON_3_DESC:0 "高级千兆炮"
+ 
+ ADVANCED_KINETIC_WEAPON_3_S:0 "小型高级千兆炮"
+ ADVANCED_KINETIC_WEAPON_3_S_DESC:0 "高级千兆炮"
+ 
+ ADVANCED_KINETIC_WEAPON_3_M:0 "中型高级千兆炮"
+ ADVANCED_KINETIC_WEAPON_3_M_DESC:0 "高级千兆炮"
+ 
+ ADVANCED_KINETIC_WEAPON_3_L:0 "大型高级千兆炮"
+ ADVANCED_KINETIC_WEAPON_3_L_DESC:0 "高级千兆炮"
+ 
+ MINI_FLAK_BATTERY:0 "迷你高射炮台"
+ MINI_FLAK_BATTERY_DESC:0 "迷你高射炮台"
+ 
+ ENERGY_LANCE_POINT_DEFENCE:0 "能量长矛点防御"
+ ENERGY_LANCE_POINT_DEFENCE_DESC:0 "能量长矛点防御"
+ 
+ PLASMA_LAUNCHER:0 "电浆发射器"
+ PLASMA_LAUNCHER_DESC:0 "电浆发射器"
+ 
+ PLASMA_LAUNCHER_S:0 "小型电浆发射器"
+ PLASMA_LAUNCHER_S_DESC:0 "电浆发射器"
+ 
+ PLASMA_LAUNCHER_M:0 "中型电浆发射器"
+ PLASMA_LAUNCHER_M_DESC:0 "电浆发射器"
+ 
+ PLASMA_LAUNCHER_L:0 "大型电浆发射器"
+ PLASMA_LAUNCHER_L_DESC:0 "电浆发射器"
+ 
+ BLUE_PLASMA_LAUNCHER:0 "蓝色电浆发射器"
+ BLUE_PLASMA_LAUNCHER_DESC:0 "电浆发射器"
+ 
+ BLUE_PLASMA_LAUNCHER_S:0 "小型蓝色电浆发射器"
+ BLUE_PLASMA_LAUNCHER_S_DESC:0 "电浆发射器"
+ 
+ BLUE_PLASMA_LAUNCHER_M:0 "中型蓝色电浆发射器"
+ BLUE_PLASMA_LAUNCHER_M_DESC:0 "电浆发射器"
+ 
+ BLUE_PLASMA_LAUNCHER_L:0 "大型蓝色电浆发射器"
+ BLUE_PLASMA_LAUNCHER_L_DESC:0 "电浆发射器"
+ 
+ GREEN_PLASMA_LAUNCHER:0 "绿色电浆发射器"
+ GREEN_PLASMA_LAUNCHER_DESC:0 "电浆发射器"
+ 
+ GREEN_PLASMA_LAUNCHER_S:0 "小型绿色电浆发射器"
+ GREEN_PLASMA_LAUNCHER_S_DESC:0 "电浆发射器"
+ 
+ GREEN_PLASMA_LAUNCHER_M:0 "中型绿色电浆发射器"
+ GREEN_PLASMA_LAUNCHER_M_DESC:0 "电浆发射器"
+ 
+ GREEN_PLASMA_LAUNCHER_L:0 "大型绿色电浆发射器"
+ GREEN_PLASMA_LAUNCHER_L_DESC:0 "电浆发射器"
+ 
+ ELECTROMAGNETIC_BEAM:0 "电磁波"
+ ELECTROMAGNETIC_BEAM_DESC:0 "电磁波"
+ 
+ ELECTROMAGNETIC_BEAM_S:0 "小型电磁波"
+ ELECTROMAGNETIC_BEAM_S_DESC:0 "电磁波"
+ 
+ ELECTROMAGNETIC_BEAM_M:0 "中型电磁波"
+ ELECTROMAGNETIC_BEAM_M_DESC:0 "电磁波"
+ 
+ ELECTROMAGNETIC_BEAM_L:0 "大型电磁波"
+ ELECTROMAGNETIC_BEAM_L_DESC:0 "电磁波"
+ 
+ ELECTROMAGNETIC_DISRUPTOR:0 "电磁干扰"
+ ELECTROMAGNETIC_DISRUPTOR_DESC:0 "电磁干扰"
+ 
+ ELECTROMAGNETIC_DISRUPTOR_S:0 "小型电磁干扰"
+ ELECTROMAGNETIC_DISRUPTOR_S_DESC:0 "电磁干扰"
+ 
+ ELECTROMAGNETIC_DISRUPTOR_M:0 "中型电磁干扰"
+ ELECTROMAGNETIC_DISRUPTOR_M_DESC:0 "电磁干扰"
+ 
+ ELECTROMAGNETIC_DISRUPTOR_L:0 "大型电磁干扰"
+ ELECTROMAGNETIC_DISRUPTOR_L_DESC:0 "电磁干扰"
+ 
+ ION_DISRUPTOR:0 "离子干扰"
+ ION_DISRUPTOR_DESC:0 "离子干扰"
+ 
+ ION_DISRUPTOR_S:0 "小型离子干扰"
+ ION_DISRUPTOR_S_DESC:0 "离子干扰"
+ 
+ ION_DISRUPTOR_M:0 "中型离子干扰"
+ ION_DISRUPTOR_M_DESC:0 "离子干扰"
+ 
+ ION_DISRUPTOR_L:0 "大型离子干扰"
+ ION_DISRUPTOR_L_DESC:0 "离子干扰"
+ 
+ HELLFIRE_AUTOCANNONS:0 "地狱火自动炮"
+ HELLFIRE_AUTOCANNONS_DESC:0 "地狱火自动炮"
+ 
+ HELLFIRE_AUTOCANNONS_S:0 "小型地狱火自动炮"
+ HELLFIRE_AUTOCANNONS_S_DESC:0 "小型地狱火自动炮"
+ 
+ HELLFIRE_AUTOCANNONS_M:0 "中型地狱火自动炮"
+ HELLFIRE_AUTOCANNONS_M_DESC:0 "中型地狱火自动炮"
+ 
+ HELLFIRE_AUTOCANNONS_L:0 "大型地狱火自动炮"
+ HELLFIRE_AUTOCANNONS_L_DESC:0 "大型地狱火自动炮"
+ 
+ DEADLY_AUTOCANNONS:0 "致命自动炮"
+ DEADLY_AUTOCANNONS_DESC:0 "致命自动炮"
+ 
+ DEADLY_AUTOCANNONS_S:0 "小型致命自动炮"
+ DEADLY_AUTOCANNONS_S_DESC:0 "致命自动炮"
+ 
+ DEADLY_AUTOCANNONS_M:0 "中型致命自动炮"
+ DEADLY_AUTOCANNONS_M_DESC:0 "致命自动炮"
+ 
+ DEADLY_AUTOCANNONS_L:0 "大型致命自动炮"
+ DEADLY_AUTOCANNONS_L_DESC:0 "致命自动炮"
+ 
+ KEEPER_AUTOCANNONS:0 "监护自动炮"
+ KEEPER_AUTOCANNONS_DESC:0 "监护自动炮"
+ 
+ KEEPER_AUTOCANNONS_S:0 "小型监护自动炮"
+ KEEPER_AUTOCANNONS_S_DESC:0 "监护自动炮"
+ 
+ KEEPER_AUTOCANNONS_M:0 "中型监护自动炮"
+ KEEPER_AUTOCANNONS_M_DESC:0 "监护自动炮"
+ 
+ KEEPER_AUTOCANNONS_L:0 "大型监护自动炮"
+ KEEPER_AUTOCANNONS_L_DESC:0 "监护自动炮"
+ 
+ INTEGRATED_MISSILE_SYSTEM:0 "综合导弹系统"
+ INTEGRATED_MISSILE_SYSTEM_DESC:0 "综合导弹系统"
+ 
+ INTEGRATED_MISSILE_SYSTEM_S:0 "小型综合导弹"
+ INTEGRATED_MISSILE_SYSEM_S_DESC:0 "小型综合导弹"
+ 
+ INTEGRATED_MISSILE_SYSTEM_M:0 "中型综合导弹"
+ INTEGRATED_MISSILE_SYSTEM_M_DESC:0 "中型综合导弹"
+ 
+ INTEGRATED_MISSILE_SYSTEM_L:0 "大型综合导弹"
+ INTEGRATED_MISSILE_SYSTEM_L_DESC:0 "大型综合导弹"
+ 
+ TITAN_FIGHTERS:0 "重型战斗机"
+ TITAN_FIGHTERS_DESC:0 "重型战斗机"
+ 
+ TITAN_BOMBERS:0 "重型轰炸机"
+ TITAN_BOMBERS_DESC:0 "重型轰炸机"
+ 
+ SMART_TORPEDOES:0 "智能鱼雷"
+ SMART_TORPEDOES_DESC:0 "智能鱼雷"
+ 
+ SMART_TORPEDO_S:0 "小型智能鱼雷"
+ SMART_TORPEDO_S_DESC:0 "小型智能鱼雷"
+ 
+ SMART_TORPEDO_M:0 "中型智能鱼雷"
+ SMART_TORPEDO_M_DESC:0 "中型智能鱼雷"
+ 
+ SMART_TORPEDO_L:0 "大型智能鱼雷"
+ SMART_TORPEDO_L_DESC:0 "大型智能鱼雷"
+ 
+ 
+ tech_advanced_energy_lance:0 "高级能量长矛"
+ tech_advanced_energy_lance_desc:0 "高级能量长矛"
+ 
+ tech_advanced_energy_lance_2:0 "高级能量长矛 2"
+ tech_advanced_energy_lance_2_desc:0 "高级能量长矛"
+ 
+ tech_advanced_energy_lance_3:0 "分解长矛"
+ tech_advanced_energy_lance_3_desc:0 "分解长矛"
+ 
+ tech_advanced_arc_emitter:0 "高级电弧发射器"
+ tech_advanced_arc_emitter_desc:0 "高级电弧发射器"
+ 
+ tech_advanced_kinetic_weapon:0 "高级动能武器"
+ tech_advanced_kinetic_weapon_desc:0 "高级动能武器"
+ 
+ tech_mini_flak_battery:0 "迷你高射炮台"
+ tech_mini_flak_battery_desc:0 "迷你高射炮台"
+ 
+ tech_energy_lance_point_defence:0 "能量长矛点防御"
+ tech_energy_lance_point_defence_desc:0 "能量长矛点防御"
+ 
+ tech_plasma_launcher:0 "电浆发射器"
+ tech_plasma_launcher_desc:0 "电浆发射器"
+ 
+ tech_electromagnetic_beam:0 "电磁波"
+ tech_electromagnetic_beam_desc:0 "电磁波"
+ 
+ tech_hellfire_autocannons:0 "地狱火自动炮"
+ tech_hellfire_autocannons_desc:0 "地狱火自动炮"
+ 
+ tech_integrated_missile_system:0 "综合导弹系统"
+ tech_integrated_missile_system_desc:0 "综合导弹系统"
+ 
+ tech_titan_strike_craft:0 "重型快速工艺"
+ tech_titan_strike_craft_desc:0 "重型快速工艺"
+ 
+ tech_smart_torpedoes:0 "智能鱼雷"
+ tech_smart_torpedoes_desc:0 "智能鱼雷"
+ 
+ 

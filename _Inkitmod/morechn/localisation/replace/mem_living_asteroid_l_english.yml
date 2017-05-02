@@ -1,0 +1,19 @@
+﻿l_english:
+ 
+ ########################
+ # Living Asteroid
+ # Code by Malthus
+ # Text by Foremole
+ ########################
+ 
+ # Anomaly
+ mem_living_asteroid_anomaly_category:0 "不寻常的能量读数"
+ mem_living_asteroid_anomaly_category_desc:0 "§Y[From.GetName]§!的初步扫描显示出奇怪的读数。它与其他周围较小的小行星相比，能量读数出现很明显波动。此外，§Y[From.GetName]§!还覆盖着奇怪的颜色和纹理材料。"
+ 
+ # Anomaly Success
+ mem_living_asteroid.1.name:0 "可居住的小行星"
+ mem_living_asteroid.1.desc:0 "尽管首席科学家§Y[Root.GetLeaderName]§!坚持认为这个词描述不准确，§Y[Root.GetName]§!的船员开始给§Y[From.GetName]§!声称是个'可居住的小行星'。大量的小行星是高弹性地衣菌落的家园，与在类地行星上发现的任何真菌不同。\n\n像所有的地衣，而'可居住的小行星'是由真菌和蓝细菌组合而成，这种特定种类的蓝藻仅与相应的真菌发现 - 两者都是[Root.Owner.GetName]的全新的物种。虽然建议的科学术语是"天体的子囊菌门"，大多数媒体报道，甚至科学论文也开始称之为"太空蘑菇"。建议进一步研究。"
+ 
+ # Anomaly Failure
+ mem_living_asteroid.2.name:0 "只是块石头"
+ mem_living_asteroid.2.desc:0 "首席科学家§Y[Root.GetLeaderName]§!报告说，§Y[From.GetName]§!的不寻常的能量读数，只不过是扫描仪故障。此外，在行星表面的纹理材料只是一个金属矿脉，但不便于开采。"

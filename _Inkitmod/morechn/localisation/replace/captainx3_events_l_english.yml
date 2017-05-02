@@ -1,0 +1,64 @@
+﻿l_english:
+
+####################################
+# Events
+####################################
+
+ captainx3.1.name: "已开始建造旗舰"
+ captainx3.1.desc: "经过多年的不懈努力，你的人民终于完成了§Y旗舰§!建造，它将是帝国的骄傲！\n\n但是，这需要花费大量的资源和时间来维护它，对你的帝国来说是一个沉重的代价。\n\n§P如果你试图建造和维护多艘旗舰，你的人民将会非常愤怒。§!"
+
+ captainx3.2.name: "旗舰被毁"
+ captainx3.2.desc: "随着你的旗舰被摧毁，你的人民决定取消你的自由裁量权。"
+
+ captainx3.4.name: "采矿基地建造完成"
+ captainx3.4.desc: "经过数月的危险工作，我们终于建立起一个采矿基地.。。这个基地能提高100%在该星球的矿物产出量,并额外增加矿石储存容量5000.但是只有第一个星球建造的能源基地才能获得提高奖励。"
+
+ captainx3.5.name: "采矿基地数量达到极限"
+ captainx3.5.desc: "我们已经建造了8个采矿基地，达到我们所能承受的最大数量。建造额外的采矿基地不能增加我们的矿石产出，而且还会消耗额外的能源。"
+
+ captainx3.6.name: "能源基地建造完成"
+ captainx3.6.desc: "经过数月的危险工作，我们终于建立起一个能源基地。这个基地能提高100%在该星球的能源产出量,并额外增加能量储存容量5000.但是只有第一个星球建造的能源基地才能获得提高奖励。"
+
+ captainx3.7.name: "能源基地数量达到极限"
+ captainx3.7.desc: "我们已经建造了8个能源基地，达到我们所能承受的最大数量。建造额外的能源基地不能增加我们的能量采集量，而且还会产额外的花费。"
+
+ captainx3.8.name: "指挥所建造完成"
+ captainx3.8.desc: "经过多年的不懈努力，你的人民终于完成了§Y指挥所§!, 建造，它将是帝国的骄傲。\n\n但是，这需要花费大量的资源和时间来维护它，对你的帝国来说是一个沉重的代价\n\n§P如果你试图建造和维护多个指挥所，你的人民将会非常愤怒。§!\n\n你可以§B移动这个指挥所§!这个法令将其移动到新的恒星系。"
+
+ captainx3.9.name: "指挥所被毁"
+ captainx3.9.desc: "随着你的指挥所被摧毁，你的人民决定取消你的自由裁量权。"
+
+ flagship_bonus: "受旗舰鼓舞的舰队"
+ headquarters_bonus: "集中指挥"
+
+ edict_nsc_move_hq: "移动指挥所位置"
+# Shown when the project can not be completed
+ edict_nsc_move_hq_desc: " " # Space prevents silly error.log messag"
+ edict_nsc_move_hq_tooltip: "在§Y[Root.GetName]§!的指挥所将启动FTL引擎进行轨道跃迁。\n\n§R请确保你至少有一个可用的指挥所。§!"
+
+ miningbase_bonus1: "采矿基地等级 1"
+ miningbase_bonus2: "采矿基地等级 2"
+ miningbase_bonus3: "采矿基地等级 3"
+ miningbase_bonus4: "采矿基地等级 4"
+ miningbase_bonus5: "采矿基地等级 5"
+ miningbase_bonus6: "采矿基地等级 6"
+ miningbase_bonus7: "采矿基地等级 7"
+ miningbase_bonus8: "采矿基地等级 8"
+ powerstation_bonus1: "能源基地等级 1"
+ powerstation_bonus2: "能源基地等级 2"
+ powerstation_bonus3: "能源基地等级 3"
+ powerstation_bonus4: "能源基地等级 4"
+ powerstation_bonus5: "能源基地等级 5"
+ powerstation_bonus6: "能源基地等级 6"
+ powerstation_bonus7: "能源基地等级 7"
+ powerstation_bonus8: "能源基地等级 8"
+
+ miningbase_final: "太多采矿基地"
+ powerstation_final: "太多能源基地"
+
+ mansion_limit: "腐败(太多高楼大夏)"
+
+ nscflag.1.name: "NSC高级玩家挑战"
+ nscflag.1.desc: "此消息是给全体玩家的，如果想进一步提高AI难度的话。\n\n如果启用，每一年的开始，将会根据每个玩家科技水平的情况，自动调整AI的科技水平，比如你获得一个新技术，同样§Y所有普通AI帝国§!也将会获得。当然这取决于是否启用这个挑战。\n\n§R警告！一旦你做出选择，这场战役将无法避免。请谨慎选择。"
+ nscflagchoice.1.a: "迎接它！"
+ nscflagchoice.1.b: "不需要，谢谢。"

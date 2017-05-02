@@ -1,0 +1,66 @@
+﻿l_english:
+
+
+ tech_advanced_industry:0 "先进工业"
+ tech_advanced_industry_desc:1 "如果我们想进步就必须为未来准备我们的新产业。\n\n"
+
+ tech_titaniteextraction:0 "榍石的提取"
+ tech_titaniteextraction_desc:1 "使用先进的开采技术，我们可以提取榍石。\n\n"
+
+ tech_dilithium_energy:0 "双锂晶体"
+ tech_dilithium_energy_desc:0 "学习如何使用双锂作为能源将有助于我们行业的一个新的发展。\n\n"
+
+
+##########################
+### Ethic Technologies ###
+##########################
+
+ tech_individualist1:0 "个人主义建筑 I"
+ tech_individualist1_desc:1 "一个基本的个人主义帝国的建筑。\n\n"
+
+ tech_individualist2:0 "个人主义建筑 II"
+ tech_individualist2_desc:1 "一个基本的个人主义帝国的建筑。\n\n"
+
+ tech_collectivist1:0 "集体主义建筑 I"
+ tech_collectivist1_desc:1 "一个基本的集体主义帝国的建筑。\n\n"
+
+ tech_collectivist2:0 "集体主义建筑 II"
+ tech_collectivist2_desc:1 "一个基本的集体主义帝国的建筑。\n\n"
+
+ tech_spiritualist1:0 "唯心主义建筑 I"
+ tech_spiritualist1_desc:1 "一个基本的唯心主义帝国的建筑。\n\n"
+
+ tech_spiritualist2:0 "唯心主义建筑 II"
+ tech_spiritualist2_desc:1 "一个基本的唯心主义帝国的建筑。\n\n"
+
+ tech_materialist1:0 "唯物主义建筑 I"
+ tech_materialist1_desc:1 "一个基本的唯物主义帝国的建筑。\n\n"
+
+ tech_materialist2:0 "唯物主义建筑 II"
+ tech_materialist2_desc:1 "一个基本的唯物主义帝国的建筑。\n\n"
+
+ tech_militarist1:0 "军国主义建筑 I"
+ tech_militarist1_desc:1 "一个基本的军国主义帝国的建筑。\n\n"
+
+ tech_militarist2:0 "军国主义建筑 II"
+ tech_militarist2_desc:1 "一个基本的军国主义帝国的建筑。\n\n"
+
+ tech_pacifist1:0 "和平主义建筑 I"
+ tech_pacifist1_desc:1 "一个基本的和平主义帝国的建筑。\n\n"
+
+ tech_pacifist2:0 "和平主义建筑 II"
+ tech_pacifist2_desc:1 "一个基本的和平主义帝国的建筑。\n\n"
+
+ tech_xenophobe1:0 "排外主义建筑 I"
+ tech_xenophobe1_desc:1 "一个基本的排外主义帝国的建筑。\n\n"
+
+ tech_xenophobe2:0 "排外主义建筑 II"
+ tech_xenophobe2_desc:1 "一个基本的排外主义帝国的建筑。\n\n"
+
+ tech_xenophile1:0 "亲外主义建筑 I"
+ tech_xenophile1_desc:1 "一个基本的亲外主义帝国的建筑。\n\n"
+
+ tech_xenophile2:0 "亲外主义建筑 II"
+ tech_xenophile2_desc:1 "一个基本的亲外主义帝国的建筑。\n\n"
+
+

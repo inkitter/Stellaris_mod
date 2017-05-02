@@ -1,0 +1,28 @@
+﻿l_english:
+ #Dead Star Event
+ #Idea by Infel
+ #Code by LamilLerran
+ #Temporary Writing by LamilLerran
+ mem_dead_star_category:0 "错过的星星"
+ mem_dead_star_category_desc:0 "根据§Y[Root.GetName]§!的星图所示这里应该有一颗非常亮的星星，这可能是一个简单的计算出错...但这颗恒星确实比我们家乡的天空的恒星更为突出。我们应该进一步调查。"
+ mem_dead_star.4.name:0 "计算误差"
+ mem_dead_star.4.desc:0 "看来，计算存在一些误差，真正的星星位置应该在其他地方。"
+ mem_dead_star.4.a:0 "注意。我们应该继续前进。"
+ mem_dead_star.6.name:0 "死星"
+ mem_dead_star.6.desc:0 "看来导航员是正确的。星星确实在这里...或者说是它曾经在这。看起来它在很久以前就质量坍缩，创建§Y[From.GetName]§!。天体物理学家在董事会声称，§Y[Root.Owner.Capital.GetName]§!的光的事件还没来到。但根据他的计算，它应该在几年之内发生。"
+ mem_dead_star.6.a:0 "没有什么是相同的"
+ mem_dead_star.6.b:0 "千年一遇的机会！"
+ mem_dead_star.6.c:0 "一切都结束了。"
+ mem_dead_star.1.name:0 "消失的星星"
+ mem_dead_star.1.desc:0 "在许多年以前的科学家预测，今晚将有一颗星星从 §Y[Root.Owner.Capital.GetName]§!的天空消失。它在天空中爆亮几秒钟，就彻底消失了。尽管有媒体报道，但大多数星球上的人都错过这一时刻，甚至还有些人还没注意到这颗星星不见了好几天。值得庆幸的是，我们的科学家比我们的公民更为警惕这件事，所以他们获取到了很多有趣的数据。"
+ mem_dead_star.1.a:0 "干得不错！"
+ mem_dead_star.2.name:0 "超新星"
+ mem_dead_star.2.desc:0 "夜以降临！在许多年以前的科学家预测，今晚将有一颗星星出现在 §Y[Root.Owner.Capital.GetName]§!的天空！科学家和公民都把各种设备对准了天空，这样他们就不会错过这难得一遇的奇观。这颗星星的图像将被传送到世界各处让全帝国的子民共享这一时刻。这次事件将会在我们的历史上留下重要一笔！"
+ mem_dead_star.2.a:0 "我们很幸运地见证了这一时刻！"
+ mem_dead_star.3.name:0 "死星"
+ mem_dead_star.3.desc:0 "夜以降临...在许多年以前的科学家预测，今晚将有一颗星星在 §Y[Root.Owner.Capital.GetName]§!的天空死去。可怕的是公民守候了一整夜，拿着灯望着天，他们仍可以享受着星星的闪耀。星星本身一瞬间就消失了...就像我们所有人一样。我们科学家似乎很高兴，他们获得了一些有趣的数据，但其他的人却收了一个刻苦铭心的警示，每个人总有面对死亡的一天。"
+ mem_dead_star.3.a:0 "莫莉的回忆。"
+ mem_supernova_celebration:0 "激动人心的超新星"
+ mem_supernova_mourning:0 "追忆失去的星星"
+ mem_supernova_celebration_desc:0 "该星球上的居民很高兴见证了超新星。"
+ mem_supernova_mourning_desc:0 "该星球上的居民为一颗星星逝去而哀悼。"

@@ -1,0 +1,89 @@
+﻿l_english:
+ 
+ ev_fledgling_colony:0 "新殖民地"
+ ev_fledgling_colony_desc:0 "这个殖民地具有很高的发展潜力，也无需提供太多必需品。"
+ 
+ ev_growing_colony:0 "扩展的殖民地"
+ ev_growing_colony_desc:0 "这个世界仍然为其发展所需的基础设施进行建设。"
+ 
+ ev_established_world:0 "成熟的世界"
+ ev_established_world_desc:0 "这个世界拥有高科技设施以及发达的经济。"
+ 
+ ev_advanced_world:0 "高级的世界"
+ ev_advanced_world_desc:0 "Placeholder Text Here. We don't currently create these."
+ 
+ ev_research_hub:0 "研究中心"
+ ev_research_hub_desc:0 "这个星球的实验室以研发尖端科技而闻名。"
+ 
+ ev_physics_hub:0 "物理研究中心"
+ ev_physics_hub_desc:0 "这个星球的实验室以研发尖端的物理科技而闻名。"
+
+ ev_society_hub:0 "社会研究中心"
+ ev_society_hub_desc:0 "这个星球的实验室以研发尖端的社会科技而闻名。"
+ 
+ ev_engineering_hub:0 "工程研究中心"
+ ev_engineering_hub_desc:0 "这个星球的实验室以研发尖端的工程科技而闻名。"
+ 
+ ev_expert_refinement:0 "专业提纯"
+ ev_expert_refinement_desc:0 "这个技术使得能从矿山开采更多矿物更少杂质。"
+ 
+ ev_planetary_exchange:0 "星球交易"
+ ev_planetary_exchange_desc:0 "这里是进行以能源交易的金融贸易中心。"
+ 
+ ev_specialized_fauna:0 "定制动物"
+ ev_specialized_fauna_desc:0 "开发独特动物能提供更多的收益和满足更多的需求。"
+ 
+ ev_observatory:0 "天文台"
+ ev_observatory_desc:0 "训练有素的人员可使用先进的光学仪器可避免对象识别的出错情况。"
+ 
+ ev_advanced_academy:0 "高等院校"
+ ev_advanced_academy_desc:0 "这星球拥有能培养领导的最好的教育水平。\n\n 帝国修改: \n 领导影响力成本: -50% \n 领导经验: +150%"
+ 
+ ev_diplomatic_powerhouse:0 "外交强国"
+ ev_diplomatic_powerhouse_desc:0 "令人惊讶的是，一个星球也可以举足轻重。\n\n 帝国修改: +1 影响力 "
+  
+ ev_cultural_landmark:0 "文化地标"
+ ev_cultural_landmark_desc:0 "这个地方象征着你的国家。\n\n 帝国修改: \n 道德分歧: -10% \n +5% 幸福度"
+ 
+ 
+ ev_planetary_fortress:0 "行星堡垒"
+ ev_planetary_fortress_desc:0 " "
+ 
+ ev_advanced_shipyards:0 "高级造船厂"
+ ev_advanced_shipyards_desc:0 " "
+ 
+ ev_reserve:0 "自然保护区"
+ ev_reserve_desc:0 "许多科学家和旅客都涌向该星球的自然保护区。帝国修改: \n 幸福度: +5% \n (注意:你需要至少4个未开发的地块来维持帝国加成) "
+ 
+ ev_reserve_dep:0 "自然保护"
+ ev_reserve__dep_desc:0 "虽然它们成为历史，但是这个小保护区仍然吸引着人们。"
+ ev_reserve_dep_desc:0 "虽然它们成为历史，但是这个小保护区仍然吸引着人们。"
+ 
+ ev_fabrication:0 "建筑部件"
+ ev_fabrication_desc:0 "利用模块化方案建造建筑有助于提高建造效率。\n\n 帝国修改: \n 建造时间: -15%"
+ 
+ ev_black_markets:0 "黑市"
+ ev_black_markets_desc:0 "只要你有钱，你就可以买到任何东西"
+ 
+ ev_pharmaceuticals:0 "药物"
+ ev_pharmaceuticals_desc:0 "这种药物能治疗罕见的疾病并延长寿命。\n\n 帝国修改: \n 领到寿命: +20"
+ 
+ ev_voidfarers_archives:0 "Voidfarer的档案"
+ ev_voidfarers_archives_desc:0 "一份记录着银河异常现象和新的技术的档案。\n\n 帝国修改: \n 异常的研究速度: +20% \n 异常失败的风险: -10% \n 异常的机会: +10%"
+
+ ev_reserve_e:0 "自然保护区"
+ 
+ ev_pharmaceuticals_e:0 "寿命延长药品"
+ 
+ ev_voidfarers_archives_e:0 "Voidfarer的档案"
+ 
+ ev_fabrication_e:0 "建筑部件制造"
+  
+ ev_advanced_academy_e:0 "高等院校"
+ 
+ ev_diplomatic_powerhouse_e:0 "外交大国"
+ 
+ ev_cultural_landmarkpos_e:0 "文化地标建立"
+ 
+ ev_cultural_landmarkneg_e:0 "文化地标失去"
+ 

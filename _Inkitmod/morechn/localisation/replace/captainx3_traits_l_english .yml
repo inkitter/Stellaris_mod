@@ -1,0 +1,29 @@
+﻿l_english:
+
+####################################
+#NEW TRAIT RULER ENTRIES
+####################################
+
+ trait_ruler_frigate_focus: "护卫舰专注"
+ trait_ruler_frigate_focus_desc: "领导会愿意大力发展护卫舰。"
+
+ trait_ruler_StrikeCruiser_focus: "打击巡洋舰专注"
+ trait_ruler_StrikeCruiser_focus_desc: "领导会愿意大力发展打击巡洋舰。"
+
+ trait_ruler_Battlecruiser_focus: "战列巡洋舰专注"
+ trait_ruler_Battlecruiser_focus_desc: "领导会愿意大力发展战列巡洋舰。"
+
+ trait_ruler_LightCarrier_focus: "轻型航母专注"
+ trait_ruler_LightCarrier_focus_desc: "领导会愿意大力发展轻型航母。"
+
+ trait_ruler_Carrier_focus: "航母专注"
+ trait_ruler_Carrier_focus_desc: "领导会愿意大力发展航母。"
+
+ trait_ruler_Dreadnought_focus: "无畏舰专注"
+ trait_ruler_Dreadnought_focus_desc: "领导会愿意大力发展无畏舰。"
+
+ trait_ruler_Superdreadnought_focus: "超无畏舰专注"
+ trait_ruler_Superdreadnought_focus_desc: "领导会愿意大力发展超无畏舰。"
+
+ trait_ruler_Flagship_focus: "旗舰专注"
+ trait_ruler_Flagship_focus_desc: "领导会愿意大力发展旗舰。"

@@ -1,0 +1,9 @@
+﻿l_english:
+
+# Technology - FTL Enhanced
+
+ tech_cofh_se_repeatable_reduced_ftl_windup:0 "超空间校准"
+ tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "我们对引擎改进使得我们可以减少启动引擎所需时间。"
+
+ tech_cofh_se_repeatable_reduced_ftl_winddown:0 "时空共振递减"
+ tech_cofh_se_repeatable_reduced_ftl_winddown_desc:0 "我们对引擎改进使得我们可以减少时空共振对超光速航行影响。"

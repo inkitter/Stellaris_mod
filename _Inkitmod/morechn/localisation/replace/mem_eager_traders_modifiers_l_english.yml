@@ -1,0 +1,21 @@
+﻿l_english:
+ mem_booming_economy:0 "繁荣的经济"
+ mem_booming_economy_desc:0 "这个星球的经济在快速增长，能源产出也在增大."
+ 
+ mem_busted_economy:0 "惨淡的经济"
+ mem_busted_economy_desc:0 "这个星球的经济正在低迷期，能源产出也在下降."
+ 
+ mem_pleased_by_custom_event:0 "人民喜悦"
+ mem_pleased_by_custom_event_desc:0 "人民对最近发生的事情感到喜悦."
+ 
+ mem_displeased_by_custom_event:0 "人民不满"
+ mem_displeased_by_custom_event_desc:0 "人民对最近发生的事情感到不满."
+  
+ mem_opinion_allowed_merchant_access:0 "允许交易"
+ 
+ mem_opinion_refused_merchant_access:0 "拒绝贸易"
+ 
+ mem_opinion_mutual_scam:0 "互相欺骗"
+ 
+ mem_opinion_peaceful_trade:0 "我们的第一次贸易关系是和平的"
+ 

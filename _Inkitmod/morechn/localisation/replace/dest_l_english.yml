@@ -1,0 +1,144 @@
+﻿l_english:
+
+#debug
+ traveler.9997.name:0 "DEBUG LOCATION"
+ traveler.9997.desc:0 "System: [traveler_fleet.GetStarName]"
+
+#traveler events
+ traveler.2.name:0 "银河系外的事件"
+ traveler.2.desc:0 "来自星系的观测报告说，星系空间发生一件奇怪的事情。引力波比以往要更为剧烈且来自四万光年外的星系。奇怪的是，因礼包还伴随着一种未知能量的爆发，且不同于现如今已知的任何物理模型预测。即使是奇怪的引力波和未知的能量比光的速度还快，但是科学家称其为"paracausal"事件。"
+ traveler.2.a:0 "有趣"
+
+ traveler.6.name:0 "神秘的物体"
+ traveler.6.desc:0 "在[trav_system.GetName]的民用船只曾目击到一个神秘的球形物体。最初以为是流亡小行星，在进一步调查后发现，物体表面十分光滑均匀。它似乎还按照自己的意愿下移动，因此被称为旅行者。我们科学家发现该物体与一年前所发现事件的能量辐射检测数据完全一致。"
+ traveler.6.a:0 "有趣。继续观察物体。"
+ traveler.6.b:0 "这物体应该是神圣的起源。"
+ traveler.6.c:0 "某个遥远文明的奇迹！"
+
+ traveler.7.name:0 "谣言"
+ traveler.7.desc.owned:0 "关于神秘物体的移动谣言在[trav_system_owner.GetName]传播十分广泛。这些谣言小行星外表如同黑色球体，而且会自行移动。[trav_system_owner.GetSpeciesName]的谣言纷飞，但却都没真实性可言。"
+ traveler.7.desc.unowned:0 "关于神秘物体的移动谣言在[trav_system_owner.GetName]传播十分广泛。这些谣言小行星外表如同黑色球体，而且会自行移动。虽然我们无法证实这些说法，但其他帝国也有类似报道在传播。"
+ traveler.7.a:0 "继续寻找谣言的起源。"
+ traveler.7.b:0 "那可是神的工作。"
+ traveler.7.c:0 "这可能会改变我们所知道的一切。"
+
+ traveler.8.name:0 "旅行者"
+ traveler.8.desc:0 "谣言描述的传说中的物体出现在我们的边境。我们科学家并没有发现有任何的无线信号从它那里传出。现在被称为"旅行者"的物体是由数百名科学家不断观察之后得出来的。"
+ traveler.8.a:0 "继续观察物体。"
+ traveler.8.b:0 "派我们的牧师代替科学家前去。"
+ traveler.8.c:0 "将我们科学家奉献给他。"
+
+ traveler.9.name:0 "接触"
+ traveler.9.desc:0 "接触"
+ traveler.9.a:0 "好"
+
+ traveler.10.name:0 "旅行者"
+ traveler.10.desc:0 "test"
+ traveler.10.a:0 "test"
+ traveler.10.b:0 "test"
+ traveler.10.c:0 "test"
+ traveler.10.d:0 "test"
+
+ traveler.11.name:0 "黄金时代"
+ traveler.11.desc:0 "旅行者已经抵达我们首都星系并开始围绕恒星转。据我们科学家报道，说是听到某种声音，似乎给他们给予了一些帮助。专家们将这一启示成为黄金时代开端。"
+ traveler.11.a:0 "太神了！"
+ traveler.11.b:0 "我们将提高我们的知识水平。"
+
+ traveler.12.name:0 "黄金时代"
+ traveler.12.desc:0 "[trav_system_owner.GetRulerTitle]的[trav_system_owner.GetName]宣布它们的黄金时代开始了。它们声称是旅行者在给他们带去的新知识。"
+ traveler.12.a:0 "有趣的。"
+
+ traveler.13.name:0 "令人振奋的旅行者"
+ traveler.13.desc:0 "从前的一个原始物种，如今宣布它们加入宇宙中的竞争的讯息。最初，我们科学家对它们发展如此之快感到不解。然而，在最近讯息中公布它们的发展全依托于被发现旅行者，旅行者为其授予了它们所需的新知识。这段讯息加深了旅行者的神秘感。"
+ traveler.13.a:0 "难以置信。"
+
+ traveler.100.name:0 "旅行者"
+ traveler.100.desc:0 "当前发言人: [speaker_country.GetName]"
+ traveler.100.a:0 "需要选出新的发言人。"
+ traveler.100.b:0 "需要黄金时代"
+ traveler.100.c:0 "告诉守护者"
+ traveler.100.d:0 "发言人设置"
+ traveler.100.d.notspeaker:0 "无发言人"
+ traveler.100.e:0 "再见"
+
+ traveler.101.name:0 "旅行者"
+ traveler.101.desc:0 "当前发言人: [speaker_country.GetName]"
+ traveler.101.a:0 "需要选出新的发言人。"
+ traveler.101.b:0 "需要黄金时代"
+ traveler.101.c:0 "告诉守护者"
+ traveler.101.d:0 "发言人设置"
+ traveler.101.d.notspeaker:0 "无发言人"
+ traveler.101.e:0 "再见"
+
+ traveler.102.name:0 "旅行者"
+ traveler.102.desc:0 "PLACEHOLDER"
+ traveler.102.a:0 "开始选举"
+ traveler.102.a.tooltip:0 "旅行者将选择一个新发言人。"
+ traveler.102.a.timer:0 "最近选择的新发言人。"
+ traveler.102.a.trust:0 "没有足够的信任"
+ traveler.102.b:0 ""返回主菜单"
+
+ traveler.103.name:0 "旅行者"
+ traveler.103.desc:0 "PLACEHOLDER"
+ traveler.103.a:0 "PLACEHOLDER"
+ traveler.103.b:0 ""返回主菜单"
+
+ traveler.104.name:0 "旅行者"
+ traveler.104.desc:0 "PLACEHOLDER"
+ traveler.104.a:0 "发送给守护者"
+ traveler.104.a.timer:0 "最近要求守护者"
+ traveler.104.a.trust:0 "没有足够的信任"
+ traveler.104.a.reply:0 "PLACEHOLDER REPLY"
+ traveler.104.b:0 "返回主菜单。"
+
+ traveler.105.name:0 "旅行者"
+ traveler.105.desc:0 "PLACEHOLDER"
+ traveler.105.a:0 "PLACEHOLDER"
+ traveler.105.b:0 "PLACEHOLDER"
+
+#elections
+ traveler.201.name:0 "发言人"
+ traveler.201.desc:0 "不久将选出一位新发言人"
+
+ traveler.202.name:0 "发言人"
+ traveler.202.desc.speaker:0 "你现在是发言人"
+ traveler.202.desc.lightaligned:0 "一个新发言人的选择: [speaker_country.GetName]"
+
+#traveler modifiers
+ dest_golden_age:0 "黄金时代"
+ dest_praising_traveler:0 "赞美旅行者"
+ dest_observing_traveler:0 "观察旅行者"
+ dest_uplifted_by_traveler:0 "来自旅行者的升变"
+
+#traveler ship
+ TRAVELER:0 "旅行者"
+ traveler:0 "旅行者"
+ traveler_plural:0 "旅行者"
+
+#Traveler Government
+ DEST_LEADER_TITLE:0 "幽灵"
+
+#strategic resources
+ dest_sr_glimmer:0 "微光"
+ dest_sr_glimmer_desc:0 "可用于生产多种产品的自然形成的可编程物质。"
+
+#technology
+ dest_tech_glimmer_extraction:0 "微光的提取"
+ dest_tech_glimmer_extraction_desc:0 "微光似乎只在深深的地下才能发现，但特别深的钻机可以帮助我们抵达那。"
+
+#planetary buildings
+ dest_building_glimmer_network_1:0 "微光钻机"
+ dest_building_glimmer_network_1_desc:0 "一种能深入地表之下的钻机。"
+ dest_building_glimmer_network_2:0 "微光钻机 II"
+ dest_building_glimmer_network_2_desc:0 "一种能深入地表之下的钻机。"
+ dest_building_glimmer_network_3:0 "微光钻机 III"
+ dest_building_glimmer_network_3_desc:0 "一种能深入地表之下的钻机。"
+ dest_building_glimmer_network_4:0 "微光钻机 IV"
+ dest_building_glimmer_network_4_desc:0 "一种能深入地表之下的钻机。"
+
+#armies
+ dest_guardian_fireteam:0 "守护者的火力组"
+ dest_guardian_fireteam_plural:0 "守护者的火力组"
+ dest_guardian_fireteam_desc:0 "被旅行者唤醒的亡者士兵。"
+#tooltips
+ requires_glimmer:0 "§R需要 §Y$dest_sr_glimmer$§! 地块。§!"

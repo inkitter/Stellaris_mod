@@ -1,0 +1,279 @@
+﻿l_english:
+ 
+ #original planet class copies using vanilla localisation. DON´T PASTE OVER THEM
+ pc_mhs_durin_desert:0 "沙漠星球"
+ pc_mhs_durin_desert_desc:0 "有氮氧大气层的沙漠世界。这里几乎很少能见到降水和地表水。昼夜温差变化大。虽然植被稀少，但是只要适当的降水也能使沙漠出现短暂花海。"
+ pc_mhs_durin_arid:0 "旱地星球"
+ pc_mhs_durin_arid_desc:0 "有氮氧大气层的干旱的岩石世界。灰尘覆盖的地形大部分为台地和峡谷。在更温和的极地地区发现有森林存在，但植被依旧是稀缺无比。"
+ pc_mhs_durin_tundra:0 "冻原星球"
+ pc_mhs_durin_tundra_desc:0 "有氮氧大气层的寒冷的岩石世界。星球表面除了赤道地区，其他都被永久冻土覆盖。虽有一个稳定的生物圈存在，但是植被大多限于苔藓和地衣。"
+ pc_mhs_durin_continental:0 "大陆星球"
+ pc_mhs_durin_continental_desc:0 "有氮氧大气层的大陆世界。每块大陆之间虽隔着远洋，但有着温和稳定的气候环境，而且大气变化取决于维度和降水。"
+ pc_mhs_durin_tropical:0 "热带星球"
+ pc_mhs_durin_tropical_desc:0 "有氮氧大气层的热带世界。有着明显的降水量与季节交换时候，而且大多数陆地被茂密的森林覆盖。"
+ pc_mhs_durin_ocean:0 "海洋星球"
+ pc_mhs_durin_ocean_desc:0 "有氮氧大气层的海洋世界。海洋占星球的表面至少有§Y90%§!以上，而剩下面积就被分散岛屿占据。"
+ pc_mhs_durin_arctic:0 "极地星球"
+ pc_mhs_durin_arctic_desc:0 "有氮氧大气层的冰封世界。除了赤道部分存在少量的植被，其他都被厚厚冰川所覆盖。"
+ pc_mhs_durin_alpine:0 "高寒星球"
+ pc_mhs_durin_alpine_desc:0 "有氮氧大气层的山地世界。白雪覆盖着山顶而山谷的湖泊结成厚厚的冰层。虽然这个星球经历了最短的季节性变化，但在湖泊冰面之下还有能维持耐寒植被的液态水。"
+ pc_mhs_durin_savannah:0 "大草原星球"
+ pc_mhs_durin_savannah_desc:0 "有氮氧大气层的干旱的岩石世界。除了短暂的雨季形成小水圈外，就只能在绿洲找到水源。"
+ pc_mhs_durin_gaia:0 "盖亚星球"
+ pc_mhs_durin_gaia_desc:0 "有氮氧大气层的完美世界。任何地方都具有最佳的生物可以生存的条件。"
+ 
+ pc_mhs_durin_continental_tile:0 "温带地形"
+ pc_mhs_durin_continental_tile_desc:0 "温和气候的森林地形。"
+ pc_mhs_durin_desert_tile:0 "沙漠地形"
+ pc_mhs_durin_desert_tile_desc:0 "炎热的沙漠地形。"
+ pc_mhs_durin_arid_tile:0 "旱地地形"
+ pc_mhs_durin_arid_tile_desc:0 "植被稀少的干岩地形。"
+ pc_mhs_durin_tundra_tile:0 "冻原地形"
+ pc_mhs_durin_tundra_tile_desc:0 "寒风吹袭草原地形。"
+ pc_mhs_durin_tropical_tile:0 "热带地形"
+ pc_mhs_durin_tropical_tile_desc:0 "温暖湿润的森林地形。"
+ pc_mhs_durin_ocean_tile:0 "海洋地形"
+ pc_mhs_durin_ocean_tile_desc:0 "一望无际的海洋地形。"
+ pc_mhs_durin_arctic_tile:0 "极地地形"
+ pc_mhs_durin_arctic_tile_desc:0 "除了雪就是冰的地形。"
+ pc_mhs_durin_savannah_tile:0 "大草原地形"
+ pc_mhs_durin_savannah_tile_desc:0 "温暖干燥的地形。"
+ pc_mhs_durin_alpine_tile:0 "高寒地形"
+ pc_mhs_durin_alpine_tile_desc:0 "冰雪覆盖的地形。"
+ pc_mhs_durin_gaia_tile:0 "盖亚地形"
+ pc_mhs_durin_gaia_tile_desc:0 "适合绝大多数的生物生存的地形。"
+ pc_mhs_durin_nuked_colonize_tile:0 "荒地地形"
+ pc_mhs_durin_nuked_colonize_tile_desc:0 "经历过战争洗礼的地形。"
+ 
+ planetary_ring_nuked_tile:0 "环形世界地形"
+ planetary_ring_nuked_tile_desc:0 "环世界的内部星系精心维护的原始地形。"
+
+ pc_mhs_nuked:0 "死寂星球"
+ pc_mhs_nuked_desc:0 "有氮氧大气层的岩石世界. 它目前经历着核冬天，灰蒙蒙的大气，而且地表辐射已经超过任何生物可承受最大值。"
+ pc_mhs_nuked_tile:0 "荒芜地形"
+ pc_mhs_nuked_tile_desc:0 "饱受战火侵蚀的地形。辐射水平勉强可以让人生活。"
+ pc_mhs_nuked_by_asteroids_tile:0 "冻原地形"
+ pc_mhs_nuked_by_asteroids_tile_desc:0 "寒风吹袭草原。"
+ 
+ #################################################################################
+ # PASTE HERE - Here starts the purely english part of the Loc File - PASTE HERE #
+ #################################################################################
+ mhs_qastliani_system_NAME:0 "Qastliani星系"
+ mhs_qastliani_system_DESC:0 "Qastliani星系, 曾经是一个古老的被遗忘的文明的家园，现在又是一个年轻的物种的摇篮，达到了他们的发源地。\n\n家园 - 大小 16\n\n一个太阳,一个被摧毁的世界,两个熔岩星球,八个小行星,一个气态巨星和四个冰封世界\n\n$system_initializer_DESC$"
+ mhs_daedalus_system_NAME:0 "Daedalus星系"
+ mhs_daedalus_system_DESC:0 "Daedalus星系是个非常特殊的世界。你的祖先曾预言大灾难会破坏你的世界，然后神会从天而降拯救苦难的你们，带你们进入在天空的新家。\n\n家园 - 大小 16\n\n一个太阳,两个熔岩星球,两个气态巨星,一个荒芜世界,四个冰封世界\n\n$system_initializer_DESC$"
+ mhs_ikor_system_NAME:0 "Ikor星系"
+ mhs_ikor_system_DESC:0 "Ikor - 一个双星星系 - 这里或许没什么资源可供你使用，但是你的文明是第一个到达这里。你的存在会如何影响这个星系的原有物种?\n\n家园 - 大小 16\n\n两个太阳,两个被占领居住的星球，一个气态巨星以及多个卫星和小行星\n\n$system_initializer_DESC$"
+ mhs_reetii_system_NAME:0 "Re´etii星系"
+ mhs_reetii_system_DESC:0 "Re´etii星系，一个古老的帝国的废墟。但他们世界已经化为一片废墟，就连他们最大的成就-环带也被摧毁。你的物种曾经是他们的动物园里的其中一个宠物。不过你是幸运的，因为你没跟随这个帝国一起化为尘埃。\n\n家园 - 大小 16\n\n$system_initializer_DESC$"
+ mhs_reshtar_system_NAME:0 "Resh´Tar星系"
+ mhs_reshtar_system_DESC:0 "三个可居住的行星绕着他们的太阳在同一轨道上，虽然现在已经很久了，似乎曾经是一个恒星规模的实验。\n\n家园 - 大小 16\n\n一个太阳,两个可居住星球,十二个小行星\n\n$system_initializer_DESC$"
+ mhs_kholdan_system_NAME:0 "Kholdan星系"
+ mhs_kholdan_system_DESC:0 "Kholdan星系是一个三倍的恒星星系组成的一个小双星星系环绕一颗红巨星和他的行星。\n\n家园 - 大小 16\n\n3个太阳,3个熔岩世界,1个气态巨星,2个贫瘠世界,2个有毒世界和各种各样的小行星\n\n$system_initializer_DESC$"
+ mhs_durinsforge_system_NAME:0 "Durin的锻造"
+ mhs_durinsforge_system_DESC:0 "Durin的锻造"
+ mhs_durinsforge_no_quest_system_NAME:0 "Durin的锻造(-)"
+ mhs_durinsforge_no_quest_system_DESC:0 "Durin的锻造星系是一个具有几个行星和许多小行星组成的三叉星星系。\n\n家园 - 大小 16-20\n\n三个太阳，一个熔岩世界，一个气态巨星，一个寒冰世界，十二个小行星\n\n这个版本没有任务。"
+ mhs_me_tikkun_system_NAME:0 "Tikkun星系"
+ mhs_me_tikkun_system_DESC:0 "这家园星系毕竟是你们曾经的宇宙。\n\n家园 - 大小 16\n\n一个太阳,一个有毒世界,一个气态巨星，一个贫瘠世界，七个小行星\n\n$system_initializer_DESC$"
+ mhs_me_parnitha_system_NAME:0 "Parnitha星系"
+ mhs_me_parnitha_system_DESC:0 "这是Asar的质量效应的宇宙的家园星系。\n\n家园 - 大小 16\n\n一个太阳,一个有毒世界,三个气态巨星,一个熔岩世界,四个小行星\n\n$system_initializer_DESC$"
+ mhs_me_aralakh_system_NAME:0 "Aralakh星系"
+ mhs_me_aralakh_system_DESC:0 "这是Krogans的质量效应的宇宙的家园星系。\n\n家园 - 大小 16\n\n一个太阳,三个熔岩世界,两个气态巨星,五个小行星\n\n$system_initializer_DESC$"
+ mhs_me_trebia_system_NAME:0 "Trebia星系"
+ mhs_me_trebia_system_DESC:0 "这是Turians的质量效应的宇宙的家园星系。\n\n家园 - 大小 16\n\n一个太阳,三个熔岩世界,一个气态巨星,一个贫瘠星球,七个小行星\n\n$system_initializer_DESC$"
+ mhs_me_pranas_system_NAME:0 "Pranas星系"
+ mhs_me_pranas_system_DESC:0 "这是Salarians的质量效应的宇宙的家园星系。\n\n家园 - 大小 16\n\n一个太阳,一个熔岩世界,一个贫瘠星球,一个气态巨星,八个小行星\n\n$system_initializer_DESC$"
+ mhs_me_harsa_system_NAME:0 "Harsa星系"
+ mhs_me_harsa_system_DESC:0 "质量效应宇宙的巴塔利亚族的家园。\n\n家园 - 大小 16-20\n\n一个太阳，一个熔岩世界，四个荒芜星球，一个气态巨星，四个小行星\n\n$system_initializer_DESC$"
+ mhs_me_phontes_system_NAME:0 "Phontes星系"
+ mhs_me_phontes_system_DESC:0 "质量效应宇宙的艾尔柯的家园。\n\n家园 - 大小 16-20\n\n一个太阳，一个熔岩世界，一个荒芜星球, 一个剧毒世界，一个气态巨星，五个小行星\n\n$system_initializer_DESC$"
+ mhs_me_aru_system_NAME:0 "Aru星系"
+ mhs_me_aru_system_DESC:0 "质量效应宇宙的法勒斯的家园。\n\n家园 - 大小 16-20\n\n一个太阳，一个剧毒世界，三个气态巨星，六个小行星\n\n$system_initializer_DESC$"
+ mhs_me_maskimxul_system_NAME:0 "Maskim Xul星系"
+ mhs_me_maskimxul_system_DESC:0 "质量效应宇宙的虫族的家园。\n\n家园 - 大小 16-20\n\n一个太阳，一个荒芜星球，一个气态巨星，八个小行星\n\n$system_initializer_DESC$"
+ mhs_me_kyzil_system_NAME:0 "Kyzil星系"
+ mhs_me_kyzil_system_DESC:0 "质量效应宇宙的沃查的家园。\n\n家园 - 大小 16-20\n\n一个太阳，两个荒芜星球，一个气态巨星，七个小行星\n\n$system_initializer_DESC$"
+ 
+ #New Planet Classes
+ planetary_ring_nuked:0 "环带上的死寂世界"
+ planetary_ring_nuked_desc:0 "有氮氧大气层的岩石世界。它目前正经历类似于核冬天，空中漂浮黑色颗粒形成密不透风的大气层，同时地表不仅有着高辐射，而且时不时喷涌着岩浆和喷射着有毒气体，使得任何生命不复存在。这是个古老而又先进的环世界。"
+ pc_mhs_nuked_by_asteroids:0 "死寂世界"
+ pc_mhs_nuked_by_asteroids_desc:0 "有氮氧大气层的岩石世界。这里目前遇到一个可怕的冬季，空中漂浮黑色颗粒形成密不透风的大气层。"
+ pc_mhs_durin_nuked_nocolonize:0 "被破坏的环带上的死寂世界"
+ pc_mhs_durin_nuked_nocolonize_desc:0 "有氮氧大气层的岩石世界。它目前正经历类似于核冬天，空中漂浮黑色颗粒形成密不透风的大气层，同时地表不仅有着高辐射，而且时不时喷涌着岩浆和喷射着有毒气体，使得任何生命不复存在。它是个被破坏的但又古老的环世界。"
+ pc_mhs_durin_nuked_colonize:0 "被破坏的环带上的死寂世界"
+ pc_mhs_durin_nuked_colonize_desc:0 "有氮氧大气层的岩石世界。它目前正经历类似于核冬天，空中漂浮黑色颗粒形成密不透风的大气层，同时地表不仅有着高辐射，而且时不时喷涌着岩浆和喷射着有毒气体，使得任何生命不复存在。它是个被破坏的但古老的环世界。"
+ 
+ 
+
+ #New Tile Blocker
+ tb_mhs_asteroid_crater:0 "£blocker 陨石坑"
+ tb_mhs_asteroid_crater_desc:0 "这一大规模影响事件的提醒标志着周围的景观。"
+ 
+ #########################
+ # Durins Forge Questline#
+ #########################
+ 
+ #Upon completing home system survey, starts event chain
+ mhs_durin.2.name:0 "Durin的遗产"
+ mhs_durin.2.desc:0 "自古以来，我们的传说讲述了我们的祖先在星辰之下的故事。在天空的某处星星有他的荣誉的名字。在三个太阳的地方，熔炉是其中最大的太阳，另一个是大厅。虽然它不是天空最亮的星星或是某星座的一部分，但是个值得我们探索的地方，为了传说之旅，我们展开了恒星之旅。"
+ mhs_durin.2.a:0 "这确实是个不错的开始。"
+
+ #Durins Hall Event Chain
+ mhs_durins_hall_title:0 "星星之旅"
+ mhs_durins_hall_desc:0 "经过很长时间探索，我们发现一个如同跟传说一样的地方，难道这里真的是传说中的'Durin的殿堂'。"
+ 
+ # Point of interest Durins Hall System
+ durins_hall.1.name:0 "参观Durin的殿堂"
+ durins_hall.1.desc:0 "参观传奇之星的"Durin的殿堂"。"
+ 
+ #Durin's halls system is visited, starts survey khazad dum
+ mhs_durin.3.name:0 "Durin的遗产"
+ mhs_durin.3.desc:0 "古老的传说讲述了我们的先王Durin依旧通过星光照耀并保佑着我们。传闻先王Durin生活在一个三颗太阳的地方。虽然这些传说尽管虚无缥缈，但是依然是我们追寻的目标，追寻先王的星星之旅开始了。"
+ mhs_durin.3.a:0 "使它如此。"
+ 
+ #Khazad Dum Mystery
+ mhs_khazad_dum_title:0 "神秘的地方"
+ mhs_khazad_dum_desc:0 "我们找到了一个比我们想象中更为神秘的地方。我们应该进一步探索。"
+ 
+ # Point of interest Khazad Dum
+ durins_hall.2.name:0 "调查Khazad Dum"
+ durins_hall.2.desc:0 "这是什么地方？"
+ 
+ #Khazad Dum has been surveyed, starts surface expedition research project.
+ mhs_durin.4.name:0 "Durin的殿堂"
+ mhs_durin.4.desc:0 "我们抵达了传闻中的'Durin的殿堂'.遗憾的是我们的科学家没有在这里发现什么，但是随后星系扫描结果让他们大吃一惊，居住区里有一颗行星围绕着太阳。\n\n不可思议!这似乎是围绕它的某种巨型结构，我们应该尽快调查。"
+ mhs_durin.4.a:0 "我们需要找出更多。"
+
+ #Khazad Dum Surface Expedition Research
+ KHAZAD_DUM_EXPEDITION_PROJECT:0 "古老的遗产"
+ KHAZAD_DUM_EXPEDITION_PROJECT_DESC:0 "为了找出更多关于我们的过去的历史，必须要在Khazad Dum建立一个基地。虽然这里有着恶劣的环境和到处都是致命的辐射，但是我们不畏艰难。"
+
+ #Expedition Research is completed now colonize this planet
+ mhs_durin.5.name:0 "矮人起源"
+ mhs_durin.5.desc:0 "严重破坏巨大的环行星轨道覆盖着浓密的云层，而且我们的辐射探测器不断报警显示着这里有着很高的辐射值. 我们的科学家不断猜测发生这一切的原因，直到派出去科研船发现了有一个环绕着星球的小物体.这是一个古老生命体 - 可能是这一切不幸之后的幸存者 - 一个矮人。\n\n在很久以前，Durin带领着我们逃离了一场巨大的灾难，经过很久旅行终于找到了新的家园。尽管我们相信Erebor才是我们的家园，但是证据表明Khazad Dum才是我们的最初的家园。"
+ mhs_durin.5.a:0 "准备长期探险。"
+
+ #Point of interest for colonizing Khazad Dum
+ durins_hall.3.name:0 "殖民Khazad Dum"
+ durins_hall.3.desc:0 "在Khazad Dum建造前哨站以便找到更多关于我们的祖先的线索。"
+ 
+ #Clear the planet of all tile blockers (ruins)
+ mhs_durin.7.name:0 "基地建成"
+ mhs_durin.7.desc:0 "随着我们的前哨站建立完成，是时候该开始我们的远征计划了。在那之前，我们还要清理一些阻碍我们团队的前进的绊脚石。"
+ mhs_durin.7.a:0 "进行远征。"
+ 
+ #Point of interest on Khazad Dum for clearing tile blockers
+ durins_hall.4.name:0 "清理Khazad Dum的废墟"
+ durins_hall.4.desc:0 "我们必须清理任何阻碍我们团队前进的绊脚石。"
+ 
+ #All blockers have been cleared.
+ mhs_durin.8.name:0 "收回我们的东西"
+ mhs_durin.8.desc:0 "是时候该建立[event_target:khazad_dum.GetName]. 我们仍然不知道我们的先祖到底经历了什么和到底是什么摧毁了他们的世界?"
+ mhs_durin.8.a:0 "准备远征深空。"
+ 
+ #Mines of Durin Building
+ building_mhs_durin_mines:0 "Durin的矿山"
+ building_mhs_durin_mines_desc:0 "一个庞大而古老的地下建筑和生产设施遍布整个星球。"
+ 
+ #Starts Khazad Dum's Depths expedition
+ KHAZAD_DUM_DEEPS_EXPEDITION_PROJECT:0 "Durin的矿山"
+ KHAZAD_DUM_DEEPS_EXPEDITION_PROJECT_DESC:0 "经过我们的努力探索，发现这里似乎是座古老的矿山，我们应该看看里面到底有啥。"
+
+ #Discovers underground horrors who attack
+ mhs_durin.9.name:0 "基地成立"
+ mhs_durin.9.desc:0 "我们的前哨基地建立完成，是时候该开始我们的废墟探索计划。为了保证探索顺利进行，我们还必须清理一些小障碍。"
+ mhs_durin.9.a:0 "派我们的部队去拯救他们！"
+ 
+ #Ancient Robot Armies
+ mhs_ancient_horros:0 "远古作战机器"
+
+ #We lost the battle agains the horrors
+ mhs_durin.10.name:0 "巨大的门"
+ mhs_durin.10.desc:0 "随着最后一个挖掘区被清理干净，我们发现一个巨大无比的门，我们无法想象门后的一切到底有多大。"
+ mhs_durin.10.a:0 "我们必须夺回行星！"
+
+ #The horrors have begun rampaging throughout the planet killing off our population there.
+ mhs_durin.11.name:0 "狂暴中"
+ mhs_durin.11.desc:0 "失去控制，我们无法保卫我们的公民的能力。"
+ mhs_durin.11.a:0 "我们必须立即增援！"
+
+ #We succesfully defended the planet against the horrors initial attack.
+ mhs_durin.12.name:0 "深渊"
+ mhs_durin.12.desc:0 "我们对矿山的探索唤醒了一个可怕的存在，难道这是毁灭祖先的世界的源头吗?"
+ mhs_durin.12.a:0 "给[root.Capital.GetName]！"
+
+ # We have successfully reconquered the planet.
+ mhs_durin.13.name:0 "惨剧"
+ mhs_durin.13.desc:0 "恐惧在不断蔓延，我们的探险队遭受到了不明的攻击。"
+ mhs_durin.13.a:0 "给[root.Capital.GetName]！"
+
+ #A small group of citizens have barricaded themselves.
+ mhs_durin.15.name:0 "胜利"
+ mhs_durin.15.desc:0 "我们开始对那些恐怖的存在发动反击。"
+ mhs_durin.15.a:0 "我们必须拯救他们！"
+ 
+ KHAZAD_DUM_DEEPS_RETALIATION_PROJECT:0 "征服dephts"
+ KHAZAD_DUM_DEEPS_RETALIATION_PROJECT_DESC:0 "我们必须确保这些古老机器的威胁被彻底终结。在进入地下系统之前，我们应该尝试派遣一支完整的军队驻扎。"
+ 
+ # The Attack on the underground starts
+ mhs_durin.16.name:0 "征服"
+ mhs_durin.16.desc:0 "经过我们不断努力下，成功将这些未知的恐怖赶了回去，我们胜利了。"
+ mhs_durin.16.a:0 "我们将夺回我们的世界！"
+ 
+ # We have successfully conquered the underground.
+ mhs_durin.17.name:0 "征服"
+ mhs_durin.17.desc:0 "我们成功回收了我们的合法遗产。\n\n和平终将降临到这片饱受战争蹂躏的世界 - 我们的世界。我们科学家渴望探索[FromFrom.GetName]的废墟之下的东西。"
+ mhs_durin.17.a:0 "给[root.Capital.GetName]！"
+ 
+ #Restoration part starts
+ mhs_durin.181.name:0 "深埋地下"
+ mhs_durin.181.desc:0 "我们科学家在[root.GetName]的vast地下网络发现一个技术复杂的东西，但他们认为是大气净化系统。把这个设备修复，我们可能修复该星球的大气层，并将其恢复到原来形态。他们已经着手一个修复计划让其重新工作。"
+ mhs_durin.181.a:0 "干得不错。"
+ 
+ #Khazad Dum restoration
+ mhs_khazad_dum_rebuilding_title:0 "重建我们的家园"
+ mhs_khazad_dum_rebuilding_desc:0 "随着我们原来的家园回归到我们的控制之下，我们现在开始着手恢复它往日的荣耀。"
+ 
+ # Planetary Restoration Project
+ KHAZAD_DUM_RESTORATION_PROJECT:0 "星球重建"
+ KHAZAD_DUM_RESTORATION_PROJECT_DESC:0 "我们科学家和工程师都非常乐观，认为他们只需花上一定时间就能修复它。"
+ 
+ # Restoration Project complete Machinery begins to work
+ mhs_durin.19.name:0 "大气重建修复"
+ mhs_durin.19.desc:0 "大气循环已经恢复正常。根据我们的专家的估计，大约五年后，Khazad Dum才能有正常的大气。"
+ mhs_durin.19.a:0 "祝贺团队。"
+ 
+ # Restoration of Atmosphere complete
+ mhs_durin.20.name:0 "重建完成"
+ mhs_durin.20.desc:0 "[root.GetName]又是个可居住的世界，这将是我们的家园。"
+ mhs_durin.20.a:0 "给[root.owner.species.GetAdj]的一个家园，恩，真的。"
+ 
+ # Plans for Planetary Ring Reconstruction Found
+ mhs_durin.21.name:0 "奇怪的发现"
+ mhs_durin.21.desc:0 "我们在[root.GetName]的Depts地下网络发现一个特殊材料的储备。起初，被认为是某种合金，但其属性，我们科学家无法解释。从某个程度上来说它会修复自身的损坏。\n\n 接触到这样的材料可能会开启我们以前不敢想象的可能性。有了它，我们甚至可以重建[root.GetName]的被破坏的轨道结构。它是这一切的先决条件。"
+ mhs_durin.21.a:0 "奇怪的材料。"
+ 
+ # Ring Reconstruction Project
+ KHAZAD_DUM_RING_RECONSTRUCTION_PROJECT:0 "环重建"
+ KHAZAD_DUM_RING_RECONSTRUCTION_PROJECT_DESC:0 "随着"活性金属"被我们发现， Khazad Dum的轨道上的环被修复将是有可能的。\n\n虽然这将需要几年时间和使得[root.GetName]的产量下降，但是重建工作刻不容缓。我们专家估计大约需要10年才能完成。"
+ 
+ # Project for Planetary Ring Reconstruction complete work starts
+ mhs_durin.22.name:0 "准备工作完成"
+ mhs_durin.22.desc:0 "我们科学家已经完成了他们在环形世界的研究工作，那些奇特的金属被称之为"活性金属"，现在他们开始着手进行修复工作。"
+ mhs_durin.22.a:0 "我们都渴望地等待着它的完工。"
+ 
+ #Ringworld restored
+ mhs_durin.23.name:0 "环形世界重建"
+ mhs_durin.23.desc:0 "工作完成，[root.GetName]恢复了往日的辉煌。这是个伟大的[root.owner.GetName]。整个帝国公民都在庆祝这一时刻。我们从未失去[root.GetName]。"
+ mhs_durin.23.a:0 "这是我们的现在以及未来！"
+ 
+ #modifiers
+ mhs_scared_population:0 "人群恐慌"
+ mhs_scared_population_desc:0 "我们的人民受到了来自地底的恐怖机器人的威胁。"
+ 
+ mhs_ringworld_reconstruction:0 "环形世界重建进度"
+ mhs_ringworld_reconstruction_desc:0 "全人类决心要恢复行星轨道上的古环，使得产量大幅度提高。但另一方面，大多数资源将被用于这个项目，使得星球的整体输出降低。"
+ 
+ mhs_ringworld_reconstructed:0 "恢复我们祖先的家园"

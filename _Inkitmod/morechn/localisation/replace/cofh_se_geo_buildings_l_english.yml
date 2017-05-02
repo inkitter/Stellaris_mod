@@ -1,0 +1,27 @@
+﻿l_english:
+
+# Buildings
+
+ building_cofh_se_geo_complex_1:0 "高级地质工程"
+ building_cofh_se_geo_complex_1_desc:0 "专门研究和操纵行星行为的研究机构，它可以增强地面改造反应器。"
+
+ building_cofh_se_geo_complex_2:0 "复杂气候调节"
+ building_cofh_se_geo_complex_2_desc:0 "调节星球气候提高宜居性的研究设施。"
+
+ building_cofh_se_georeactor_basic:0 "地质改造器"
+ building_cofh_se_georeactor_basic_desc:0 "一个巨大的建筑允许改造行星的陆地。"
+
+ building_cofh_se_georeactor_adv:0 "大气调节器"
+ building_cofh_se_georeactor_adv_desc:0 "一个巨大的建筑允许改变行星的大气。"
+
+ building_cofh_se_georeactor_tomb:0 "气候恢复器"
+ building_cofh_se_georeactor_tomb_desc:0 "一个巨大又复杂的建筑允许将大气系统恢复到被破坏之前的世界。"
+
+ building_cofh_se_georeactor_gaia:0 "盖亚改造器"
+ building_cofh_se_georeactor_gaia_desc:0 "一个巨大又复杂的建筑允许将行星转换成盖亚世界。"
+
+# Building Requirements
+
+ requirement_cofh_se_geo_is_tomb:0 "§R行星必须是个§! §Y$pc_nuked$§!§R。§!"
+ requirement_cofh_se_geo_not_gaia:0 "§R行星可能不是个§! §Y$pc_gaia$§!§R。§!"
+ requirement_cofh_se_geo_not_tomb:0 "§R行星可能不是个§! §Y$pc_nuked$§!§R。§!"

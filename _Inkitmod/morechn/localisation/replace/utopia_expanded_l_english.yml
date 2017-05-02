@@ -1,0 +1,125 @@
+﻿l_english:
+
+ ### RINGWORLD TYPES AND DESCRIPTIONS
+ pc_ringworld_habitable:0 "环形世界的栖息地"
+ pc_ringworld_tech:0 "环形世界的支持"
+ pc_ringworld_seam:0 "环形世界的管道"
+ pc_ringworld_habitable_damaged:0 "破损的环形世界的栖息地"
+ pc_ringworld_tech_damaged:0 "破损的环形世界的支持"
+ pc_ringworld_seam_damaged:0 "破损的环形世界的管道"
+ pc_ringworld_habitable_desc:0 "完整的环形世界的栖息地段，内部建有大量的人工居住区并摆脱了常理的限制。"
+ pc_ringworld_tech_desc:0 "环形世界的支持段，有着所有满足的可居住的要求的系统。"
+ pc_ringworld_seam_desc:0 "环形世界的管道段，允许建造并开采资源以便满足需求。"
+ pc_ringworld_habitable_damaged_desc:0 "环形世界的栖息地。\n\n它已经损坏了。"
+ pc_ringworld_tech_damaged_desc:0 "环形世界的支持。\n\n它已经损坏了。"
+ pc_ringworld_seam_damaged_desc:0 "环形世界的管道。\n\n它已经损坏了。"
+ 
+ ### RINGWORLD TILES
+ pc_ringworld_habitable_tile:0 "环形世界地形"
+ pc_ringworld_habitable_tile_desc:0 "原始而又完整的环形世界内部运作着复杂的人工生态系统。"
+
+ ### RINGWORLD RESTORATION TECHS
+ tech_superstructure_theory:0 "上层建筑理论"
+ tech_superstructure_theory_desc:0 "结合对现有的环形世界建设的理解，我们应该能够修复任何现有的、损坏的环形世界，使其恢复昔日辉煌。"
+ tech_advanced_megastructure_engineering:0 "先进的巨型结构工程"
+ tech_advanced_megastructure_engineering_desc:0 "环形世界的栖息地是我们帝国的宝石。通过我们对技术掌握加深，我们应该能够足够多的环形世界的栖息地。"
+ tech_repeatable_ascension_perks:0 "优势理论"
+ tech_repeatable_ascension_perks_desc:0 "当我们向乌托邦努力的时候，宇宙的运作正在慢慢显现。"
+ tech_repeatable_civic_reform:0 "城市改革"
+ tech_repeatable_civic_reform_desc:0 "要想建设一个完美的城市需要从我做起。"
+
+ ### TECH FEATURES
+ utopia_expanded_tech_unlock_feature:0 "§H解锁功能:§!"
+ utopia_expanded_tech_requires_feature:0 "§R需求:§!"
+ utopia_expanded_repair_damaged_title:0 "$utopia_expanded_tech_unlock_feature$ 环形世界修复"
+ utopia_expanded_repair_damaged_desc:0 "§H环形世界修复§!\n允许修复一个现存的破损的环形世界到全盛时期。"
+ utopia_expanded_advanced_ringworlds_title:0 "$utopia_expanded_tech_unlock_feature$ 先进环形世界建造"
+ utopia_expanded_advanced_ringworlds_desc:0 "§H先进环形世界建造§!\n允许我们拥有更多环形世界栖息地。"
+ 
+ # TIER VI TECH VERSIONS
+ new_building_autonomous_fabricators:1 "自动化装配厂"
+ new_building_autonomous_fabricators_desc:1 "§L这种古老的设计的自动化装配厂其复杂程度高到让人无法理解其运作方式。§!"
+ new_building_dark_matter_power_plant:0 "暗物质发电厂"
+ new_building_dark_matter_power_plant_desc:0 "§L这种发电厂利用暗物质的特性使其产生惊人的能量。§!"
+ new_building_agri_processing_complex:0 "复合农业加工厂"
+ new_building_agri_processing_complex_desc:0 "§L通过复杂的工艺操作使其能大规模生产食物。§!"
+
+ # OTHER TEXT
+ fe_buildings_unlock_feature:0 "§H解锁建筑:§!"
+ fe_buildings_requires_feature:0 "§R需求:§!"
+ requires_energy_upgrade:0 "$fe_buildings_requires_feature$ 行星能量发射器已研究。"
+ requires_minerals_upgrade:0 "$fe_buildings_requires_feature$ 超级自动化作业已研究。"
+ requires_food_upgrade:0 "$fe_buildings_requires_feature$ 人工环境控制已研究。"
+ 
+ # TECHNOLOGIES - TIER VI POWER PLANT UPGRADE
+ tech_supercooled_energy_conduits:0 "行星能量发射器"
+ tech_supercooled_energy_conduits_desc:0 "行星能量的无损传输是粒子学的终极突破。这种自动化系统也是其必要性的。"
+ fe_buildings_tiervi_energy_upgrade_title:0 "$fe_buildings_unlock_feature$ 暗物质发电厂升级"
+ fe_buildings_tiervi_energy_upgrade_desc:0 "§H暗物质发电厂升级§!\n为了使暗物质发电厂无任何能量损失，我们必须安装巨大的自动化的装置进殖民地能源系统中去。"
+ 
+ # TIER VI MINING NETWORK UPGRADE
+ tech_superscale_industrial_automation:0 "超级自动化作业"
+ tech_superscale_industrial_automation_desc:0 "一个中央智能管理，数百名作业机器人和自动制造机器，使得工作效率达到前所未有的高度。"
+ fe_buildings_tiervi_minerals_upgrade_title:0 "$fe_buildings_unlock_feature$ 自动化装配厂升级"
+ fe_buildings_tiervi_minerals_upgrade_desc:0 "§H自动化装配厂升级§!\n自动化作业系统需要搭配一个极其复杂的子系统以保证峰值效率运行。"
+ 
+ # TIER VI HYDROPONICS UPGRADE
+ tech_artificial_environment_control:0  "人工环境控制"
+ tech_artificial_environment_control_desc:0  "利用我们的生物知识使得生态系统调节能完全控制。"
+ fe_buildings_tiervi_food_upgrade_title:0  "$fe_buildings_unlock_feature$ 复合农业加工厂升级"
+ fe_buildings_tiervi_food_upgrade_desc:0  "§H复合农业加工厂升级§!\n复合农业加工厂不仅需要高水平的自动化操作，而且还需要完善的环境控制系统，以便实现最大限度的产量提高。"
+ 
+ # UTOPIA EXPANDED ASCENSION PERKS
+ ap_master_of_the_heavens:0 "天堂之主"
+ ap_master_of_the_heavens_desc:0 "银河只属于那些可以控制它的人。随着我们技术不断发展，我们可以随意塑造我们所看到的恒星。"
+ requires_ascension_perks_4:1 "$TRIGGER_FAIL$需要四个其他飞升项目选择。"
+ allow_advanced_ringworlds:0 "允许建设更多的环形世界。"
+ 
+# UTOPIA EXPANDED MEGASTRUCTURES
+ requires_no_colonised_planets:1 "$TRIGGER_FAIL$不能建在星系的殖民星球或者其他之上。"
+ dyson_ring_1_MEGASTRUCTURE_DETAILS:1 "一个§Y戴森环§!结合环形世界的栖息地成了戴森球，利用了其他所有星系的材料。"
+ dyson_ring_1_CONSTRUCTION_INFO_DELAYED:1 "§E升级为:\n\n$ring_world_2_intermediate$\n成本: ￡minerals §Y20000§! ￡time §H4800§!\n\n$ring_world_3_intermediate$\n成本: ￡minerals §Y20000§! ￡time §H3600§!\n\n一个封闭的环形世界有4个$ring_world_3_intermediate$s，每个大小相当于25格盖亚世界。§!"
+ dyson_ring_1:0 "戴森环遗址"
+ dyson_ring_1_DESC:0 "这个复杂地方将作为对戴森环的参与施工人员的集结地，资源库和生活区。"
+ dyson_ring_2_intermediate:0 "环形世界框架"
+ dyson_ring_2_intermediate_DESC:0 "最初的环绕太阳的框架，并作为平台，我们将最终建立完全可居住为止。"
+ dyson_ring_2:0 "环世界框架部分"
+ dyson_ring_2_DESC:0 "该框架占未完成的环世界的总表面积的约占四分之一的部分。在较小的居住部分的工作尚未完成。"
+ dyson_ring_3_intermediate:0 "完成环形世界部分"
+ dyson_ring_3_intermediate_DESC:0 "一个功能齐全的宜居的环形世界部分，有着完整的活跃生物圈。"
+ #dyson_sphere_0_MEGASTRUCTURE_DETAILS:1 "A §Y$dyson_sphere_5$§! fully envelops a given star, converting all solar output directly to £energy  Energy Credits."
+ #dyson_sphere_0_CONSTRUCTION_INFO_DELAYED:1 "§EUpgrades to:\n\n$dyson_sphere_1$\nCost: £minerals  §Y40000§! £time  §H3600§!\n\n$dyson_sphere_2$\nProduces £energy  §G100§!\nCost: £minerals  §Y40000§! £time  §H3600§!\n\n$dyson_sphere_3$\nProduces £energy  §G200§!\nCost: £minerals  §Y40000§! £time  §H3600§!\n\n$dyson_sphere_4$\nProduces £energy  §G300§!\nCost: £minerals  §Y40000§! £time  §H3600§!\n\n$dyson_sphere_5$\nProduces £energy  §G400§!\nCost: £minerals  §Y40000§! £time  §H3600§!\n\nA $dyson_sphere_5$ will blot out the sun, turning all planets in the system into Barren or Frozen Worlds.§!"
+ dyson_ring_4:0 "戴森球框架"
+ dyson_ring_4_DESC:0 "框架是未来戴森球的基础，不产生任何能源。"
+ dyson_ring_5:0 "部分戴森球"
+ dyson_ring_5_DESC:0 "部分戴森球的功能 - §Y25%§!能源生产效率。"
+ dyson_ring_6:0 "部分戴森球"
+ dyson_ring_6_DESC:0 "部分戴森球的功能 - §Y50%§!能源生产效率。"
+ dyson_ring_7:0 "部分戴森球"
+ dyson_ring_7_DESC:0 "部分戴森球的功能 - §Y75%§!能源生产效率。"
+ dyson_ring_8:0 "戴森球"
+ dyson_ring_8_DESC:0 "完全的戴森球的功能 - §G100%§!能源生产效率。"
+ 
+ # UTOPIA EXPANDED EVENTS
+ ue.1.name:0 "戴森环结构"
+ ue.1.desc:0 "我们现已准备好在近期内进行巨型项目的动工 - 围绕着[From.From.GetName]恒星的戴森环。\n\n利用恒星作为戴森环核心的能量核心，仍能保持与环形世界同等地形环境。但构建基础框架要付出巨大的资源和材料作为代价，我们成千上万的优秀工程师已经做好待命准备，随时都可以动工。"
+ ue.1.a:0 "真的，我们是天堂的主人。"
+ ue.3.name:0 "戴森环项目"
+ ue.3.desc.a:0 "传言[From.GetName]承担一个关于[dyson_ring_system.GetName]的巨大的建设项目。他们初步打算在恒星上建立一个惊人的戴森环，第一步计划就是着手搭建巨型结构的基础框架。"
+ ue.3.desc.b:0 "我们收到关于[From.GetName]将开始建设另一个戴森环，这次是在[dyson_ring_system.GetName]！之前，他们的工程师拆除了星系所有行星，将收集到资源全用于建设戴森环之上。"
+ ue.3.a:0 "它会像我们想得一样令人印象深刻吗？"
+ ue.3.b:0 "令人印象深刻的工程...如果它完成的话。"
+ ue.4.name:0 "戴森环基础框架已完成"
+ ue.4.desc:0 "在[From.From.GetName]的戴森环的基础框架建设已完成。虽然还有很多工作要做，但仅仅这个金属骨架的周长就长达十亿公里，被认为是个不可思议的壮举。\n\n我们现在开始准备建造戴森核心。"
+ ue.4.a:0 "还有更多的工作等着我们。"
+ ue.5.name:0 "戴森环栖息地已完成"
+ ue.5.desc:0 "我们结束了[From.From.GetName]的环形世界段上的栖息地建设的工作。我们的工程师和生态学家完成看似不可能的工作。\n\n[Root.GetName]现在被真正认为是银河史上最伟大的建造者之一。"
+ ue.5.a:0 "这是个好日子。"
+ ue.6.name:0 "戴森环核心控制板已安装"
+ ue.6.desc:0 "虽然尚未完成，但随着先进的太阳能采集器被安装在[From.From.GetName]的戴森环上。\n\n能源不断产生，但建设会持续进行直到全部完成为止。"
+ ue.6.a:0 "不错，我们继续。"
+ ue.7.name:0 "[From.From.GetName]的戴森环核心控制板已完成"
+ ue.7.desc:0 "[From.From.GetName]现已经被[Root.GetAdj]所包围了。\n\n我们工程师庆祝这次是场伟大的胜利。我们取得银河史上仅有几个星际帝国敢于想象的结果 - 恒星已经被我们完全征服控制。"
+ ue.7.a:0 "能源产量超过预期。"
+ 
+ 

@@ -1,0 +1,48 @@
+﻿l_english:
+
+# Initial Anomaly Appearance:
+
+ mem_giant_tank_category:0 "奇怪的残骸"
+ mem_giant_tank_category_desc:0 "我们调查小组发现一些巨大的结构似乎来自遥远的过去。它们位于大型战场的中央。这里辐射水平似乎很低，可以仔细看看。"
+
+# Anomaly Investigation Fails:
+
+ mem_giant_tank.1.name:0 "旧碎片"
+ mem_giant_tank.1.desc:0 "似乎还有些重大发现，但很快就成为了我们科学家的一大绝望。因为除了古老废墟外就只有废墟，还得驳回以前的声明。"
+ mem_giant_tank.1.a:0 "让我们继续前进。"
+ 
+# Anomaly Investigation Succeeds: 
+ 
+ mem_giant_tank.2.name:0 "曾经的巨人"
+ mem_giant_tank.2.desc:0 "这些巨大的装甲钢铁耸立在古战场的中央，与我们之前预期这个文明的技术虽然没步入太空能力但更先进。我们团队得出结论，这种文明正忙于攻打自己人没空探索天上的星星。\n\n我们科学家估计，在核裂变反应炉的驱动下，这个重量在10吨到15吨之间的巨人必须像一座山一样在战场缓慢前行。起初，他们以为这是极容易遭受攻击的目标，直到我们的团队发现内部的两个护盾发生器。如果[Root.GetLeaderName]的推测是正确的，它们可能不仅仅是保护领土的机器，正如我们团队所说，是整个军队移动了。\n\n有些有趣的设计，我们军队等不及将其拿到手。"
+ mem_giant_tank.2.a:0 "不错。让我们开始！"
+ 
+# Tank Investigation Special Project:
+
+ MEM_GIANT_TANK_INVESTIGATION:0 "战争机器"
+ MEM_GIANT_TANK_INVESTIGATION_DESC:0 "我们科学家准备恢复这些古老的战争机器。所有材料已经运送此处，工作随时可以开展。"
+ 
+# Tank Investigation Complete - Have Two Tanks:
+
+ mem_giant_tank.11.name:0 "战争机器"
+ mem_giant_tank.11.desc:0 "花费了相当长的时间恢复这些古老的机动堡垒。他们比我们预想的更先进，之前我们只是初步了解他们的技术部分，因此我们不能大量的复制这种机器。它需要特殊运输船才能将其运往其他地方，除了特殊运输船外，它已经准备就绪。"
+ mem_giant_tank.11.a:0 "太好了。"
+ mem_giant_tank.11.a.tooltip:0 "获得两个机动堡垒部队。"
+ 
+# Tank Investigation Complete - Neutral:
+
+ mem_giant_tank.12.name:0 "远古机器"
+ mem_giant_tank.12.desc:0 "我们团队无法修复这些机动堡垒。他们的技术比我们设想还要先进，因此我们的尝试是徒劳的。\n\n也许没有更好办法，不过看到这个文明有着这样强大的机器也是福分。但并非全是损失，我们通过这次努力发现一些有趣的设计可以增进我们的工程知识。"
+ mem_giant_tank.12.a:0 "不幸的。我们还可以使用它们。"
+ 
+# Tank Investigation Complete - Disaster:
+
+ mem_giant_tank.13.name:0 "墓穴归来"
+ mem_giant_tank.13.desc:0 "我们其中一位科学家错误的将机动堡垒的计算机系统给恢复了。它前拥有者可能是担心它会落入敌人之手，所以设计严厉的安全系统进行防护措施。我们科学家还没来及终止系统，它就和我们整个科学团队一起消失在核爆炸之中。科学家成为了无尽战争的最后受害者。"
+ mem_giant_tank.13.a:0 "多么可怕！"
+ 
+# Giant Tank Armies:
+
+ mem_giant_tank_army:0 "机动堡垒"
+ mem_giant_tank_army_plural:0 "机动堡垒"
+ mem_giant_tank_army_desc:0 "巨大地面战争机器，其火力如同战列舰。"

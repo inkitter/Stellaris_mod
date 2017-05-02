@@ -1,0 +1,153 @@
+﻿l_english:
+ mem_apostle_seal:0 "守护者"
+ mem_apostle_seal_mid_key:0 "守护者核心"
+
+ mem_apostle_s_cloud:0 "先祖"
+ mem_apostle_s_cloud_mid_key:0 "被解放的先祖核心"
+
+ mem_apostle_m_cloud:0 "先祖"
+ mem_apostle_m_cloud_mid_key:0 "被解放的先祖核心"
+
+ mem_apostle_l_cloud:0 "先祖"
+ mem_apostle_l_cloud_mid_key:0 "被解放的先祖核心"
+
+ mem_apostle_xl_cloud:0 "先祖"
+ mem_apostle_xl_cloud_mid_key:0 "被解放的先祖核心"
+
+ mem_apostle_xxl_cloud:0 "先祖"
+ mem_apostle_xxl_cloud_mid_key:0 "被解放的先祖核心"
+
+ mem_apostle_scout:0 "先祖"
+ mem_apostle_scout_mid_key:0 "先祖侍祭核心"
+
+ mem_apostle_station:0 "先祖"
+ mem_apostle_station_mid_key:0 "先祖神殿核心"
+
+ mem_apostle_1:0 "先祖"
+ mem_apostle_1_mid_key:0 "先祖化身核心"
+
+ mem_apostle_2:0 "先祖"
+ mem_apostle_2_mid_key:0 "先祖化身核心"
+
+ mem_apostle_3:0 "先祖"
+ mem_apostle_3_mid_key:0 "先祖化身核心"
+
+ mem_apostle_4:0 "先祖"
+ mem_apostle_4_mid_key:0 "先祖化身核心"
+
+ mem_apostle_egg:0 "先祖"
+ mem_apostle_egg_mid_key:0 "先祖化身核心"
+
+ mem_apostle_child:0 "先祖"
+ mem_apostle_child_mid_key:0 "先祖化身核心"
+
+ mem_apostle_seal_plural:0 "守护者"
+ mem_apostle_s_cloud_plural:0 "解放"
+ mem_apostle_m_cloud_plural:0 "解放"
+ mem_apostle_l_cloud_plural:0 "解放"
+ mem_apostle_xl_cloud_plural:0 "解放"
+ mem_apostle_xxl_cloud_plural:0 "解放"
+ mem_apostle_scout_plural:0 "先祖"
+ mem_apostle_station_plural:0 "先祖"
+ mem_apostle_1_plural:0 "先祖"
+ mem_apostle_2_plural:0 "先祖"
+ mem_apostle_3_plural:0 "先祖"
+ mem_apostle_4_plural:0 "先祖"
+ mem_apostle_egg_plural:0 "先祖"
+ mem_apostle_child_plural:0 "先祖"
+
+ mem_ANCESTOR_PRIMARY_WEAPON:0 "先祖超级引力子炮"
+ mem_ANCESTOR_SECONDARY_WEAPON:0 "先祖重子炮"
+ mem_ANCESTOR_TORPEDO:0 "先祖侵蚀鱼雷"
+ mem_ANCESTOR_LARGE_WEAPON:0 "先祖光子炮 类型-III"
+ mem_ANCESTOR_MEDIUM_WEAPON:0 "先祖光子炮 类型-II"
+ mem_ANCESTOR_SMALL_WEAPON:0 "先祖光子炮 类型-I"
+ mem_ANCESTOR_PD:0 "先祖点防御"
+
+ mem_ANCESTOR_FIGHTER_HANGAR:0 "先祖无人机库 类型-I"
+ mem_ANCESTOR_BOMBER_HANGAR:0 "先祖无人机库 类型-II"
+
+ mem_ANCESTOR_PRISON_AURA:0 "守护者抑制力场"
+ mem_ANCESTOR_DAMAGE_AURA_S:0 "先祖分解者 类型-I"
+ mem_ANCESTOR_DAMAGE_AURA_M:0 "先祖分解者 类型-II"
+ mem_ANCESTOR_DAMAGE_AURA_L:0 "先祖分解者 类型-III"
+ mem_ANCESTOR_DAMAGE_AURA_XL:0 "先祖分解者 类型-IV"
+ mem_ANCESTOR_DAMAGE_AURA_XXL:0 "先祖分解者 类型-V"
+ mem_ANCESTOR_SCOUT_AURA:0 "先祖恢复力场"
+ mem_ANCESTOR_BOSS_AURA:0 "先祖惊悚力场"
+
+ mem_building_crisis_ruin:0 "废墟"
+ mem_building_crisis_ruin_desc:0 "§L只留下灰烬。§!"
+
+ tb_mem_nature:0 "£blocker  野蛮生长"
+ tb_mem_nature_desc:0 "大自然的疯狂状态。"
+
+ mem_ancestor_weakness:0 "融化"
+ mem_ancestor_weakness_desc:0 "利用先祖的弱点更新目标数据。"
+ damage_vs_country_type_mem_ancestor_guardian_mult:0 "对先祖的伤害"
+
+ MEM_ANCESTOR_WEAKNESS_PROJECT:0 "武器校准 - 先祖"
+ MEM_ANCESTOR_WEAKNESS_PROJECT_DESC:0 "研究'坦森的选择'和发现它们的弱点."
+
+ mem_pop_ancestor:0 "德森的标记"
+ mem_pop_ancestor_desc:0 "轻触开启黎明前的选择。"
+
+ mem_ancestor_in_system:0 "德森的发光"
+ mem_ancestor_in_system_desc:0 "德森的发光存在"
+
+ mem_ancestor_garden_world:0 "原始花园世界"
+ mem_ancestor_garden_world_desc:0 "德森的选择已经将这个世界变成个郁郁葱葱的天堂。"
+
+ mem_ancestor.40:0 "越过卢比孔河"
+ mem_ancestor.40.desc:0 "我们的船体扫描仪发现[From.GetName]存在剧烈反应的物体，奇怪的是这里并没有任何星球或小行星。我建议谨慎移动舰队靠近以便采集数据。"
+
+ mem_ancestor.41:0 "破坏"
+ mem_ancestor.41.desc:0 "封印被解除，但它的物理形式造成能量产生不稳定的反应。不知道这种做法是不是很稳妥？"
+ mem_ancestor.41.a:0 "时间会诉说一切"
+
+ mem_ancestor.42:0 "渡过卢比孔河"
+ mem_ancestor.42.desc:0 "这个超正方体在[mem_prison_system_local.GetName]打破了它的原始形态。虽然变化减少，但其能量波动已上升到危险水平。"
+ mem_ancestor.42.a:0 "现在没有回头路了。"
+
+ mem_ancestor.43:0 "超正方体爆炸"
+ mem_ancestor.43.desc:0 "这个超正方体在[mem_prison_system_local.GetName]自爆了。在越来越多的能量被释放出来，它似乎暂时扭曲了物理规则，正如我们所了解的它的崩溃时源自它高密度的能量聚集。"
+ mem_ancestor.43.a:0 "做好最坏的准备。"
+
+ mem_ancestor.44:0 "黎明前的选择"
+ mem_ancestor.44.desc:0 "一个巨大力量的生物从陨落的恒星中伸了出来。"
+ mem_ancestor.44.a:0 "这可不是什么好兆头。"
+
+ mem_ancestor.45:0 "蝶蛹"
+ mem_ancestor.45.desc:0 "奇怪的利维坦在漫游我们的银河系时候在分子层面进行了重组，通过扫描重组后的躯体，我们估计它的威力还在持续上升。"
+ mem_ancestor.45.a:0 "还能更疯狂？"
+
+ mem_ancestor.46:0 "创世纪"
+ mem_ancestor.46.desc:0 "一艘战舰从利维坦上"浮现"，一个看似机械的东西是如何从生物体上出现，这超出我们认知的范围。鉴于这奇怪的能力，我们应该提高我们的军事水平以便应对。"
+ mem_ancestor.46.a:0 "这怎么可能？"
+
+ mem_ancestor.47:0 "白板"
+ mem_ancestor.47.desc:0 "自然回收是人为的改变，恢复平衡。"
+ mem_ancestor.47.a:0 "困惑。"
+
+ mem_ancestor.48:0 "焦土"
+ mem_ancestor.48.desc:0 "轰炸此前的再生世界，其美貌征服任何痕迹。"
+ mem_ancestor.48.a:0 "这是不自然的。"
+
+ mem_ancestor.49:0 "战争封印"
+ mem_ancestor.49.desc:0 "你这个傲慢和好战的傻瓜。你把我们亿万年来竭力保护的封印给打破了，在某种程度上你的原始技术引起了我们的注意。现在你将为此付出代价，希望这不是太迟了。"
+ mem_ancestor.49.a:0 "等下！停下来，我们什么也不知道！"
+ mem_ancestor.49.a.response:0 "这没什么区别。"
+
+ mem_ancestor.51:0 "灯灭"
+ mem_ancestor.51.desc:0 "利维坦困扰已在我们星系被消灭，已经没有明显读数再次被发现。我们应该向我们的海军将领致敬，是他们为了世界和平奉献了自己。"
+ mem_ancestor.51.a:0 "噩梦终于结束了。"
+
+ mem_ancestor.61:0 "东山再起"
+ mem_ancestor.61.desc:0 "我们武器对敌人的攻击是无效的。我们还在持续的重大损失，应该立即撤军并试图找出一种方法突破敌人的防御。"
+ mem_ancestor.61.a:0 "我们不是那么容易被打败的。"
+ mem_ancestor.61.b:0 "我们为啥要执迷不悟。"
+
+ mem_ancestor.62:0 "终点站"
+ mem_ancestor.62.desc:0 "我们科学家相信他们已经开发出了能消除能抵抗任何攻击的奇怪的护盾的武器。我们士兵渴望在敌人身上校验这些新式装备的效果。"
+ mem_ancestor.62.a:0 "胜利终将属于我们！"
+

@@ -1,0 +1,11 @@
+﻿l_english:
+CRUISE_MISSILE_1:0 "巡航导弹"
+CRUISE_MISSILE_1_DESC:0 "这些强大的空间巡航导弹拥有威力巨大的弹头，几乎能够摧毁任何被击中的敌舰，它们装备的场量发动机使其能够高速突破敌人的近防体系."
+CRUISE_MISSILE_2:0 "反物质巡航导弹"
+CRUISE_MISSILE_2_DESC:0 "装备有巨型反物质弹头和改进型场量发动机的先进巡航导弹，很难被点防御拦截."
+LARGE_CRUISE_MISSILE_1:0 "巡航导弹"
+LARGE_CRUISE_MISSILE_2:0 "反物质巡航导弹"
+tech_cruise_missiles_1:0 "巡航导弹"
+tech_cruise_missiles_1_desc:0 "这些强大的空间巡航导弹拥有威力巨大的弹头，几乎能够摧毁任何被击中的敌舰，它们装备的场量发动机使其能够高速突破敌人的近防体系.\n\n"
+tech_cruise_missiles_2:0 "反物质巡航导弹"
+tech_cruise_missiles_2_desc:0 "装备有巨型反物质弹头和改进型场量发动机的先进巡航导弹，很难被点防御拦截.\n\n"

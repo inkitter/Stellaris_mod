@@ -1,0 +1,41 @@
+﻿l_english:
+
+############################
+### Early Game Resources ###
+############################
+
+ geothermal:0 "地热能"
+ geothermal_desc:1 "地热能是通过星球内部产生热量加以存储利用的新能源。我们发现有些地方的地表可以极易提取该能源。\n\n"
+ hydraulic:0 "水电能"
+ hydraulic_desc:1 "水电能是通过高度差的水势获得能源。这标志着这是一个建造水电大坝的理想位置。\n\n"
+
+
+ sr_caslon:0 "卡斯隆气体"
+ sr_caslon_desc:1 "卡斯隆不仅在气态巨星被发现，但也在部分适合居住的星球发现。可通过反应器产生能量。\n\n"
+ sr_uncommonores:0 "罕见的矿石"
+ sr_uncommonores_desc:1 "罕见但也是我们工业中必不可少的矿石。\n\n"
+ sr_advancedcomponents:0 "高级组件"
+ sr_advancedcomponents_desc:1 "用先进的组件建造炼油厂和实验室。\n\n"
+
+ sr_civiliangoods:0 "民用品"
+ sr_civiliangoods_desc:1 "民用品是公民日常生活中必不可少的东西，如衣服，食物等。\n\n"
+ sr_militargoods:0 "军需品"
+ sr_militargoods_desc:1 "兵马未动，粮草先行。\n\n"
+
+##########################
+### Mid Game Resources ###
+##########################
+
+ sr_titanium:0 "榍石矿"
+ sr_titanium_desc:1 "虽然榍石在行星上十分少见，但在熔岩星球和小行星上却十分常见。\n\n"
+ sr_nanites:0 "纳米机器人"
+ sr_nanites_desc:1 "纳米机器人被用于医学和建筑行业，便以提高其行业效率。\n\n"
+ sr_corenite:0 "康奈矿"
+ sr_corenite_desc:1 "康奈几乎在所有行星的核心中都有发现，但它的提取难度，使它成为一个有价值的资源。\n\n"
+
+###########################
+### Late Game Resources ###
+###########################
+
+ sr_dilithium:0 "双锂晶体"
+ sr_dilithium_desc:1 "双锂只存在少部分星球上，因此它是一种十分珍贵的可用来生产能量的物质。\n\n."

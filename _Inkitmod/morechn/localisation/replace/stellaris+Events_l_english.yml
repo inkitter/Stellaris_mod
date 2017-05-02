@@ -1,0 +1,193 @@
+﻿l_english:
+
+ army_damage_up:0 "有助于建造更快更便宜的陆军在这个星球上"
+ stellaris_space_monster:0 "太空怪物"
+ stellaris_space_monster_plural:0 "太空怪物"
+
+#####################
+### Colony Events ###
+#####################
+
+ stellaris_colonization_category:0 "群星+殖民类型"
+ stellaris_colonization_category_desc:0 "群星+殖民类型。\n\n"
+
+ stellaris_colonization.1.name:0 "稀土矿物的发现"
+ stellaris_colonization.1.desc:0 "你的地质学家在[From.GetName]发现一个非常稀有的能极大提高殖民地经济的矿物。不幸的是，开采它们将是十分危险的，哪怕使用自动化工具，这将会把你的殖民地暴露在辐射之中。你的命令是？\n\n"
+ stellaris_colonization.1.a:0 "如果不安全，就别做了。\n\n"
+ stellaris_colonization.1.b:0 "尽可能安全地使用自动化作业进行开采。\n\n"
+ stellaris_colonization.1.c:0 "管他的，殖民地不如这些稀有矿物来得重要。\n\n"
+
+
+ stellaris_colonization.2.name:0 "海盗巢穴"
+ stellaris_colonization.2.desc:0 "该星球[From.GetName]已经被海盗作为一个据点。他们邪恶而又残忍的头目，询问我们是否原因做些交易。\n\n"
+ stellaris_colonization.2.a:0 "绝不和海盗交易。\n\n"
+ stellaris_colonization.2.b:0 "我们可以私下交易。\n\n"
+ stellaris_colonization.2.c:0 "为了地区安定，铲平这个巢穴。\n\n"
+
+ stellaris_colonization.3.name:0 "远古飞船发现"
+ stellaris_colonization.3.desc:0 "殖民者在[From.GetName]报告一个惊人的发现，在一艘巨大的远古飞船被困在极地上。\n\n 我们需要融化整个极地，我们可以使用先进技术融化极地以便获得船只，但是为此付出代价是星球被洪水淹没。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.3.a:0 "付出的代价太大，不管这艘船。\n\n"
+ stellaris_colonization.3.b:0 "我们不会淹没这个星球，炸毁这艘船并研究其遗骸。\n\n"
+ stellaris_colonization.3.c:0 "尽一切努力恢复这艘船。\n\n"
+
+ stellaris_colonization.4.name:0 "远古飞船回收"
+ stellaris_colonization.4.desc:0 "经过一个昂贵的操作后，我们殖民者可以将[From.GetName]的远古飞船完美回收回来进行研究。\n\n不幸的是整个星球被极地冰川融化造成洪水给淹没了。\n\n"
+ stellaris_colonization.4.a:0 "关于这艘船的好消息。我们将帮助我们的殖民者。\n\n"
+ stellaris_colonization.4.b:0 "关于这艘船的好消息。我希望我们的殖民者可以游泳。\n\n"
+
+ stellaris_colonization.5.name:0 "远古飞船被毁"
+ stellaris_colonization.5.desc:0 "之所以要冻住远古飞船，是为了避免核心超载，在我们探索远古飞船时候发生核心超载爆炸，这场爆炸导致我们失去在[From.GetName] 的一切。\n\n"
+ stellaris_colonization.5.a:0 "坏消息。\n\n"
+ stellaris_colonization.5.b:0 "这是值得冒这个风险。\n\n"
+
+ stellaris_colonization.7.name:0 "未知的恐怖 I"
+ stellaris_colonization.7.desc:0 "我们在[From.GetName]的移民报告称，有许多探险家莫名其妙失踪，但是最后线索都指向了一个神秘的巨大裂缝地形。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.7.a:0 "调查行星上发生了什么。\n\n"
+ stellaris_colonization.7.b:0 "我敢肯定这不是什么重要的事。\n\n"
+
+ stellaris_colonization.8.name:0 "未知的恐怖 II"
+ stellaris_colonization.8.desc:0 "我们发现关于[From.GetName]最近发生的未知事情的原因，显然这颗星球有着许多居住在地底的巨大的生物。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.8.a:0 "不间断轰炸以便消灭它们。\n\n"
+ stellaris_colonization.8.b:0 "我们可以和它们沟通？\n\n"
+
+ stellaris_colonization.9.name:0 "未知的恐怖 III"
+ stellaris_colonization.9.desc:0 "保持轰炸是可行的，现在的暗处所有一切被摧毁干干净净，应该不会再出现这样问题吧。\n\n"
+ stellaris_colonization.9.a:0 "好消息。\n\n"
+
+ stellaris_colonization.10.name:0 "未知的恐怖 III"
+ stellaris_colonization.10.desc:0 "大多数沟通尝试都是无效的，当我们要放弃时候，其中生物发出响应。我们虽不能翻译它，但是在这次事件后有关的生物活动又似乎消失不见了。\n\n"
+ stellaris_colonization.10.a:0 "好消息。\n\n"
+
+ stellaris_colonization.11.name:0 "未知的恐怖 III"
+ stellaris_colonization.11.desc:0 "轰炸方案失败了。当第一枚炸弹被引爆时候，那些巨大生物在地底移动并摧毁了我们的殖民地。\n\n显然这群生物携带者有毒气体进入大气层中造成大气污染。\n\n"
+ stellaris_colonization.11.a:0 "哦，该死。\n\n"
+
+ stellaris_colonization.12.name:0 "未知的恐怖 III"
+ stellaris_colonization.12.desc:0 "在[From.GetName]的第一次与这些巨大生物尝试沟通失败使得它们制造地震，企图前往并摧毁我们殖民地。\n\n我们扫描显示，这星球进入地震火山高发期。\n\n"
+ stellaris_colonization.12.a:0 "哦，该死。\n\n"
+
+ stellaris_colonization.13.name:0 "未知的恐怖 再临"
+ stellaris_colonization.13.desc:0 "殖民者在[From.GetName]不断失踪，人们开始担忧这个问题。\n\n"
+ stellaris_colonization.13.a:0 "调查行星上发生了什么。\n\n"
+ stellaris_colonization.13.b:0 "我敢肯定这不是什么重要的事。\n\n"
+
+ stellaris_colonization.14.name:0 "细菌感染"
+ stellaris_colonization.14.desc:0 "在殖民[From.GetName]不久后，我们的殖民者发现这星球有一种半有知觉的节肢动物发动对我们攻击。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.14.a:0 "消灭这群虫子。\n\n"
+ stellaris_colonization.14.b:0 "加固殖民地不要惹到虫群。\n\n"
+
+ stellaris_colonization.15.name:0 "细菌感染"
+ stellaris_colonization.15.desc:0 "在[From.GetName]的殖民地仍被无情地攻击着，如果不做些事情的话，很快殖民地将被摧毁。\n\n"
+ stellaris_colonization.15.a:0 "消灭这群虫子。\n\n"
+ stellaris_colonization.15.b:0 "不要惹虫群。\n\n"
+
+ stellaris_colonization.16.name:0 "细菌感染 II"
+ stellaris_colonization.16.desc:0 "所有在[From.GetName]的虫子已经被解决了。这颗星球已经安全了。\n\n"
+ stellaris_colonization.16.a:0 "好消息。\n\n"
+
+ stellaris_colonization.17.name:0 "遗传设施"
+ stellaris_colonization.17.desc:0 "殖民者在[From.GetName]报告称他们发现一个专门做基因研究的设施，从有关数据得知这里是研究如何保留人的思想并移植到新的躯体的技术。\n\n大多数数据无法恢复，但所幸的是我们找回了两个，一个是伟大的科学家，另一个是伟大的舰队司令，但不幸的是我们只有一个人造躯体。保留谁？\n\n"
+ stellaris_colonization.17.a:0 "科学家。\n\n"
+ stellaris_colonization.17.b:0 "舰队司令。\n\n"
+ stellaris_colonization.17.c:0 "都不需要，炸毁这里。\n\n"
+
+ stellaris_colonization.20.name:0 "风景秀丽"
+ stellaris_colonization.20.desc:0 "殖民者在[From.GetName]报告称这个星球有令人惊叹的景观，可以用来吸引旅游业，另一方面，工程师说，我们摧毁这些景观以便获得更多土地进行开发。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.20.a:0 "打造成自然保护区。\n\n"
+ stellaris_colonization.20.b:0 "开发成商业区。\n\n"
+
+ stellaris_colonization.21.name:0 "远古武器设施"
+ stellaris_colonization.21.desc:0 "人们从在[From.GetName]的殖民地发现远古设施，它似乎是用于生产士兵装备的地方。\n\n我们可以使用这个设施为我们士兵生产装备，但是这些机器有一个可怕的辐射剂量，这将导致在这里工作的人会寿命比一般人短得多。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.21.a:0 "激活设备。\n\n"
+ stellaris_colonization.21.b:0 "破坏设施，对于我们而言是个风险。\n\n"
+
+ stellaris_colonization.22.name:0 "巨大的废墟"
+ stellaris_colonization.22.desc:0 "殖民者在[From.GetName]报告称这颗星球很大一部分土地被一个古老的文明废墟所覆盖。\n\n他们认为这里可能有重要信息并要求我们派遣一个科考团队。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.22.a:0 "发送给科学团队。\n\n"
+ stellaris_colonization.22.b:0 "我们没有时间。\n\n"
+
+ stellaris_colonization.23.name:0 "驯兽术"
+ stellaris_colonization.23.desc:0 "[From.GetName]的奇特地形对我们的车辆造成一定阻碍，一些殖民者已经开始驯养当地一种有袋的动物方便在殖民地之间来往。\n\n 虽然这些动物适合做这些工作，但是也会发生一些事故，这使得宇宙的动物权利保护者强烈抗议。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.23.a:0 "禁止继续驯养。\n\n"
+ stellaris_colonization.23.b:0 "允许继续驯养。\n\n"
+
+ stellaris_colonization.24.name:0 "战舰墓地"
+ stellaris_colonization.24.desc:0 "殖民者在[From.GetName]报告称这颗星球很大一部分土地被一个古老的战舰所覆盖。\n\n如果我们不清理，我们将失去很多可用的土地。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.24.a:0 "尽一切努力清理墓地。\n\n"
+ stellaris_colonization.24.b:0 "现在我们搞不起这个。\n\n"
+
+ stellaris_colonization.25.name:0 "巨大的废墟"
+ stellaris_colonization.25.desc:0 "在[From.GetName]的废墟已被研究。显然留下这些废墟的文明跟我们有着类似的科技水平。\n\n我们通过清理废墟一部分了解许多关于他们的信息并获得大量材料。\n\n"
+ stellaris_colonization.25.a:0 "好消息。\n\n"
+
+ stellaris_colonization.26.name:0 "杀人虫的洞穴"
+ stellaris_colonization.26.desc:0 "殖民者在[From.GetName]报告称有一个巨大的洞穴被发现，但是这里似乎有某些生物出没。\n\n我们可以利用这些洞穴进行针对性的建筑改造，可以改善我们的经济，但这样做很危险。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.26.a:0 "派一些士兵去清理洞穴。\n\n"
+ stellaris_colonization.26.b:0 "它太危险了，只是崩溃的洞穴。\n\n"
+
+ stellaris_colonization.27.name:0 "杀人虫的洞穴 II"
+ stellaris_colonization.27.desc:0 "洞穴已经被清理干净，现在我们可以使用这个地方。\n\n"
+ stellaris_colonization.27.a:0 "好消息。\n\n"
+
+ stellaris_colonization.28.name:0 "巨虫"
+ stellaris_colonization.28.desc:0 "看来，我们在[From.GetName]的殖民地有一些类似蠕虫的巨型生物的问题，不过这些巨型生物似乎以矿为食，我们可以利用它们追查星球上的矿物所在，但是也会有风险。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.28.a:0 "利用它们追踪矿藏。\n\n"
+ stellaris_colonization.28.b:0 "尽量避开它们。\n\n"
+ stellaris_colonization.28.c:0 "追杀巨虫。\n\n"
+
+ stellaris_colonization.29.name:0 "不稳定地带"
+ stellaris_colonization.29.desc:0 "在[From.GetName]的星球上的绝大多数土地是极度不稳定，这会使我们建筑结构十分脆弱。\n\n我们工程师告诉我们，可以针对新的地形改造建筑，但是这将意味着施工成本和施工时间的增加。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.29.a:0 "针对性改造建筑。\n\n"
+ stellaris_colonization.29.b:0 "不开发该星球的不稳定地带。\n\n"
+
+ stellaris_colonization.30.name:0 "废矿"
+ stellaris_colonization.30.desc:0 "殖民者在[From.GetName]发现大量废弃的隧道，似乎是一个原始开采矿洞。\n\n矿道虽然荒废太久，但是我们工程师认为，只需一些小工作就能重新这个矿道。\n\n你的命令是什么？\n\n"
+ stellaris_colonization.30.a:0 "修复它们。\n\n"
+ stellaris_colonization.30.b:0 "代价太大。\n\n"
+
+###################
+### Army Events ###
+###################
+
+ stellaris_armycombat.1.name:0 "一无所有..."
+ stellaris_armycombat.1.desc:0 "我们失去对[ROOT.GetName]的控制。我们军队在崩溃，防御在被瓦解。\n\n最后幸存的士兵仍然在行星国会大厦的大厅坚守着，他们宁愿牺牲也不愿放弃，并通知我们准备好启动行星自毁程序，他们宁愿死在战场也不愿让帝国领土落入敌人手中。你的命令是什么？\n\n"
+ stellaris_armycombat.1.a:0 "执行摧毁该星球的命令!\n\n"
+ stellaris_armycombat.1.b:0 "不能这样做，这个星球还有我们的人。\n\n"
+
+ stellaris_armycombat.2.name:0 "行星自毁"
+ stellaris_armycombat.2.desc:0 "[FromFrom.GetName]的捍卫者启动行星自毁程序，也许我们再坚持一下还是有机会能将它们杀死或捕获的。成千上万的生命因此逝去。\n\n"
+ stellaris_armycombat.2.a:0 "该死的...\n\n"
+
+ stellaris_armycombat.3.name:0 "废弃的设备"
+ stellaris_armycombat.3.desc:0 "我们赢了！在[FromFrom.GetName]上的进攻者开始败退。他们撤退时候留下大量武器装备可以供我们使用。我们的拾荒团队开始工作。\n\n"
+ stellaris_armycombat.3.a:0 "好的！\n\n"
+
+#####################
+### System Events ###
+#####################
+
+ stellaris_monsters.1.name:0 "恒星吞噬者"
+ stellaris_monsters.1.desc:0 "在进入[From.GetName]之后，船员报告在[Scope.GetName]发现了一些可怕的事情。\n\n 在远处观察像是一个巨大的星球，但实际近距离观察发现却是一个大型生物。\n\n"
+ stellaris_monsters.1.a:0 "战斗准备！"
+
+#######################
+### Civilian Events ###
+#######################
+
+ stellaris_civilian.2.name:0 "外星商人"
+ stellaris_civilian.2.desc:0 "一个大型商队最近访问帝国首都，除了为帝国公民提供服务外，也向帝国提供购买能源或矿物的服务。\n\n"
+ stellaris_civilian.2.a:0 "买些能源"
+ stellaris_civilian.2.b:0 "买些矿物"
+ stellaris_civilian.2.c:0 "我们什么都不想需要"
+
+ stellaris_civilian.3.name:0 "恐怖袭击"
+ stellaris_civilian.3.desc:0 "今天，我们的某颗行星遭受一场未知的恐怖袭击，虽然这场袭击之前并没有收到任何方提出要求。在这场袭击中有几千人死亡。\n\n"
+ stellaris_civilian.3.a:0 "该死的恐怖分子"
+
+ stellaris_civilian.4.name:0 "经济繁荣"
+ stellaris_civilian.4.desc:0 "我们的某颗行星的经济增长十分迅速，专家们预测会有一个小的黄金时代出现。\n\n"
+ stellaris_civilian.4.a:0 "好消息"
+
+ stellaris_civilian.5.name:0 "经济萧条"
+ stellaris_civilian.5.desc:0 "我们的某颗行星的经济十分萧条，专家们预测会有经济寒冬出现。\n\n"
+ stellaris_civilian.5.a:0 "坏消息"

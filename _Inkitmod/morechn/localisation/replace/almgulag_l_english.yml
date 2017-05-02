@@ -1,0 +1,58 @@
+﻿l_english:
+
+ edict_allow_gulags:0 "允许古拉格星球"
+ edict_allow_gulags_desc:0 "将整个星球转化为监狱和允许强制配偶劳役。"
+
+ gulag_world:0 "古拉格星球"
+ gulag_world_desc:1 "整个星球是个允许配偶劳役的监狱。"
+ 
+ gulag_labour_pop: "古拉格的配偶"
+ ex_gulag_labour_pop: "古拉格的配偶"
+ 
+ opinion_policy_gulags:0 "古拉格星球"
+ 
+ tech_alpha_gulags:0 "古拉格星球"
+ tech_alpha_gulags_desc:1 "有些殖民地正遭受犯罪，叛乱以及恐怖主义和外来势力的破坏活动。我们应当把部分世界改造成监狱，强制他们的配偶劳役。"
+ 
+ policy_alp_gulags:0 "古拉格"
+ policy_alp_gulags_desc:0 "我们是否要公开我们的帝国的古拉格的存在？"
+ alp_gulags_deny:0 "否认有古拉格"
+ alp_gulags_deny_name:0 "否认有古拉格"
+ alp_gulags_deny_desc:0 "没有任何理由让外人知道我们有古拉格。"
+ alp_gulags_admit:0 "承认有古拉格"
+ alp_gulags_admit_name:0 "承认有古拉格"
+ alp_gulags_admit_desc:0 "我们优古拉格。所以你最好约束一下你的行为。"
+ 
+ edict_toggle_gulagedicts_on:0 "显示古拉格法令"
+ edict_toggle_gulagedicts_on_desc:1 "显示古拉格法令"
+ edict_toggle_gulagedicts_off:0 "隐藏古拉格法令"
+ edict_toggle_gulagedicts_off_desc:1 "隐藏古拉格法令"
+ 
+ edict_designate_gulag_planet:0 "指派为古拉格星球"
+ edict_designate_gulag_planet_desc:1 "把星球改造为古拉格，强制配偶劳役。"
+ 
+ edict_imprison_aliens_on:0 "关押外星人"
+ edict_imprison_aliens_on_desc:1 "将外星人全部关押起来"
+ edict_imprison_aliens_off:0 "释放外星人"
+ edict_imprison_aliens_off_desc:1 "释放所有外星人"
+ edict_imprison_dissidents_on:0 "关押异见者"
+ edict_imprison_dissidents_on_desc:1 "关押所有反对我们的人。"
+ edict_imprison_dissidents_off:0 "释放异见者和忠臣"
+ edict_imprison_dissidents_off_desc:1 "他们是我们的忠臣，放了他们。"
+ edict_imprison_criminals_on:0 "关押罪犯"
+ edict_imprison_criminals_on_desc:1 "关押所有罪犯"
+ edict_imprison_criminals_off:0 "释放罪犯和坚持者"
+ edict_imprison_criminals_off_desc:1 "释放所有罪犯"
+ 
+ edict_imprison_everyone:0 "关押所有"
+ edict_imprison_everyone_desc:1 "将该死的人全部关押起来"
+ edict_release_everyone:0 "释放所有"
+ edict_release_everyone_desc:1 "释放所有人"
+ 
+ edict_prohibit_procreation:0 "禁止生育"
+ edict_prohibit_procreation_desc:1 "禁止生育"
+ edict_allow_procreation:0 "允许生育"
+ edict_allow_procreation_desc:1 "允许生育"
+ 
+ prohibit_procreation:0 "生育禁令"
+ prohibit_procreation_desc:1 "生育禁令"

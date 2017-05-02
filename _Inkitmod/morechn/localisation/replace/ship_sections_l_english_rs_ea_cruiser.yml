@@ -1,0 +1,19 @@
+﻿l_english:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+ 
+ 
+ ####################################
+ # RS Battleruiser
+ #################################### 
+ RS_EA_CRUISER_BOW_A1S2:0 "破坏舰首"
+ RS_EA_CRUISER_MID_A2S2:0 "阻尼器核心"
+ RS_EA_CRUISER_STERN_S2:0 "炮艇舰尾"
+ RS_EA_CRUISER_STERN_M1:0 "舷侧舰尾"
+ 

@@ -1,0 +1,41 @@
+﻿l_english:
+
+trait_ruler_immortal:0 "不朽"
+trait_ruler_immortal_desc:0 "永恒的长者，无论他是通过何其手段实现的。"
+
+
+leader_trait_ruler_force_user_I:0 "强大原力者"
+leader_trait_ruler_force_user_I_desc:0 "这位领袖是个强大原力者，掌握着无尽的秘密。他可以操控他人或者自己的议程并将其隐藏。"
+
+leader_trait_gov_force_user_I:0 "娴熟的原力者"
+leader_trait_gov_force_user_I_desc:0 "这位领袖是个娴熟的原力者，在无尽的秘密中获得一些技巧。这种能力让他们与他人进行交易时候更容易地讨价还价。"
+leader_trait_gov_force_user_II:0 "强力的原力者"
+leader_trait_gov_force_user_II_desc:0 "这位领袖是个娴熟的原力者，在无尽的秘密中获得复杂的技巧。这种能力使他们与他人进行交易时候能够轻松地讨价还价。"
+leader_trait_gov_force_user_III:0 "强大原力者"
+leader_trait_gov_force_user_III_desc:0 "这位领袖是个强大原力者，掌握着无尽的秘密。这种能力使他们与他人进行交易时候能够轻松自如地讨价还价。"
+
+leader_trait_sci_force_user_I:0 "娴熟的原力者"
+leader_trait_sci_force_user_I_desc:0 "这位领袖是个娴熟的原力者，在无尽的秘密中获得一些技巧。 这种能力使他们在他们的科学追求中具有独特的意识。"
+leader_trait_sci_force_user_II:0 "强力的原力者"
+leader_trait_sci_force_user_II_desc:0 "这位领袖是个娴熟的原力者，在无尽的秘密中获得复杂的技巧。这种能力使他们在他们的科学追求中具有独特的意识。"
+leader_trait_sci_force_user_III:0 "强大原力者"
+leader_trait_sci_force_user_III_desc:0 "这位领袖是个强大原力者，掌握着无尽的秘密。这种能力使他们在他们的科学追求中具有独特的意识。"
+
+leader_trait_adm_force_user_I:0 "娴熟的原力者"
+leader_trait_adm_force_user_I_desc:0 "这位领袖是个娴熟的原力者，在无尽的秘密中获得一些技巧。这种能力赋予他们独特的魅力，能提高与异性一同作战的能力。"
+leader_trait_adm_force_user_II:0 "强力的原力者"
+leader_trait_adm_force_user_II_desc:0 "这位领袖是个娴熟的原力者，在无尽的秘密中获得复杂的技巧。这种能力赋予他们独特的魅力，能提高与异性一同作战的能力。"
+leader_trait_adm_force_user_III:0 "强大原力者"
+leader_trait_adm_force_user_III_desc:0 "这位领袖是个强大原力者，掌握着无尽的秘密。这种能力赋予他们一个独特的魅力，能提高与异性一同作战的能力，并能够通过战斗冥想大大提高盟友的士气，耐力和战斗能力。"
+
+leader_trait_gen_force_user_I:0 "娴熟的原力者"
+leader_trait_gen_force_user_I_desc:0 "这位领袖是个娴熟的原力者，在无尽的秘密中获得一些技巧。这种能力赋予他们独特的魅力，能提高与异性一同作战的能力。"
+leader_trait_gen_force_user_II:0 "强力的原力者"
+leader_trait_gen_force_user_II_desc:0 "这位领袖是个娴熟的原力者，在无尽的秘密中获得复杂的技巧。这种能力赋予他们独特的魅力，能提高与异性一同作战的能力。"
+leader_trait_gen_force_user_III:0 "强大原力者"
+leader_trait_gen_force_user_III_desc:0 "这位领袖是个强大原力者，掌握着无尽的秘密。这种能力赋予他们一个独特的魅力，能提高与异性一同作战的能力，并能够通过战斗冥想大大提高盟友的士气，耐力和战斗能力。"
+
+trait_force_attuned:0 "原力谐调"
+trait_force_attuned_desc:0 "这个物种被认为是具有强烈的原力感应，能赋予他们超过平均水平的人才。"
+trait_abundant:0 "富裕"
+trait_abundant_desc: "这个物种可以在已知的星系内大量发现。"

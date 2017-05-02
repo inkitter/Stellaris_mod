@@ -1,0 +1,77 @@
+﻿l_english:
+
+ ################################################
+ ####### HABITAT SPECIALISATION MODIFIERS ####### 
+ 
+ Habitat_Outpost_Specialisation:0 "前哨专业化"
+ Habitat_Outpost_Specialisation_desc:0 "该栖息地已配备了远程扫描仪，通信系统和监控系统。"
+ 
+ Habitat_Food_Specialisation:0 "食物专业化"
+ Habitat_Food_Specialisation_desc:0 "该栖息地已配备了大型生物圆顶以满足食物生产需求。" 
+ 
+ Habitat_Minerals_Specialisation:0 "矿物专业化"
+ Habitat_Minerals_Specialisation_desc:0 "该栖息地已配备了工业复制转换器以满足矿物生产需求。" 
+ 
+ Habitat_Army_Specialisation:0 "战斗专业化"
+ Habitat_Army_Specialisation_desc:0 "该栖息地已配备了专门战斗学院以满足作战士兵培训要求。" 
+ 
+ Habitat_Science_Specialisation:0 "科研专业化"
+ Habitat_Science_Specialisation_desc:0 "该栖息地已配备了先进的实验室以满足科研需求。"
+ 
+ Habitat_Specialisation_Disruption:0 "专业化进度"
+ Habitat_Specialisation_Disruption_desc:0 "该栖息地正在进行专业化重组。很抱歉打扰你！"
+
+ ####################################
+ # Habitat Events
+ ####################################
+ 
+ c_habitat.78870.ok:0 "好"
+ 
+ c_habitat.78871.name:0 "§H栖息地专业化§!"
+ c_habitat.78871.desc:0 "多亏了我们出色的工程设计师，使得我们可以让栖息地专注于某个特定领域。我们可以选择离开它或者更专注于以下领域："
+ 
+ c_habitat.78871.a:0 "§H不要改变任何事情§!"
+ c_habitat.78871.aa:0 "§G栖息地无需任何改变，就这样就行了§!"
+ 
+ c_habitat.78871.b:0 "§G前哨§! §H专业化§!"
+ c_habitat.78871.bb:0 "§T配置了远程扫描仪，通信系统和监控系统。§!\n§G边境范围增加 100%§!\n§G传感器范围增加 100%§!\n§R能源产量减少 50%§!"
+ 
+ c_habitat.78871.c:0 "§G食物§! §H专业化§!"
+ c_habitat.78871.cc:0 "§T配置了大型生物圆顶，能满足我们的食物生产需求§!\n§G食物产量增加 25%§!\n§R能源产量减少 50%§!"
+ 
+ c_habitat.78871.d:0 "§G矿物§! §H专业化§!"
+ c_habitat.78871.dd:0 "§T配置了工业复制转换器，能满足我们的矿物生产需求。§!\n§G矿物产量增加 100%§!\n§R能源产量减少 75%§!"
+ 
+ c_habitat.78871.e:0 "§G科研§! §H专业化§!"
+ c_habitat.78871.ee:0 "§T配置了各种先进的科学实验室，能使我们培养更多的科学人才。§!\n§G科研产量增加 15%§!\n§R能源产量减少 50%§!"
+ 
+ c_habitat.78871.f:0 "§G战斗§! §H专业化§!"
+ c_habitat.78871.ff:0 "§T配置了各种先进的作战模拟器，能使我们培养更多的士兵。§!\n§G陆军建造速度增加减少 50%§!\n§G陆军建造成本减少 25%§!\n§R能源产量减少 50%§!"
+ 
+ c_habitat.78871.g:0 "§R移除栖息地的专业化§!"
+ c_habitat.78871.gg:0 "§移除当前的专业化。§!"
+ 
+ c_habitat.78872.name:0 "前哨专业化完成"
+ c_habitat.78872.desc:0 "栖息地的前哨专业化完成并获得奖励"
+ 
+ c_habitat.78873.name:0 "食物专业化完成"
+ c_habitat.78873.desc:0 "栖息地的食物专业化完成并获得奖励"
+ 
+ c_habitat.78874.name:0 "矿物专业化完成"
+ c_habitat.78874.desc:0 "栖息地的矿物专业化完成并获得奖励"
+ 
+ c_habitat.78875.name:0 "科研专业化完成"
+ c_habitat.78875.desc:0 "栖息地的科研专业化完成并获得奖励"
+ 
+ c_habitat.78876.name:0 "战斗专业化完成"
+ c_habitat.78876.desc:0 "栖息地的战斗专业化完成并获得奖励"
+
+ c_habitat.78877.name:0 "移除专业化完成"
+ c_habitat.78877.desc:0 "栖息地已经返回到默认设计。"
+ 
+ ####################################
+ # Habitat Edicts
+ ####################################
+ 
+ edict_change_habitat_focus:0 "更改栖息地专业化"
+ edict_change_habitat_focus_desc:0 "更改或者移除当前栖息地的专业化。\n§H成本§! §R1500 矿物§!\n§H成本§! §R250 Unity§!\n需要 §G90 天§!后才能完成。"
