@@ -40,7 +40,7 @@ bitmapfonts = {
 		name = "standard_font"
 		ttf_font = "Fontcn"
         ttf_size = "16"
-		vertical_offset  = "-3"
+		vertical_offset  = "-2"
 		color = 0xffffffff
 	}
 
@@ -50,7 +50,7 @@ bitmapfonts = {
 		ttf_font = "Fontcn"
         ttf_size = "32"
 		color = 0xffffffff
-		vertical_offset  = "-4"
+		vertical_offset  = "-1"
 	}
 	
 	bitmapfont = {
@@ -58,7 +58,7 @@ bitmapfonts = {
 		ttf_font = "Fontcn"
         ttf_size = "28"
 		color = 0xffffffff
-		vertical_offset  = "-3"
+		vertical_offset  = "-1"
 	}
 		
 	bitmapfont = {
@@ -66,7 +66,7 @@ bitmapfonts = {
 		color = 0xffffffff
 		ttf_font = "Fontcn"
         ttf_size = "15"
-		vertical_offset  = "-3"
+		vertical_offset  = "-1"
 		cursor_offset = { -3 -5 }
 		selection_offset = { 0 3 }
 	}
