@@ -827,7 +827,7 @@
  02_END_RIVALRY_PATRONIZING:0 "这么说，你们的脾气都发完了？"
  01_END_RIVALRY_ANGRY:0 "你们就不能长点脑子吗，[From.GetSpeciesName]？"
  02_END_RIVALRY_ANGRY:0 "求饶吧，原始动物，也许我们还能放你们一马。"
- 01_END_RIVALRY_PROPOSE:1 "Let us end this meaningless rivalry."
+ 01_END_RIVALRY_PROPOSE:1 "让我们结束这毫无意义的竞争。"
  01_END_RIVALRY_ACCEPT_FRIENDLY:0 "我们会尽力原谅你们，因为你们是我们的朋友。"
  02_END_RIVALRY_ACCEPT_FRIENDLY:0 "我们还是不明白为什么你们会把我们视为对手……"
  03_END_RIVALRY_ACCEPT_FRIENDLY:0 "要忘记这次背叛很难。但我们会尽力去忘记。"
