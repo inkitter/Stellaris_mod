@@ -1,5 +1,5 @@
 name="!Chinese Localization Plus"
-path="mod/_Inkitmod/chnlocalp"
+path="mod/_Inkitmod/chnlocalplus"
 tags={
     "Translation"
 }
