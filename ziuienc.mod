@@ -1,4 +1,4 @@
-name="Inkit UI Enhance"
+name="!Inkit UI Enhance"
 path="mod/_Inkitmod/uienhance"
 tags={
 	"Utilities"
