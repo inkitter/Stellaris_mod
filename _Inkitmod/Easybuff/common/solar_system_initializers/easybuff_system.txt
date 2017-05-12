@@ -12,6 +12,12 @@ easybuff_system_initializer = {
 	flags = { sol_system sol }
 	
 	usage = custom_empire
+	init_effect = {
+		spawn_megastructure = { 
+			type = "spy_orb_2" 
+			location = ROOT
+		}
+	}
 	
 	planet = {
 		name = "Sol"
@@ -27,7 +33,7 @@ easybuff_system_initializer = {
 		class = "pc_molten"
 		orbit_distance = 40
 		orbit_angle = 15
-		size = 10
+		size = 8
 		has_ring = no
 	}
 	
@@ -36,7 +42,7 @@ easybuff_system_initializer = {
 		class = "pc_toxic"
 		orbit_distance = 20
 		orbit_angle = 125
-		size = 20
+		size = 16
 		has_ring = no
 	}
 	
@@ -107,12 +113,14 @@ easybuff_system_initializer = {
 				}				
 			}
 		}
+
+		change_orbit = 20
 		moon = {
 			name = "Luna"
 			class = "pc_gaia"
 			size = 25
-			orbit_distance = 20
-			orbit_angle = 0
+			orbit_distance = 0
+			orbit_angle = 30
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
@@ -149,8 +157,8 @@ easybuff_system_initializer = {
 			name = "Moon"
 			class = "pc_gaia"
 			size = 25
-			orbit_distance = 20
-			orbit_angle = 120
+			orbit_distance = 0
+			orbit_angle = 30
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
@@ -187,8 +195,8 @@ easybuff_system_initializer = {
 			name = "Rabit"
 			class = "pc_gaia"
 			size = 25
-			orbit_distance = 20
-			orbit_angle = 90
+			orbit_distance = 0
+			orbit_angle = 30
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
@@ -260,6 +268,62 @@ easybuff_system_initializer = {
 				}
 			}
 		}
+		change_orbit = 30
+
+		moon = { 
+			name = "Habitat Ring"
+			class = "pc_ringworld_habitable"
+			orbit_angle = 20
+			orbit_distance = 0
+			size = 25
+			has_ring = no
+			tile_blockers = none
+		}
+		moon = { 
+			name = "Habitat Ring"
+			class = "pc_ringworld_habitable"
+			orbit_angle = 20
+			orbit_distance = 0
+			size = 25
+			has_ring = no
+			tile_blockers = none
+		}
+		moon = { 
+			name = "Habitat Ring"
+			class = "pc_ringworld_habitable"
+			orbit_angle = 20
+			orbit_distance = 0
+			size = 25
+			has_ring = no
+			tile_blockers = none
+		}
+		moon = { 
+			name = "Habitat Ring"
+			class = "pc_ringworld_habitable"
+			orbit_angle = 20
+			orbit_distance = 0
+			size = 25
+			has_ring = no
+			tile_blockers = none
+		}
+		moon = { 
+			name = "Habitat Ring"
+			class = "pc_ringworld_habitable"
+			orbit_angle = 20
+			orbit_distance = 0
+			size = 25
+			has_ring = no
+			tile_blockers = none
+		}
+		moon = { 
+			name = "Habitat Ring"
+			class = "pc_ringworld_habitable"
+			orbit_angle = 20
+			orbit_distance = 0
+			size = 25
+			has_ring = no
+			tile_blockers = none
+		}
 	}
 	
 	planet = {
@@ -280,7 +344,6 @@ easybuff_system_initializer = {
 		size = 30
 		has_ring = yes
 		entity = "gas_giant_05_entity"
-		change_orbit = 7
 	}
 	
 	planet = {
@@ -301,6 +364,5 @@ easybuff_system_initializer = {
 		size = 20
 		has_ring = no
 		entity = "gas_giant_02_entity"
-		change_orbit = 4
 	}
 }
