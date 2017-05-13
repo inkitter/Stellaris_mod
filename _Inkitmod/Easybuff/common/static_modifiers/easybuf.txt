@@ -1,0 +1,21 @@
+modifier_easybuf_default = {
+	ascension_perks_add = 7
+    planet_border_mult = 1
+    ship_anomaly_fail_risk = -1
+    ship_anomaly_research_speed_mult = 1
+    science_ship_survey_speed = 0.5
+    ship_emergency_ftl_mult = -1
+    ship_windup_mult = -1
+    ship_winddown_mult = -1
+    ship_auto_repair_add = 0.3
+    max_energy = 170000
+    max_minerals = 150000
+    SHIP_FTL_JUMPDRIVE_RANGE_MULT = 0.5
+    ship_sensor_range_mult = 2
+    ship_speed_mult = 2
+
+    ship_armor_add = 188
+    ship_shield_hp_add = 1500
+    ship_shield_regen_add = 300
+    ship_hitpoints_add = 1500
+}

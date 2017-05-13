@@ -14,40 +14,76 @@ country_event = {
     }
 
     immediate = {
-        
+        give_technology = { tech = tech_psi_jump_drive_1 }
     }
 
     option = {
-        name = OK
-        give_technology = { tech = tech_missiles_5 }
+        name = Most
+        give_technology = { tech = tech_enigmatic_deflector }
         give_technology = { tech = tech_torpedoes_3 }
         give_technology = { tech = tech_enigmatic_power_core }
-        give_technology = { tech = tech_psi_jump_drive_1 }
         give_technology = { tech = tech_afterburners_2 }
         give_technology = { tech = tech_psionic_shield }
 
         give_technology = { tech = tech_spaceport_6 }
         give_technology = { tech = tech_space_defense_station_3 }
         give_technology = { tech = tech_mega_engineering }
+
+        add_modifier = {
+			modifier = "modifier_easybuf_default"
+		}
+        enable_special_project = {
+            name = "EASYBUFF_PROJECT"
+            location = this
+            owner = root
+        }
         
-#        give_technology = { tech = tech_telepathy }
-#        give_technology = { tech = tech_telepathy }
 #        give_technology = { tech = tech_gene_seed_purification }
-#        give_technology = { tech = tech_automated_exploration }
-#        give_technology = { tech = tech_extradimensional_weapon_1 }
     }
 
     option = {
-        name = Other
-        add_research_option = tech_psi_jump_drive_1
-        add_tech_progress = {
-			tech = tech_psi_jump_drive_1
-			progress = 1
+        name = Normal
+        give_technology = { tech = tech_enigmatic_deflector }
+        give_technology = { tech = tech_torpedoes_3 }
+        give_technology = { tech = tech_enigmatic_power_core }
+        give_technology = { tech = tech_afterburners_2 }
+        give_technology = { tech = tech_psionic_shield }
+
+        give_technology = { tech = tech_spaceport_6 }
+        give_technology = { tech = tech_space_defense_station_3 }
+        give_technology = { tech = tech_mega_engineering }
+    }
+
+    option = {
+        name = Nothing
+    }
+
+}
+
+country_event = {
+    id = easybuff.2
+    title = "Easybuff"
+	desc = "easybuff.2.desc"
+	picture = GFX_evt_society_research
+    is_triggered_only = yes
+    trigger = {is_ai = no}
+    immediate = {
+        enable_special_project = {
+            name = "EASYBUFF_PROJECT"
+            location = this
+            owner = root
+        }
+    }
+    option = {
+        name = Add
+        add_modifier = {
+			modifier = "modifier_easybuf_default"
 		}
     }
-
     option = {
-        name = NO
+        name = Remove
+        remove_modifier = {
+			modifier = "modifier_easybuf_default"
+		}
     }
-
 }
