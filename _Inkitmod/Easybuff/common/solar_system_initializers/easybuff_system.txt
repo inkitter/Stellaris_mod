@@ -114,13 +114,13 @@ easybuff_system_initializer = {
 			}
 		}
 
-		change_orbit = 20
+		change_orbit = 30
 		moon = {
 			name = "Luna"
 			class = "pc_gaia"
 			size = 25
 			orbit_distance = 0
-			orbit_angle = 30
+			orbit_angle = 10
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
@@ -154,11 +154,11 @@ easybuff_system_initializer = {
 			}
 		}
 		moon = {
-			name = "Luna"
+			name = "Lunar"
 			class = "pc_gaia"
 			size = 25
 			orbit_distance = 0
-			orbit_angle = 30
+			orbit_angle = 10
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
@@ -196,7 +196,7 @@ easybuff_system_initializer = {
 			class = "pc_gaia"
 			size = 25
 			orbit_distance = 0
-			orbit_angle = 30
+			orbit_angle = 10
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
@@ -234,7 +234,7 @@ easybuff_system_initializer = {
 			class = "pc_gaia"
 			size = 25
 			orbit_distance = 0
-			orbit_angle = 30
+			orbit_angle = 10
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
@@ -486,12 +486,6 @@ easybuff_system_initializer = {
 		size = 35
 		has_ring = no
 		entity = "gas_giant_jupiter_entity"
-		init_effect = {
-			spawn_megastructure = { 
-				type = "think_tank_1" 
-				location = ROOT
-			}
-		}
 	}
 	
 	planet = {
