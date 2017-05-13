@@ -5,13 +5,10 @@ country_event = {
     title = "Easybuff"
 	desc = "easybuff.1.desc"
 	picture = GFX_evt_society_research
-   # hide_window = yes
 
     is_triggered_only = yes
 
-    trigger = {
-        is_ai = no
-    }
+    trigger = { is_ai = no }
 
     immediate = {
         give_technology = { tech = tech_psi_jump_drive_1 }
@@ -19,36 +16,27 @@ country_event = {
 
     option = {
         name = Most
-        give_technology = { tech = tech_enigmatic_deflector }
+        give_technology = { tech = tech_extradimensional_weapon_1 }
         give_technology = { tech = tech_torpedoes_3 }
         give_technology = { tech = tech_enigmatic_power_core }
         give_technology = { tech = tech_afterburners_2 }
         give_technology = { tech = tech_psionic_shield }
-
         give_technology = { tech = tech_spaceport_6 }
         give_technology = { tech = tech_space_defense_station_3 }
         give_technology = { tech = tech_mega_engineering }
-
         add_modifier = {
 			modifier = "modifier_easybuf_default"
+            days = -1
 		}
-        enable_special_project = {
-            name = "EASYBUFF_PROJECT"
-            location = this
-            owner = root
-        }
-        
-#        give_technology = { tech = tech_gene_seed_purification }
     }
 
     option = {
         name = Normal
-        give_technology = { tech = tech_enigmatic_deflector }
+        give_technology = { tech = tech_extradimensional_weapon_1 }
         give_technology = { tech = tech_torpedoes_3 }
         give_technology = { tech = tech_enigmatic_power_core }
         give_technology = { tech = tech_afterburners_2 }
         give_technology = { tech = tech_psionic_shield }
-
         give_technology = { tech = tech_spaceport_6 }
         give_technology = { tech = tech_space_defense_station_3 }
         give_technology = { tech = tech_mega_engineering }
@@ -60,30 +48,3 @@ country_event = {
 
 }
 
-country_event = {
-    id = easybuff.2
-    title = "Easybuff"
-	desc = "easybuff.2.desc"
-	picture = GFX_evt_society_research
-    is_triggered_only = yes
-    trigger = {is_ai = no}
-    immediate = {
-        enable_special_project = {
-            name = "EASYBUFF_PROJECT"
-            location = this
-            owner = root
-        }
-    }
-    option = {
-        name = Add
-        add_modifier = {
-			modifier = "modifier_easybuf_default"
-		}
-    }
-    option = {
-        name = Remove
-        remove_modifier = {
-			modifier = "modifier_easybuf_default"
-		}
-    }
-}

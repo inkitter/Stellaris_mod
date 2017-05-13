@@ -1,0 +1,61 @@
+modifier_easybuf_default = {
+	ascension_perks_add = 7
+    planet_border_mult = 1
+    ship_anomaly_fail_risk = -1
+    ship_anomaly_research_speed_mult = 1
+    science_ship_survey_speed = 0.5
+    ship_emergency_ftl_mult = -1
+    ship_windup_mult = -1
+    ship_winddown_mult = -1
+    ship_auto_repair_add = 0.3
+    max_energy = 170000
+    max_minerals = 150000
+    SHIP_FTL_JUMPDRIVE_RANGE_MULT = 0.5
+    ship_sensor_range_mult = 2
+    ship_speed_mult = 2
+
+    ship_armor_add = 188
+    ship_shield_hp_add = 1500
+    ship_shield_regen_add = 300
+    ship_hitpoints_add = 1500
+}
+
+# edict_length_mult = 2
+    # planet_sensor_range_mult = 5
+    # planet_border_mult = 1
+    # country_leader_cap = 5
+    # country_leader_pool_size = 2
+#    country_resource_unity_mult = 1
+    # ascension_perks_add = 7
+    #ship_anomaly_fail_risk = -1
+    #ship_anomaly_research_speed_mult = 1
+    #science_ship_survey_speed = 1
+
+#    MEGASTRUCTURE_BUILD_SPEED_MULT = 3.67
+
+    # num_tech_alternatives_add = 3
+    # country_resource_sr_riggan_add = 1
+    # country_resource_sr_xuran_add = 1
+    # country_resource_sr_muutagan_add = 1
+    # country_resource_influence_add = 1
+    # army_damage_mult = 5
+    # army_morale_damage_mult = 5
+    # ship_emergency_ftl_mult = -1
+    
+    #ship_speed_mult = 4
+    #ship_sensor_range_mult = 2
+    #ship_armor_add = 88
+    #ship_shield_hp_add = 1000
+    #ship_shield_regen_add = 300
+    #ship_hitpoints_add = 1000
+    #ship_auto_repair_add = 0.3
+    #ship_windup_mult = -1
+    #ship_winddown_mult = -1
+    #SHIP_FTL_JUMPDRIVE_RANGE_MULT = 1
+    #ship_emergency_ftl_mult = -1
+    #max_energy = 70000
+    #max_minerals = 50000
+    # ship_weapon_range_mult = 1
+    
+    # ship_shield_regen_add_perc = 1
+    # navy_size_add = 100
