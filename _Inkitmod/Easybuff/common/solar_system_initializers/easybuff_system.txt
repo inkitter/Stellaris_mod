@@ -13,7 +13,7 @@ easybuff_system_initializer = {
 	usage = custom_empire
 	init_effect = {
 		spawn_megastructure = { 
-			type = "spy_orb_2" 
+			type = "spy_orb_3" 
 			location = ROOT
 		}
 	}
