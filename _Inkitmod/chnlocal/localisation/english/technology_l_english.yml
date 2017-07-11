@@ -61,7 +61,7 @@
  tech_battleship_yard:0 "标准化战列舰模板"
  tech_battleship_yard_desc:1 "确立新的战列舰设计建造标准，极大提高其组装速度。"
  tech_solar_panel_network:0 "轨道能量转换"
- tech_solar_panel_network_desc:0 "太阳能板技术的进步可能能够降低太空港的运行成本。然而，需要一整个太空港模块的太阳能板才能生产足够能量。"
+ tech_solar_panel_network_desc:0 "太阳能板技术的进步可能能够降低太空港的运转成本。然而，需要一整个太空港模块的太阳能板才能生产足够能量。"
  tech_mining_terminal:0 "矿业行会"
  tech_mining_terminal_desc:0 "有组织的矿业行会可以监督恒星系内所有的的资源提取。它可以迫使独立的非法矿工服从管理，从而提升效率。"
  tech_zero_gravity_assembly_sequence:0 "零重力工作框架"
@@ -144,7 +144,7 @@
  tech_synchronized_work_patterns:0 "同步工作模式"
  tech_synchronized_work_patterns_desc:0 "通过同步采矿网络的工作模式，可以进一步提升其产出效率。"
  tech_engineering_lab_1:0 "纳米力学" # Could also be Nanomatter
- tech_engineering_lab_1_desc:0 "先进的仪器能够对纳米尺度的物理系统进行研究并实际应用。"
+ tech_engineering_lab_1_desc:0 "先进的仪器能够研究纳米尺度的物理系统并实际应用。"
  tech_engineering_lab_2:0 "超固体材料" # As above, could be Supersolid Matter
  tech_engineering_lab_2_desc:0 "对超固体的生产和理解，对所有太空文明都有着不可估量的价值。"
  tech_engineering_lab_3:0 "超流体材料"
@@ -318,7 +318,7 @@
  tech_mine_teldar_desc:0 "钛达尔晶体会发射出可见光频谱之外的射线。"
  tech_mine_yuranic:0 "羽然水晶开采"
  tech_mine_yuranic_desc:0 "羽然水晶具备罕见的反射特性，可以强化能量武器。"
- tech_mine_neutronium:0 "0 号元素提取"
+ tech_mine_neutronium:0 "零号元素提取"
  tech_mine_neutronium_desc:1 "中子矿石是一种由中子构成的超高密度物质，可用来锻造强度和耐久极高的护甲。"
  tech_mine_dark_matter:0 "收集暗物质"
  tech_mine_dark_matter_desc:1 "这种独特的物质具有许多打破物理学原理的特性。仅在黑洞周围或部分星云附近能获得。"
@@ -733,7 +733,7 @@
  tech_symbol_unity:0 "凝聚之证"
  tech_symbol_unity_desc:0 "随着我们探索的范围增大，所认知的星系与奥秘也就越来越多。而此时最重要的就是所有人坚定信念，天下一统。"
  tech_visitor_center:0 "外星访客中心"
- tech_visitor_center_desc:0 "在发现宇宙中的其他物种之后，我们应当做好准备，迎接这些新朋友的到来。"
+ tech_visitor_center_desc:0 "在发现宇宙中的其他种族之后，我们应当做好准备，迎接这些新朋友的到来。"
  tech_subdermal_stimulation:0 "真皮层刺激"
  tech_subdermal_stimulation_desc:0 "深层组织植入是感官工程和娱乐经验的最新创新。“我们要做的是：不再需要皮肤来感觉！”"
  
@@ -893,14 +893,14 @@
  #####################################
  gateway_capital:0 "§H行政之路§!\n§E这项科技的未来方向是建设首都以及获取 £influence  §H影响力§! 。§H高等级建筑§! 都依赖行星首都的升级。§!"
  gateway_biological:0 "§H生物学之路§!\n§E这项科技的未来方向是生物强化和适应性方面。§!"
- gateway_ship:0 "§H舰船之路§!\n§E这项科技的未来方向是建设更大的太空港以及更强力的战舰。"
- gateway_psionics:0 "§H灵能之路§!\n§E这项科技的未来方向是灵能领域。"
- gateway_robotics:0 "§H机器之路§!\n§E这项科技的未来方向是机器人领域。"
+ gateway_ship:0 "§H舰船之路§!\n§E这项科技的未来方向是建设更大的太空港以及更强力的战舰。§!"
+ gateway_psionics:0 "§H灵能之路§!\n§E这项科技的未来方向是灵能领域。§!"
+ gateway_robotics:0 "§H机器之路§!\n§E这项科技的未来方向是机器人领域。§!"
  
  #####################################
  # Enclave Techs
  #####################################
- tech_curator_lab:0 "博物馆探索实验室"
- tech_curator_lab_desc:1 "这些整合了来自博物馆署的先进科技的船载实验设施可以进一步提高调查速度。"
- tech_archeology_lab:0 "博物馆考古实验室"
- tech_archeology_lab_desc:1 "一个搭载了远古先进设备的船载实验室，它包括一个由博物馆署提供的大型数据库，其可以对新发现随时进行交叉比对。"
+ tech_curator_lab:0 "典藏研究所探索实验室"
+ tech_curator_lab_desc:1 "这些整合了来自典藏研究所的先进科技的船载实验设施可以进一步提高勘察速度。"
+ tech_archeology_lab:0 "典藏研究所考古实验室"
+ tech_archeology_lab_desc:1 "一个搭载了远古先进设备的船载实验室，它包括一个由典藏研究所提供的大型数据库，其可以对新发现随时进行交叉比对。"
