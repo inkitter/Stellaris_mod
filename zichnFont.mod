@@ -1,5 +1,5 @@
-name="!Chinese Font CuYuan TTF [1.8.*]"
-path="mod/_Inkitmod/chnFontttf"
+name="!Chinese Font CuYuan [1.8.*]"
+path="mod/_Inkitmod/chnFont"
 tags={
 	"Font"
     "Translation"
