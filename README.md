@@ -1,4 +1,4 @@
-Stellaris mods for [1.5.1]
+Stellaris mods for [1.8]
 
 ## 内容
 
