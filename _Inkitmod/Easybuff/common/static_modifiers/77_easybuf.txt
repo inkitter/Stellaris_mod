@@ -1,6 +1,6 @@
 modifier_easybuf_default = {
 	ascension_perks_add = 7
-    planet_border_mult = 1
+    planet_border_mult = 1.5
     ship_anomaly_fail_risk = -1
     ship_anomaly_research_speed_mult = 1
     science_ship_survey_speed = 0.5
@@ -11,13 +11,22 @@ modifier_easybuf_default = {
     max_energy = 170000
     max_minerals = 150000
     SHIP_FTL_JUMPDRIVE_RANGE_MULT = 0.5
-    ship_sensor_range_mult = 2
-    ship_speed_mult = 2
+    ship_sensor_range_mult = 3
+    ship_speed_mult = 3
 
     ship_armor_add = 188
-    ship_shield_hp_add = 1500
-    ship_shield_regen_add = 300
-    ship_hitpoints_add = 1500
+    ship_shield_hp_add = 2000
+    ship_shield_regen_add = 1000
+    ship_hitpoints_add = 5500
+    ship_weapon_range_mult = 0.3
+    ship_fire_rate_mult = 0.8
+    ship_weapon_damage = 0.8
+    num_tech_alternatives_add = 2
+    country_resource_energy_add = 200
+    country_resource_minerals_add = 200
+    ship_evasion_add = 15
+    ship_tracking_add = 10
+    ship_accuracy_add = 10
 }
 
 # edict_length_mult = 2

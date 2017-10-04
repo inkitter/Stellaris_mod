@@ -1,5 +1,5 @@
-name="Easy Buffs [1.8]"
-path="mod/_Inkitmod/Easybuff"
+name="Super Ships"
+path="mod/_Inkitmod/EasybuffSuperShips"
 tags={
 	"Utilities"
     "Gameplay"

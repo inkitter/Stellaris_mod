@@ -1,0 +1,171 @@
+ship_section_template = {
+	key = "CORVETTE_MID_L3"
+	ship_size = corvette
+	fits_on_slot = mid
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	# Guns
+	ai_weight = {
+		factor = 0
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}	
+    component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 4
+	
+	cost = 10
+}
+
+ship_section_template = {
+	key = "CRUISER_BOW_L2"
+	ship_size = cruiser
+	fits_on_slot = bow
+	entity = "cruiser_bow_M2_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	# Guns
+	ai_weight = {
+		factor = 0
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}	
+    component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 4
+	
+	cost = 10
+}
+
+ship_section_template = {
+	key = "BATTLESHIP_MID_L2"
+	ship_size = battleship
+	fits_on_slot = mid
+	entity = "battleship_mid_L2M2_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	# Guns
+	ai_weight = {
+		factor = 0
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}	
+    component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 4
+	
+	cost = 10
+}
+
+ship_section_template = {
+	key = "DESTROYER_STERN_L2"
+	ship_size = destroyer
+	fits_on_slot = stern
+	entity = "destroyer_stern_M1_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	# Guns
+	ai_weight = {
+		factor = 0
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}	
+    component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+	
+	large_utility_slots = 8
+	aux_utility_slots = 4
+	
+	cost = 10
+}

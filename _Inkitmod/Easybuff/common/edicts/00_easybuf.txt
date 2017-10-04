@@ -33,8 +33,8 @@ country_edict = {
   name = "easy_buff_stock"
 
   modifier = {
-    country_resource_minerals_add = 100
-	  country_resource_energy_add = 100
+    country_resource_minerals_add = 10000
+	  country_resource_energy_add = 10000
   }
 
   influence_cost = 0
@@ -62,11 +62,19 @@ country_edict = {
   name = "easy_buff_godfleet"
 
   modifier = {
-    ship_shield_hp_add = 2000
-    ship_hitpoints_add = 4000
+    ship_shield_hp_add = 30000
+    ship_shield_regen_add = 30000
+    ship_shield_regen_add_perc = 5
+    ship_hitpoints_add = 14000
     ship_auto_repair_add = 0.3
     ship_interstellar_speed_mult = 5
     ship_armor_add = 300
+    ship_weapon_range_mult = 3
+    ship_fire_rate_mult = 4
+    ship_weapon_damage = 3
+    ship_evasion_add = 40
+    ship_tracking_add = 10
+    ship_accuracy_add = 10
   }
 
   influence_cost = 0
