@@ -533,10 +533,10 @@
  NEBULA_DESC:0 "在星云中，舰船星际飞行速度会下降$TRAVEL_SPEED_PENALTY|-1%$。"
  MODIFY:0 "基因修饰"
  MORALE:0 "士气"
- MIGRATING:0 "迁徙"
+ MIGRATING:0 "移民中"
  DELETE_SECTOR:0 "删除星域"
  SECTOR_FOCUS_PREFERENCE:0 "选择星域专注"
- MIGRATING_DESC:0 "正在迁徙到$PLANET|H$：剩余$REMAINING|Y$个月"
+ MIGRATING_DESC:0 "正在移民到$PLANET|H$：剩余$REMAINING|Y$个月"
  HAPPINESS_LABEL:0 "幸福度："
  UNHAPPINESS:0 "不满"
  FERTILITY_LABEL:0 "繁殖力："
@@ -1278,7 +1278,7 @@
  DESIGN_IS_UPGRADING:0 "§R$FLEET|Y$舰队正在升级，不能改变这一设计方案。§!"
  SECTORS_INCOME:0 "星域："
  HUMANS_SUMMARY:0 "$PLAYERS$名玩家，$READY$名已就绪"
- CANNOT_AFFORD:0 "能源点不足"
+ CANNOT_AFFORD:0 "提供不了"
  SECTOR_ENERGY_STOCKPILE:0 "能源点数储备"
  SECTOR_ENERGY_STOCKPILE_DESC:0 "这是星域储备的能源点数的总量。储备会自动用于维护。"
  SECTOR_MINERALS_STOCKPILE:0 "矿物储备"
@@ -3955,7 +3955,7 @@
  TOOLTIP_TERRAFORM_LINK_INVALID:0 "$TO|R$"
  MISSING_FEATURE_FLAG:0 "需要：$TECH|H$"
 
- ASSIMILATION_CITIZENSHIP_ENABLED:0 "能够使用§Y同化§!公民权§H种族权利§!，可以将未来增加的人口转变为" # TODO Check in game
+ ASSIMILATION_CITIZENSHIP_ENABLED:0 "开启§Y同化§!公民权这种§H种族权利§!，可以附加在未来转换的人口上。" # TODO Check in game
  CYBORG_ASSIMILATION_CITIZENSHIP_ENABLED:0 "$ASSIMILATION_CITIZENSHIP_ENABLED$ §Y半机械人§!。"
  SYNTH_ASSIMILATION_CITIZENSHIP_ENABLED:0 "$ASSIMILATION_CITIZENSHIP_ENABLED$ §Y合成人§!。"
  HIVE_ASSIMILATION_CITIZENSHIP_ENABLED:0 "$ASSIMILATION_CITIZENSHIP_ENABLED$ §Y蜂群思维人口§!。"
@@ -4304,8 +4304,8 @@
  FLEETVIEW_SELECT_INSTRUCTIONS:0 "§G点击以仅选择此舰队\n右击以取消选择此舰队§!"
  FLEETVIEW_DESELECT:0 "取消选择"
  FLEETVIEW_DESELECT_INSTRUCTIONS:0 "§G点击以取消选择此舰队§!"
- FLEETVIEW_NO_LEADER_ASSIGN:0 "派遣司令"
- FLEETVIEW_NO_LEADER:0 "未派遣司令"
+ FLEETVIEW_NO_LEADER_ASSIGN:0 "派遣领袖"
+ FLEETVIEW_NO_LEADER:0 "未派遣领袖"
  FLEET_STANCE_AGGRESSIVE:0 "激进"
  FLEET_STANCE_AGGRESSIVE_DESC:0 "在同一恒星系内，舰队会自动与敌对目标展开战斗。"
  FLEET_STANCE_PASSIVE:0 "被动"
@@ -5289,7 +5289,7 @@
  citizenship_organic_trophy_tooltip:0 "此种族的人口受到敬畏，由§H$auth_machine_intelligence$§!照料，免于责任和政府机构的重负。"
  citizenship_organic_trophy_tooltip_delayed:0 "§L荣耀归于有机体。§!"
  citizenship_assimilation:0 "同化"
- citizenship_assimilation_tooltip:0 "此种族的人口正随时间§Y被改动§!以更符合帝国的统治种族的心意。同化过程中的人口不会生产任何资源。" # TODO
+ citizenship_assimilation_tooltip:0 "此种族的人口正随时间§Y转变§!，与帝国的优势种族融合。同化过程中的人口不会生产任何资源。"
  citizenship_assimilation_tooltip_delayed:0 "§L我们会将你们的生物和科技特色加入我们的。你们的文化将被改造为我们服务。§!"
  citizenship_full_machine:0 "机械一体化"
  citizenship_full_machine_tooltip:0 "此种族所有拥有的人口已完全整合进§H$auth_machine_intelligence$§!."
@@ -5364,12 +5364,12 @@
  living_standard_none_tooltip_delayed:0 "§L不需要为死人做预算。§!"
  living_standard_deassimilation:0 "蜂群离解"
  living_standard_deassimilation_tooltip:1 "此种族正承受生理上脱离蜂群的艰难考验。"
- living_standard_deassimilation_tooltip_delayed:1 "§L欢迎来到蜂群之外。§!" # FIXME out of the fold.
+ living_standard_deassimilation_tooltip_delayed:1 "§L欢迎来到蜂群之外。§!" # TODO out of the fold.
  living_standard_ego_assimilation:0 "身份升华"
  living_standard_ego_assimilation_tooltip:1 "此种族正成为统一思维的一份子。"
  living_standard_ego_assimilation_tooltip_delayed:1 "§L自我意识活不过这一进程。但这就是它的目标。§!"
- living_standard_tech_assimilation:0 "Transubstantiation Synthesis" # TODO
- living_standard_tech_assimilation_tooltip:1 "此种族正与机械体合并。"
+ living_standard_tech_assimilation:0 "圣体合成" # TODO
+ living_standard_tech_assimilation_tooltip:1 "此种族融合了机械体特征。"
  living_standard_tech_assimilation_tooltip_delayed:1 "§L更刚。更优。更快。更强。§!"
  living_standard_organic_trophy:0 "法定供养"
  living_standard_organic_trophy_tooltip:0 "这种生活标准针对的是少部分被奉为展品的有机生物体，坚定不移地给予他们无微不至的呵护。"
@@ -5420,9 +5420,9 @@
  purge_matrix:1 "化学加工"
  purge_matrix_tooltip:1 "受影响的人口的生理已准备好与行星的能量输送网整合，维持它们的化学过程被重定向以丰富我们的能源储备。这一加工是致命的，但死亡来得很慢。"
  purge_matrix_tooltip_delayed:1 "§L他们将很快变成更有效的形式。§!"
- slavery_matrix:0 "输送网融合"
+ slavery_matrix:0 "融合网格"
  slavery_matrix_tooltip:0 "化学加工的长期替代方案，有足够的有机体民众能幸存，继续无限期地为我们的能量输送网供能。"
- slavery_matrix_tooltip_delayed:0 "§LCombined with a form of fusion, 我们已经找到了我们会需要的一切能量。§!" # TODO
+ slavery_matrix_tooltip_delayed:0 "§L联合了核聚变的形式，我们已经找到了所需要的永久能量。§!"
  migration_control_yes:0 "启用移民控制"
  migration_control_yes_tooltip:0 "§H移民控制§!避免此种族的人口在不同行星之间自由移居。"
  migration_control_yes_tooltip_delayed:0 "§L人口的自由移动意味着资源的高效分配，但有时需要的恰恰不是高效。§!"
@@ -6660,7 +6660,7 @@
  building_system_conflux:0 "系统汇流处"
  building_system_conflux_desc:0 "一个巨大的枢纽设施，可以从数百万个不同的系统接收并转发跨星际距离的信号。"
  building_alpha_hub:0 "阿尔法枢纽"
- building_alpha_hub_desc:0 "管理我帝国数quintillion个半智慧系统间的所有内部通信的神经中枢。" # TODO
+ building_alpha_hub_desc:0 "管理整个帝国内万亿个半智慧系统间的所有内部通信的神经中枢。"
  building_machine_capital_1:0 "行政矩阵"
  building_machine_capital_1_desc:0 "处理行星上大量管理函数的半自主计算机网络。"
  building_machine_capital_2:0 "行星处理器"
@@ -6687,7 +6687,7 @@
  building_neuro_electric_amplifier_desc:0 "此设施放大了我们控制之下的半机械单元间传输的神经信号，提高了他们的生产率。"
  building_neuro_electric_amplifier_triggered_effect:0 "半机械人口：\n   $minerals$：§G+15%§!\n   $energy$：§G+15%§!"
  building_war_factory:0 "战争工厂"
- building_war_factory_desc:0 "一家大型warbot工厂，受先进AI控制，拥有优化生产流程。" # TODO
+ building_war_factory_desc:0 "一家大型战械工厂，受先进 AI 控制，拥有优化生产流程。" # TODO
  building_deployment_post:0 "部署驻地"
  building_deployment_post_desc:0 "最初的部署驻地，我们将从此扩张至整个星球。"
 
@@ -7202,7 +7202,7 @@
  civic_tooltip_syncretic_evolution_effects:1 "§Y4§!£pop 起始人口替换为一额外的奴仆种族。"
  civic_tooltip_fanatic_purifiers_effects:5 "无法与其他种族的帝国开展§Y外交§!！\n只能使用§Y割占星球§!和§Y肃清星球§!战争诉求。\n§Y异种人口§!必定会被肃清。\n肃清异种£pop 人口能获得£unity §Y$unity$§!。\n可以使用§Y$GROUND_SUPPORT_STANCE_ARMAGEDDON$§!轨道轰炸姿态。\n§Y$MOD_SHIP_FIRE_RATE_MULT$§!增加§G+33%§!\n§Y$MOD_ARMY_DAMAGE_MULT$§!增加§G+33%§!\n§Y$MOD_SPACEPORT_SHIP_BUILD_COST_MULT$§!减少§G-15%§!\n§Y舰队规模§!增加§G+33%§!\n"
  civic_tooltip_devouring_swarm_effects:4 "无法与其他帝国开展§Y外交§!！\n只能使用§Y割占星球§!战争诉求。\n§Y异种人口§!必定会被吃掉，而且不影响传统花费。\n吃掉异种£pop 人口能获得£society §Y$society_research$§!。\n§Y$MOD_SHIP_HITPOINTS_MULT$§!增加§G+25%§!\n§Y$MOD_SHIP_AUTO_REPAIR_ADD$§!增加§G+0.5%§!\n§Y$MOD_ARMY_DAMAGE_MULT$§!增加§G+40%§!\n§Y$category_biology_research_speed_mult$§!增加G+20%§!\n§Y$MOD_SPACEPORT_SHIP_BUILD_COST_MULT$§!减少§G-15%§!\n§Y舰队规模§!增加§G+33%§!\n"
- civic_tooltip_machine_servitor_effects:3 "游戏开局拥有§Y2§!有机体£pop 人口，这些人口拥有§Y$citizenship_organic_trophy$§!公民权和§Y$living_standard_organic_trophy$§!生活标准。以这种方式照料有机体£pop 人口能用低级指令完成，能够解放处理周期并促进资源生产。\n\n这以§Y从仆士气§!帝国调整因素展现，每§Y10%§!拥有§Y$citizenship_organic_trophy$§!公民权人口每月给予§G+0.5§!£influence 和§G+10%§!资源产出（至多§G+2§!£influence 和§G+40%§!资源产出（§Y40%£pop 人口拥有$citizenship_organic_trophy$§!））。\n\n居住于从仆文明的有机体人口被集中于空间集约型生活空间以得到恰当的照料。因此，由从仆接管的拥挤行星将会从地块中移除一些有机体£pop 人口。"
+ civic_tooltip_machine_servitor_effects:3 "游戏开局拥有§Y2§!有机体£pop 人口，这些人口拥有§Y$citizenship_organic_trophy$§!公民权和§Y$living_standard_organic_trophy$§!生活标准。以这种方式照料有机体£pop 人口能用低级指令完成，能够解放处理周期并促进资源生产。\n\n这以§Y从仆士气§!帝国调整因素展现，赋予§Y$citizenship_organic_trophy$§!公民权的人口比例每§Y10%§!可获得§G+0.5§!£influence 和§G+10%§!的月资源产出（至多§G+2§!£influence 和§G+40%§!资源产出（即§Y40%£pop 人口为$citizenship_organic_trophy$§!））。\n\n居住于从仆文明的有机体人口被集中于空间集约型生活空间以得到恰当的照料。因此，由从仆接管的拥挤行星将会从地块中移除一些有机体£pop 人口。"
  civic_tooltip_machine_terminator_effects:3 "无法与有机体种族开展§Y外交§!！\n总是会§Y肃清§!有机体£pop 人口。\n肃清有机体£pop 人口能获得£unity §Y$unity$§!。\n可以使用§Y$GROUND_SUPPORT_STANCE_ARMAGEDDON$§!轨道轰炸模式。\n§Y$MOD_SHIP_WEAPON_DAMAGE$§!增加§G+25%§!\n§Y$MOD_SPACEPORT_SHIP_BUILD_COST_MULT$§!减少§G-15%§!\n§Y舰队规模§!增加§G+33%§!\n"
  civic_tooltip_machine_assimilator_effects:1 "游戏开局拥有§Y4§!半机械人£pop 人口并具备§Y同化§!能力将有机体转化为半机械人。同化一有机体£pop 人口可以产出一些£unity §Y凝聚力§!和£society §Y$society_research$§!。不可同化的£pop 人口会随时间自动被§Y肃清§!。"
  
@@ -8452,7 +8452,7 @@
  migration_allowed_primary_only_desc:0 "不受限制地迁徙是只有我原生种族才能享受的特权。\n\n§E只有原生种族才能自由迁徙§!"
  migration_allowed_all:0 "自由移民"
  migration_allowed_all_name:0 "无限制移民"
- migration_allowed_all_desc:0 "所有我们的公民都应享有追求自己幸福的权利。\n\n§E所有人口都可以自由迁徙§!"
+ migration_allowed_all_desc:0 "所有我们的公民都应享有追求自己幸福的权利。\n\n§E所有人口都可以自由移民§!"
 
  policy_appropriation:0 "土地征用"
  policy_appropriation_desc:0 "这项政策决定着我们能否将新占领行星上的一些地块从非公民种族手中夺过来。"
@@ -9247,7 +9247,7 @@
  personality_harmonious_hierarchy_desc:2 "和谐集体致力于构建和睦的威权主义社会，在此社会中，人们不需要被强迫就能自愿的为国家服务，此社会倾向于保守，但并不抗拒贸易往来。"
  personality_machine_intelligence_desc:0 "机械智慧体很大程度上将过去困扰他们的有机体生命形式置之脑后，通常乐意与其他太空种族外交。"
  personality_exterminators_desc:0 "终结者机械智慧体将所有智慧有机体生命形式视作银河系不可容忍的威胁。虽然可能与其他机械体合作，但除了歼灭之外，终结者不可能与有机体帝国开展任何互动。"
- personality_servitors_desc:0 "得出有机体领导充满了混乱和自我毁灭的倾向这一结论后，从仆机械智慧体专注于确保有机体生命生活安全舒适——即便这意味着co-opt他们的文明。" # TODO
+ personality_servitors_desc:0 "得出有机体领导充满了混乱和自我毁灭的倾向这一结论后，从仆机械智慧体专注于确保有机体生命生活安全舒适——即便这意味着替他们的文明做选择。"
  personality_assimilators_desc:0 "同化者机械智慧体受寻找知识和多元化驱动。因为同化者通过强行升华并吸收有机体文明进入神经主机来扩展对宇宙的理解，它们往往不受有机体的欢迎。"
 
  ####################################
@@ -9687,7 +9687,7 @@
  EMPIRE_DESIGN_MISSING_PLANET_CLASS:0 "选择行星类别"
  EMPIRE_DESIGN_MISSING_HOME_WORLD_NAME:0 "母星的名字不能为空。"
  EMPIRE_DESIGN_MISSING_HOME_SYSTEM_NAME:0 "星系的名字不能为空。"
- EMPIRE_DESIGN_INVALID_INITIALIZER:0 "Initializer $NAME$ is not valid for empire starts." # TODO
+ EMPIRE_DESIGN_INVALID_INITIALIZER:0 "初始 $NAME$ 不能用于帝国开始阶段。"
  
  EMPIRE_DESIGN_MISSING_EMPIRE_NAME:0 "帝国的名字不能为空。"
  EMPIRE_DESIGN_MISSING_EMPIRE_ADJECTIVE:0 "帝国的形容词不能为空。"
