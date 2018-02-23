@@ -13,7 +13,7 @@ easybuff_system_initializer = {
 	usage = custom_empire
 	init_effect = {
 		spawn_megastructure = { 
-			type = "spy_orb_3" 
+			type = "spy_orb_2" 
 			location = ROOT
 		}
 	}
@@ -58,9 +58,10 @@ easybuff_system_initializer = {
 		modifiers = none
 		
 		init_effect = {
+			generate_easybuff_tiles = yes
 			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
-				set_building = "building_capital_3"
+				limit = { has_deposit = d_vast_energy_deposit has_building = no }
+				set_building = "building_capital_1"
 			}
 		}
 
@@ -75,6 +76,9 @@ easybuff_system_initializer = {
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
 			modifiers = none
+			init_effect = {
+				generate_easybuff_tiles = yes
+			}
 		}
 		moon = {
 			name = "Moon"
@@ -86,6 +90,9 @@ easybuff_system_initializer = {
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
 			modifiers = none
+			init_effect = {
+				generate_easybuff_tiles = yes
+			}
 		}
 		moon = {
 			name = "Rabit"
@@ -97,6 +104,9 @@ easybuff_system_initializer = {
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
 			modifiers = none
+			init_effect = {
+				generate_easybuff_tiles = yes
+			}
 		}
 	}
 
@@ -110,6 +120,9 @@ easybuff_system_initializer = {
 		entity = "barren_planet_mars_entity"
 		tile_blockers = none
 		modifiers = none
+		init_effect = {
+			generate_easybuff_tiles = yes
+		}
 	}
 	
 	planet = {

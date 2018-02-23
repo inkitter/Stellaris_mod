@@ -1,7 +1,10 @@
 [h1]A Cheat mod[/h1]
- (Language is Chinese) See National Edicts in Game.
-[list]
-  [*]创建帝国，开局可以选作弊星系。
-  [*]开局自动送几个科技。可以点取消不要。
-  [*]国家政策里有分类的一些buf。
-[/list]
+  1. National Edicts in Game to open cheat menu.
+  2. When creating a species a "Easybuff" homeworld type can be choosen. Which is much better than a normal Sol system.
+
+Cheat Menu functions:
+  1. Toggle cheat buff.
+  2. Have some technologies immediately.
+  3. Toggle Research buff.
+   
+More functions are WIP...

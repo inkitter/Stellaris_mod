@@ -2,46 +2,101 @@ namespace = easybuff
 
 country_event = {
     id = easybuff.1
-    title = "Easybuff"
+    title = "Easybuff Menu"
 	desc = "easybuff.1.desc"
 	picture = GFX_evt_society_research
-
     is_triggered_only = yes
-
     trigger = { is_ai = no }
 
-    immediate = {
-        give_technology = { tech = tech_psi_jump_drive_1 }
+    option = {
+        name = ToggleBuff
+        if = {
+            limit = { has_modifier = "modifier_easybuf_default" }
+            remove_modifier = "modifier_easybuf_default"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_default"
+                    days = -1
+		        }
+            }
+        }
     }
+
+    option = { 
+        name = More
+        country_event = { id = easybuff.2 }
+    }
+
+    option = { 
+        name = Cancel
+    }
+}
+
+country_event = {
+    id = easybuff.2
+    title = "Easybuff More"
+	desc = "easybuff.2.desc"
+	picture = GFX_evt_society_research
+    is_triggered_only = yes
+    trigger = { is_ai = no }
+
+    option = {
+        name = Research
+        if = {
+            limit = { has_modifier = "modifier_easybuf_research" }
+            remove_modifier = "modifier_easybuf_research"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_research"
+                    days = -1
+		        }
+            }
+        }
+    }
+    option = {
+        name = Technology
+        country_event = { id = easybuff.10 }
+    }
+    option = {
+        name = Cancel
+    }
+}
+
+country_event = {
+    id = easybuff.10
+    title = "Easybuff"
+	desc = "easybuff.10.desc"
+	picture = GFX_evt_society_research
+    is_triggered_only = yes
+    trigger = { is_ai = no }
+
+    immediate = {  }
 
     option = {
         name = Most
+        give_technology = { tech = tech_psi_jump_drive_1 }
         give_technology = { tech = tech_extradimensional_weapon_1 }
         give_technology = { tech = tech_torpedoes_3 }
         give_technology = { tech = tech_dark_matter_power_core }
         give_technology = { tech = tech_afterburners_2 }
-        give_technology = { tech = tech_psionic_shield }
         give_technology = { tech = tech_starbase_5 }
         give_technology = { tech = tech_mega_engineering }
         give_technology = { tech = tech_dark_matter_deflector }
+        give_technology = { tech = tech_colossus }
         give_technology = { tech = tech_pk_cracker }
-        give_technology = { tech = tech_pk_shielder }
-        give_technology = { tech = tech_pk_nanobots }
-        give_technology = { tech = tech_pk_godray }
-        add_modifier = {
-			modifier = "modifier_easybuf_default"
-            days = -1
-		}
+        give_technology = { tech = tech_defense_platform_hull_1 }
+        give_technology = { tech = tech_titan_hull_2 }
+        give_technology = { tech = tech_titans }
     }
 
     option = {
         name = Normal
-
+        give_technology = { tech = tech_psi_jump_drive_1 }
+        give_technology = { tech = tech_extradimensional_weapon_1 }
+        give_technology = { tech = tech_torpedoes_3 }
+        give_technology = { tech = tech_dark_matter_power_core }
+        give_technology = { tech = tech_dark_matter_deflector }
     }
 
-    option = {
-        name = Nothing
-    }
-
+    option = { name = Nothing }
 }
-
