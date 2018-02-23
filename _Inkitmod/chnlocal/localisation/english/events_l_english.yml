@@ -334,9 +334,9 @@
  action.37.desc.kk:1 "你竟敢对拉你出苦海的圣手反咬一口？终有一天，你的后代会为你拒绝我们智慧的行为后悔不已的。"
  action.37.desc.mi:2 "无知的[Root.GetSpeciesNameInsult]-[Root.GetSpeciesSpawnNamePlural]！你们怎敢宣称战胜了我们？"
  action.37.desc.eo:1 "我们眼下决定退一步进行观望。你们未来的行动尽量不要招致毁灭。"
- action.37.desc.mh:1 "金属。"
  action.37.desc.fme:0 "惩罚处理失败。自卫协议结束。投降协议启动。"
  action.37.desc.bme:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
+ action.37.desc.mh:1 "金属。"
 
  action.38.desc.hw:2 "我们按照[From.GetSpeciesAdj]的传统光明正大地战胜了你们。制定条约是我们的特权与职责。"
  action.38.desc.rc:1 "你们讨价还价的本领很厉害，但最终还是我们技高一筹。不要低估资金雄厚的军队在自由市场中的价值。"
@@ -358,9 +358,9 @@
  action.38.desc.kk:1 "心存侥幸吧。败在我们手里总好过在灭亡的路上一直走下去。"
  action.38.desc.mi:2 "之前你们明白飞船不要离闪耀的恒星太近，现在你们明白了不要惹[From.GetName]。"
  action.38.desc.eo:2 "虽然挑选的过程花费了一些经历，但[Root.GetSpeciesAdj]的人口暂时不会在对银河的生态系统产生不良影响了。"
- action.38.desc.mh:1 "摧毁。"
  action.38.desc.fme:0 "惩罚处理完成。自卫协议结束。惩罚协议启动。"
  action.38.desc.bme:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
+ action.38.desc.mh:1 "摧毁。"
 
  action.39.desc.hw:1 "没有赢家的战争是可悲的，同时也是遗憾。但有时这种情况不可避免。我们来日再战一场吧。"
  action.39.desc.rc:1 "我们同意结束这场冲突。无所失，亦无所获。"
@@ -382,9 +382,9 @@
  action.39.desc.kk:1 "我们不会向你们提出任何要求，但我们恳请你们，想想无视我们的智慧可能会产生怎样的后果，"
  action.39.desc.mi:1 "你们应该遭到毁灭，但你们不值得我们浪费宝贵的时间。无条件和平似乎不可避免。"
  action.39.desc.eo:1 "我们陷得太深了。就让我们当做什么都没发生过吧，同样也希望以后也永远不会发生。"
- action.39.desc.mh:1 "不真实。"
  action.39.desc.fme:0 "惩罚处理终端。自卫协议结束。"
  action.39.desc.bme:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
+ action.39.desc.mh:1 "不真实。"
 
  action.41.name:0 "重整队伍"
  action.41.desc.a:0 "§Y[From.GetName]§!战争开始时，你的舰队正处于敌国的区域内。"
@@ -1319,7 +1319,57 @@
  precursor.301.b.desc:0 "数艘行经[precursor_planet.GetName]附近的商船在没有互相联系的情况下都报告称在[precursor_planet.GetPlanetMoon]方向检测到了异常的数据。在对数据进行研究后，[Root.Capital.GetName]专家认为，这是远古先驱活动造成的现象。"
  precursor.301.c.desc:0 "[Root.Capital.GetName]当局最近发现了一个大型走私团伙，逮捕了大量嫌疑人。一位走私蛇头为争取宽大处理，为我们提供了[precursor_planet.GetPlanetMoon]的坐标。据称该星球上具有先驱文明的遗留物。"
  precursor.301.d.desc:0 "我方地面部队的几名新兵最近在训练中使用HALO降落在[precursor_planet.GetName]地表。两个月后接应新兵时，有一名新兵报告称发现了许多很久以前就有先驱文明踏足这个星球的证据。"
+ precursor.301.e.desc:0 "Diagnostic Array Theta has registered a possible irregularity on §H[precursor_planet.GetName]§!. No [Root.GetSpeciesAdj] units are known to be operating in the vicinity of this uninhabited astronomical body, but a preliminary analysis indicates that it may have been visited by a Precursor civilization at some point in the distant past."
+ precursor.301.f.desc:0 "Patrol drones performing a routine surface sweep of §H[precursor_planet.GetName]§! have alerted the Mind to an irregularity within our controlled space. Signs of possible activity consistent with a Precursor civilization have been sighted."
  precursor.301.a:0 "我们一定要详加调查。"
+ precursor.302.name:0 "Vultaum Artifact Recovered"
+ precursor.303.name:0 "Yuht Artifact Recovered"
+ precursor.304.name:0 "First League Artifact Recovered"
+ precursor.305.name:0 "Irassian Artifact Recovered"
+ precursor.306.name:0 "Cybrex Artifact Recovered"
+ precursor.302.a.desc:0 "A thorough investigation of [precursor_planet.GetName] has unearthed evidence of a past [Root.Owner.GetPrecursorCiv] presence. An away team from the [Root.GetName] has managed to bring a relatively well-preserved artifact back to the ship, which should hopefully increase our knowledge of this ancient civilization."
+ precursor.302.b.desc:0 "Retrieval units operating out of the [Root.GetName] have successfully recovered an artifact from [precursor_planet.GetName] whose origins can be traced back to the [Root.Owner.GetPrecursorCiv] Precursor civilization. Our databanks are currently being updated with the new information we have gained through the study of this item."
+ precursor.302.c.desc:0 "Drones from the [Root.GetName] have succeeded in retrieving a Precursor artifact belonging to the ancient [Root.Owner.GetPrecursorCiv] civilization from [precursor_planet.GetName]. The Mind has increased its collected knowledge of their history."
+ vultaum_precursor_civ:0 "Vultaum"
+ yuht_precursor_civ:0 "Yuht"
+ first_league_precursor_civ:0 "First League"
+ irassian_precursor_civ:0 "Irassian"
+ cybrex_precursor_civ:0 "Cybrex"
+ VULTAUM_ARTIFACT_FOUND:0 "Signs of Vultaum Activity"
+ VULTAUM_ARTIFACT_FOUND_DESC:0 "We have learned that there may have been Precursor activity on §H[precursor_planet.GetName]§! at some point in the galactic past. The sphere of influence of the ancient Vultaum Star Assembly is known to have extended to this region of space, making this world a promising lead in our ongoing efforts to learn more about their civilization."
+ YUHT_ARTIFACT_FOUND:0 "Signs of Yuht Activity"
+ YUHT_ARTIFACT_FOUND_DESC:0 "We have learned that there may have been Precursor activity on §H[precursor_planet.GetName]§! at some point in the galactic past. The sphere of influence of the ancient Yuht Empire is known to have extended to this region of space, making this world a promising lead in our ongoing efforts to learn more about their civilization."
+ LEAGUE_ARTIFACT_FOUND:0 "Signs of First League Activity"
+ LEAGUE_ARTIFACT_FOUND_DESC:0 "We have learned that there may have been Precursor activity on §H[precursor_planet.GetName]§! at some point in the galactic past. The sphere of influence of the ancient First League is known to have extended to this region of space, making this world a promising lead in our ongoing efforts to learn more about their civilization."
+ IRASSIAN_ARTIFACT_FOUND:0 "Signs of Irassian Activity"
+ IRASSIAN_ARTIFACT_FOUND_DESC:0 "We have learned that there may have been Precursor activity on §H[precursor_planet.GetName]§! at some point in the galactic past. The sphere of influence of the ancient Irassian Concordat is known to have extended to this region of space, making this world a promising lead in our ongoing efforts to learn more about their civilization."
+ CYBREX_ARTIFACT_FOUND:0 "Signs of Cybrex Activity"
+ CYBREX_ARTIFACT_FOUND_DESC:0 "We have learned that there may have been Precursor activity on §H[precursor_planet.GetName]§! at some point in the galactic past. The sphere of influence of the ancient Cybrex is known to have extended to this region of space, making this world a promising lead in our ongoing efforts to learn more about their civilization."
+ new_precursor_project:0 "A new archeological special project is available on §L[precursor_planet.GetName]§!."
+ precursor.310.name:0 "Private Collector"
+ precursor.310.desc:0 "A private collector on [collector_home.GetName] has somehow come into ownership of an ancient Precursor artifact believed to be [Root.GetPrecursorCiv] in origin. Despite government pressure, the collector has so far been reluctant to part with it."
+ precursor.310.a:0 "Everyone has a price."
+ precursor.310.b:0 "It belongs in a museum!"
+ precursor.310.c:0 "Let the collector keep it."
+ buy_precursor_artifact:0 "Buy the artifact for an exorbitant sum.\n\n"
+ seize_precursor_artifact:0 "Declare the artifact to be state property and have it seized by the local authorities.\n\n"
+ leave_precursor_artifact:0 "Leave the artifact in the collector's care."
+ precursor.311.desc:0 "Greetings from [artifact_seller.Capital.GetName]. There is a matter my government wishes to discuss.\n\nWe understand that your archeologists have been studying the ancient [Root.GetPrecursorCiv] civilization for quite some time. Understandable, since their territory once covered a large part of what today constitutes the [Root.GetName].\n\nAs it happens, their territory also extended into what is now the [artifact_seller.GetName], and [artifact_seller.GetSpeciesAdj] archeologists have recovered a number of unique artifacts. If you are interested, we would be willing to sell you one of these artifacts."
+ precursor.311.a:0 "Expensive, but we accept."
+ precursor.311.a.reply:0 "Excellent. We will make arrangements to transport the artifact to [Root.Capital.GetName] at once."
+ precursor.311.b:0 "We have a counter-proposal..."
+ precursor.311.b.reply:0 "You drive a hard bargain, but we would expect nothing less from [Root.GetSpeciesNamePlural]. We accept your offer."
+ precursor.311.c:0 "Surrender that artifact now or suffer the consequences."
+ precursor.311.d:0 "Not interested."
+ precursor.312.desc:0 "The [artifact_seller.GetName] does not give in to threats. You have made new enemies this day, [Root.GetSpeciesNamePlural]!"
+ precursor.312.d:0 "So be it."
+ precursor.313.desc:0 "I... we... the [artifact_seller.GetName] will of course gladly donate the artifact to the [Root.GetName], in the interest of fostering amicable relations between our two star nations."
+ precursor.313.d:0 "A wise decision."
+ opinion_threatened_artifact:0 "Threatened Us"
+ purchase_artifact:0 "We purchase a Precursor artifact from the [artifact_seller.GetName].\n\n"
+ coerce_artifact:0 "We attempt to coerce the [artifact_seller.GetName] into giving us their Precursor artifact."
+ precursor.314.desc:0 "Greetings, [Root.GetSpeciesAdj] friends.\n\nA recent [artifact_giver.GetSpeciesAdj] archeological expedition on one of our planets uncovered several artifacts believed to have originated in the ancient [Root.GetPrecursorCiv] Precursor civilization.\n\nThe artifacts are currently being displayed in a museum on [artifact_giver.Capital.GetName], but in honor of the friendship between our two great empires, the [artifact_giver.GetName] would like to donate one of the pieces to the [Root.GetName]. Arrangements have already been made to transport the artifact to [Root.Capital.GetName]."
+ precursor.314.a:0 "Thank you for this gift."
 
  ####################################
  # Tech Risk Events
@@ -1433,7 +1483,12 @@
  primitive.174.a.response:0 "好，那么这件事就算了结了。"
  primitive.174.b:0 "这是科学需要。没有什么补偿。"
  primitive.174.b.response:0 "那就这样吧。\n\n你很快就会知道，我们[From.GetSpeciesNamePlural]的记性可是很好的，[Root.GetSpeciesName]！"
-
+ primitive.180.name:0 "[From.GetName]"
+ primitive.180.desc:0 "Greetings. You have no doubt taken note of our ascent from humble beginnings, just as we have taken note of your $fleet_type_shipclass_starbase$ orbiting our star. We understand that this $fleet_type_shipclass_starbase$ represents some hypothetical claim on this system.\n\nWe ask only that you relinquish this hold on our space, ceding the $fleet_type_shipclass_starbase$ to the beings who have called [From.Capital.GetStarName] home since time immemorial.\n\nIt is only just."
+ primitive.180.a:0 "Of course. It is only just."
+ primitive.180.a.tooltip:0 "§RCede§! the §Y[From.Capital.GetStarName] $fleet_type_shipclass_starbase$§! to the §Y[From.GetName]§!\n\n§Y$opinion_ceded_starbase$§!: §Y[From.GetName]§! will hold a §Ghigher§! §HOpinion§! of §Y[Root.GetName]§!"
+ primitive.180.b:0 "A laughable demand from an immature civilization."
+ primitive.180.b.tooltip:0 "Keep control of the §Y[From.Capital.GetStarName] $fleet_type_shipclass_starbase$§!\n\n§Y$opinion_not_ceded_starbase$§!: §Y[From.GetName]§! will hold a §Rlower§! §HOpinion§! of §Y[Root.GetName]§!"
 
  ####################################
  # Observation Post Events
@@ -1522,7 +1577,7 @@
  observation.46.b:0 "他们现在还不能接触高科技。"
  observation.47.name:0 "人质遭处决"
  observation.47.desc:0 "我们在[From.From.GetName]上被捕的科学家被挂上了“外星怪物”的牌子，在无数摄像头的聚焦下游街示众，最后在欢呼的人群面前被一块块肢解。那情景简直骇人。"
- observation.47.desc:0 "我们在[From.From.GetName]被抓获的科学家被挂上“外星怪物”的牌子游街示众后，在无数摄像头聚焦下以极为残酷的方式处决，随后在欢呼的人群面前以极为凶残的方式肢解。"
+ observation.47.desc.mach:0 "In what can only be described as an obscene spectacle, our captured scientist units on [From.From.GetName] were paraded in front of the cameras on live television as "machine horrors from beyond the moon." They were then brutally dismembered into scrap in front of a cheering crowd."
  observation.47.a:0 "这群蛮夷！"
 
  observation.51.name:0 "走私犯哨站"
@@ -1692,7 +1747,7 @@
  observation.3151.desc:0 "我们打开了[From.GetSpeciesNamePlural]眼中从来不知存在的精神世界。他们终于相信，他们的社会是因它而丰富。"
  observation.3153.desc:0 "我们在帮助[From.GetSpeciesNamePlural]摆脱阻碍他们社会的原始和迷信的信仰方面取得了长足进展。他们开始看到科学和理性的价值。"
 
-
+ 
  ####################################
  # Crisis Events
  ####################################
@@ -1812,7 +1867,7 @@
  crisis.211.f:0 "那就这样吧。"
  crisis.211.g:0 "真是我们有史以来遭遇的最邪恶的外星种族啊。"
  crisis.211.h:0 "真是悲剧。他们可是十分独特的生命体呢。"
-
+ 
  crisis.234.name:0 "虚空之洞"
  crisis.234.desc:0 "在过去几个月里，我们捕获的虫族虫后似乎变得越来越不安、焦躁。最开始，我们以为这只不过是因为它失去了和其它同类的联系，直到我们的心灵感应者告诉我们，它正在与一个叫“虚空之洞”的存在沟通。\n\n仅当研究虫族的星际旅行方法的研究团队发现我们的天文数据库有有误差时，我们才明白这是什么意思。虽然他们绘制了虫族一路前来的可能路径，但他们发现，距离我们的银河大约三千万光年的一个小型螺旋银河……不见了。\n\n那座自从我们在早期太空时代就发现并研究的小型银河，根本不再发出任何我们的仪器能捕获到的光。这个奇怪又意外的发现使我们的科学家争相开始解释一整座银河从星空中消失的原因。\n\n有两种解释：要么那银河里面的所有恒星全部熄灭，要么有某种非常巨大的东西挡住了那座银河，阻止其光线到达我们。这两种理论看起来都不是很可信，许多科学家已简单地将之称为荒唐，宁肯认为消失的银河从一开始就不存在，不过是由于一些原始望远镜的错误使用而使我们以为它存在。不管怎样，这起离奇事件引起了惊人的恐惧和不祥的预感……"
  crisis.234.a:0 "好烦。"
@@ -2419,14 +2474,15 @@
  leader.17.desc:0 "指挥[From.From.GetName]赢取了[system.GetName]星系的战斗后，[officer.GetName]舰队司令似乎重拾了[officer.GetHerHis]的自信。[officer.GetSheHe]现在可以承受指挥规模更大舰队的压力了。"
  leader.18.desc:0 "在指挥[Root.GetName]时，[officer.GetName]舰队司令学会了如何精挑细算[officer.GetHisHer]的补给以便大幅减少船只的维护费用。"
  leader.19.desc:0 "随着最近[officer.GetName]舰队司令探索[system.GetName]星系的成功，[officer.GetHerHis]掌握了如何部署[officer.GetHerHis]的单位以便最大化他们传感器的扫描范围。很少有舰队指挥官能够掌握如此复杂的操作。"
- leader.21.name:0 "科学家-获得特性"
-
+ 
  leader.newtrait:0 "通过艰苦工作和积累的经验, §H[From.From.GetTitle] [From.From.GetName]§!获得新技能。"
  leader.substanceabuser:0 "我们收到了一些令人不安的关于 §H[From.From.GetTitle] [From.From.GetName]§!健康恶化的消息。[From.From.GetHerHisCap]憔悴的外表使他看起来像[From.From.GetSheHe]老了快二十岁。肩上的责任就像是沉重的负担。"
  leader.arresteddevelopment:0 "尽管随着技能提升的同时积累了不少经验, §H[From.From.GetTitle] [From.From.GetName]§!还是好像达到了[From.From.GetHerHis]能力的极限。"
  leader.lethargic:0 "尽管最近的技能有所长进，曾驱动§H[From.From.GetTitle][From.From.GetName]§!前进的动力与毅力大都消失不见了。"
  leader.stubborn:0 "§H[From.From.GetTitle] [From.From.GetName]§!已经变得更老练了，但是这种经历会让人变得越来越顽固。[From.From.GetTitle]变得很固执，难以接受新的思想。"
 
+
+ leader.21.name:0 "科学家-获得特性"
  leader.21.fallback:0 "领袖[From.From.GetName]已升级并获得新特性。"
  leader.21.desc.base:0 "科学家[From.From.GetName]已升级并获得特性："
  leader.21.desc.adaptable:0 "$leader.21.desc.base$§G$leader_trait_adaptable$§!"
@@ -2443,7 +2499,7 @@
  leader.21.desc.maniacal:0 "$leader.21.desc.base$§G$leader_trait_maniacal$§!"
  leader.21.desc.custom_AI_assistant:0 "$leader.21.desc.base$§G$leader_trait_custom_AI_assistant$§!"
  leader.21.desc.expertise_materials:0 "$leader.21.desc.base$§G$leader_trait_expertise_materials$§!"
- leader.21.desc.expertise_rocketry:0 "$leader.21.desc.base$§G$leader_trait_expertise_rocketry$§!"
+ leader.21.desc.expertise_propulsion:0 "$leader.21.desc.base$§G$leader_trait_expertise_propulsion$§!"
  leader.21.desc.expertise_voidcraft:0 "$leader.21.desc.base$§G$leader_trait_expertise_voidcraft$§!"
  leader.21.desc.expertise_industry:0 "$leader.21.desc.base$§G$leader_trait_expertise_industry$§!"
  leader.21.desc.expertise_field_manipulation:0 "$leader.21.desc.base$§G$leader_trait_expertise_field_manipulation$§!"
@@ -2529,6 +2585,8 @@
  leader.25.desc.explorer:0 "$leader.25.desc.base$§G$trait_ruler_explorer$§!"
  leader.25.desc.fleet_organizer:0 "$leader.25.desc.base$§G$leader_trait_fleet_organizer$§!"
  leader.25.desc.nervous:0 "$leader.25.desc.base$§R$leader_trait_nervous$§!"
+ leader.30.name:0 "AI Assistants Removed"
+ leader.30.desc:1 "As per our recent policy change outlawing artificial intelligence, any [Root.GetAdj] Scientists in possession of §YSapient AI Assistants§! have been forced to relinquish them for recycling."
 
  ##########################
  # Diplomatic Events
@@ -2618,11 +2676,11 @@
  diplomatic.1001.desc:0 "举办重大舰队演习的计划已被取消。若舰队进入预定位置的行动被长时间延误，将严重影响整个舰队的战备水平。"
  diplomatic.1002.desc:0 "由于[Root.GetName]被卷入一场战争, 我们计划的舰队演习被取消，我们的舰队将不得不在战场上历练。"
  diplomatic.1002.a:0 "战火试炼"
-
+ 
  diplomatic.1006.name:0 "[exercise_system.GetName]有舰队活动"
  diplomatic.1006.desc:0 "我们已经收到了[From.Owner.GetName]大量舰队活动情报报告。他们集中在[exercise_system.GetName]星系 - 似乎接近我们的边界。[From.Owner.GetSpeciesNamePlural]想要做什么？"
  diplomatic.1006.a:0 "继续监测情况。"
-
+ 
  diplomatic.1011.name:0 "舰队演习：碰撞"
  diplomatic.1011.desc:0 "根据舰队司令[exercise_admiral.GetName]制定的演习计划，目前正在 [exercise_system.GetName] 星系进行演习。在演习期间，发生了几次小碰撞。所幸极少船员伤亡，所涉及的船舶没有遭受致命的伤害，但在演习后他们被命令参与强制劳动。"
  diplomatic.1011.a:0 "至少没有舰船损失。"
@@ -2662,3 +2720,4 @@
  diplomatic.1026.name:0 "[From.Owner.GetSpeciesName] 演习结束"
  diplomatic.1026.desc:0 "从来自[exercise_system.GetName]星系[From.Owner.GetSpeciesName]军事信息传送编码突然下降来看，[From.Owner.GetName]在那里举行的舰队演习终于结束了。"
  diplomatic.1026.a:0 "早该如此"
+ leader.21.desc.expertise_rocketry:0 "$leader.21.desc.base$§G$leader_trait_expertise_rocketry$§!"

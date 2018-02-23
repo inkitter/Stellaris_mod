@@ -730,7 +730,9 @@
  STELLARITE_MISSILE:0 "群星鱼雷"
  STELLARITE_PLASMA:0 "群星离子"
  STELLARITE_LASER:0 "群星激光"
- GUARDIAN_WARP:0 "利维坦曲速"
+ BIO_DRIVE:0 "Bio-Drive"
+ BIO_PROPULSION:0 "Bio-Propulsion"
+ BIO_SENSORS:0 "Bio-Sensors"
  damage_vs_country_type_guardian_dragon_mult:0 "对以太龙兽造成的伤害"
  enigmatic_fortress_chain_title:0 "神秘要塞"
  enigmatic_fortress_chain_desc:0 "关闭这个上古要塞后，一个探险队被派去研究如何防止它被再次激活。"
@@ -870,3 +872,8 @@
  
  guardian.110.name:0 "交换矿物"
  guardian.120.name:0 "交换能源"
+
+ monthly_opinion1:0 "Monthly Opinion: £opinion  §G+1§!"
+ monthly_opinion2:0 "Monthly Opinion: £opinion  §G+2§!"
+ monthly_opinion3:0 "Monthly Opinion: £opinion  §G+3§!"
+ GUARDIAN_WARP:0 "利维坦曲速"

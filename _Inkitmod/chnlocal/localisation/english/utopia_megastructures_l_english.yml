@@ -129,6 +129,44 @@
  utopia.57.name:0 "黄金之泉"
  utopia.57.desc:0 "被冠以“不朽”这一名字，源自[ointment_name.GetName]的精华如同风暴般卷席了整个银河。感谢充满魅力的发明者以及合适的市场营销策略，新“有机”奇迹乳霜在每个地方都备受推崇。每个银河的名流们都在谈论着“以不朽来延缓衰老。” \n\n博士如何生产出足够的[target_country.GetSpeciesAdj]腺体来满足大规模生产任然是个谜团……"
  utopia.57.a:0 "无知是福"
+ utopia.100.name:0 "Unusual disappearances on [missing_pops_planet.GetName]"
+ utopia.100.desc:0 "Unrest is rising on [missing_pops_planet.GetName] in light of a recent wave of planetwide disappearances. Several thousand denizens have been reported missing in the last two months alone and the vast majority are from marginalized and isolated groups in remote areas. This could explain why it has taken so long to come to our attention.\n\nLocal law enforcement has requested additional resources to handle the growing unrest while they continue their investigation."
+ utopia.100.a:0 "Deploy a task force to [missing_pops_planet.GetName]."
+ utopia.100.b:0 "Surely they were marginalized for a reason..."
+ utopia.101.name:0 "Castles in the Sky"
+ utopia.101.desc:0 "The investigation into the missing denizens of [missing_pops_planet.GetName] has revealed that they were all offered a job at a soon-to-open space casino called "Sky Castle," by sharp dressed recruiters speaking an unidentified alien language. Further inquiry has revealed that if such a casino does in fact exist, it is not within any known part of the galaxy.\n\nAs the presence of the strike force seems to be deterring the kidnappers from striking again they have been relieved to give local law enforcement a chance of luring the abductors back out."
+ utopia.101.a:0 "Disconcerting."
+ utopia.102.name:0 "Age less with Ageless"
+ utopia.102.desc:0 "Some of our scientists have raised the alarm on a new "all organic" anti-aging cream called Ageless, that is being sold throughout the empire by a seemingly questionable distributor.\n\nAdvertised under the slogan "Age less with Ageless", the wildly popular cosmeceutical is said to promote cell regeneration with a "unique formula" containing the mysterious miracle ingredient "Essence of [ointment_name.GetName]".\n\nThough it can cause some very disturbing side-effects the product has shown real potential of stimulating cell growth and our research council highly recommends procuring a shipment to recreate its formula."
+ utopia.102.a:0 "Improved cell regeneration sounds promising."
+ utopia.102.b:0 "Wrinkle reduction is hardly a national concern."
+ utopia.103.name:0 "Essence of...[target_country.GetSpeciesName]"
+ utopia.103.desc:0 "A thorough analysis of the anti-aging cream "Ageless" has revealed that the origin of the rejuvenating miracle ingredient, "Essence of [ointment_name.GetName]", is quite close to home. In fact it can only be extracted from the glands of live [target_country.GetSpeciesNamePlural], in a barbaric procedure that is undoubtedly both painful and dangerous.\n\nIn better news these finds have allowed us to create an injection that stimulates the gland, improving life-expectancy significantly. It seems that the key to regeneration was inside us all along!"
+ utopia.103.a:0 "Find the vile creatures that did this to us!"
+ utopia.103.b:0 "Forgive and forget..."
+ utopia.104.name:0 "Gland Thieves"
+ utopia.104.desc:0 "In a coordinated effort between the military and the society research department, we have followed the distribution chain of the "Ageless" anti-aging cream back to a Science Nexus owned by the [fountain_of_youth_country.GetName], where it was developed by a government-employed researcher named Dr. Xhaxxore and his team.\n\nThe [fountain_of_youth_country.GetName] has been making a huge profit off of the product and it seems unlikely that they wouldn't know the source of its key ingredient."
+ utopia.104.a:0 "They must release the victims and withdraw the product immediately."
+ utopia.104.a.tooltip:0 "Sends an envoy with our civilly worded request."
+ utopia.104.c:0 "Actions speak louder than words."
+ utopia.104.c.tooltip:0 "It is much too late for diplomatic exchanges."
+ utopia.104.d:0 "We cannot risk a diplomatic incident."
+ utopia.105.name:0 "Ageless Scheme Exposed"
+ utopia.105.desc:0 "We have had word from the [target_country.GetSpeciesNamePlural] who claim to have uncovered evidence of our involvement in the kidnapping and unlawful imprisonment of several of their kind, for the purpose of extracting a cell regenerating enzyme from their glands.\n\nThey demand that we release them and withdraw the product in the interest of keeping the peace between our empires. Adhering to their demands would mean the premature end to our clandestine credit-generating scheme..."
+ utopia.105.a:0 "Agree to their demands."
+ utopia.105.b:0 "Deny everything!"
+ utopia.105.c:0 "We have no interest in keeping the peace..."
+ utopia.105.c.tooltip:0 "Ignores their request."
+ utopia.106.name:0 "The Essence of Justice"
+ utopia.106.desc:0 "We have fought the good fight and won!\n\nThough the [fountain_of_youth_country.GetName] claim they never knew of the sinister origins of the "Essence of [ointment_name.GetName]," which is clearly a lie, at least they had the decency of returning our citizens to their home on [missing_pops_planet.GetName].\n\nAs for Dr. Xhaxxore, the head researcher and mastermind behind the scheme, he has escaped under mysterious circumstances, but the rest of his team is being brought to justice."
+ utopia.106.a:0 "It's better than nothing."
+ utopia.107.name:0 "Scum of the Universe"
+ utopia.107.desc.a:0 "We have received a formal reply from the [fountain_of_youth_country.GetName], forcefully denying their involvement in the production of the "Ageless" anti-aging cream and encouraging us to find "a more constructive outlet for our apparent inferiority complex towards the superior [fountain_of_youth_country.GetSpeciesNamePlural], than the fabrication of toothless accusations"."
+ utopia.107.a:0 "Scum of the Universe!"
+ utopia.107.desc.b:0 "We have had no response from the [target_country.GetName] regarding their involvement in the kidnapping of our kind for the purpose of producing the anti-aging cream "Ageless". But word has it Dr. Xhaxxore has fled with most of what was left of the essence, finally putting an end to their profiteering.\n\nOur thoughts go out today to the doctor's many victims who are still in captivity, and their families back on [missing_pops_planet.GetName]."
+ utopia.108.name:0 "Dr. Xhaxxore has fled!"
+ utopia.108.desc:0 "The [target_country.GetSpeciesNamePlural] were not pleased that we denied our involvement in the kidnapping of their kind. What's more Dr. Xhaxxore, smelling smoke, has fled taking his supply of essence with him, making it impossible to produce more Ageless cream."
+ utopia.108.a:0 "Drat it..."
  utopia.58.name:0 "无用精华"
  utopia.58.desc:0 "吒纣博士带着他的研究成果失踪了，留下他迷惑不已的同事们。他们如同我们一样被他的突然消失感到震惊，而每个人都描述他是一个愿意为研究团队做任何事的善良并且充满魅力的天才，而他们也只能提供关于他成就的一些奇闻逸事。\n\n我们只能假设格里欧关于他是一个骗子的推论是正确的，又或许他带着他的精华找到了一个出价更高的竞标人。如果他胆敢在别处耍他这一套诡计，我们将会找到他。"
  utopia.58.a:0 "坏蛋！"
@@ -154,14 +192,14 @@
  utopia.63.a:0 "[abducted_leader.GetSheHeCap]是我们的财富。"
  utopia.63.b:0 "[abducted_leader.GetSheHeCap]可能对其他人造成危险。"
  utopia.64.desc:0 "$utopia.59.intro$\n\n与预期的一样我们并没有很多志愿者。其实到目前为止我们只有一位志愿者，科学家领袖[volunteer_leader.GetName]."
-# 研究中枢/Think Tank Notification Events
+# Science Nexus/Think Tank Notification Events
  utopia.80.name:0 "修建研究中枢"
  utopia.80.desc:0 "我们已经开始着手修建研究中枢的数量庞大的准备工作。框架已经完全就位，我们正准备往上添加主体结构。关于重大技术突破的许诺以及了解曾今我们甚至无法想象的知识，机会等待着我们。尽管我们面前的路很长而且布满挑战，但我们已经迈出了第一步。\n\n宇宙无尽的奥秘能被我们所理解吗？"
  utopia.80.a:0 "未来是我们的。"
-# Neighbor's First 研究中枢
+# Neighbor's First Science Nexus
  utopia.82.name:0 "外星巨型结构"
  utopia.82.desc.a:0 "[From.GetName]已经开始着手修建研究中枢——一座发达到可以引起科学技术彻底革命的高科技科研设施。\n\n[think_tank_system.GetName]系统因工程师集中在搭建框架周围而充满了各式各样的活动。无论他们成功与否，单单是尝试就让他们列身于我们时代最伟大的先驱者当中。"
-# Neighbor's Second 研究中枢
+# Neighbor's Second Science Nexus
  utopia.82.desc.b:0 "The[From.GetName]已经开始搭建另一座研究中枢，这一回在[think_tank_system.GetName]系统中。"
  utopia.82.a:0 "这是对于智慧生物独创性的考验。"
  utopia.82.b:0 "如同往常一样，他们很可能为自己的过于雄心勃勃付出代价。"
@@ -170,15 +208,15 @@
  #utopia.83.name: "研究中枢 Platform Complete"
  #utopia.83.desc: "The 研究中枢 platform is finally in place and the engineering team ready to begin the initial stages of construction，starting with the main hub."
  #utopia.83.a: "Excellent."
-# 研究中枢 partially completed
+# Science Nexus partially completed
  utopia.83.name:0 "研究中枢中轴"
  utopia.83.desc:0 "研究中枢的中轴已经到位，配备了最新水平的奇点反应堆。我们的工程师正着手于整项工程中最具挑战性的部分——四座研究副翼。他们将会匹配最新的科技——能够承受各式各样的威胁，包括高温，极端气压，甚至是外星病原体。他们也会为我们的研究人员提供住所。"
  utopia.83.a:0 "我们已经经历了这么多…"
- # 研究中枢 Wings pt 1
+ # Science Nexus Wings pt 1
  utopia.85.name:0 "研究中枢副翼"
  utopia.85.desc:0 "四座副翼的第一个模组已经启用，研究人员和工作人员也开始陆续搬到居住设施当中。下一步也是整座工程的最终一步将会是展开副翼，部署四部分研究区域来开展我们最危险的实验。高等级的探究区域将会被采用以保证员工们的安全。"
  utopia.85.a:0 "我们就快完工了…"
-# 研究中枢 completed
+# Science Nexus completed
  utopia.84.name:0 "研究中枢完成"
  utopia.84.desc.a:0 "今天我们共同庆祝研究中枢投入使用的第一天。 与顶尖水准的实验器材以及创新技术一起我们将吸引来自帝国各处的杰出人才，只要我们想要甚至是来自整个宇宙。这一功绩将会标志着知识新纪元的开始。\n\n这是我们种族历史上伟大的一天。"
  utopia.84.desc.b:0 "今天我们庆祝另一座研究中枢的完工。如果我们之前的成就还不够格，新的研究中枢将确保我们列身与整个宇宙技术进展的最前端。我们的技术进展将会允许我们以自己的意愿来塑造未来。"
@@ -214,10 +252,10 @@
  utopia.4000.desc:0 "在历史当中掌控星辰的能量一直是[Root.GetAdj]工程师们的梦想 —— 从简陋的燃烧到对核聚变的拙劣模仿 —— 而现在我们正式实现了这一梦想。在[From.From.GetName]系统坐落着我们将要修建戴森球的基本框架，围绕着[From.From.GetName]等待掌控星辰的巨大能量。"
  utopia.4000.a:0 "永无止境"
 
- # Neighbor's First 戴森球
+ # Neighbor's First Dyson Sphere
  utopia.4002.name:0 "外星巨型结构"
  utopia.4002.desc.a:0 "来自[dyson_system.GetName]系统的狂热活动揭示了[From.GetName]正在修建一座戴森球§H戴森球§! \n\n尽管还在早期阶段，一旦完工戴森球将彻底遮蔽[dyson_system.GetName]的光芒，他的光辉将转化为[From.GetAdj]的能源储备."
- # Neighbor's Second 戴森球
+ # Neighbor's Second Dyson Sphere
  utopia.4002.desc.b:0 "根据情报，[dyson_system.GetName]系统不久就会成为另一座[From.GetName]拥有的戴森球所在地。尽管还需要些时日，一旦巨型结构完工其将彻底遮蔽系统内部恒心的光辉。"
  utopia.4002.a:0 "所有的星际力量最终都会驯服群星。"
  utopia.4002.b:0 "整个银河变得更暗了。"
@@ -227,12 +265,12 @@
  utopia.4003.desc:0 "骨架现在已经完工，整个项目的伟大框架呈现在所有人眼前。\n\n[From.From.GetName]在一座纤细的笼子里燃烧，但他最总将会被[Root.GetAdj]的太阳能电池板完全包围。"
  utopia.4003.a:0 "精致的杰作。"
 
- # 戴森球 partially completed
+ # Dyson Sphere partially completed
  utopia.4004.name:0 "戴森球电池板安装"
  utopia.4004.desc:0 "尽管还没有完全完工，但是随着阳光采集的逐步完工我们已经开始收集位于[From.From.GetName]系统内戴森球的能源。\n\n我们获得的能源将随着工程施工进一步增加，最终随着球形结构的完工达到他的最大潜力。"
  utopia.4004.a:0 "好极了。"
 
- # 戴森球 completed
+ # Dyson Sphere completed
  utopia.4005.name:0 "[From.From.GetName]戴森球完工"
  utopia.4005.desc:0 "[From.From.GetName]系统的恒星现在已经被[Root.GetAdj]的戴森球完全包围。\n\n我们的工程师庆祝这一伟大的胜利，我们达成了在整个银河历史上仅有少数帝国胆敢想象过的成就——对恒星的完全掌控。"
  utopia.4005.a:0 "能源产出对我们已经不足担心了。"

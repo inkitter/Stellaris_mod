@@ -1,4 +1,4 @@
-name="Easy Buffs [1.9]"
+name="Easy Buffs"
 path="mod/_Inkitmod/Easybuff"
 tags={
 	"Utilities"
@@ -7,4 +7,4 @@ tags={
 }
 picture="Inkitcat.jpg"
 remote_file_id="696221722"
-supported_version="1.9"
+supported_version="2.0"

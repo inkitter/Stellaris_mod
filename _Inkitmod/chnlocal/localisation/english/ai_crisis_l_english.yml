@@ -78,6 +78,7 @@
  crisis.2042.desc:0 "我们从作战体手中夺取了§H[From.From.GetName]§!，与紧急预案的战争告一段落。自从紧急预案入侵了[From.From.GetPlanetMoon]后，当地的原住民都无一幸存，我们的安置机器人已经简单的清理了他们废弃的城市。\n\n我们是否要殖民这个星球，还是留到以后再说？"
  crisis.2042.a:0 "好的，立即着手进行。"
  crisis.2042.b:0 "不，返回行星轨道，我们还有事情要做。"
+ crisis.2042.c:0 "Withdraw our forces to orbit."
 
  crisis.2085.name:0 "合成人间谍"
  crisis.2085.desc:0 "最近在[infil_planet.GetName]上发现了为紧急预案服务的合成人间谍，他们试图伪装成[Root.Owner.GetSpeciesNamePlural]混进来。幸运的是，他们在金属支架上披几层橡胶的伪装实在过于粗糙。\n\n他们很快的被行星安全部门察觉，在经过短暂的交火后，他们的尸体中发现了大量爆炸物。"

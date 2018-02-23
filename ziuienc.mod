@@ -4,4 +4,4 @@ tags={
 	"Utilities"
 }
 picture="Inkitcat.jpg"
-supported_version="1.9"
+supported_version="2.0"

@@ -104,6 +104,8 @@
  missing_scientist_desc:0 "一个在观测站上工作的科学家失踪了，在科学界中掀起了波澜。"
  humiliated:0 "受辱"
  humiliated_desc:0 "我们受到另一个帝国的公开侮辱。"
+ raided:0 "Raided"
+ raided_desc:0 "§LWe failed to protect ourselves against the Despoilers.§!"
  TOOLTIP_HAPPINESS_GOV_ETHOS:0 "$ETHIC$政权：$VAL$"
  TOOLTIP_HAPPINESS_XENO_OVERLORDS:0 "外星宗主：$VAL$"
  swarm_border:1 " "
@@ -184,7 +186,11 @@
  # Machines
  ####################################
  servitor_morale_40:0 "从仆士气：高昂"
+ servitor_morale_35:0 "Servitor Morale: High +"
  servitor_morale_30:0 "从仆士气：高"
+ servitor_morale_25:0 "Servitor Morale: Average +"
  servitor_morale_20:0 "从仆士气：一般"
+ servitor_morale_15:0 "Servitor Morale: Low +"
  servitor_morale_10:0 "从仆士气：低"
+ servitor_morale_5:0 "Servitor Morale: Abysmal +"
  servitor_morale_0:0 "从仆士气：消沉"

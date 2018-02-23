@@ -8,6 +8,14 @@
  #
  ####################################
  
+
+ ####################################
+ # Titan
+ ####################################
+ 
+ TITAN_BOW:0 "Titan Bow"
+ TITAN_MID:0 "Titan Core"
+ TITAN_STERN:1 "Titan Stern"
  
  ####################################
  # Battleship
@@ -49,6 +57,7 @@
  CORVETTE_MID_M1S1:1 "鱼雷艇"
  CORVETTE_MID_S3:1 "截击舰"
  CORVETTE_MID_S1:1 "位移器核心"
+ CORVETTE_MID_S2PD1:0 "Picket Ship"
 
  ####################################
  # Cruiser
@@ -84,7 +93,9 @@
  # Science
  #################################### 
  LIGHT_MILITARY_STATION_SECTION:0 "轻型站点模块"
+ PD_MILITARY_STATION_SECTION:0 "Point-Defense Station Section"
  MEDIUM_MILITARY_STATION_SECTION:0 "中型站点模块"
+ MISSILE_MILITARY_STATION_SECTION:0 "Missile Station Section"
  HEAVY_MILITARY_STATION_SECTION:0 "重型站点模块"
  HANGAR_MILITARY_STATION_SECTION:0 "机库站点模块"
  LIGHT_LARGE_MILITARY_STATION_SECTION:0 "轻型站点模块"
@@ -106,3 +117,4 @@
  DEFAULT_WORMHOLE_STATION_SECTION:0 "虫洞站框架"
  DEFAULT_MILITARY_STATION_SECTION:0 "基础军事平台"
  DEFAULT_TRANSPORT_SECTION:1 "运输船"
+ SHIP_COLOSSUS_SECTION:0 "Colossus"
