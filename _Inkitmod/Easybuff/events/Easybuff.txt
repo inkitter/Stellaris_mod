@@ -18,12 +18,16 @@ country_event = {
         name = Most
         give_technology = { tech = tech_extradimensional_weapon_1 }
         give_technology = { tech = tech_torpedoes_3 }
-        give_technology = { tech = tech_enigmatic_power_core }
+        give_technology = { tech = tech_dark_matter_power_core }
         give_technology = { tech = tech_afterburners_2 }
         give_technology = { tech = tech_psionic_shield }
-        give_technology = { tech = tech_spaceport_6 }
-        give_technology = { tech = tech_space_defense_station_3 }
+        give_technology = { tech = tech_starbase_5 }
         give_technology = { tech = tech_mega_engineering }
+        give_technology = { tech = tech_dark_matter_deflector }
+        give_technology = { tech = tech_pk_cracker }
+        give_technology = { tech = tech_pk_shielder }
+        give_technology = { tech = tech_pk_nanobots }
+        give_technology = { tech = tech_pk_godray }
         add_modifier = {
 			modifier = "modifier_easybuf_default"
             days = -1
@@ -32,14 +36,7 @@ country_event = {
 
     option = {
         name = Normal
-        give_technology = { tech = tech_extradimensional_weapon_1 }
-        give_technology = { tech = tech_torpedoes_3 }
-        give_technology = { tech = tech_enigmatic_power_core }
-        give_technology = { tech = tech_afterburners_2 }
-        give_technology = { tech = tech_psionic_shield }
-        give_technology = { tech = tech_spaceport_6 }
-        give_technology = { tech = tech_space_defense_station_3 }
-        give_technology = { tech = tech_mega_engineering }
+
     }
 
     option = {

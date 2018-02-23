@@ -61,56 +61,6 @@ easybuff_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 				set_building = "building_capital_3"
-				add_resource = {
-					resource = energy
-					amount = 60
-					replace = yes
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_mineral_processing_plant_2"
-					add_resource = {
-						resource = minerals
-						amount = 50
-						replace = yes
-					}
-				}
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_power_hub_2"
-					add_resource = {
-						resource = energy
-						amount = 10
-						replace = yes
-					}
-				}
-				
-				random_neighboring_tile = {
-					limit = { has_blocker = no has_building = no }
-					set_building = "building_hydroponics_farm_1"
-					add_resource = {
-						resource = food
-						amount = 100
-						replace = yes
-					}
-				}
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-				set_building = "building_basic_science_lab_1"
-				add_resource = {
-					resource = physics_research
-					amount = 50
-					replace = yes
-				}
-				add_resource = {
-					resource = society_research
-					amount = 50
-				}
-				add_resource = {
-					resource = engineering_research
-					amount = 50
-				}
 			}
 		}
 
@@ -125,25 +75,6 @@ easybuff_system_initializer = {
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
 			modifiers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
 		}
 		moon = {
 			name = "Moon"
@@ -155,25 +86,6 @@ easybuff_system_initializer = {
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
 			modifiers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
 		}
 		moon = {
 			name = "Rabit"
@@ -185,25 +97,6 @@ easybuff_system_initializer = {
 			entity = "cold_barren_planet_luna_entity"
 			tile_blockers = none
 			modifiers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
 		}
 	}
 
@@ -217,196 +110,6 @@ easybuff_system_initializer = {
 		entity = "barren_planet_mars_entity"
 		tile_blockers = none
 		modifiers = none
-		init_effect = {
-			random_tile = {
-				limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-				set_building = "building_basic_science_lab_1"
-				add_resource = {
-					resource = physics_research
-					amount = 30
-					replace = yes
-				}
-				add_resource = {
-					resource = society_research
-					amount = 30
-				}
-				add_resource = {
-					resource = engineering_research
-					amount = 30
-				}
-			}
-		}
-		
-		change_orbit = 30
-
-		moon = { 
-			name = "Habitat Ring"
-			class = "pc_ringworld_habitable"
-			orbit_angle = 20
-			orbit_distance = 0
-			size = 25
-			has_ring = no
-			tile_blockers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
-		}
-		moon = { 
-			name = "Habitat Ring"
-			class = "pc_ringworld_habitable"
-			orbit_angle = 20
-			orbit_distance = 0
-			size = 25
-			has_ring = no
-			tile_blockers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
-		}
-		moon = { 
-			name = "Habitat Ring"
-			class = "pc_ringworld_habitable"
-			orbit_angle = 20
-			orbit_distance = 0
-			size = 25
-			has_ring = no
-			tile_blockers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
-		}
-		moon = { 
-			name = "Habitat Ring"
-			class = "pc_ringworld_habitable"
-			orbit_angle = 20
-			orbit_distance = 0
-			size = 25
-			has_ring = no
-			tile_blockers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
-		}
-		moon = { 
-			name = "Habitat Ring"
-			class = "pc_ringworld_habitable"
-			orbit_angle = 20
-			orbit_distance = 0
-			size = 25
-			has_ring = no
-			tile_blockers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
-		}
-		moon = { 
-			name = "Habitat Ring"
-			class = "pc_ringworld_habitable"
-			orbit_angle = 20
-			orbit_distance = 0
-			size = 25
-			has_ring = no
-			tile_blockers = none
-			init_effect = {
-				random_tile = {
-					limit = { has_blocker = no has_building = no num_adjacent_tiles < 3}
-					set_building = "building_basic_science_lab_1"
-					add_resource = {
-						resource = physics_research
-						amount = 30
-						replace = yes
-					}
-					add_resource = {
-						resource = society_research
-						amount = 30
-					}
-					add_resource = {
-						resource = engineering_research
-						amount = 30
-					}
-				}
-			}
-		}
 	}
 	
 	planet = {
