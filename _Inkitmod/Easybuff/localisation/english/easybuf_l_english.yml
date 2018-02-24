@@ -10,7 +10,9 @@
  easybuff.1.desc:0 "Easy Buff Menu"
  easybuff.2.desc:0 "More Menus"
  easybuff.10.desc:0 "Get Technologies immediately."
+ easybuff.11.desc:0 "Select a Ship Enhance Level:"
  
- modifier_easybuf_default:0 "Default Easybuff"
- modifier_easybuf_research:0 "Research Buff"
+ modifier_easybuf_default:0 "$edict_easy_buff_d$Default Easybuff"
+ modifier_easybuf_research:0 "$edict_easy_buff_d$Research Buff"
+ modifier_easybuf_ship1:0 "$edict_easy_buff_d$Ship Enhance Level 1"
 

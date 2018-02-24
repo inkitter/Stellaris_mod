@@ -22,6 +22,20 @@ country_event = {
         }
     }
 
+    option = {
+        name = ToggleResearch
+        if = {
+            limit = { has_modifier = "modifier_easybuf_research" }
+            remove_modifier = "modifier_easybuf_research"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_research"
+                    days = -1
+		        }
+            }
+        }
+    }
+
     option = { 
         name = More
         country_event = { id = easybuff.2 }
@@ -41,22 +55,14 @@ country_event = {
     trigger = { is_ai = no }
 
     option = {
-        name = Research
-        if = {
-            limit = { has_modifier = "modifier_easybuf_research" }
-            remove_modifier = "modifier_easybuf_research"
-            else ={
-                add_modifier = {
-                    modifier = "modifier_easybuf_research"
-                    days = -1
-		        }
-            }
-        }
-    }
-    option = {
-        name = Technology
+        name = GetTechnology
         country_event = { id = easybuff.10 }
     }
+    option = {
+        name = StrongerShip
+        country_event = { id = easybuff.11 }
+    }
+    
     option = {
         name = Cancel
     }
@@ -73,30 +79,98 @@ country_event = {
     immediate = {  }
 
     option = {
-        name = Most
+        name = Base
         give_technology = { tech = tech_psi_jump_drive_1 }
         give_technology = { tech = tech_extradimensional_weapon_1 }
         give_technology = { tech = tech_torpedoes_3 }
         give_technology = { tech = tech_dark_matter_power_core }
-        give_technology = { tech = tech_afterburners_2 }
-        give_technology = { tech = tech_starbase_5 }
-        give_technology = { tech = tech_mega_engineering }
         give_technology = { tech = tech_dark_matter_deflector }
-        give_technology = { tech = tech_colossus }
-        give_technology = { tech = tech_pk_cracker }
-        give_technology = { tech = tech_defense_platform_hull_1 }
-        give_technology = { tech = tech_titan_hull_2 }
-        give_technology = { tech = tech_titans }
+        give_technology = { tech = tech_dragon_armor }
+        give_technology = { tech = tech_automated_exploration }
+    }
+    option = {
+        name = More
+        give_technology = { tech = tech_starbase_1 }
+        give_technology = { tech = tech_starbase_2 }
+        give_technology = { tech = tech_starbase_3 }
+        give_technology = { tech = tech_starbase_4 }
+        give_technology = { tech = tech_starbase_5 }
+        give_technology = { tech = tech_starbase_1 }
+        give_technology = { tech = tech_mega_engineering }
+        give_technology = { tech = tech_wormhole_stabilization }
+        give_technology = { tech = tech_gateway_activation }
+        give_technology = { tech = tech_matter_generator }
+        give_technology = { tech = tech_mega_engineering }
     }
 
     option = {
-        name = Normal
-        give_technology = { tech = tech_psi_jump_drive_1 }
-        give_technology = { tech = tech_extradimensional_weapon_1 }
-        give_technology = { tech = tech_torpedoes_3 }
-        give_technology = { tech = tech_dark_matter_power_core }
-        give_technology = { tech = tech_dark_matter_deflector }
+        name = PlanetKiller
+        give_technology = { tech = tech_titans }
+        give_technology = { tech = tech_colossus }
+        give_technology = { tech = tech_pk_cracker }
+        give_technology = { tech = tech_pk_shielder }
+        give_technology = { tech = tech_pk_neutron }
+        give_technology = { tech = tech_pk_godray }
+        give_technology = { tech = tech_pk_nanobots }
+    }
+
+    option = {
+        name = SyntheticDawn
+        give_technology = { tech = tech_robomodding_m }
+        give_technology = { tech = tech_robomodding }
+        give_technology = { tech = tech_robomodding_points_1 }
+        give_technology = { tech = tech_probability_theory }
+        give_technology = { tech = tech_binary_motivators }
+        give_technology = { tech = tech_nanite_assemblers }
+        give_technology = { tech = tech_adaptive_combat_algorithms }
+        give_technology = { tech = tech_biomechanics }
+        give_technology = { tech = tech_singularity_core }
+        give_technology = { tech = tech_modular_components }
+        give_technology = { tech = tech_intelligent_factories }
+    }
+
+    option = {
+        name = StrategicResource
+        give_technology = { tech = tech_mine_garanthium }
+        give_technology = { tech = tech_lythuric_gas }
+        give_technology = { tech = tech_engos_vapor }
+        give_technology = { tech = tech_mine_teldar }
+        give_technology = { tech = tech_mine_yuranic }
+        give_technology = { tech = tech_pitharan_dust }
+        give_technology = { tech = tech_mine_orillium }
+        give_technology = { tech = tech_mine_neutronium }
+        give_technology = { tech = tech_mine_living_metal }
+        give_technology = { tech = tech_mine_betharian }
+        give_technology = { tech = tech_mine_zro }
+        give_technology = { tech = tech_mine_satramene }
+        give_technology = { tech = tech_mine_dark_matter }
     }
 
     option = { name = Nothing }
+}
+
+country_event = {
+    id = easybuff.11
+    title = "Ship Enhance"
+	desc = "easybuff.11.desc"
+	picture = GFX_evt_society_research
+    is_triggered_only = yes
+    trigger = { is_ai = no }
+
+    option = {
+        name = ShipLevel1
+        if = {
+            limit = { has_modifier = "modifier_easybuf_ship1" }
+            remove_modifier = "modifier_easybuf_ship1"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_ship1"
+                    days = -1
+		        }
+            }
+        }
+    }
+    option = {
+        name = Cancel
+    }
 }
