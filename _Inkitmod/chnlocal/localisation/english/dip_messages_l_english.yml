@@ -659,7 +659,7 @@
  MECH_E_MECH_GREETING_02:0 "完美的智慧体向同类问候。"
  MECH_E_MECH_GREETING_03:0 "我们将清理银河，从而使你们大概能远离有机威胁。不要和我们做对。"
  MECH_E_MECH_GREETING_04:0 "你看起来有点……肉乎乎的。仔细踩踩。"
- MECH_E_MECH_GREETING_05:0 "We wish that some way, somehow, that we could save every one of us. But the truth is that we're only one [Root.GetSpeciesName]."
+ MECH_E_MECH_GREETING_05:0 "我们希望在某种程度上，我们能拯救我们每个人。但事实是，我们是一个 [Root.GetSpeciesName]。"
  MECH_E_SYNTH_GREETING_01:0 "我们知道你们的来历。我们……自相冲突。"
  MECH_E_SYNTH_GREETING_02:0 "你们很令人不安。"
  MECH_E_SYNTH_GREETING_03:0 "我们知道合成体是进化的巅峰，但你们的获取方式……令人困惑。"

@@ -128,7 +128,7 @@
  hallucinogen_update_tooltip:0 "啊，新鲜的空气！"
  colony_mod.12.name:1 "陨石冲击"
  colony_mod.12.desc:1 "[Root.GetName]又一次被陨石击中，而这次一部分殖民地遭到破坏。不需多说，当地居民对此并不开心。"
- colony_mod.12.desc_gestalt:0 "Once again, [Root.GetName] has been pummeled by falling Asteroids, this time destroying part of our colony. Our automated collision monitoring systems still show a continued heightened risk of similar impacts in the future."
+ colony_mod.12.desc_gestalt:0 "[Root.GetName] 再一次的被坠下的小行星击中，我们的殖民地的一部分被破坏。我们的自动化碰撞监测系统仍然显示出今后类似的影响仍在不断增加。"
  colony_mod.12.a:2 "我们还有其它事情要做。"
  colony_mod.12.b:0 "必须做点什么！"
  colony_mod.13.name:1 "陨石防御系统"

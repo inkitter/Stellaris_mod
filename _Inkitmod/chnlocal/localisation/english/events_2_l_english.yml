@@ -1467,7 +1467,7 @@
  fallen_empires.9.a:0 "我们别无选择，只能接受……"
  fallen_empires.9.b:0 "[Root.GetName]绝不会受到欺凌！"
  
- fallen_empire_refuse_tooltip:0 "§H[From.GetName]§! will be very angry, and are likely to attack us."
+ fallen_empire_refuse_tooltip:0 "§H[From.GetName]§! 会很生气，很可能会攻击我们。"
  
  fallen_empire_happy_tooltip:0 "§H[FallenEmpireTaskOrigin.GetName]§!会很满意的，也许还会在未来对我们加以青睐。"
  fallen_empire_unhappy_tooltip:0 "§H[FallenEmpireTaskOrigin.GetName]§!会不满的。"
