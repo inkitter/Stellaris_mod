@@ -229,11 +229,11 @@
  tech_robomodding_m_desc:0 "标准化的装配模板使能够改进无人机人口的特化程度。"
  tech_robomodding_points_1:0 "跨模块标准化"
  tech_robomodding_points_1_desc:0 "改良的生产工艺使能够在不影响核心功能的前提下更大规模地改造合成人工人。"
- #tech_robomodding_points_1_modifier_desc: "$species_trait_points_add$：$POINTS|0=+$"
+ #tech_robomodding_points_1_modifier_desc: "$species_trait_points_add$: $POINTS|0=+$"
  # TEMP
  tech_robomodding_points_2:0 "可更换电路"
  tech_robomodding_points_2_desc:0 "改良的生产工艺使能够在不影响核心功能的前提下更深层次地改造合成人工人。"
- #tech_robomodding_points_2_modifier_desc: "$species_trait_points_add$：$POINTS|0=+$"
+ #tech_robomodding_points_2_modifier_desc: "$species_trait_points_add$: $POINTS|0=+$"
  # TEMP
  tech_matter_generator:0 "Matter Generation"
  tech_matter_generator_desc:0 "By using vast amounts of energy we are able to convert light into matter from seemingly nothing."
@@ -761,7 +761,7 @@
  tech_regenerative_hull_tissue:0 "再生式船体组织"
  tech_regenerative_hull_tissue_desc:0 "转基因的硅基细菌可能能造出无机材料。"
  tech_vitality_boosters:0 "生命力增强"
- tech_vitality_boosters_desc:0 " "
+ tech_vitality_boosters_desc:1 "Where the body fails, science intervenes."
  
  # Fleet Organization
  tech_doctrine_fleet_size_1:0 "学说：空间作战"
