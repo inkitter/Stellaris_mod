@@ -16,3 +16,5 @@
  modifier_easybuf_research:0 "$edict_easy_buff_d$Research Buff"
  modifier_easybuf_ship1:0 "$edict_easy_buff_d$Ship Enhance Level 1"
 
+ FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_GAIA:0 "Preparing to crack $PLANET|Y$"
+ PLANET_KILLER_GAIA_ACTION:0 "创造盖亚行星"

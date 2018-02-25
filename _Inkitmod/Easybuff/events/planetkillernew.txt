@@ -1,0 +1,15 @@
+planet_event = {
+	id = planet_destruction.700
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_planet_size = 25
+
+		change_pc = { class = pc_gaia }
+		
+		generate_easybuff_tiles = yes
+            #inherit_entity = yes
+    }
+}

@@ -313,7 +313,7 @@
  tr_supremacy_adopt_desc:0 "$tradition_supremacy_desc$\n\n$tr_supremacy_adopt_effect$\n\n$tr_supremacy_finish_effect$"
  tr_supremacy_adopt_machine_desc:0 "$tradition_supremacy_machine_desc$\n\n$tr_supremacy_adopt_machine_effect$\n\n$tr_supremacy_finish_machine_effect$"
  tr_supremacy_adopt_hive_desc:0 "$tradition_supremacy_hive_desc$\n\n$tr_supremacy_adopt_hive_effect$\n\n$tr_supremacy_finish_hive_effect$"
- tr_supremacy_adopt_effect:0 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_COUNTRY_BORDER_MULT$§!增加§G+20%§!。"
+ tr_supremacy_adopt_effect:0 "§E$TRADITIONS_ADOPT$：§!\n§Y$MOD_COUNTRY_STARBASE_CAPACITY_ADD$§! 增加 §Y2§!，并且 §Y$MOD_STARBASE_UPGRADE_COST_MULT$§! 减少 §G20%§!。"
  tr_supremacy_adopt_machine_effect:0 "$tr_supremacy_adopt_effect$"
  tr_supremacy_adopt_hive_effect:0 "$tr_supremacy_adopt_effect$"
  tr_supremacy_great_game:0 "大博弈"

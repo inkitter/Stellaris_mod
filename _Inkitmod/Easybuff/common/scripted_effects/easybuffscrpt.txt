@@ -12,8 +12,8 @@ generate_easybuff_tiles = {
         }
         random_neighboring_tile = {
             limit = { has_blocker = no has_building = no }
-            set_building = "building_hydroponics_farm_1"
-            set_deposit = d_immense_farmland_deposit						
+            set_building = "building_mining_network_1"
+            set_deposit = d_immense_mineral_deposit						
         }
         random_neighboring_tile = {
             limit = { has_blocker = no has_building = no }
@@ -40,15 +40,15 @@ generate_easybuff_tiles = {
     }
     random_tile = {
         limit = { has_deposit = no }
-        set_deposit = d_immense_engineering_deposit
+        set_deposit = d_immense_mineral_deposit
     }
     random_tile = {
         limit = { has_deposit = no }
-        set_deposit = d_immense_physics_deposit
+        set_deposit = d_immense_mineral_deposit
     }
     random_tile = {
         limit = { has_deposit = no }
-        set_deposit = d_immense_society_deposit
+        set_deposit = d_immense_mineral_deposit
     }
     random_tile = {
         limit = { has_deposit = no }

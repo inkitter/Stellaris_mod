@@ -37,8 +37,6 @@ modifier_easybuf_default = {
     tile_resource_physics_research_mult = 1
     tile_resource_society_research_mult = 1
     tile_resource_engineering_research_mult = 1
-
-    COUNTRY_SENSOR_RANGE_MULT = 1
 }
 
 modifier_easybuf_base = {

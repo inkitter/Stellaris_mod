@@ -1,0 +1,5 @@
+on_destroy_planet_with_PLANET_KILLER_GAIA = {
+	events = {
+		planet_destruction.700
+	}
+}
