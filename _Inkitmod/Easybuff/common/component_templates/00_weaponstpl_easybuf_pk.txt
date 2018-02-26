@@ -1,0 +1,19 @@
+weapon_component_template = { # GAIA
+	key = "PLANET_KILLER_GAIA"
+	size = planet_killer
+	entity = "invisible_turret_entity"
+	type = planet_killer
+	static_rotation = yes
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_eb_pkgaia" }
+
+	icon = GFX_ship_part_global_pacifier
+	icon_frame = 1
+
+	component_set = "PLANET_KILLER_GAIA"
+
+	planet_destruction_gfx = "global_pacifier_gfx"
+
+	ai_weight = { weight = 0 }
+}

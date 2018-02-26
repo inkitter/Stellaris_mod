@@ -1,0 +1,167 @@
+
+@distance = 50
+@base_moon_distance = 10
+
+
+## Sol System
+easybuff_system_initializer = {
+	name = "Sol"
+	class = "sc_g"
+	asteroids_distance = 120
+	flags = { sol_system sol }
+	
+	usage = custom_empire
+	init_effect = {
+		spawn_megastructure = { 
+			type = "spy_orb_2" 
+			location = ROOT
+		}
+	}
+	
+	planet = {
+		name = "Sol"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Mercury"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 15
+		size = 8
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Venus"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 16
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Earth"
+		class = "pc_gaia"
+		orbit_distance = 20
+		orbit_angle = 120
+		size = 25
+		starting_planet = yes
+		has_ring = no
+		entity = "continental_planet_earth_entity"
+		tile_blockers = none
+		modifiers = none
+		
+		init_effect = {
+			generate_easybuff_tiles = yes
+			random_tile = {
+				limit = { has_deposit = d_vast_energy_deposit has_building = no }
+				set_building = "building_capital_1"
+			}
+		}
+
+		change_orbit = 30
+		moon = {
+			name = "Luna"
+			class = "pc_gaia"
+			size = 25
+			orbit_distance = 0
+			orbit_angle = 10
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+			tile_blockers = none
+			modifiers = none
+			init_effect = {
+				generate_easybuff_tiles = yes
+			}
+		}
+		moon = {
+			name = "Moon"
+			class = "pc_gaia"
+			size = 25
+			orbit_distance = 0
+			orbit_angle = 10
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+			tile_blockers = none
+			modifiers = none
+			init_effect = {
+				generate_easybuff_tiles = yes
+			}
+		}
+		moon = {
+			name = "Rabit"
+			class = "pc_gaia"
+			size = 25
+			orbit_distance = 0
+			orbit_angle = 10
+			has_ring = no
+			entity = "cold_barren_planet_luna_entity"
+			tile_blockers = none
+			modifiers = none
+			init_effect = {
+				generate_easybuff_tiles = yes
+			}
+		}
+	}
+
+	planet = {
+		name = "Mars"
+		class = "pc_gaia"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 25
+		has_ring = no
+		entity = "barren_planet_mars_entity"
+		tile_blockers = none
+		modifiers = none
+		init_effect = {
+			generate_easybuff_tiles = yes
+		}
+	}
+	
+	planet = {
+		name = "Jupiter"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -160
+		size = 35
+		has_ring = no
+		entity = "gas_giant_jupiter_entity"
+	}
+	
+	planet = {
+		name = "Saturn"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 170
+		size = 30
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+	}
+	
+	planet = {
+		name = "Uranus"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 125
+		size = 20
+		has_ring = no
+		entity = "gas_giant_03_entity"
+	}
+	
+	planet = {
+		name = "Neptune"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -195
+		size = 20
+		has_ring = no
+		entity = "gas_giant_02_entity"
+	}
+}

@@ -1,6 +1,0 @@
-component_set = { # GAIA
-	key = "PLANET_KILLER_GAIA"
-	
-	icon = "GFX_ship_part_world_pacifier"
-	icon_frame = 1
-}

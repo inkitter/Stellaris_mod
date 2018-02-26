@@ -1,12 +1,12 @@
+is_a_planet_eb = {
+	is_star = no
+}
+
 can_destroy_planet_with_PLANET_KILLER_GAIA = {
 	OR = {
 		custom_tooltip = {
-			fail_text = is_not_a_standard_planet_or_megastructure
-			is_a_planet_megastructure = yes
-		}
-		custom_tooltip = {
-			fail_text = is_not_hostile_or_primitive
-			planet_is_hostile = yes
+			fail_text = is_not_a_star
+			is_a_planet_eb = yes
 		}
 	}
 }

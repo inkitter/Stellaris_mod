@@ -1,0 +1,52 @@
+d_easybuff_sr = {
+    resources = {
+        minerals = 30
+        sr_pitharan = 1
+        sr_neutronium = 1
+        sr_living_metal = 1
+        sr_dark_matter = 1
+        sr_satramene = 1
+        sr_zro = 1
+    }
+    station = shipclass_mining_station
+    orbital_weight = { weight = 0 }
+    drop_weight = { weight = 0 }
+}
+
+d_easybuff_research = {
+    resources = {
+        physics_research = 50
+        engineering_research = 50
+        society_research = 50
+    }
+    station = shipclass_mining_station
+    orbital_weight = { weight = 0 }
+    drop_weight = { weight = 0 }
+}
+
+d_easybuff_energy = {
+    resources = {
+        energy = 50
+    }
+    station = shipclass_mining_station
+    orbital_weight = { weight = 0 }
+    drop_weight = { weight = 0 }
+}
+
+d_easybuff_minerals = {
+    resources = {
+        minerals = 50
+    }
+    station = shipclass_mining_station
+    orbital_weight = { weight = 0 }
+    drop_weight = { weight = 0 }
+}
+
+d_easybuff_farmland = {
+    resources = {
+        food = 100
+    }
+    station = shipclass_mining_station
+    orbital_weight = { weight = 0 }
+    drop_weight = { weight = 0 }
+}

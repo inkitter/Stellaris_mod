@@ -1,0 +1,149 @@
+generate_easybuff_tiles = {
+    every_tile = { clear_deposits = yes }
+    
+    random_tile = {
+        limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+        set_deposit = d_vast_energy_deposit
+
+        random_neighboring_tile = {
+            limit = { has_blocker = no has_building = no }
+            set_building = "building_hydroponics_farm_1"
+            set_deposit = d_immense_farmland_deposit						
+        }
+        random_neighboring_tile = {
+            limit = { has_blocker = no has_building = no }
+            set_building = "building_mining_network_1"
+            set_deposit = d_immense_mineral_deposit						
+        }
+        random_neighboring_tile = {
+            limit = { has_blocker = no has_building = no }
+            set_building = "building_power_plant_1"
+            set_deposit = d_immense_energy_deposit
+        }
+        random_neighboring_tile = {
+            limit = { has_blocker = no has_building = no }
+            set_building = "building_mining_network_1"
+            set_deposit = d_immense_mineral_deposit
+        }	
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_engineering_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_physics_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_society_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_mineral_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_mineral_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_mineral_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_mineral_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_energy_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_mineral_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_energy_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_mineral_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_energy_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_mineral_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_energy_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_farmland_deposit
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_immense_farmland_deposit
+    }
+}
+
+generate_easybuff_tiles2 = {
+    every_tile = { clear_deposits = yes }
+    
+    random_tile = {
+        limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+        set_deposit = d_vast_energy_deposit
+
+        random_neighboring_tile = {
+            limit = { has_blocker = no has_building = no }
+            set_building = "building_hydroponics_farm_1"
+            set_deposit = d_easybuff_farmland						
+        }
+        random_neighboring_tile = {
+            limit = { has_blocker = no has_building = no }
+            set_building = "building_mining_network_1"
+            set_deposit = d_easybuff_minerals						
+        }
+        random_neighboring_tile = {
+            limit = { has_blocker = no has_building = no }
+            set_building = "building_power_plant_1"
+            set_deposit = d_easybuff_energy
+        }
+        random_neighboring_tile = {
+            limit = { has_blocker = no has_building = no }
+            set_building = "building_mining_network_1"
+            set_deposit = d_easybuff_minerals
+        }	
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_easybuff_research
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_easybuff_energy
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_easybuff_energy
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_easybuff_minerals
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_easybuff_sr
+    }
+    random_tile = {
+        limit = { has_deposit = no }
+        set_deposit = d_easybuff_farmland
+    }
+}
+
+# d_easybuff_sr  d_easybuff_research  d_easybuff_resource  d_easybuff_farmland

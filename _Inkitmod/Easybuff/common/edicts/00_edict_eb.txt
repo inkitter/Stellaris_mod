@@ -1,0 +1,5 @@
+country_edict = {
+  name = "easy_buff_default"
+  potential = { is_ai = no }
+  effect = { country_event = { id = easybuff.1 } }
+}

@@ -1,0 +1,21 @@
+tech_eb_covmid = {
+	cost = 1
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	is_rare = yes
+
+	weight_modifier = { factor = 0 }
+}
+
+tech_eb_pkgaia = {
+	cost = 1
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	weight = 0
+	is_rare = yes
+
+	weight_modifier = { factor = 0 }
+}

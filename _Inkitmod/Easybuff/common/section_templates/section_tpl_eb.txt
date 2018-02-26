@@ -1,0 +1,63 @@
+ship_section_template = {
+	key = "CORVETTE_MID_EB"
+	ship_size = corvette
+	fits_on_slot = mid
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_eb_covmid }
+	
+	ai_weight = {
+		factor = 0
+	}
+
+	component_slot = {
+		name = "TITANIC_01"
+		slot_size = titanic
+		slot_type = weapon
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "root"
+	}
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "root"
+	}
+	
+	
+	large_utility_slots = 10
+	aux_utility_slots = 6
+	
+	cost = 5
+}
