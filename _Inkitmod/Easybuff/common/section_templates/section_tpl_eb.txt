@@ -15,7 +15,7 @@ ship_section_template = {
 		name = "TITANIC_01"
 		slot_size = titanic
 		slot_type = weapon
-		locatorname = "root"
+		locatorname = "small_gun_01"
 	}
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -46,13 +46,13 @@ ship_section_template = {
 		slot_size = large
 		slot_type = strike_craft
 		rotation = 90
-		locatorname = "root"
+		locatorname = "small_gun_02"
 	}
 	component_slot = {
 		name = "TORPEDO_01"
 		slot_size = torpedo
 		slot_type = weapon
-		locatorname = "root"
+		locatorname = "small_gun_02"
 	}
 	
 	

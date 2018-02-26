@@ -20,37 +20,54 @@ country_event = {
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.1 }
+        hidden_effect = { country_event = { id = easybuff.1 } }
     }
 
     option = {
         name = BlackTech
-        country_event = { id = easybuff.2 }
+        hidden_effect = { country_event = { id = easybuff.2 } }
     }
 
     option = {
         name = GetTechnology
-        country_event = { id = easybuff.10 }
+        hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
         name = StrongerShip
-        country_event = { id = easybuff.11 }
+        hidden_effect = { country_event = { id = easybuff.11 } }
     }
     
     option = {
         name = FasterResearch
-        country_event = { id = easybuff.12 }
+        hidden_effect = { country_event = { id = easybuff.12 } }
     }
 
     option = {
         name = MoreResource
-        country_event = { id = easybuff.13 }
+        hidden_effect = { country_event = { id = easybuff.13 } }
     }
 
     option = {
         name = CountryBuffs
-        country_event = { id = easybuff.14 }
+        hidden_effect = { country_event = { id = easybuff.14 } }
+    }
+
+    option = {
+        name = RemoveAllBuffs
+        remove_modifier = "modifier_easybuf_default"
+        remove_modifier = "modifier_easybuf_base"
+        remove_modifier = "modifier_easybuf_resource1"
+        remove_modifier = "modifier_easybuf_resource2"
+        remove_modifier = "modifier_easybuf_resource3"
+        remove_modifier = "modifier_easybuf_resource4"
+        remove_modifier = "modifier_easybuf_ascension"
+        remove_modifier = "modifier_easybuf_shipsur1"
+        remove_modifier = "modifier_easybuf_shipsur2"
+        remove_modifier = "modifier_easybuf_shipsp1"
+        remove_modifier = "modifier_easybuf_shipwp1"
+        remove_modifier = "modifier_easybuf_shiptravel1"
+        remove_modifier = "modifier_easybuf_research"
     }
 
     option = { 
@@ -69,7 +86,7 @@ country_event = {
     option = {
         name = CorvetteMIDCore
         give_technology = { tech = tech_eb_covmid }
-        hidden_effect = { country_event = { id = easybuff.2 }
+        hidden_effect = { country_event = { id = easybuff.2 } }
     }
     option = {
         name = PlanetKillerGaiaGenerator
@@ -78,11 +95,11 @@ country_event = {
             limit = { NOT = { has_technology = tech_colossus } }
             give_technology = { tech = tech_colossus }
         }
-        hidden_effect = { country_event = { id = easybuff.2 }
+        hidden_effect = { country_event = { id = easybuff.2 } }
     }
     option = {
         name = Back
-        hidden_effect = { country_event = { id = easybuff.1 }
+        hidden_effect = { country_event = { id = easybuff.1 } }
     }
 }
 
@@ -101,7 +118,7 @@ country_event = {
         give_technology = { tech = tech_psi_jump_drive_1 }
         give_technology = { tech = tech_dark_matter_power_core }
         give_technology = { tech = tech_automated_exploration }
-        hidden_effect = { country_event = { id = easybuff.10 }
+        hidden_effect = { country_event = { id = easybuff.10 } }
     }
     option = {
         name = BestEquips
@@ -109,7 +126,7 @@ country_event = {
         give_technology = { tech = tech_torpedoes_3 }
         give_technology = { tech = tech_dark_matter_deflector }
         give_technology = { tech = tech_dragon_armor }
-        hidden_effect = { country_event = { id = easybuff.10 }
+        hidden_effect = { country_event = { id = easybuff.10 } }
     }
     option = {
         name = AllShips
@@ -117,7 +134,7 @@ country_event = {
         give_technology = { tech = tech_cruisers }
         give_technology = { tech = tech_battleships }
         give_technology = { tech = tech_titans }
-        hidden_effect = { country_event = { id = easybuff.10 }
+        hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
@@ -131,7 +148,7 @@ country_event = {
         give_technology = { tech = tech_wormhole_stabilization }
         give_technology = { tech = tech_gateway_activation }
         give_technology = { tech = tech_gateway_construction }
-        hidden_effect = { country_event = { id = easybuff.10 }
+        hidden_effect = { country_event = { id = easybuff.10 } }
     }
     option = {
         name = PlanetKiller
@@ -141,7 +158,7 @@ country_event = {
         give_technology = { tech = tech_pk_neutron }
         give_technology = { tech = tech_pk_godray }
         give_technology = { tech = tech_pk_nanobots }
-        hidden_effect = { country_event = { id = easybuff.10 }
+        hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
@@ -157,7 +174,7 @@ country_event = {
         give_technology = { tech = tech_singularity_core }
         give_technology = { tech = tech_modular_components }
         give_technology = { tech = tech_intelligent_factories }
-        hidden_effect = { country_event = { id = easybuff.10 }
+        hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
@@ -175,12 +192,12 @@ country_event = {
         give_technology = { tech = tech_mine_zro }
         give_technology = { tech = tech_mine_satramene }
         give_technology = { tech = tech_mine_dark_matter }
-        hidden_effect = { country_event = { id = easybuff.10 }
+        hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
         name = Back
-        hidden_effect = { country_event = { id = easybuff.1 }
+        hidden_effect = { country_event = { id = easybuff.1 } }
     }
 }
 
@@ -199,14 +216,16 @@ country_event = {
             limit = { has_modifier = "modifier_easybuf_shipsur1" }
             remove_modifier = "modifier_easybuf_shipsur1"
             else ={
-                remove_modifier = "modifier_easybuf_shipsur2"
+                hidden_effect = {
+                    remove_modifier = "modifier_easybuf_shipsur2"
+                }
                 add_modifier = {
                     modifier = "modifier_easybuf_shipsur1"
                     days = -1
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.11 }
+        hidden_effect = { country_event = { id = easybuff.11 } }
     }
     option = {
         name = ShipSurvivalLv2
@@ -214,14 +233,16 @@ country_event = {
             limit = { has_modifier = "modifier_easybuf_shipsur2" }
             remove_modifier = "modifier_easybuf_shipsur2"
             else ={
-                remove_modifier = "modifier_easybuf_shipsur1"
+                hidden_effect = {
+                    remove_modifier = "modifier_easybuf_shipsur1"
+                }
                 add_modifier = {
                     modifier = "modifier_easybuf_shipsur2"
                     days = -1
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.11 }
+        hidden_effect = { country_event = { id = easybuff.11 } }
     }
     option = {
         name = ShipSpeedLv1
@@ -235,7 +256,7 @@ country_event = {
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.11 }
+        hidden_effect = { country_event = { id = easybuff.11 } }
     }
     option = {
         name = ShipWeaponLv1
@@ -249,7 +270,7 @@ country_event = {
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.11 }
+        hidden_effect = { country_event = { id = easybuff.11 } }
     }
     option = {
         name = ShipTravelLv1
@@ -263,11 +284,11 @@ country_event = {
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.11 }
+        hidden_effect = { country_event = { id = easybuff.11 } }
     }
     option = {
         name = Back
-        hidden_effect = { country_event = { id = easybuff.1 }
+        hidden_effect = { country_event = { id = easybuff.1 } }
     }
 }
 
@@ -292,11 +313,11 @@ country_event = {
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.12 }
+        hidden_effect = { country_event = { id = easybuff.12 } }
     }
     option = {
         name = Back
-        hidden_effect = { country_event = { id = easybuff.1 }
+        hidden_effect = { country_event = { id = easybuff.1 } }
     }
 }
 
@@ -315,16 +336,18 @@ country_event = {
             limit = { has_modifier = "modifier_easybuf_resource1" }
             remove_modifier = "modifier_easybuf_resource1"
             else ={
-                remove_modifier = "modifier_easybuf_resource2"
-                remove_modifier = "modifier_easybuf_resource3"
-                remove_modifier = "modifier_easybuf_resource4"
+                hidden_effect = {
+                    remove_modifier = "modifier_easybuf_resource2"
+                    remove_modifier = "modifier_easybuf_resource3"
+                    remove_modifier = "modifier_easybuf_resource4"
+                }
                 add_modifier = {
                     modifier = "modifier_easybuf_resource1"
                     days = -1
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.13 }
+        hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {
         name = ResourceLv1
@@ -332,16 +355,18 @@ country_event = {
             limit = { has_modifier = "modifier_easybuf_resource2" }
             remove_modifier = "modifier_easybuf_resource2"
             else ={
-                remove_modifier = "modifier_easybuf_resource1"
-                remove_modifier = "modifier_easybuf_resource3"
-                remove_modifier = "modifier_easybuf_resource4"
+                hidden_effect = {
+                    remove_modifier = "modifier_easybuf_resource1"
+                    remove_modifier = "modifier_easybuf_resource3"
+                    remove_modifier = "modifier_easybuf_resource4"
+                }
                 add_modifier = {
                     modifier = "modifier_easybuf_resource2"
                     days = -1
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.13 }
+        hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {
         name = ResourceLv1
@@ -349,16 +374,18 @@ country_event = {
             limit = { has_modifier = "modifier_easybuf_resource3" }
             remove_modifier = "modifier_easybuf_resource3"
             else ={
-                remove_modifier = "modifier_easybuf_resource1"
-                remove_modifier = "modifier_easybuf_resource2"
-                remove_modifier = "modifier_easybuf_resource4"
+                hidden_effect = {
+                    remove_modifier = "modifier_easybuf_resource1"
+                    remove_modifier = "modifier_easybuf_resource2"
+                    remove_modifier = "modifier_easybuf_resource4"
+                }
                 add_modifier = {
                     modifier = "modifier_easybuf_resource3"
                     days = -1
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.13 }
+        hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {
         name = ResourceLv1
@@ -366,20 +393,22 @@ country_event = {
             limit = { has_modifier = "modifier_easybuf_resource4" }
             remove_modifier = "modifier_easybuf_resource4"
             else ={
-                remove_modifier = "modifier_easybuf_resource1"
-                remove_modifier = "modifier_easybuf_resource2"
-                remove_modifier = "modifier_easybuf_resource3"
+                hidden_effect = {
+                    remove_modifier = "modifier_easybuf_resource1"
+                    remove_modifier = "modifier_easybuf_resource2"
+                    remove_modifier = "modifier_easybuf_resource3"
+                }
                 add_modifier = {
                     modifier = "modifier_easybuf_resource4"
                     days = -1
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.13 }
+        hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {
         name = Back
-        hidden_effect = { country_event = { id = easybuff.1 }
+        hidden_effect = { country_event = { id = easybuff.1 } }
     }
 }
 
@@ -404,7 +433,7 @@ country_event = {
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.14 }
+        hidden_effect = { country_event = { id = easybuff.14 } }
     }
 
     option = {
@@ -419,11 +448,11 @@ country_event = {
 		        }
             }
         }
-        hidden_effect = { country_event = { id = easybuff.14 }
+        hidden_effect = { country_event = { id = easybuff.14 } }
     }
 
     option = {
         name = Back
-        hidden_effect = { country_event = { id = easybuff.1 }
+        hidden_effect = { country_event = { id = easybuff.1 } }
     }
 }

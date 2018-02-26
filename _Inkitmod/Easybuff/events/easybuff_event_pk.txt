@@ -1,3 +1,5 @@
+namespace = planet_destruction
+
 planet_event = {
 	id = planet_destruction.700
 	hide_window = yes
