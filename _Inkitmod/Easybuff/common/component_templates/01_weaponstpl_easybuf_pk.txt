@@ -1,0 +1,40 @@
+weapon_component_template = { # GAIA
+	key = "PLANET_KILLER_GAIA"
+	size = planet_killer
+	entity = "invisible_turret_entity"
+	type = planet_killer
+	static_rotation = yes
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_eb_pkgaia" }
+
+	icon = "GFX_ship_part_global_pacifier"
+	icon_frame = 1
+
+	component_set = "PLANET_KILLER_GAIA"
+
+	planet_destruction_gfx = "global_pacifier_gfx"
+
+	ai_weight = { weight = 0 }
+}
+
+# weapon_component_template = {
+# 	key = "PERDITION_BEAM_TITAN"
+# 	size = titanic
+# 	entity = "invisible_turret_entity"
+# 	type = instant
+# 	prio_projectile = yes
+		
+# 	icon = "GFX_ship_part_perdition_beam"
+# 	icon_frame = 1
+	
+# 	firing_arc = 10.0
+# 	min_range = 30.0
+# 	static_rotation = yes
+# 	use_ship_kill_target = no
+	
+# 	prerequisites = { "tech_titans" }
+# 	component_set = "PERDITION_BEAM"
+# 	projectile_gfx = "perdition_beam"
+# 	size_restriction = { corvette destroyer cruiser battleship titan }
+# }

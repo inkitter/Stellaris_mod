@@ -23,7 +23,7 @@
  modifier_easybuf_research:0 "$edict_easy_buff_d$ Research Buff"
 
  modifier_easybuf_shipsur1:0 "$edict_easy_buff_d$ Ship Survival Level 1"
- modifier_easybuf_shipsur2:0 "$edict_easy_buff_d$ Ship Survival Level 1"
+ modifier_easybuf_shipsur2:0 "$edict_easy_buff_d$ Ship Survival Level 2"
  modifier_easybuf_shipsp1:0 "$edict_easy_buff_d$ Ship Speed Level 1"
  modifier_easybuf_shipwp1:0 "$edict_easy_buff_d$ Ship Weapon Level 1"
  modifier_easybuf_shiptravel1:0 "$edict_easy_buff_d$ Ship Travel Level 1"
@@ -35,7 +35,15 @@
 
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_GAIA:0 "Preparing to crack $PLANET|Y$"
  PLANET_KILLER_GAIA_ACTION:0 "Generate Gaia World"
+ PLANET_KILLER_GAIA:0 "Gaia World Generator"
+
  CORVETTE_MID_EB:0 "EB Core"
+ DESTROY_BOW_EB:0 "EB Bow"
+ CRUISER_MID_EB:0 "EB Core"
+ CRUISER_BOW_EB:0 "EB Bow"
+ TITAN_BOW_EB: "EB Bow"
+
+
  tech_eb_covmid:0 "Corvette Super MID Core"
  tech_eb_pkgaia:0 "Planet Killer: Gaia Generator"
  is_not_a_star:0 "Is not a Star"

@@ -5,6 +5,6 @@ tags={
     "Gameplay"
     "Balance"
 }
-picture="Inkitcat.jpg"
+picture="easybuff.png"
 remote_file_id="696221722"
 supported_version="2.0"

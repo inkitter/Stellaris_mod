@@ -60,7 +60,7 @@ easybuff_system_initializer = {
 		init_effect = {
 			generate_easybuff_tiles = yes
 			random_tile = {
-				limit = { has_deposit = d_vast_energy_deposit has_building = no }
+				limit = { has_deposit = d_easybuff_energybase has_building = no }
 				set_building = "building_capital_1"
 			}
 		}

@@ -1,10 +1,32 @@
-[h1]A Cheat mod[/h1]
-  1. National Edicts in Game to open cheat menu.
-  2. When creating a species a "Easybuff" homeworld type can be choosen. Which is much better than a normal Sol system.
+[h1]A Cheat mod [2.0][/h1]
+[olist]
+  [*] National Edicts in Game to open cheat menu.
+  [*] When creating a species a "Easybuff" homeworld type can be choosen. Which is much better than a normal Sol system.
+     * The homeworld has 25 tiles with plenty of resource. The system has 4 more gaia worlds.
+[/olist]
 
-Cheat Menu functions:
-  1. Toggle cheat buff.
-  2. Have some technologies immediately.
-  3. Toggle Research buff.
+[h1]Cheat Menu functions:[/h1]
+[olist]
+  [*] A Default Cheat Buff.
+  [*] Get some technologies immediately.
+  [list]
+     [*] Jump Drive, Power Core
+     [*] Weapons
+     [*] Planet Killers
+     [*] Ship technologies
+     [*] Strategic Resource technologies
+     [*] Space Buildings or Megestructure
+     [*] Synthetic Dawn Technologies
+  [/list]
+  [*] Research Buff
+  [*] Ship Buffs (Hull point, Shield, Weapon strength, etc.)
+  [*] Country Buffs (Max storage, Leader Age, Ascension perk point, etc.)
+  [*] Black technologies
+  [list]
+    [*] A Super Corvette MID Core which has Large Weapon Slots etc.
+    [*] A Planet Killer Which can generate Gaia World on any planet. If the Target is a gaia world, the tiles will become more resourceful.
+  [/list]
+[/olist]
+
    
 More functions are WIP...

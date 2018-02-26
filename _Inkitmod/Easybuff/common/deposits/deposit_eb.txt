@@ -24,6 +24,18 @@ d_easybuff_research = {
     drop_weight = { weight = 0 }
 }
 
+
+d_easybuff_researchless = {
+    resources = {
+        physics_research = 10
+        engineering_research = 10
+        society_research = 10
+    }
+    station = shipclass_mining_station
+    orbital_weight = { weight = 0 }
+    drop_weight = { weight = 0 }
+}
+
 d_easybuff_energy = {
     resources = {
         energy = 50
@@ -33,9 +45,18 @@ d_easybuff_energy = {
     drop_weight = { weight = 0 }
 }
 
+d_easybuff_energybase = {
+    resources = {
+        energy = 6
+    }
+    station = shipclass_mining_station
+    orbital_weight = { weight = 0 }
+    drop_weight = { weight = 0 }
+}
+
 d_easybuff_minerals = {
     resources = {
-        minerals = 50
+        minerals = 25
     }
     station = shipclass_mining_station
     orbital_weight = { weight = 0 }
@@ -44,7 +65,7 @@ d_easybuff_minerals = {
 
 d_easybuff_farmland = {
     resources = {
-        food = 100
+        food = 30
     }
     station = shipclass_mining_station
     orbital_weight = { weight = 0 }

@@ -90,12 +90,51 @@ country_event = {
     }
     option = {
         name = PlanetKillerGaiaGenerator
-        give_technology = { tech = tech_eb_pkgaia }
+        if = {
+            limit = { NOT = { has_technology = tech_eb_pkgaia } }
+            give_technology = { tech = tech_eb_pkgaia }
+        }
         if = {
             limit = { NOT = { has_technology = tech_colossus } }
             give_technology = { tech = tech_colossus }
         }
-        hidden_effect = { country_event = { id = easybuff.2 } }
+        hidden_effect = {
+            if = {
+                limit = { NOT = { has_technology = tech_starbase_1 } }
+                give_technology = { tech = tech_starbase_1 }
+            }
+            if = {
+                limit = { NOT = { has_technology = tech_starbase_2 } }
+                give_technology = { tech = tech_starbase_2 }
+            }
+            if = {
+                limit = { NOT = { has_technology = tech_starbase_3 } }
+                give_technology = { tech = tech_starbase_3 }
+            }
+            if = {
+                limit = { NOT = { has_technology = tech_starbase_4 } }
+                give_technology = { tech = tech_starbase_4 }
+            }
+            if = {
+                limit = { NOT = { has_technology = tech_starbase_5 } }
+                give_technology = { tech = tech_starbase_5 }
+            }
+            country_event = { id = easybuff.2 }
+        }
+        owner = {
+            # save_event_target_as = owner_country
+            create_fleet = {
+                name = "EasyBuff Colossus"
+                effect = {
+                    set_owner = prev
+                    create_ship = {
+                        name = "NAME_Colossus_EB"
+                        design = "NAME_Colossus"
+                    }
+                    set_location = root.capital_star
+                }
+            }
+        }
     }
     option = {
         name = Back
@@ -115,83 +154,250 @@ country_event = {
     immediate = {  }
     option = {
         name = BestDrives
-        give_technology = { tech = tech_psi_jump_drive_1 }
-        give_technology = { tech = tech_dark_matter_power_core }
-        give_technology = { tech = tech_automated_exploration }
+        if = {
+            limit = { NOT = { has_technology = tech_psi_jump_drive_1 } }
+            give_technology = { tech = tech_psi_jump_drive_1 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_dark_matter_power_core } }
+            give_technology = { tech = tech_dark_matter_power_core }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_automated_exploration } }
+            give_technology = { tech = tech_automated_exploration }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_disruptors_1 } }
+            give_technology = { tech = tech_disruptors_1 }
+        }
+        hidden_effect = { country_event = { id = easybuff.10 } }
+    }
+    option = {
+        name = BasicEquips
+        if = {
+            limit = { NOT = { has_technology = tech_energy_lance_1 } }
+            give_technology = { tech = tech_energy_lance_1 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_space_cloud_weapon_1 } }
+            give_technology = { tech = tech_space_cloud_weapon_1 }
+        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
     option = {
         name = BestEquips
-        give_technology = { tech = tech_extradimensional_weapon_1 }
-        give_technology = { tech = tech_torpedoes_3 }
-        give_technology = { tech = tech_dark_matter_deflector }
-        give_technology = { tech = tech_dragon_armor }
+        if = {
+            limit = { NOT = { has_technology = tech_extradimensional_weapon_1 } }
+            give_technology = { tech = tech_extradimensional_weapon_1 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_torpedoes_3 } }
+            give_technology = { tech = tech_torpedoes_3 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_dark_matter_deflector } }
+            give_technology = { tech = tech_dark_matter_deflector }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_dragon_armor } }
+            give_technology = { tech = tech_dragon_armor }
+        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
     option = {
         name = AllShips
-        give_technology = { tech = tech_destroyers }
-        give_technology = { tech = tech_cruisers }
-        give_technology = { tech = tech_battleships }
-        give_technology = { tech = tech_titans }
+        if = {
+            limit = { NOT = { has_technology = tech_destroyers } }
+            give_technology = { tech = tech_destroyers }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_cruisers } }
+            give_technology = { tech = tech_cruisers }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_battleships } }
+            give_technology = { tech = tech_battleships }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_titans } }
+            give_technology = { tech = tech_titans }
+        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
         name = SpaceBuildings
-        give_technology = { tech = tech_starbase_1 }
-        give_technology = { tech = tech_starbase_2 }
-        give_technology = { tech = tech_starbase_3 }
-        give_technology = { tech = tech_starbase_4 }
-        give_technology = { tech = tech_starbase_5 }
-        give_technology = { tech = tech_mega_engineering }
-        give_technology = { tech = tech_wormhole_stabilization }
-        give_technology = { tech = tech_gateway_activation }
-        give_technology = { tech = tech_gateway_construction }
+        if = {
+            limit = { NOT = { has_technology = tech_starbase_1 } }
+            give_technology = { tech = tech_starbase_1 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_starbase_2 } }
+            give_technology = { tech = tech_starbase_2 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_starbase_3 } }
+            give_technology = { tech = tech_starbase_3 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_starbase_4 } }
+            give_technology = { tech = tech_starbase_4 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_starbase_5 } }
+            give_technology = { tech = tech_starbase_5 }
+        }
+
+        if = {
+            limit = { NOT = { has_technology = tech_mega_engineering } }
+            give_technology = { tech = tech_mega_engineering }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_wormhole_stabilization } }
+            give_technology = { tech = tech_wormhole_stabilization }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_gateway_activation } }
+            give_technology = { tech = tech_gateway_activation }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_gateway_construction } }
+            give_technology = { tech = tech_gateway_construction }
+        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
     option = {
         name = PlanetKiller
-        give_technology = { tech = tech_colossus }
-        give_technology = { tech = tech_pk_cracker }
-        give_technology = { tech = tech_pk_shielder }
-        give_technology = { tech = tech_pk_neutron }
-        give_technology = { tech = tech_pk_godray }
-        give_technology = { tech = tech_pk_nanobots }
+        if = {
+            limit = { NOT = { has_technology = tech_colossus } }
+            give_technology = { tech = tech_colossus }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_pk_cracker } }
+            give_technology = { tech = tech_pk_cracker }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_pk_shielder } }
+            give_technology = { tech = tech_pk_shielder }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_pk_neutron } }
+            give_technology = { tech = tech_pk_neutron }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_pk_godray } }
+            give_technology = { tech = tech_pk_godray }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_pk_nanobots } }
+            give_technology = { tech = tech_pk_nanobots }
+        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
         name = SyntheticDawn
-        give_technology = { tech = tech_robomodding_m }
-        give_technology = { tech = tech_robomodding }
-        give_technology = { tech = tech_robomodding_points_1 }
-        give_technology = { tech = tech_probability_theory }
-        give_technology = { tech = tech_binary_motivators }
-        give_technology = { tech = tech_nanite_assemblers }
-        give_technology = { tech = tech_adaptive_combat_algorithms }
-        give_technology = { tech = tech_biomechanics }
-        give_technology = { tech = tech_singularity_core }
-        give_technology = { tech = tech_modular_components }
-        give_technology = { tech = tech_intelligent_factories }
+        if = {
+            limit = { NOT = { has_technology = tech_robomodding_m } }
+            give_technology = { tech = tech_robomodding_m }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_robomodding } }
+            give_technology = { tech = tech_robomodding }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_robomodding_points_1 } }
+            give_technology = { tech = tech_robomodding_points_1 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_probability_theory } }
+            give_technology = { tech = tech_probability_theory }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_binary_motivators } }
+            give_technology = { tech = tech_binary_motivators }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_nanite_assemblers } }
+            give_technology = { tech = tech_nanite_assemblers }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_adaptive_combat_algorithms } }
+            give_technology = { tech = tech_adaptive_combat_algorithms }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_biomechanics } }
+            give_technology = { tech = tech_biomechanics }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_singularity_core } }
+            give_technology = { tech = tech_singularity_core }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_modular_components } }
+            give_technology = { tech = tech_modular_components }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_intelligent_factories } }
+            give_technology = { tech = tech_intelligent_factories }
+        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
         name = StrategicResource
-        give_technology = { tech = tech_mine_garanthium }
-        give_technology = { tech = tech_lythuric_gas }
-        give_technology = { tech = tech_engos_vapor }
-        give_technology = { tech = tech_mine_teldar }
-        give_technology = { tech = tech_mine_yuranic }
-        give_technology = { tech = tech_pitharan_dust }
-        give_technology = { tech = tech_mine_orillium }
-        give_technology = { tech = tech_mine_neutronium }
-        give_technology = { tech = tech_mine_living_metal }
-        give_technology = { tech = tech_mine_betharian }
-        give_technology = { tech = tech_mine_zro }
-        give_technology = { tech = tech_mine_satramene }
-        give_technology = { tech = tech_mine_dark_matter }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_garanthium } }
+            give_technology = { tech = tech_mine_garanthium }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_lythuric_gas } }
+            give_technology = { tech = tech_lythuric_gas }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_engos_vapor } }
+            give_technology = { tech = tech_engos_vapor }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_teldar } }
+            give_technology = { tech = tech_mine_teldar }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_yuranic } }
+            give_technology = { tech = tech_mine_yuranic }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_pitharan_dust } }
+            give_technology = { tech = tech_pitharan_dust }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_orillium } }
+            give_technology = { tech = tech_mine_orillium }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_neutronium } }
+            give_technology = { tech = tech_mine_neutronium }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_living_metal } }
+            give_technology = { tech = tech_mine_living_metal }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_betharian } }
+            give_technology = { tech = tech_mine_betharian }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_zro } }
+            give_technology = { tech = tech_mine_zro }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_satramene } }
+            give_technology = { tech = tech_mine_satramene }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_dark_matter } }
+            give_technology = { tech = tech_mine_dark_matter }
+        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
@@ -217,7 +423,7 @@ country_event = {
             remove_modifier = "modifier_easybuf_shipsur1"
             else ={
                 hidden_effect = {
-                    remove_modifier = "modifier_easybuf_shipsur2"
+                    # remove_modifier = "modifier_easybuf_shipsur2"
                 }
                 add_modifier = {
                     modifier = "modifier_easybuf_shipsur1"
@@ -234,7 +440,7 @@ country_event = {
             remove_modifier = "modifier_easybuf_shipsur2"
             else ={
                 hidden_effect = {
-                    remove_modifier = "modifier_easybuf_shipsur1"
+                    # remove_modifier = "modifier_easybuf_shipsur1"
                 }
                 add_modifier = {
                     modifier = "modifier_easybuf_shipsur2"
@@ -350,7 +556,7 @@ country_event = {
         hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {
-        name = ResourceLv1
+        name = ResourceLv2
         if = {
             limit = { has_modifier = "modifier_easybuf_resource2" }
             remove_modifier = "modifier_easybuf_resource2"
@@ -369,7 +575,7 @@ country_event = {
         hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {
-        name = ResourceLv1
+        name = ResourceLv3
         if = {
             limit = { has_modifier = "modifier_easybuf_resource3" }
             remove_modifier = "modifier_easybuf_resource3"
@@ -388,7 +594,7 @@ country_event = {
         hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {
-        name = ResourceLv1
+        name = ResourceLv4
         if = {
             limit = { has_modifier = "modifier_easybuf_resource4" }
             remove_modifier = "modifier_easybuf_resource4"

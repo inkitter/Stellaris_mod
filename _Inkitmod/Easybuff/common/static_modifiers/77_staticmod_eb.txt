@@ -37,6 +37,7 @@ modifier_easybuf_default = {
 modifier_easybuf_base = {
     max_energy = 170000
     max_minerals = 150000
+    max_influence = 9000
     leader_age = 1000
     COUNTRY_LEADER_CAP = 5
     COUNTRY_LEADER_POOL_SIZE = 2
@@ -46,14 +47,17 @@ modifier_easybuf_base = {
     ship_anomaly_fail_risk = -1
     ship_anomaly_research_speed_mult = 1
     science_ship_survey_speed = 0.5
+
+    country_resource_energy_add = 60
 }
 
 modifier_easybuf_resource1 = {
-    country_resource_energy_add = 60
+    country_resource_energy_add = 100
+    country_resource_minerals_add = 200
 }
 modifier_easybuf_resource2 = {
-    country_resource_energy_add = 160
-    country_resource_minerals_add = 100
+    country_resource_energy_add = 200
+    country_resource_minerals_add = 300
 }
 modifier_easybuf_resource3 = {
     country_resource_energy_add = 500
@@ -70,24 +74,23 @@ modifier_easybuf_ascension = {
 
 modifier_easybuf_shipsur1 = {
     SHIP_HULL_ADD = 1000
-    SHIP_HULL_REGEN_ADD_STATIC = 10
+    SHIP_HULL_REGEN_ADD_STATIC = 30
 
-    SHIP_SHIELD_ADD = 1000
-    SHIP_SHIELD_REGEN_ADD_STATIC = 10
+    SHIP_SHIELD_ADD = 3000
+    SHIP_SHIELD_REGEN_ADD_STATIC = 30
 
-    ship_armor_add = 1000
-    SHIP_ARMOR_REGEN_ADD_STATIC = 10
+    ship_armor_add = 3000
+    SHIP_ARMOR_REGEN_ADD_STATIC = 30
+
+    COUNTRY_NAVAL_CAP_ADD = 50
 }
 
 modifier_easybuf_shipsur2 = {
-    SHIP_HULL_ADD = 10000
-    SHIP_HULL_REGEN_ADD_STATIC = 1000
-
-    SHIP_SHIELD_ADD = 10000
-    SHIP_SHIELD_REGEN_ADD_STATIC = 1000
-
-    ship_armor_add = 10000
-    SHIP_ARMOR_REGEN_ADD_STATIC = 1000
+    shipsize_corvette_hull_add = 2500
+    shipsize_destroyer_hull_add = 3000
+    shipsize_cruiser_hull_add = 4000
+    shipsize_battleship_hull_add = 5000
+    shipsize_titan_hull_add = 10000
 }
 
 modifier_easybuf_shipsp1 = {
