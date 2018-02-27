@@ -183,6 +183,23 @@ generate_easybuff_tiles2 = {
             }
         }
     }
+    orbital_deposit_tile = {
+        random_list = {
+            33 = { set_deposit = d_easybuff_mineralso }
+            33 = { set_deposit = d_easybuff_energyo }
+            33 = { set_deposit = d_easybuff_researcho }
+            1 = { set_deposit = d_easybuff_ssr }
+        }
+    }
+}
+
+generate_easybuff_starres = {
+    orbital_deposit_tile = {
+        random_list = {
+            50 = { set_deposit = d_easybuff_researcho }
+            50 = { set_deposit = d_easybuff_ssr }
+        }
+    }
 }
 
 # d_easybuff_sr  d_easybuff_research  d_easybuff_resource  d_easybuff_farmland

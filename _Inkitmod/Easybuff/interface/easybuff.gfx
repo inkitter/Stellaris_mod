@@ -19,6 +19,10 @@ spriteTypes = {
 		name = "GFX_mod_leader_skill_levels"
 		textureFile = "gfx/interface/icons/modifiers/mod_shroud_unavailable.dds"
 	}
+	spriteType = {
+		name = "GFX_max_influence"
+		textureFile = "gfx/interface/icons/modifiers/mod_shroud_unavailable.dds"
+	}
   spriteType = {
 		name = "GFX_mod_ship_emergency_ftl"
 		textureFile = "gfx/interface/icons/modifiers/mod_ship_speed_mult.dds"

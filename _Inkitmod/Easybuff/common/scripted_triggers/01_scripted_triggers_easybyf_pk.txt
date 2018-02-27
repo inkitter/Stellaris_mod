@@ -8,5 +8,9 @@ can_destroy_planet_with_PLANET_KILLER_GAIA = {
 			fail_text = is_not_a_star
 			is_a_planet_eb = yes
 		}
+		custom_tooltip = {
+			fail_text = is_a_star
+			is_star = yes
+		}
 	}
 }

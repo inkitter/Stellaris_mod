@@ -7,16 +7,20 @@ planet_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_planet_size = 25
 		if = {
-            limit = { NOT = { is_planet_class = pc_gaia } }
-            change_pc = { class = pc_gaia }
-			generate_easybuff_tiles = yes
-            else ={
-                generate_easybuff_tiles2 = yes
-            }
-        }
-		
-    	#inherit_entity = yes
+			limit = { is_star = no }
+			set_planet_size = 25
+			if = {
+				limit = { NOT = { is_planet_class = pc_gaia } }
+				change_pc = { class = pc_gaia }
+				generate_easybuff_tiles = yes
+				else = {
+					generate_easybuff_tiles2 = yes
+				}
+			}
+			else = {
+				generate_easybuff_starres = yes
+			}
+		}
     }
 }

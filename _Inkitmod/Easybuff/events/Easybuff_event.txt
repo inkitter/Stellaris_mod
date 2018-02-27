@@ -68,6 +68,7 @@ country_event = {
         remove_modifier = "modifier_easybuf_shipwp1"
         remove_modifier = "modifier_easybuf_shiptravel1"
         remove_modifier = "modifier_easybuf_research"
+        remove_modifier = "modifier_easybuf_shipcap"
     }
 
     option = { 
@@ -486,6 +487,20 @@ country_event = {
             else ={
                 add_modifier = {
                     modifier = "modifier_easybuf_shiptravel1"
+                    days = -1
+		        }
+            }
+        }
+        hidden_effect = { country_event = { id = easybuff.11 } }
+    }
+    option = {
+        name = NavalCapacity
+        if = {
+            limit = { has_modifier = "modifier_easybuf_shipcap" }
+            remove_modifier = "modifier_easybuf_shipcap"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_shipcap"
                     days = -1
 		        }
             }

@@ -73,14 +73,14 @@ modifier_easybuf_ascension = {
 }
 
 modifier_easybuf_shipsur1 = {
-    SHIP_HULL_ADD = 1000
-    SHIP_HULL_REGEN_ADD_STATIC = 30
+    SHIP_HULL_ADD = 3000
+    SHIP_HULL_REGEN_ADD_STATIC = 50
 
     SHIP_SHIELD_ADD = 3000
-    SHIP_SHIELD_REGEN_ADD_STATIC = 30
+    SHIP_SHIELD_REGEN_ADD_STATIC = 300
 
     ship_armor_add = 3000
-    SHIP_ARMOR_REGEN_ADD_STATIC = 30
+    SHIP_ARMOR_REGEN_ADD_STATIC = 150
 
     COUNTRY_NAVAL_CAP_ADD = 50
 }
@@ -91,6 +91,10 @@ modifier_easybuf_shipsur2 = {
     shipsize_cruiser_hull_add = 4000
     shipsize_battleship_hull_add = 5000
     shipsize_titan_hull_add = 10000
+}
+
+modifier_easybuf_shipcap = {
+    COUNTRY_NAVAL_CAP_ADD = 500
 }
 
 modifier_easybuf_shipsp1 = {
