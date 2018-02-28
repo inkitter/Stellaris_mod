@@ -4,7 +4,7 @@
 generate_easybuff_tiles = {
     every_tile = { clear_deposits = yes }
     clear_buildings = yes
-    
+
     random_tile = {
         limit = { has_deposit = no num_adjacent_tiles = 2 }
         set_deposit = d_immense_farmland_deposit
@@ -148,11 +148,11 @@ generate_easybuff_tiles2 = {
     }
     random_tile = {
         limit = { has_deposit = no num_adjacent_tiles = 2 }
-        set_deposit = d_easybuff_farmland
+        set_deposit = d_easybuff_energy
         random_neighboring_tile = {
             random_neighboring_tile = {
                 limit = { has_building = no has_deposit = no num_adjacent_tiles > 3 }
-                set_deposit = d_easybuff_sr
+                set_deposit = d_easybuff_minerals
                 random_neighboring_tile = {
                     limit = { has_building = no has_deposit = no num_adjacent_tiles > 3 }
                     random_neighboring_tile = {
@@ -184,12 +184,7 @@ generate_easybuff_tiles2 = {
         }
     }
     orbital_deposit_tile = {
-        random_list = {
-            33 = { set_deposit = d_easybuff_mineralso }
-            33 = { set_deposit = d_easybuff_energyo }
-            33 = { set_deposit = d_easybuff_researcho }
-            1 = { set_deposit = d_easybuff_ssr }
-        }
+        set_deposit = d_easybuff_researcho
     }
 }
 

@@ -3,6 +3,8 @@
  
  easybuff_system_initializer_NAME:0 "Easybuff Earth"
  easybuff_system_initializer_DESC:0 "Cheat Earth"
+ easybuffs_system_initializer_NAME:0 "Easybuff Earth Super"
+ easybuffs_system_initializer_DESC:0 "Cheat Earth Super"
 
  edict_easy_buff_default:0 "$edict_easy_buff_d$ §REasy Buff Menu§!"
  edict_easy_buff_default_desc:0 "§EOpen Easy Buff Menu.§!"

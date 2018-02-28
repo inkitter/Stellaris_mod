@@ -207,7 +207,7 @@
  anomaly.168.c:0 "我们能从中学到什么？"
  anomaly.168.c.tooltip:0 "不管这些文字真假，我们与某种古老未知的太空种族共有一些宗教理念是事实。"
  anomaly.168.d:0 "我们追随神祗的脚步！"
- #anomaly.168.d.tooltip:0 "开使一场宗教复兴。\n你的本土人口获得§Y狂热精神主义§!和§Y集体主义§!道德观。"
+ #anomaly.168.d.tooltip:1 "Start a religious renaissance.\nYour native population gains the §YFanatic Spiritualist§! and §YAuthoritarian§! Ethics."
  anomaly.169.name:0 "接受君权神授"
  anomaly.169.desc:0 "[Root.GetSpeciesName]人民渴求一位领导者领导他们亦新亦旧的信仰。"
  anomaly.169.a:0 "我们不该改变现状。"
@@ -1441,7 +1441,7 @@
  fallen_empires.2.a.tooltip:0 "§Y [Root.GetRulerTitle] [rulername.GetName]§R丧生了§!。§!"
  
  fallen_empires.4.name:0 "来自§H [From.GetName]§!的通讯"
- fallen_empires.4.desc:0 "自大而渺小的 [From.GetSpeciesName]！你觉得你们的 [Root.GetSpeciesName]殖民者可以不被发现地玷污我们的圣地吗？马上离开我们的领地，否则你们将会见识到我们舰队的强大！"
+ fallen_empires.4.desc:1 "自大的蛆虫！你觉得你们的 [Root.GetSpeciesName]殖民者可以不被发现地玷污我们的圣地吗？马上离开我们的领地，否则你们将会见识到我们舰队的强大！"
  fallen_empires.4.a:0 "我们别无选择，只能接受……"
  fallen_empires.4.b:0 "[Root.GetName]绝不会受到欺凌！"
  fallen_empires.5.name:0 "来自§H [From.GetName]§!的通讯"
@@ -1467,7 +1467,7 @@
  fallen_empires.9.a:0 "我们别无选择，只能接受……"
  fallen_empires.9.b:0 "[Root.GetName]绝不会受到欺凌！"
  
- fallen_empire_refuse_tooltip:0 "§H[From.GetName]§! 会很生气，很可能会攻击我们。"
+ fallen_empire_refuse_tooltip:0 "§H[From.GetName]§! 将会非常愤怒, 并且很有可能准备开始攻击我们."
  
  fallen_empire_happy_tooltip:0 "§H[FallenEmpireTaskOrigin.GetName]§!会很满意的，也许还会在未来对我们加以青睐。"
  fallen_empire_unhappy_tooltip:0 "§H[FallenEmpireTaskOrigin.GetName]§!会不满的。"
@@ -1599,7 +1599,7 @@
  machine_empire_health_boost:0 "已接种人群"
  machine_empire_health_boost_desc:0 "古代监护者给予我们的疫苗被证明有巨大的好处，减少了疾病，提高了人口的寿命。"
  
-  fallen_machine_empire.21.name:0 "来自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
+ fallen_machine_empire.21.name:0 "来自§H[FallenEmpireTaskOrigin.GetName]§!的通信"
  fallen_machine_empire.21.desc:0 "托管协议628-2激活。消息如下: 机械文明，请注意！在您的基本代码中被发现进行工作时效率有重大缺陷。为了确保你的物种能够为监护人项目做出贡献，需要进行大量的重写。我们准备在此消息的正确认下启动子空间代码传输。等待响应。"
  fallen_machine_empire.21.tooltip:0 "这将产生不可预知的后果。在这些影响被揭露之前，我们的人口维护将会增加。"
  fallen_machine_empire.21.a:0 "只要对我们有利，我们欢迎改进我们的编程。"

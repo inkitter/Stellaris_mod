@@ -15,9 +15,9 @@ d_easybuff_sr = {
 
 d_easybuff_research = {
     resources = {
-        physics_research = 50
-        engineering_research = 50
-        society_research = 50
+        physics_research = 70
+        engineering_research = 70
+        society_research = 70
     }
     station = shipclass_mining_station
     orbital_weight = { weight = 0 }
@@ -65,7 +65,7 @@ d_easybuff_minerals = {
 
 d_easybuff_farmland = {
     resources = {
-        food = 30
+        food = 20
     }
     station = shipclass_mining_station
     orbital_weight = { weight = 0 }
