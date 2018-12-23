@@ -5,4 +5,4 @@ tags={
     "Translation"
 }
 picture="cuyuan.png"
-supported_version="2.1"
+supported_version="2.2"
