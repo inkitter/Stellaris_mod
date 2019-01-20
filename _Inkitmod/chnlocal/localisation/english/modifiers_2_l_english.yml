@@ -41,7 +41,7 @@
  unhappy_with_experiments:0 "不满实验"
  unhappy_with_experiments_desc:0 "行星上的§Y$ethic_xenophile$§人口不满统治者对当地土著生物的不道德实验。"
  unproductive_without_experiments:0 "无实验，不生产"
- unproductive_without_experiments_desc:0 "行星上的§Y£society 研究§输出因为科学家放过了千载难逢的实验和临床试验机会而受到影响。"
+ unproductive_without_experiments_desc:0 "行星上的§Y£society£ 研究§产出因为科学家放过了千载难逢的实验和临床试验机会而受到影响。"
  massex_happy:0 "未来的信仰"
  massex_happy_desc:0 "你的民众对未来非常乐观。"
  stellar_salt:0 "盐"
@@ -77,7 +77,7 @@
  prismatic_lenses:0 "棱镜"
  prismatic_lenses_desc:0 "模仿晶态实体的独特棱柱性质制造的镜片对物理学研究贡献良多。"
  crystal_sonar:0 "晶体声呐"
- crystal_sonar_desc:0 "你的舰队可以使用与晶态实体有关的特殊技术来立刻调查他们身处的恒星系。"
+ crystal_sonar_desc:0 "你的舰队可以使用与晶态实体有关的特殊技术来立刻调查他们身处的星系。"
  greater_crystal_bounty:0 "大晶体赏金"
  greater_crystal_bounty_desc:1 "§L命令你的舰队回收再利用毁坏的晶态实体遗骸。§!\n击败一支舰队所获的矿物：§G500§!"
  crystal_bounty:0 "晶体赏金"
@@ -104,8 +104,8 @@
  missing_scientist_desc:0 "一个在观测站上工作的科学家失踪了，在科学界中掀起了波澜。"
  humiliated:0 "受辱"
  humiliated_desc:0 "§L我们受到另一个帝国的公开侮辱。§!"
- raided:0 "袭击"
- raided_desc:0 "§L我们没能从掠夺者的袭击中保护好自己。§!"
+ raided:0 "遭袭击"
+ raided_desc:0 "§L我们未能抵御掠夺者的袭击。§!"
  TOOLTIP_HAPPINESS_GOV_ETHOS:0 "$ETHIC$政权：$VAL$"
  TOOLTIP_HAPPINESS_XENO_OVERLORDS:0 "外星宗主：$VAL$"
  swarm_border:1 " "
@@ -121,8 +121,8 @@
  mandate_fulfilled_mod_desc:0 "履行承诺"
  tyrannized:0 "暴政"
  tyrannized_desc:0 "被[Root.Owner.GetName]暴政统治。"
- favored:0 "拥戴"
- favored_desc:0 "受到[Root.Owner.GetName]的拥戴。"
+ favored:0 "偏爱"
+ favored_desc:0 "受到[Root.Owner.GetName]的偏爱。"
  6_hour_workday:0 "6小时工作制"
  6_hour_workday_desc:0 "在更好的工作环境下无薪酬劳动。"
  validated:0 "经确认"
@@ -156,18 +156,19 @@
  ####################################
  # Dynamic Modifiers
  ####################################
- damage_vs_country_type_amoeba_mult:0 "对太空变形虫的伤害"
- damage_vs_country_type_crystal_mult:0 "对晶态实体的伤害"
- damage_vs_country_type_drone_mult:0 "对古代采矿无人机的伤害"
- damage_vs_country_type_cloud_mult:0 "对虚空之云的伤害"
- damage_vs_country_type_swarm_mult:1 "对虫族生物的伤害"
- damage_vs_country_type_fallen_empire_mult:0 "对堕落帝国的伤害"
- damage_vs_country_type_awakened_fallen_empire_mult:0 "对觉醒帝国的伤害"
- damage_vs_country_type_extradimensional_mult:0 "对天外来客的伤害"
- damage_vs_country_type_extradimensional_2_mult:0 "对异次元生物的伤害"
- damage_vs_country_type_extradimensional_3_mult:0 "对激斗者的伤害"
- damage_vs_country_type_ai_empire_mult:1 "对紧急预案的伤害"
- damage_vs_country_type_sentinels_mult:0 "对星际护卫队的伤害"
+ mod_damage_vs_country_type_amoeba_mult:0 "对太空变形虫的伤害"
+ mod_damage_vs_country_type_crystal_mult:0 "对晶态实体的伤害"
+ mod_damage_vs_country_type_drone_mult:0 "对古代采矿无人机的伤害"
+ mod_damage_vs_country_type_cloud_mult:0 "对虚空之云的伤害"
+ mod_damage_vs_country_type_swarm_mult:1 "对虫族生物的伤害"
+ mod_damage_vs_country_type_fallen_empire_mult:0 "对堕落帝国的伤害"
+ mod_damage_vs_country_type_awakened_fallen_empire_mult:0 "对觉醒帝国的伤害"
+ mod_damage_vs_country_type_extradimensional_mult:0 "对破界者的伤害"
+ mod_damage_vs_country_type_extradimensional_2_mult:0 "对畸变者的伤害"
+ mod_damage_vs_country_type_extradimensional_3_mult:0 "对咆哮者的伤害"
+ mod_damage_vs_country_type_ai_empire_mult:1 "对紧急预案的伤害"
+ mod_damage_vs_country_type_sentinels_mult:0 "对星际护卫队的伤害"
+ mod_damage_vs_country_type_gate_builders_mult: "对星门建造者的伤害"
 
  ####################################
  # Opinion Modifiers
@@ -175,12 +176,7 @@
 
  opinion_literary_savior:0 "文学救星"
  opinion_book_burner:0 "烧书者"
- opinion_faction_insult:0 "派系侮辱"
-
- ####################################
- # Pop Faction Modifiers
- ####################################
- docile_slaves_unrest_modifier:0 "奴隶骚动"
+ opinion_faction_insult:0 "党派侮辱"
 
  ####################################
  # Machines
