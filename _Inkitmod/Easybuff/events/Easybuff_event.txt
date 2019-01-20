@@ -311,10 +311,6 @@ country_event = {
             give_technology = { tech = tech_robomodding_points_1 }
         }
         if = {
-            limit = { NOT = { has_technology = tech_probability_theory } }
-            give_technology = { tech = tech_probability_theory }
-        }
-        if = {
             limit = { NOT = { has_technology = tech_binary_motivators } }
             give_technology = { tech = tech_binary_motivators }
         }
@@ -330,55 +326,11 @@ country_event = {
             limit = { NOT = { has_technology = tech_biomechanics } }
             give_technology = { tech = tech_biomechanics }
         }
-        if = {
-            limit = { NOT = { has_technology = tech_singularity_core } }
-            give_technology = { tech = tech_singularity_core }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_modular_components } }
-            give_technology = { tech = tech_modular_components }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_intelligent_factories } }
-            give_technology = { tech = tech_intelligent_factories }
-        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
 
     option = {
         name = StrategicResource
-        if = {
-            limit = { NOT = { has_technology = tech_mine_garanthium } }
-            give_technology = { tech = tech_mine_garanthium }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_lythuric_gas } }
-            give_technology = { tech = tech_lythuric_gas }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_engos_vapor } }
-            give_technology = { tech = tech_engos_vapor }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_mine_teldar } }
-            give_technology = { tech = tech_mine_teldar }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_mine_yuranic } }
-            give_technology = { tech = tech_mine_yuranic }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_pitharan_dust } }
-            give_technology = { tech = tech_pitharan_dust }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_mine_orillium } }
-            give_technology = { tech = tech_mine_orillium }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_mine_neutronium } }
-            give_technology = { tech = tech_mine_neutronium }
-        }
         if = {
             limit = { NOT = { has_technology = tech_mine_living_metal } }
             give_technology = { tech = tech_mine_living_metal }
@@ -392,12 +344,20 @@ country_event = {
             give_technology = { tech = tech_mine_zro }
         }
         if = {
-            limit = { NOT = { has_technology = tech_mine_satramene } }
-            give_technology = { tech = tech_mine_satramene }
-        }
-        if = {
             limit = { NOT = { has_technology = tech_mine_dark_matter } }
             give_technology = { tech = tech_mine_dark_matter }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_exotic_gases } }
+            give_technology = { tech = tech_mine_exotic_gases }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_rare_crystals } }
+            give_technology = { tech = tech_mine_rare_crystals }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mine_volatile_motes } }
+            give_technology = { tech = tech_mine_volatile_motes }
         }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
@@ -553,78 +513,16 @@ country_event = {
 
     option = {
         name = ResourceLv1
-        if = {
-            limit = { has_modifier = "modifier_easybuf_resource1" }
-            remove_modifier = "modifier_easybuf_resource1"
-            else ={
-                hidden_effect = {
-                    remove_modifier = "modifier_easybuf_resource2"
-                    remove_modifier = "modifier_easybuf_resource3"
-                    remove_modifier = "modifier_easybuf_resource4"
-                }
-                add_modifier = {
-                    modifier = "modifier_easybuf_resource1"
-                    days = -1
-		        }
-            }
-        }
+        capital_scope = {
+			add_deposit = d_easybuff_sr
+		}
         hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {
-        name = ResourceLv2
-        if = {
-            limit = { has_modifier = "modifier_easybuf_resource2" }
-            remove_modifier = "modifier_easybuf_resource2"
-            else ={
-                hidden_effect = {
-                    remove_modifier = "modifier_easybuf_resource1"
-                    remove_modifier = "modifier_easybuf_resource3"
-                    remove_modifier = "modifier_easybuf_resource4"
-                }
-                add_modifier = {
-                    modifier = "modifier_easybuf_resource2"
-                    days = -1
-		        }
-            }
-        }
-        hidden_effect = { country_event = { id = easybuff.13 } }
-    }
-    option = {
-        name = ResourceLv3
-        if = {
-            limit = { has_modifier = "modifier_easybuf_resource3" }
-            remove_modifier = "modifier_easybuf_resource3"
-            else ={
-                hidden_effect = {
-                    remove_modifier = "modifier_easybuf_resource1"
-                    remove_modifier = "modifier_easybuf_resource2"
-                    remove_modifier = "modifier_easybuf_resource4"
-                }
-                add_modifier = {
-                    modifier = "modifier_easybuf_resource3"
-                    days = -1
-		        }
-            }
-        }
-        hidden_effect = { country_event = { id = easybuff.13 } }
-    }
-    option = {
-        name = ResourceLv4
-        if = {
-            limit = { has_modifier = "modifier_easybuf_resource4" }
-            remove_modifier = "modifier_easybuf_resource4"
-            else ={
-                hidden_effect = {
-                    remove_modifier = "modifier_easybuf_resource1"
-                    remove_modifier = "modifier_easybuf_resource2"
-                    remove_modifier = "modifier_easybuf_resource3"
-                }
-                add_modifier = {
-                    modifier = "modifier_easybuf_resource4"
-                    days = -1
-		        }
-            }
-        }
+        name = ResourceClear
+        capital_scope = {
+			clear_deposits = yes
+		}
         hidden_effect = { country_event = { id = easybuff.13 } }
     }
     option = {

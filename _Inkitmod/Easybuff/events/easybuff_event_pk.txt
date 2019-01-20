@@ -13,14 +13,8 @@ planet_event = {
 			if = {
 				limit = { NOT = { is_planet_class = pc_gaia } }
 				change_pc = { class = pc_gaia }
-				generate_easybuff_tiles = yes
-				else = {
-					generate_easybuff_tiles2 = yes
-				}
 			}
-			else = {
-				generate_easybuff_starres = yes
-			}
+			set_deposit = d_easybuff_sr
 		}
     }
 }

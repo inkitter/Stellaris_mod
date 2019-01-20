@@ -28,7 +28,12 @@ ship_section_template = {
 	
 	large_utility_slots = 9
 	aux_utility_slots = 6
-	cost = 5
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 5
+		}
+	}
 }
 
 ship_section_template = {
@@ -67,5 +72,10 @@ ship_section_template = {
 
 	large_utility_slots = 9
 	aux_utility_slots = 6
-	cost = 5
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 5
+		}
+	}
 }
