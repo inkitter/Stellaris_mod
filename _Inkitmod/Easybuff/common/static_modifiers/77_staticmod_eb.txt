@@ -31,6 +31,8 @@ modifier_easybuf_default = {
     ship_armor_add = 5000
     SHIP_ARMOR_REGEN_ADD_STATIC = 100
     SHIP_WEAPON_RANGE_MULT = 0.5
+
+    planet_max_buildings_add = 2
 }
 
 modifier_easybuf_base = {
@@ -62,7 +64,7 @@ modifier_easybuf_ascension = {
 }
 
 modifier_easybuf_shipsur1 = {
-    SHIP_HULL_ADD = 10000
+    SHIP_HULL_ADD = 20000
     SHIP_HULL_REGEN_ADD_STATIC = 500
 
     SHIP_SHIELD_ADD = 8000
@@ -75,11 +77,11 @@ modifier_easybuf_shipsur1 = {
 }
 
 modifier_easybuf_shipsur2 = {
-    shipsize_corvette_hull_add = 3700
-    shipsize_destroyer_hull_add = 4500
-    shipsize_cruiser_hull_add = 7000
-    shipsize_battleship_hull_add = 5000
-    shipsize_titan_hull_add = 10000
+    shipsize_corvette_hull_add = 53700
+    shipsize_destroyer_hull_add = 54500
+    shipsize_cruiser_hull_add = 57000
+    shipsize_battleship_hull_add = 55000
+    shipsize_titan_hull_add = 50000
     SHIP_SHIELD_ADD = 5000
     SHIP_SHIELD_REGEN_ADD_STATIC = 200
     ship_armor_add = 3000

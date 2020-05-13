@@ -3,13 +3,17 @@ spriteTypes = {
 		name = "GFX_mod_country_ascension_perks_add"
 		textureFile = "gfx/interface/icons/modifiers/mod_shroud_unavailable.dds"
 	}
-	  spriteType = {
+	spriteType = {
 		name = "GFX_max_energy"
-		textureFile = "gfx/interface/icons/modifiers/country_resource_energy_add.dds"
+		textureFile = "gfx/interface/icons/resources/energy.dds"
 	}
-  spriteType = {
+  	spriteType = {
 		name = "GFX_max_minerals"
-		textureFile = "gfx/interface/icons/modifiers/country_resource_minerals_add.dds"
+		textureFile = "gfx/interface/icons/resources/minerals.dds"
+	}
+	spriteType = {
+		name = "GFX_max_food"
+		textureFile = "gfx/interface/icons/resources/food.dds"
 	}
 	spriteType = {
 		name = "GFX_mod_country_leader_pool_size"
@@ -23,20 +27,20 @@ spriteTypes = {
 		name = "GFX_max_influence"
 		textureFile = "gfx/interface/icons/modifiers/mod_shroud_unavailable.dds"
 	}
-  spriteType = {
+  	spriteType = {
 		name = "GFX_mod_ship_emergency_ftl"
 		textureFile = "gfx/interface/icons/modifiers/mod_ship_speed_mult.dds"
 	}
-  spriteType = {
+  	spriteType = {
 		name = "GFX_mod_ship_windup_mult"
 		textureFile = "gfx/interface/icons/modifiers/mod_ship_speed_mult.dds"
 	}
-  spriteType = {
+  	spriteType = {
 		name = "GFX_mod_ship_winddown_mult"
 		textureFile = "gfx/interface/icons/modifiers/mod_ship_speed_mult.dds"
 	}
 
-  spriteType = {
+  	spriteType = {
 		name = "GFX_mod_ship_ftl_jumpdrive_range_mult"
 		textureFile = "gfx/interface/icons/modifiers/mod_ship_speed_mult.dds"
 	}
