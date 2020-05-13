@@ -9,7 +9,7 @@
  drone_space_elevator:0 "碍事的太空电梯"
  drone_space_elevator_desc:0 "因为忙于摧毁巨大的太空电梯，这颗行星的生产力降低了。"
  drone_fl_satellite:0 "崩溃的第一联盟的人造卫星"
- drone_fl_satellite_desc:0 "一颗陈旧的人造卫星，在用远古的通讯方式向虚空呐喊。"
+ drone_fl_satellite_desc:0 "一颗陈旧的人造卫星，在用远古的通信方式向虚空呐喊。"
  drone_mineral_gift:0 "无人机的矿物礼物"
  drone_mineral_gift_desc:0 "无数个年代前的无人机将一堆矿物储存在这里了。看来是前人种树你乘凉了。"
  old_genetic_library:0 "远古基因库"
@@ -30,8 +30,8 @@
  pheromoned_detox_desc:0 "玛琳卡林花的盛开杀害了行星上的整个生物圈。新的循环开始了。"
  pheromoned_grief:0 "信息素悲剧"
  pheromoned_grief_desc:0 "哀伤不消散。"
- zro_ice:0 "卓气冰"
- zro_ice_desc:0 "这颗冰冻巨行星动荡的大气层中有很多卓气。"
+ zro_ice:0 "卓尘冰"
+ zro_ice_desc:0 "这颗冰冻巨行星动荡的大气层中有很多卓尘。"
  dark_matter_funnel:0 "暗物质漏斗"
  dark_matter_funnel_desc:0 "迷你型虫洞，可以轻松采集暗物质。"
  inspired_arts:0 "艺术灵感"
@@ -47,7 +47,7 @@
  stellar_salt:0 "盐"
  stellar_salt_desc:0 "我们的帝国爆发了一场烹饪复兴。"
  projecting_moon:0 "卫星噪声"
- projecting_moon_desc:0 "这颗卫星上有一个强大的通讯设备，可以发射以假乱真的勘察读数。"
+ projecting_moon_desc:0 "这颗卫星上有一个强大的通信设备，可以发射以假乱真的勘察读数。"
  cornucopia:0 "丰饶"
  cornucopia_desc:0 "这颗行星上拥有丰富的食物资源。"
  raw_materials:0 "原矿石"
@@ -113,7 +113,11 @@
  drone_processing:0 "无人机加工"
  drone_processing_desc:0 "从古代采矿无人机处学习到知识正持续改善我们的采矿产出和矿物加工效率。"
  spiritualist_attraction:0 "精神主义吸引力"
+ spiritualist_attraction_desc:0 "一个精神主义团体正在驳斥物质主义宇宙观，指责物质主义者桎梏了我们的文化。"
  materialist_attraction:0 "物质主义吸引力"
+ materialist_attraction_desc:0 "一个物质主义团体正寻求更务实、更进步的答案，以推动我们的文化发展。"
+ from_extra_federation_members:0 "来自成员国"
+ empire_size_mods:0 "帝国规模"
  ####################################
  # Pop Modifiers
  ####################################
@@ -168,7 +172,7 @@
  mod_damage_vs_country_type_extradimensional_3_mult:0 "对咆哮者的伤害"
  mod_damage_vs_country_type_ai_empire_mult:1 "对紧急预案的伤害"
  mod_damage_vs_country_type_sentinels_mult:0 "对星际护卫队的伤害"
- mod_damage_vs_country_type_gate_builders_mult: "对星门建造者的伤害"
+ mod_damage_vs_country_type_gate_builders_mult:0 "对星门建造者的伤害"
 
  ####################################
  # Opinion Modifiers

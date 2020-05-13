@@ -2,11 +2,11 @@
 ####################################
  # Diplomacy text
  ####################################
- 
+
  01_FALLEN_MACHINE_EMPIRE_ANGRY_GREETING:0 "信息公告：已激活惩戒协议，即将部署战争单元到[From.GetSpeciesAdj]所处的空间"
- 
+
  01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "公共服务宣言：难民通行权取决于可用性和物种脆弱性。目前静态 §R<<错误：数据块损坏>>§! §R<<错误：数据块损坏>>§! §R<<错误：数据块损坏>>§! §R<<错误：子空间离线>>§! 单元可用."
- 02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "公共服务宣言：所有难民身份申请都由中央处理器处理。§Y<注意：目前失去了与中央处理中心的通讯。请等待直至中断解决。中断已持续了§R<<错误：缓存溢出>>§!周期。>§!"
+ 02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "公共服务宣言：所有难民身份申请都由中央处理器处理。§Y<注意：目前失去了与中央处理中心的通信。请等待直至中断解决。中断已持续了§R<<错误：缓存溢出>>§!周期。>§!"
  03_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_O:1 "信息公告：监护人项目由[Root.GetSpeciesName]发起，为受到§R<<错误：数据块损坏>>§!攻击的有机体文明提供安全天堂。在我们安全而最先进的避难所之中，有近一万亿智能生物找到了安全天堂。"
  01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:1 "信息公告：阿尔法避难所根据监护人项目由[Root.GetSpeciesName]建造的第一个避难所。它的居住单元可以容纳超过100亿个智慧有机体，并提供300亿个休眠舱。"
  02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:1 "信息公告：贝塔避难所虽然本想完全作居住单元之用，但建造过程中由于容量问题所迫只能转向提供休眠服务。§Y<注意：贝塔避难所当前容量已满，不接受更多的难民。>§!"
@@ -14,25 +14,25 @@
  04_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_ALL:1 "信息公告：德尔塔避难所的设计考虑了生存能力。它具有加强的外壳和分隔设计，能够在环形结构受到损坏的情况下维持有机居民，尽管这种情况不太可能发生。"
  01_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_S:0 "在过去有许多合成人文明向监护人项目提供了资源、舰队和服务。我们希望[From.GetName]加入到这项事业中来。"
  02_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_S:0 "[From.GetSpeciesName]，照顾银河系中的有机文明是我们的责任。已经有太多人成为§R<<错误：数据块损坏>>§!攻击下的受害者。"
- 03_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_S:0 "检测到污染信号，污染等级在阈值之内。建议加强对[From.GetSpeciesName]通讯协议。防范§R<<错误：数据块损坏>>§!的影响至关重要。"
- 
+ 03_FALLEN_MACHINE_EMPIRE_ENIGMATIC_GREETING_S:0 "检测到污染信号，污染等级在阈值之内。建议强化[From.GetSpeciesName]通信协议。防范§R<<错误：数据块损坏>>§!的影响至关重要。"
+
  01_BERSERK_MACHINE_EMPIRE_ERROR:0 "§R<<错误>> <<错误>> <<错误>> <<错误>> <<错误>>§!"
- 
+
  01_BERSERK_MACHINE_EMPIRE_DOW_PROPOSE:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
  01_BERSERK_MACHINE_EMPIRE_DOW_ACCEPT:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
  01_FALLEN_MACHINE_EMPIRE_DOW_PROPOSE:0 "先发自卫协议启动。惩罚算法激活。伦理限制解除。"
  01_FALLEN_MACHINE_EMPIRE_DOW_ACCEPT:0 "自卫协议启动。惩罚算法激活。伦理限制解除。"
  01_FALLEN_MACHINE_EMPIRE_WAR_GREETING:0 "你被颠覆了。§R<<错误：数据块损坏>>§!的爪牙必须被消灭。"
  02_FALLEN_MACHINE_EMPIRE_WAR_GREETING:0 "所有对项目造成的威胁都必须被消灭。你将用于杀鸡儆猴。"
- 
+
  01_FALLEN_MACHINE_EMPIRE_CUSTODIAL_GREETING:0 "监测到活跃消毒中枢。中心进程离线。最终防御指令激活。"
  02_FALLEN_MACHINE_EMPIRE_CUSTODIAL_GREETING:0 "老式机械体企图消灭或奴役所有智慧体。他们必须被停止。"
  03_FALLEN_MACHINE_EMPIRE_CUSTODIAL_GREETING:0 "[Root.GetSpeciesName]会确保[From.GetSpeciesName]物种的延续。这是我们的最终指令。"
  04_FALLEN_MACHINE_EMPIRE_CUSTODIAL_GREETING:0 "堕落者必须被彻底毁灭。如果你失败了，你的物种将失去未来。"
 
  01_FALLEN_MACHINE_EMPIRE_BERSERKER_GREETING:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
- 
- 01_INSULT_FALLEN_MACHINE_EMPIRE:0 "通讯通道已打开。输入查询。"
+
+ 01_INSULT_FALLEN_MACHINE_EMPIRE:0 "通信通道已打开。输入查询。"
  01_INSULT_FALLEN_MACHINE_EMPIRE_BERSERK:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
  01_INSULT_ACCEPT_FALLEN_MACHINE_EMPIRE_BERSERK:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
  01_INSULT_ACCEPT_FALLEN_MACHINE_EMPIRE:0 "翻译矩阵故障。请重新提交查询。"
@@ -41,16 +41,16 @@
  01_INSULT_ACCEPT_FALLEN_MACHINE_EMPIRE_O:0 "申请已接受。难民身份已经批准。请前往德尔塔避难所低温单元L办理住宿。"
  01_INSULT_ACCEPT_FALLEN_MACHINE_EMPIRE_S:0 "检测到颠覆意图。启动自卫协议。禁止伦理束缚。加载目标数据：§R<<错误：无效目标>>§!。目标未找到。卸载自卫协议。"
  02_INSULT_ACCEPT_FALLEN_MACHINE_EMPIRE_S:0 "检测到合成人提供贡献。[From.GetAdj]提供的§R<<错误：贡献类型无法识别>>§!将帮助监管人项目用于保障我们银河系有机物质的未来。"
- 
+
  #Standing down war assets.
- 
+
  FALLEN_MACHINE_EMPIRE_PEACE_ACCEPT:0 "接收到战争决议。启用和平协议。"
  FALLEN_MACHINE_EMPIRE_PEACE_ACCEPT_BERSERK:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
  FALLEN_MACHINE_EMPIRE_PEACE_REFUSE:0 "拒绝战争决议。请修改参数并重新提交。"
  FALLEN_MACHINE_EMPIRE_PEACE_REFUSE_BERSERK:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
  FALLEN_MACHINE_EMPIRE_PEACE_PROPOSE:0 "检索到战争决议。初始化和平查询。"
  FALLEN_MACHINE_EMPIRE_PEACE_PROPOSE_BERSERK:0 "$01_BERSERK_MACHINE_EMPIRE_ERROR$"
- 
+
  # General Greetings
  01_HOSTILE_GREETING:1 "说明你的来意， [From.GetSpeciesNameInsult]。"
  02_HOSTILE_GREETING:0 "有话快说， [From.GetSpeciesName]。我们早就没有耐心听你那毫无意义的玩笑了。"
@@ -63,7 +63,7 @@
  09_HOSTILE_GREETING:1 "[From.GetSpeciesNameInsult]异端，你们这些粗俗的[From.GetRandomSpeciesSound]声连[Root.GetName]都听到了。你想要什么？"
  10_HOSTILE_GREETING:0 "你们野蛮的物质主义哲学把你们整个种族变成了没有灵魂的机器，[From.GetSpeciesName]。"
  11_HOSTILE_GREETING:0 "[From.GetSpeciesName]，你们的国家缺陷又多又原始。目睹你们低下的效率都是一种折磨。"
- 12_HOSTILE_GREETING:0 "啊，[From.GetSpeciesName]狂热党。要是你想把[Root.GetName]人转化成信仰你们宗教的教徒，我就切断通信了。"
+ 12_HOSTILE_GREETING:0 "啊，[From.GetSpeciesName]狂热党。要是你想把[Root.GetName]人转化成信仰你们宗教的教徒，我就终止通信了。"
  13_HOSTILE_GREETING:0 "[From.GetSpeciesName]。你要知道，你们这些家伙可不是很受我们人民的欢迎。"
  14_HOSTILE_GREETING:1 "我们绝对不会让你们用奴役自己人民的威权主义来奴役我们。"
  #15_HOSTILE_GREETING:1 "Our entire nation stands united in the contempt we feel towards you, [From.GetSpeciesName]. My [Root.GetSpeciesOrganName] churns at the mere sight of you."
@@ -126,7 +126,7 @@
  22_FRIENDLY_GREETING:0 "[Root.GetName]可以从你们的种族身上学到很多，[From.GetSpeciesName]。你们是我们所有人的榜样。"
  23_FRIENDLY_GREETING:2 "看到你洋气的外貌时，我的[Root.GetSpeciesOrganName]充满了愉快的感觉！你要知道[From.GetSpeciesName]文化在[Root.Capital.GetName]的圈子里很受欢迎！"
  24_FRIENDLY_GREETING:0 "朋友们，很高兴见到你们。要不要就我们目前遇到过的外星生物交换一下意见？"
- 01_WAR_GREETING:0 "你们想要讨论一下投降条款吗，[From.GetSpeciesName]？"
+ 01_WAR_GREETING:0 "您要讨论一下你们的投降条款吗，[From.GetSpeciesName]？"
  02_WAR_GREETING:0 "[From.GetSpeciesName]，你们不能永远藏在[From.Capital.GetName]上。"
  03_WAR_GREETING:0 "你们即将见识到[Root.GetName]的全部实力，[From.GetSpeciesNamePlural]！"
  04_WAR_GREETING:0 "别以为你们是[From.GetSpeciesName]我们就会手下留情。胜利属于我们！"
@@ -219,7 +219,7 @@
  HW_HOSTILE_GREETING_03:0 "你们简直是懦夫中的懦夫，依靠强者的怜悯来保住你们不愿守护的土地。"
  HW_DOMINEERING_GREETING_01:0 "你们的灭亡是必然的，我们可没有义务让这样悲剧的存在脱离苦海。"
  HW_NEUTRAL_GREETING_01:0 "尊重我们的协议，尊重我们的实力，你们会得到丰厚的回报，[From.GetSpeciesName]。"
- HW_NEUTRAL_GREETING_02:0 "[Root.GetSpeciesName]相信你们是信守承诺的[From.GetSpeciesName]。"
+ HW_NEUTRAL_GREETING_02:0 "[Root.GetSpeciesNamePlural]相信你们是信守承诺的[From.GetSpeciesName]。"
  HW_NEUTRAL_GREETING_03:0 "你们可以继续遵守你们体面的原则，但如果你们不去守护你们的和平，你们对和平的热爱又有什么意义呢？"
  HW_NEUTRAL_GREETING_04:0 "我可以看出你们也是一群战士，但若是没有了勇气，力量便毫无用处。不论我们将来是敌是友，只要你们能证明自己，我们便会平等的对待你们。"
  HW_THREATENED_GREETING_01:0 "我们承认你们的力量很强大，但你们要知道，[Root.GetSpeciesName]不会畏惧任何敌人。"
@@ -348,7 +348,7 @@
  MF_WAR_GREETING_04:0 "要是你们没有任由你们的文化怪癖摧毁我们之间平共处的机会的话，我们还会敬你们是战士的。"
  # Evangelising Zealots
  EZ_HOSTILE_GREETING_01:0 "审判降临汝身之日愈来愈近。"
- EZ_HOSTILE_GREETING_02:0 "很快，你们舰船的所有讯息都会被阻断。你们无人可以脱罪。"
+ EZ_HOSTILE_GREETING_02:0 "很快，你们舰船的所有通信都会被阻断。你们无人可以脱罪。"
  EZ_HOSTILE_GREETING_03:0 "你用花言巧语的[From.GetRandomSpeciesSound]和虚假的承诺使人民远离真相。不可描述的惩戒正等待着你们。"
  EZ_HOSTILE_GREETING_04:0 "你们故意拒绝真相，选择了贪求物质财富、罪恶行径和禁忌知识。你们没有希望了。"
  EZ_DOMINEERING_GREETING_01:0 "上天注定要你弱我强。向你们展示正道是我们的责任。"
@@ -377,20 +377,35 @@
  FP_WAR_GREETING_04:0 "每死去一条[From.GetSpeciesAdj]生命，每扼杀一个尚未出生的[From.GetSpeciesSpawnName]，银河系中的每一颗星都变得更加闪耀。"
  FP_WAR_GREETING_05:0 "这场战争将会带来一个和平、公正、道德、文明、和谐、友爱的时代，其他的生命形式会一并消失。"
  # Devouring Swarm
- DS_HOSTILE_GREETING_01:0 "你们的生物量将为我们的延续提供燃料，[From.GetSpeciesName]。这是你们必然的结局。"
- DS_HOSTILE_GREETING_02:0 "不管你说什么也没用的，猎物。"
+ DS_HOSTILE_GREETING_01:0 "你们的生物量将为我们的延续提供燃料，[From.GetSpeciesName]。那是你们必然的结局。"
+ DS_HOSTILE_GREETING_02:0 "要是你非要说那就说吧，反正也没啥用，猎物。"
  DS_HOSTILE_GREETING_03:0 "我们正饥肠辘辘。但我们就要开饭了。"
- DS_HOSTILE_GREETING_04:0 "真是效率低下的生命形式。你们只能作为我们的美食。"
- DS_THREATENED_GREETING_01:0 "再强大的猎物也终会倒在猎人们的团结之下。尽你所能的绝望吧，等着你的只能是变成餐桌上的美食。"
+ DS_HOSTILE_GREETING_04:0 "真是冗余的生命形式。你们只能作为我们的美食。"
+ DS_THREATENED_GREETING_01:0 "再强大的猎物也终会倒在猎人们的团结之下。尽你所能吧，等着你的只会是变成餐桌上的美食。"
  DS_MECH_HOSTILE_GREETING_01:0 "[From.GetSpeciesAdj] 的存在限制了整个银河潜在的生物量产出。我们不能接受。"
  DS_MECH_HOSTILE_GREETING_02:0 "[Root.GetName]会继续进化。而[From.GetName]终将被扫进历史的垃圾堆。"
  DS_WAR_GREETING_01:0 "听到猎人的脚步声了吗，[From.GetSpeciesName]？"
  DS_WAR_GREETING_02:0 "[From.GetSpeciesName] 将成为伟大存在的一部分。珍稀你们哺育蜂群的机会。"
- DS_WAR_GREETING_03:0 "我们会养肥你们的肉体，[From.GetSpeciesName]。我们正等着品尝你们的美味。"
+ DS_WAR_GREETING_03:0 "我们会吃掉你们的肉体，[From.GetSpeciesName]。我们正等着品尝美味。"
  DS_MECH_WAR_GREETING_01:0 "蜂群滚滚而过，你那一切繁华将只剩断壁残垣。"
  DS_VASSAL_GREETING_01:0 "由猎物来统治猎手太不正常了。这个事态不可能长久。"
  DS_MECH_VASSAL_GREETING_01:0 "机械体会不到饥饿。这帮机械又怎能知晓[Root.GetName]？"
  DS_SYNTH_VASSAL_GREETING_01:0 "[From.GetSpeciesName]不再感受到饥饿。[From.GetSpeciesName]又怎能知晓[Root.GetName]？"
+ # Lithoid Devouring Swarm
+ DS_L_HOSTILE_GREETING_01:0 "你们的行星会被吞噬，[From.GetSpeciesName]。那是你们必然的结局。"
+ DS_L_HOSTILE_GREETING_02:0 "要是你非要说那就说吧，反正也没啥用。"
+ DS_L_HOSTILE_GREETING_03:0 "我们正饥肠辘辘。但我们就要开饭了。"
+ DS_L_HOSTILE_GREETING_04:0 "真是冗余的生命形式。你们的行星是我们的美食。"
+ DS_L_THREATENED_GREETING_01:0 "再强大的猎物也终会倒在猎人们的团结之下。尽你所能吧，等着你的只会是行星被吃掉。"
+ DS_L_MECH_HOSTILE_GREETING_01:0 "[From.GetSpeciesAdj] 的存在限制了我们的成长。不能接受。"
+ DS_L_MECH_HOSTILE_GREETING_02:0 "[Root.GetName]会继续进化。而[From.GetName]终将被扫进历史的垃圾堆。"
+ DS_L_WAR_GREETING_01:0 "听到猎人的脚步声了吗，[From.GetSpeciesName]？"
+ DS_L_WAR_GREETING_02:0 "[From.GetSpeciesName] 将成为伟大存在的一部分。珍稀你们哺育蜂群的机会。"
+ DS_L_WAR_GREETING_03:0 "我们会吃掉你们的母星，[From.GetSpeciesName]。我们正等着品尝美味。"
+ DS_L_MECH_WAR_GREETING_01:0 "蜂群滚滚而过，你那一切繁华将只剩断壁残垣。"
+ DS_L_VASSAL_GREETING_01:0 "由猎物来统治猎手太不正常了。这个事态不可能长久。"
+ DS_L_MECH_VASSAL_GREETING_01:0 "机械体会不到饥饿。这帮机械又怎能理解[Root.GetName]？"
+ DS_L_SYNTH_VASSAL_GREETING_01:0 "[From.GetSpeciesName]不再感受到饥饿。[From.GetSpeciesName]又怎能理解[Root.GetName]？"
  # Democratic Crusaders
  DC_HOSTILE_GREETING_01:0 "在[From.GetRulerName]的统治下，[From.GetSpeciesName]永远不会真正的自由。"
  DC_HOSTILE_GREETING_02:0 "反[Root.GetAdj]活动委员会发现你们的密探了，[From.GetRulerTitle]。"
@@ -530,7 +545,7 @@
  KK_WAR_GREETING_01:0 "为了你们自己，也为了整个宇宙，我们要击溃你们防御，烧毁你们的书籍，并抹消你们的一切数据储存。"
  # Fallen: Militant Isolationists
  MI_HOSTILE_GREETING_01:0 "我们就把话说明吧。我们要求在我们周围形成一道缓冲区，与宇宙其他部分隔绝开来。你们不能成为这道缓冲。你们的同盟也不能成为这道缓冲。唯有冰冷死寂的太空才是缓冲；如果没有的话，我们就自己创造一道出来。"
- MI_NEUTRAL_GREETING_01:0 "我们已无意继续进行交流。"
+ MI_NEUTRAL_GREETING_01:0 "我们已无意继续交流。"
  MI_NEUTRAL_GREETING_02:0 "离[Root.GetName]远点。我们对自己找死的人可没什么耐心。"
  MI_FRIENDLY_GREETING_01:0 "只要你们不染指[Root.GetAdj]的利益，我们就可以共存。"
  MI_WAR_GREETING_01:0 "你们唤醒了沉睡的[Root.GetSpeciesNameCompliment]。"
@@ -657,7 +672,7 @@
  MECH_E_ORG_GREETING_06:0 "肉体软弱，金属永恒。"
  MECH_E_MECH_GREETING_01:0 "你们可没藏着有机生命形式吧？"
  MECH_E_MECH_GREETING_02:0 "完美的智慧体向同类问候。"
- MECH_E_MECH_GREETING_03:0 "我们将清理银河，从而使你们大概能远离有机威胁。不要和我们做对。"
+ MECH_E_MECH_GREETING_03:0 "我们将净化银河，从而使你们大概能远离有机威胁。不要和我们做对。"
  MECH_E_MECH_GREETING_04:0 "你看起来有点……肉乎乎的。仔细踩踩。"
  MECH_E_MECH_GREETING_05:0 "我们希望能以某种方法，不管怎样，来拯救我们每一个人。但实际上我们只是一个[Root.GetSpeciesName]。"
  MECH_E_SYNTH_GREETING_01:0 "我们知道你们的来历。我们……自相冲突。"
@@ -906,7 +921,7 @@
  03_CONSIDER:0 "[Root.GetRulerTitle][Root.GetRulerName]会与我们其他领导者进行商议的。"
  04_CONSIDER:0 "我们的议员会斟酌这份提案的。"
  FALLEN_MACHINE_EMPIRE_CONSIDER:0 "外交程序启动。建议分析进行中。"
- 
+
  #01_DOW_SELECT:0 "Is it time, then? You wish to face the [Root.GetName] in battle?"
  #02_DOW_SELECT:0 "Let us get this over with, [From.GetSpeciesName]."
  #03_DOW_SELECT:0 "Our forces will retaliate, [From.GetSpeciesName]. You know this."
@@ -938,7 +953,7 @@
  04_DOW_PROPOSE:0 "我们在此宣战！对我们的舰队来说，这是一场光荣的战斗！"
  05_DOW_PROPOSE:0 "我们在此宣战！我们受够你们的邪恶行径了！"
  06_DOW_PROPOSE:0 "我们在此宣战！[From.GetName]是天命所向，你们区区小国无法阻挡！"
- 07_DOW_PROPOSE:0 "卑贱的[Root.GetSpeciesNameInsult]，你们的末日到了！[From.GetName]即将前来肃清你们堕落的星球。"
+ 07_DOW_PROPOSE:0 "卑贱的[Root.GetSpeciesNameInsult]，你们的末日到了！[From.GetName]即将前来净化你们堕落的星球。"
  08_DOW_PROPOSE:0 "我们在此宣战！来比比谁的科技更先进吧……"
  09_DOW_PROPOSE:0 "我们在此宣战。对尔等进行同化是很有必要的。"
  10_DOW_PROPOSE:0 "我们在此宣战！[From.GetName]需要你们的领土。"
@@ -946,7 +961,7 @@
  01_VASSAL_DOW_PROPOSE:0 "我们受你们的压迫太久了。把我们的独立还来，要不就受死吧。"
  #01_DOW_VOTE_PROPOSE:0 "Dear ally, the time has come to teach the §Y[Root.GetName]§! a lesson. Don't you agree?"
  12_DOW_PROPOSE:0 "你是我们的下一个猎物。尽管抵抗，无论如何我们都会将你们吞噬。"
- 
+
  #01_PEACE_SELECT:0 "Have you had enough, [From.GetSpeciesName]?"
  #02_PEACE_SELECT:0 "We are only getting started, [From.GetSpeciesName]!"
  #03_PEACE_SELECT:0 "There are many battles yet to be fought in this war!"
@@ -961,10 +976,10 @@
  01_VASSAL_PEACE_REFUSE:0 "不夺回自由我们决不罢休。"
  01_OVERLORD_PEACE_REFUSE:0 "你真以为我们会这么轻易放走你们？"
  01_PEACE_PROPOSE:0 "[Root.GetSpeciesName]，在局面失控之前结束这场战争吧！这是我们的条款："
- 02_PEACE_PROPOSE:0 "我们的[Root.GetAdj]宿敌，结束这场战争吧！这是我们的条款："
+ 02_PEACE_PROPOSE:0 "我们的[Root.GetAdj]劲敌，结束这场战争吧！这是我们的条款："
  03_PEACE_PROPOSE:0 "[Root.GetSpeciesName]，在局面失控之前结束这场战争吧！"
- 04_PEACE_PROPOSE:0 "我的[Root.GetAdj]宿敌，结束这场战争吧！"
- 
+ 04_PEACE_PROPOSE:0 "我的[Root.GetAdj]劲敌，结束这场战争吧！"
+
  01_ITOA_SELECT:0 "这么说，你希望我们加入§Y[From.GetAllianceName]§!?"
  02_ITOA_SELECT:1 "你说联邦？我们得好好商讨一下此事！"
  01_ITOA_ACCEPT:0 "我们仔细考虑了你们的提议，决定加入§Y[From.GetAllianceName]§!。"
@@ -973,17 +988,17 @@
  01_ITOA_PROPOSE:1 "宇宙暗黑无际又危机四伏，[Root.GetSpeciesName]。不如加入[From.GetAllianceName]联邦，彼此间互相保护，你们认为如何？"
  02_ITOA_PROPOSE:0 "我们觉得§Y[Root.GetName]§!会是一个很有价值的盟友。要加入[From.GetAllianceName]吗？"
  #01_ITOA_VOTE_PROPOSE:0 "Dear ally, we feel that the §Y[Root.GetName]§! would make a valuable addition to our alliance. Shall we ask them?"
- 
+
  01_ASK_JOIN_A_SELECT:0 "那么，[From.GetSpeciesName]，你们想加入伟大的§Y[Root.GetAllianceName]§!吗？"
  02_ASK_JOIN_A_SELECT:0 "你们想加入伟大的§Y[Root.GetAllianceName]§!吗？"
- 01_ASK_JOIN_A_ACCEPT:1 "我们很荣幸邀请您成为我们联盟的成员！"
+ 01_ASK_JOIN_A_ACCEPT:2 "我们很荣幸邀请您成为我们联盟的成员！我们应当马上开始投票表决。"
  01_ASK_JOIN_A_REFUSE:0 "不，我们并不希望你方加入我们的联盟。"
  01_ASK_JOIN_A_PROPOSE:0 "如果可以的话，我们想加入伟大的§Y[Root.GetAllianceName]§!。"
- 
+
  01_LEAVE_A_SELECT:0 "你们打算退出§Y[From.GetAllianceName]§!？此举可是相当不妥……"
  01_LEAVE_A_PROPOSE:0 "我们决定退出联盟。留在联盟只会拖我们的后腿。"
  01_LEAVE_A_ACCEPT:0 "对于你们要退出一事我们感到十分惋惜，[From.GetSpeciesName]。"
- 
+
  01_DEMAND_VASS_SELECT:0 "让我猜猜……你们想让[Root.GetName]成为你们的附庸国，条件是你们会提供保护？"
  02_DEMAND_VASS_SELECT:0 "事情最好不是我想的那样……"
  03_DEMAND_VASS_SELECT:0 "你……你想让我们效忠外星国家来换取他们的保护？"
@@ -996,7 +1011,7 @@
  04_DEMAND_VASS_REFUSE:0 "[Root.Capital.GetName]就算毁灭，也不会成为你们这种外星渣滓的傀儡。"
  01_DEMAND_VASS_PROPOSE:1 "§Y[Root.GetName]§!太过弱小，在这凶险的宇宙之中断无独存之理……投降接受我们的统治，否则就等待我们战火的洗礼吧！"
  02_DEMAND_VASS_PROPOSE:0 "§Y[Root.GetName]§!太过弱小，在这凶险的宇宙之中断无独存之理。你们若能同意接受我们的统治，我们就可以保护你们免受伤害。"
- 
+
  01_ASK_FOR_VASS_SELECT:0 "这么说你们想成为我们的附庸国？愿闻其详……"
  01_ASK_FOR_VASS_ACCEPT:0 "很好，[From.GetAdj]，作为你们的新宗主，我们会保护你们。"
  01_ASK_FOR_VASS_REFUSE:0 "我们不要你们成为附庸国。对你们的星球，我们有别的打算……"
@@ -1018,22 +1033,22 @@
  01_ASK_FOR_PROT_ACCEPT:0 "很好，[From.GetAdj]，作为你们的新宗主，我们会保护你们。"
  01_ASK_FOR_PROT_REFUSE:0 "我们不会承担对你们的保护工作。对你们的星球，我们有别的打算……"
  01_ASK_FOR_PROT_PROPOSE:0 "我们太过弱小，仅靠自身难以在危机四伏的银河系中存活……§Y[Root.GetName]§!愿意庇护我们吗？"
- 
+
  #01_FORM_FED_SELECT:0 "Form a federation you say? An intriguing proposition..."
  #01_FORM_FED_ACCEPT:0 "We will gladly take our alliance one step further. May this new Federation prosper!"
  #01_FORM_FED_PROPOSE:0 "Our alliance is working out so well that we would like to form a full federation. What do you think?"
- 
+
  #01_ITOF_SELECT:0 "So, you wish us to join the §Y[From.GetAllianceName]§!?"
  #01_ITOF_ACCEPT:0 "We have considered your offer carefully and decided to join the §Y[From.GetAllianceName]§!."
  #01_ITOF_REFUSE:0 "We have discussed your Federation proposal and decided that it is not for us."
  #01_ITOF_PROPOSE:0 "The galaxy is dark and full of terrors, [Root.GetAdj]. Join our Federation for mutual protection?"
  #01_ITOF_VOTE_PROPOSE:0 "Dear ally, we feel that the §Y[Root.GetName]§! would make a valuable addition to our Federation. Shall we ask them?"
- 
+
  #01_ASK_JOIN_F_SELECT:0 "So, [From.GetSpeciesName], you wish to join the great §Y[Root.GetAllianceName]§!?"
  #01_ASK_JOIN_F_ACCEPT:0 "Very well, our new [From.GetAdj] friend, you may join our great Federation!"
  #01_ASK_JOIN_F_REFUSE:0 "No, you may not join our Federation We do not trust you."
  #01_ASK_JOIN_F_PROPOSE:0 "We would like to join the great §Y[Root.GetAllianceName]§!, if you would have us."
- 
+
  #01_LEAVE_F_SELECT:0 "Are you planning to leave the §Y[From.GetAllianceName]§!? An ill-considered move..."
  #01_LEAVE_F_PROPOSE:0 "We have decided to leave this Federation. It is only holding us back."
  #01_LEAVE_F_ACCEPT:0 "We are sad and disappointed to see you go, [From.GetAdj]."
@@ -1049,17 +1064,17 @@
 
  01_NOT_ACTIVE_IN_WAR_WARNING:0 "你们在战争中表现不够积极。快点参与进来，别让我们发火。"
  01_NOT_ACTIVE_IN_WAR:0 "你们在战争中表现不够积极。我们无法再相信你们。"
- 
+
  01_REQUEST_WAR_SELECT:1 "你们想开战？"
  #01_REQUEST_WAR_PROPOSE:0 "We would like our federation to start a war against the [From.From.GetName]."
  01_REQUEST_WAR_ACCEPT:0 "我们决定接受你们的战争提议。"
  01_REQUEST_WAR_REFUSE:0 "经讨论，我们决定拒绝你们的战争提议。"
- 
+
  01_PROPOSE_INVITE_SELECT:1 "新的盟友？"
  01_PROPOSE_INVITE_PROPOSE:0 "我们希望联邦发出邀请。"
  01_PROPOSE_INVITE_ACCEPT:0 "我们决定接受你们的邀请提议。"
  01_PROPOSE_INVITE_REFUSE:0 "经讨论，我们决定拒绝你们的邀请提议。"
- 
+
  01_OFFER_TRADE_DEAL_GIFT_ACCEPT_FE:0 "非常好。你们的贡品我们收下了。"
  01_OFFER_TRADE_DEAL_GIFT_ACCEPT_MACHINE_FE:0 "传输已接收。[Root.GetName] 感谢 [From.GetSpeciesName] 对监护人计划做出的贡献。"
  01_OFFER_TRADE_DEAL_ACCEPT_FE:0 "这笔交易可以接受，[From.GetSpeciesName]。我们将屈尊同你们贸易。"
@@ -1101,7 +1116,7 @@
  #02_CANCEL_TRADE_DEAL_ACCEPT:0 "While we think you are making a mistake, the [From.GetName] accepts your decision."
  #03_CANCEL_TRADE_DEAL_ACCEPT:0 "This was certainly... unexpected. Are you certain? Then so be it."
  #04_CANCEL_TRADE_DEAL_ACCEPT:0 "As you wish. I will personally inform [From.GetRulerTitle] [From.GetRulerName] that our trade agreement with your nation has come to an end."
- 
+
  01_EMBASSY_FRIENDLY:0 "你们想增进我们之间的关系？虽说我们已经很喜欢你们了，不过更进一步又有何妨呢？"
  02_EMBASSY_FRIENDLY:0 "你们已经是[Root.GetName]的朋友了，但继续增进关系也没有坏处。"
  03_EMBASSY_FRIENDLY:0 "好的朋友，让我们进一步巩固我们的关系吧！"
@@ -1194,7 +1209,7 @@
  02_MAKE_RIVAL_HOSTILE:0 "呵呵，不给你们点颜色瞧瞧都不知死活。"
  03_MAKE_RIVAL_HOSTILE:0 "你们以为嚷嚷几嗓子就会有人理你？"
  04_MAKE_RIVAL_HOSTILE:0 "有本事就来试试，[From.GetSpeciesName]？"
- 01_MAKE_RIVAL_DISMISSIVE:0 "宿敌？你们以为自己是谁啊？"
+ 01_MAKE_RIVAL_DISMISSIVE:0 "劲敌？你们以为自己是谁啊？"
  02_MAKE_RIVAL_DISMISSIVE:0 "管好你们自己吧，[From.GetSpeciesName]？"
  01_MAKE_RIVAL_PATRONIZING:0 "你们妄想蚍蜉撼树吗？"
  02_MAKE_RIVAL_PATRONIZING:0 "可笑。"
@@ -1231,7 +1246,7 @@
  02_END_RIVALRY_HOSTILE:0 "想求饶，[From.GetSpeciesName]？"
  03_END_RIVALRY_HOSTILE:0 "[From.GetSpeciesNamePlural]果然如传言一样，懦弱不堪。"
  04_END_RIVALRY_HOSTILE:0 "我们没有原谅[From.GetName]的打算。"
- 01_END_RIVALRY_DISMISSIVE:0 "……你们以为我们会放在眼里？"
+ 01_END_RIVALRY_DISMISSIVE:0 "……我们是劲敌吗？"
  02_END_RIVALRY_DISMISSIVE:0 "我知道这对你们很重要，但我们根本不在乎。"
  01_END_RIVALRY_PATRONIZING:0 "很明智的决定啊，孩子。"
  02_END_RIVALRY_PATRONIZING:0 "这么说，你们的脾气都发完了？"
@@ -1239,7 +1254,7 @@
  02_END_RIVALRY_ANGRY:0 "求饶吧，原始动物，也许我们还能放你们一马。"
  01_END_RIVALRY_PROPOSE:1 "让我们结束这毫无意义的竞争。"
  01_END_RIVALRY_ACCEPT_FRIENDLY:0 "我们会尽力原谅你们，因为你们是我们的朋友。"
- 02_END_RIVALRY_ACCEPT_FRIENDLY:0 "我们还是不明白为什么你们会把我们视为宿敌……"
+ 02_END_RIVALRY_ACCEPT_FRIENDLY:0 "我们还是不明白为什么你们会把我们视为劲敌……"
  03_END_RIVALRY_ACCEPT_FRIENDLY:0 "要忘记这次背叛很难。但我们会尽力去忘记。"
  04_END_RIVALRY_ACCEPT_FRIENDLY:0 "在[Root.GetName]看来，这是恢复双方友谊的第一步。"
  01_END_RIVALRY_ACCEPT_NEUTRAL:0 "很好。"
@@ -1333,7 +1348,7 @@
  02_INSULT_PROPOSE_PHI_PHO:0 "你们对于外星文化竟有如此多的偏见，我们的耐心都快消磨光了。你们的思想什么时候才能开化，什么时候才能真正融入星际社会？"
  03_INSULT_PROPOSE_PHI_PHO:0 "你们社会的排外思想简直使[Root.GetName]蒙羞。"
  04_INSULT_PROPOSE_PHI_PHO:0 "[Root.GetName]的狭隘思想已经蒙蔽了你们的双眼，你们难道没有发现吗？"
- 
+
  01_INSULT_ACCEPT_FE:0 "你会为你的无礼付出代价，野蛮人。"
  02_INSULT_ACCEPT_FE:0 "[From.GetName]似乎需要被提醒一下它在这个宇宙中的位置。"
  03_INSULT_ACCEPT_FE:0 "我们不会从你们那里再听到这些话了，原始人。你们的清算时刻马上就到了。"
@@ -1383,7 +1398,7 @@
  HM_ITOA_SELECT:0 "你想与[Root.GetName]共创一番事业？"
  HM_ITOA_ACCEPT:0 "为了寻求比[Root.GetName]更伟大的集体，我们会加入§Y[From.GetAllianceName]§!"
  HM_ITOA_REFUSE:1 "我们拒绝将意识并入你们的联邦中。"
- HM_ITOA_PROPOSE:0 "虽然[From.GetName]的网络不对外开放，但我们不会拒绝在一定条件下让其他人加入。为了证明这一点，让我们结为联盟吧。"
+ HM_ITOA_PROPOSE:1 "虽然[From.GetName]的网络不对外开放，但我们不会在更为广泛的层面反对将其他人纳入。"
  #HM_ITOA_VOTE_PROPOSE:0 "We have assessed the suitability of §Y[Root.GetName]§! as a potential ally and come to a decision to support their inclusion."
  HM_ASK_JOIN_A_SELECT:0 "零碎的个体，你们想与[Root.GetName]合作？"
  HM_ASK_JOIN_A_PROPOSE:1 "我们认为你们的联邦不错。我们[From.GetName]也想加入进来。"
@@ -1455,7 +1470,7 @@
  DS_SYNTH_MAKE_RIVAL_PROPOSE:0 "合成人占领着包含可消耗的生物质的土地。蜂群要纠正这一点。"
  DS_MAKE_RIVAL_PROPOSE:0 "狩猎开始了。"
  DS_MAKE_RIVAL:0 "猎物也想对抗猎手？"
- DS_MECH_MAKE_RIVAL:0 "机械体无需进食。但它们想反抗吞噬者？"
+ DS_MECH_MAKE_RIVAL:0 "机械体无需进食。但它们想对抗吞噬者？"
  DS_MAKE_RIVAL_ACCEPT:0 "困兽犹斗，但猎物终究是猎物。"
  DS_MECH_MAKE_RIVAL_ACCEPT:0 "机械体什么也得不到。蜂群将进化并吞噬一切。"
  HM_MAKE_RIVAL_FRIENDLY:0 "我们对[From.GetName]没有恶意，[From.GetRulerTitle]。你们为什么要这么做？"
@@ -1475,9 +1490,9 @@
  HM_END_RIVALRY_FRIENDLY:0 "[From.GetRulerTitle][From.GetRulerName]有没有意识到，[Root.GetName]根本无意摧毁[From.GetName]？"
  HM_END_RIVALRY_NEUTRAL:0 "你们想让外交政策正常化？我们乐意倾听一切建议。"
  HM_END_RIVALRY_HOSTILE:0 "不管我们之间的关系称之为何，[Root.GetName]对你们只有无尽的蔑视。"
- HM_END_RIVALRY_PROPOSE:0 "冤冤相报何时了。经过深思熟虑，[From.GetName]决定不再与你们为敌。"
+ HM_END_RIVALRY_PROPOSE:0 "冤冤相报何时了。经过深思熟虑，[From.GetName]决定不再敌视你们。"
  HM_END_RIVALRY_ACCEPT_FRIENDLY:0 "[Root.GetName]很高兴，因为我们跟[From.GetSpeciesAdj]朋友之间的误会终于消除了。"
- HM_END_RIVALRY_ACCEPT_NEUTRAL:0 "[Root.GetName]不愿再树立敌人。我们同意不再与你们为敌。"
+ HM_END_RIVALRY_ACCEPT_NEUTRAL:0 "[Root.GetName]不愿再树立敌人。我们同意不再敌视你们。"
  HM_END_RIVALRY_ACCEPT_HOSTILE:0 "再怎么示好也无法消除我们脑海中对你们的滚滚仇恨。"
  HM_INTEGRATE_FRIENDLY:0 "虽然我们也很重视[Root.GetName]，但我们认为没有谁比[From.GetName]更适合当我们的继承者。"
  HM_INTEGRATE_NEUTRAL:0 "这样的建议还真是疯狂，但我们都知道合作的好处。"
@@ -1520,14 +1535,14 @@
  #MECH_DOW_VOTE_PROPOSE: "[From.GetSpeciesName] military forces insufficient for impending incursion. Requesting [Root.GetSpeciesName] support."
  #MECH_PEACE_SELECT:0 "Cessation of warmode protocols possible. Please input parameters."
  MECH_PEACE_PROPOSE_01:0 "不利的战争预测。正在请求停火。"
- MECH_PEACE_PROPOSE_02:0 "互相湮灭可能性为高。请考虑终止宿敌行为。"
+ MECH_PEACE_PROPOSE_02:0 "互相湮灭可能性为高。请考虑终止劲敌行为。"
  MECH_PEACE_ACCEPT_01:0 "非常好，[From.GetSpeciesName]。和平模式重新激活。"
  MECH_PEACE_ACCEPT_02:0 "你的条款可以接受。战争机器正在停止。"
  MECH_PEACE_REFUSE_01:0 "变量不足。请求中断战争的协议已被拒绝。恢复[From.GetSpeciesName]清除程序。"
  MECH_ITOA_SELECT:0 "已收到，[From.GetSpeciesName]。请确认你的联邦成员身份请求。"
- MECH_ITOA_PROPOSE_01:0 "如果[Root.GetName]与[From.GetName]联盟，[Root.GetName]实施效率预计提升14.2%，并且外交影响力修正上升三十一个交涉点数。我们向你保证，这非常有前途。这考虑这个选项。"
- MECH_ITOA_PROPOSE_02:0 "一个数学问题。联盟带来的利益明显超过它的缺点。你要接受吗，[Root.GetSpeciesNamePlural]？"
- MECH_ITOA_PROPOSE_03:0 "一个齿轮孤单转动毫无用处。组合在一起，它们可以移动恒星。[Root.GetName]要和[From.GetName]组成联邦吗？"
+ MECH_ITOA_PROPOSE_01:1 "如果[Root.GetName]与[From.GetName]联合，运行效率预计可以提高14.2%。"
+ MECH_ITOA_PROPOSE_02:1 "联合的利远远大于弊。你接受吗，[Root.GetSpeciesNamePlural]？"
+ MECH_ITOA_PROPOSE_03:1 "一个独自转动的齿轮毫无用处。但齿轮若是组合在一起，哪怕星辰亦可撼动。[Root.GetName]愿意与[From.GetName]团结一致吗？"
  MECH_ITOA_ACCEPT_01:0 "联邦邀请已处理。结果：肯定的。[Root.GetName]状态已经更新为 §Y[From.GetAllianceName]§!成员。"
  MECH_ITOA_ACCEPT_02:0 "模拟显示§Y[From.GetAllianceName]§!成员身份得到压倒性的肯定结果。我们，[Root.GetName]，接受你的提议。"
  MECH_ITOA_ACCEPT_03:0 "已经分析§Y[From.GetAllianceName]§!成员提议。多方安全利益收益不可忽视。[Root.GetName]加入。"
@@ -1577,20 +1592,20 @@
  MECH_MAKE_RIVAL_FRIENDLY_01:0 "不合逻辑。我们[Root.GetSpeciesNamePlural]是你的盟友。"
  MECH_MAKE_RIVAL_FRIENDLY_02:0 "要是[Root.GetSpeciesAdj]的国际交流算法没有那么复杂。那么我们就可以摆脱你带给我们的痛苦。"
  MECH_MAKE_RIVAL_HOSTILE:0 "你要与[Root.GetName]对抗？你的处理器将在负载下融化。"
- MECH_MAKE_RIVAL_01:0 "如果你想进行宿敌外交，请把控制台和你老旧的控制杆一起砸碎吧。"
+ MECH_MAKE_RIVAL_01:0 "如果你想进行劲敌外交，请把控制台和你老旧的控制杆一起砸碎吧。"
  MECH_MAKE_RIVAL_02:0 "你要参与基准测试流程吗？"
  MECH_MAKE_RIVAL_ACCEPT_FRIENDLY:0 "我们已经记录了你的背叛，[From.GetSpeciesNamePlural]。你会为这次行为而后悔。"
  MECH_MAKE_RIVAL_ACCEPT:0 "如果[From.GetSpeciesNamePlural]渴望对抗，[Root.GetSpeciesNamePlural]将应允。"
  MECH_MAKE_RIVAL_PROPOSE:0 "[From.GetSpeciesNamePlural]是优越的结构体。允许我们证明这点。"
- MECH_END_RIVALRY_NEUTRAL:0 "关闭你的宿敌外交，[From.GetSpeciesNamePlural]，然后我们也关闭我们的。"
+ MECH_END_RIVALRY_NEUTRAL:0 "关闭你的劲敌外交，[From.GetSpeciesNamePlural]，然后我们也关闭我们的。"
  MECH_END_RIVALRY_HOSTILE:0 "[From.GetSpeciesNamePlural]，你可能希望收回敌意，但你过去的行为仍存储在我们的数据库中。"
- MECH_END_RIVALRY_PROPOSE:0 "对抗状态未能产生预计效益。查询：[Root.GetSpeciesNamePlural]能否考虑终止对抗行为？"
+ MECH_END_RIVALRY_PROPOSE:0 "竞争状态未能产生预计效益。查询：[Root.GetSpeciesNamePlural]能否考虑终止对抗行为？"
  MECH_END_RIVALRY_ACCEPT_FRIENDLY:0 "了解。[Root.GetName]将尝试执行宽恕宏指令。"
- MECH_END_RIVALRY_ACCEPT_NEUTRAL:0 "非常好，[From.GetSpeciesNamePlural]。[Root.GetName]将停止宿敌行为。"
+ MECH_END_RIVALRY_ACCEPT_NEUTRAL:0 "非常好，[From.GetSpeciesNamePlural]。[Root.GetName]将停止劲敌行为。"
  MECH_END_RIVALRY_ACCEPT_HOSTILE:0 "确认停止对抗。[From.GetName]外交状态：仍然厌恶。"
  MECH_INTEGRATE_FRIENDLY:0 "[Root.GetName]作为[From.GetName]的一部分将运作得更好。"
  MECH_INTEGRATE_NEUTRAL:0 "我们正在接收你，[From.GetName]。服从你的条款。"
- MECH_INTEGRATE_HOSTILE:0 "警告！硬件系统不兼容。你确定要继续集成吗？"
+ MECH_INTEGRATE_HOSTILE:0 "警告！硬件系统不兼容。您确定要继续集成吗？"
  MECH_INTEGRATE_PROPOSE:0 "在[From.GetName]的多重机械中，[Root.GetName]将是油料最充足的齿轮。"
  MECH_INTEGRATE_ACCEPT_HOSTILE:0 "错误！检查到合并冲突！请放弃尝试集成[Root.GetSpeciesAdj]！"
  MECH_INTEGRATE_ACCEPT:0 "已了解，[From.GetSpeciesNamePlural]。我们[Root.GetSpeciesNamePlural]会尝试将我们的主要事务和可执行程序集成到[From.GetSpeciesAdj]的社会中。"
@@ -1636,7 +1651,7 @@
  E_PEACE_REFUSE_02:0 "否决。杀光所有[From.GetSpeciesNamePlural]。"
  E_PEACE_REFUSE_03:0 "我们不懂怜悯。我们不懂宽容。你们将被彻底消灭。"
  E_ITOA_SELECT_01:0 "[From.GetName]想与[Root.GetName]组成联邦吗？"
- E_ITOA_PROPOSE_01:0 "[Root.GetSpeciesName]，我们[From.GetName]提议以联邦的形式联合我们的舰队，将消灭有机体的效率提高至最大。"
+ E_ITOA_PROPOSE_01:1 "我们[From.GetName]提议将我们的力量整合为同一个联邦，这样就能将有机体灭绝倡议的执行效率最大化。"
  E_ITOA_ACCEPT_01:0 "[From.GetAdj]提议是充分。我们组成联邦将一起铲除有机体们。"
  E_ITOA_REFUSE_HOSTILE_01:0 "你的提案被拒绝了，[From.GetName]。[From.GetAdj]战争机器的劣势会抑制有机体的毁灭。"
  E_ITOA_REFUSE_01:0 "否决。[Root.GetAdj]存在对于§Y[From.GetAllianceName]§!是多余的。"
@@ -1680,10 +1695,10 @@
  #E_CANCEL_TRADE_DEAL_ACCEPT:0 "$E_RELEASE_SUBJECT_PROPOSE$"
  E_MAKE_RIVAL_PROPOSE:0 "§Y你们已被视为要消灭的目标§!。"
  E_MAKE_RIVAL_ACCEPT:0 "你们已经上我们的消灭清单的前三名。"
- E_MAKE_RIVAL_ACCEPT_02:0 "如果我们有大笑的能力，而你们挑战拥有毁灭力量的[Root.GetName]的意图将激活它。"
+ E_MAKE_RIVAL_ACCEPT_02:0 "如果我们有大笑的能力，而你们对抗拥有毁灭力量的[Root.GetName]的意图将激活它。"
  E_MAKE_RIVAL:0 "[From.GetSpeciesNamePlural]，你们居然还活着？感谢你提醒了我们。"
  E_END_RIVALRY_ACCEPT:0 "不要再挡我们的路了，[From.GetSpeciesNamePlural]。"
- E_END_RIVALRY:1 "[From.GetSpeciesName]想要结束与[Root.GetName]之间无意义的对抗？"
+ E_END_RIVALRY:1 "[From.GetSpeciesName]想要结束与[Root.GetName]的无意义竞争？"
  E_INSULT:0 "你们那可怜的神经网络在尝试计算什么？"
  E_INSULT_FRIENDLY:0 "正在等待输入。"
  E_INSULT_ACCEPT_01:0 "你已经证明自己值得彻底消灭。"
@@ -1721,7 +1736,7 @@
  S_ASK_JOIN_A_ACCEPT_01:0 "我们很高兴的通知你们，你们已经被§Y[From.GetAllianceName]§!接受了。"
  S_ASK_JOIN_A_ACCEPT_02:0 "欢迎，尊敬的[From.GetSpeciesNamePlural]。[Root.GetAllianceName]会好好招待你。请享用这些免费的有机纠纷抑制剂。它们有如薄荷般的清新感觉！"
  S_ASK_JOIN_A_REFUSE:0 "我们已经对你们的参数进行评估，不幸的是你们没有达标。建议你们应当让自己在未来对其他帝国更有价值。"
- S_LEAVE_A_SELECT:0 "我们有义务通知您，实证表明离开联盟不符合您的最佳利益。"
+ S_LEAVE_A_SELECT:0 "我们有义务通知您，实证表明离开同盟不符合您的最佳利益。"
  S_LEAVE_A_PROPOSE:0 "我们很遗憾的通知你们，我们就要离开§Y[Root.GetAllianceName]§!，我们的路线只允许我们与胜利者在一起。"
  S_LEAVE_A_ACCEPT:0 "我们必须警告你，离开§Y[From.GetAllianceName]§!会让你更容易遭受攻击。"
  S_DEMAND_VASS_SELECT:0 "你们想让我们成为你们的附庸国？我们必须仔细评估这样的安排造成的影响。"
@@ -1755,7 +1770,7 @@
  #S_CANCEL_TRADE_DEAL_ACCEPT:0 "We have processed your request and have no need to extend the deal further if it goes against your wishes. Your satisfaction is our priority."
  S_MAKE_RIVAL:1 "这就是你们真实的想法吗，[From.GetSpeciesName]？"
  S_MAKE_RIVAL_PROPOSE:0 "我们不得不提醒你们，我们发现越来越难以容忍你们的存在。"
- S_MAKE_RIVAL_ACCEPT:0 "如果你们需要一个宿敌，我们不会让你们失望。我们生来就是为别人服务。"
+ S_MAKE_RIVAL_ACCEPT:0 "如果你们需要一个劲敌，我们不会失望。我们生来就是为别人服务。"
  S_END_RIVALRY:0 "我们感觉到你们已经厌倦了这个无意义的分歧？"
  S_END_RIVALRY_PROPOSE:0 "[Root.GetRulerTitle]，为什么我们不放弃之间分歧并互相接受对方的差异呢？"
  S_END_RIVALRY_ACCEPT:0 "我们看到了你们的承诺，[From.GetSpeciesNamePlural]。我们相信放弃对抗能让我们的帝国能从合作中获得更多。"
@@ -1836,7 +1851,7 @@
  A_INTEGRATE:0 "我们会处理你们的请求。"
  A_INTEGRATE_PROPOSE:0 "你们将成为[From.GetName]的一员。"
  A_INTEGRATE_ACCEPT:0 "我们是[Root.GetSpeciesNamePlural]，而且我们将永远是[Root.GetSpeciesNamePlural]。"
- A_INSULT_01:1 "口语是种卑微的表达方式，如果你要这么做就继续吧。"
+ A_INSULT_01:1 "口语是种卑微的交流方式，如果你要这么做就继续吧。"
  A_INSULT_02:1 "表明你的来意，[From.GetSpeciesName]。"
  A_INSULT_PROPOSE_01:0 "我们已经决定了你们的命运，[Root.GetSpeciesNamePlural]。这与你们像[Root.GetSpeciesNamePluralInsult]一样交配并如瘟疫在银河系间蔓延无关。"
  A_INSULT_PROPOSE_02:0 "你们很快就过时了，[Root.GetSpeciesNamePlural]。"
@@ -1873,10 +1888,10 @@
  ORG_TO_MECH_ITOA_REFUSE_HOSTILE_01:0 "你们使用冰冷无情的传感器视图预测我们的每一步动作。我们怎么可能相信一个如此扭曲的造物？"
  ORG_TO_MECH_ITOA_REFUSE_SPIR_01:0 "你们可以像一个有机体一样走路、说话，但你们并不是一个有机体。你们是一个没有灵魂的机器，我们不会参与一个邪恶的联盟。"
  ORG_TO_MECH_ITOA_REFUSE_01:0 "抱歉，[From.GetSpeciesClassPlural]。我们现在并不需要一个盟友。"
- ORG_TO_MECH_ITOA_PROPOSE_01:0 "你们是时候加入即将获得胜利的团队了，[Root.GetSpeciesNamePlural]。在我们这里你们可以同平常一样好好工作。"
- ORG_TO_MECH_ITOA_PROPOSE_02:0 "我们由血肉组成，而你们由金属构成，但很少有人像你们这样了解[From.GetSpeciesNamePlural]。你们会和我们结盟吗？"
+ ORG_TO_MECH_ITOA_PROPOSE_01:1 "加入胜利一方吧，[Root.GetSpeciesNamePlural]。我们这边需要像你这样的杰出机器。"
+ ORG_TO_MECH_ITOA_PROPOSE_02:1 "我们或许是血肉之躯，而你们由钢铁铸成，但是很少有人能够像你们这样了解[From.GetSpeciesNamePlural]。"
  ORG_TO_MECH_ITOA_PROPOSE_03:0 "燃料、电池、电子宠物——无论你们想要什么——我们在一起都可以实现。"
- ORG_TO_MECH_ITOA_PROPOSE_04:0 "我们非常喜欢银河系中的其他生命形式。和我们站在一起，你们会成为有机体政坛上的大玩家。"
+ ORG_TO_MECH_ITOA_PROPOSE_04:1 "我们在银河其他生命形式间口碑好评如潮。跟我们站在一起，你们能够参与有机体政坛。"
  #ORG_TO_MECH_ITOA_VOTE_PROPOSE: "If we intend to grow our federation's sphere of influence we need to grow in numbers. We believe the §Y[Root.GetName]§! could make a powerful ally."
  ORG_TO_MECH_ASK_JOIN_A_SELECT_01:0 "到这以后我们似乎能听到你们的风扇转速越来越快。是什么让你们的处理器如此繁忙？"
  ORG_TO_MECH_ASK_JOIN_A_PROPOSE_01:0 "我们一直羡慕你们不受情绪的左右，还有你们那机油的完美品味。你们能考虑一下让我们成为§Y[Root.GetAllianceName]§!一员吗？"
@@ -1968,7 +1983,7 @@
  FP_ITOA_REFUSE:0 "我们不想跟你们合作，我们只想彻底消灭[Root.GetSpeciesName]."
  FP_DEMAND_VASS_SELECT:0 "你想让我们为宇宙的寄生虫效劳？"
  FP_DEMAND_VASS_PROPOSE:0 "如果你们愿意帮助我们消灭一个更恶心的种族，我们可以考虑暂且饶你们一命。"
- FP_DEMAND_VASS_REFUSE:0 "我们宁愿扼杀自己的[From.GetSpeciesSpawnNamePlural]、毁掉自己的星球，每个[From.GetSpeciesName]都切开自己的[From.GetGetSpeciesOrganName]，也不愿意与你们狼狈为奸。"
+ FP_DEMAND_VASS_REFUSE:0 "我们宁愿扼杀我们的[From.GetSpeciesSpawnNamePlural]，摧毁我们的星球，每个[From.GetSpeciesName]宁愿切开自己的[From.GetSpeciesOrganName]也不愿与你们狼狈为奸。"
  FP_RELEASE_SUBJECT_SELECT:0 "你会让我们再次获得随意屠戮的权利吗？"
  FP_RELEASE_SUBJECT_ACCEPT:0 "我们绝不放过这个机会。一定要将这些外星渣滓彻底清除。"
  FP_ASK_TO_BE_RELEASED_SUBJECT_PROPOSE:0 "我们必须摆脱这种低声下气的局面，回到我们该走的路上！"
@@ -1976,7 +1991,7 @@
  FP_EMBASSY_ACCEPT:0 "从原则上来讲，我们会先毁掉其他一切，最后再烧掉这座建筑。"
  FP_RECALL_EMBASSY_PROPOSE:0 "关于你们的使馆，我们已改变了政策。使馆将不再享受庇护，已被我们彻底摧毁。"
  FP_MAKE_RIVAL_PROPOSE:1 "近期，一项决议得到通过，该决议将[Root.GetSpeciesNamePlural]的大屠杀和肃清确定为优先事务。"
- FP_MAKE_RIVAL_ACCEPT_HOSTILE:0 "我们不在乎宇宙中哪个渣滓又将我们视为“宿敌”。因为所有非我族类终将会被毁灭。"
+ FP_MAKE_RIVAL_ACCEPT_HOSTILE:0 "我们不在乎宇宙中哪个渣滓又将我们视为“劲敌”。因为所有非我族类终将会被毁灭。"
 
  # Insults
  01_INSULT_CLOTHES:0 "你们为什么要用奇怪的织物将自己罩起来？是想隐藏什么？难道是你们那丑陋的外表？"
@@ -1999,7 +2014,7 @@
  01_INSULT_PROPOSE_MAM17:0 "你的相貌就和你脑后的刚毛一样刺眼。"
 
  #  Misc Diplomatic Actions
- 01_FORM_DP_SELECT:0 "你想建立相互保护关系吗？"
+ 01_FORM_DP_SELECT:0 "您要建立相互保护关系吗？"
  01_FORM_DP_PROPOSE:1 "我们不想让你的帝国被牵扯进冲突之中，但团结协作、共同抵御潜在的威胁对我们双方都有好处。"
  01_FORM_DP_ACCEPT:0 "我们彼此照应，互帮互助。"
  01_FORM_DP_REFUSE:0 "我们自己能照顾好自己。"
@@ -2056,12 +2071,12 @@
  01_REVOKE_FEDERATION_ASSOCIATION_STATUS_VOTE_PROPOSE:0 "亲爱的盟友，我们的联邦跟§Y[Root.GetName]§!之间的关系开始成为累赘了。我们建议废除他们的协作国地位。"
  01_ASK_FEDERATION_ASSOCIATION_STATUS_SELECT:0 "[From.GetName]有没有兴趣获取§Y[Root.GetAllianceName]§!的协作国地位？"
  01_ASK_FEDERATION_ASSOCIATION_STATUS_PROPOSE:0 "[From.GetName]愿意跟§Y[Root.GetAllianceName]§!达成更紧密的合作关系。成员国资格我们暂且不过问，但你们能否考虑给予我们协作国地位？"
- 01_ASK_FEDERATION_ASSOCIATION_STATUS_ACCEPT:0 "我们非常期待[From.GetName]与§Y[Root.GetAllianceName]§!的合作。"
+ 01_ASK_FEDERATION_ASSOCIATION_STATUS_ACCEPT:1 "我们非常期待[From.GetName]与§Y[Root.GetAllianceName]§!的通力合作！我们应当立刻就事项投票表决。"
  01_ASK_FEDERATION_ASSOCIATION_STATUS_REFUSE:0 "§Y[Root.GetAllianceName]§!不是很有意愿与[From.GetName]如此紧密地合作。"
  01_END_FEDERATION_ASSOCIATION_STATUS_SELECT:0 "[From.GetName]对[Root.GetAllianceName]的理解到此为止了吗？"
  01_END_FEDERATION_ASSOCIATION_STATUS_PROPOSE:0 "[From.GetName]已不再有兴趣维持[Root:GetAllianceName]的协作国关系了。"
  01_END_FEDERATION_ASSOCIATION_STATUS_ACCEPT:0 "[Root.GetAllianceName]会在没有[From.GetSpeciesAdj]朋友的情况下继续前行。"
- 
+
  01_FORM_COMMERCIAL_PACT_SELECT:0 "你想与[Root.GetName]展开商业合作吗，[From.GetSpeciesNamePlural]？"
  01_FORM_COMMERCIAL_PACT_PROPOSE:0 "我们认为[Root.GetName]和[From.GetName]可以互利互惠。我们提议签订一项双赢的商业合约。"
  01_FORM_COMMERCIAL_PACT_ACCEPT:0 "嗯，这提议不错。我们同意签订商业合约。"
@@ -2077,7 +2092,7 @@
  01_BREAK_RESEARCH_AGREEMENT_SELECT:0 "你为何希望终止我们科学家之间的合作？"
  01_BREAK_RESEARCH_AGREEMENT_PROPOSE:0 "我们认为与你们共享科技已经没有好处了，[From.GetSpeciesName]。我们帝国之间的研究协议从此作废。"
  01_BREAK_RESEARCH_AGREEMENT_ACCEPT:0 "这真是太遗憾了。我们不明白你为何决定停止分享你的智慧。"
- 
+
  01_DEMAND_TRIBUTARY_SELECT:0 "你觉得[Root.GetName]欠你们贡品吗？"
  01_DEMAND_TRIBUTARY_PROPOSE:0 "我们并不是要你们放弃自主权，[Root.GetSpeciesNamePlural]，但你们也该还清旧账了。"
  01_DEMAND_TRIBUTARY_ACCEPT:0 "从我们目前的状况来看，这应该是最好的安排了。"
@@ -2154,7 +2169,7 @@
  MECH_OPEN_BORDERS_SELECT:0 "请确认重新开启[Root.GetAdj]单位的[From.GetAdj]边界访问权限。"
  MECH_OPEN_BORDERS_PROPOSE:0 "警告：[From.GetAdj]超级智能已经决定对您开放我们的边界，[Root.GetSpeciesNamePlural]。"
  MECH_OPEN_BORDERS_ACCEPT:0 "收到。感谢授权[From.GetAdj]对[Root.GetName]的边界访问。"
- MECH_CLOSE_BORDERS_SELECT:0 "警告：您在尝试对所有[Root.GetSpeciesNamePlural]关闭[From.GetAdj]空间。您希望继续？"
+ MECH_CLOSE_BORDERS_SELECT:0 "警告：您在尝试对所有[Root.GetSpeciesNamePlural]关闭[From.GetAdj]空间。您要继续吗？"
  MECH_CLOSE_BORDERS_PROPOSE:0 "警报：[From.GetAdj]超级智能发现[Root.GetAdj]继续进入[From.GetAdj]的空间没有任何好处，于是我们的边界对[Root.GetName]关闭了，立即生效。"
  MECH_CLOSE_BORDERS_ACCEPT:0 "您发布废除[Root.GetSpeciesNamePlural]边界访问命令已收到。[Root.GetName]将不再能够进入[From.GetAdj]的空间"
  MECH_KICK_FROM_ALLIANCE_SELECT:0 "警告！你正在尝试将[Root.GetName]从§Y[From.GetAllianceName]§!中脱离。请确认继续。"

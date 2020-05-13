@@ -16,8 +16,8 @@
  ####################################
  media_coverage_positive_high:0 "极度正面的媒体报道"
  media_coverage_positive_medium:0 "相当正面的媒体报道"
- media_coverage_positive_low:0 "正面的媒体报道"
- media_coverage_negative_low:0 "负面的媒体报道"
+ media_coverage_positive_low:0 "正面媒体报道"
+ media_coverage_negative_low:0 "负面媒体报道"
  media_coverage_negative_medium:0 "相当负面的媒体报道"
  media_coverage_negative_high:0 "极度负面的媒体报道"
  scientist_team_well_treated:0 "得到休息的科学家"
@@ -38,8 +38,8 @@
  immigrants_protection:0 "保护少数族群"
  fear_as_control_militarist_p2:0 "担忧的行政机构"
  alien_genome_research:0 "外星基因组研究"
- syndaw_research_bonus:0 "超频运算"
- syndaw_production_surplus:0 "生产指标盈余"
+ syndaw_research_bonus:0 "计算超频"
+ syndaw_production_surplus:0 "生产超出定额"
  
  ####################################
  # Edicts 
@@ -72,7 +72,7 @@
  ai_fleet_desc:0 "在这颗行星上有一支损毁的AI控制的舰队，给我们提供了珍贵的工程数据以供研究。"
  irradiated_wasteland:0 "辐射废土"
  irradiated_wasteland_desc:0 "这颗行星遭受了射线轰击，其上的绝大部分区域都不再适宜生物生存。"
- ancient_one:0 "古神"
+ ancient_one:0 "旧日支配者"
  ancient_one_desc:0 "古老的存在，居住在深海之下，是主宰行星的生命力量。"
  food_rich_planet:0 "富营养食物"
  food_rich_planet_desc:0 "行星的植物群提供了富含营养的水果和物质，可以改善生存环境。"
@@ -116,12 +116,12 @@
  infectious_disease_desc:0 "一种高度传染性疾病散播开来，新的困境出现，民众受到威胁。"
  pyramid_wars:0 "天启战争"
  pyramid_wars_desc:0 "由于“天人”的真正神性的不同理解造成的宗教冲突，人们爆发了全面战争。"
- syndaw_automated_work:0 "自动化的工作流程"
- syndaw_automated_work_desc:0 "不管合理与否，对自动化导致的失业的担忧正在影响着这可行星。"
+ syndaw_automated_work:0 "自动工作进程"
+ syndaw_automated_work_desc:0 "不管合理与否，对自动化导致失业的担忧正在影响着这颗行星。"
  syndaw_unfriendly_robots:0 "机器人融合紧张"
  syndaw_unfriendly_robots_desc:0 "行星上有体机人口与机器人人口之间的紧张关系减少了我们的£unity£凝聚力产出。"
- syndaw_research_malus:0 "AI失败"
- syndaw_research_malus_desc:1 "一个参与社会学研究的实验室AI的终端硬件受损，目前正在更换。"
+ syndaw_research_malus:0 "人工智能故障"
+ syndaw_research_malus_desc:1 "一个参与社会学研究的实验室人工智能的终端硬件受损，目前正在更换。"
 
  ####################################
  # Ship/Fleet Modifiers 
@@ -131,7 +131,7 @@
  alien_racing_ship_plural:0 "科研船"
  protege_onboard:0 "前途无量的船员"
  ship_master_cruiser:0 "先驱飞船设计"
- ship_excess_power:0 "盈余力量"
+ ship_excess_power:0 "盈余能量"
  
  ####################################
  # Pop Modifiers

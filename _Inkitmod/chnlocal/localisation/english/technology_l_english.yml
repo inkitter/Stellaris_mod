@@ -41,7 +41,7 @@
  tech_space_exploration:0 "空间探索"
  tech_space_exploration_desc:0 "超光速航行的实现意味着空间探索新的黎明。载人探索其他星系的任务不只是可能，而成为必须。"
  tech_corvettes:0 "护卫舰"
- tech_corvettes_desc:0 "超光速技术的突破允许我们尝试将传统的地表起飞航天飞船模式向军用转变，最终创造了相对小、快速、易于操作但火力有限的军舰。"
+ tech_corvettes_desc:0 "超光速技术的突破允许我们尝试将传统的地表起飞航天飞机框架向军用转变，最终创造了相对小、快速、易于操作但火力有限的军舰。"
  tech_destroyers:0 "驱逐舰"
  tech_destroyers_desc:0 "尽管驱逐舰比护卫舰更大， 但是其船体仍然为相对灵活的炮艇而设计。"
  tech_cruisers:0 "巡洋舰"
@@ -106,6 +106,10 @@
  tech_defense_platform_hull_1:0 "改进结构完整性"
  tech_defense_platform_hull_1_desc:0 "强化的框架结构和具有更强冲击吸收能力的防爆护盾，即使在巨大压力下，也能确保平台的结构完整性。"
  
+ tech_habitat_1:0 "轨道栖所"
+ tech_habitat_1_desc:0 "允许建设规模庞大、自给自足的轨道栖所。"
+ 
+
  #Spaceport Modules
  #tech_corvette_assembly:0 "Advanced Corvette Designs"
  #tech_corvette_assembly_desc:0 "Unused" # TEMP
@@ -153,7 +157,7 @@
  tech_crystal_armor_2_desc:1 "将水晶材料引入锻造工艺中，可以极大提高水晶聚合材料的硬度。"
 
  tech_dragon_armor:0 "人造龙鳞甲"
- tech_dragon_armor_desc:0 "以太龙兽的鳞甲由多层独特的矿石纳米结构构成。非正统的制造工艺让我们得以尽力模拟出这种自我修复的结构。"
+ tech_dragon_armor_desc:0 "以太龙兽的鳞甲由多层独特的矿石纳米结构构成。非正统的制造工艺让我们得以尽力仿真出这种自我修复的结构。"
 
 # Thruster Components
  tech_thrusters_1:0 "化学推进器"
@@ -246,6 +250,8 @@
  # TEMP
  tech_matter_generator:0 "质能转化器"
  tech_matter_generator_desc:0 "通过使用大量的能量，我们能用光从看似虚无转化为物质。"
+ tech_mega_assembly:0 "巨规模装配系统"
+ tech_mega_assembly_desc:0 "先进的装配模板系统使我们能够大幅提升装配新单位的效率。"
  
  # Space Mining
  tech_space_construction:0 "世外建设"
@@ -648,8 +654,8 @@
  tech_engos_vapor_desc:3 "一种自然形成的兴奋剂，可以帮助所有形式的生命适应并演化。它也可作为能量武器的高效导体。"
  tech_pitharan_dust:0 "铍烯兰粉末提炼"
  tech_pitharan_dust_desc:3 "这种能量密度极高的粉尘可以作为极好的肥料。" # NOTE 原文误
- tech_mine_zro:0 "卓气蒸馏"
- tech_mine_zro_desc:3 "一种极其罕见的外来粒子气溶胶。它因彗星撞击在一些星球发现矿藏，但其起源仍是个谜。如果被有灵能的人摄取，卓气可以作为非常有效的（成瘾性）药物增强灵能。"
+ tech_mine_zro:0 "卓尘蒸馏"
+ tech_mine_zro_desc:3 "一种极其罕见的外来粒子气溶胶。它因彗星撞击在一些星球发现矿藏，但其起源仍是个谜。如果被有灵能的人摄取，卓尘可以作为非常有效的（成瘾性）药物增强灵能。"
  
  # Biolab and Colonization
  tech_society_1:0 "生物多样性研究"
@@ -868,13 +874,15 @@
  tech_planetary_unification_desc:2 "远古时期的好战部落，历史上的逐鹿群雄，如今统一为一个帝国。我们绝不会，也永不会，崩溃。"
  tech_planetary_unification_machine_intelligence:0 "统一数据标准"
  tech_planetary_unification_desc_machine_intelligence:0 "无法容忍任何偏差。"
- tech_adaptive_bureaucracy:0 "自适应官僚体制"
- tech_adaptive_bureaucracy_desc:1 "我们所取得的进步需要一种更加灵活的全新行政形式。这种行政形式能够为我们的事业提供帮助，而非碍手碍脚。" # The leaps/progress/discoveries we have made demand a new form of administrative system, one that can be shaped by opportunity rather than limit it.
+ tech_adaptive_bureaucracy:0 "自适应官僚制"
+ tech_adaptive_bureaucracy_desc:1 "我们取得的进步需要一种更灵活的全新行政系统。这种行政系统能够为我们的事业提供帮助，而非碍手碍脚。"
  tech_adaptive_bureaucracy_machine_intelligence:0 "正电子处理器"
  tech_adaptive_bureaucracy_desc_machine_intelligence:0 "与先前型号相比，正电子处理器成本更低，生产速度更快，这使我们能够将更多领袖单元投入服务。"
- tech_colonial_bureaucracy:0 "殖民地官僚体制"
- tech_colonial_bureaucracy_desc:0 "地方行政发展使我们能够对殖民事务开展更密切的监督，而不会加重中央决策负担。"
- tech_galactic_bureaucracy:0 "银河系官僚体制"
+ tech_effective_bureaucracy:0 "高效官僚制"
+ tech_effective_bureaucracy_desc:0 "用于处理并组织海量数据的先进算法简化了全帝国的决策和信息共享流程。"
+ tech_colonial_bureaucracy:0 "殖民地官僚制"
+ tech_colonial_bureaucracy_desc:0 "地方行政的发展使我们能够对殖民事务开展更密切的监督，而不会过分加重中央决策的负担。"
+ tech_galactic_bureaucracy:0 "银河系官僚制"
  tech_galactic_bureaucracy_desc:0 "多重行政层级可以有效地仅将最重要的信息传递给上层政府。"
  tech_colonial_centralization:0 "殖民地中央集权"
  tech_colonial_centralization_desc:1 "针对各种情况设计不同策略的稳健地方政治框架，以满足每个殖民地的需要。"
@@ -944,7 +952,7 @@
  tech_heritage_site_desc_corporate:0 "潜意识焦点测试的发明使我们的营销和销售部门获得了巨大的效率提升。如果将这些方法应用于我们的智慧资源部门，我们将成为企业管理方面的大胆新标杆。"
  tech_heritage_site_machine_intelligence:0 "行星通信"
  tech_heritage_site_desc_machine_intelligence:0 "不同单元间信息和指令的近瞬时传输至关重要。"
- tech_hypercomms_forum:0 "本地超通讯"
+ tech_hypercomms_forum:0 "本地超通信"
  tech_hypercomms_forum_desc:0 "并非所有关于超光速通信的研究都有有用的结果，但一些成果可能会发现将人们团结在一起的新目的。"
  tech_hypercomms_forum_corporate:0 "后相对论协同"
  tech_hypercomms_forum_desc_corporate:0 "只能以亚光速开展企业协同的时代早已成为过去。现在是超光速经济的美丽新时代，我们的企业文化也必须克服过时的相对论限制。"
@@ -1024,8 +1032,8 @@
  #Society:
  tech_repeatable_improved_tile_food_output:0 "转基因作物"
  tech_repeatable_improved_tile_food_output_desc:1 "一种转基因作物能够提供多种标准作物的营养元素。"
- tech_repeatable_improved_sector_cap:0 "通讯协议"
- tech_repeatable_improved_sector_cap_desc:1 "改进的超光速通讯频道可以传达更连贯的管理指令。"
+ tech_repeatable_improved_sector_cap:0 "通信协议"
+ tech_repeatable_improved_sector_cap_desc:1 "改进的超光速通信频道可以传达更连贯的管理指令。"
  tech_repeatable_improved_core_system_cap:0 "管理效率"
  tech_repeatable_improved_core_system_cap_desc:1 "重构管理网络，将核心星球连接至首都，可以缓解新帝国内时常出现的管理压力源和信息瓶颈。"
  tech_repeatable_improved_leader_cap:0 "智慧生物资源管理"
@@ -1107,6 +1115,8 @@
  tech_curator_lab_desc:1 "这种船载实验设施整合了来自典藏研究所的先进科技，可以进一步加快勘察速度。"
  tech_archeology_lab:0 "典藏研究所考古实验室"
  tech_archeology_lab_desc:1 "这种船载实验室配备了先进考古设备，包括一个由典藏研究所提供的大型数据库，其可以对新发现随时进行交叉比对。"
+ tech_archeology_lab_ancrel:0 "$tech_archeology_lab$"
+ tech_archeology_lab_ancrel_desc:0 "$tech_archeology_lab_desc$"
 
  #####################################
  # Machine Empire Techs
