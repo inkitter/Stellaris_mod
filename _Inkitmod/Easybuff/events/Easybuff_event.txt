@@ -23,10 +23,6 @@ country_event = {
         hidden_effect = { country_event = { id = easybuff.1 } }
     }
 
-    option = {
-        name = BlackTech
-        hidden_effect = { country_event = { id = easybuff.2 } }
-    }
 
     option = {
         name = GetTechnology
@@ -76,72 +72,6 @@ country_event = {
     }
 }
 
-# 2 Black Tech
-country_event = {
-    id = easybuff.2
-    title = "Easybuff Black Technologies"
-	desc = "easybuff.2.desc"
-	picture = GFX_evt_society_research
-    is_triggered_only = yes
-    trigger = { is_ai = no }
-    option = {
-        name = CorvetteMIDCore
-        give_technology = { tech = tech_eb_covmid }
-        hidden_effect = { country_event = { id = easybuff.2 } }
-    }
-    option = {
-        name = PlanetKillerGaiaGenerator
-        if = {
-            limit = { NOT = { has_technology = tech_eb_pkgaia } }
-            give_technology = { tech = tech_eb_pkgaia }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_colossus } }
-            give_technology = { tech = tech_colossus }
-        }
-        hidden_effect = {
-            if = {
-                limit = { NOT = { has_technology = tech_starbase_1 } }
-                give_technology = { tech = tech_starbase_1 }
-            }
-            if = {
-                limit = { NOT = { has_technology = tech_starbase_2 } }
-                give_technology = { tech = tech_starbase_2 }
-            }
-            if = {
-                limit = { NOT = { has_technology = tech_starbase_3 } }
-                give_technology = { tech = tech_starbase_3 }
-            }
-            if = {
-                limit = { NOT = { has_technology = tech_starbase_4 } }
-                give_technology = { tech = tech_starbase_4 }
-            }
-            if = {
-                limit = { NOT = { has_technology = tech_starbase_5 } }
-                give_technology = { tech = tech_starbase_5 }
-            }
-            country_event = { id = easybuff.2 }
-        }
-        owner = {
-            # save_event_target_as = owner_country
-            create_fleet = {
-                name = "EasyBuff Colossus"
-                effect = {
-                    set_owner = prev
-                    create_ship = {
-                        name = "NAME_Colossus_EB"
-                        design = "NAME_Colossus"
-                    }
-                    set_location = root.capital_star
-                }
-            }
-        }
-    }
-    option = {
-        name = Back
-        hidden_effect = { country_event = { id = easybuff.1 } }
-    }
-}
 
 # 10 Get Tech
 country_event = {
