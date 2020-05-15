@@ -58,6 +58,7 @@
  tech_eb_pkgaia:0 "Planet Killer: Gaia Generator"
  is_not_a_star:0 "Is not a Star"
  is_a_star:0 "Is a Star"
+ d_easybuff_sr:0 "Super SR"
 
  ToggleDefaultBuff:0 "ToggleDefaultBuff"
  GetTechnology:0 "GetTechnology"
@@ -87,3 +88,11 @@
  ResourceClear:0 "ResourceClear"
  Ascensions:0 "Ascensions"
  BasicBuffs:0 "BasicBuffs"
+ MidShip:0 "MidShip"
+
+ ShipRecovery:0 "ShipRecovery"
+ NavalCapacityLv1:0 "NavalCapacityLv1"
+ NavalCapacityLv2:0 "NavalCapacityLv2"
+ ResearchLv2:0 "ResearchLv2"
+ ResearchLv3:0 "ResearchLv3"
+ MidShip:0 "MidShip"

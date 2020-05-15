@@ -1,4 +1,5 @@
 easy_buff_default = {
+  length = 0
   potential = { is_ai = no }
   effect = { country_event = { id = easybuff.1 } }
 }

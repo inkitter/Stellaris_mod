@@ -1,26 +1,12 @@
 modifier_easybuf_default = {
     ascension_perks_add = 4
 
-    leader_age = 1000
-    country_resource_max_add = 100000
     country_base_influence_produces_add = 2
     country_unity_produces_mult = 0.1
-    
-    COUNTRY_LEADER_POOL_SIZE = 2
-    LEADER_SKILL_LEVELS = 5
-    num_tech_alternatives_add = 2
-    all_technology_research_speed = 1
 
-    ship_anomaly_fail_risk = -1
-    ship_anomaly_research_speed_mult = 1
-    science_ship_survey_speed = 0.5
-
-    ship_emergency_ftl_mult = -1
-    ship_windup_mult = -1
-    ship_winddown_mult = -1
     SHIP_FTL_JUMPDRIVE_RANGE_MULT = 2
     SHIP_EMERGENCY_FTL_MIN_DAYS_MULT = -1
-    SHIP_SPEED_MULT = 5
+    SHIP_SPEED_MULT = 2
     SHIP_INTERSTELLAR_SPEED_MULT = 5
     ship_evasion_add = 25
   
@@ -30,13 +16,24 @@ modifier_easybuf_default = {
     SHIP_SHIELD_REGEN_ADD_STATIC = 100
     ship_armor_add = 5000
     SHIP_ARMOR_REGEN_ADD_STATIC = 100
-    SHIP_WEAPON_RANGE_MULT = 0.5
-
-    planet_max_buildings_add = 2
+    SHIP_WEAPON_RANGE_MULT = 0.3
 }
 
 modifier_easybuf_base = {
     leader_age = 1000
+    country_resource_max_add = 500000
+    ascension_perks_add = 4
+
+    country_edict_cap_add = 1
+    country_trust_cap_add = 50
+    country_synthetic_trust_cap_add = 50
+    pop_citizen_happiness = 0.5
+    planet_stability_add = 30
+    country_starbase_capacity_add = 10
+    starbase_defense_platform_capacity_add = 12
+    country_megastructure_build_cap_add = 3
+    planet_crime_add = -200
+
     COUNTRY_LEADER_POOL_SIZE = 2
     LEADER_SKILL_LEVELS = 5
     num_tech_alternatives_add = 2
@@ -44,6 +41,10 @@ modifier_easybuf_base = {
     ship_anomaly_fail_risk = -1
     ship_anomaly_research_speed_mult = 1
     science_ship_survey_speed = 0.5
+
+    ship_emergency_ftl_mult = -1
+    ship_windup_mult = -1
+    ship_winddown_mult = -1
 }
 
 modifier_easybuf_resource1 = {
@@ -64,46 +65,47 @@ modifier_easybuf_ascension = {
 }
 
 modifier_easybuf_shipsur1 = {
-    SHIP_HULL_ADD = 20000
-    SHIP_HULL_REGEN_ADD_STATIC = 500
-
-    SHIP_SHIELD_ADD = 8000
-    SHIP_SHIELD_REGEN_ADD_STATIC = 500
-
-    ship_armor_add = 8000
-    SHIP_ARMOR_REGEN_ADD_STATIC = 500
-
-    COUNTRY_NAVAL_CAP_ADD = 50
+    SHIP_HULL_ADD = 7000
+    SHIP_SHIELD_ADD = 4000
+    ship_armor_add = 4000
+    SHIP_SHIELD_REGEN_ADD_STATIC = 100
+    SHIP_HULL_REGEN_ADD_STATIC = 100
+    SHIP_ARMOR_REGEN_ADD_STATIC = 100
+    SHIP_SPEED_MULT = 0.5
+    SHIP_FTL_JUMPDRIVE_RANGE_MULT = 0.5
 }
 
 modifier_easybuf_shipsur2 = {
-    shipsize_corvette_hull_add = 53700
-    shipsize_destroyer_hull_add = 54500
-    shipsize_cruiser_hull_add = 57000
-    shipsize_battleship_hull_add = 55000
-    shipsize_titan_hull_add = 50000
-    SHIP_SHIELD_ADD = 5000
-    SHIP_SHIELD_REGEN_ADD_STATIC = 200
-    ship_armor_add = 3000
-    SHIP_ARMOR_REGEN_ADD_STATIC = 150
-    COUNTRY_NAVAL_CAP_ADD = 50
+    SHIP_SHIELD_ADD = 16000
+    ship_armor_add = 6000
 }
 
-modifier_easybuf_shipcap = {
+modifier_easybuf_shipsur3 = {
+    SHIP_HULL_ADD = 50000
+    SHIP_SHIELD_ADD = 50000
+    ship_armor_add = 50000
+    ship_evasion_add = 25
+}
+
+modifier_easybuf_shiprec = {
+    SHIP_SHIELD_REGEN_ADD_STATIC = 200
+    SHIP_ARMOR_REGEN_ADD_STATIC = 20
+    SHIP_HULL_REGEN_ADD_STATIC = 20
+}
+
+modifier_easybuf_shipcap1 = {
+    COUNTRY_NAVAL_CAP_ADD = 100
+}
+modifier_easybuf_shipcap2 = {
     COUNTRY_NAVAL_CAP_ADD = 500
 }
 
 modifier_easybuf_shipsp1 = {
-    SHIP_SPEED_MULT = 5
-    SHIP_INTERSTELLAR_SPEED_MULT = 5
-
-    SHIP_WEAPON_RANGE_MULT = 0.5
-    ship_fire_rate_mult = 0.8
-    ship_weapon_damage = 0.8
-
     ship_evasion_add = 25
     ship_tracking_add = 10
     ship_accuracy_add = 10
+    SHIP_SPEED_MULT = 2
+    SHIP_INTERSTELLAR_SPEED_MULT = 2
 }
 
 modifier_easybuf_shipwp1 = {
@@ -120,6 +122,12 @@ modifier_easybuf_shiptravel1 = {
     SHIP_EMERGENCY_FTL_MIN_DAYS_MULT = -1
 }
 
-modifier_easybuf_research = {
-    all_technology_research_speed = 10
+modifier_easybuf_research1 = {
+    all_technology_research_speed = 1
+}
+modifier_easybuf_research2 = {
+    all_technology_research_speed = 2
+}
+modifier_easybuf_research3 = {
+    all_technology_research_speed = 50
 }

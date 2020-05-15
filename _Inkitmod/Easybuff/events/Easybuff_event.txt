@@ -60,11 +60,15 @@ country_event = {
         remove_modifier = "modifier_easybuf_ascension"
         remove_modifier = "modifier_easybuf_shipsur1"
         remove_modifier = "modifier_easybuf_shipsur2"
+        remove_modifier = "modifier_easybuf_shiprec"
+        remove_modifier = "modifier_easybuf_shipcap1"
+        remove_modifier = "modifier_easybuf_shipcap2"
         remove_modifier = "modifier_easybuf_shipsp1"
         remove_modifier = "modifier_easybuf_shipwp1"
         remove_modifier = "modifier_easybuf_shiptravel1"
-        remove_modifier = "modifier_easybuf_research"
-        remove_modifier = "modifier_easybuf_shipcap"
+        remove_modifier = "modifier_easybuf_research1"
+        remove_modifier = "modifier_easybuf_research2"
+        remove_modifier = "modifier_easybuf_research3"
     }
 
     option = { 
@@ -291,6 +295,14 @@ country_event = {
         }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
+    option = {
+        name = MidShip
+        if = {
+            limit = { NOT = { has_technology = tech_eb_covmid } }
+            give_technology = { tech = tech_eb_covmid }
+        }
+        hidden_effect = { country_event = { id = easybuff.10 } }
+    }
 
     option = {
         name = Back
@@ -342,6 +354,51 @@ country_event = {
         hidden_effect = { country_event = { id = easybuff.11 } }
     }
     option = {
+        name = ShipRecovery
+        if = {
+            limit = { has_modifier = "modifier_easybuf_shiprec" }
+            remove_modifier = "modifier_easybuf_shiprec"
+            else ={
+                hidden_effect = {
+                    # remove_modifier = "modifier_easybuf_shipsur1"
+                }
+                add_modifier = {
+                    modifier = "modifier_easybuf_shiprec"
+                    days = -1
+		        }
+            }
+        }
+        hidden_effect = { country_event = { id = easybuff.11 } }
+    }
+    option = {
+        name = NavalCapacityLv1
+        if = {
+            limit = { has_modifier = "modifier_easybuf_shipcap1" }
+            remove_modifier = "modifier_easybuf_shipcap1"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_shipcap1"
+                    days = -1
+		        }
+            }
+        }
+        hidden_effect = { country_event = { id = easybuff.11 } }
+    }
+    option = {
+        name = NavalCapacityLv2
+        if = {
+            limit = { has_modifier = "modifier_easybuf_shipcap2" }
+            remove_modifier = "modifier_easybuf_shipcap2"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_shipcap2"
+                    days = -1
+		        }
+            }
+        }
+        hidden_effect = { country_event = { id = easybuff.11 } }
+    }
+    option = {
         name = ShipSpeedLv1
         if = {
             limit = { has_modifier = "modifier_easybuf_shipsp1" }
@@ -383,20 +440,7 @@ country_event = {
         }
         hidden_effect = { country_event = { id = easybuff.11 } }
     }
-    option = {
-        name = NavalCapacity
-        if = {
-            limit = { has_modifier = "modifier_easybuf_shipcap" }
-            remove_modifier = "modifier_easybuf_shipcap"
-            else ={
-                add_modifier = {
-                    modifier = "modifier_easybuf_shipcap"
-                    days = -1
-		        }
-            }
-        }
-        hidden_effect = { country_event = { id = easybuff.11 } }
-    }
+    
     option = {
         name = Back
         hidden_effect = { country_event = { id = easybuff.1 } }
@@ -415,11 +459,39 @@ country_event = {
     option = {
         name = ResearchLv1
         if = {
-            limit = { has_modifier = "modifier_easybuf_research" }
-            remove_modifier = "modifier_easybuf_research"
+            limit = { has_modifier = "modifier_easybuf_research1" }
+            remove_modifier = "modifier_easybuf_research1"
             else ={
                 add_modifier = {
-                    modifier = "modifier_easybuf_research"
+                    modifier = "modifier_easybuf_research1"
+                    days = -1
+		        }
+            }
+        }
+        hidden_effect = { country_event = { id = easybuff.12 } }
+    }
+    option = {
+        name = ResearchLv2
+        if = {
+            limit = { has_modifier = "modifier_easybuf_research2" }
+            remove_modifier = "modifier_easybuf_research2"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_research2"
+                    days = -1
+		        }
+            }
+        }
+        hidden_effect = { country_event = { id = easybuff.12 } }
+    }
+    option = {
+        name = ResearchLv3
+        if = {
+            limit = { has_modifier = "modifier_easybuf_research3" }
+            remove_modifier = "modifier_easybuf_research3"
+            else ={
+                add_modifier = {
+                    modifier = "modifier_easybuf_research3"
                     days = -1
 		        }
             }
@@ -451,7 +523,7 @@ country_event = {
     option = {
         name = ResourceClear
         capital_scope = {
-			clear_deposits = yes
+			remove_deposit = d_easybuff_sr
 		}
         hidden_effect = { country_event = { id = easybuff.13 } }
     }
