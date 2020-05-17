@@ -182,6 +182,10 @@ country_event = {
             limit = { NOT = { has_technology = tech_starbase_5 } }
             give_technology = { tech = tech_starbase_5 }
         }
+        if = {
+            limit = { NOT = { has_technology = tech_habitat_1 } }
+            give_technology = { tech = tech_habitat_1 }
+        }
 
         if = {
             limit = { NOT = { has_technology = tech_mega_engineering } }
