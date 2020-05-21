@@ -1,0 +1,3 @@
+	NGameplay = {
+		ASCENSION_PERKS_SLOTS				= 14 # Number of ascension perk slots
+	}

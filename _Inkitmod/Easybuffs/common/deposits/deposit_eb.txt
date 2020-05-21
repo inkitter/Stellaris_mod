@@ -20,27 +20,20 @@ d_easybuff_sr = {
       unity = 50
       society_research = 50
       physics_research = 50
-      engineering_research = 50
+      engineering_research = 100
     }
   }
   planet_modifier = {
-		planet_max_districts_add = 1
     trade_value_add = 50
-    pop_growth_speed = 1
-    planet_housing_add = 150
-    planet_amenities_add = 200
-    job_administrator_add = 2
-    job_noble_add = 2
-    job_executive_add = 2
-    job_soldier_add = 2
-    job_merchant_add = 2
+    job_administrator_add = 5
+    job_noble_add = 5
+    job_executive_add = 5
+    job_soldier_add = 5
+    job_merchant_add = 5
     job_bureaucrat_add = 10
-    job_clerk_add = 100
-    job_farmer_add = 20
-    job_researcher_add = 20
-    planet_crime_add = -200
-    
-    
+    job_clerk_add = 10
+    job_farmer_add = 10
+    job_researcher_add = 25
 	}
   potential = { always = no }
   drop_weight = { weight = 0 }

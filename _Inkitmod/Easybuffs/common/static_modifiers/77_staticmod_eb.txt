@@ -1,28 +1,12 @@
 modifier_easybuf_default = {
-    ascension_perks_add = 4
-
     country_base_influence_produces_add = 2
     country_unity_produces_mult = 0.1
-
-    SHIP_FTL_JUMPDRIVE_RANGE_MULT = 2
-    SHIP_EMERGENCY_FTL_MIN_DAYS_MULT = -1
-    SHIP_SPEED_MULT = 2
-    SHIP_INTERSTELLAR_SPEED_MULT = 5
-    ship_evasion_add = 25
-  
-    SHIP_HULL_ADD = 5000
-    SHIP_HULL_REGEN_ADD_STATIC = 5
-    SHIP_SHIELD_ADD = 5000
-    SHIP_SHIELD_REGEN_ADD_STATIC = 100
-    ship_armor_add = 5000
-    SHIP_ARMOR_REGEN_ADD_STATIC = 100
-    SHIP_WEAPON_RANGE_MULT = 0.3
 }
 
 modifier_easybuf_base = {
     leader_age = 1000
     country_resource_max_add = 500000
-    ascension_perks_add = 4
+    ascension_perks_add = 9
 
     country_edict_cap_add = 1
     country_trust_cap_add = 50
@@ -34,7 +18,7 @@ modifier_easybuf_base = {
     country_megastructure_build_cap_add = 3
     planet_crime_add = -200
 
-    COUNTRY_LEADER_POOL_SIZE = 2
+    COUNTRY_LEADER_POOL_SIZE = 3
     LEADER_SKILL_LEVELS = 5
     num_tech_alternatives_add = 2
 
@@ -43,8 +27,16 @@ modifier_easybuf_base = {
     science_ship_survey_speed = 0.5
 
     ship_emergency_ftl_mult = -1
+    SHIP_EMERGENCY_FTL_MIN_DAYS_MULT = -1
+    SHIP_FTL_JUMPDRIVE_RANGE_MULT = 0.5
     ship_windup_mult = -1
     ship_winddown_mult = -1
+
+    pop_growth_speed = 1
+    planet_jobs_robotic_produces_mult = 1
+    planet_amenities_add = 300
+    planet_crime_add = -200
+    planet_housing_add = 100
 }
 
 modifier_easybuf_resource1 = {
@@ -65,14 +57,13 @@ modifier_easybuf_ascension = {
 }
 
 modifier_easybuf_shipsur1 = {
-    SHIP_HULL_ADD = 7000
-    SHIP_SHIELD_ADD = 4000
-    ship_armor_add = 4000
+    SHIP_HULL_ADD = 8000
+    SHIP_SHIELD_ADD = 5000
+    ship_armor_add = 5000
     SHIP_SHIELD_REGEN_ADD_STATIC = 100
     SHIP_HULL_REGEN_ADD_STATIC = 100
     SHIP_ARMOR_REGEN_ADD_STATIC = 100
     SHIP_SPEED_MULT = 0.5
-    SHIP_FTL_JUMPDRIVE_RANGE_MULT = 0.5
 }
 
 modifier_easybuf_shipsur2 = {

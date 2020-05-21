@@ -1,4 +1,4 @@
-name="Easy Buffs"
+name="Easy Buffs_planet"
 path="mod/_Inkitmod/Easybuff_planet"
 tags={
 	"Utilities"
@@ -6,5 +6,4 @@ tags={
     "Balance"
 }
 picture="easybuff.png"
-remote_file_id="696221722"
 supported_version="2.7.*"

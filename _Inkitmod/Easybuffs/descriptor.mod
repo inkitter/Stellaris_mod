@@ -4,4 +4,4 @@ tags={
 }
 picture="easybuff.png"
 supported_version="2.7.*"
-path="mod/_Inkitmod/Easybuffs"
+remote_file_id="2104561665"

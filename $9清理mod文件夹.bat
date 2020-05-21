@@ -6,19 +6,7 @@ pause
 echo ----本批处理会清理mod文件夹，按 Ctrl + C 终止----
 pause
 @echo on
-del "%mydoc%\Paradox Interactive\Stellaris\mod\!*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\%*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\%%*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\+*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\-*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\]*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\0*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\1*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\_*.mod"
-del "%mydoc%\Paradox Interactive\Stellaris\mod\zi*.mod"
 rmdir "%mydoc%\Paradox Interactive\Stellaris\mod\_Inkitmod"
-rmdir "%mydoc%\Paradox Interactive\Stellaris\mod\_InkitSEL"
-rmdir "%mydoc%\Paradox Interactive\Stellaris\mod\_morechn"
 @echo off
 echo ----清理完成----
 pause
