@@ -1,8 +1,8 @@
 name="!Chinese Font CuYuan"
-path="mod/_Inkitmod/chnFont"
 tags={
 	"Font"
-    "Translation"
+	"Translation"
 }
 picture="cuyuan.png"
 supported_version="3.*.*"
+remote_file_id="1146170499"

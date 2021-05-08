@@ -1,4 +1,4 @@
-[h1] Chinese Font Cuyuan [1.5.*] [/h1]
+[h1] Chinese Font Cuyuan [2.7.*] [/h1]
 
 [h1] 简体中文字体 - 方正粗圆 [/h1]
 

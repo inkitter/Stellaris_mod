@@ -4,36 +4,27 @@ d_easybuff_sr = {
   resources = {
     category = planet_deposits
     produces = {
-      energy = 180
-      food = 150
-      minerals = 40
+      energy = 5000
+      food = 200
+      minerals = 50
       alloys = 50
       consumer_goods = 200
-      exotic_gases = 3
-      rare_crystals = 3
-      volatile_motes = 3
+      exotic_gases = 10
+      rare_crystals = 10
+      volatile_motes = 10
       sr_dark_matter = 1
       sr_living_metal = 1
       sr_zro = 1
       nanites = 1
       minor_artifacts = 1
-      unity = 50
+      unity = 100
       society_research = 50
       physics_research = 50
-      engineering_research = 100
+      engineering_research = 300
     }
   }
   planet_modifier = {
-    trade_value_add = 50
-    job_administrator_add = 5
-    job_noble_add = 5
-    job_executive_add = 5
-    job_soldier_add = 5
-    job_merchant_add = 5
-    job_bureaucrat_add = 10
-    job_clerk_add = 10
-    job_farmer_add = 10
-    job_researcher_add = 25
+
 	}
   potential = { always = no }
   drop_weight = { weight = 0 }

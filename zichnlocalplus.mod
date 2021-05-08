@@ -3,4 +3,4 @@ path="mod/_Inkitmod/chnlocalplus"
 tags={
     "Translation"
 }
-supported_version="2.7.*"
+supported_version="3.*.*"

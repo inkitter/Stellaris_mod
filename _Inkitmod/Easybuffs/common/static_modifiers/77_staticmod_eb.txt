@@ -5,38 +5,50 @@ modifier_easybuf_default = {
 
 modifier_easybuf_base = {
     leader_age = 1000
-    country_resource_max_add = 500000
-    ascension_perks_add = 9
+    country_resource_max_add = 2000000
+    ascension_perks_add = 16
 
-    country_edict_cap_add = 1
-    country_trust_cap_add = 50
-    country_synthetic_trust_cap_add = 50
-    pop_citizen_happiness = 0.5
-    planet_stability_add = 30
-    country_starbase_capacity_add = 10
+    country_edict_cap_add = 2
+    country_trust_cap_add = 500
+    country_synthetic_trust_cap_add = 500
+    pop_citizen_happiness = 1
+    planet_stability_add = 50
+    country_starbase_capacity_add = 0
     starbase_defense_platform_capacity_add = 12
-    country_megastructure_build_cap_add = 3
-    planet_crime_add = -200
+    country_megastructure_build_cap_add = 10
+    planet_crime_add = -500
 
-    COUNTRY_LEADER_POOL_SIZE = 3
-    LEADER_SKILL_LEVELS = 5
+    COUNTRY_LEADER_POOL_SIZE = 1
+    LEADER_SKILL_LEVELS = 2
     num_tech_alternatives_add = 2
 
-    ship_anomaly_fail_risk = -1
-    ship_anomaly_research_speed_mult = 1
-    science_ship_survey_speed = 0.5
+    ship_anomaly_fail_risk = -5
+    ship_anomaly_research_speed_mult = 5
+    science_ship_survey_speed = 5
 
-    ship_emergency_ftl_mult = -1
-    SHIP_EMERGENCY_FTL_MIN_DAYS_MULT = -1
-    SHIP_FTL_JUMPDRIVE_RANGE_MULT = 0.5
-    ship_windup_mult = -1
-    ship_winddown_mult = -1
+    ship_emergency_ftl_mult = -5
+    SHIP_EMERGENCY_FTL_MIN_DAYS_MULT = -5
+    SHIP_FTL_JUMPDRIVE_RANGE_MULT = 5
+    ship_jumpdrive_cooldown_mult = -5
+    ship_windup_mult = -5
+    ship_winddown_mult = -5
 
     pop_growth_speed = 1
-    planet_jobs_robotic_produces_mult = 1
-    planet_amenities_add = 300
-    planet_crime_add = -200
-    planet_housing_add = 100
+	planet_pop_assembly_mult = 1
+    planet_amenities_add = 500
+    planet_crime_add = -500
+    planet_housing_add = 200
+
+    trade_value_add = 1
+    job_administrator_add = 5
+    job_noble_add = 2
+    job_bureaucrat_add = 5
+    job_clerk_add = 200
+    job_researcher_add = 50
+    job_soldier_add = 2
+    job_roboticist_add = 1
+
+    envoys_add = 7
 }
 
 modifier_easybuf_resource1 = {
@@ -67,8 +79,9 @@ modifier_easybuf_shipsur1 = {
 }
 
 modifier_easybuf_shipsur2 = {
-    SHIP_SHIELD_ADD = 16000
-    ship_armor_add = 6000
+    SHIP_SHIELD_ADD = 15000
+    ship_armor_add = 15000
+    SHIP_HULL_ADD = 12000
 }
 
 modifier_easybuf_shipsur3 = {

@@ -101,14 +101,14 @@ country_event = {
             limit = { NOT = { has_technology = tech_automated_exploration } }
             give_technology = { tech = tech_automated_exploration }
         }
-        if = {
-            limit = { NOT = { has_technology = tech_disruptors_1 } }
-            give_technology = { tech = tech_disruptors_1 }
-        }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
     option = {
         name = BasicEquips
+        if = {
+            limit = { NOT = { has_technology = tech_disruptors_1 } }
+            give_technology = { tech = tech_disruptors_1 }
+        }
         if = {
             limit = { NOT = { has_technology = tech_energy_lance_1 } }
             give_technology = { tech = tech_energy_lance_1 }
@@ -237,6 +237,14 @@ country_event = {
     option = {
         name = SyntheticDawn
         if = {
+            limit = { NOT = { has_technology = tech_synthetic_workers } }
+            give_technology = { tech = tech_synthetic_workers }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_synthetic_leaders } }
+            give_technology = { tech = tech_synthetic_leaders }
+        }
+        if = {
             limit = { NOT = { has_technology = tech_robomodding_m } }
             give_technology = { tech = tech_robomodding_m }
         }
@@ -249,20 +257,16 @@ country_event = {
             give_technology = { tech = tech_robomodding_points_1 }
         }
         if = {
-            limit = { NOT = { has_technology = tech_binary_motivators } }
-            give_technology = { tech = tech_binary_motivators }
+            limit = { NOT = { has_technology = tech_robomodding_points_2 } }
+            give_technology = { tech = tech_robomodding_points_2 }
         }
         if = {
-            limit = { NOT = { has_technology = tech_nanite_assemblers } }
-            give_technology = { tech = tech_nanite_assemblers }
+            limit = { NOT = { has_technology = tech_droid_workers } }
+            give_technology = { tech = tech_droid_workers }
         }
         if = {
-            limit = { NOT = { has_technology = tech_adaptive_combat_algorithms } }
-            give_technology = { tech = tech_adaptive_combat_algorithms }
-        }
-        if = {
-            limit = { NOT = { has_technology = tech_biomechanics } }
-            give_technology = { tech = tech_biomechanics }
+            limit = { NOT = { has_technology = tech_robotic_workers } }
+            give_technology = { tech = tech_robotic_workers }
         }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }
@@ -304,6 +308,18 @@ country_event = {
         if = {
             limit = { NOT = { has_technology = tech_eb_covmid } }
             give_technology = { tech = tech_eb_covmid }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_precognition_interface } }
+            give_technology = { tech = tech_precognition_interface }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_sensors_4 } }
+            give_technology = { tech = tech_sensors_4 }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_sentry_array } }
+            give_technology = { tech = tech_sentry_array }
         }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }

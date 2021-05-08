@@ -1,0 +1,25 @@
+hydroponics_bay2 = {
+	icon = "GFX_spaceport_module_hydroponic_farms"
+	construction_days = 5
+
+	initial = yes
+
+	resources = {
+		category = starbase_buildings
+		produces = {
+			food = 0
+			minerals = 0
+		}
+	}
+	country_modifier = {
+		country_trade_fee = -0.05
+	}
+	system_modifier = {
+		pop_government_ethic_attraction = 0.05
+		planet_stability_add = 1
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

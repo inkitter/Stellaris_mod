@@ -1,7 +1,7 @@
-name="Easy Buffs[2.7]"
+name="Easy Buffs"
 tags={
 	"Gameplay"
 }
 picture="easybuff.png"
-supported_version="2.7.*"
+supported_version="3.*.*"
 path="mod/_Inkitmod/Easybuffs"

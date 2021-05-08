@@ -9,7 +9,7 @@ ship_section_template = {
 
 	component_slot = {
 		name = "TEXTRA_LARGE_01"
-		template = "invisible_titanic_fixed"
+		template = "invisible_extra_large_fixed"
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
@@ -28,8 +28,8 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	large_utility_slots = 5
+	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {
@@ -78,8 +78,8 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	large_utility_slots = 5
+	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {
@@ -98,24 +98,9 @@ ship_section_template = {
 	ai_weight = { factor = 0 }
 
 	component_slot = {
-		name = "PD_01"
-		template = "point_defence_turret"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "PD_02"
-		template = "point_defence_turret"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "PD_03"
-		template = "point_defence_turret"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
 		name = "LARGE_GUN_01"
 		template = "large_turret"
-		locatorname = "small_gun_02"
+		locatorname = "small_gun_01"
 	}
 	component_slot = {
 		name = "LARGE_GUN_02"
@@ -127,9 +112,24 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "small_gun_02"
 	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "large_turret"
+		locatorname = "small_gun_02"
+	}
 	
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	large_utility_slots = 5
+	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {
@@ -193,9 +193,14 @@ ship_section_template = {
 		template = "large_strike_craft"
 		locatorname = "small_gun_02"
 	}
+	component_slot = {
+		name = "STRIKE_CRAFT_10"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
 	
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	large_utility_slots = 5
+	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {

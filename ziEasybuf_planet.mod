@@ -6,4 +6,4 @@ tags={
     "Balance"
 }
 picture="easybuff.png"
-supported_version="2.7.*"
+supported_version="3.*.*"

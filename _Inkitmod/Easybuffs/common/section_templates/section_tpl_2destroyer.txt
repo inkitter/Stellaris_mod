@@ -18,68 +18,18 @@ ship_section_template = {
 		locatorname = "small_gun_01"
 	}
 	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "large_turret"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "large_turret"
-		locatorname = "small_gun_02"
-	}
-	
-	large_utility_slots = 8
-	aux_utility_slots = 7
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 5
-		}
-	}
-}
-
-ship_section_template = {
-	key = "DESTROYER_STERN_EB"
-	ship_size = destroyer
-	fits_on_slot = stern
-	entity = "destroyer_stern_S2_entity"
-	icon = "GFX_ship_part_core_stern"
-	prerequisites = { tech_eb_covmid }
-	ai_weight = { factor = 0 }
-
-	component_slot = {
 		name = "MEDIUM_GUN_01"
 		template = "medium_turret"
-		locatorname = "small_gun_01"
+		locatorname = "small_gun_02"
 	}
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		template = "medium_turret"
 		locatorname = "small_gun_02"
 	}
-	component_slot = {
-		name = "SMALL_GUN_01"
-		template = "small_turret"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "small_turret"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "PD_01"
-		template = "point_defence_turret"
-		locatorname = "small_gun_02"
-	}
-    component_slot = {
-		name = "PD_02"
-		template = "point_defence_turret"
-		locatorname = "small_gun_02"
-	}
-
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	
+	large_utility_slots = 5
+	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {
@@ -98,24 +48,9 @@ ship_section_template = {
 	ai_weight = { factor = 0 }
 
 	component_slot = {
-		name = "TORPEDO_01"
-		template = "medium_missile_turret"
-		locatorname = "small_gun_01"
-	}
-	component_slot = {
-		name = "TORPEDO_02"
-		template = "medium_missile_turret"
-		locatorname = "small_gun_02"
-	}
-	component_slot = {
-		name = "TORPEDO_03"
-		template = "medium_missile_turret"
-		locatorname = "small_gun_02"
-	}
-    component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
-		locatorname = "small_gun_02"
+		locatorname = "small_gun_01"
 	}
 	component_slot = {
 		name = "STRIKE_CRAFT_02"
@@ -123,18 +58,28 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	component_slot = {
-		name = "PD_01"
-		template = "point_defence_turret"
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+    component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
 		locatorname = "small_gun_02"
 	}
 	component_slot = {
-		name = "PD_02"
-		template = "point_defence_turret"
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
 		locatorname = "small_gun_02"
 	}
 
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	large_utility_slots = 5
+	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {

@@ -10,27 +10,27 @@ ship_section_template = {
 	
 	component_slot = {
 		name = "TITANIC_01"
-		template = "invisible_titanic_fixed"
+		template = "invisible_extra_large_fixed"
 		locatorname = "large_gun_01"
 	}
 	component_slot = {
 		name = "TITANIC_02"
-		template = "invisible_titanic_fixed"
+		template = "invisible_extra_large_fixed"
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
 		name = "TITANIC_03"
-		template = "invisible_titanic_fixed"
+		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_01"
 	}
 	component_slot = {
 		name = "TITANIC_04"
-		template = "invisible_titanic_fixed"
+		template = "invisible_extra_large_fixed"
 		locatorname = "small_gun_02"
 	}
 	
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	large_utility_slots = 5
+	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {
@@ -80,8 +80,8 @@ ship_section_template = {
 		locatorname = "strike_craft_locator_02"
 	}
 	
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	large_utility_slots = 5
+	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {
@@ -131,8 +131,8 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}	
 	
-	large_utility_slots = 8
-	aux_utility_slots = 7
+	large_utility_slots = 5
+	aux_utility_slots = 10
 
 	resources = {
 		category = ship_sections

@@ -1,0 +1,84 @@
+strike_craft_component_template = {
+	key = "STRIKE_CRAFT_HANGAR_4"
+	size = LARGE
+	entity = "bomber_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "strike_craft_laser_3"
+
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 0
+		}
+		upkeep = {
+			energy = 0
+			alloys = 0
+		}
+	}
+
+	count = 10
+	regeneration_per_day = 2
+	launch_time = 1
+
+	damage = { min = 40 max = 40 }
+	cooldown = 1.5
+	range = 30
+	engagement_range = 150
+	accuracy = 1.00
+	tracking = 1.00
+
+	health = 5000
+	armor = 0
+	shield = 30
+	evasion = 0.90
+
+	speed = 5000
+	rotation_speed = 1
+	acceleration = 1
+
+	shield_penetration = 0.7
+	armor_damage = 1.5
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_strike_craft_fighter_3"
+	icon_frame = 1
+	component_set = "STRIKE_CRAFT_HANGAR_3"
+	prerequisites = { "tech_eb_covmid" }
+
+	tags = { weapon_type_strike_craft }
+	ai_tags = { weapon_role_point_defense }
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+
+utility_component_template = {
+	key = "STARBASE_DARK_MATTER_REACTOR2"
+	size = large
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = 5000
+
+	sensor_range = 12
+	hyperlane_range = 12
+	ftl = yes
+	jumpdrive = yes
+	
+	ship_modifier = {
+		ship_tracking_add = 20
+		ship_windup_mult = -0.95
+		ship_ftl_jumpdrive_range_mult = 1
+	}
+
+	prerequisites = { "tech_eb_covmid" }
+	component_set = "power_core"
+
+	ai_weight = {
+		weight = 0
+	}
+}
