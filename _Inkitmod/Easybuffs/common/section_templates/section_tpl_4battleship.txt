@@ -34,7 +34,7 @@ ship_section_template = {
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 5
+			alloys = 0
 		}
 	}
 }
@@ -85,7 +85,7 @@ ship_section_template = {
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 5
+			alloys = 0
 		}
 	}
 }
@@ -137,7 +137,7 @@ ship_section_template = {
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 5
+			alloys = 0
 		}
 	}
 }

@@ -44,7 +44,7 @@ ship_section_template = {
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 5
+			alloys = 0
 		}
 	}
 }
@@ -73,23 +73,13 @@ ship_section_template = {
 		template = "large_strike_craft"
 		locatorname = "small_gun_03"
 	}
-	component_slot = {
-		name = "STRIKE_CRAFT_02"
-		template = "large_strike_craft"
-		locatorname = "small_gun_03"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_03"
-		template = "large_strike_craft"
-		locatorname = "small_gun_03"
-	}
 	
 	large_utility_slots = 5
 	aux_utility_slots = 10
 	resources = {
 		category = ship_sections
 		cost = {
-			alloys = 5
+			alloys = 0
 		}
 	}
 }

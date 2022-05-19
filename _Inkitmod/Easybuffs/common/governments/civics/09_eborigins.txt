@@ -1,0 +1,20 @@
+origin_eb_start = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_shattered_ring.dds"
+	picture = GFX_origin_shattered_ring
+
+	starting_colony = pc_gaia
+	habitability_preference = pc_ocean
+	initializers = { easybuff_system_initializer }
+	max_once_global = yes
+
+	description = "origin_tooltip_shattered_ring_effects"
+
+	flags = { custom_start_screen }
+
+	advanced_start = yes
+
+	random_weight = {
+		base = 0
+	}
+}

@@ -1,6 +1,7 @@
 
 @distance = 50
 @base_moon_distance = 10
+@jumps = 3
 
 
 ## Sol System
@@ -35,7 +36,7 @@ easybuff_system_initializer = {
 		class = "pc_g_star"
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 30
+		size = 40
 		has_ring = no
 	}
 	
@@ -44,7 +45,7 @@ easybuff_system_initializer = {
 		class = "pc_gaia"
 		orbit_distance = 40
 		orbit_angle = 15
-		size = 30
+		size = 25
 		has_ring = no
 		init_effect = {
 			
@@ -57,7 +58,7 @@ easybuff_system_initializer = {
 		class = "pc_gaia"
 		orbit_distance = 25
 		orbit_angle = 125
-		size = 30
+		size = 18
 		has_ring = no
 		init_effect = {
 			
@@ -80,13 +81,12 @@ easybuff_system_initializer = {
 		init_effect = {
 			save_global_event_target_as = sol_system_earth
 			prevent_anomaly = yes
-			set_deposit = d_easybuff_sr
 		}
 
 		moon = {
 			name = "Moon"
-			class = "pc_gaia"
-			size = 30
+			class = "pc_ocean"
+			size = 18
 			orbit_distance = 12
 			orbit_angle = 10
 			has_ring = no
@@ -118,93 +118,153 @@ easybuff_system_initializer = {
 	
 	planet = {
 		name = "NAME_1_Ceres"
-		class = "pc_barren"
+		class = "pc_frozen"
 		orbit_distance = 30
 		orbit_angle = -210
-		size = 5
+		size = 12
 		has_ring = no
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 	}
 	
 	planet = {
 		name = "NAME_2_Pallas"
-		class = "pc_barren"
+		class = "pc_frozen"
 		orbit_distance = 0
 		orbit_angle = -95
-		size = 5
+		size = 12
 		has_ring = no
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 	}
 	
 	planet = {
 		name = "NAME_3_Juno"
-		class = "pc_barren"
+		class = "pc_frozen"
 		orbit_distance = 0
 		orbit_angle = 285
-		size = 5
+		size = 12
 		has_ring = no
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 	}
 	
 	planet = {
 		name = "NAME_4_Vesta"
-		class = "pc_barren"
+		class = "pc_frozen"
 		orbit_distance = 0
 		orbit_angle = -80
-		size = 5
+		size = 12
 		has_ring = no
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 	}
 	
 	planet = {
 		name = "NAME_Jupiter"
-		class = "pc_gas_giant"
+		class = "pc_frozen"
 		orbit_distance = 40
 		orbit_angle = -160
 		size = 35
 		has_ring = no
 		entity = "gas_giant_jupiter_entity"
 		change_orbit = 6
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 		
 		moon = {
 			name = "NAME_Io"
-			class = "pc_barren"
+			class = "pc_frozen"
 			size = 6
 			orbit_distance = 10
 			orbit_angle = 110
 			has_ring = no
+			init_effect = {
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
 		}
 		moon = {
 			name = "NAME_Europa"
-			class = "pc_barren"
+			class = "pc_frozen"
 			size = 6
 			orbit_distance = 2.5
 			orbit_angle = 10
 			has_ring = no
+			init_effect = {
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
 		}
 		moon = {
 			name = "NAME_Ganymede"
-			class = "pc_barren"
+			class = "pc_frozen"
 			size = 9
 			orbit_distance = 2.5
 			orbit_angle = 80
 			has_ring = no
+			init_effect = {
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
 		}
 		moon = {
 			name = "NAME_Callisto"
-			class = "pc_barren"
+			class = "pc_frozen"
 			size = 7
 			orbit_distance = 2.5
 			orbit_angle = -155
 			has_ring = no
+			init_effect = {
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
 		}
 	}
 	
 	planet = {
 		name = "NAME_Saturn"
-		class = "pc_gas_giant"
+		class = "pc_frozen"
 		orbit_distance = 25
 		orbit_angle = 170
 		size = 30
 		has_ring = yes
 		entity = "gas_giant_05_entity"
 		change_orbit = 7
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 		
 		moon = {
 			name = "NAME_Titan"
@@ -213,28 +273,46 @@ easybuff_system_initializer = {
 			orbit_distance = 12
 			orbit_angle = 320
 			has_ring = no
+			init_effect = {
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
 		}
 	}
 	
 	planet = {
 		name = "NAME_Uranus"
-		class = "pc_gas_giant"
+		class = "pc_frozen"
 		orbit_distance = 25
 		orbit_angle = 125
 		size = 20
 		has_ring = no
 		entity = "gas_giant_03_entity"
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 	}
 	
 	planet = {
 		name = "NAME_Neptune"
-		class = "pc_gas_giant"
+		class = "pc_frozen"
 		orbit_distance = 25
 		orbit_angle = -195
 		size = 20
 		has_ring = no
 		entity = "gas_giant_02_entity"
 		change_orbit = 4
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 		
 		moon = {
 			name = "NAME_Triton"
@@ -243,6 +321,12 @@ easybuff_system_initializer = {
 			orbit_distance = 7
 			orbit_angle = 115
 			has_ring = no
+			init_effect = {
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
 		}
 	}
 
@@ -253,6 +337,12 @@ easybuff_system_initializer = {
 		orbit_angle = -210
 		size = 5
 		has_ring = no
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 	}
 	
 	planet = {
@@ -262,6 +352,12 @@ easybuff_system_initializer = {
 		orbit_angle = -95
 		size = 5
 		has_ring = no
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 	}
 	
 	planet = {
@@ -271,6 +367,12 @@ easybuff_system_initializer = {
 		orbit_angle = 285
 		size = 5
 		has_ring = no
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
 	}
 	
 	planet = {
@@ -280,5 +382,33 @@ easybuff_system_initializer = {
 		orbit_angle = -80
 		size = 5
 		has_ring = no
+		init_effect = {
+			add_modifier = {
+				modifier = "terraforming_candidate"
+				days = -1
+			}
+		}
+	}
+
+	init_effect = {
+		spawn_megastructure = {
+			type = "mega_shipyard_3"
+			planet = star
+		}
+
+		spawn_megastructure = {
+			type = "spy_orb_4"
+			planet = planet
+		}
+
+		spawn_megastructure = {
+			type = "think_tank_4"
+			planet = star
+		}
+
+		spawn_megastructure = {
+			type = "strategic_coordination_center_3"
+			planet = star
+		}
 	}
 }

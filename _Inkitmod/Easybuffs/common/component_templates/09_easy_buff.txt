@@ -23,25 +23,25 @@ strike_craft_component_template = {
 	launch_time = 1
 
 	damage = { min = 40 max = 40 }
-	cooldown = 1.5
+	cooldown = 2
 	range = 30
 	engagement_range = 150
 	accuracy = 1.00
 	tracking = 1.00
 
-	health = 5000
+	health = 10000
 	armor = 0
 	shield = 30
 	evasion = 0.90
 
-	speed = 5000
+	speed = 700
 	rotation_speed = 1
 	acceleration = 1
 
 	shield_penetration = 0.7
 	armor_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_strike_craft_fighter_3"
 	icon_frame = 1
@@ -70,13 +70,136 @@ utility_component_template = {
 	jumpdrive = yes
 	
 	ship_modifier = {
-		ship_tracking_add = 20
 		ship_windup_mult = -0.95
 		ship_ftl_jumpdrive_range_mult = 1
+		ship_hyperlane_range_add =7
+	}
+	modifier = {
+		
 	}
 
 	prerequisites = { "tech_eb_covmid" }
 	component_set = "power_core"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "STELLARITE_COMBAT_COMPUTER_EBp"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 0
+		}
+	}
+	class_restriction = { shipclass_military }
+	ship_behavior = "picket"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 25
+		ship_fire_rate_mult = 0.10
+		ship_evasion_mult = 0.2
+		ship_weapon_range_mult = 0.3
+		ship_fire_rate_mult = 0.2
+		ship_engagement_range_mult = 1
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "STELLARITE_COMBAT_COMPUTER_EBl"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 0
+		}
+	}
+	class_restriction = { shipclass_military }
+	ship_behavior = "line"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 25
+		ship_fire_rate_mult = 0.10
+		ship_evasion_mult = 0.2
+		ship_weapon_range_mult = 0.3
+		ship_fire_rate_mult = 0.2
+		ship_engagement_range_mult = 1
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "STELLARITE_COMBAT_COMPUTER_EBa"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 0
+		}
+	}
+	class_restriction = { shipclass_military }
+	ship_behavior = "artillery"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 25
+		ship_fire_rate_mult = 0.10
+		ship_evasion_mult = 0.2
+		ship_weapon_range_mult = 0.3
+		ship_fire_rate_mult = 0.2
+		ship_engagement_range_mult = 1
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "STELLARITE_COMBAT_COMPUTER_EBc"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 0
+		}
+	}
+	class_restriction = { shipclass_military }
+	ship_behavior = "carrier"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 25
+		ship_fire_rate_mult = 0.10
+		ship_evasion_mult = 0.2
+		ship_weapon_range_mult = 0.3
+		ship_fire_rate_mult = 0.2
+		ship_engagement_range_mult = 1
+	}
 
 	ai_weight = {
 		weight = 0
