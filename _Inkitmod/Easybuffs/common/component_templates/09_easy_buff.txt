@@ -62,10 +62,10 @@ utility_component_template = {
 	size = large
 	icon = "GFX_ship_part_dark_matter_power_core"
 	icon_frame = 1
-	power = 5000
+	power = 7000
 
-	sensor_range = 12
-	hyperlane_range = 12
+	sensor_range = 17
+	hyperlane_range = 17
 	ftl = yes
 	jumpdrive = yes
 	

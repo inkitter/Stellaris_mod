@@ -1,4 +1,4 @@
-name="Easy Buffs[2.7]"
+name="Easy Buffs"
 tags={
 	"Gameplay"
 }

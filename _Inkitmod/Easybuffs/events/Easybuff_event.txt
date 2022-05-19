@@ -94,8 +94,8 @@ country_event = {
             give_technology = { tech = tech_psi_jump_drive_1 }
         }
         if = {
-            limit = { NOT = { has_technology = tech_dark_matter_power_core } }
-            give_technology = { tech = tech_dark_matter_power_core }
+            limit = { NOT = { has_technology = tech_psionic_shield } }
+            give_technology = { tech = tech_psionic_shield }
         }
         if = {
             limit = { NOT = { has_technology = tech_automated_exploration } }
@@ -202,6 +202,51 @@ country_event = {
         if = {
             limit = { NOT = { has_technology = tech_gateway_construction } }
             give_technology = { tech = tech_gateway_construction }
+        }
+        hidden_effect = { country_event = { id = easybuff.10 } }
+    }
+    option = {
+        name = MegaBuildings
+        if = {
+            limit = { NOT = { has_technology = tech_science_nexus } }
+            give_technology = { tech = tech_science_nexus }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_sentry_array } }
+            give_technology = { tech = tech_sentry_array }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_strategic_coordination } }
+            give_technology = { tech = tech_strategic_coordination }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_interstellar_assembly } }
+            give_technology = { tech = tech_interstellar_assembly }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mega_art } }
+            give_technology = { tech = tech_mega_art }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_matter_decompressor } }
+            give_technology = { tech = tech_matter_decompressor }
+        }
+
+        if = {
+            limit = { NOT = { has_technology = tech_mega_engineering } }
+            give_technology = { tech = tech_mega_engineering }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_ring_world } }
+            give_technology = { tech = tech_ring_world }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_dyson_sphere } }
+            give_technology = { tech = tech_dyson_sphere }
+        }
+        if = {
+            limit = { NOT = { has_technology = tech_mega_shipyard } }
+            give_technology = { tech = tech_mega_shipyard }
         }
         hidden_effect = { country_event = { id = easybuff.10 } }
     }

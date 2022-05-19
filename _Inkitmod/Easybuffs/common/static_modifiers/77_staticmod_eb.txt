@@ -5,8 +5,8 @@ modifier_easybuf_default = {
 
 modifier_easybuf_base = {
     leader_age = 1000
-    country_resource_max_add = 2000000
-    ascension_perks_add = 16
+    country_resource_max_add = 70000
+    ascension_perks_add = 7
 
     country_edict_cap_add = 2
     country_trust_cap_add = 500
@@ -14,13 +14,13 @@ modifier_easybuf_base = {
     pop_citizen_happiness = 1
     planet_stability_add = 50
     country_starbase_capacity_add = 0
-    starbase_defense_platform_capacity_add = 12
+    starbase_defense_platform_capacity_add = 7
     country_megastructure_build_cap_add = 10
     planet_crime_add = -500
 
     COUNTRY_LEADER_POOL_SIZE = 1
     LEADER_SKILL_LEVELS = 2
-    num_tech_alternatives_add = 2
+    num_tech_alternatives_add = 1
 
     ship_anomaly_fail_risk = -5
     ship_anomaly_research_speed_mult = 5
@@ -34,21 +34,26 @@ modifier_easybuf_base = {
     ship_winddown_mult = -5
 
     pop_growth_speed = 1
-	planet_pop_assembly_mult = 1
-    planet_amenities_add = 500
+	planet_pop_assembly_mult = 0.1
+    planet_amenities_add = 300
     planet_crime_add = -500
-    planet_housing_add = 200
+    planet_housing_add = 70
 
     trade_value_add = 1
     job_administrator_add = 5
     job_noble_add = 2
     job_bureaucrat_add = 5
-    job_clerk_add = 200
-    job_researcher_add = 50
+    job_clerk_add = 30
+    job_researcher_add = 5
     job_soldier_add = 2
-    job_roboticist_add = 1
+    job_roboticist_add = 0
 
     envoys_add = 7
+
+    megastructure_build_speed_mult = 3.0
+    all_technology_research_speed = 0.1
+    army_morale = 2
+    empire_size_pops_mult = -0.3
 }
 
 modifier_easybuf_resource1 = {
@@ -69,25 +74,25 @@ modifier_easybuf_ascension = {
 }
 
 modifier_easybuf_shipsur1 = {
-    SHIP_HULL_ADD = 8000
-    SHIP_SHIELD_ADD = 5000
-    ship_armor_add = 5000
+    SHIP_HULL_ADD = 7000
+    SHIP_SHIELD_ADD = 7000
+    ship_armor_add = 7000
     SHIP_SHIELD_REGEN_ADD_STATIC = 100
     SHIP_HULL_REGEN_ADD_STATIC = 100
     SHIP_ARMOR_REGEN_ADD_STATIC = 100
-    SHIP_SPEED_MULT = 0.5
+    SHIP_SPEED_MULT = 0.2
 }
 
 modifier_easybuf_shipsur2 = {
-    SHIP_SHIELD_ADD = 15000
-    ship_armor_add = 15000
-    SHIP_HULL_ADD = 12000
+    SHIP_SHIELD_ADD = 17000
+    ship_armor_add = 17000
+    SHIP_HULL_ADD = 17000
 }
 
 modifier_easybuf_shipsur3 = {
-    SHIP_HULL_ADD = 50000
-    SHIP_SHIELD_ADD = 50000
-    ship_armor_add = 50000
+    SHIP_HULL_ADD = 70000
+    SHIP_SHIELD_ADD = 70000
+    ship_armor_add = 70000
     ship_evasion_add = 25
 }
 
